@@ -11,6 +11,7 @@ import {
   type NodeKind,
   type XY
 } from '@/types'
+import { emptyDoc, parseDoc } from '@/lib/io'
 import { debouncedLocalStorage } from './storage'
 
 const STORAGE_KEY = 'mindmap'
@@ -50,6 +51,8 @@ type MindMapState = MindMapDoc & {
   setEdgeLabel: (id: string, label: string) => void
   deleteEdges: (ids: string[]) => void
   saveViewport: (areaId: string, viewport: AreaViewport) => void
+  /** Swaps in a whole map, e.g. from an import or "New map". */
+  replaceDoc: (doc: MindMapDoc) => void
 }
 
 function collectWithDescendants(
@@ -70,21 +73,15 @@ function collectWithDescendants(
   return removed
 }
 
-function isRecord(value: unknown): value is Record<string, unknown> {
-  return typeof value === 'object' && value !== null && !Array.isArray(value)
-}
-
-/** Keeps only the saved document; anything malformed falls back to an empty map. */
+/**
+ * Saved state gets the same checks as an imported file; anything that isn't
+ * a map at all falls back to an empty one.
+ */
 function readDoc(value: unknown): MindMapDoc {
-  if (!isRecord(value) || !isRecord(value.nodes) || !isRecord(value.edges)) {
-    return { nodes: {}, edges: {}, viewports: {} }
-  }
-  return {
-    nodes: value.nodes as MindMapDoc['nodes'],
-    edges: value.edges as MindMapDoc['edges'],
-    viewports: isRecord(value.viewports)
-      ? (value.viewports as MindMapDoc['viewports'])
-      : {}
+  try {
+    return parseDoc(value).doc
+  } catch {
+    return emptyDoc()
   }
 }
 
@@ -187,7 +184,10 @@ export const useMindMap = create<MindMapState>()(
         }),
 
       saveViewport: (areaId, viewport) =>
-        set((s) => ({ viewports: { ...s.viewports, [areaId]: viewport } }))
+        set((s) => ({ viewports: { ...s.viewports, [areaId]: viewport } })),
+
+      replaceDoc: ({ nodes, edges, viewports }) =>
+        set({ nodes, edges, viewports })
     }),
     {
       name: STORAGE_KEY,

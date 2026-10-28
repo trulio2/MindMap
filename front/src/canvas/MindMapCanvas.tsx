@@ -23,6 +23,8 @@ import { useMindMap } from '@/store/mindmap.store'
 import { useUi, type StorageError } from '@/store/ui.store'
 import type { MapNode, NodeKind, XY } from '@/types'
 import Breadcrumbs from './Breadcrumbs'
+import NoticeBar from './NoticeBar'
+import { useMapFiles } from './useMapFiles'
 import LabeledEdge from './edges/LabeledEdge'
 import ImageNode from './nodes/ImageNode'
 import LinkNode from './nodes/LinkNode'
@@ -53,6 +55,10 @@ function isTyping(target: EventTarget | null) {
   )
 }
 
+function isJsonFile(file: File) {
+  return file.type === 'application/json' || file.name.endsWith('.json')
+}
+
 function imageFiles(files: FileList | undefined | null) {
   return [...(files ?? [])].filter((f) => f.type.startsWith('image/'))
 }
@@ -63,6 +69,8 @@ export default function MindMapCanvas({ areaId }: Props) {
   const wrapperRef = useRef<HTMLDivElement>(null)
   const lastPointer = useRef<XY | null>(null)
   const fileInputRef = useRef<HTMLInputElement>(null)
+  const mapFileInputRef = useRef<HTMLInputElement>(null)
+  const { exportMap, importFile, newMap, dialog: fileDialog } = useMapFiles()
   const { screenToFlowPosition } = useReactFlow()
 
   const docNodes = useMindMap((s) => s.nodes)
@@ -328,6 +336,12 @@ export default function MindMapCanvas({ areaId }: Props) {
   }
 
   function onDrop(event: React.DragEvent) {
+    const files = [...event.dataTransfer.files]
+    const mapFile = files.find(isJsonFile)
+    if (mapFile) {
+      event.preventDefault()
+      return void importFile(mapFile)
+    }
     const images = imageFiles(event.dataTransfer.files)
     if (!images.length) return
     event.preventDefault()
@@ -342,6 +356,12 @@ export default function MindMapCanvas({ areaId }: Props) {
     event.target.value = ''
     lastPointer.current = null
     void addImages(images, insertPoint())
+  }
+
+  function onPickMapFile(event: React.ChangeEvent<HTMLInputElement>) {
+    const file = event.target.files?.[0]
+    event.target.value = ''
+    if (file) void importFile(file)
   }
 
   function addAtCenter(kind: NodeKind) {
@@ -423,18 +443,43 @@ export default function MindMapCanvas({ areaId }: Props) {
             hidden
             onChange={onPickImages}
           />
+          <span className="toolbar-sep" />
+          <button type="button" className="btn" onClick={exportMap}>
+            Export
+          </button>
+          <button
+            type="button"
+            className="btn"
+            onClick={() => mapFileInputRef.current?.click()}
+          >
+            Import
+          </button>
+          <input
+            ref={mapFileInputRef}
+            type="file"
+            accept=".json,application/json"
+            hidden
+            onChange={onPickMapFile}
+          />
+          <button type="button" className="btn" onClick={newMap}>
+            New map
+          </button>
         </Panel>
-        {storageError && (
-          <Panel position="top-right" className="banner" role="alert">
-            {storageMessages[storageError]}
-          </Panel>
-        )}
+        <Panel position="top-right" className="notices">
+          {storageError && (
+            <div className="banner" role="alert">
+              {storageMessages[storageError]}
+            </div>
+          )}
+          <NoticeBar />
+        </Panel>
         <Panel position="bottom-center" className="hint">
           Double-click the canvas for a topic · Paste or drop images and links ·
           Double-click anything to edit · Drag from a dot to connect · Del to
           delete
         </Panel>
       </ReactFlow>
+      {fileDialog}
     </div>
   )
 }
