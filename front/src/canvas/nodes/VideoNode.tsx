@@ -1,10 +1,12 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { NodeResizeControl } from '@xyflow/react'
 import { renderBlocks } from '@/lib/markdown'
 import { embedUrl, parseYouTube, thumbnailUrl, watchUrl } from '@/lib/video'
 import { useMindMap } from '@/store/mindmap.store'
 import { useUi } from '@/store/ui.store'
+import FormatBar from '../FormatBar'
 import { useAutoFocus } from '../useAutoFocus'
+import { useFormatting } from '../useFormatting'
 import type { MapNodeProps } from '../types'
 import AreaBadge from './AreaBadge'
 import NodeHandles from './NodeHandles'
@@ -21,6 +23,12 @@ function VideoEditor({ url, label, text, onDone }: EditorProps) {
   const urlRef = useAutoFocus<HTMLInputElement>(true)
   const video = parseYouTube(draft.url)
   const invalid = draft.url.trim() !== '' && !video
+  const descRef = useRef<HTMLTextAreaElement>(null)
+  const { format: formatDescription, handleShortcut } = useFormatting(
+    descRef,
+    draft.text,
+    (text) => setDraft((d) => ({ ...d, text }))
+  )
 
   function save() {
     onDone(
@@ -73,13 +81,16 @@ function VideoEditor({ url, label, text, onDone }: EditorProps) {
         aria-label="Video title"
         onChange={field('label')}
       />
+      <FormatBar onFormat={formatDescription} lists />
       <textarea
+        ref={descRef}
         className="inline-input"
         value={draft.text}
-        placeholder="Description (optional, supports **formatting**)"
+        placeholder="Description (optional)"
         aria-label="Video description"
         rows={Math.max(draft.text.split('\n').length, 2)}
         onChange={field('text')}
+        onKeyDown={handleShortcut}
       />
       <button type="submit" hidden />
     </form>
