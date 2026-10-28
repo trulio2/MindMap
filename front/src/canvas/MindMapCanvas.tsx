@@ -19,13 +19,17 @@ import {
 import '@xyflow/react/dist/style.css'
 import { isTyping } from '@/lib/dom'
 import { fitSize, loadImageFile } from '@/lib/image'
+import { useNavigate } from 'react-router-dom'
+import { areaPath } from '@/lib/areas'
+import { parseClip } from '@/lib/io'
 import { normalizeUrl } from '@/lib/url'
+import { parseYouTube, watchUrl } from '@/lib/video'
 import { useMindMap } from '@/store/mindmap.store'
 import { useUi, type StorageError } from '@/store/ui.store'
 import type { MapNode, NodeKind, XY } from '@/types'
 import Breadcrumbs from './Breadcrumbs'
 import NoticeBar from './NoticeBar'
-import ShortcutsDialog from './ShortcutsDialog'
+import HelpDialog from './HelpDialog'
 import { useMapFiles } from './useMapFiles'
 import { FIT_VIEW_OPTIONS, useShortcuts } from './useShortcuts'
 import LabeledEdge from './edges/LabeledEdge'
@@ -33,14 +37,22 @@ import ImageNode from './nodes/ImageNode'
 import LinkNode from './nodes/LinkNode'
 import TextNode from './nodes/TextNode'
 import TopicNode from './nodes/TopicNode'
+import VideoNode from './nodes/VideoNode'
+import ContextMenu, { type MenuItem } from './ContextMenu'
+import { selectedInArea, useClipboard } from './useClipboard'
 import type { FlowEdge, FlowNode } from './types'
 
 const nodeTypes = {
   topic: TopicNode,
   text: TextNode,
   image: ImageNode,
-  link: LinkNode
+  link: LinkNode,
+  video: VideoNode
 }
+
+const isMac = /Mac|iPhone|iPad/.test(navigator.platform)
+const modKey = isMac ? '⌘' : 'Ctrl+'
+const altKey = isMac ? '⌥' : 'Alt+'
 const edgeTypes = { labeled: LabeledEdge }
 const deleteKeys = ['Backspace', 'Delete']
 
@@ -70,6 +82,13 @@ export default function MindMapCanvas({ areaId }: Props) {
   const [helpOpen, setHelpOpen] = useState(false)
   const toggleHelp = useCallback(() => setHelpOpen((open) => !open), [])
   useShortcuts(areaId, toggleHelp)
+  const { copyToClipboard, paste } = useClipboard(areaId)
+  const navigate = useNavigate()
+  const [menu, setMenu] = useState<{
+    x: number
+    y: number
+    items: MenuItem[]
+  } | null>(null)
 
   const docNodes = useMindMap((s) => s.nodes)
   const docEdges = useMindMap((s) => s.edges)
@@ -307,25 +326,111 @@ export default function MindMapCanvas({ areaId }: Props) {
     [createNode]
   )
 
-  // Pasting outside a text field: images become image nodes, URLs become
-  // links and any other text becomes a text bubble.
+  // Pasting outside a text field: copied nodes are pasted as they were,
+  // images become image nodes, YouTube links become videos, other URLs
+  // become links and any other text becomes a text bubble.
   useEffect(() => {
     function onPaste(event: ClipboardEvent) {
       if (isTyping(event.target) || !event.clipboardData) return
+      if (document.querySelector('dialog[open]')) return
       const images = imageFiles(event.clipboardData.files)
       const text = event.clipboardData.getData('text/plain').trim()
       if (!images.length && !text) return
       event.preventDefault()
 
       const at = insertPoint()
+      const clip = parseClip(text)
+      if (clip) return paste(clip, at)
       if (images.length) return void addImages(images, at)
-      const url = normalizeUrl(text)
-      if (url && !/\s/.test(text)) createNode('link', at, { data: { url } })
+      const singleWord = !/\s/.test(text)
+      const video = singleWord ? parseYouTube(text) : null
+      const url = singleWord ? normalizeUrl(text) : null
+      if (video) createNode('video', at, { data: { url: watchUrl(video) } })
+      else if (url) createNode('link', at, { data: { url } })
       else createNode('text', at, { data: { text } })
     }
     document.addEventListener('paste', onPaste)
     return () => document.removeEventListener('paste', onPaste)
-  }, [addImages, createNode, insertPoint])
+  }, [addImages, createNode, insertPoint, paste])
+
+  /** Where the next picked image goes, when a menu chose the spot. */
+  const imageTarget = useRef<XY | null>(null)
+
+  function pickImagesAt(at: XY | null) {
+    imageTarget.current = at
+    fileInputRef.current?.click()
+  }
+
+  const closeMenu = useCallback(() => setMenu(null), [])
+
+  const onPaneContextMenu = useCallback(
+    (event: MouseEvent | React.MouseEvent) => {
+      event.preventDefault()
+      const at = screenToFlowPosition({ x: event.clientX, y: event.clientY })
+      const clipboard = useUi.getState().clipboard
+      const add = (label: string, kind: NodeKind): MenuItem => ({
+        label,
+        onSelect: () =>
+          kind === 'image' ? pickImagesAt(at) : createNode(kind, at)
+      })
+      const items: MenuItem[] = [
+        add('Topic', 'topic'),
+        add('Text', 'text'),
+        add('Link', 'link'),
+        add('Image…', 'image'),
+        add('Video', 'video')
+      ]
+      if (clipboard) {
+        items.push('separator', {
+          label: 'Paste',
+          hint: `${modKey}V`,
+          onSelect: () => paste(clipboard, at)
+        })
+      }
+      setMenu({ x: event.clientX, y: event.clientY, items })
+    },
+    [createNode, paste, screenToFlowPosition]
+  )
+
+  // Right-clicking a node in a multi-selection acts on the whole selection;
+  // otherwise it selects just that node first.
+  const onNodeContextMenu = useCallback(
+    (event: React.MouseEvent, node: FlowNode) => {
+      event.preventDefault()
+      const ui = useUi.getState()
+      const selection = selectedInArea(areaId)
+      const ids = selection.includes(node.id) ? selection : [node.id]
+      if (!selection.includes(node.id)) {
+        ui.resetInteraction()
+        ui.selectNodes({ [node.id]: true })
+      }
+      const several = ids.length > 1
+      const items: MenuItem[] = [
+        {
+          label: 'Open',
+          hint: `${altKey}↓`,
+          onSelect: () => navigate(areaPath(node.id))
+        },
+        {
+          label: several ? `Copy ${ids.length} elements` : 'Copy',
+          hint: `${modKey}C`,
+          onSelect: () => copyToClipboard(ids)
+        },
+        'separator',
+        {
+          label: several ? `Delete ${ids.length} elements` : 'Delete',
+          hint: 'Del',
+          danger: true,
+          onSelect: () => {
+            deleteNodes(ids)
+            useUi.getState().resetInteraction()
+          }
+        }
+      ]
+      setMenu({ x: event.clientX, y: event.clientY, items })
+    },
+    [areaId, copyToClipboard, deleteNodes, navigate]
+  )
 
   function onDoubleClick(event: React.MouseEvent) {
     if (!(event.target as Element).classList.contains('react-flow__pane'))
@@ -362,7 +467,9 @@ export default function MindMapCanvas({ areaId }: Props) {
     const images = imageFiles(event.target.files)
     event.target.value = ''
     lastPointer.current = null
-    void addImages(images, insertPoint())
+    const at = imageTarget.current ?? insertPoint()
+    imageTarget.current = null
+    void addImages(images, at)
   }
 
   function onPickMapFile(event: React.ChangeEvent<HTMLInputElement>) {
@@ -401,6 +508,8 @@ export default function MindMapCanvas({ areaId }: Props) {
         // A whole drag is one undo step; record the map as it was before.
         onNodeDragStart={checkpoint}
         onSelectionDragStart={checkpoint}
+        onPaneContextMenu={onPaneContextMenu}
+        onNodeContextMenu={onNodeContextMenu}
         connectionMode={ConnectionMode.Loose}
         deleteKeyCode={deleteKeys}
         zoomOnDoubleClick={false}
@@ -441,9 +550,16 @@ export default function MindMapCanvas({ areaId }: Props) {
           <button
             type="button"
             className="btn"
-            onClick={() => fileInputRef.current?.click()}
+            onClick={() => pickImagesAt(null)}
           >
             + Image
+          </button>
+          <button
+            type="button"
+            className="btn"
+            onClick={() => addAtCenter('video')}
+          >
+            + Video
           </button>
           <input
             ref={fileInputRef}
@@ -480,52 +596,51 @@ export default function MindMapCanvas({ areaId }: Props) {
           >
             ↷
           </button>
-          <span className="toolbar-sep" />
-          <button type="button" className="btn" onClick={exportMap}>
-            Export
-          </button>
-          <button
-            type="button"
-            className="btn"
-            onClick={() => mapFileInputRef.current?.click()}
-          >
-            Import
-          </button>
-          <input
-            ref={mapFileInputRef}
-            type="file"
-            accept=".json,application/json"
-            hidden
-            onChange={onPickMapFile}
-          />
-          <button type="button" className="btn" onClick={newMap}>
-            New map
-          </button>
-          <button
-            type="button"
-            className="btn icon-btn"
-            onClick={toggleHelp}
-            title="Keyboard shortcuts (?)"
-            aria-label="Keyboard shortcuts"
-          >
-            ?
-          </button>
         </Panel>
-        <Panel position="top-right" className="notices">
-          {storageError && (
-            <div className="banner" role="alert">
-              {storageMessages[storageError]}
-            </div>
-          )}
-          <NoticeBar />
-        </Panel>
-        <Panel position="bottom-center" className="hint">
-          Double-click the canvas for a topic · Drag from a dot to connect ·
-          Paste or drop images and links · Press ? for shortcuts
+        <Panel position="top-right" className="top-right">
+          <div className="toolbar">
+            <button type="button" className="btn" onClick={exportMap}>
+              Export
+            </button>
+            <button
+              type="button"
+              className="btn"
+              onClick={() => mapFileInputRef.current?.click()}
+            >
+              Import
+            </button>
+            <input
+              ref={mapFileInputRef}
+              type="file"
+              accept=".json,application/json"
+              hidden
+              onChange={onPickMapFile}
+            />
+            <button type="button" className="btn" onClick={newMap}>
+              New map
+            </button>
+            <button
+              type="button"
+              className="btn"
+              onClick={toggleHelp}
+              title="Help and shortcuts (H)"
+            >
+              Help
+            </button>
+          </div>
+          <div className="notices">
+            {storageError && (
+              <div className="banner" role="alert">
+                {storageMessages[storageError]}
+              </div>
+            )}
+            <NoticeBar />
+          </div>
         </Panel>
       </ReactFlow>
       {fileDialog}
-      <ShortcutsDialog open={helpOpen} onClose={() => setHelpOpen(false)} />
+      <HelpDialog open={helpOpen} onClose={() => setHelpOpen(false)} />
+      {menu && <ContextMenu {...menu} onClose={closeMenu} />}
     </div>
   )
 }

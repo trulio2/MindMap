@@ -3,6 +3,7 @@ import {
   NODE_COLORS,
   ROOT_AREA,
   type AreaViewport,
+  type Clip,
   type MapEdge,
   type MapNode,
   type MapNodeData,
@@ -22,7 +23,8 @@ const NODE_KINDS = new Set<string>([
   'topic',
   'text',
   'image',
-  'link'
+  'link',
+  'video'
 ] satisfies NodeKind[])
 
 export type MapFile = MindMapDoc & {
@@ -186,13 +188,14 @@ function readViewports(
 /**
  * Validates untrusted map data (an imported file or saved state) and rebuilds
  * it from known fields only. Broken pieces are dropped and counted; a value
- * that isn't a map at all throws an ImportError.
+ * that isn't a map at all throws an ImportError. `app` is the marker the
+ * data must carry when it has one (maps and clipboard clips differ).
  */
-export function parseDoc(raw: unknown): ParsedDoc {
+export function parseDoc(raw: unknown, app = FILE_APP): ParsedDoc {
   if (!isRecord(raw) || !isRecord(raw.nodes) || !isRecord(raw.edges)) {
     throw new ImportError("This file isn't a mind map export.")
   }
-  if (raw.app !== undefined && raw.app !== FILE_APP) {
+  if (raw.app !== undefined && raw.app !== app) {
     throw new ImportError("This file isn't a mind map export.")
   }
   const version = raw.version ?? DOC_VERSION
@@ -224,6 +227,25 @@ export function parseDoc(raw: unknown): ParsedDoc {
   return {
     doc: { nodes, edges, viewports: readViewports(raw.viewports, nodes) },
     skipped
+  }
+}
+
+/** Marks clipboard text as nodes copied from this app. */
+const CLIP_APP = 'mindmap-clip'
+
+/** Clipboard text for copied nodes, so they can be pasted in another tab. */
+export function serializeClip(clip: Clip): string {
+  return JSON.stringify({ app: CLIP_APP, version: DOC_VERSION, ...clip })
+}
+
+/** Copied nodes from clipboard text, or null if the text is anything else. */
+export function parseClip(text: string): Clip | null {
+  if (!text.includes(CLIP_APP)) return null
+  try {
+    const { nodes, edges } = parseDoc(JSON.parse(text), CLIP_APP).doc
+    return Object.keys(nodes).length ? { nodes, edges } : null
+  } catch {
+    return null
   }
 }
 

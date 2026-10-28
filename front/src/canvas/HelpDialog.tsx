@@ -9,19 +9,32 @@ const groups: { title: string; keys: [string, string][] }[] = [
     title: 'Create',
     keys: [
       ['Double-click canvas', 'New topic'],
+      ['Right-click canvas', 'Choose what to add there'],
       ['Drag from a dot', 'Connect, or drop on empty space for a new topic'],
-      [`${mod} V`, 'Paste an image, link or text'],
-      [`${mod} D`, 'Duplicate selection']
+      [`${mod} V`, 'Paste copied elements, an image, a link or text'],
+      ['Drop files', 'Images become image nodes; a .json file imports a map']
     ]
   },
   {
     title: 'Edit',
     keys: [
-      ['Enter or F2', 'Rename the selected node'],
-      ['Double-click', 'Edit a node or connection label'],
-      ['Delete', 'Delete selection'],
-      [`${mod} Z`, 'Undo'],
-      [`${mod} Shift Z`, 'Redo']
+      ['Double-click', 'Edit a node or a connection label'],
+      ['Enter or F2', 'Edit the selected node'],
+      ['Right-click a node', 'Open, copy or delete it'],
+      [`${mod} C / ${mod} D`, 'Copy / duplicate the selection'],
+      ['Delete', 'Delete the selection'],
+      [`${mod} Z / ${mod} Shift Z`, 'Undo / redo']
+    ]
+  },
+  {
+    title: 'Formatting in topics and text',
+    keys: [
+      [`**bold**  ${mod} B`, 'Bold'],
+      [`*italic*  ${mod} I`, 'Italic'],
+      ['~~strike~~', 'Strikethrough'],
+      [`[text](url)  ${mod} K`, 'Link'],
+      ['`code`', 'Inline code'],
+      ['- item / 1. item', 'Lists (text bubbles)']
     ]
   },
   {
@@ -32,14 +45,14 @@ const groups: { title: string; keys: [string, string][] }[] = [
       ['F', 'Fit everything in view'],
       [`${mod} A`, 'Select all'],
       ['Esc', 'Clear selection'],
-      ['?', 'Show this list']
+      ['H', 'Show this help']
     ]
   }
 ]
 
 type Props = { open: boolean; onClose: () => void }
 
-export default function ShortcutsDialog({ open, onClose }: Props) {
+export default function HelpDialog({ open, onClose }: Props) {
   const ref = useRef<HTMLDialogElement>(null)
 
   useEffect(() => {
@@ -52,11 +65,16 @@ export default function ShortcutsDialog({ open, onClose }: Props) {
   return (
     <dialog
       ref={ref}
-      className="dialog shortcuts"
-      aria-labelledby="shortcuts-title"
+      className="dialog help"
+      aria-labelledby="help-title"
       onClose={onClose}
     >
-      <h2 id="shortcuts-title">Keyboard shortcuts</h2>
+      <h2 id="help-title">Help</h2>
+      <p className="help-intro">
+        Every node can hold a whole map of its own: open it from its menu or
+        with {alt} ↓, and use the bar at the top to get back out. Your map is
+        saved in this browser; use Export to keep a copy or move it elsewhere.
+      </p>
       {groups.map((group) => (
         <section key={group.title}>
           <h3>{group.title}</h3>

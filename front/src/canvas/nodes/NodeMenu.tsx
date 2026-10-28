@@ -2,6 +2,7 @@ import { NodeToolbar, Position } from '@xyflow/react'
 import { useNavigate } from 'react-router-dom'
 import { areaPath } from '@/lib/areas'
 import { useMindMap } from '@/store/mindmap.store'
+import { useUi } from '@/store/ui.store'
 import { NODE_COLORS, type NodeColor } from '@/types'
 
 type Props = {
@@ -14,9 +15,15 @@ type Props = {
 export default function NodeMenu({ id, color, children }: Props) {
   const updateNodeData = useMindMap((s) => s.updateNodeData)
   const navigate = useNavigate()
+  // While editing, the formatting bar takes this spot.
+  const editing = useUi((s) => s.editingId === id)
 
   return (
-    <NodeToolbar position={Position.Top} className="node-menu">
+    <NodeToolbar
+      position={Position.Top}
+      className="node-menu"
+      isVisible={editing ? false : undefined}
+    >
       <button
         type="button"
         className={`swatch swatch-none${color ? '' : ' active'}`}

@@ -1,3 +1,4 @@
+import { renderInline } from '@/lib/markdown'
 import { useMindMap } from '@/store/mindmap.store'
 import { useUi } from '@/store/ui.store'
 import InlineInput from '../InlineInput'
@@ -26,9 +27,13 @@ export default function TopicNode({ id, data, selected }: MapNodeProps) {
       <NodeHandles />
       <AreaBadge id={id} count={data.childCount} />
       {editing ? (
-        <InlineInput initial={data.label ?? ''} onDone={finishEditing} />
+        <InlineInput
+          initial={data.label ?? ''}
+          formatting
+          onDone={finishEditing}
+        />
       ) : (
-        <span className="topic-label">{data.label}</span>
+        <span className="topic-label md">{renderInline(data.label ?? '')}</span>
       )}
     </div>
   )

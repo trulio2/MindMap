@@ -1,4 +1,5 @@
 import { create } from 'zustand'
+import type { Clip } from '@/types'
 
 type Selection = Record<string, true>
 
@@ -14,6 +15,8 @@ type UiState = {
   notice: Notice | null
   /** Bumped when the whole map is replaced, so the canvas starts fresh. */
   docRevision: number
+  /** Nodes copied with Copy, for the canvas menu's Paste. */
+  clipboard: Clip | null
   selectNodes: (changes: Record<string, boolean>) => void
   selectEdges: (changes: Record<string, boolean>) => void
   setEditing: (id: string | null) => void
@@ -22,6 +25,7 @@ type UiState = {
   setStorageError: (error: StorageError | null) => void
   setNotice: (notice: Notice | null) => void
   docReplaced: () => void
+  setClipboard: (clip: Clip | null) => void
 }
 
 export type Notice = { kind: 'info' | 'error'; text: string }
@@ -42,6 +46,7 @@ export const useUi = create<UiState>()((set) => ({
   storageError: null,
   notice: null,
   docRevision: 0,
+  clipboard: null,
 
   selectNodes: (changes) =>
     set((s) => ({ selectedNodes: applySelection(s.selectedNodes, changes) })),
@@ -54,6 +59,7 @@ export const useUi = create<UiState>()((set) => ({
   setStorageError: (error) =>
     set((s) => (s.storageError === error ? s : { storageError: error })),
   setNotice: (notice) => set({ notice }),
+  setClipboard: (clipboard) => set({ clipboard }),
   docReplaced: () =>
     set((s) => ({
       docRevision: s.docRevision + 1,

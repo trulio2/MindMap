@@ -3,7 +3,7 @@ export const ROOT_AREA = 'root'
 /** Bump when MindMapDoc changes shape, and add a migration for the old one. */
 export const DOC_VERSION = 1
 
-export type NodeKind = 'topic' | 'text' | 'image' | 'link'
+export type NodeKind = 'topic' | 'text' | 'image' | 'link' | 'video'
 
 export const NODE_COLORS = [
   'cyan',
@@ -28,9 +28,9 @@ export interface Size {
 
 /** One shape for every kind; each kind reads the fields it needs. */
 export type MapNodeData = {
-  /** Topic title, link title or image caption. */
+  /** Topic title, link or video title, or image caption. */
   label?: string
-  /** Text bubble content. */
+  /** Text bubble content or video description. */
   text?: string
   /** Image as a data URL. */
   src?: string
@@ -72,3 +72,6 @@ export interface MindMapDoc {
   /** Last pan and zoom of each area you have visited, by area id. */
   viewports: Record<string, AreaViewport>
 }
+
+/** Copied nodes, shaped like a map whose root level holds what was copied. */
+export type Clip = Pick<MindMapDoc, 'nodes' | 'edges'>

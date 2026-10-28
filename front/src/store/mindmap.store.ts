@@ -3,7 +3,9 @@ import { createJSONStorage, persist } from 'zustand/middleware'
 import { nanoid } from 'nanoid'
 import {
   DOC_VERSION,
+  ROOT_AREA,
   type AreaViewport,
+  type Clip,
   type MapEdge,
   type MapNode,
   type MapNodeData,
@@ -16,7 +18,7 @@ import { debouncedLocalStorage } from './storage'
 
 const STORAGE_KEY = 'mindmap'
 const HISTORY_LIMIT = 100
-const DUPLICATE_OFFSET = 24
+const PASTE_OFFSET = 24
 
 type NodePatch = Partial<Pick<MapNode, 'position' | 'measured' | 'size'>>
 
@@ -36,14 +38,16 @@ type NewNode = {
 type Snapshot = Pick<MindMapDoc, 'nodes' | 'edges'>
 
 const defaultSize: Partial<Record<NodeKind, MapNode['size']>> = {
-  text: { width: 220 }
+  text: { width: 220 },
+  video: { width: 360 }
 }
 
 const defaultData: Record<NodeKind, MapNodeData> = {
   topic: { label: 'New topic' },
   text: { text: '' },
   image: {},
-  link: { label: '', url: '' }
+  link: { label: '', url: '' },
+  video: { label: '', url: '', text: '' }
 }
 
 type MindMapState = MindMapDoc & {
@@ -57,7 +61,14 @@ type MindMapState = MindMapDoc & {
   patchNodes: (patches: Record<string, NodePatch>) => void
   /** Removes the nodes, everything inside their areas and every touching edge. */
   deleteNodes: (ids: string[]) => void
-  /** Copies the nodes with everything inside them; returns the new ids. */
+  /** The nodes with everything inside them and the edges between them. */
+  copyNodes: (ids: string[]) => Clip | null
+  /**
+   * Adds a copy of the clip to an area, with new ids; `at` is where its
+   * top-left corner goes. Returns the ids of the pasted top-level nodes.
+   */
+  pasteClip: (areaId: string, clip: Clip, at?: XY) => string[]
+  /** Copies the nodes, with everything inside them, next to themselves. */
   duplicateNodes: (ids: string[]) => string[]
   addEdge: (areaId: string, ends: EdgeEnds) => string | null
   setEdgeLabel: (id: string, label: string) => void
@@ -204,37 +215,63 @@ export const useMindMap = create<MindMapState>()(
           })
         },
 
-        duplicateNodes: (ids) => {
+        copyNodes: (ids) => {
           const { nodes, edges } = get()
           const copied = collectWithDescendants(
             nodes,
             ids.filter((id) => nodes[id])
           )
-          if (!copied.size) return []
-          const newId = new Map([...copied].map((id) => [id, nanoid()]))
-          const remap = (id: string) => newId.get(id) ?? id
+          if (!copied.size) return null
+
+          // The copied nodes become the clip's root level, so a clip has
+          // the same shape as an exported map.
+          const toClip = (areaId: string) =>
+            copied.has(areaId) ? areaId : ROOT_AREA
+          const clip: Clip = { nodes: {}, edges: {} }
+          for (const id of copied) {
+            clip.nodes[id] = { ...nodes[id], areaId: toClip(nodes[id].areaId) }
+          }
+          for (const edge of Object.values(edges)) {
+            if (copied.has(edge.source) && copied.has(edge.target)) {
+              clip.edges[edge.id] = { ...edge, areaId: toClip(edge.areaId) }
+            }
+          }
+          return clip
+        },
+
+        pasteClip: (areaId, clip, at) => {
+          const newId = new Map(
+            Object.keys(clip.nodes).map((id) => [id, nanoid()])
+          )
+          const remap = (id: string) =>
+            id === ROOT_AREA ? areaId : (newId.get(id) ?? id)
+          const top = Object.values(clip.nodes).filter(
+            (n) => n.areaId === ROOT_AREA
+          )
+          if (!top.length) return []
+
+          // Move the pasted group so its top-left corner lands on `at`;
+          // without a point, offset it from where it was copied.
+          const minX = Math.min(...top.map((n) => n.position.x))
+          const minY = Math.min(...top.map((n) => n.position.y))
+          const dx = at ? at.x - minX : PASTE_OFFSET
+          const dy = at ? at.y - minY : PASTE_OFFSET
 
           const newNodes: Record<string, MapNode> = {}
-          for (const id of copied) {
-            const node = nodes[id]
-            // Only the selected nodes move; their contents keep their layout.
-            const isTop = !copied.has(node.areaId)
-            newNodes[remap(id)] = {
+          for (const node of Object.values(clip.nodes)) {
+            const isTop = node.areaId === ROOT_AREA
+            newNodes[remap(node.id)] = {
               ...node,
-              id: remap(id),
+              id: remap(node.id),
               areaId: remap(node.areaId),
+              // Only the copied nodes move; their contents keep their layout.
               position: isTop
-                ? {
-                    x: node.position.x + DUPLICATE_OFFSET,
-                    y: node.position.y + DUPLICATE_OFFSET
-                  }
+                ? { x: node.position.x + dx, y: node.position.y + dy }
                 : node.position
             }
           }
-
           const newEdges: Record<string, MapEdge> = {}
-          for (const edge of Object.values(edges)) {
-            if (!copied.has(edge.source) || !copied.has(edge.target)) continue
+          for (const edge of Object.values(clip.edges)) {
             const id = nanoid()
             newEdges[id] = {
               ...edge,
@@ -250,7 +287,14 @@ export const useMindMap = create<MindMapState>()(
             nodes: { ...s.nodes, ...newNodes },
             edges: { ...s.edges, ...newEdges }
           }))
-          return ids.filter((id) => nodes[id]).map(remap)
+          return top.map((n) => remap(n.id))
+        },
+
+        duplicateNodes: (ids) => {
+          const { copyNodes, pasteClip, nodes } = get()
+          const clip = copyNodes(ids)
+          const areaId = nodes[ids[0]]?.areaId
+          return clip && areaId ? pasteClip(areaId, clip) : []
         },
 
         addEdge: (areaId, ends) => {

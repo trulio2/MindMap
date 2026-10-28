@@ -76,7 +76,7 @@ export function useShortcuts(areaId: string, toggleHelp: () => void) {
         ui.resetInteraction()
       } else if (key === 'f') {
         void fitView(FIT_VIEW_OPTIONS)
-      } else if (event.key === '?') {
+      } else if (key === 'h') {
         toggleHelp()
       } else {
         return

@@ -1,4 +1,5 @@
 import { NodeResizeControl } from '@xyflow/react'
+import { renderBlocks } from '@/lib/markdown'
 import { useMindMap } from '@/store/mindmap.store'
 import { useUi } from '@/store/ui.store'
 import InlineInput from '../InlineInput'
@@ -44,10 +45,11 @@ export default function TextNode({ id, data, selected }: MapNodeProps) {
           initial={data.text ?? ''}
           placeholder="Write something…"
           multiline
+          formatting
           onDone={finishEditing}
         />
       ) : (
-        <p className="text-body">{data.text}</p>
+        <div className="text-body md">{renderBlocks(data.text ?? '')}</div>
       )}
     </div>
   )
