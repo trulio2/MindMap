@@ -1,8 +1,10 @@
-import { useCallback, useMemo, useRef, useState } from 'react'
+import { useCallback, useMemo, useRef } from 'react'
 import {
   Background,
   ConnectionMode,
   Controls,
+  getNodesBounds,
+  getViewportForBounds,
   MiniMap,
   Panel,
   ReactFlow,
@@ -10,17 +12,24 @@ import {
   type Connection,
   type EdgeChange,
   type NodeChange,
-  type OnConnectEnd
+  type OnConnectEnd,
+  type ReactFlowInstance
 } from '@xyflow/react'
 import '@xyflow/react/dist/style.css'
 import { useMindMap } from '@/store/mindmap.store'
-import { useUi } from '@/store/ui.store'
+import { useUi, type StorageError } from '@/store/ui.store'
 import type { XY } from '@/types'
 import TopicNode from './nodes/TopicNode'
 import type { FlowEdge, FlowNode } from './types'
 
 const nodeTypes = { topic: TopicNode }
 const deleteKeys = ['Backspace', 'Delete']
+
+const storageMessages: Record<StorageError, string> = {
+  full: 'Browser storage is full, so recent changes are not saved. Remove some images or export your map.',
+  unavailable:
+    'This browser is blocking storage, so changes are not saved. Export your map to keep it.'
+}
 
 type Props = { areaId: string }
 
@@ -35,12 +44,25 @@ export default function MindMapCanvas({ areaId }: Props) {
 
   const selectedNodes = useUi((s) => s.selectedNodes)
   const selectedEdges = useUi((s) => s.selectedEdges)
+  const storageError = useUi((s) => s.storageError)
   const { selectNodes, selectEdges, setEditing } = useUi.getState()
 
-  // fitView on an empty area would wait for the first node and zoom right
-  // into it, so only fit areas that already have content.
-  const [fitOnMount] = useState(() =>
-    Object.values(useMindMap.getState().nodes).some((n) => n.areaId === areaId)
+  // Fit once on open from the saved node sizes. React Flow's own fitView
+  // drops the fit when restored nodes are measured before its zoom handler
+  // exists, and on an empty area it zooms right into the first new node.
+  const fitOnInit = useCallback(
+    (flow: ReactFlowInstance<FlowNode, FlowEdge>) => {
+      const areaNodes = Object.values(useMindMap.getState().nodes).filter(
+        (n) => n.areaId === areaId
+      )
+      const rect = wrapperRef.current?.getBoundingClientRect()
+      if (!areaNodes.length || !rect) return
+      const bounds = getNodesBounds(areaNodes)
+      void flow.setViewport(
+        getViewportForBounds(bounds, rect.width, rect.height, 0.1, 1.25, 0.1)
+      )
+    },
+    [areaId]
   )
 
   const nodes = useMemo<FlowNode[]>(
@@ -83,11 +105,17 @@ export default function MindMapCanvas({ areaId }: Props) {
         switch (change.type) {
           case 'position':
             if (change.position)
-              patches[change.id] = { ...patches[change.id], position: change.position }
+              patches[change.id] = {
+                ...patches[change.id],
+                position: change.position
+              }
             break
           case 'dimensions':
             if (change.dimensions)
-              patches[change.id] = { ...patches[change.id], measured: change.dimensions }
+              patches[change.id] = {
+                ...patches[change.id],
+                measured: change.dimensions
+              }
             break
           case 'select':
             selection[change.id] = change.selected
@@ -159,7 +187,8 @@ export default function MindMapCanvas({ areaId }: Props) {
         addEdge(areaId, { ...from, target: targetId, targetHandle: null })
         return
       }
-      if (!(event.target as Element | null)?.closest('.react-flow__pane')) return
+      if (!(event.target as Element | null)?.closest('.react-flow__pane'))
+        return
 
       const target = createTopicAt(
         screenToFlowPosition({ x: clientX, y: clientY })
@@ -170,7 +199,8 @@ export default function MindMapCanvas({ areaId }: Props) {
   )
 
   function onDoubleClick(event: React.MouseEvent) {
-    if (!(event.target as Element).classList.contains('react-flow__pane')) return
+    if (!(event.target as Element).classList.contains('react-flow__pane'))
+      return
     createTopicAt(screenToFlowPosition({ x: event.clientX, y: event.clientY }))
   }
 
@@ -201,8 +231,7 @@ export default function MindMapCanvas({ areaId }: Props) {
         minZoom={0.1}
         maxZoom={4}
         colorMode="dark"
-        fitView={fitOnMount}
-        fitViewOptions={{ maxZoom: 1.25 }}
+        onInit={fitOnInit}
       >
         <Background gap={24} />
         <Controls />
@@ -212,6 +241,11 @@ export default function MindMapCanvas({ areaId }: Props) {
             + Topic
           </button>
         </Panel>
+        {storageError && (
+          <Panel position="top-center" className="banner" role="alert">
+            {storageMessages[storageError]}
+          </Panel>
+        )}
         <Panel position="bottom-center" className="hint">
           Double-click the canvas to add a topic · Drag from a dot to connect ·
           Double-click a topic to rename · Del to delete

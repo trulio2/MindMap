@@ -5,7 +5,11 @@ import { useUi } from '@/store/ui.store'
 import type { TopicFlowNode } from '../types'
 import NodeHandles from './NodeHandles'
 
-export default function TopicNode({ id, data, selected }: NodeProps<TopicFlowNode>) {
+export default function TopicNode({
+  id,
+  data,
+  selected
+}: NodeProps<TopicFlowNode>) {
   const editing = useUi((s) => s.editingNodeId === id)
   const setEditing = useUi((s) => s.setEditing)
   const updateNodeData = useMindMap((s) => s.updateNodeData)

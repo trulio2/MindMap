@@ -1,6 +1,17 @@
 import { create } from 'zustand'
+import { createJSONStorage, persist } from 'zustand/middleware'
 import { nanoid } from 'nanoid'
-import type { MapEdge, MapNode, MapNodeData, MindMapDoc, XY } from '@/types'
+import {
+  DOC_VERSION,
+  type MapEdge,
+  type MapNode,
+  type MapNodeData,
+  type MindMapDoc,
+  type XY
+} from '@/types'
+import { debouncedLocalStorage } from './storage'
+
+const STORAGE_KEY = 'mindmap'
 
 type NodePatch = Partial<Pick<MapNode, 'position' | 'measured'>>
 
@@ -37,77 +48,113 @@ function collectWithDescendants(
   return removed
 }
 
-export const useMindMap = create<MindMapState>()((set, get) => ({
-  nodes: {},
-  edges: {},
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return typeof value === 'object' && value !== null && !Array.isArray(value)
+}
 
-  addNode: (areaId, position, data) => {
-    const id = nanoid()
-    const node: MapNode = {
-      id,
-      areaId,
-      kind: 'topic',
-      position,
-      data: { label: 'New topic', ...data }
-    }
-    set((s) => ({ nodes: { ...s.nodes, [id]: node } }))
-    return id
-  },
+/** Keeps only the saved document; anything malformed falls back to an empty map. */
+function readDoc(value: unknown): MindMapDoc {
+  if (!isRecord(value) || !isRecord(value.nodes) || !isRecord(value.edges)) {
+    return { nodes: {}, edges: {} }
+  }
+  return {
+    nodes: value.nodes as MindMapDoc['nodes'],
+    edges: value.edges as MindMapDoc['edges']
+  }
+}
 
-  updateNodeData: (id, data) =>
-    set((s) => {
-      const node = s.nodes[id]
-      if (!node) return s
-      return {
-        nodes: { ...s.nodes, [id]: { ...node, data: { ...node.data, ...data } } }
-      }
-    }),
+export const useMindMap = create<MindMapState>()(
+  persist(
+    (set, get) => ({
+      nodes: {},
+      edges: {},
 
-  patchNodes: (patches) =>
-    set((s) => {
-      const nodes = { ...s.nodes }
-      for (const [id, patch] of Object.entries(patches)) {
-        if (nodes[id]) nodes[id] = { ...nodes[id], ...patch }
-      }
-      return { nodes }
-    }),
+      addNode: (areaId, position, data) => {
+        const id = nanoid()
+        const node: MapNode = {
+          id,
+          areaId,
+          kind: 'topic',
+          position,
+          data: { label: 'New topic', ...data }
+        }
+        set((s) => ({ nodes: { ...s.nodes, [id]: node } }))
+        return id
+      },
 
-  deleteNodes: (ids) =>
-    set((s) => {
-      const removed = collectWithDescendants(s.nodes, ids)
-      const nodes = Object.fromEntries(
-        Object.entries(s.nodes).filter(([id]) => !removed.has(id))
-      )
-      const edges = Object.fromEntries(
-        Object.entries(s.edges).filter(
-          ([, e]) =>
-            !removed.has(e.source) &&
-            !removed.has(e.target) &&
-            !removed.has(e.areaId)
+      updateNodeData: (id, data) =>
+        set((s) => {
+          const node = s.nodes[id]
+          if (!node) return s
+          return {
+            nodes: {
+              ...s.nodes,
+              [id]: { ...node, data: { ...node.data, ...data } }
+            }
+          }
+        }),
+
+      patchNodes: (patches) =>
+        set((s) => {
+          const nodes = { ...s.nodes }
+          for (const [id, patch] of Object.entries(patches)) {
+            if (nodes[id]) nodes[id] = { ...nodes[id], ...patch }
+          }
+          return { nodes }
+        }),
+
+      deleteNodes: (ids) =>
+        set((s) => {
+          const removed = collectWithDescendants(s.nodes, ids)
+          const nodes = Object.fromEntries(
+            Object.entries(s.nodes).filter(([id]) => !removed.has(id))
+          )
+          const edges = Object.fromEntries(
+            Object.entries(s.edges).filter(
+              ([, e]) =>
+                !removed.has(e.source) &&
+                !removed.has(e.target) &&
+                !removed.has(e.areaId)
+            )
+          )
+          return { nodes, edges }
+        }),
+
+      addEdge: (areaId, ends) => {
+        const { source, target } = ends
+        if (source === target) return null
+        const duplicate = Object.values(get().edges).some(
+          (e) =>
+            (e.source === source && e.target === target) ||
+            (e.source === target && e.target === source)
         )
-      )
-      return { nodes, edges }
+        if (duplicate) return null
+
+        const id = nanoid()
+        set((s) => ({ edges: { ...s.edges, [id]: { id, areaId, ...ends } } }))
+        return id
+      },
+
+      deleteEdges: (ids) =>
+        set((s) => {
+          const edges = { ...s.edges }
+          for (const id of ids) delete edges[id]
+          return { edges }
+        })
     }),
+    {
+      name: STORAGE_KEY,
+      version: DOC_VERSION,
+      storage: createJSONStorage(() => debouncedLocalStorage),
+      partialize: (s): MindMapDoc => ({ nodes: s.nodes, edges: s.edges }),
+      // Add a step here for each DOC_VERSION bump.
+      migrate: (persisted) => readDoc(persisted),
+      merge: (persisted, current) => ({ ...current, ...readDoc(persisted) })
+    }
+  )
+)
 
-  addEdge: (areaId, ends) => {
-    const { source, target } = ends
-    if (source === target) return null
-    const duplicate = Object.values(get().edges).some(
-      (e) =>
-        (e.source === source && e.target === target) ||
-        (e.source === target && e.target === source)
-    )
-    if (duplicate) return null
-
-    const id = nanoid()
-    set((s) => ({ edges: { ...s.edges, [id]: { id, areaId, ...ends } } }))
-    return id
-  },
-
-  deleteEdges: (ids) =>
-    set((s) => {
-      const edges = { ...s.edges }
-      for (const id of ids) delete edges[id]
-      return { edges }
-    })
-}))
+// Pick up changes saved by the app in another tab.
+window.addEventListener('storage', (event) => {
+  if (event.key === STORAGE_KEY) void useMindMap.persist.rehydrate()
+})

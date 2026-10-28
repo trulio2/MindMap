@@ -1,5 +1,8 @@
 export const ROOT_AREA = 'root'
 
+/** Bump when MindMapDoc changes shape, and add a migration for the old one. */
+export const DOC_VERSION = 1
+
 export type NodeKind = 'topic'
 
 export interface XY {

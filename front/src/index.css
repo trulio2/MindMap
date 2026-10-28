@@ -79,6 +79,17 @@ body {
   border-color: var(--accent-border);
 }
 
+.banner {
+  max-width: min(560px, calc(100% - 32px));
+  padding: 8px 14px;
+  border: 1px solid rgba(255, 77, 94, 0.45);
+  border-radius: 8px;
+  background: #1a0d10;
+  color: #ffb3bb;
+  font-size: 14px;
+  text-align: center;
+}
+
 .hint {
   max-width: calc(100% - 32px);
   font-size: 12px;
