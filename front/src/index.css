@@ -650,8 +650,13 @@ textarea.inline-input {
   color: inherit;
 }
 
-.sticky-node .md code {
+.sticky-node .md code,
+.sticky-node .md pre {
   background: rgba(0, 0, 0, 0.12);
+}
+
+.sticky-node .md pre code {
+  background: none;
 }
 
 .sticky-node .md-link {
@@ -788,14 +793,32 @@ a.link-title:hover {
 
 .md p,
 .md ul,
-.md ol {
+.md ol,
+.md pre {
   margin: 0;
 }
 
 .md p + *,
 .md ul + *,
-.md ol + * {
+.md ol + *,
+.md pre + * {
   margin-top: 6px;
+}
+
+.md pre {
+  padding: 8px 10px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.35);
+  font: 12.5px/1.5 var(--mono);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  tab-size: 2;
+}
+
+.md pre code {
+  padding: 0;
+  background: none;
+  font: inherit;
 }
 
 .md ul,
@@ -860,7 +883,8 @@ a.link-title:hover {
   text-decoration: line-through;
 }
 
-.format-code {
+.format-code,
+.format-codeblock {
   font-family: var(--mono);
   font-size: 11px;
 }

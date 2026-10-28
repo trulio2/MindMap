@@ -9,8 +9,11 @@ const buttons: { format: Format; label: string; title: string }[] = [
   { format: 'strike', label: 'S', title: 'Strikethrough' },
   { format: 'link', label: '🔗', title: `Link (${mod}K)` },
   { format: 'code', label: '</>', title: 'Code' },
+  { format: 'codeblock', label: '{ }', title: 'Code block' },
   { format: 'list', label: '•', title: 'Bullet list' }
 ]
+
+const BLOCK_FORMATS = new Set<Format>(['codeblock', 'list'])
 
 type Props = {
   onFormat: (kind: Format) => void
@@ -26,7 +29,7 @@ export default function FormatBar({ onFormat, lists, floating }: Props) {
       aria-label="Format"
     >
       {buttons
-        .filter((b) => lists || b.format !== 'list')
+        .filter((b) => lists || !BLOCK_FORMATS.has(b.format))
         .map((b) => (
           <button
             key={b.format}

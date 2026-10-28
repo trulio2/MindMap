@@ -2,7 +2,7 @@
 
 Each `.json` file in this folder is one mind map. Open the app, click **Maps**, then **Import…** and pick the file. Importing always creates a new map, so you can import the same file again after editing it.
 
-[`oswald-spengler.json`](oswald-spengler.json) is a full example: 146 nodes in 13 nested areas, using every node type.
+[`oswald-spengler.json`](oswald-spengler.json) is a full example: 146 nodes in 13 nested areas, using every node type. [`react.json`](react.json) shows a technical map with many code blocks.
 
 ## The file
 
@@ -67,8 +67,20 @@ Use readable ids (`bio-1880`, `book-decline-summary`). They make a map much easi
 - `[links](https://example.com)` and bare `https://…` URLs
 - lists starting with `- ` or `1. `
 - a new line inside a paragraph, and a blank line between paragraphs
+- code blocks between two ` ``` ` lines, shown in a monospace box exactly as written: indentation, blank lines and `*`, `_` or `-` are kept, and nothing inside is formatted
 
-A topic `label` takes the same inline formatting, but no lists or paragraphs. Write `\n` for a new line in JSON strings.
+````text
+**Example**
+```jsx
+function Hello({ name }) {
+  return <p>Hi, {name}</p>
+}
+```
+````
+
+The opening fence may name a language (` ```jsx `). It's not used for colouring yet. Close every block: an unclosed one runs to the end of the text. A code-only text node at about 440 px wide works well for examples.
+
+A topic `label` takes the same inline formatting, but no lists, paragraphs or code blocks. Write `\n` for a new line in JSON strings.
 
 There are **no headings, quotes or tables**. Start a card with a bold first line, such as `**Summary**\n…`, instead.
 
@@ -119,13 +131,14 @@ A good pattern is a short overview in each area, with the details one level down
 
 Text, sticky and video nodes get their height from their content, and the file can't say what that will be. Plan with these estimates (14–15 px text), then leave room to spare:
 
-| Node               | Height                                                                    |
-| ------------------ | ------------------------------------------------------------------------- |
-| topic              | 45 px; width about 8 px per character + 36                                |
-| text               | 22 px + 20.5 px per line, with about `(width − 28) / 7` characters a line |
-| sticky             | 32 px + 21 px per line, with about `(width − 32) / 7.6` characters a line |
-| link               | 64 px; up to 300 px wide                                                  |
-| video, 320 px wide | about 260 px, plus about 19 px per extra line of description              |
+| Node               | Height                                                                                           |
+| ------------------ | ------------------------------------------------------------------------------------------------ |
+| topic              | 45 px; width about 8 px per character + 36                                                       |
+| text               | 22 px + 20.5 px per line, with about `(width − 28) / 7` characters a line                        |
+| sticky             | 32 px + 21 px per line, with about `(width − 32) / 7.6` characters a line                        |
+| code block         | 36 px + 18.75 px per line (blank lines count), with about `(width − 48) / 7.5` characters a line |
+| link               | 64 px; up to 300 px wide                                                                         |
+| video, 320 px wide | about 260 px, plus about 19 px per extra line of description                                     |
 
 Each list item counts as at least one line.
 

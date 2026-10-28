@@ -33,6 +33,12 @@ describe('nodeTitle', () => {
     ).toBe(`${'x'.repeat(40)}…`)
   })
 
+  it('skips a code fence when naming a note', () => {
+    expect(
+      nodeTitle(node('a', 'root', 'text', { text: '```js\nconst a = 1\n```' }))
+    ).toBe('const a = 1')
+  })
+
   it('falls back to a description of the element', () => {
     expect(
       nodeTitle(node('a', 'root', 'link', { url: 'https://www.example.com/x' }))

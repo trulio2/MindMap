@@ -66,6 +66,25 @@ describe('renderBlocks', () => {
     )
   })
 
+  it('shows fenced code exactly as typed', () => {
+    expect(
+      blocks('Run:\n```js\nif (a) {\n  **b**()\n}\n\n- not a list\n```\nDone')
+    ).toBe(
+      '<p>Run:</p><pre class="md-code"><code>if (a) {\n  **b**()\n}\n\n- not a list</code></pre><p>Done</p>'
+    )
+  })
+
+  it('escapes HTML in code and runs an unclosed block to the end', () => {
+    expect(blocks('```\n<b>x</b>')).toBe(
+      '<pre class="md-code"><code>&lt;b&gt;x&lt;/b&gt;</code></pre>'
+    )
+  })
+
+  it('starts a block only from a fence on its own line', () => {
+    expect(blocks('use ```x``` here')).not.toContain('<pre')
+    expect(blocks('``` not a language\nx')).not.toContain('<pre')
+  })
+
   it('returns nothing for empty text', () => {
     expect(blocks('')).toBe('')
     expect(blocks('\n\n')).toBe('')

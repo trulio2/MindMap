@@ -60,6 +60,8 @@ export function renderInline(text: string, key = 'md'): ReactNode[] {
 
 const BULLET = /^\s*[-*+]\s+/
 const NUMBERED = /^\s*\d+[.)]\s+/
+export const FENCE = /^\s*```[\w+#.-]*\s*$/
+export const CLOSING_FENCE = /^\s*```\s*$/
 
 export function renderBlocks(text: string): ReactNode[] {
   const blocks: ReactNode[] = []
@@ -67,6 +69,19 @@ export function renderBlocks(text: string): ReactNode[] {
   let i = 0
   while (i < lines.length) {
     const key = `b${i}`
+    if (FENCE.test(lines[i])) {
+      const code: string[] = []
+      for (i++; i < lines.length && !CLOSING_FENCE.test(lines[i]); i++) {
+        code.push(lines[i])
+      }
+      i++
+      blocks.push(
+        <pre key={key} className="md-code">
+          <code>{code.join('\n')}</code>
+        </pre>
+      )
+      continue
+    }
     const list = BULLET.test(lines[i])
       ? BULLET
       : NUMBERED.test(lines[i])
@@ -95,6 +110,7 @@ export function renderBlocks(text: string): ReactNode[] {
         ;
         i < lines.length &&
         lines[i].trim() &&
+        !FENCE.test(lines[i]) &&
         !BULLET.test(lines[i]) &&
         !NUMBERED.test(lines[i]);
         i++

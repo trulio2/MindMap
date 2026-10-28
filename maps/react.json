@@ -1,0 +1,6432 @@
+{
+  "app": "mindmap",
+  "version": 1,
+  "exportedAt": "2026-10-28T17:22:33.286Z",
+  "name": "React",
+  "nodes": {
+    "title": {
+      "id": "title",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": -196,
+        "y": -420
+      },
+      "data": {
+        "label": "**React** · the library for web and native user interfaces",
+        "color": "cyan"
+      }
+    },
+    "intro": {
+      "id": "intro",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": -210,
+        "y": -351
+      },
+      "data": {
+        "text": "Created by **Jordan Walke** at Facebook and open-sourced in **2013**. You describe the UI as a function of state, and React works out how to update the screen. Latest version: **19.3.1** (October 2026). Since February 2026 React is governed by the **React Foundation**, part of the Linux Foundation."
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "hub": {
+      "id": "hub",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": -210,
+        "y": -204
+      },
+      "data": {
+        "text": "```jsx\nimport { useState } from 'react'\n\nexport default function Counter() {\n  const [count, setCount] = useState(0)\n  return (\n    <button onClick={() => setCount(count + 1)}>\n      Clicked {count} times\n    </button>\n  )\n}\n```"
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "howto": {
+      "id": "howto",
+      "areaId": "root",
+      "kind": "sticky",
+      "position": {
+        "x": -150,
+        "y": 50
+      },
+      "data": {
+        "text": "**How to read this map**\nThe number on a topic means there is more inside: click it to open. Code is shown as monospace lines. Links go to the official docs at react.dev.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "b-core": {
+      "id": "b-core",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": -495,
+        "y": -514
+      },
+      "data": {
+        "label": "Core concepts",
+        "color": "cyan"
+      }
+    },
+    "b-core-t": {
+      "id": "b-core-t",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": -600,
+        "y": -459
+      },
+      "data": {
+        "text": "Components, JSX, props, state, events, lists, context, refs."
+      },
+      "size": {
+        "width": 240
+      }
+    },
+    "b-hooks": {
+      "id": "b-hooks",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": -441,
+        "y": -314
+      },
+      "data": {
+        "label": "Hooks",
+        "color": "green"
+      }
+    },
+    "b-hooks-t": {
+      "id": "b-hooks-t",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": -600,
+        "y": -259
+      },
+      "data": {
+        "text": "Every built-in hook, the rules, and custom hooks."
+      },
+      "size": {
+        "width": 240
+      }
+    },
+    "b-internals": {
+      "id": "b-internals",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": -486,
+        "y": -114
+      },
+      "data": {
+        "label": "How it works",
+        "color": "purple"
+      }
+    },
+    "b-internals-t": {
+      "id": "b-internals-t",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": -600,
+        "y": -59
+      },
+      "data": {
+        "text": "Render and commit, reconciliation, Fiber, scheduling, the compiler."
+      },
+      "size": {
+        "width": 240
+      }
+    },
+    "b-hard": {
+      "id": "b-hard",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": -561,
+        "y": 86
+      },
+      "data": {
+        "label": "Hard & technical details",
+        "color": "red"
+      }
+    },
+    "b-hard-t": {
+      "id": "b-hard-t",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": -600,
+        "y": 141
+      },
+      "data": {
+        "text": "Gotchas with effects, state, rendering and the server."
+      },
+      "size": {
+        "width": 240
+      }
+    },
+    "b-timeline": {
+      "id": "b-timeline",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 360,
+        "y": -514
+      },
+      "data": {
+        "label": "Timeline",
+        "color": "orange"
+      }
+    },
+    "b-timeline-t": {
+      "id": "b-timeline-t",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 360,
+        "y": -459
+      },
+      "data": {
+        "text": "Every major version from 2011 to 19.3, and what changed."
+      },
+      "size": {
+        "width": 240
+      }
+    },
+    "b-patterns": {
+      "id": "b-patterns",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 360,
+        "y": -314
+      },
+      "data": {
+        "label": "Patterns & performance",
+        "color": "yellow"
+      }
+    },
+    "b-patterns-t": {
+      "id": "b-patterns-t",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 360,
+        "y": -259
+      },
+      "data": {
+        "text": "Composition, state management, memoization, profiling."
+      },
+      "size": {
+        "width": 240
+      }
+    },
+    "b-server": {
+      "id": "b-server",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 360,
+        "y": -114
+      },
+      "data": {
+        "label": "Server & frameworks",
+        "color": "cyan"
+      }
+    },
+    "b-server-t": {
+      "id": "b-server-t",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 360,
+        "y": -59
+      },
+      "data": {
+        "text": "SSR, Server Components, Server Functions, Next.js, Vite."
+      },
+      "size": {
+        "width": 240
+      }
+    },
+    "b-interview": {
+      "id": "b-interview",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 360,
+        "y": 86
+      },
+      "data": {
+        "label": "Interview prep",
+        "color": "green"
+      }
+    },
+    "b-interview-t": {
+      "id": "b-interview-t",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 360,
+        "y": 141
+      },
+      "data": {
+        "text": "Questions, \"what does this log?\" puzzles, live coding."
+      },
+      "size": {
+        "width": 240
+      }
+    },
+    "b-videos": {
+      "id": "b-videos",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": -496,
+        "y": 247
+      },
+      "data": {
+        "label": "Videos & talks",
+        "color": "purple"
+      }
+    },
+    "b-videos-t": {
+      "id": "b-videos-t",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": -600,
+        "y": 302
+      },
+      "data": {
+        "text": "From \"React in 100 seconds\" to the talks that introduced Fiber and Hooks."
+      },
+      "size": {
+        "width": 240
+      }
+    },
+    "links": {
+      "id": "links",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": -72,
+        "y": 247
+      },
+      "data": {
+        "label": "Docs & reading",
+        "color": "orange"
+      }
+    },
+    "l-learn": {
+      "id": "l-learn",
+      "areaId": "root",
+      "kind": "link",
+      "position": {
+        "x": -310,
+        "y": 317
+      },
+      "data": {
+        "label": "Learn React — react.dev",
+        "url": "https://react.dev/learn"
+      }
+    },
+    "l-ref": {
+      "id": "l-ref",
+      "areaId": "root",
+      "kind": "link",
+      "position": {
+        "x": 10,
+        "y": 317
+      },
+      "data": {
+        "label": "API reference — react.dev",
+        "url": "https://react.dev/reference/react"
+      }
+    },
+    "l-versions": {
+      "id": "l-versions",
+      "areaId": "root",
+      "kind": "link",
+      "position": {
+        "x": -310,
+        "y": 401
+      },
+      "data": {
+        "label": "All versions and changelogs — react.dev",
+        "url": "https://react.dev/versions"
+      }
+    },
+    "l-github": {
+      "id": "l-github",
+      "areaId": "root",
+      "kind": "link",
+      "position": {
+        "x": 10,
+        "y": 401
+      },
+      "data": {
+        "label": "Source code — github.com/react/react",
+        "url": "https://github.com/react/react"
+      }
+    },
+    "l-useeffect": {
+      "id": "l-useeffect",
+      "areaId": "root",
+      "kind": "link",
+      "position": {
+        "x": -310,
+        "y": 485
+      },
+      "data": {
+        "label": "A Complete Guide to useEffect — Dan Abramov",
+        "url": "https://overreacted.io/a-complete-guide-to-useeffect/"
+      }
+    },
+    "l-fiber": {
+      "id": "l-fiber",
+      "areaId": "root",
+      "kind": "link",
+      "position": {
+        "x": 10,
+        "y": 485
+      },
+      "data": {
+        "label": "React Fiber Architecture — Andrew Clark",
+        "url": "https://github.com/acdlite/react-fiber-architecture"
+      }
+    },
+    "core-title": {
+      "id": "core-title",
+      "areaId": "b-core",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": -100
+      },
+      "data": {
+        "label": "**Core concepts**",
+        "color": "purple"
+      }
+    },
+    "c-components": {
+      "id": "c-components",
+      "areaId": "b-core",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "Components",
+        "color": "cyan"
+      }
+    },
+    "c-components-t": {
+      "id": "c-components-t",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 55
+      },
+      "data": {
+        "text": "A component is a **function that returns UI**. Names start with a capital letter, so React can tell `<Card />` from the `<div>` tag. Components can be nested and reused like building blocks."
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-components-code": {
+      "id": "c-components-code",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 168
+      },
+      "data": {
+        "text": "```jsx\nfunction Avatar({ name }) {\n  return <img src={'/img/' + name + '.png'} alt={name} />\n}\n\nfunction Profile() {\n  return <Avatar name=\"ada\" />\n}\n```"
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-jsx": {
+      "id": "c-jsx",
+      "areaId": "b-core",
+      "kind": "topic",
+      "position": {
+        "x": 470,
+        "y": 0
+      },
+      "data": {
+        "label": "JSX",
+        "color": "cyan"
+      }
+    },
+    "c-jsx-t": {
+      "id": "c-jsx-t",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 470,
+        "y": 55
+      },
+      "data": {
+        "text": "HTML-like syntax that compiles to function calls (`jsx()`, formerly `React.createElement`). Put any JavaScript expression in **curly braces**. Attributes are camelCase: `className`, `onClick`, `htmlFor`. A component returns **one root**; use a Fragment `<>…</>` to group."
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-jsx-code": {
+      "id": "c-jsx-code",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 470,
+        "y": 188
+      },
+      "data": {
+        "text": "```jsx\nconst user = { name: 'Ada', admin: true }\n\nconst el = (\n  <>\n    <h1 className=\"title\">Hi, {user.name}</h1>\n    {user.admin && <span>Admin</span>}\n  </>\n)\n```"
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-props": {
+      "id": "c-props",
+      "areaId": "b-core",
+      "kind": "topic",
+      "position": {
+        "x": 940,
+        "y": 0
+      },
+      "data": {
+        "label": "Props",
+        "color": "cyan"
+      }
+    },
+    "c-props-t": {
+      "id": "c-props-t",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 940,
+        "y": 55
+      },
+      "data": {
+        "text": "Props are a component's **inputs**, passed like HTML attributes and received as one object. They are **read-only**: a component must never change its own props. Anything can be a prop: strings, objects, functions, other elements."
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-props-code": {
+      "id": "c-props-code",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 940,
+        "y": 168
+      },
+      "data": {
+        "text": "```jsx\nfunction Button({ label, onClick, disabled = false }) {\n  return (\n    <button onClick={onClick} disabled={disabled}>\n      {label}\n    </button>\n  )\n}\n\n<Button label=\"Save\" onClick={save} />\n```"
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-state": {
+      "id": "c-state",
+      "areaId": "b-core",
+      "kind": "topic",
+      "position": {
+        "x": 1410,
+        "y": 0
+      },
+      "data": {
+        "label": "State",
+        "color": "green"
+      }
+    },
+    "c-state-t": {
+      "id": "c-state-t",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 1410,
+        "y": 55
+      },
+      "data": {
+        "text": "State is a component's **memory**. Calling the setter schedules a **re-render** with the new value. Each render sees a fixed **snapshot** of state, so the variable doesn't change until the next render."
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-state-code": {
+      "id": "c-state-code",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 1410,
+        "y": 168
+      },
+      "data": {
+        "text": "```jsx\nconst [name, setName] = useState('')\nconst [todos, setTodos] = useState([])\n\n// Never mutate: create a new array or object\nsetTodos([...todos, newTodo])\nsetUser({ ...user, name: 'Ada' })\n```"
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-purity": {
+      "id": "c-purity",
+      "areaId": "b-core",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 444
+      },
+      "data": {
+        "label": "Rendering is pure",
+        "color": "purple"
+      }
+    },
+    "c-purity-t": {
+      "id": "c-purity-t",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 499
+      },
+      "data": {
+        "text": "Rendering must be a **pure calculation**: same props and state, same JSX. No side effects during render: no fetching, no subscriptions, no changing variables outside the component. Side effects belong in **event handlers** or, as a last resort, **effects**."
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-purity-link": {
+      "id": "c-purity-link",
+      "areaId": "b-core",
+      "kind": "link",
+      "position": {
+        "x": 0,
+        "y": 632
+      },
+      "data": {
+        "label": "Keeping components pure — react.dev",
+        "url": "https://react.dev/learn/keeping-components-pure"
+      }
+    },
+    "c-events": {
+      "id": "c-events",
+      "areaId": "b-core",
+      "kind": "topic",
+      "position": {
+        "x": 470,
+        "y": 444
+      },
+      "data": {
+        "label": "Events",
+        "color": "orange"
+      }
+    },
+    "c-events-t": {
+      "id": "c-events-t",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 470,
+        "y": 499
+      },
+      "data": {
+        "text": "Pass a **function** to `onClick`, don't call it. React passes a cross-browser **synthetic event**. Since React 17 listeners are attached to the root container, not to `document`."
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-events-code": {
+      "id": "c-events-code",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 470,
+        "y": 592
+      },
+      "data": {
+        "text": "```jsx\n// Right: pass a function\n<button onClick={handleClick}>Save</button>\n<button onClick={() => remove(id)}>Delete</button>\n\n// Wrong: calls it during render\n<button onClick={remove(id)}>Delete</button>\n```"
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-conditional": {
+      "id": "c-conditional",
+      "areaId": "b-core",
+      "kind": "topic",
+      "position": {
+        "x": 940,
+        "y": 444
+      },
+      "data": {
+        "label": "Conditional rendering",
+        "color": "orange"
+      }
+    },
+    "c-conditional-t": {
+      "id": "c-conditional-t",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 940,
+        "y": 499
+      },
+      "data": {
+        "text": "Use plain JavaScript: `if`, the ternary `? :` and `&&`. Returning `null` renders nothing. Beware `count && <List />`: when `count` is `0`, React renders a **0**."
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-conditional-code": {
+      "id": "c-conditional-code",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 940,
+        "y": 592
+      },
+      "data": {
+        "text": "```jsx\nif (!user) return <Login />\n\nreturn (\n  <>\n    {isOpen ? <Panel /> : <Closed />}\n    {items.length > 0 && <List items={items} />}\n  </>\n)\n```"
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-lists": {
+      "id": "c-lists",
+      "areaId": "b-core",
+      "kind": "topic",
+      "position": {
+        "x": 1410,
+        "y": 444
+      },
+      "data": {
+        "label": "Lists and keys",
+        "color": "red"
+      }
+    },
+    "c-lists-t": {
+      "id": "c-lists-t",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 1410,
+        "y": 499
+      },
+      "data": {
+        "text": "Render lists with `map`. Each item needs a **key** that is stable and unique among siblings, usually an id from the data. Keys tell React which item is which between renders; avoid the array index if items can move."
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-lists-code": {
+      "id": "c-lists-code",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 1410,
+        "y": 612
+      },
+      "data": {
+        "text": "```jsx\n<ul>\n  {todos.map((todo) => (\n    <li key={todo.id}>{todo.text}</li>\n  ))}\n</ul>\n```"
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-composition": {
+      "id": "c-composition",
+      "areaId": "b-core",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 830
+      },
+      "data": {
+        "label": "Composition and children",
+        "color": "yellow"
+      }
+    },
+    "c-composition-t": {
+      "id": "c-composition-t",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 885
+      },
+      "data": {
+        "text": "Nesting JSX passes it as the **children** prop. Composition replaces inheritance in React: wrapper components accept children, or take elements in named props as \"slots\"."
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-composition-code": {
+      "id": "c-composition-code",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 978
+      },
+      "data": {
+        "text": "```jsx\nfunction Card({ title, children, footer }) {\n  return (\n    <section className=\"card\">\n      <h2>{title}</h2>\n      {children}\n      <footer>{footer}</footer>\n    </section>\n  )\n}\n```"
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-dataflow": {
+      "id": "c-dataflow",
+      "areaId": "b-core",
+      "kind": "topic",
+      "position": {
+        "x": 470,
+        "y": 830
+      },
+      "data": {
+        "label": "One-way data flow",
+        "color": "yellow"
+      }
+    },
+    "c-dataflow-t": {
+      "id": "c-dataflow-t",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 470,
+        "y": 885
+      },
+      "data": {
+        "text": "Data flows **down** through props; changes flow **up** through callbacks. When two components need the same state, **lift it up** to their closest common parent and pass it down."
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-dataflow-code": {
+      "id": "c-dataflow-code",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 470,
+        "y": 978
+      },
+      "data": {
+        "text": "```jsx\nfunction Parent() {\n  const [query, setQuery] = useState('')\n  return (\n    <>\n      <SearchBox value={query} onChange={setQuery} />\n      <Results query={query} />\n    </>\n  )\n}\n```"
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-forms": {
+      "id": "c-forms",
+      "areaId": "b-core",
+      "kind": "topic",
+      "position": {
+        "x": 940,
+        "y": 830
+      },
+      "data": {
+        "label": "Controlled inputs",
+        "color": "green"
+      }
+    },
+    "c-forms-t": {
+      "id": "c-forms-t",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 940,
+        "y": 885
+      },
+      "data": {
+        "text": "A **controlled** input gets its value from state and reports changes with `onChange`: React state is the single source of truth. An **uncontrolled** input keeps its own value in the DOM and is read with a ref or from the form on submit."
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-forms-code": {
+      "id": "c-forms-code",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 940,
+        "y": 998
+      },
+      "data": {
+        "text": "```jsx\nconst [email, setEmail] = useState('')\n\n<input\n  value={email}\n  onChange={(e) => setEmail(e.target.value)}\n/>\n```"
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-context": {
+      "id": "c-context",
+      "areaId": "b-core",
+      "kind": "topic",
+      "position": {
+        "x": 1410,
+        "y": 830
+      },
+      "data": {
+        "label": "Context",
+        "color": "purple"
+      }
+    },
+    "c-context-t": {
+      "id": "c-context-t",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 1410,
+        "y": 885
+      },
+      "data": {
+        "text": "Context passes a value to the **whole subtree** without threading props through every level: themes, the signed-in user, locale. Since React 19, `<ThemeContext>` itself is the provider."
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-context-code": {
+      "id": "c-context-code",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 1410,
+        "y": 998
+      },
+      "data": {
+        "text": "```jsx\nconst ThemeContext = createContext('light')\n\nfunction App() {\n  return (\n    <ThemeContext value=\"dark\">\n      <Page />\n    </ThemeContext>\n  )\n}\n\nfunction Button() {\n  const theme = useContext(ThemeContext)\n}\n```"
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-refs": {
+      "id": "c-refs",
+      "areaId": "b-core",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1330
+      },
+      "data": {
+        "label": "Refs",
+        "color": "red"
+      }
+    },
+    "c-refs-t": {
+      "id": "c-refs-t",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1385
+      },
+      "data": {
+        "text": "A ref holds a value that **survives renders without causing them**: a DOM node, a timer id, the previous value. Changing `ref.current` doesn't re-render. Since React 19, function components receive `ref` as a normal prop."
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-refs-code": {
+      "id": "c-refs-code",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1498
+      },
+      "data": {
+        "text": "```jsx\nfunction Search() {\n  const inputRef = useRef(null)\n  return (\n    <>\n      <input ref={inputRef} />\n      <button onClick={() => inputRef.current.focus()}>\n        Focus\n      </button>\n    </>\n  )\n}\n```"
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-effects": {
+      "id": "c-effects",
+      "areaId": "b-core",
+      "kind": "topic",
+      "position": {
+        "x": 470,
+        "y": 1330
+      },
+      "data": {
+        "label": "Effects",
+        "color": "red"
+      }
+    },
+    "c-effects-t": {
+      "id": "c-effects-t",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 470,
+        "y": 1385
+      },
+      "data": {
+        "text": "Effects **synchronise** a component with something outside React: a network connection, a browser API, a third-party widget. They run after the screen updates. If no external system is involved, you probably **don't need an effect**."
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-effects-code": {
+      "id": "c-effects-code",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 470,
+        "y": 1498
+      },
+      "data": {
+        "text": "```jsx\nuseEffect(() => {\n  const conn = createConnection(roomId)\n  conn.connect()\n  return () => conn.disconnect() // cleanup\n}, [roomId])\n```"
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-effects-link": {
+      "id": "c-effects-link",
+      "areaId": "b-core",
+      "kind": "link",
+      "position": {
+        "x": 470,
+        "y": 1640
+      },
+      "data": {
+        "label": "You Might Not Need an Effect — react.dev",
+        "url": "https://react.dev/learn/you-might-not-need-an-effect"
+      }
+    },
+    "c-thinking": {
+      "id": "c-thinking",
+      "areaId": "b-core",
+      "kind": "topic",
+      "position": {
+        "x": 940,
+        "y": 1330
+      },
+      "data": {
+        "label": "Thinking in React",
+        "color": "cyan"
+      }
+    },
+    "c-thinking-t": {
+      "id": "c-thinking-t",
+      "areaId": "b-core",
+      "kind": "text",
+      "position": {
+        "x": 940,
+        "y": 1385
+      },
+      "data": {
+        "text": "1. Break the UI into a component hierarchy\n2. Build a static version with props only\n3. Find the **minimal** state; derive everything else\n4. Decide which component owns each piece of state\n5. Add inverse data flow with callbacks"
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "c-thinking-link": {
+      "id": "c-thinking-link",
+      "areaId": "b-core",
+      "kind": "link",
+      "position": {
+        "x": 940,
+        "y": 1518
+      },
+      "data": {
+        "label": "Thinking in React — react.dev",
+        "url": "https://react.dev/learn/thinking-in-react"
+      }
+    },
+    "hooks-title": {
+      "id": "hooks-title",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": -100
+      },
+      "data": {
+        "label": "**Hooks** · functions that let components use React features",
+        "color": "purple"
+      }
+    },
+    "hooks-rules": {
+      "id": "hooks-rules",
+      "areaId": "b-hooks",
+      "kind": "sticky",
+      "position": {
+        "x": 1480,
+        "y": 0
+      },
+      "data": {
+        "text": "**Rules of Hooks**\n- Call hooks only at the **top level** of a component or custom hook: never in loops, conditions or after an early return\n- Call them only from **React functions**, not plain functions or classes\n- `use()` is the exception: it can be called conditionally\nWhy: React matches each hook call to its stored state **by call order**.",
+        "color": "red"
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "hooks-rules-link": {
+      "id": "hooks-rules-link",
+      "areaId": "b-hooks",
+      "kind": "link",
+      "position": {
+        "x": 1480,
+        "y": 245
+      },
+      "data": {
+        "label": "Rules of Hooks — react.dev",
+        "url": "https://react.dev/reference/rules/rules-of-hooks"
+      }
+    },
+    "hg-state": {
+      "id": "hg-state",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "State",
+        "color": "green"
+      }
+    },
+    "h-usestate": {
+      "id": "h-usestate",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 65
+      },
+      "data": {
+        "label": "`useState`",
+        "color": "green"
+      }
+    },
+    "h-usestate-t": {
+      "id": "h-usestate-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 118
+      },
+      "data": {
+        "text": "`const [v, setV] = useState(initial)`\nLocal state. Pass a function to compute the initial value lazily, and an **updater** `setV(prev => …)` when the new value depends on the old one."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "h-usereducer": {
+      "id": "h-usereducer",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 263
+      },
+      "data": {
+        "label": "`useReducer`",
+        "color": "green"
+      }
+    },
+    "h-usereducer-t": {
+      "id": "h-usereducer-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 316
+      },
+      "data": {
+        "text": "`const [state, dispatch] = useReducer(reducer, init)`\nState changes described as **actions** handled in one pure function. Good when many updates touch the same state."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "hg-context": {
+      "id": "hg-context",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 360,
+        "y": 0
+      },
+      "data": {
+        "label": "Context",
+        "color": "purple"
+      }
+    },
+    "h-usecontext": {
+      "id": "h-usecontext",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 360,
+        "y": 65
+      },
+      "data": {
+        "label": "`useContext`",
+        "color": "purple"
+      }
+    },
+    "h-usecontext-t": {
+      "id": "h-usecontext-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 360,
+        "y": 118
+      },
+      "data": {
+        "text": "`const theme = useContext(ThemeContext)`\nReads the nearest provider's value and re-renders when it changes."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "h-use": {
+      "id": "h-use",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 360,
+        "y": 223
+      },
+      "data": {
+        "label": "`use` (19)",
+        "color": "purple"
+      }
+    },
+    "h-use-t": {
+      "id": "h-use-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 360,
+        "y": 276
+      },
+      "data": {
+        "text": "`const data = use(promise)` / `use(Context)`\nReads a **promise** (suspends until it resolves) or a context. Unlike other hooks, it may be called in conditions and loops."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "hg-refs": {
+      "id": "hg-refs",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 720,
+        "y": 0
+      },
+      "data": {
+        "label": "Refs",
+        "color": "red"
+      }
+    },
+    "h-useref": {
+      "id": "h-useref",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 720,
+        "y": 65
+      },
+      "data": {
+        "label": "`useRef`",
+        "color": "red"
+      }
+    },
+    "h-useref-t": {
+      "id": "h-useref-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 720,
+        "y": 118
+      },
+      "data": {
+        "text": "`const ref = useRef(initial)`\nA mutable box `{ current }` that persists across renders without re-rendering."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "h-useimperative": {
+      "id": "h-useimperative",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 720,
+        "y": 223
+      },
+      "data": {
+        "label": "`useImperativeHandle`",
+        "color": "red"
+      }
+    },
+    "h-useimperative-t": {
+      "id": "h-useimperative-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 720,
+        "y": 276
+      },
+      "data": {
+        "text": "Customises what a parent gets through a ref: expose `focus()` instead of the whole DOM node."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "hg-effects": {
+      "id": "hg-effects",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 1080,
+        "y": 0
+      },
+      "data": {
+        "label": "Effects",
+        "color": "orange"
+      }
+    },
+    "h-useeffect": {
+      "id": "h-useeffect",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 1080,
+        "y": 65
+      },
+      "data": {
+        "label": "`useEffect`",
+        "color": "orange"
+      }
+    },
+    "h-useeffect-t": {
+      "id": "h-useeffect-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 118
+      },
+      "data": {
+        "text": "`useEffect(setup, deps)`\nRuns **after paint**. Re-runs when a dependency changes (compared with `Object.is`); the cleanup runs before the next run and on unmount."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "h-uselayouteffect": {
+      "id": "h-uselayouteffect",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 1080,
+        "y": 263
+      },
+      "data": {
+        "label": "`useLayoutEffect`",
+        "color": "orange"
+      }
+    },
+    "h-uselayouteffect-t": {
+      "id": "h-uselayouteffect-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 316
+      },
+      "data": {
+        "text": "Runs **before paint**, after the DOM is updated. For measuring layout (tooltip position). It blocks painting, so use it sparingly."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "h-useinsertion": {
+      "id": "h-useinsertion",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 1080,
+        "y": 441
+      },
+      "data": {
+        "label": "`useInsertionEffect`",
+        "color": "orange"
+      }
+    },
+    "h-useinsertion-t": {
+      "id": "h-useinsertion-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 494
+      },
+      "data": {
+        "text": "Runs before layout effects. Only for CSS-in-JS libraries that inject `<style>` tags."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "h-useeffectevent": {
+      "id": "h-useeffectevent",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 1080,
+        "y": 579
+      },
+      "data": {
+        "label": "`useEffectEvent` (19.2)",
+        "color": "orange"
+      }
+    },
+    "h-useeffectevent-t": {
+      "id": "h-useeffectevent-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 632
+      },
+      "data": {
+        "text": "Wraps a function used inside an effect so it always sees the **latest** props and state **without** being a dependency."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "hg-perf": {
+      "id": "hg-perf",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 775
+      },
+      "data": {
+        "label": "Performance",
+        "color": "yellow"
+      }
+    },
+    "h-usememo": {
+      "id": "h-usememo",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 840
+      },
+      "data": {
+        "label": "`useMemo`",
+        "color": "yellow"
+      }
+    },
+    "h-usememo-t": {
+      "id": "h-usememo-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 893
+      },
+      "data": {
+        "text": "`const v = useMemo(() => compute(a, b), [a, b])`\nCaches a **calculated value** between renders."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "h-usecallback": {
+      "id": "h-usecallback",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 998
+      },
+      "data": {
+        "label": "`useCallback`",
+        "color": "yellow"
+      }
+    },
+    "h-usecallback-t": {
+      "id": "h-usecallback-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1051
+      },
+      "data": {
+        "text": "`const fn = useCallback(() => …, [deps])`\nCaches a **function** so its identity stays stable, e.g. for a `memo` child."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "h-usetransition": {
+      "id": "h-usetransition",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1156
+      },
+      "data": {
+        "label": "`useTransition`",
+        "color": "yellow"
+      }
+    },
+    "h-usetransition-t": {
+      "id": "h-usetransition-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1209
+      },
+      "data": {
+        "text": "`const [isPending, startTransition] = useTransition()`\nMarks an update as **non-urgent** so typing and clicks stay responsive."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "h-usedeferred": {
+      "id": "h-usedeferred",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1334
+      },
+      "data": {
+        "label": "`useDeferredValue`",
+        "color": "yellow"
+      }
+    },
+    "h-usedeferred-t": {
+      "id": "h-usedeferred-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1387
+      },
+      "data": {
+        "text": "`const deferred = useDeferredValue(query)`\nA copy of a value that **lags behind** during heavy renders."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "hg-actions": {
+      "id": "hg-actions",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 360,
+        "y": 775
+      },
+      "data": {
+        "label": "Forms & actions (19)",
+        "color": "cyan"
+      }
+    },
+    "h-useactionstate": {
+      "id": "h-useactionstate",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 360,
+        "y": 840
+      },
+      "data": {
+        "label": "`useActionState`",
+        "color": "cyan"
+      }
+    },
+    "h-useactionstate-t": {
+      "id": "h-useactionstate-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 360,
+        "y": 893
+      },
+      "data": {
+        "text": "`const [state, action, isPending] = useActionState(fn, init)`\nState that is updated by an **action**, such as a form submission, with a built-in pending flag."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "h-useoptimistic": {
+      "id": "h-useoptimistic",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 360,
+        "y": 1018
+      },
+      "data": {
+        "label": "`useOptimistic`",
+        "color": "cyan"
+      }
+    },
+    "h-useoptimistic-t": {
+      "id": "h-useoptimistic-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 360,
+        "y": 1071
+      },
+      "data": {
+        "text": "Shows an **optimistic** value while an action runs, then switches back to the real one."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "h-useformstatus": {
+      "id": "h-useformstatus",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 360,
+        "y": 1156
+      },
+      "data": {
+        "label": "`useFormStatus`",
+        "color": "cyan"
+      }
+    },
+    "h-useformstatus-t": {
+      "id": "h-useformstatus-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 360,
+        "y": 1209
+      },
+      "data": {
+        "text": "From `react-dom`. Inside a `<form>`, reads its `pending` status and submitted data: handy for submit buttons."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "hg-other": {
+      "id": "hg-other",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 720,
+        "y": 775
+      },
+      "data": {
+        "label": "Other",
+        "color": "purple"
+      }
+    },
+    "h-useid": {
+      "id": "h-useid",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 720,
+        "y": 840
+      },
+      "data": {
+        "label": "`useId`",
+        "color": "purple"
+      }
+    },
+    "h-useid-t": {
+      "id": "h-useid-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 720,
+        "y": 893
+      },
+      "data": {
+        "text": "A unique id that **matches on server and client**, for `htmlFor` and ARIA attributes. Never use it for list keys."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "h-usesync": {
+      "id": "h-usesync",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 720,
+        "y": 998
+      },
+      "data": {
+        "label": "`useSyncExternalStore`",
+        "color": "purple"
+      }
+    },
+    "h-usesync-t": {
+      "id": "h-usesync-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 720,
+        "y": 1051
+      },
+      "data": {
+        "text": "`useSyncExternalStore(subscribe, getSnapshot)`\nSubscribes to a store outside React without **tearing**. Used by Redux, Zustand and others."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "h-usedebug": {
+      "id": "h-usedebug",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 720,
+        "y": 1176
+      },
+      "data": {
+        "label": "`useDebugValue`",
+        "color": "purple"
+      }
+    },
+    "h-usedebug-t": {
+      "id": "h-usedebug-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 720,
+        "y": 1229
+      },
+      "data": {
+        "text": "Adds a label to a custom hook in React DevTools."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "hooks-custom": {
+      "id": "hooks-custom",
+      "areaId": "b-hooks",
+      "kind": "topic",
+      "position": {
+        "x": 1480,
+        "y": 349
+      },
+      "data": {
+        "label": "Custom hooks",
+        "color": "green"
+      }
+    },
+    "hooks-custom-t": {
+      "id": "hooks-custom-t",
+      "areaId": "b-hooks",
+      "kind": "text",
+      "position": {
+        "x": 1480,
+        "y": 404
+      },
+      "data": {
+        "text": "Extract stateful logic into a function whose name starts with `use`. Each component that calls it gets its **own** state. Open for examples."
+      },
+      "size": {
+        "width": 420
+      }
+    },
+    "hooks-ref": {
+      "id": "hooks-ref",
+      "areaId": "b-hooks",
+      "kind": "link",
+      "position": {
+        "x": 1480,
+        "y": 517
+      },
+      "data": {
+        "label": "All built-in hooks — react.dev",
+        "url": "https://react.dev/reference/react/hooks"
+      }
+    },
+    "ch-debounce": {
+      "id": "ch-debounce",
+      "areaId": "hooks-custom",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "useDebounce",
+        "color": "green"
+      }
+    },
+    "ch-debounce-t": {
+      "id": "ch-debounce-t",
+      "areaId": "hooks-custom",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 55
+      },
+      "data": {
+        "text": "Returns a value that only updates after it stops changing for `delay` ms. Typical for search boxes."
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "ch-debounce-code": {
+      "id": "ch-debounce-code",
+      "areaId": "hooks-custom",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 128
+      },
+      "data": {
+        "text": "```jsx\nfunction useDebounce(value, delay = 300) {\n  const [debounced, setDebounced] = useState(value)\n  useEffect(() => {\n    const id = setTimeout(() => setDebounced(value), delay)\n    return () => clearTimeout(id)\n  }, [value, delay])\n  return debounced\n}\n```"
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "ch-local": {
+      "id": "ch-local",
+      "areaId": "hooks-custom",
+      "kind": "topic",
+      "position": {
+        "x": 510,
+        "y": 0
+      },
+      "data": {
+        "label": "useLocalStorage",
+        "color": "cyan"
+      }
+    },
+    "ch-local-t": {
+      "id": "ch-local-t",
+      "areaId": "hooks-custom",
+      "kind": "text",
+      "position": {
+        "x": 510,
+        "y": 55
+      },
+      "data": {
+        "text": "State that is saved to `localStorage`. The lazy initialiser reads storage only once."
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "ch-local-code": {
+      "id": "ch-local-code",
+      "areaId": "hooks-custom",
+      "kind": "text",
+      "position": {
+        "x": 510,
+        "y": 128
+      },
+      "data": {
+        "text": "```jsx\nfunction useLocalStorage(key, initial) {\n  const [value, setValue] = useState(() => {\n    const saved = localStorage.getItem(key)\n    return saved !== null ? JSON.parse(saved) : initial\n  })\n  useEffect(() => {\n    localStorage.setItem(key, JSON.stringify(value))\n  }, [key, value])\n  return [value, setValue]\n}\n```"
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "ch-fetch": {
+      "id": "ch-fetch",
+      "areaId": "hooks-custom",
+      "kind": "topic",
+      "position": {
+        "x": 1020,
+        "y": 0
+      },
+      "data": {
+        "label": "useFetch",
+        "color": "orange"
+      }
+    },
+    "ch-fetch-t": {
+      "id": "ch-fetch-t",
+      "areaId": "hooks-custom",
+      "kind": "text",
+      "position": {
+        "x": 1020,
+        "y": 55
+      },
+      "data": {
+        "text": "Fetches JSON and **aborts** the request when the URL changes or the component unmounts, so a slow old response can't overwrite a new one."
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "ch-fetch-code": {
+      "id": "ch-fetch-code",
+      "areaId": "hooks-custom",
+      "kind": "text",
+      "position": {
+        "x": 1020,
+        "y": 148
+      },
+      "data": {
+        "text": "```jsx\nfunction useFetch(url) {\n  const [state, setState] = useState({ loading: true })\n  useEffect(() => {\n    const controller = new AbortController()\n    setState({ loading: true })\n    fetch(url, { signal: controller.signal })\n      .then((r) => r.json())\n      .then((data) => setState({ data, loading: false }))\n      .catch((error) => {\n        if (error.name !== 'AbortError')\n          setState({ error, loading: false })\n      })\n    return () => controller.abort()\n  }, [url])\n  return state\n}\n```"
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "ch-previous": {
+      "id": "ch-previous",
+      "areaId": "hooks-custom",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 536
+      },
+      "data": {
+        "label": "usePrevious",
+        "color": "purple"
+      }
+    },
+    "ch-previous-t": {
+      "id": "ch-previous-t",
+      "areaId": "hooks-custom",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 591
+      },
+      "data": {
+        "text": "Remembers the value from the previous render. The effect runs after render, so during render the ref still holds the old value."
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "ch-previous-code": {
+      "id": "ch-previous-code",
+      "areaId": "hooks-custom",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 664
+      },
+      "data": {
+        "text": "```jsx\nfunction usePrevious(value) {\n  const ref = useRef()\n  useEffect(() => {\n    ref.current = value\n  }, [value])\n  return ref.current\n}\n```"
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "ch-online": {
+      "id": "ch-online",
+      "areaId": "hooks-custom",
+      "kind": "topic",
+      "position": {
+        "x": 510,
+        "y": 536
+      },
+      "data": {
+        "label": "useOnlineStatus",
+        "color": "red"
+      }
+    },
+    "ch-online-t": {
+      "id": "ch-online-t",
+      "areaId": "hooks-custom",
+      "kind": "text",
+      "position": {
+        "x": 510,
+        "y": 591
+      },
+      "data": {
+        "text": "Subscribes to a browser API with `useSyncExternalStore`, the safe way to read external mutable data."
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "ch-online-code": {
+      "id": "ch-online-code",
+      "areaId": "hooks-custom",
+      "kind": "text",
+      "position": {
+        "x": 510,
+        "y": 664
+      },
+      "data": {
+        "text": "```jsx\nfunction subscribe(callback) {\n  window.addEventListener('online', callback)\n  window.addEventListener('offline', callback)\n  return () => {\n    window.removeEventListener('online', callback)\n    window.removeEventListener('offline', callback)\n  }\n}\n\nfunction useOnlineStatus() {\n  return useSyncExternalStore(\n    subscribe,\n    () => navigator.onLine,\n    () => true // on the server\n  )\n}\n```"
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "ch-toggle": {
+      "id": "ch-toggle",
+      "areaId": "hooks-custom",
+      "kind": "topic",
+      "position": {
+        "x": 1020,
+        "y": 536
+      },
+      "data": {
+        "label": "useToggle",
+        "color": "yellow"
+      }
+    },
+    "ch-toggle-t": {
+      "id": "ch-toggle-t",
+      "areaId": "hooks-custom",
+      "kind": "text",
+      "position": {
+        "x": 1020,
+        "y": 591
+      },
+      "data": {
+        "text": "The smallest useful custom hook: a boolean with a stable toggle function."
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "ch-toggle-code": {
+      "id": "ch-toggle-code",
+      "areaId": "hooks-custom",
+      "kind": "text",
+      "position": {
+        "x": 1020,
+        "y": 664
+      },
+      "data": {
+        "text": "```jsx\nfunction useToggle(initial = false) {\n  const [on, setOn] = useState(initial)\n  const toggle = useCallback(() => setOn((v) => !v), [])\n  return [on, toggle]\n}\n```"
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "int-title": {
+      "id": "int-title",
+      "areaId": "b-internals",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": -100
+      },
+      "data": {
+        "label": "**How React works**",
+        "color": "purple"
+      }
+    },
+    "int-trigger": {
+      "id": "int-trigger",
+      "areaId": "b-internals",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "1 · Trigger",
+        "color": "orange"
+      }
+    },
+    "int-trigger-t": {
+      "id": "int-trigger-t",
+      "areaId": "b-internals",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 55
+      },
+      "data": {
+        "text": "A render starts on the **initial mount** (`createRoot().render()`) or when **state changes** (`setState`, a context value, a parent re-rendering)."
+      },
+      "size": {
+        "width": 250
+      }
+    },
+    "int-render": {
+      "id": "int-render",
+      "areaId": "b-internals",
+      "kind": "topic",
+      "position": {
+        "x": 290,
+        "y": 0
+      },
+      "data": {
+        "label": "2 · Render",
+        "color": "green"
+      }
+    },
+    "int-render-t": {
+      "id": "int-render-t",
+      "areaId": "b-internals",
+      "kind": "text",
+      "position": {
+        "x": 290,
+        "y": 55
+      },
+      "data": {
+        "text": "React **calls your components** to get the new tree of elements. This is pure calculation and can be paused, restarted or thrown away."
+      },
+      "size": {
+        "width": 250
+      }
+    },
+    "int-reconcile": {
+      "id": "int-reconcile",
+      "areaId": "b-internals",
+      "kind": "topic",
+      "position": {
+        "x": 580,
+        "y": 0
+      },
+      "data": {
+        "label": "3 · Reconcile",
+        "color": "cyan"
+      }
+    },
+    "int-reconcile-t": {
+      "id": "int-reconcile-t",
+      "areaId": "b-internals",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 55
+      },
+      "data": {
+        "text": "React **diffs** the new tree against the previous one to find the minimal set of changes."
+      },
+      "size": {
+        "width": 250
+      }
+    },
+    "int-commit": {
+      "id": "int-commit",
+      "areaId": "b-internals",
+      "kind": "topic",
+      "position": {
+        "x": 870,
+        "y": 0
+      },
+      "data": {
+        "label": "4 · Commit",
+        "color": "purple"
+      }
+    },
+    "int-commit-t": {
+      "id": "int-commit-t",
+      "areaId": "b-internals",
+      "kind": "text",
+      "position": {
+        "x": 870,
+        "y": 55
+      },
+      "data": {
+        "text": "React applies the changes to the **DOM** in one go, attaches refs, then runs layout effects. This phase can't be interrupted."
+      },
+      "size": {
+        "width": 250
+      }
+    },
+    "int-paint": {
+      "id": "int-paint",
+      "areaId": "b-internals",
+      "kind": "topic",
+      "position": {
+        "x": 1160,
+        "y": 0
+      },
+      "data": {
+        "label": "5 · Paint & effects",
+        "color": "red"
+      }
+    },
+    "int-paint-t": {
+      "id": "int-paint-t",
+      "areaId": "b-internals",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 55
+      },
+      "data": {
+        "text": "The browser **paints**. Then React runs `useEffect` callbacks: cleanups first, then setups."
+      },
+      "size": {
+        "width": 250
+      }
+    },
+    "int-vdom": {
+      "id": "int-vdom",
+      "areaId": "b-internals",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 258
+      },
+      "data": {
+        "label": "Elements & the \"virtual DOM\"",
+        "color": "cyan"
+      }
+    },
+    "int-vdom-t": {
+      "id": "int-vdom-t",
+      "areaId": "b-internals",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 313
+      },
+      "data": {
+        "text": "JSX creates plain objects: `{ type, props, key, ref }`. They are cheap descriptions of what should be on screen. React keeps the previous tree and compares it with the new one; the word \"virtual DOM\" is about this idea, the React team now rarely uses it."
+      },
+      "size": {
+        "width": 400
+      }
+    },
+    "int-diff": {
+      "id": "int-diff",
+      "areaId": "b-internals",
+      "kind": "topic",
+      "position": {
+        "x": 440,
+        "y": 258
+      },
+      "data": {
+        "label": "Reconciliation heuristics",
+        "color": "cyan"
+      }
+    },
+    "int-diff-t": {
+      "id": "int-diff-t",
+      "areaId": "b-internals",
+      "kind": "text",
+      "position": {
+        "x": 440,
+        "y": 313
+      },
+      "data": {
+        "text": "A full tree diff is O(n³). React makes it O(n) with two assumptions:\n1. Elements of a **different type** produce different trees: the old subtree is destroyed and its state lost\n2. **Keys** identify children across renders\nSame type at the same position: React keeps the component and its state and updates the props."
+      },
+      "size": {
+        "width": 400
+      }
+    },
+    "int-diff-link": {
+      "id": "int-diff-link",
+      "areaId": "b-internals",
+      "kind": "link",
+      "position": {
+        "x": 440,
+        "y": 499
+      },
+      "data": {
+        "label": "Reconciliation (legacy docs) — reactjs.org",
+        "url": "https://legacy.reactjs.org/docs/reconciliation.html"
+      }
+    },
+    "int-fiber": {
+      "id": "int-fiber",
+      "areaId": "b-internals",
+      "kind": "topic",
+      "position": {
+        "x": 880,
+        "y": 258
+      },
+      "data": {
+        "label": "Fiber",
+        "color": "purple"
+      }
+    },
+    "int-fiber-t": {
+      "id": "int-fiber-t",
+      "areaId": "b-internals",
+      "kind": "text",
+      "position": {
+        "x": 880,
+        "y": 313
+      },
+      "data": {
+        "text": "The engine since React 16. Each component instance is a **fiber**: a unit of work linked to its child, sibling and parent. Rendering walks this list in small steps, so it can **pause** and yield to the browser. Open for more."
+      },
+      "size": {
+        "width": 400
+      }
+    },
+    "int-lanes": {
+      "id": "int-lanes",
+      "areaId": "b-internals",
+      "kind": "topic",
+      "position": {
+        "x": 1320,
+        "y": 258
+      },
+      "data": {
+        "label": "Scheduler & lanes",
+        "color": "purple"
+      }
+    },
+    "int-lanes-t": {
+      "id": "int-lanes-t",
+      "areaId": "b-internals",
+      "kind": "text",
+      "position": {
+        "x": 1320,
+        "y": 313
+      },
+      "data": {
+        "text": "Updates get a **priority** (\"lane\"): a click or keypress is urgent, a transition is not. In concurrent rendering React works in slices of about **5 ms** and checks whether the browser needs the main thread, so urgent updates can interrupt slow ones."
+      },
+      "size": {
+        "width": 400
+      }
+    },
+    "int-batching": {
+      "id": "int-batching",
+      "areaId": "b-internals",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 613
+      },
+      "data": {
+        "label": "Batching",
+        "color": "green"
+      }
+    },
+    "int-batching-t": {
+      "id": "int-batching-t",
+      "areaId": "b-internals",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 668
+      },
+      "data": {
+        "text": "Several state updates in the same event are **batched** into one render. Since React 18 this also happens in promises, timeouts and native handlers (**automatic batching**). `flushSync` forces an update to apply immediately."
+      },
+      "size": {
+        "width": 400
+      }
+    },
+    "int-hooks": {
+      "id": "int-hooks",
+      "areaId": "b-internals",
+      "kind": "topic",
+      "position": {
+        "x": 440,
+        "y": 613
+      },
+      "data": {
+        "label": "Where hooks live",
+        "color": "green"
+      }
+    },
+    "int-hooks-t": {
+      "id": "int-hooks-t",
+      "areaId": "b-internals",
+      "kind": "text",
+      "position": {
+        "x": 440,
+        "y": 668
+      },
+      "data": {
+        "text": "Each fiber stores its hooks as a **linked list** in call order. On every render React walks the list again: the 1st `useState` call gets the 1st slot, and so on. That is why hooks can't be called conditionally."
+      },
+      "size": {
+        "width": 400
+      }
+    },
+    "int-concurrent": {
+      "id": "int-concurrent",
+      "areaId": "b-internals",
+      "kind": "topic",
+      "position": {
+        "x": 880,
+        "y": 613
+      },
+      "data": {
+        "label": "Concurrent rendering",
+        "color": "orange"
+      }
+    },
+    "int-concurrent-t": {
+      "id": "int-concurrent-t",
+      "areaId": "b-internals",
+      "kind": "text",
+      "position": {
+        "x": 880,
+        "y": 668
+      },
+      "data": {
+        "text": "Since React 18, React can prepare several versions of the UI at once and **interrupt** a render that is no longer needed. You opt in through transitions, `useDeferredValue` and Suspense. Your code must be pure for this to be safe."
+      },
+      "size": {
+        "width": 400
+      }
+    },
+    "int-suspense": {
+      "id": "int-suspense",
+      "areaId": "b-internals",
+      "kind": "topic",
+      "position": {
+        "x": 1320,
+        "y": 613
+      },
+      "data": {
+        "label": "Suspense",
+        "color": "orange"
+      }
+    },
+    "int-suspense-t": {
+      "id": "int-suspense-t",
+      "areaId": "b-internals",
+      "kind": "text",
+      "position": {
+        "x": 1320,
+        "y": 668
+      },
+      "data": {
+        "text": "When a component isn't ready (lazy code, `use(promise)`, data in a framework), it **suspends**: React shows the nearest `<Suspense>` fallback and retries when the data arrives. On the server, boundaries let HTML **stream** in pieces."
+      },
+      "size": {
+        "width": 400
+      }
+    },
+    "int-suspense-link": {
+      "id": "int-suspense-link",
+      "areaId": "b-internals",
+      "kind": "link",
+      "position": {
+        "x": 1320,
+        "y": 801
+      },
+      "data": {
+        "label": "<Suspense> — react.dev",
+        "url": "https://react.dev/reference/react/Suspense"
+      }
+    },
+    "int-hydration": {
+      "id": "int-hydration",
+      "areaId": "b-internals",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 915
+      },
+      "data": {
+        "label": "Hydration",
+        "color": "red"
+      }
+    },
+    "int-hydration-t": {
+      "id": "int-hydration-t",
+      "areaId": "b-internals",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 970
+      },
+      "data": {
+        "text": "With server rendering, the HTML arrives first; then React **hydrates** it: renders the same tree in the browser and attaches event handlers instead of recreating the DOM. Since 18, **selective hydration** hydrates the part the user interacts with first."
+      },
+      "size": {
+        "width": 400
+      }
+    },
+    "int-strict": {
+      "id": "int-strict",
+      "areaId": "b-internals",
+      "kind": "topic",
+      "position": {
+        "x": 440,
+        "y": 915
+      },
+      "data": {
+        "label": "Strict Mode",
+        "color": "red"
+      }
+    },
+    "int-strict-t": {
+      "id": "int-strict-t",
+      "areaId": "b-internals",
+      "kind": "text",
+      "position": {
+        "x": 440,
+        "y": 970
+      },
+      "data": {
+        "text": "In development, `<StrictMode>` **renders components twice** and **runs effects twice** (mount, unmount, mount) to expose impure rendering and missing cleanups. Nothing is doubled in production."
+      },
+      "size": {
+        "width": 400
+      }
+    },
+    "int-strict-link": {
+      "id": "int-strict-link",
+      "areaId": "b-internals",
+      "kind": "link",
+      "position": {
+        "x": 440,
+        "y": 1083
+      },
+      "data": {
+        "label": "<StrictMode> — react.dev",
+        "url": "https://react.dev/reference/react/StrictMode"
+      }
+    },
+    "int-compiler": {
+      "id": "int-compiler",
+      "areaId": "b-internals",
+      "kind": "topic",
+      "position": {
+        "x": 880,
+        "y": 915
+      },
+      "data": {
+        "label": "React Compiler",
+        "color": "yellow"
+      }
+    },
+    "int-compiler-t": {
+      "id": "int-compiler-t",
+      "areaId": "b-internals",
+      "kind": "text",
+      "position": {
+        "x": 880,
+        "y": 970
+      },
+      "data": {
+        "text": "A build-time tool (stable as **1.0** since October 2025) that **memoizes automatically**: it analyses components and caches values and JSX at a fine grain, so you rarely need `useMemo`, `useCallback` or `memo`. It relies on your code following the Rules of React."
+      },
+      "size": {
+        "width": 400
+      }
+    },
+    "int-compiler-link": {
+      "id": "int-compiler-link",
+      "areaId": "b-internals",
+      "kind": "link",
+      "position": {
+        "x": 880,
+        "y": 1103
+      },
+      "data": {
+        "label": "React Compiler — react.dev",
+        "url": "https://react.dev/learn/react-compiler"
+      }
+    },
+    "int-events": {
+      "id": "int-events",
+      "areaId": "b-internals",
+      "kind": "topic",
+      "position": {
+        "x": 1320,
+        "y": 915
+      },
+      "data": {
+        "label": "Event system",
+        "color": "yellow"
+      }
+    },
+    "int-events-t": {
+      "id": "int-events-t",
+      "areaId": "b-internals",
+      "kind": "text",
+      "position": {
+        "x": 1320,
+        "y": 970
+      },
+      "data": {
+        "text": "React attaches **one listener per event type** to the root container and dispatches synthetic events through the component tree. Events from a portal bubble through the **React** tree, not the DOM tree."
+      },
+      "size": {
+        "width": 400
+      }
+    },
+    "int-link": {
+      "id": "int-link",
+      "areaId": "b-internals",
+      "kind": "link",
+      "position": {
+        "x": 1470,
+        "y": 0
+      },
+      "data": {
+        "label": "Render and Commit — react.dev",
+        "url": "https://react.dev/learn/render-and-commit"
+      }
+    },
+    "f-node": {
+      "id": "f-node",
+      "areaId": "int-fiber",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "A fiber node",
+        "color": "purple"
+      }
+    },
+    "f-node-t": {
+      "id": "f-node-t",
+      "areaId": "int-fiber",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 55
+      },
+      "data": {
+        "text": "Simplified fields of one fiber:"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "f-node-code": {
+      "id": "f-node-code",
+      "areaId": "int-fiber",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 107
+      },
+      "data": {
+        "text": "```jsx\n{\n  type: Counter,         // function, class or 'div'\n  key: null,\n  stateNode: null,       // DOM node for host fibers\n  child, sibling, return,// tree links\n  pendingProps, memoizedProps,\n  memoizedState,         // hooks linked list\n  updateQueue,\n  flags,                 // Placement, Update, …\n  lanes,                 // pending priorities\n  alternate              // the other version\n}\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "f-buffer": {
+      "id": "f-buffer",
+      "areaId": "int-fiber",
+      "kind": "topic",
+      "position": {
+        "x": 490,
+        "y": 0
+      },
+      "data": {
+        "label": "Double buffering",
+        "color": "cyan"
+      }
+    },
+    "f-buffer-t": {
+      "id": "f-buffer-t",
+      "areaId": "int-fiber",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 55
+      },
+      "data": {
+        "text": "React keeps two trees: **current** (on screen) and **work-in-progress**. Each fiber points to its twin through `alternate`. Work happens on the work-in-progress tree; at commit React swaps the pointer, so the new tree becomes current in one step."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "f-loop": {
+      "id": "f-loop",
+      "areaId": "int-fiber",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 420
+      },
+      "data": {
+        "label": "The work loop",
+        "color": "green"
+      }
+    },
+    "f-loop-t": {
+      "id": "f-loop-t",
+      "areaId": "int-fiber",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 475
+      },
+      "data": {
+        "text": "Rendering is a loop over units of work. `beginWork` renders a fiber and returns its child; when there is no child, `completeWork` finishes it and moves to the sibling or back up. In concurrent mode the loop checks `shouldYield()` between units."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "f-loop-code": {
+      "id": "f-loop-code",
+      "areaId": "int-fiber",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 588
+      },
+      "data": {
+        "text": "```jsx\nfunction workLoopConcurrent() {\n  while (workInProgress !== null && !shouldYield()) {\n    performUnitOfWork(workInProgress)\n  }\n}\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "f-phases": {
+      "id": "f-phases",
+      "areaId": "int-fiber",
+      "kind": "topic",
+      "position": {
+        "x": 490,
+        "y": 420
+      },
+      "data": {
+        "label": "Two phases",
+        "color": "orange"
+      }
+    },
+    "f-phases-t": {
+      "id": "f-phases-t",
+      "areaId": "int-fiber",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 475
+      },
+      "data": {
+        "text": "- **Render phase**: asynchronous and interruptible, no side effects, may run several times\n- **Commit phase**: synchronous, applies DOM mutations, then layout effects; passive effects (`useEffect`) are scheduled after paint"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "f-link": {
+      "id": "f-link",
+      "areaId": "int-fiber",
+      "kind": "link",
+      "position": {
+        "x": 1000,
+        "y": 0
+      },
+      "data": {
+        "label": "React Fiber Architecture — Andrew Clark",
+        "url": "https://github.com/acdlite/react-fiber-architecture"
+      }
+    },
+    "f-video": {
+      "id": "f-video",
+      "areaId": "int-fiber",
+      "kind": "video",
+      "position": {
+        "x": 1000,
+        "y": 90
+      },
+      "data": {
+        "url": "https://www.youtube.com/watch?v=ZCuYPiUIONs",
+        "label": "A Cartoon Intro to Fiber",
+        "text": "Lin Clark explains Fiber with drawings, React Conf 2017. *Meta Developers.*"
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "hard-title": {
+      "id": "hard-title",
+      "areaId": "b-hard",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": -100
+      },
+      "data": {
+        "label": "**Hard & technical details**",
+        "color": "red"
+      }
+    },
+    "hard-effects": {
+      "id": "hard-effects",
+      "areaId": "b-hard",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "Effects pitfalls",
+        "color": "red"
+      }
+    },
+    "hard-effects-t": {
+      "id": "hard-effects-t",
+      "areaId": "b-hard",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 55
+      },
+      "data": {
+        "text": "- Stale closures\n- Race conditions when fetching\n- Missing cleanup\n- Objects and functions in dependencies\n- Effects that only sync state"
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "hard-state": {
+      "id": "hard-state",
+      "areaId": "b-hard",
+      "kind": "topic",
+      "position": {
+        "x": 340,
+        "y": 0
+      },
+      "data": {
+        "label": "State pitfalls",
+        "color": "orange"
+      }
+    },
+    "hard-state-t": {
+      "id": "hard-state-t",
+      "areaId": "b-hard",
+      "kind": "text",
+      "position": {
+        "x": 340,
+        "y": 55
+      },
+      "data": {
+        "text": "- State is a snapshot\n- Mutating instead of replacing\n- Storing derived state\n- Resetting state with a key"
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "hard-render": {
+      "id": "hard-render",
+      "areaId": "b-hard",
+      "kind": "topic",
+      "position": {
+        "x": 680,
+        "y": 0
+      },
+      "data": {
+        "label": "Rendering pitfalls",
+        "color": "purple"
+      }
+    },
+    "hard-render-t": {
+      "id": "hard-render-t",
+      "areaId": "b-hard",
+      "kind": "text",
+      "position": {
+        "x": 680,
+        "y": 55
+      },
+      "data": {
+        "text": "- Index keys on lists that move\n- Components defined inside components\n- `0 &&` renders \"0\"\n- Memo broken by new objects\n- Context re-rendering everything"
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "hard-server": {
+      "id": "hard-server",
+      "areaId": "b-hard",
+      "kind": "topic",
+      "position": {
+        "x": 1020,
+        "y": 0
+      },
+      "data": {
+        "label": "Server & SSR pitfalls",
+        "color": "cyan"
+      }
+    },
+    "hard-server-t": {
+      "id": "hard-server-t",
+      "areaId": "b-hard",
+      "kind": "text",
+      "position": {
+        "x": 1020,
+        "y": 55
+      },
+      "data": {
+        "text": "- Hydration mismatches\n- The client/server boundary\n- Server Functions are public endpoints\n- Error boundaries and async errors"
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "hard-note": {
+      "id": "hard-note",
+      "areaId": "b-hard",
+      "kind": "sticky",
+      "position": {
+        "x": 0,
+        "y": 239
+      },
+      "data": {
+        "text": "Each topic opens into cards with the **problem**, a **fix**, and code. Most of these come up in code review and interviews.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "he-stale": {
+      "id": "he-stale",
+      "areaId": "hard-effects",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "Stale closures",
+        "color": "red"
+      }
+    },
+    "he-stale-t": {
+      "id": "he-stale-t",
+      "areaId": "hard-effects",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 55
+      },
+      "data": {
+        "text": "An effect or callback **closes over** the values from the render that created it. This interval always sees `count = 0`, so the counter stops at 1. Fix: use an **updater function**, or `useEffectEvent` to read fresh values."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "he-stale-code": {
+      "id": "he-stale-code",
+      "areaId": "hard-effects",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 168
+      },
+      "data": {
+        "text": "```jsx\n// Bug: count is always 0 inside the interval\nuseEffect(() => {\n  const id = setInterval(() => setCount(count + 1), 1000)\n  return () => clearInterval(id)\n}, [])\n\n// Fix: the updater gets the latest value\nsetInterval(() => setCount((c) => c + 1), 1000)\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "he-race": {
+      "id": "he-race",
+      "areaId": "hard-effects",
+      "kind": "topic",
+      "position": {
+        "x": 490,
+        "y": 0
+      },
+      "data": {
+        "label": "Race conditions",
+        "color": "red"
+      }
+    },
+    "he-race-t": {
+      "id": "he-race-t",
+      "areaId": "hard-effects",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 55
+      },
+      "data": {
+        "text": "If `id` changes quickly, an older request can finish **last** and overwrite newer data. Ignore stale responses with a flag, or abort them."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "he-race-code": {
+      "id": "he-race-code",
+      "areaId": "hard-effects",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 148
+      },
+      "data": {
+        "text": "```jsx\nuseEffect(() => {\n  let ignore = false\n  fetchUser(id).then((user) => {\n    if (!ignore) setUser(user)\n  })\n  return () => {\n    ignore = true\n  }\n}, [id])\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "he-cleanup": {
+      "id": "he-cleanup",
+      "areaId": "hard-effects",
+      "kind": "topic",
+      "position": {
+        "x": 980,
+        "y": 0
+      },
+      "data": {
+        "label": "Missing cleanup",
+        "color": "orange"
+      }
+    },
+    "he-cleanup-t": {
+      "id": "he-cleanup-t",
+      "areaId": "hard-effects",
+      "kind": "text",
+      "position": {
+        "x": 980,
+        "y": 55
+      },
+      "data": {
+        "text": "Every subscription, timer and listener needs a cleanup, or it **leaks** and keeps firing after unmount. Strict Mode's double run in development makes a missing cleanup visible."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "he-cleanup-code": {
+      "id": "he-cleanup-code",
+      "areaId": "hard-effects",
+      "kind": "text",
+      "position": {
+        "x": 980,
+        "y": 148
+      },
+      "data": {
+        "text": "```jsx\nuseEffect(() => {\n  const onResize = () => setWidth(window.innerWidth)\n  window.addEventListener('resize', onResize)\n  return () => window.removeEventListener('resize', onResize)\n}, [])\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "he-deps": {
+      "id": "he-deps",
+      "areaId": "hard-effects",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 425
+      },
+      "data": {
+        "label": "Objects in dependencies",
+        "color": "orange"
+      }
+    },
+    "he-deps-t": {
+      "id": "he-deps-t",
+      "areaId": "hard-effects",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 480
+      },
+      "data": {
+        "text": "Dependencies are compared with `Object.is`. An object or function created during render is **new every time**, so the effect runs on every render. Move it inside the effect, or depend on primitive values."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "he-deps-code": {
+      "id": "he-deps-code",
+      "areaId": "hard-effects",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 593
+      },
+      "data": {
+        "text": "```jsx\n// Runs on every render: options is always new\nconst options = { roomId, serverUrl }\nuseEffect(() => connect(options), [options])\n\n// Fix: create it inside the effect\nuseEffect(() => {\n  const options = { roomId, serverUrl }\n  return connect(options)\n}, [roomId, serverUrl])\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "he-sync": {
+      "id": "he-sync",
+      "areaId": "hard-effects",
+      "kind": "topic",
+      "position": {
+        "x": 490,
+        "y": 425
+      },
+      "data": {
+        "label": "Effects that only sync state",
+        "color": "purple"
+      }
+    },
+    "he-sync-t": {
+      "id": "he-sync-t",
+      "areaId": "hard-effects",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 480
+      },
+      "data": {
+        "text": "Setting state in an effect from other state causes an **extra render** with a moment of stale UI. Compute it during render instead, and handle user actions in **event handlers**."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "he-sync-code": {
+      "id": "he-sync-code",
+      "areaId": "hard-effects",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 573
+      },
+      "data": {
+        "text": "```jsx\n// Avoid\nconst [fullName, setFullName] = useState('')\nuseEffect(() => {\n  setFullName(first + ' ' + last)\n}, [first, last])\n\n// Better: derive it\nconst fullName = first + ' ' + last\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "he-layout": {
+      "id": "he-layout",
+      "areaId": "hard-effects",
+      "kind": "topic",
+      "position": {
+        "x": 980,
+        "y": 425
+      },
+      "data": {
+        "label": "Flicker: useEffect vs useLayoutEffect",
+        "color": "purple"
+      }
+    },
+    "he-layout-t": {
+      "id": "he-layout-t",
+      "areaId": "hard-effects",
+      "kind": "text",
+      "position": {
+        "x": 980,
+        "y": 480
+      },
+      "data": {
+        "text": "`useEffect` runs after paint, so measuring and repositioning there can show the wrong position for a frame. Measure in `useLayoutEffect`, which runs before the browser paints."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "he-layout-code": {
+      "id": "he-layout-code",
+      "areaId": "hard-effects",
+      "kind": "text",
+      "position": {
+        "x": 980,
+        "y": 573
+      },
+      "data": {
+        "text": "```jsx\nuseLayoutEffect(() => {\n  const { height } = ref.current.getBoundingClientRect()\n  setTooltipHeight(height)\n}, [])\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hs-snapshot": {
+      "id": "hs-snapshot",
+      "areaId": "hard-state",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "State is a snapshot",
+        "color": "orange"
+      }
+    },
+    "hs-snapshot-t": {
+      "id": "hs-snapshot-t",
+      "areaId": "hard-state",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 55
+      },
+      "data": {
+        "text": "Calling the setter doesn't change the variable in the current render. Three `setCount(count + 1)` calls all use `0`, so the result is **1**. Use updaters to queue changes."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hs-snapshot-code": {
+      "id": "hs-snapshot-code",
+      "areaId": "hard-state",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 148
+      },
+      "data": {
+        "text": "```jsx\nfunction handleClick() {\n  setCount(count + 1) // 0 + 1\n  setCount(count + 1) // 0 + 1\n  console.log(count)  // still 0\n}\n\n// Result 3 with updaters:\nsetCount((c) => c + 1)\nsetCount((c) => c + 1)\nsetCount((c) => c + 1)\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hs-snapshot-link": {
+      "id": "hs-snapshot-link",
+      "areaId": "hard-state",
+      "kind": "link",
+      "position": {
+        "x": 0,
+        "y": 384
+      },
+      "data": {
+        "label": "State as a Snapshot — react.dev",
+        "url": "https://react.dev/learn/state-as-a-snapshot"
+      }
+    },
+    "hs-mutate": {
+      "id": "hs-mutate",
+      "areaId": "hard-state",
+      "kind": "topic",
+      "position": {
+        "x": 490,
+        "y": 0
+      },
+      "data": {
+        "label": "Mutating state",
+        "color": "red"
+      }
+    },
+    "hs-mutate-t": {
+      "id": "hs-mutate-t",
+      "areaId": "hard-state",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 55
+      },
+      "data": {
+        "text": "React compares the old and new state with `Object.is`. Pushing into the same array keeps the **same reference**, so React may skip the render. Always create a new array or object."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hs-mutate-code": {
+      "id": "hs-mutate-code",
+      "areaId": "hard-state",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 148
+      },
+      "data": {
+        "text": "```jsx\n// Bug: same array, no re-render\ntodos.push(todo)\nsetTodos(todos)\n\n// Fix\nsetTodos([...todos, todo])\nsetTodos(todos.map((t) =>\n  t.id === id ? { ...t, done: true } : t\n))\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hs-derived": {
+      "id": "hs-derived",
+      "areaId": "hard-state",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 498
+      },
+      "data": {
+        "label": "Storing derived state",
+        "color": "purple"
+      }
+    },
+    "hs-derived-t": {
+      "id": "hs-derived-t",
+      "areaId": "hard-state",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 553
+      },
+      "data": {
+        "text": "Copying props into state means the copy goes **out of date** when the prop changes. Keep only the minimal state and compute the rest; store an **id** rather than a copy of the selected object."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hs-derived-code": {
+      "id": "hs-derived-code",
+      "areaId": "hard-state",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 666
+      },
+      "data": {
+        "text": "```jsx\n// Avoid: goes stale when items change\nconst [selected, setSelected] = useState(items[0])\n\n// Better\nconst [selectedId, setSelectedId] = useState(items[0].id)\nconst selected = items.find((i) => i.id === selectedId)\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hs-key": {
+      "id": "hs-key",
+      "areaId": "hard-state",
+      "kind": "topic",
+      "position": {
+        "x": 490,
+        "y": 498
+      },
+      "data": {
+        "label": "Resetting state with a key",
+        "color": "cyan"
+      }
+    },
+    "hs-key-t": {
+      "id": "hs-key-t",
+      "areaId": "hard-state",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 553
+      },
+      "data": {
+        "text": "State belongs to a **position in the tree**. Rendering the same component in the same place keeps its state, even for a different user. Give it a different `key` to start fresh."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hs-key-code": {
+      "id": "hs-key-code",
+      "areaId": "hard-state",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 646
+      },
+      "data": {
+        "text": "```jsx\n// Keeps the old draft when userId changes\n<Chat userId={userId} />\n\n// Fresh component, fresh state, per user\n<Chat key={userId} userId={userId} />\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hs-key-link": {
+      "id": "hs-key-link",
+      "areaId": "hard-state",
+      "kind": "link",
+      "position": {
+        "x": 490,
+        "y": 788
+      },
+      "data": {
+        "label": "Preserving and Resetting State — react.dev",
+        "url": "https://react.dev/learn/preserving-and-resetting-state"
+      }
+    },
+    "hr-index": {
+      "id": "hr-index",
+      "areaId": "hard-render",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "Index keys on lists that move",
+        "color": "red"
+      }
+    },
+    "hr-index-t": {
+      "id": "hr-index-t",
+      "areaId": "hard-render",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 55
+      },
+      "data": {
+        "text": "With `key={index}`, inserting at the top shifts every key, so React gives the **wrong state** (input text, checkboxes) to the wrong row. Use a stable id from the data."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hr-index-code": {
+      "id": "hr-index-code",
+      "areaId": "hard-render",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 148
+      },
+      "data": {
+        "text": "```jsx\n// Bug when items are added, removed or sorted\n{items.map((item, i) => <Row key={i} item={item} />)}\n\n// Fix\n{items.map((item) => <Row key={item.id} item={item} />)}\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hr-nested": {
+      "id": "hr-nested",
+      "areaId": "hard-render",
+      "kind": "topic",
+      "position": {
+        "x": 490,
+        "y": 0
+      },
+      "data": {
+        "label": "Components defined inside components",
+        "color": "red"
+      }
+    },
+    "hr-nested-t": {
+      "id": "hr-nested-t",
+      "areaId": "hard-render",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 55
+      },
+      "data": {
+        "text": "A component declared inside another is a **new type on every render**. React unmounts and remounts it each time: state is lost, inputs lose focus. Declare components at the top level."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hr-nested-code": {
+      "id": "hr-nested-code",
+      "areaId": "hard-render",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 148
+      },
+      "data": {
+        "text": "```jsx\nfunction Form() {\n  // Bug: new Input type each render\n  function Input() {\n    return <input />\n  }\n  return <Input />\n}\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hr-zero": {
+      "id": "hr-zero",
+      "areaId": "hard-render",
+      "kind": "topic",
+      "position": {
+        "x": 980,
+        "y": 0
+      },
+      "data": {
+        "label": "0 && renders \"0\"",
+        "color": "orange"
+      }
+    },
+    "hr-zero-t": {
+      "id": "hr-zero-t",
+      "areaId": "hard-render",
+      "kind": "text",
+      "position": {
+        "x": 980,
+        "y": 55
+      },
+      "data": {
+        "text": "`&&` returns its left side when it is falsy. `false`, `null` and `undefined` render nothing, but **0** is rendered as text."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hr-zero-code": {
+      "id": "hr-zero-code",
+      "areaId": "hard-render",
+      "kind": "text",
+      "position": {
+        "x": 980,
+        "y": 128
+      },
+      "data": {
+        "text": "```jsx\n// Shows \"0\" when the list is empty\n{messages.length && <Badge count={messages.length} />}\n\n// Fix\n{messages.length > 0 && <Badge count={messages.length} />}\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hr-memo": {
+      "id": "hr-memo",
+      "areaId": "hard-render",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 367
+      },
+      "data": {
+        "label": "Memo broken by new props",
+        "color": "orange"
+      }
+    },
+    "hr-memo-t": {
+      "id": "hr-memo-t",
+      "areaId": "hard-render",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 422
+      },
+      "data": {
+        "text": "`memo` skips a re-render only if **every prop is the same** (`Object.is`). An inline object, array or arrow function is new each time, so the memo never helps. Memoize those props, or let the React Compiler do it."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hr-memo-code": {
+      "id": "hr-memo-code",
+      "areaId": "hard-render",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 535
+      },
+      "data": {
+        "text": "```jsx\nconst Chart = memo(function Chart({ data, onSelect }) { … })\n\n// Re-renders every time: new array and function\n<Chart data={[a, b]} onSelect={() => pick(id)} />\n\nconst data = useMemo(() => [a, b], [a, b])\nconst onSelect = useCallback(() => pick(id), [id])\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hr-context": {
+      "id": "hr-context",
+      "areaId": "hard-render",
+      "kind": "topic",
+      "position": {
+        "x": 490,
+        "y": 367
+      },
+      "data": {
+        "label": "Context re-renders all consumers",
+        "color": "purple"
+      }
+    },
+    "hr-context-t": {
+      "id": "hr-context-t",
+      "areaId": "hard-render",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 422
+      },
+      "data": {
+        "text": "When a provider's value changes, **every** component that reads it re-renders. Passing a new object each render re-renders them all, every time. Memoize the value, or split rarely and often changing data into separate contexts."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hr-context-code": {
+      "id": "hr-context-code",
+      "areaId": "hard-render",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 535
+      },
+      "data": {
+        "text": "```jsx\n// New object each render\n<AuthContext value={{ user, login }}>\n\n// Stable\nconst value = useMemo(() => ({ user, login }), [user, login])\n<AuthContext value={value}>\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hr-tearing": {
+      "id": "hr-tearing",
+      "areaId": "hard-render",
+      "kind": "topic",
+      "position": {
+        "x": 980,
+        "y": 367
+      },
+      "data": {
+        "label": "Tearing with external stores",
+        "color": "purple"
+      }
+    },
+    "hr-tearing-t": {
+      "id": "hr-tearing-t",
+      "areaId": "hard-render",
+      "kind": "text",
+      "position": {
+        "x": 980,
+        "y": 422
+      },
+      "data": {
+        "text": "During a concurrent render, a store outside React can change halfway, so different components show **different values** of the same data. `useSyncExternalStore` prevents this; state libraries use it internally."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hv-hydration": {
+      "id": "hv-hydration",
+      "areaId": "hard-server",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "Hydration mismatches",
+        "color": "cyan"
+      }
+    },
+    "hv-hydration-t": {
+      "id": "hv-hydration-t",
+      "areaId": "hard-server",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 55
+      },
+      "data": {
+        "text": "The first client render must produce the **same HTML** as the server. `Date.now()`, `Math.random()`, `window` checks or locale formatting during render break this. Use `useId` for ids, render browser-only parts after mounting, or since **19.3** call `use(browser())` to skip server rendering for a component."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hv-hydration-code": {
+      "id": "hv-hydration-code",
+      "areaId": "hard-server",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 188
+      },
+      "data": {
+        "text": "```jsx\nimport { use, Suspense } from 'react'\nimport { browser } from 'react-dom'\n\nfunction TimeZone() {\n  use(browser()) // suspends on the server\n  return Intl.DateTimeFormat().resolvedOptions().timeZone\n}\n\n<Suspense fallback=\"…\"><TimeZone /></Suspense>\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hv-hydration-link": {
+      "id": "hv-hydration-link",
+      "areaId": "hard-server",
+      "kind": "link",
+      "position": {
+        "x": 0,
+        "y": 424
+      },
+      "data": {
+        "label": "browser — react.dev",
+        "url": "https://react.dev/reference/react-dom/browser"
+      }
+    },
+    "hv-boundary": {
+      "id": "hv-boundary",
+      "areaId": "hard-server",
+      "kind": "topic",
+      "position": {
+        "x": 490,
+        "y": 0
+      },
+      "data": {
+        "label": "The client/server boundary",
+        "color": "cyan"
+      }
+    },
+    "hv-boundary-t": {
+      "id": "hv-boundary-t",
+      "areaId": "hard-server",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 55
+      },
+      "data": {
+        "text": "- Server Components can't use state, effects or browser APIs\n- `'use client'` marks a file as the **entry** to client code; everything it imports is client code too\n- Props passed from server to client must be **serializable**: no functions except Server Functions, no class instances\n- A client component can't import a server component, but can receive one as `children`"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hv-boundary-link": {
+      "id": "hv-boundary-link",
+      "areaId": "hard-server",
+      "kind": "link",
+      "position": {
+        "x": 490,
+        "y": 229
+      },
+      "data": {
+        "label": "'use client' — react.dev",
+        "url": "https://react.dev/reference/rsc/use-client"
+      }
+    },
+    "hv-actions": {
+      "id": "hv-actions",
+      "areaId": "hard-server",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 538
+      },
+      "data": {
+        "label": "Server Functions are public endpoints",
+        "color": "red"
+      }
+    },
+    "hv-actions-t": {
+      "id": "hv-actions-t",
+      "areaId": "hard-server",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 593
+      },
+      "data": {
+        "text": "A `'use server'` function can be called by **anyone** with a POST request, not only by your form. Always **validate input and check authorisation** inside it. Keep React up to date: a critical remote-code-execution bug in Server Components was fixed in December 2025 (19.0.1, 19.1.2, 19.2.1)."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hv-actions-code": {
+      "id": "hv-actions-code",
+      "areaId": "hard-server",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 726
+      },
+      "data": {
+        "text": "```jsx\n'use server'\n\nexport async function deletePost(id) {\n  const user = await getUser()\n  if (!user) throw new Error('Not signed in')\n  if (typeof id !== 'string') throw new Error('Bad id')\n  await db.post.delete({ where: { id, authorId: user.id } })\n}\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hv-errors": {
+      "id": "hv-errors",
+      "areaId": "hard-server",
+      "kind": "topic",
+      "position": {
+        "x": 490,
+        "y": 538
+      },
+      "data": {
+        "label": "Error boundaries",
+        "color": "orange"
+      }
+    },
+    "hv-errors-t": {
+      "id": "hv-errors-t",
+      "areaId": "hard-server",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 593
+      },
+      "data": {
+        "text": "An error boundary catches errors **during rendering** in its subtree and shows a fallback. It is still a **class** component. It does **not** catch errors in event handlers, timeouts or async code; handle those with try/catch."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "hv-errors-code": {
+      "id": "hv-errors-code",
+      "areaId": "hard-server",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 706
+      },
+      "data": {
+        "text": "```jsx\nclass ErrorBoundary extends Component {\n  state = { error: null }\n  static getDerivedStateFromError(error) {\n    return { error }\n  }\n  componentDidCatch(error, info) {\n    logError(error, info.componentStack)\n  }\n  render() {\n    if (this.state.error) return this.props.fallback\n    return this.props.children\n  }\n}\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "tl-title": {
+      "id": "tl-title",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": -100
+      },
+      "data": {
+        "label": "**React timeline** · 2011–2026",
+        "color": "orange"
+      }
+    },
+    "era-1": {
+      "id": "era-1",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "Origins · 2011–2015",
+        "color": "cyan"
+      }
+    },
+    "era-1-0": {
+      "id": "era-1-0",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 69
+      },
+      "data": {
+        "label": "2011 · FaxJS",
+        "color": "cyan"
+      }
+    },
+    "era-1-0-t": {
+      "id": "era-1-0-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 122
+      },
+      "data": {
+        "text": "Jordan Walke builds a prototype at Facebook, inspired by XHP. It powers the News Feed in 2011 and Instagram in 2012."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-1-1": {
+      "id": "era-1-1",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 227
+      },
+      "data": {
+        "label": "May 2013 · Open source",
+        "color": "cyan"
+      }
+    },
+    "era-1-1-t": {
+      "id": "era-1-1-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 280
+      },
+      "data": {
+        "text": "Released at **JSConf US**. Many developers dislike JSX at first; Pete Hunt's talk *Rethinking best practices* argues for it."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-1-2": {
+      "id": "era-1-2",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 385
+      },
+      "data": {
+        "label": "2014 · Flux",
+        "color": "cyan"
+      }
+    },
+    "era-1-2-t": {
+      "id": "era-1-2-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 438
+      },
+      "data": {
+        "text": "Facebook presents the **Flux** pattern for one-way data flow. Redux (2015) later becomes the most popular take on it."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-1-3": {
+      "id": "era-1-3",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 543
+      },
+      "data": {
+        "label": "Mar 2015 · React Native",
+        "color": "cyan"
+      }
+    },
+    "era-1-3-t": {
+      "id": "era-1-3-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 596
+      },
+      "data": {
+        "text": "Announced at React.js Conf: native iOS (later Android) apps with the same component model."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-1-4": {
+      "id": "era-1-4",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 681
+      },
+      "data": {
+        "label": "Oct 2015 · v0.14",
+        "color": "cyan"
+      }
+    },
+    "era-1-4-t": {
+      "id": "era-1-4-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 734
+      },
+      "data": {
+        "text": "`react-dom` split out of `react`; **stateless function components**; refs to DOM nodes are the nodes themselves."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-2": {
+      "id": "era-2",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 400,
+        "y": 0
+      },
+      "data": {
+        "label": "Classes to Hooks · 2016–2019",
+        "color": "green"
+      }
+    },
+    "era-2-0": {
+      "id": "era-2-0",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 400,
+        "y": 69
+      },
+      "data": {
+        "label": "Apr 2016 · v15",
+        "color": "green"
+      }
+    },
+    "era-2-0-t": {
+      "id": "era-2-0-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 400,
+        "y": 122
+      },
+      "data": {
+        "text": "Version jump from 0.14 to 15. Initial render uses `document.createElement`; no more extra `<span>`s around text."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-2-1": {
+      "id": "era-2-1",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 400,
+        "y": 227
+      },
+      "data": {
+        "label": "Jul 2016 · Create React App",
+        "color": "green"
+      }
+    },
+    "era-2-1-t": {
+      "id": "era-2-1-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 400,
+        "y": 280
+      },
+      "data": {
+        "text": "Zero-configuration starter that becomes the standard way to begin a project for years."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-2-2": {
+      "id": "era-2-2",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 400,
+        "y": 365
+      },
+      "data": {
+        "label": "Sep 2017 · v16 \"Fiber\"",
+        "color": "green"
+      }
+    },
+    "era-2-2-t": {
+      "id": "era-2-2-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 400,
+        "y": 418
+      },
+      "data": {
+        "text": "Core rewritten as **Fiber**. Components can return arrays and strings; **error boundaries**, **portals**, faster streaming SSR. React is relicensed under **MIT**."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-2-3": {
+      "id": "era-2-3",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 400,
+        "y": 543
+      },
+      "data": {
+        "label": "Mar 2018 · v16.3",
+        "color": "green"
+      }
+    },
+    "era-2-3-t": {
+      "id": "era-2-3-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 400,
+        "y": 596
+      },
+      "data": {
+        "text": "New **Context API**, `createRef`, `forwardRef`, `<StrictMode>`, `getDerivedStateFromProps`; old lifecycles get the `UNSAFE_` prefix."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-2-4": {
+      "id": "era-2-4",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 400,
+        "y": 701
+      },
+      "data": {
+        "label": "Oct 2018 · v16.6",
+        "color": "green"
+      }
+    },
+    "era-2-4-t": {
+      "id": "era-2-4-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 400,
+        "y": 754
+      },
+      "data": {
+        "text": "`React.memo`, `React.lazy` with `<Suspense>` for code splitting, `static contextType`."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-2-5": {
+      "id": "era-2-5",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 400,
+        "y": 839
+      },
+      "data": {
+        "label": "Feb 2019 · v16.8 Hooks",
+        "color": "green"
+      }
+    },
+    "era-2-5-t": {
+      "id": "era-2-5-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 400,
+        "y": 892
+      },
+      "data": {
+        "text": "**Hooks** ship, introduced at React Conf 2018. Function components can now have state and effects."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-3": {
+      "id": "era-3",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 800,
+        "y": 0
+      },
+      "data": {
+        "label": "Concurrent · 2020–2023",
+        "color": "purple"
+      }
+    },
+    "era-3-0": {
+      "id": "era-3-0",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 800,
+        "y": 69
+      },
+      "data": {
+        "label": "Oct 2020 · v17",
+        "color": "purple"
+      }
+    },
+    "era-3-0-t": {
+      "id": "era-3-0-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 800,
+        "y": 122
+      },
+      "data": {
+        "text": "\"No new features\": gradual upgrades, events attached to the **root** instead of `document`, the new **JSX transform** (no `import React` needed)."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-3-1": {
+      "id": "era-3-1",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 800,
+        "y": 227
+      },
+      "data": {
+        "label": "Dec 2020 · Server Components",
+        "color": "purple"
+      }
+    },
+    "era-3-1-t": {
+      "id": "era-3-1-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 800,
+        "y": 280
+      },
+      "data": {
+        "text": "First look at zero-bundle-size **React Server Components**, as research."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-3-2": {
+      "id": "era-3-2",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 800,
+        "y": 365
+      },
+      "data": {
+        "label": "Mar 2022 · v18",
+        "color": "purple"
+      }
+    },
+    "era-3-2-t": {
+      "id": "era-3-2-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 800,
+        "y": 418
+      },
+      "data": {
+        "text": "**Concurrent rendering** with `createRoot`; automatic batching; transitions (`useTransition`, `useDeferredValue`); streaming SSR with Suspense and selective hydration; `useId`, `useSyncExternalStore`."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-3-3": {
+      "id": "era-3-3",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 800,
+        "y": 563
+      },
+      "data": {
+        "label": "Mar 2023 · react.dev",
+        "color": "purple"
+      }
+    },
+    "era-3-3-t": {
+      "id": "era-3-3-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 800,
+        "y": 616
+      },
+      "data": {
+        "text": "New documentation site, teaching **function components and Hooks** first, with interactive examples."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-3-4": {
+      "id": "era-3-4",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 800,
+        "y": 721
+      },
+      "data": {
+        "label": "May 2023 · Canary channel",
+        "color": "purple"
+      }
+    },
+    "era-3-4-t": {
+      "id": "era-3-4-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 800,
+        "y": 774
+      },
+      "data": {
+        "text": "Frameworks can adopt features early. Next.js 13.4 makes its App Router, built on Server Components, stable."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-4": {
+      "id": "era-4",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 1200,
+        "y": 0
+      },
+      "data": {
+        "label": "React 19 era · 2024–2026",
+        "color": "orange"
+      }
+    },
+    "era-4-0": {
+      "id": "era-4-0",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 1200,
+        "y": 69
+      },
+      "data": {
+        "label": "May 2024 · React Compiler",
+        "color": "orange"
+      }
+    },
+    "era-4-0-t": {
+      "id": "era-4-0-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1200,
+        "y": 122
+      },
+      "data": {
+        "text": "Open-sourced as experimental at React Conf 2024; beta in October 2024."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-4-1": {
+      "id": "era-4-1",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 1200,
+        "y": 207
+      },
+      "data": {
+        "label": "Dec 2024 · v19",
+        "color": "orange"
+      }
+    },
+    "era-4-1-t": {
+      "id": "era-4-1-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1200,
+        "y": 260
+      },
+      "data": {
+        "text": "**Actions** and `useActionState`, `useOptimistic`, `useFormStatus`, `use()`; `<form action>`; `ref` as a prop; `<Context>` as provider; `<title>` and stylesheets anywhere; Server Components stable. Removed: `propTypes`, string refs, legacy context, `ReactDOM.render`."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-4-2": {
+      "id": "era-4-2",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 1200,
+        "y": 426
+      },
+      "data": {
+        "label": "Feb 2025 · CRA deprecated",
+        "color": "orange"
+      }
+    },
+    "era-4-2-t": {
+      "id": "era-4-2-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1200,
+        "y": 479
+      },
+      "data": {
+        "text": "Create React App is sunset; new apps should use a framework or a build tool such as **Vite**."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-4-3": {
+      "id": "era-4-3",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 1200,
+        "y": 564
+      },
+      "data": {
+        "label": "Mar 2025 · v19.1",
+        "color": "orange"
+      }
+    },
+    "era-4-3-t": {
+      "id": "era-4-3-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1200,
+        "y": 617
+      },
+      "data": {
+        "text": "**Owner Stacks** for debugging (`captureOwnerStack`) and Suspense improvements."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-4-4": {
+      "id": "era-4-4",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 1200,
+        "y": 722
+      },
+      "data": {
+        "label": "Oct 2025 · v19.2",
+        "color": "orange"
+      }
+    },
+    "era-4-4-t": {
+      "id": "era-4-4-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1200,
+        "y": 775
+      },
+      "data": {
+        "text": "`<Activity>` to hide UI and keep its state, `useEffectEvent`, `cacheSignal`, **Performance Tracks** in Chrome DevTools, partial pre-rendering."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-4-5": {
+      "id": "era-4-5",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 1200,
+        "y": 900
+      },
+      "data": {
+        "label": "Oct 2025 · Compiler 1.0",
+        "color": "orange"
+      }
+    },
+    "era-4-5-t": {
+      "id": "era-4-5-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1200,
+        "y": 953
+      },
+      "data": {
+        "text": "**React Compiler 1.0** is stable, and the React Foundation is announced at React Conf 2025."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-4-6": {
+      "id": "era-4-6",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 1200,
+        "y": 1038
+      },
+      "data": {
+        "label": "Dec 2025 · Security fixes",
+        "color": "orange"
+      }
+    },
+    "era-4-6-t": {
+      "id": "era-4-6-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1200,
+        "y": 1091
+      },
+      "data": {
+        "text": "A critical remote-code-execution vulnerability in Server Components is fixed in 19.0.1, 19.1.2 and 19.2.1; more fixes follow on 11 December."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-4-7": {
+      "id": "era-4-7",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 1200,
+        "y": 1196
+      },
+      "data": {
+        "label": "Feb 2026 · React Foundation",
+        "color": "orange"
+      }
+    },
+    "era-4-7-t": {
+      "id": "era-4-7-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1200,
+        "y": 1249
+      },
+      "data": {
+        "text": "The **React Foundation** launches under the Linux Foundation, taking over governance from Meta."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "era-4-8": {
+      "id": "era-4-8",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 1200,
+        "y": 1334
+      },
+      "data": {
+        "label": "Sep 2026 · v19.3",
+        "color": "orange"
+      }
+    },
+    "era-4-8-t": {
+      "id": "era-4-8-t",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1200,
+        "y": 1387
+      },
+      "data": {
+        "text": "`<ViewTransition>` and **Fragment refs** become stable; `use(browser())` opts a component out of server rendering; Trusted Types support; `<Context>` in Server Components. Patch **19.3.1** follows on 14 October."
+      },
+      "size": {
+        "width": 340
+      }
+    },
+    "tl-l-versions": {
+      "id": "tl-l-versions",
+      "areaId": "b-timeline",
+      "kind": "link",
+      "position": {
+        "x": 1620,
+        "y": 57
+      },
+      "data": {
+        "label": "All versions — react.dev",
+        "url": "https://react.dev/versions"
+      }
+    },
+    "tl-l-18": {
+      "id": "tl-l-18",
+      "areaId": "b-timeline",
+      "kind": "link",
+      "position": {
+        "x": 1620,
+        "y": 133
+      },
+      "data": {
+        "label": "React v18.0 — react.dev blog",
+        "url": "https://react.dev/blog/2022/03/29/react-v18"
+      }
+    },
+    "tl-l-19": {
+      "id": "tl-l-19",
+      "areaId": "b-timeline",
+      "kind": "link",
+      "position": {
+        "x": 1620,
+        "y": 209
+      },
+      "data": {
+        "label": "React v19 — react.dev blog",
+        "url": "https://react.dev/blog/2024/12/05/react-19"
+      }
+    },
+    "tl-l-192": {
+      "id": "tl-l-192",
+      "areaId": "b-timeline",
+      "kind": "link",
+      "position": {
+        "x": 1620,
+        "y": 285
+      },
+      "data": {
+        "label": "React 19.2 — react.dev blog",
+        "url": "https://react.dev/blog/2025/10/01/react-19-2"
+      }
+    },
+    "tl-l-193": {
+      "id": "tl-l-193",
+      "areaId": "b-timeline",
+      "kind": "link",
+      "position": {
+        "x": 1620,
+        "y": 361
+      },
+      "data": {
+        "label": "React 19.3 — react.dev blog",
+        "url": "https://react.dev/blog/2026/09/09/react-19-3"
+      }
+    },
+    "tl-l-foundation": {
+      "id": "tl-l-foundation",
+      "areaId": "b-timeline",
+      "kind": "link",
+      "position": {
+        "x": 1620,
+        "y": 437
+      },
+      "data": {
+        "label": "The React Foundation — react.dev blog",
+        "url": "https://react.dev/blog/2026/02/24/the-react-foundation"
+      }
+    },
+    "tl-links": {
+      "id": "tl-links",
+      "areaId": "b-timeline",
+      "kind": "topic",
+      "position": {
+        "x": 1620,
+        "y": 0
+      },
+      "data": {
+        "label": "Release notes",
+        "color": "cyan"
+      }
+    },
+    "pat-title": {
+      "id": "pat-title",
+      "areaId": "b-patterns",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": -100
+      },
+      "data": {
+        "label": "**Patterns & performance**",
+        "color": "yellow"
+      }
+    },
+    "pat-patterns": {
+      "id": "pat-patterns",
+      "areaId": "b-patterns",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "Patterns",
+        "color": "yellow"
+      }
+    },
+    "pat-perf": {
+      "id": "pat-perf",
+      "areaId": "b-patterns",
+      "kind": "topic",
+      "position": {
+        "x": 490,
+        "y": 0
+      },
+      "data": {
+        "label": "Performance",
+        "color": "green"
+      }
+    },
+    "pat-state": {
+      "id": "pat-state",
+      "areaId": "b-patterns",
+      "kind": "topic",
+      "position": {
+        "x": 980,
+        "y": 0
+      },
+      "data": {
+        "label": "Managing state",
+        "color": "cyan"
+      }
+    },
+    "p-compound": {
+      "id": "p-compound",
+      "areaId": "b-patterns",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 70
+      },
+      "data": {
+        "label": "Compound components",
+        "color": "yellow"
+      }
+    },
+    "p-compound-t": {
+      "id": "p-compound-t",
+      "areaId": "b-patterns",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 125
+      },
+      "data": {
+        "text": "Several components that work together and share state through a private context, like `<select>` and `<option>`."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "p-compound-code": {
+      "id": "p-compound-code",
+      "areaId": "b-patterns",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 198
+      },
+      "data": {
+        "text": "```jsx\nconst TabsContext = createContext(null)\n\nfunction Tabs({ children }) {\n  const [active, setActive] = useState(0)\n  return (\n    <TabsContext value={{ active, setActive }}>\n      {children}\n    </TabsContext>\n  )\n}\n\nfunction Tab({ index, children }) {\n  const { active, setActive } = use(TabsContext)\n  return (\n    <button aria-selected={active === index}\n      onClick={() => setActive(index)}>\n      {children}\n    </button>\n  )\n}\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "p-reducer": {
+      "id": "p-reducer",
+      "areaId": "b-patterns",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 647
+      },
+      "data": {
+        "label": "Reducer + context",
+        "color": "yellow"
+      }
+    },
+    "p-reducer-t": {
+      "id": "p-reducer-t",
+      "areaId": "b-patterns",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 702
+      },
+      "data": {
+        "text": "For app-wide state without a library: a reducer holds the logic, and two contexts pass down the state and `dispatch` separately."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "p-reducer-link": {
+      "id": "p-reducer-link",
+      "areaId": "b-patterns",
+      "kind": "link",
+      "position": {
+        "x": 0,
+        "y": 775
+      },
+      "data": {
+        "label": "Scaling Up with Reducer and Context — react.dev",
+        "url": "https://react.dev/learn/scaling-up-with-reducer-and-context"
+      }
+    },
+    "p-legacy": {
+      "id": "p-legacy",
+      "areaId": "b-patterns",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 875
+      },
+      "data": {
+        "label": "Render props & HOCs",
+        "color": "yellow"
+      }
+    },
+    "p-legacy-t": {
+      "id": "p-legacy-t",
+      "areaId": "b-patterns",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 930
+      },
+      "data": {
+        "text": "The older ways to share logic: a function prop that returns JSX (`render={data => …}`), or a function that wraps a component (`withRouter(Page)`). Custom hooks replaced most of them; you still meet them in older code and libraries."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "p-portal": {
+      "id": "p-portal",
+      "areaId": "b-patterns",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1069
+      },
+      "data": {
+        "label": "Portals",
+        "color": "yellow"
+      }
+    },
+    "p-portal-t": {
+      "id": "p-portal-t",
+      "areaId": "b-patterns",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1124
+      },
+      "data": {
+        "text": "`createPortal(children, domNode)` renders into a different DOM node, such as `document.body` for modals and tooltips, while staying in the same React tree for context and events."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "pf-measure": {
+      "id": "pf-measure",
+      "areaId": "b-patterns",
+      "kind": "topic",
+      "position": {
+        "x": 490,
+        "y": 70
+      },
+      "data": {
+        "label": "Measure first",
+        "color": "green"
+      }
+    },
+    "pf-measure-t": {
+      "id": "pf-measure-t",
+      "areaId": "b-patterns",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 125
+      },
+      "data": {
+        "text": "Use the **React DevTools Profiler** and, since 19.2, React's **Performance Tracks** in Chrome DevTools. Test with a production build: development mode is much slower."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "pf-structure": {
+      "id": "pf-structure",
+      "areaId": "b-patterns",
+      "kind": "topic",
+      "position": {
+        "x": 490,
+        "y": 244
+      },
+      "data": {
+        "label": "Fix the structure before memoizing",
+        "color": "green"
+      }
+    },
+    "pf-structure-t": {
+      "id": "pf-structure-t",
+      "areaId": "b-patterns",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 299
+      },
+      "data": {
+        "text": "- **Move state down** into the component that uses it\n- **Lift content up**: pass expensive parts as `children`, which don't re-render when the wrapper's state changes"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "pf-structure-link": {
+      "id": "pf-structure-link",
+      "areaId": "b-patterns",
+      "kind": "link",
+      "position": {
+        "x": 490,
+        "y": 392
+      },
+      "data": {
+        "label": "Before You memo() — Dan Abramov",
+        "url": "https://overreacted.io/before-you-memo/"
+      }
+    },
+    "pf-memo": {
+      "id": "pf-memo",
+      "areaId": "b-patterns",
+      "kind": "topic",
+      "position": {
+        "x": 490,
+        "y": 492
+      },
+      "data": {
+        "label": "memo, useMemo, useCallback",
+        "color": "green"
+      }
+    },
+    "pf-memo-t": {
+      "id": "pf-memo-t",
+      "areaId": "b-patterns",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 547
+      },
+      "data": {
+        "text": "`memo(Component)` skips re-rendering when props are equal; `useMemo` and `useCallback` keep values and functions stable. With the **React Compiler** this happens automatically."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "pf-memo-link": {
+      "id": "pf-memo-link",
+      "areaId": "b-patterns",
+      "kind": "link",
+      "position": {
+        "x": 490,
+        "y": 640
+      },
+      "data": {
+        "label": "memo — react.dev",
+        "url": "https://react.dev/reference/react/memo"
+      }
+    },
+    "pf-lists": {
+      "id": "pf-lists",
+      "areaId": "b-patterns",
+      "kind": "topic",
+      "position": {
+        "x": 490,
+        "y": 740
+      },
+      "data": {
+        "label": "Long lists and heavy updates",
+        "color": "green"
+      }
+    },
+    "pf-lists-t": {
+      "id": "pf-lists-t",
+      "areaId": "b-patterns",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 795
+      },
+      "data": {
+        "text": "- **Virtualise** long lists: render only visible rows (TanStack Virtual, react-window)\n- Wrap slow, non-urgent updates in `startTransition`\n- **Code-split** routes with `lazy()` and `<Suspense>`"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "st-local": {
+      "id": "st-local",
+      "areaId": "b-patterns",
+      "kind": "topic",
+      "position": {
+        "x": 980,
+        "y": 70
+      },
+      "data": {
+        "label": "Where should state live?",
+        "color": "cyan"
+      }
+    },
+    "st-local-t": {
+      "id": "st-local-t",
+      "areaId": "b-patterns",
+      "kind": "text",
+      "position": {
+        "x": 980,
+        "y": 125
+      },
+      "data": {
+        "text": "1. **Local state** in the component that needs it\n2. **Lifted** to the closest common parent\n3. **Context** for widely used, rarely changing values\n4. A **store** for complex shared client state\n5. **URL** for anything you want shareable or bookmarkable"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "st-libs": {
+      "id": "st-libs",
+      "areaId": "b-patterns",
+      "kind": "topic",
+      "position": {
+        "x": 980,
+        "y": 284
+      },
+      "data": {
+        "label": "Libraries",
+        "color": "cyan"
+      }
+    },
+    "st-libs-t": {
+      "id": "st-libs-t",
+      "areaId": "b-patterns",
+      "kind": "text",
+      "position": {
+        "x": 980,
+        "y": 339
+      },
+      "data": {
+        "text": "- **Server data**: TanStack Query, SWR, or your framework's loaders; caching, refetching and deduping are solved there\n- **Client state**: Zustand, Redux Toolkit, Jotai\n- **Forms**: React 19 Actions, React Hook Form"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "srv-title": {
+      "id": "srv-title",
+      "areaId": "b-server",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": -100
+      },
+      "data": {
+        "label": "**Server & frameworks**",
+        "color": "cyan"
+      }
+    },
+    "srv-csr": {
+      "id": "srv-csr",
+      "areaId": "b-server",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "CSR",
+        "color": "cyan"
+      }
+    },
+    "srv-csr-t": {
+      "id": "srv-csr-t",
+      "areaId": "b-server",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 55
+      },
+      "data": {
+        "text": "Client-side rendering: the server sends an empty page and JavaScript builds the UI. Simple to host; slower first load and weaker SEO."
+      },
+      "size": {
+        "width": 280
+      }
+    },
+    "srv-ssr": {
+      "id": "srv-ssr",
+      "areaId": "b-server",
+      "kind": "topic",
+      "position": {
+        "x": 320,
+        "y": 0
+      },
+      "data": {
+        "label": "SSR",
+        "color": "green"
+      }
+    },
+    "srv-ssr-t": {
+      "id": "srv-ssr-t",
+      "areaId": "b-server",
+      "kind": "text",
+      "position": {
+        "x": 320,
+        "y": 55
+      },
+      "data": {
+        "text": "Server-side rendering: HTML is generated per request, then **hydrated**. Fast first paint; needs a server."
+      },
+      "size": {
+        "width": 280
+      }
+    },
+    "srv-ssg": {
+      "id": "srv-ssg",
+      "areaId": "b-server",
+      "kind": "topic",
+      "position": {
+        "x": 640,
+        "y": 0
+      },
+      "data": {
+        "label": "SSG",
+        "color": "yellow"
+      }
+    },
+    "srv-ssg-t": {
+      "id": "srv-ssg-t",
+      "areaId": "b-server",
+      "kind": "text",
+      "position": {
+        "x": 640,
+        "y": 55
+      },
+      "data": {
+        "text": "Static generation: HTML is rendered at **build time**. Fastest to serve; content is fixed until the next build."
+      },
+      "size": {
+        "width": 280
+      }
+    },
+    "srv-rsc": {
+      "id": "srv-rsc",
+      "areaId": "b-server",
+      "kind": "topic",
+      "position": {
+        "x": 960,
+        "y": 0
+      },
+      "data": {
+        "label": "Server Components",
+        "color": "purple"
+      }
+    },
+    "srv-rsc-t": {
+      "id": "srv-rsc-t",
+      "areaId": "b-server",
+      "kind": "text",
+      "position": {
+        "x": 960,
+        "y": 55
+      },
+      "data": {
+        "text": "Components that run **only on the server** (or at build time). Their code never reaches the browser; they can read files and databases directly."
+      },
+      "size": {
+        "width": 280
+      }
+    },
+    "srv-example": {
+      "id": "srv-example",
+      "areaId": "b-server",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 228
+      },
+      "data": {
+        "label": "Server and client together",
+        "color": "purple"
+      }
+    },
+    "srv-example-t": {
+      "id": "srv-example-t",
+      "areaId": "b-server",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 283
+      },
+      "data": {
+        "text": "An async Server Component fetches data and passes it to a Client Component, which handles interaction."
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "srv-example-code": {
+      "id": "srv-example-code",
+      "areaId": "b-server",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 356
+      },
+      "data": {
+        "text": "```jsx\n// Notes.js (Server Component)\nexport default async function Notes() {\n  const notes = await db.notes.findMany()\n  return notes.map((n) => <Note key={n.id} note={n} />)\n}\n\n// Note.js\n'use client'\nexport function Note({ note }) {\n  const [open, setOpen] = useState(false)\n  return (\n    <article onClick={() => setOpen(!open)}>\n      {note.title}\n      {open && <p>{note.body}</p>}\n    </article>\n  )\n}\n```"
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "srv-example-link": {
+      "id": "srv-example-link",
+      "areaId": "b-server",
+      "kind": "link",
+      "position": {
+        "x": 0,
+        "y": 723
+      },
+      "data": {
+        "label": "Server Components — react.dev",
+        "url": "https://react.dev/reference/rsc/server-components"
+      }
+    },
+    "srv-actions": {
+      "id": "srv-actions",
+      "areaId": "b-server",
+      "kind": "topic",
+      "position": {
+        "x": 520,
+        "y": 228
+      },
+      "data": {
+        "label": "Server Functions & forms",
+        "color": "green"
+      }
+    },
+    "srv-actions-t": {
+      "id": "srv-actions-t",
+      "areaId": "b-server",
+      "kind": "text",
+      "position": {
+        "x": 520,
+        "y": 283
+      },
+      "data": {
+        "text": "A `'use server'` function can be passed to `<form action>`. React submits the form, runs the function on the server and tracks the pending state; it even works before JavaScript loads."
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "srv-actions-code": {
+      "id": "srv-actions-code",
+      "areaId": "b-server",
+      "kind": "text",
+      "position": {
+        "x": 520,
+        "y": 376
+      },
+      "data": {
+        "text": "```jsx\n// actions.js\n'use server'\nexport async function addTodo(formData) {\n  await db.todo.create({ text: formData.get('text') })\n}\n\n// TodoForm.js\n'use client'\nfunction TodoForm() {\n  const [error, action, pending] =\n    useActionState(addTodoWithErrors, null)\n  return (\n    <form action={action}>\n      <input name=\"text\" />\n      <button disabled={pending}>Add</button>\n      {error && <p>{error}</p>}\n    </form>\n  )\n}\n```"
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "srv-actions-link": {
+      "id": "srv-actions-link",
+      "areaId": "b-server",
+      "kind": "link",
+      "position": {
+        "x": 520,
+        "y": 780
+      },
+      "data": {
+        "label": "Server Functions — react.dev",
+        "url": "https://react.dev/reference/rsc/server-functions"
+      }
+    },
+    "srv-frameworks": {
+      "id": "srv-frameworks",
+      "areaId": "b-server",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 894
+      },
+      "data": {
+        "label": "Frameworks",
+        "color": "cyan"
+      }
+    },
+    "srv-frameworks-t": {
+      "id": "srv-frameworks-t",
+      "areaId": "b-server",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 949
+      },
+      "data": {
+        "text": "The React team recommends a **framework** for new apps:\n- **Next.js**: App Router built on Server Components\n- **React Router v7**: framework mode (Remix merged into it)\n- **Expo**: React Native apps for iOS, Android and web\n- **TanStack Start**: full-stack, built on TanStack Router"
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "srv-tools": {
+      "id": "srv-tools",
+      "areaId": "b-server",
+      "kind": "topic",
+      "position": {
+        "x": 520,
+        "y": 894
+      },
+      "data": {
+        "label": "Without a framework",
+        "color": "yellow"
+      }
+    },
+    "srv-tools-t": {
+      "id": "srv-tools-t",
+      "areaId": "b-server",
+      "kind": "text",
+      "position": {
+        "x": 520,
+        "y": 949
+      },
+      "data": {
+        "text": "For single-page apps, use a build tool: **Vite**, Parcel or Rsbuild. Create React App was deprecated in February 2025. You then choose routing (React Router, TanStack Router) and data fetching yourself."
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "iv-title": {
+      "id": "iv-title",
+      "areaId": "b-interview",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": -100
+      },
+      "data": {
+        "label": "**Interview prep**",
+        "color": "green"
+      }
+    },
+    "iv-questions": {
+      "id": "iv-questions",
+      "areaId": "b-interview",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "Concept questions",
+        "color": "green"
+      }
+    },
+    "iv-q0": {
+      "id": "iv-q0",
+      "areaId": "b-interview",
+      "kind": "sticky",
+      "position": {
+        "x": 0,
+        "y": 70
+      },
+      "data": {
+        "text": "**What is the virtual DOM?**\nA tree of plain objects describing the UI. React compares the new tree with the old one (reconciliation) and applies only the differences to the real DOM.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "iv-q1": {
+      "id": "iv-q1",
+      "areaId": "b-interview",
+      "kind": "sticky",
+      "position": {
+        "x": 330,
+        "y": 70
+      },
+      "data": {
+        "text": "**Why do lists need keys?**\nKeys tell React which item is which between renders, so it can keep state with the right item and move DOM nodes instead of recreating them.",
+        "color": "green"
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "iv-q2": {
+      "id": "iv-q2",
+      "areaId": "b-interview",
+      "kind": "sticky",
+      "position": {
+        "x": 660,
+        "y": 70
+      },
+      "data": {
+        "text": "**Props vs state?**\nProps are inputs from the parent and read-only. State is owned by the component, changes over time and triggers re-renders.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "iv-q3": {
+      "id": "iv-q3",
+      "areaId": "b-interview",
+      "kind": "sticky",
+      "position": {
+        "x": 990,
+        "y": 70
+      },
+      "data": {
+        "text": "**Controlled vs uncontrolled?**\nControlled: React state holds the value (`value` + `onChange`). Uncontrolled: the DOM holds it, read with a ref or `FormData`.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "iv-q4": {
+      "id": "iv-q4",
+      "areaId": "b-interview",
+      "kind": "sticky",
+      "position": {
+        "x": 0,
+        "y": 231
+      },
+      "data": {
+        "text": "**useEffect vs useLayoutEffect?**\n`useEffect` runs after paint and doesn't block it. `useLayoutEffect` runs before paint, for measuring the DOM to avoid flicker.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "iv-q5": {
+      "id": "iv-q5",
+      "areaId": "b-interview",
+      "kind": "sticky",
+      "position": {
+        "x": 330,
+        "y": 231
+      },
+      "data": {
+        "text": "**useMemo vs useCallback?**\n`useMemo` caches the result of a function; `useCallback` caches the function itself. `useCallback(fn, d)` equals `useMemo(() => fn, d)`.",
+        "color": "red"
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "iv-q6": {
+      "id": "iv-q6",
+      "areaId": "b-interview",
+      "kind": "sticky",
+      "position": {
+        "x": 660,
+        "y": 231
+      },
+      "data": {
+        "text": "**Why can't hooks be conditional?**\nReact stores hooks by call order on the fiber. Skipping one shifts every later hook onto the wrong state.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "iv-q7": {
+      "id": "iv-q7",
+      "areaId": "b-interview",
+      "kind": "sticky",
+      "position": {
+        "x": 990,
+        "y": 231
+      },
+      "data": {
+        "text": "**What causes a re-render?**\nIts state changes, its parent re-renders, or a context it reads changes. Changed props alone don't; a parent render does.",
+        "color": "green"
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "iv-q8": {
+      "id": "iv-q8",
+      "areaId": "b-interview",
+      "kind": "sticky",
+      "position": {
+        "x": 0,
+        "y": 392
+      },
+      "data": {
+        "text": "**How do you stop needless re-renders?**\nMove state down, pass children, split contexts, then `memo` with stable props, or the React Compiler. Measure with the Profiler first.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "iv-q9": {
+      "id": "iv-q9",
+      "areaId": "b-interview",
+      "kind": "sticky",
+      "position": {
+        "x": 330,
+        "y": 392
+      },
+      "data": {
+        "text": "**Class lifecycles as hooks?**\nmount → `useEffect(fn, [])`; update → `useEffect(fn, [deps])`; unmount → the effect's cleanup; `shouldComponentUpdate` → `memo`.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "iv-q10": {
+      "id": "iv-q10",
+      "areaId": "b-interview",
+      "kind": "sticky",
+      "position": {
+        "x": 660,
+        "y": 392
+      },
+      "data": {
+        "text": "**What is Fiber?**\nThe reconciliation engine since React 16: work is split into units (fibers) so rendering can pause, resume and be prioritised.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "iv-q11": {
+      "id": "iv-q11",
+      "areaId": "b-interview",
+      "kind": "sticky",
+      "position": {
+        "x": 990,
+        "y": 392
+      },
+      "data": {
+        "text": "**What are Server Components?**\nComponents that run only on the server, send no JavaScript to the client and can access data directly. Interactive parts are Client Components marked `'use client'`.",
+        "color": "red"
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "iv-puzzles": {
+      "id": "iv-puzzles",
+      "areaId": "b-interview",
+      "kind": "topic",
+      "position": {
+        "x": 1360,
+        "y": 70
+      },
+      "data": {
+        "label": "What does this log?",
+        "color": "orange"
+      }
+    },
+    "iv-puzzles-t": {
+      "id": "iv-puzzles-t",
+      "areaId": "b-interview",
+      "kind": "text",
+      "position": {
+        "x": 1360,
+        "y": 125
+      },
+      "data": {
+        "text": "Short snippets about batching, snapshots and effect order. Open for the answers."
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "iv-coding": {
+      "id": "iv-coding",
+      "areaId": "b-interview",
+      "kind": "topic",
+      "position": {
+        "x": 1360,
+        "y": 228
+      },
+      "data": {
+        "label": "Live coding",
+        "color": "purple"
+      }
+    },
+    "iv-coding-t": {
+      "id": "iv-coding-t",
+      "areaId": "b-interview",
+      "kind": "text",
+      "position": {
+        "x": 1360,
+        "y": 283
+      },
+      "data": {
+        "text": "Common tasks: debounced search, fetch with abort, a todo list, a modal. Open for solutions."
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "iv-tip": {
+      "id": "iv-tip",
+      "areaId": "b-interview",
+      "kind": "sticky",
+      "position": {
+        "x": 1360,
+        "y": 406
+      },
+      "data": {
+        "text": "**Tip**\nInterviewers care about **why**: explain trade-offs, mention what you would measure, and say when you would *not* reach for an effect or a memo.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "pz-batch": {
+      "id": "pz-batch",
+      "areaId": "iv-puzzles",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "Batching and updaters",
+        "color": "orange"
+      }
+    },
+    "pz-batch-code": {
+      "id": "pz-batch-code",
+      "areaId": "iv-puzzles",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 55
+      },
+      "data": {
+        "text": "```jsx\nconst [count, setCount] = useState(0)\n\nfunction handleClick() {\n  setCount(count + 1)\n  setCount(count + 1)\n  setCount((c) => c + 1)\n  console.log(count)\n}\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "pz-batch-t": {
+      "id": "pz-batch-t",
+      "areaId": "iv-puzzles",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 253
+      },
+      "data": {
+        "text": "**Answer**: logs **0**, and `count` becomes **2**. The first two calls both set `0 + 1`; the updater then adds 1 to the queued value. The log sees this render's snapshot."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "pz-order": {
+      "id": "pz-order",
+      "areaId": "iv-puzzles",
+      "kind": "topic",
+      "position": {
+        "x": 490,
+        "y": 0
+      },
+      "data": {
+        "label": "Render and effect order",
+        "color": "orange"
+      }
+    },
+    "pz-order-code": {
+      "id": "pz-order-code",
+      "areaId": "iv-puzzles",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 55
+      },
+      "data": {
+        "text": "```jsx\nfunction Parent() {\n  console.log('render Parent')\n  useEffect(() => console.log('effect Parent'))\n  return <Child />\n}\n\nfunction Child() {\n  console.log('render Child')\n  useEffect(() => console.log('effect Child'))\n  return null\n}\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "pz-order-t": {
+      "id": "pz-order-t",
+      "areaId": "iv-puzzles",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 309
+      },
+      "data": {
+        "text": "**Answer**: render Parent, render Child, **effect Child**, effect Parent. Rendering goes top-down, but effects run **children first**. In Strict Mode development you see each line twice."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "pz-closure": {
+      "id": "pz-closure",
+      "areaId": "iv-puzzles",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 442
+      },
+      "data": {
+        "label": "Timeout and stale state",
+        "color": "red"
+      }
+    },
+    "pz-closure-code": {
+      "id": "pz-closure-code",
+      "areaId": "iv-puzzles",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 497
+      },
+      "data": {
+        "text": "```jsx\nfunction Counter() {\n  const [count, setCount] = useState(0)\n  function handleClick() {\n    setTimeout(() => alert(count), 3000)\n  }\n  // click \"alert\", then click \"+1\" three times\n}\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "pz-closure-t": {
+      "id": "pz-closure-t",
+      "areaId": "iv-puzzles",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 676
+      },
+      "data": {
+        "text": "**Answer**: alerts **0**. The timeout closes over the `count` of the render in which it was scheduled. To read the latest value, store it in a ref."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "pz-object": {
+      "id": "pz-object",
+      "areaId": "iv-puzzles",
+      "kind": "topic",
+      "position": {
+        "x": 490,
+        "y": 442
+      },
+      "data": {
+        "label": "Same object, no render",
+        "color": "red"
+      }
+    },
+    "pz-object-code": {
+      "id": "pz-object-code",
+      "areaId": "iv-puzzles",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 497
+      },
+      "data": {
+        "text": "```jsx\nconst [user, setUser] = useState({ name: 'Ada' })\n\nfunction rename() {\n  user.name = 'Grace'\n  setUser(user)\n}\n```"
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "pz-object-t": {
+      "id": "pz-object-t",
+      "areaId": "iv-puzzles",
+      "kind": "text",
+      "position": {
+        "x": 490,
+        "y": 658
+      },
+      "data": {
+        "text": "**Answer**: the screen does **not** update. The object was mutated and passed back as the same reference, and `Object.is` says nothing changed. Use `setUser({ ...user, name: 'Grace' })`."
+      },
+      "size": {
+        "width": 440
+      }
+    },
+    "lc-search": {
+      "id": "lc-search",
+      "areaId": "iv-coding",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "Debounced search",
+        "color": "purple"
+      }
+    },
+    "lc-search-t": {
+      "id": "lc-search-t",
+      "areaId": "iv-coding",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 55
+      },
+      "data": {
+        "text": "Search as the user types, without a request per keystroke, ignoring stale responses."
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "lc-search-code": {
+      "id": "lc-search-code",
+      "areaId": "iv-coding",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 128
+      },
+      "data": {
+        "text": "```jsx\nfunction Search() {\n  const [query, setQuery] = useState('')\n  const [results, setResults] = useState([])\n  const debounced = useDebounce(query, 300)\n\n  useEffect(() => {\n    if (!debounced) return setResults([])\n    const controller = new AbortController()\n    fetch('/api/search?q=' + encodeURIComponent(debounced),\n      { signal: controller.signal })\n      .then((r) => r.json())\n      .then(setResults)\n      .catch(() => {})\n    return () => controller.abort()\n  }, [debounced])\n\n  return (\n    <>\n      <input value={query}\n        onChange={(e) => setQuery(e.target.value)} />\n      <ul>\n        {results.map((r) => <li key={r.id}>{r.name}</li>)}\n      </ul>\n    </>\n  )\n}\n```"
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "lc-todo": {
+      "id": "lc-todo",
+      "areaId": "iv-coding",
+      "kind": "topic",
+      "position": {
+        "x": 510,
+        "y": 0
+      },
+      "data": {
+        "label": "Todo list",
+        "color": "green"
+      }
+    },
+    "lc-todo-t": {
+      "id": "lc-todo-t",
+      "areaId": "iv-coding",
+      "kind": "text",
+      "position": {
+        "x": 510,
+        "y": 55
+      },
+      "data": {
+        "text": "Add, toggle and remove items with immutable updates and stable keys."
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "lc-todo-code": {
+      "id": "lc-todo-code",
+      "areaId": "iv-coding",
+      "kind": "text",
+      "position": {
+        "x": 510,
+        "y": 128
+      },
+      "data": {
+        "text": "```jsx\nfunction Todos() {\n  const [todos, setTodos] = useState([])\n  const [text, setText] = useState('')\n\n  function add(e) {\n    e.preventDefault()\n    if (!text.trim()) return\n    setTodos([...todos,\n      { id: crypto.randomUUID(), text, done: false }])\n    setText('')\n  }\n  const toggle = (id) => setTodos(todos.map((t) =>\n    t.id === id ? { ...t, done: !t.done } : t))\n  const remove = (id) =>\n    setTodos(todos.filter((t) => t.id !== id))\n\n  return (\n    <form onSubmit={add}>\n      <input value={text}\n        onChange={(e) => setText(e.target.value)} />\n      {todos.map((t) => (\n        <label key={t.id}>\n          <input type=\"checkbox\" checked={t.done}\n            onChange={() => toggle(t.id)} />\n          {t.text}\n          <button type=\"button\"\n            onClick={() => remove(t.id)}>×</button>\n        </label>\n      ))}\n    </form>\n  )\n}\n```"
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "lc-modal": {
+      "id": "lc-modal",
+      "areaId": "iv-coding",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 816
+      },
+      "data": {
+        "label": "Modal with a portal",
+        "color": "cyan"
+      }
+    },
+    "lc-modal-t": {
+      "id": "lc-modal-t",
+      "areaId": "iv-coding",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 871
+      },
+      "data": {
+        "text": "Renders into `document.body`, closes on Escape, and cleans up its listener."
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "lc-modal-code": {
+      "id": "lc-modal-code",
+      "areaId": "iv-coding",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 944
+      },
+      "data": {
+        "text": "```jsx\nfunction Modal({ open, onClose, children }) {\n  useEffect(() => {\n    if (!open) return\n    const onKey = (e) => e.key === 'Escape' && onClose()\n    document.addEventListener('keydown', onKey)\n    return () => document.removeEventListener('keydown', onKey)\n  }, [open, onClose])\n\n  if (!open) return null\n  return createPortal(\n    <div className=\"backdrop\" onClick={onClose}>\n      <div role=\"dialog\" aria-modal=\"true\"\n        onClick={(e) => e.stopPropagation()}>\n        {children}\n      </div>\n    </div>,\n    document.body\n  )\n}\n```"
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "lc-timer": {
+      "id": "lc-timer",
+      "areaId": "iv-coding",
+      "kind": "topic",
+      "position": {
+        "x": 510,
+        "y": 816
+      },
+      "data": {
+        "label": "Stopwatch",
+        "color": "orange"
+      }
+    },
+    "lc-timer-t": {
+      "id": "lc-timer-t",
+      "areaId": "iv-coding",
+      "kind": "text",
+      "position": {
+        "x": 510,
+        "y": 871
+      },
+      "data": {
+        "text": "An interval stored in a ref, with an updater so it never reads stale state."
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "lc-timer-code": {
+      "id": "lc-timer-code",
+      "areaId": "iv-coding",
+      "kind": "text",
+      "position": {
+        "x": 510,
+        "y": 944
+      },
+      "data": {
+        "text": "```jsx\nfunction Stopwatch() {\n  const [ms, setMs] = useState(0)\n  const timer = useRef(null)\n\n  function start() {\n    if (timer.current) return\n    timer.current = setInterval(\n      () => setMs((t) => t + 10), 10)\n  }\n  function stop() {\n    clearInterval(timer.current)\n    timer.current = null\n  }\n  useEffect(() => stop, [])\n\n  return (\n    <>\n      <p>{(ms / 1000).toFixed(2)} s</p>\n      <button onClick={start}>Start</button>\n      <button onClick={stop}>Stop</button>\n    </>\n  )\n}\n```"
+      },
+      "size": {
+        "width": 460
+      }
+    },
+    "vid-note": {
+      "id": "vid-note",
+      "areaId": "b-videos",
+      "kind": "sticky",
+      "position": {
+        "x": 0,
+        "y": -130
+      },
+      "data": {
+        "text": "Conference talks are from the React team and community. Older talks show older APIs, but the ideas still hold.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 300
+      }
+    },
+    "vid-start": {
+      "id": "vid-start",
+      "areaId": "b-videos",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "Start here",
+        "color": "green"
+      }
+    },
+    "vid-start-0": {
+      "id": "vid-start-0",
+      "areaId": "b-videos",
+      "kind": "video",
+      "position": {
+        "x": 0,
+        "y": 63
+      },
+      "data": {
+        "url": "https://www.youtube.com/watch?v=Tn6-PIqc4UM",
+        "label": "React in 100 Seconds",
+        "text": "The whole idea in under two minutes. *Fireship.*"
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "vid-start-1": {
+      "id": "vid-start-1",
+      "areaId": "b-videos",
+      "kind": "video",
+      "position": {
+        "x": 0,
+        "y": 338
+      },
+      "data": {
+        "url": "https://www.youtube.com/watch?v=gmp0istg5xo",
+        "label": "React.js: The Documentary (trailer)",
+        "text": "How React was built and open-sourced. *CultRepo.*"
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "vid-start-2": {
+      "id": "vid-start-2",
+      "areaId": "b-videos",
+      "kind": "video",
+      "position": {
+        "x": 0,
+        "y": 613
+      },
+      "data": {
+        "url": "https://www.youtube.com/watch?v=8pDqJVdNa44",
+        "label": "How a small team created React at Facebook",
+        "text": "A clip from the documentary. *CultRepo.*"
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "vid-classic": {
+      "id": "vid-classic",
+      "areaId": "b-videos",
+      "kind": "topic",
+      "position": {
+        "x": 370,
+        "y": 0
+      },
+      "data": {
+        "label": "Classic talks",
+        "color": "orange"
+      }
+    },
+    "vid-classic-0": {
+      "id": "vid-classic-0",
+      "areaId": "b-videos",
+      "kind": "video",
+      "position": {
+        "x": 370,
+        "y": 63
+      },
+      "data": {
+        "url": "https://www.youtube.com/watch?v=x7cQ3mrcKaY",
+        "label": "React: Rethinking best practices",
+        "text": "Pete Hunt makes the case for JSX and components, JSConf EU 2013."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "vid-classic-1": {
+      "id": "vid-classic-1",
+      "areaId": "b-videos",
+      "kind": "video",
+      "position": {
+        "x": 370,
+        "y": 357
+      },
+      "data": {
+        "url": "https://www.youtube.com/watch?v=ZCuYPiUIONs",
+        "label": "A Cartoon Intro to Fiber",
+        "text": "Lin Clark, React Conf 2017."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "vid-classic-2": {
+      "id": "vid-classic-2",
+      "areaId": "b-videos",
+      "kind": "video",
+      "position": {
+        "x": 370,
+        "y": 632
+      },
+      "data": {
+        "url": "https://www.youtube.com/watch?v=nLF0n9SACd4",
+        "label": "Beyond React 16",
+        "text": "Dan Abramov's first demo of time slicing and Suspense, JSConf Iceland 2018."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "vid-classic-3": {
+      "id": "vid-classic-3",
+      "areaId": "b-videos",
+      "kind": "video",
+      "position": {
+        "x": 370,
+        "y": 926
+      },
+      "data": {
+        "url": "https://www.youtube.com/watch?v=dpw9EHDh2bM",
+        "label": "React Today and Tomorrow and 90% Cleaner React With Hooks",
+        "text": "The talk that introduced Hooks, React Conf 2018."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "vid-modern": {
+      "id": "vid-modern",
+      "areaId": "b-videos",
+      "kind": "topic",
+      "position": {
+        "x": 740,
+        "y": 0
+      },
+      "data": {
+        "label": "Modern React",
+        "color": "purple"
+      }
+    },
+    "vid-modern-0": {
+      "id": "vid-modern-0",
+      "areaId": "b-videos",
+      "kind": "video",
+      "position": {
+        "x": 740,
+        "y": 63
+      },
+      "data": {
+        "url": "https://www.youtube.com/watch?v=TQQPAU21ZUw",
+        "label": "Data Fetching with React Server Components",
+        "text": "The first Server Components demo, December 2020."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "vid-modern-1": {
+      "id": "vid-modern-1",
+      "areaId": "b-videos",
+      "kind": "video",
+      "position": {
+        "x": 740,
+        "y": 357
+      },
+      "data": {
+        "url": "https://www.youtube.com/watch?v=zyVRg2QR6LA",
+        "label": "React Conf 2025 · Day 1",
+        "text": "Keynote, React Compiler 1.0, View Transitions and Activity."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "vid-modern-2": {
+      "id": "vid-modern-2",
+      "areaId": "b-videos",
+      "kind": "video",
+      "position": {
+        "x": 740,
+        "y": 651
+      },
+      "data": {
+        "url": "https://www.youtube.com/watch?v=uAmRtE52mYk",
+        "label": "Exploring React Performance",
+        "text": "Joe Savona, React Conf 2025."
+      },
+      "size": {
+        "width": 320
+      }
+    },
+    "vid-modern-3": {
+      "id": "vid-modern-3",
+      "areaId": "b-videos",
+      "kind": "video",
+      "position": {
+        "x": 740,
+        "y": 926
+      },
+      "data": {
+        "url": "https://www.youtube.com/watch?v=Pw8w2O5Y0no",
+        "label": "React Compiler Internals",
+        "text": "Lydia Hallie, React Summit 2025. *GitNation.*"
+      },
+      "size": {
+        "width": 320
+      }
+    }
+  },
+  "edges": {
+    "e1": {
+      "id": "e1",
+      "areaId": "root",
+      "source": "hub",
+      "target": "b-core",
+      "sourceHandle": "l",
+      "targetHandle": "r"
+    },
+    "e2": {
+      "id": "e2",
+      "areaId": "root",
+      "source": "hub",
+      "target": "b-hooks",
+      "sourceHandle": "l",
+      "targetHandle": "r"
+    },
+    "e3": {
+      "id": "e3",
+      "areaId": "root",
+      "source": "hub",
+      "target": "b-internals",
+      "sourceHandle": "l",
+      "targetHandle": "r"
+    },
+    "e4": {
+      "id": "e4",
+      "areaId": "root",
+      "source": "hub",
+      "target": "b-hard",
+      "sourceHandle": "l",
+      "targetHandle": "r"
+    },
+    "e5": {
+      "id": "e5",
+      "areaId": "root",
+      "source": "hub",
+      "target": "b-timeline",
+      "sourceHandle": "r",
+      "targetHandle": "l"
+    },
+    "e6": {
+      "id": "e6",
+      "areaId": "root",
+      "source": "hub",
+      "target": "b-patterns",
+      "sourceHandle": "r",
+      "targetHandle": "l"
+    },
+    "e7": {
+      "id": "e7",
+      "areaId": "root",
+      "source": "hub",
+      "target": "b-server",
+      "sourceHandle": "r",
+      "targetHandle": "l"
+    },
+    "e8": {
+      "id": "e8",
+      "areaId": "root",
+      "source": "hub",
+      "target": "b-interview",
+      "sourceHandle": "r",
+      "targetHandle": "l"
+    },
+    "e9": {
+      "id": "e9",
+      "areaId": "root",
+      "source": "hub",
+      "target": "b-videos",
+      "sourceHandle": "l",
+      "targetHandle": "r"
+    },
+    "e10": {
+      "id": "e10",
+      "areaId": "root",
+      "source": "links",
+      "target": "l-learn",
+      "sourceHandle": "b",
+      "targetHandle": "t"
+    },
+    "e11": {
+      "id": "e11",
+      "areaId": "root",
+      "source": "links",
+      "target": "l-ref",
+      "sourceHandle": "b",
+      "targetHandle": "t"
+    },
+    "e12": {
+      "id": "e12",
+      "areaId": "b-internals",
+      "source": "int-trigger",
+      "target": "int-render",
+      "sourceHandle": "r",
+      "targetHandle": "l"
+    },
+    "e13": {
+      "id": "e13",
+      "areaId": "b-internals",
+      "source": "int-render",
+      "target": "int-reconcile",
+      "sourceHandle": "r",
+      "targetHandle": "l"
+    },
+    "e14": {
+      "id": "e14",
+      "areaId": "b-internals",
+      "source": "int-reconcile",
+      "target": "int-commit",
+      "sourceHandle": "r",
+      "targetHandle": "l"
+    },
+    "e15": {
+      "id": "e15",
+      "areaId": "b-internals",
+      "source": "int-commit",
+      "target": "int-paint",
+      "sourceHandle": "r",
+      "targetHandle": "l"
+    },
+    "e16": {
+      "id": "e16",
+      "areaId": "b-timeline",
+      "source": "era-1",
+      "target": "era-2",
+      "sourceHandle": "r",
+      "targetHandle": "l"
+    },
+    "e17": {
+      "id": "e17",
+      "areaId": "b-timeline",
+      "source": "era-2",
+      "target": "era-3",
+      "sourceHandle": "r",
+      "targetHandle": "l"
+    },
+    "e18": {
+      "id": "e18",
+      "areaId": "b-timeline",
+      "source": "era-3",
+      "target": "era-4",
+      "sourceHandle": "r",
+      "targetHandle": "l"
+    },
+    "e19": {
+      "id": "e19",
+      "areaId": "b-patterns",
+      "source": "pat-patterns",
+      "target": "p-compound",
+      "sourceHandle": "b",
+      "targetHandle": "t"
+    },
+    "e20": {
+      "id": "e20",
+      "areaId": "b-patterns",
+      "source": "pat-perf",
+      "target": "pf-measure",
+      "sourceHandle": "b",
+      "targetHandle": "t"
+    },
+    "e21": {
+      "id": "e21",
+      "areaId": "b-patterns",
+      "source": "pat-state",
+      "target": "st-local",
+      "sourceHandle": "b",
+      "targetHandle": "t"
+    },
+    "e22": {
+      "id": "e22",
+      "areaId": "b-server",
+      "source": "srv-csr",
+      "target": "srv-ssr",
+      "sourceHandle": "r",
+      "targetHandle": "l"
+    },
+    "e23": {
+      "id": "e23",
+      "areaId": "b-server",
+      "source": "srv-ssr",
+      "target": "srv-ssg",
+      "sourceHandle": "r",
+      "targetHandle": "l"
+    },
+    "e24": {
+      "id": "e24",
+      "areaId": "b-server",
+      "source": "srv-ssg",
+      "target": "srv-rsc",
+      "sourceHandle": "r",
+      "targetHandle": "l"
+    },
+    "e25": {
+      "id": "e25",
+      "areaId": "b-interview",
+      "source": "iv-questions",
+      "target": "iv-q0",
+      "sourceHandle": "b",
+      "targetHandle": "t"
+    }
+  },
+  "viewports": {}
+}

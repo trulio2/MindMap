@@ -65,3 +65,19 @@ describe('applyFormat: lists', () => {
     expect(run('[- a\n- b]', 'list')).toBe('[a\nb]')
   })
 })
+
+describe('applyFormat: code blocks', () => {
+  it('fences the selected lines and keeps the code selected', () => {
+    expect(run('intro\nco[nst a = 1\nlog(a])\nend', 'codeblock')).toBe(
+      'intro\n```\n[const a = 1\nlog(a)]\n```\nend'
+    )
+  })
+
+  it('inserts a placeholder on an empty line', () => {
+    expect(run('a\n[]', 'codeblock')).toBe('a\n```\n[code]\n```')
+  })
+
+  it('removes the fences when the selection is a fenced block', () => {
+    expect(run('[```js\nx()\n```]', 'codeblock')).toBe('[x()]')
+  })
+})

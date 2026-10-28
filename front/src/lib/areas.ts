@@ -1,8 +1,7 @@
 import { ROOT_AREA, type MapNode } from '@/types'
-import { plainText } from './markdown'
+import { FENCE, plainText } from './markdown'
 import { displayHost, safeHref } from './url'
 
-/** Route for a map, or for an area (the inside of a node) in that map. */
 export function areaPath(mapId: string, areaId: string = ROOT_AREA) {
   const map = `/map/${encodeURIComponent(mapId)}`
   return areaId === ROOT_AREA
@@ -14,7 +13,8 @@ export function nodeTitle(node: MapNode): string {
   const { label, text, url } = node.data
   if (label) return plainText(label)
   if ((node.kind === 'text' || node.kind === 'sticky') && text) {
-    const firstLine = plainText(text.split('\n')[0])
+    const line = text.split('\n').find((l) => l.trim() && !FENCE.test(l)) ?? ''
+    const firstLine = plainText(line)
     return firstLine.length > 40 ? `${firstLine.slice(0, 40)}…` : firstLine
   }
   const href = safeHref(url)
