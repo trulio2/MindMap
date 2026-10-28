@@ -5,8 +5,7 @@ on:
     branches: ['master']
     paths:
       - 'front/**'
-  schedule:
-    - cron: '15 10 * * *'
+      - '.github/workflows/deploy.yml'
   workflow_dispatch:
 
 permissions:
@@ -14,13 +13,11 @@ permissions:
 
 concurrency:
   group: 'pages'
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # push the data branch
     defaults:
       run:
         working-directory: front
@@ -37,15 +34,12 @@ jobs:
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-          cp data-store/dashboard.json front/public/data/dashboard.json
 
       - name: Lint
         run: yarn lint
 
       - name: Build project
         run: yarn build
-        env:
-          VITE_IMPOSTOMETRO_PROXY_URL: ${{ vars.VITE_IMPOSTOMETRO_PROXY_URL }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v6
