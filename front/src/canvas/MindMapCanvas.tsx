@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useRef } from 'react'
+import { useCallback, useEffect, useMemo, useRef } from 'react'
 import {
   Background,
   ConnectionMode,
@@ -11,18 +11,31 @@ import {
   useReactFlow,
   type Connection,
   type EdgeChange,
+  type EdgeMouseHandler,
   type NodeChange,
   type OnConnectEnd,
   type ReactFlowInstance
 } from '@xyflow/react'
 import '@xyflow/react/dist/style.css'
+import { fitSize, loadImageFile } from '@/lib/image'
+import { normalizeUrl } from '@/lib/url'
 import { useMindMap } from '@/store/mindmap.store'
 import { useUi, type StorageError } from '@/store/ui.store'
-import type { XY } from '@/types'
+import type { MapNode, NodeKind, XY } from '@/types'
+import LabeledEdge from './edges/LabeledEdge'
+import ImageNode from './nodes/ImageNode'
+import LinkNode from './nodes/LinkNode'
+import TextNode from './nodes/TextNode'
 import TopicNode from './nodes/TopicNode'
 import type { FlowEdge, FlowNode } from './types'
 
-const nodeTypes = { topic: TopicNode }
+const nodeTypes = {
+  topic: TopicNode,
+  text: TextNode,
+  image: ImageNode,
+  link: LinkNode
+}
+const edgeTypes = { labeled: LabeledEdge }
 const deleteKeys = ['Backspace', 'Delete']
 
 const storageMessages: Record<StorageError, string> = {
@@ -31,10 +44,24 @@ const storageMessages: Record<StorageError, string> = {
     'This browser is blocking storage, so changes are not saved. Export your map to keep it.'
 }
 
+function isTyping(target: EventTarget | null) {
+  return (
+    target instanceof HTMLElement &&
+    (target.isContentEditable ||
+      /^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName))
+  )
+}
+
+function imageFiles(files: FileList | undefined | null) {
+  return [...(files ?? [])].filter((f) => f.type.startsWith('image/'))
+}
+
 type Props = { areaId: string }
 
 export default function MindMapCanvas({ areaId }: Props) {
   const wrapperRef = useRef<HTMLDivElement>(null)
+  const lastPointer = useRef<XY | null>(null)
+  const fileInputRef = useRef<HTMLInputElement>(null)
   const { screenToFlowPosition } = useReactFlow()
 
   const docNodes = useMindMap((s) => s.nodes)
@@ -73,6 +100,8 @@ export default function MindMapCanvas({ areaId }: Props) {
           id: n.id,
           type: n.kind,
           position: n.position,
+          width: n.size?.width,
+          height: n.size?.height,
           measured: n.measured,
           data: n.data,
           selected: !!selectedNodes[n.id]
@@ -86,10 +115,12 @@ export default function MindMapCanvas({ areaId }: Props) {
         .filter((e) => e.areaId === areaId)
         .map((e) => ({
           id: e.id,
+          type: 'labeled',
           source: e.source,
           target: e.target,
           sourceHandle: e.sourceHandle,
           targetHandle: e.targetHandle,
+          data: { label: e.label },
           selected: !!selectedEdges[e.id]
         })),
     [docEdges, areaId, selectedEdges]
@@ -98,24 +129,28 @@ export default function MindMapCanvas({ areaId }: Props) {
   const onNodesChange = useCallback(
     (changes: NodeChange<FlowNode>[]) => {
       const patches: Parameters<typeof patchNodes>[0] = {}
+      const patch = (id: string, value: (typeof patches)[string]) =>
+        (patches[id] = { ...patches[id], ...value })
       const selection: Record<string, boolean> = {}
       const removed: string[] = []
 
       for (const change of changes) {
         switch (change.type) {
           case 'position':
-            if (change.position)
-              patches[change.id] = {
-                ...patches[change.id],
-                position: change.position
-              }
+            if (change.position) patch(change.id, { position: change.position })
             break
           case 'dimensions':
-            if (change.dimensions)
-              patches[change.id] = {
-                ...patches[change.id],
-                measured: change.dimensions
-              }
+            if (!change.dimensions) break
+            patch(change.id, { measured: change.dimensions })
+            // Resize handles set the size; text bubbles only take a width
+            // so their height keeps following the text.
+            if (change.setAttributes) {
+              const { width, height } = change.dimensions
+              const kind = useMindMap.getState().nodes[change.id]?.kind
+              patch(change.id, {
+                size: kind === 'text' ? { width } : { width, height }
+              })
+            }
             break
           case 'select':
             selection[change.id] = change.selected
@@ -158,9 +193,16 @@ export default function MindMapCanvas({ areaId }: Props) {
     [addEdge, areaId]
   )
 
-  const createTopicAt = useCallback(
-    (position: XY) => {
-      const id = addNode(areaId, position)
+  const onEdgeDoubleClick = useCallback<EdgeMouseHandler<FlowEdge>>(
+    (_, edge) => setEditing(edge.id),
+    [setEditing]
+  )
+
+  /** Adds a node and, for kinds you type into, opens it for editing. */
+  const createNode = useCallback(
+    (kind: NodeKind, position: XY, extra?: Pick<MapNode, 'data' | 'size'>) => {
+      const id = addNode(areaId, { kind, position, ...extra })
+      if (kind === 'image' || extra?.data) return id
       setEditing(id)
       return id
     },
@@ -190,41 +232,126 @@ export default function MindMapCanvas({ areaId }: Props) {
       if (!(event.target as Element | null)?.closest('.react-flow__pane'))
         return
 
-      const target = createTopicAt(
+      const target = createNode(
+        'topic',
         screenToFlowPosition({ x: clientX, y: clientY })
       )
       addEdge(areaId, { ...from, target, targetHandle: null })
     },
-    [addEdge, areaId, createTopicAt, screenToFlowPosition]
+    [addEdge, areaId, createNode, screenToFlowPosition]
   )
+
+  /** Where new things go: the pointer if it is over the canvas, else the center. */
+  const insertPoint = useCallback((): XY => {
+    const rect = wrapperRef.current!.getBoundingClientRect()
+    const screen = lastPointer.current ?? {
+      x: rect.left + rect.width / 2,
+      y: rect.top + rect.height / 2
+    }
+    return screenToFlowPosition(screen)
+  }, [screenToFlowPosition])
+
+  const addImages = useCallback(
+    async (files: File[], at: XY) => {
+      for (const [i, file] of files.entries()) {
+        try {
+          const image = await loadImageFile(file)
+          const size = fitSize(image.size)
+          createNode(
+            'image',
+            {
+              x: at.x - size.width / 2 + i * 24,
+              y: at.y - size.height / 2 + i * 24
+            },
+            { data: { src: image.src, label: image.name }, size }
+          )
+        } catch (error) {
+          console.warn(`Could not read image ${file.name}`, error)
+        }
+      }
+    },
+    [createNode]
+  )
+
+  // Pasting outside a text field: images become image nodes, URLs become
+  // links and any other text becomes a text bubble.
+  useEffect(() => {
+    function onPaste(event: ClipboardEvent) {
+      if (isTyping(event.target) || !event.clipboardData) return
+      const images = imageFiles(event.clipboardData.files)
+      const text = event.clipboardData.getData('text/plain').trim()
+      if (!images.length && !text) return
+      event.preventDefault()
+
+      const at = insertPoint()
+      if (images.length) return void addImages(images, at)
+      const url = normalizeUrl(text)
+      if (url && !/\s/.test(text)) createNode('link', at, { data: { url } })
+      else createNode('text', at, { data: { text } })
+    }
+    document.addEventListener('paste', onPaste)
+    return () => document.removeEventListener('paste', onPaste)
+  }, [addImages, createNode, insertPoint])
 
   function onDoubleClick(event: React.MouseEvent) {
     if (!(event.target as Element).classList.contains('react-flow__pane'))
       return
-    createTopicAt(screenToFlowPosition({ x: event.clientX, y: event.clientY }))
-  }
-
-  function addTopicAtCenter() {
-    const rect = wrapperRef.current?.getBoundingClientRect()
-    if (!rect) return
-    createTopicAt(
-      screenToFlowPosition({
-        x: rect.left + rect.width / 2,
-        y: rect.top + rect.height / 2
-      })
+    createNode(
+      'topic',
+      screenToFlowPosition({ x: event.clientX, y: event.clientY })
     )
   }
 
+  function onDragOver(event: React.DragEvent) {
+    if (!event.dataTransfer.types.includes('Files')) return
+    event.preventDefault()
+    event.dataTransfer.dropEffect = 'copy'
+  }
+
+  function onDrop(event: React.DragEvent) {
+    const images = imageFiles(event.dataTransfer.files)
+    if (!images.length) return
+    event.preventDefault()
+    void addImages(
+      images,
+      screenToFlowPosition({ x: event.clientX, y: event.clientY })
+    )
+  }
+
+  function onPickImages(event: React.ChangeEvent<HTMLInputElement>) {
+    const images = imageFiles(event.target.files)
+    event.target.value = ''
+    lastPointer.current = null
+    void addImages(images, insertPoint())
+  }
+
+  function addAtCenter(kind: NodeKind) {
+    lastPointer.current = null
+    createNode(kind, insertPoint())
+  }
+
   return (
-    <div className="canvas" ref={wrapperRef} onDoubleClick={onDoubleClick}>
+    <div
+      className="canvas"
+      ref={wrapperRef}
+      onDoubleClick={onDoubleClick}
+      onDragOver={onDragOver}
+      onDrop={onDrop}
+      onPointerMove={(e) =>
+        (lastPointer.current = { x: e.clientX, y: e.clientY })
+      }
+      onPointerLeave={() => (lastPointer.current = null)}
+    >
       <ReactFlow
         nodes={nodes}
         edges={edges}
         nodeTypes={nodeTypes}
+        edgeTypes={edgeTypes}
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
         onConnect={onConnect}
         onConnectEnd={onConnectEnd}
+        onEdgeDoubleClick={onEdgeDoubleClick}
         connectionMode={ConnectionMode.Loose}
         deleteKeyCode={deleteKeys}
         zoomOnDoubleClick={false}
@@ -237,9 +364,42 @@ export default function MindMapCanvas({ areaId }: Props) {
         <Controls />
         <MiniMap pannable zoomable />
         <Panel position="top-left" className="toolbar">
-          <button type="button" className="btn" onClick={addTopicAtCenter}>
+          <button
+            type="button"
+            className="btn"
+            onClick={() => addAtCenter('topic')}
+          >
             + Topic
           </button>
+          <button
+            type="button"
+            className="btn"
+            onClick={() => addAtCenter('text')}
+          >
+            + Text
+          </button>
+          <button
+            type="button"
+            className="btn"
+            onClick={() => addAtCenter('link')}
+          >
+            + Link
+          </button>
+          <button
+            type="button"
+            className="btn"
+            onClick={() => fileInputRef.current?.click()}
+          >
+            + Image
+          </button>
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept="image/*"
+            multiple
+            hidden
+            onChange={onPickImages}
+          />
         </Panel>
         {storageError && (
           <Panel position="top-center" className="banner" role="alert">
@@ -247,8 +407,9 @@ export default function MindMapCanvas({ areaId }: Props) {
           </Panel>
         )}
         <Panel position="bottom-center" className="hint">
-          Double-click the canvas to add a topic · Drag from a dot to connect ·
-          Double-click a topic to rename · Del to delete
+          Double-click the canvas for a topic · Paste or drop images and links ·
+          Double-click anything to edit · Drag from a dot to connect · Del to
+          delete
         </Panel>
       </ReactFlow>
     </div>

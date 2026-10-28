@@ -1,6 +1,8 @@
-import type { Edge, Node } from '@xyflow/react'
-import type { MapNodeData } from '@/types'
+import type { Edge, Node, NodeProps } from '@xyflow/react'
+import type { MapNodeData, NodeKind } from '@/types'
 
-export type TopicFlowNode = Node<MapNodeData, 'topic'>
-export type FlowNode = TopicFlowNode
-export type FlowEdge = Edge
+export type FlowNode = Node<MapNodeData, NodeKind>
+export type MapNodeProps = NodeProps<FlowNode>
+
+export type EdgeData = { label?: string }
+export type FlowEdge = Edge<EdgeData, 'labeled'>

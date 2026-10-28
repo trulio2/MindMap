@@ -7,26 +7,46 @@ import {
   type MapNode,
   type MapNodeData,
   type MindMapDoc,
+  type NodeKind,
   type XY
 } from '@/types'
 import { debouncedLocalStorage } from './storage'
 
 const STORAGE_KEY = 'mindmap'
 
-type NodePatch = Partial<Pick<MapNode, 'position' | 'measured'>>
+type NodePatch = Partial<Pick<MapNode, 'position' | 'measured' | 'size'>>
 
 type EdgeEnds = Pick<
   MapEdge,
   'source' | 'target' | 'sourceHandle' | 'targetHandle'
 >
 
+type NewNode = {
+  kind: NodeKind
+  position: XY
+  data?: MapNodeData
+  size?: MapNode['size']
+}
+
+const defaultSize: Partial<Record<NodeKind, MapNode['size']>> = {
+  text: { width: 220 }
+}
+
+const defaultData: Record<NodeKind, MapNodeData> = {
+  topic: { label: 'New topic' },
+  text: { text: '' },
+  image: {},
+  link: { label: '', url: '' }
+}
+
 type MindMapState = MindMapDoc & {
-  addNode: (areaId: string, position: XY, data?: Partial<MapNodeData>) => string
+  addNode: (areaId: string, node: NewNode) => string
   updateNodeData: (id: string, data: Partial<MapNodeData>) => void
   patchNodes: (patches: Record<string, NodePatch>) => void
   /** Removes the nodes, everything inside their areas and every touching edge. */
   deleteNodes: (ids: string[]) => void
   addEdge: (areaId: string, ends: EdgeEnds) => string | null
+  setEdgeLabel: (id: string, label: string) => void
   deleteEdges: (ids: string[]) => void
 }
 
@@ -69,15 +89,17 @@ export const useMindMap = create<MindMapState>()(
       nodes: {},
       edges: {},
 
-      addNode: (areaId, position, data) => {
+      addNode: (areaId, { kind, position, data, size }) => {
         const id = nanoid()
         const node: MapNode = {
           id,
           areaId,
-          kind: 'topic',
+          kind,
           position,
-          data: { label: 'New topic', ...data }
+          data: { ...defaultData[kind], ...data }
         }
+        const nodeSize = size ?? defaultSize[kind]
+        if (nodeSize) node.size = nodeSize
         set((s) => ({ nodes: { ...s.nodes, [id]: node } }))
         return id
       },
@@ -134,6 +156,15 @@ export const useMindMap = create<MindMapState>()(
         set((s) => ({ edges: { ...s.edges, [id]: { id, areaId, ...ends } } }))
         return id
       },
+
+      setEdgeLabel: (id, label) =>
+        set((s) => {
+          const edge = s.edges[id]
+          if (!edge) return s
+          const next: MapEdge = { ...edge, label }
+          if (!label) delete next.label
+          return { edges: { ...s.edges, [id]: next } }
+        }),
 
       deleteEdges: (ids) =>
         set((s) => {
