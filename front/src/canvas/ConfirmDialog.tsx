@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import Modal from './Modal'
 
 export type ConfirmRequest = {
   title: string
@@ -10,29 +10,12 @@ export type ConfirmRequest = {
 type Props = {
   request: ConfirmRequest | null
   onClose: () => void
-  /** Optional middle action, e.g. exporting before the map is replaced. */
   extra?: { label: string; onClick: () => void }
 }
 
-/** Modal confirmation built on <dialog>. Cancel has focus by default. */
 export default function ConfirmDialog({ request, onClose, extra }: Props) {
-  const ref = useRef<HTMLDialogElement>(null)
-
-  useEffect(() => {
-    const dialog = ref.current
-    if (!dialog) return
-    if (request && !dialog.open) dialog.showModal()
-    if (!request && dialog.open) dialog.close()
-  }, [request])
-
   return (
-    <dialog
-      ref={ref}
-      className="dialog"
-      aria-labelledby="confirm-title"
-      // Escape closes the dialog natively; keep React state in sync.
-      onClose={onClose}
-    >
+    <Modal open={!!request} onClose={onClose} labelledBy="confirm-title">
       {request && (
         <>
           <h2 id="confirm-title">{request.title}</h2>
@@ -59,6 +42,6 @@ export default function ConfirmDialog({ request, onClose, extra }: Props) {
           </div>
         </>
       )}
-    </dialog>
+    </Modal>
   )
 }

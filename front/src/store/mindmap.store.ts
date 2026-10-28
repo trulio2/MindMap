@@ -35,7 +35,6 @@ type NewNode = {
   size?: MapNode['size']
 }
 
-/** What undo restores. Pan and zoom are not part of it. */
 type Snapshot = Pick<MindMapDoc, 'nodes' | 'edges'>
 
 const defaultSize: Partial<Record<NodeKind, MapNode['size']>> = {
@@ -52,39 +51,23 @@ const defaultData: Record<NodeKind, MapNodeData> = {
 }
 
 type MindMapState = MindMapDoc & {
-  /** Undo and redo stacks; kept in memory only, never saved. */
   past: Snapshot[]
   future: Snapshot[]
 
   addNode: (areaId: string, node: NewNode) => string
   updateNodeData: (id: string, data: Partial<MapNodeData>) => void
-  /** Moves and resizes; call `checkpoint` when such a gesture starts. */
   patchNodes: (patches: Record<string, NodePatch>) => void
-  /** Removes the nodes, everything inside their areas and every touching edge. */
   deleteNodes: (ids: string[]) => void
-  /** The nodes with everything inside them and the edges between them. */
   copyNodes: (ids: string[]) => Clip | null
-  /**
-   * Adds a copy of the clip to an area, with new ids; `at` is where its
-   * top-left corner goes. Returns the ids of the pasted top-level nodes.
-   */
   pasteClip: (areaId: string, clip: Clip, at?: XY) => string[]
-  /**
-   * Removes a node that was left empty, like a new text bubble that was
-   * cancelled. If the last change created it, that undo step goes too.
-   */
   discardNode: (id: string) => void
-  /** Copies the nodes, with everything inside them, next to themselves. */
   duplicateNodes: (ids: string[]) => string[]
   addEdge: (areaId: string, ends: EdgeEnds) => string | null
   setEdgeLabel: (id: string, label: string) => void
   deleteEdges: (ids: string[]) => void
   saveViewport: (areaId: string, viewport: AreaViewport) => void
-  /** Swaps in a whole map, e.g. from an import or "New map". Undoable. */
   replaceDoc: (doc: MindMapDoc) => void
-  /** Records the current map as an undo step before a drag or resize. */
   checkpoint: () => void
-  /** Runs several changes as a single undo step. */
   group: <T>(changes: () => T) => T
   undo: () => void
   redo: () => void
@@ -108,10 +91,6 @@ function collectWithDescendants(
   return removed
 }
 
-/**
- * Saved state gets the same checks as an imported file; anything that isn't
- * a map at all falls back to an empty one.
- */
 function readDoc(value: unknown): MindMapDoc {
   try {
     return parseDoc(value).doc
@@ -129,9 +108,6 @@ function without<T>(record: Record<string, T>, removed: Set<string>) {
 export const useMindMap = create<MindMapState>()(
   persist(
     (set, get) => {
-      // State is immutable, so a snapshot is just the current references.
-      // A click that starts a drag but moves nothing would push the same
-      // references twice; skip those so every undo step changes something.
       let grouping = false
       const checkpoint = () => {
         if (grouping) return
@@ -173,7 +149,6 @@ export const useMindMap = create<MindMapState>()(
 
         updateNodeData: (id, data) => {
           const current = get().nodes[id]?.data
-          // Saving an edit without changes shouldn't leave an empty undo step.
           const changed =
             current &&
             Object.entries(data).some(
@@ -229,8 +204,6 @@ export const useMindMap = create<MindMapState>()(
           )
           if (!copied.size) return null
 
-          // The copied nodes become the clip's root level, so a clip has
-          // the same shape as an exported map.
           const toClip = (areaId: string) =>
             copied.has(areaId) ? areaId : ROOT_AREA
           const clip: Clip = { nodes: {}, edges: {} }
@@ -256,8 +229,6 @@ export const useMindMap = create<MindMapState>()(
           )
           if (!top.length) return []
 
-          // Move the pasted group so its top-left corner lands on `at`;
-          // without a point, offset it from where it was copied.
           const minX = Math.min(...top.map((n) => n.position.x))
           const minY = Math.min(...top.map((n) => n.position.y))
           const dx = at ? at.x - minX : PASTE_OFFSET
@@ -270,7 +241,6 @@ export const useMindMap = create<MindMapState>()(
               ...node,
               id: remap(node.id),
               areaId: remap(node.areaId),
-              // Only the copied nodes move; their contents keep their layout.
               position: isTop
                 ? { x: node.position.x + dx, y: node.position.y + dy }
                 : node.position
@@ -300,8 +270,6 @@ export const useMindMap = create<MindMapState>()(
           const { past, nodes, deleteNodes } = get()
           if (!nodes[id]) return
           const last = past.at(-1)
-          // Snapshots are taken before each change, so one without the node
-          // means the latest change created it: step back to before that.
           if (last && !last.nodes[id]) {
             set({ ...last, past: past.slice(0, -1) })
           } else {
@@ -404,10 +372,7 @@ export const useMindMap = create<MindMapState>()(
         edges: s.edges,
         viewports: s.viewports
       }),
-      // Add a step here for each DOC_VERSION bump.
       migrate: (persisted) => readDoc(persisted),
-      // Loading (or syncing from another tab) starts a fresh history, since
-      // old steps would undo changes made elsewhere.
       merge: (persisted, current) => ({
         ...current,
         ...readDoc(persisted),
@@ -418,16 +383,12 @@ export const useMindMap = create<MindMapState>()(
   )
 )
 
-/** Elements that are useless without content and aren't worth keeping. */
 function isEmptyNode({ kind, data }: MapNode) {
   if (kind === 'text') return !data.text?.trim()
   if (kind === 'link' || kind === 'video') return !data.url
   return false
 }
 
-// However editing ends (save, cancel, Esc, undo, leaving the area), a text
-// bubble, link or video that is still empty is removed. Nodes save their
-// content before ending the edit, so a filled-in node is never caught here.
 useUi.subscribe((state, prev) => {
   const id = prev.editingId
   if (!id || id === state.editingId) return
@@ -435,7 +396,6 @@ useUi.subscribe((state, prev) => {
   if (node && isEmptyNode(node)) useMindMap.getState().discardNode(id)
 })
 
-// Pick up changes saved by the app in another tab.
 window.addEventListener('storage', (event) => {
   if (event.key === STORAGE_KEY) void useMindMap.persist.rehydrate()
 })

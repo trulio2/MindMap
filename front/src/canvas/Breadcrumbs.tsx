@@ -5,7 +5,6 @@ import { ROOT_AREA } from '@/types'
 
 type Props = { areaId: string }
 
-/** Where you are in the nested map, with an "up one level" button. */
 export default function Breadcrumbs({ areaId }: Props) {
   const nodes = useMindMap((s) => s.nodes)
   if (areaId === ROOT_AREA) return null

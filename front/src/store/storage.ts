@@ -28,14 +28,8 @@ function flush() {
   pending.clear()
 }
 
-// Don't lose the last debounced write when the tab closes.
 window.addEventListener('pagehide', flush)
 
-/**
- * localStorage with batched writes. Dragging changes state on every frame,
- * and serializing a map with images that often would stall the UI.
- * Failures (full or blocked storage) are reported to the UI store.
- */
 export const debouncedLocalStorage: StateStorage = {
   getItem: (name) => {
     if (pending.has(name)) return pending.get(name)!

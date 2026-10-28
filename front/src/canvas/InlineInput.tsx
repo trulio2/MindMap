@@ -6,11 +6,8 @@ type Props = {
   initial: string
   placeholder?: string
   className?: string
-  /** Enter adds a line break; Ctrl/Cmd+Enter or leaving the field saves. */
   multiline?: boolean
-  /** Show the Markdown formatting bar; lists only make sense multi-line. */
   formatting?: boolean
-  /** Called with the trimmed value, or null when editing was cancelled. */
   onDone: (value: string | null) => void
 }
 
@@ -32,10 +29,6 @@ const shortcutFormats: Record<string, Format> = {
   k: 'link'
 }
 
-/**
- * A text field that saves on Enter or blur and cancels on Escape, with an
- * optional Markdown formatting bar above it.
- */
 export default function InlineInput({
   initial,
   placeholder,
@@ -48,7 +41,6 @@ export default function InlineInput({
   const ref = useAutoFocus<HTMLInputElement & HTMLTextAreaElement>(true)
   const pendingSelection = useRef<[number, number] | null>(null)
 
-  // Put the selection back after a format action re-renders the text.
   useLayoutEffect(() => {
     const field = ref.current
     if (!field || !pendingSelection.current) return
@@ -106,7 +98,6 @@ export default function InlineInput({
                 className={`format-btn format-${b.format}`}
                 title={b.title}
                 aria-label={b.title}
-                // Keep focus (and the selection) in the field.
                 onMouseDown={(e) => e.preventDefault()}
                 onClick={() => format(b.format)}
               >

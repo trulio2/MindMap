@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import Modal from './Modal'
 
 const isMac = /Mac|iPhone|iPad/.test(navigator.platform)
 const mod = isMac ? '⌘' : 'Ctrl'
@@ -55,21 +55,12 @@ const groups: { title: string; keys: [string, string][] }[] = [
 type Props = { open: boolean; onClose: () => void }
 
 export default function HelpDialog({ open, onClose }: Props) {
-  const ref = useRef<HTMLDialogElement>(null)
-
-  useEffect(() => {
-    const dialog = ref.current
-    if (!dialog) return
-    if (open && !dialog.open) dialog.showModal()
-    if (!open && dialog.open) dialog.close()
-  }, [open])
-
   return (
-    <dialog
-      ref={ref}
-      className="dialog help"
-      aria-labelledby="help-title"
+    <Modal
+      open={open}
       onClose={onClose}
+      labelledBy="help-title"
+      className="help"
     >
       <h2 id="help-title">Help</h2>
       <p className="help-intro">
@@ -95,6 +86,6 @@ export default function HelpDialog({ open, onClose }: Props) {
           Close
         </button>
       </div>
-    </dialog>
+    </Modal>
   )
 }

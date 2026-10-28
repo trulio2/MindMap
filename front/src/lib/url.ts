@@ -1,6 +1,5 @@
 const SAFE_PROTOCOLS = new Set(['http:', 'https:', 'mailto:'])
 
-/** Turns user input like "example.com" into a full URL, or null if it isn't one. */
 export function normalizeUrl(input: string): string | null {
   const value = input.trim()
   if (!value) return null
@@ -17,10 +16,6 @@ export function normalizeUrl(input: string): string | null {
   }
 }
 
-/**
- * The href to render for a stored URL. Imported maps can contain anything,
- * so `javascript:` and other schemes never reach an anchor.
- */
 export function safeHref(url: string | undefined): string | undefined {
   if (!url) return undefined
   try {
@@ -40,7 +35,6 @@ export function displayHost(url: string): string {
   }
 }
 
-/** Only embedded images render, so a map never loads anything from the network. */
 export function safeImageSrc(src: string | undefined): string | undefined {
   return src?.startsWith('data:image/') ? src : undefined
 }

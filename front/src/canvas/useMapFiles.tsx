@@ -23,10 +23,6 @@ function importedNotice({ doc, skipped }: ParsedDoc): Notice {
   return { kind: 'info', text: items + broken }
 }
 
-/**
- * Export, import and "new map", with a confirmation before anything replaces
- * a map that has content. Render `dialog` somewhere in the tree.
- */
 export function useMapFiles() {
   const navigate = useNavigate()
   const [confirm, setConfirm] = useState<ConfirmRequest | null>(null)
@@ -47,7 +43,6 @@ export function useMapFiles() {
     [navigate, setNotice]
   )
 
-  /** Asks first, unless there is nothing to lose. */
   const guard = useCallback((request: ConfirmRequest) => {
     const isEmpty = !Object.keys(useMindMap.getState().nodes).length
     if (isEmpty) request.onConfirm()

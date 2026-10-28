@@ -70,7 +70,6 @@ function imageFiles(files: FileList | undefined | null) {
   return [...(files ?? [])].filter((f) => f.type.startsWith('image/'))
 }
 
-/** The start of a connection dragged out to empty space. */
 type ConnectFrom = { source: string; sourceHandle: string | null }
 
 type Props = { areaId: string }
@@ -116,13 +115,8 @@ export default function MindMapCanvas({ areaId }: Props) {
   const { selectNodes, selectEdges, setEditing, resetInteraction } =
     useUi.getState()
 
-  // Start a new canvas without the previous area's selection or edit.
   useEffect(() => useUi.getState().resetInteraction(), [])
 
-  // On open, go back to where you left this area. Otherwise fit its content
-  // from the saved node sizes: React Flow's own fitView drops the fit when
-  // restored nodes are measured before its zoom handler exists, and on an
-  // empty area it zooms right into the first new node.
   const restoreViewport = useCallback(
     (flow: ReactFlowInstance<FlowNode, FlowEdge>) => {
       const { nodes, viewports } = useMindMap.getState()
@@ -154,8 +148,6 @@ export default function MindMapCanvas({ areaId }: Props) {
         width: n.size?.width,
         height: n.size?.height,
         measured: n.measured,
-        // Only nodes with content get a new data object, so the rest
-        // keep their identity and skip re-rendering.
         data: childCounts[n.id]
           ? { ...n.data, childCount: childCounts[n.id] }
           : n.data,
@@ -196,8 +188,6 @@ export default function MindMapCanvas({ areaId }: Props) {
           case 'dimensions':
             if (!change.dimensions) break
             patch(change.id, { measured: change.dimensions })
-            // Resize handles set the size; text bubbles only take a width
-            // so their height keeps following the text.
             if (change.setAttributes) {
               const { width, height } = change.dimensions
               const kind = useMindMap.getState().nodes[change.id]?.kind
@@ -252,7 +242,6 @@ export default function MindMapCanvas({ areaId }: Props) {
     [setEditing]
   )
 
-  /** Adds a node and, for kinds you type into, opens it for editing. */
   const createNode = useCallback(
     (kind: NodeKind, position: XY, extra?: Pick<MapNode, 'data' | 'size'>) => {
       const id = addNode(areaId, { kind, position, ...extra })
@@ -263,7 +252,6 @@ export default function MindMapCanvas({ areaId }: Props) {
     [addNode, areaId, setEditing]
   )
 
-  /** Where new things go: the pointer if it is over the canvas, else the center. */
   const insertPoint = useCallback((): XY => {
     const rect = wrapperRef.current!.getBoundingClientRect()
     const screen = lastPointer.current ?? {
@@ -273,7 +261,6 @@ export default function MindMapCanvas({ areaId }: Props) {
     return screenToFlowPosition(screen)
   }, [screenToFlowPosition])
 
-  /** Adds images around `at`; with `connectFrom`, the first one is connected. */
   const addImages = useCallback(
     async (files: File[], at: XY, connectFrom?: ConnectFrom) => {
       for (const [i, file] of files.entries()) {
@@ -305,9 +292,6 @@ export default function MindMapCanvas({ areaId }: Props) {
     [addEdge, areaId, createNode, group]
   )
 
-  // Pasting outside a text field: copied nodes are pasted as they were,
-  // images become image nodes, YouTube links become videos, other URLs
-  // become links and any other text becomes a text bubble.
   useEffect(() => {
     function onPaste(event: ClipboardEvent) {
       if (isTyping(event.target) || !event.clipboardData) return
@@ -332,7 +316,6 @@ export default function MindMapCanvas({ areaId }: Props) {
     return () => document.removeEventListener('paste', onPaste)
   }, [addImages, createNode, insertPoint, paste])
 
-  /** Where the next picked images go, when a menu chose the spot. */
   const imageTarget = useRef<{ at: XY; connectFrom?: ConnectFrom } | null>(null)
 
   function pickImagesAt(at: XY | null, connectFrom?: ConnectFrom) {
@@ -342,11 +325,6 @@ export default function MindMapCanvas({ areaId }: Props) {
 
   const closeMenu = useCallback(() => setMenu(null), [])
 
-  /**
-   * The "add" menu at a screen point: right-click or double-click on the
-   * canvas, or a connection dropped on empty space (`connectFrom`), in
-   * which case the new element is connected to where the drag started.
-   */
   const openAddMenu = useCallback(
     (screen: XY, connectFrom?: ConnectFrom) => {
       const at = screenToFlowPosition(screen)
@@ -355,7 +333,6 @@ export default function MindMapCanvas({ areaId }: Props) {
         label,
         onSelect: () => {
           if (kind === 'image') return pickImagesAt(at, connectFrom)
-          // One undo step for the element and its connection.
           group(() => {
             const id = createNode(kind, at)
             if (connectFrom) {
@@ -395,8 +372,6 @@ export default function MindMapCanvas({ areaId }: Props) {
     [openAddMenu]
   )
 
-  // Dropping a connection on empty canvas opens the add menu there;
-  // dropping it on a node body (away from its handles) connects to that node.
   const onConnectEnd = useCallback<OnConnectEnd>(
     (event, state) => {
       if (state.isValid || !state.fromNode || !state.fromHandle) return
@@ -420,8 +395,6 @@ export default function MindMapCanvas({ areaId }: Props) {
     [addEdge, areaId, openAddMenu]
   )
 
-  // Right-clicking a node in a multi-selection acts on the whole selection;
-  // otherwise it selects just that node first.
   const onNodeContextMenu = useCallback(
     (event: React.MouseEvent, node: FlowNode) => {
       event.preventDefault()
@@ -530,7 +503,6 @@ export default function MindMapCanvas({ areaId }: Props) {
         onConnect={onConnect}
         onConnectEnd={onConnectEnd}
         onEdgeDoubleClick={onEdgeDoubleClick}
-        // A whole drag is one undo step; record the map as it was before.
         onNodeDragStart={checkpoint}
         onSelectionDragStart={checkpoint}
         onPaneContextMenu={onPaneContextMenu}

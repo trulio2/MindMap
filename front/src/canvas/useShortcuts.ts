@@ -12,10 +12,6 @@ export const FIT_VIEW_OPTIONS = { maxZoom: 1.25, duration: 200 }
 const selectAll = (ids: string[]) =>
   Object.fromEntries(ids.map((id) => [id, true]))
 
-/**
- * Canvas keyboard shortcuts. Keys typed into a field or while a dialog is
- * open are left alone. Delete/Backspace are handled by React Flow itself.
- */
 export function useShortcuts(areaId: string, toggleHelp: () => void) {
   const navigate = useNavigate()
   const { fitView } = useReactFlow()

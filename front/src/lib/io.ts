@@ -14,7 +14,6 @@ import {
   type XY
 } from '@/types'
 
-/** Marks a JSON file as a map from this app. */
 export const FILE_APP = 'mindmap'
 
 const MAX_FILE_BYTES = 50 * 1024 * 1024
@@ -33,12 +32,10 @@ export type MapFile = MindMapDoc & {
   exportedAt: string
 }
 
-/** A file that can't be imported, with a message fit to show the user. */
 export class ImportError extends Error {}
 
 export type ParsedDoc = {
   doc: MindMapDoc
-  /** Nodes and edges that were malformed or unreachable and left out. */
   skipped: number
 }
 
@@ -57,11 +54,6 @@ const isNumber = (v: unknown): v is number =>
 
 const optionalString = (v: unknown) => (typeof v === 'string' ? v : undefined)
 
-/**
- * Ids become object keys, so names like "__proto__" would change an
- * object's prototype instead of adding an entry. The app only makes
- * nanoid ids, which use these characters.
- */
 const isSafeId = (id: string) =>
   /^[\w-]{1,64}$/.test(id) &&
   !['__proto__', 'constructor', 'prototype'].includes(id)
@@ -120,7 +112,6 @@ function readNode(id: string, v: unknown): MapNode | null {
   return node
 }
 
-/** Keeps only nodes reachable from the root, which drops orphans and loops. */
 function reachableNodes(candidates: MapNode[]): Record<string, MapNode> {
   const byArea = new Map<string, MapNode[]>()
   for (const node of candidates) {
@@ -185,12 +176,6 @@ function readViewports(
   return viewports
 }
 
-/**
- * Validates untrusted map data (an imported file or saved state) and rebuilds
- * it from known fields only. Broken pieces are dropped and counted; a value
- * that isn't a map at all throws an ImportError. `app` is the marker the
- * data must carry when it has one (maps and clipboard clips differ).
- */
 export function parseDoc(raw: unknown, app = FILE_APP): ParsedDoc {
   if (!isRecord(raw) || !isRecord(raw.nodes) || !isRecord(raw.edges)) {
     throw new ImportError("This file isn't a mind map export.")
@@ -230,15 +215,12 @@ export function parseDoc(raw: unknown, app = FILE_APP): ParsedDoc {
   }
 }
 
-/** Marks clipboard text as nodes copied from this app. */
 const CLIP_APP = 'mindmap-clip'
 
-/** Clipboard text for copied nodes, so they can be pasted in another tab. */
 export function serializeClip(clip: Clip): string {
   return JSON.stringify({ app: CLIP_APP, version: DOC_VERSION, ...clip })
 }
 
-/** Copied nodes from clipboard text, or null if the text is anything else. */
 export function parseClip(text: string): Clip | null {
   if (!text.includes(CLIP_APP)) return null
   try {
@@ -281,6 +263,5 @@ export function downloadDoc(doc: MindMapDoc) {
   link.href = url
   link.download = `mindmap-${file.exportedAt.slice(0, 10)}.json`
   link.click()
-  // Give the browser a moment to start the download before freeing the blob.
   setTimeout(() => URL.revokeObjectURL(url), 1000)
 }

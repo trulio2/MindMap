@@ -2,12 +2,10 @@ import { ROOT_AREA, type MapNode } from '@/types'
 import { plainText } from './markdown'
 import { displayHost, safeHref } from './url'
 
-/** Route for an area: the root map or the inside of a node. */
 export function areaPath(areaId: string) {
   return areaId === ROOT_AREA ? '/' : `/area/${encodeURIComponent(areaId)}`
 }
 
-/** A short name for a node, used for breadcrumbs and the page title. */
 export function nodeTitle(node: MapNode): string {
   const { label, text, url } = node.data
   if (label) return plainText(label)
@@ -21,11 +19,6 @@ export function nodeTitle(node: MapNode): string {
   return node.kind === 'image' ? 'Image' : 'Untitled'
 }
 
-/**
- * The nodes you are inside of, outermost first, ending with the area's own
- * node. Stops on missing parents and on loops, which an imported file could
- * contain.
- */
 export function areaTrail(
   nodes: Record<string, MapNode>,
   areaId: string

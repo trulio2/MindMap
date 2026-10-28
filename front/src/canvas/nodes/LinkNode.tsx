@@ -32,7 +32,6 @@ function LinkEditor({ label, url, onDone }: EditorProps) {
         e.preventDefault()
         save()
       }}
-      // Save once focus leaves the form, not when moving between its fields.
       onBlur={(e) => {
         if (!e.currentTarget.contains(e.relatedTarget as Node | null)) save()
       }}
@@ -68,8 +67,6 @@ export default function LinkNode({ id, data, selected }: MapNodeProps) {
   const href = safeHref(data.url)
 
   function finishEditing(value: LinkValue | null) {
-    // Save first: a link still without an address when editing ends is
-    // removed by the store.
     if (value) updateNodeData(id, value)
     setEditing(null)
   }

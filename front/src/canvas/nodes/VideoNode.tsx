@@ -46,13 +46,11 @@ function VideoEditor({ url, label, text, onDone }: EditorProps) {
         e.preventDefault()
         save()
       }}
-      // Save once focus leaves the form, not when moving between its fields.
       onBlur={(e) => {
         if (!e.currentTarget.contains(e.relatedTarget as Node | null)) save()
       }}
       onKeyDown={(e) => {
         if (e.key === 'Escape') onDone(null)
-        // Ctrl/Cmd+Enter saves from the description too.
         if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) save()
       }}
     >
@@ -93,15 +91,11 @@ export default function VideoNode({ id, data, selected }: MapNodeProps) {
   const setEditing = useUi((s) => s.setEditing)
   const updateNodeData = useMindMap((s) => s.updateNodeData)
   const checkpoint = useMindMap((s) => s.checkpoint)
-  // The YouTube player only loads once you press play; until then only
-  // the thumbnail image comes from YouTube.
   const [playing, setPlaying] = useState(false)
   const [thumbFailed, setThumbFailed] = useState(false)
   const video = parseYouTube(data.url)
 
   function finishEditing(value: VideoValue | null) {
-    // Save first: a video still without a link when editing ends is
-    // removed by the store.
     if (value) {
       if (value.url !== data.url) {
         setPlaying(false)
@@ -156,7 +150,6 @@ export default function VideoNode({ id, data, selected }: MapNodeProps) {
         />
       ) : (
         <>
-          {/* Title and description are the drag area; the player is not. */}
           <div className="video-head" onDoubleClick={() => setEditing(id)}>
             {data.label && <span className="video-title">{data.label}</span>}
           </div>

@@ -7,7 +7,6 @@ const sides = [
   { id: 'l', position: Position.Left }
 ]
 
-/** One handle per side. The canvas uses loose connections, so any handle can start or end an edge. */
 export default function NodeHandles() {
   return sides.map((side) => (
     <Handle

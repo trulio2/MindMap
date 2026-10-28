@@ -9,7 +9,6 @@ import { useUi } from '@/store/ui.store'
 import InlineInput from '../InlineInput'
 import type { FlowEdge } from '../types'
 
-/** Bezier edge with an optional label; double-click the edge to edit it. */
 export default function LabeledEdge({
   id,
   data,

@@ -11,11 +11,9 @@ type Props = {
   children?: React.ReactNode
 }
 
-/** Floating menu above a single selected node: colors, extra actions and Open. */
 export default function NodeMenu({ id, color, children }: Props) {
   const updateNodeData = useMindMap((s) => s.updateNodeData)
   const navigate = useNavigate()
-  // While editing, the formatting bar takes this spot.
   const editing = useUi((s) => s.editingId === id)
 
   return (

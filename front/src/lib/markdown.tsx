@@ -1,13 +1,6 @@
 import type { ReactNode } from 'react'
 import { normalizeUrl, safeHref } from './url'
 
-/*
- * A small Markdown subset for node text, rendered straight to React elements
- * (never to HTML, so text can't inject markup):
- *   **bold**  *italic* or _italic_  ~~strike~~  `code`  [text](url)
- *   bare https:// links, \* escapes, and in blocks "- " / "1. " lists.
- */
-
 const INLINE = new RegExp(
   [
     /\\([\\`*_~[\]()])/, // 1: escaped character
@@ -35,7 +28,6 @@ function link(url: string, children: ReactNode, key: string) {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      // Following a link shouldn't also start editing the node.
       onDoubleClick={(e) => e.stopPropagation()}
     >
       {children}
@@ -43,7 +35,6 @@ function link(url: string, children: ReactNode, key: string) {
   )
 }
 
-/** Formats one line or paragraph of text. */
 export function renderInline(text: string, key = 'md'): ReactNode[] {
   const out: ReactNode[] = []
   let last = 0
@@ -70,10 +61,6 @@ export function renderInline(text: string, key = 'md'): ReactNode[] {
 const BULLET = /^\s*[-*+]\s+/
 const NUMBERED = /^\s*\d+[.)]\s+/
 
-/**
- * Formats multi-line text: blank lines separate paragraphs, single line
- * breaks are kept, and "- " / "1. " lines become lists.
- */
 export function renderBlocks(text: string): ReactNode[] {
   const blocks: ReactNode[] = []
   const lines = text.split('\n')
@@ -121,7 +108,6 @@ export function renderBlocks(text: string): ReactNode[] {
   return blocks
 }
 
-/** The text without formatting marks, for titles and breadcrumbs. */
 export function plainText(text: string): string {
   return text
     .replace(INLINE, (...m: (string | undefined)[]) =>

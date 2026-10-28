@@ -4,14 +4,12 @@ export type MenuItem =
   | {
       label: string
       onSelect: () => void
-      /** Shortcut shown on the right, e.g. "Ctrl+C". */
       hint?: string
       danger?: boolean
     }
   | 'separator'
 
 type Props = {
-  /** Screen position of the click. */
   x: number
   y: number
   items: MenuItem[]
@@ -20,12 +18,10 @@ type Props = {
 
 const EDGE_GAP = 8
 
-/** Right-click menu. Closes on Escape, an outside click, scroll or blur. */
 export default function ContextMenu({ x, y, items, onClose }: Props) {
   const ref = useRef<HTMLDivElement>(null)
   const [position, setPosition] = useState({ left: x, top: y })
 
-  // Keep the menu inside the window, flipping it up or left near the edges.
   useLayoutEffect(() => {
     const menu = ref.current
     if (!menu) return
@@ -63,7 +59,6 @@ export default function ContextMenu({ x, y, items, onClose }: Props) {
     else if (event.key === 'ArrowUp')
       buttons[(index - 1 + buttons.length) % buttons.length]?.focus()
     else return
-    // Keep these keys away from the canvas shortcuts.
     event.preventDefault()
     event.stopPropagation()
   }

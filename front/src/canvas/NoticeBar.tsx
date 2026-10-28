@@ -3,7 +3,6 @@ import { useUi } from '@/store/ui.store'
 
 const INFO_TIMEOUT_MS = 5000
 
-/** The last import/export message. Info hides itself; errors stay until closed. */
 export default function NoticeBar() {
   const notice = useUi((s) => s.notice)
   const setNotice = useUi((s) => s.setNotice)

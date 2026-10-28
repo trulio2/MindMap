@@ -17,8 +17,6 @@ export default function TextNode({ id, data, selected }: MapNodeProps) {
 
   function finishEditing(text: string | null) {
     if (text) updateNodeData(id, { text })
-    // Clearing the text of a bubble removes it. A new bubble left empty is
-    // removed by the store once editing ends.
     else if (text === '' && data.text) deleteNodes([id])
     setEditing(null)
   }

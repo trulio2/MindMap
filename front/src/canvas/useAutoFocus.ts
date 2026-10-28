@@ -1,10 +1,5 @@
 import { useEffect, useRef } from 'react'
 
-/**
- * Focuses (and selects) the returned element while `active` is true.
- * New nodes stay hidden until React Flow measures them, which defeats
- * autoFocus, so this keeps trying for a few frames.
- */
 export function useAutoFocus<T extends HTMLInputElement | HTMLTextAreaElement>(
   active: boolean
 ) {

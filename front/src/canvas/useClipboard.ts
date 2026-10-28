@@ -5,7 +5,6 @@ import { useMindMap } from '@/store/mindmap.store'
 import { useUi } from '@/store/ui.store'
 import type { Clip, XY } from '@/types'
 
-/** The selected nodes that belong to this area. */
 export function selectedInArea(areaId: string) {
   const { nodes } = useMindMap.getState()
   return Object.keys(useUi.getState().selectedNodes).filter(
@@ -13,12 +12,6 @@ export function selectedInArea(areaId: string) {
   )
 }
 
-/**
- * Copy and paste of nodes. Copies go to the app's own clipboard (for the
- * canvas menu) and to the system clipboard as JSON, so Ctrl+V also works in
- * another tab. Pasting from the system clipboard is handled by the canvas's
- * paste listener, which calls `paste`.
- */
 export function useClipboard(areaId: string) {
   const copy = useCallback((ids: string[]) => {
     const clip = useMindMap.getState().copyNodes(ids)
@@ -37,7 +30,6 @@ export function useClipboard(areaId: string) {
     [areaId]
   )
 
-  /** For the canvas menu, which has no copy event to write into. */
   const copyToClipboard = useCallback(
     (ids: string[]) => {
       const text = copy(ids)
@@ -46,8 +38,6 @@ export function useClipboard(areaId: string) {
     [copy]
   )
 
-  // Ctrl+C with nodes selected. Without a node selection the browser's own
-  // copy (of selected text) goes ahead untouched.
   useEffect(() => {
     function onCopy(event: ClipboardEvent) {
       if (isTyping(event.target) || document.querySelector('dialog[open]'))

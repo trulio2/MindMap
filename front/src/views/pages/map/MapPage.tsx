@@ -17,12 +17,9 @@ function MapPage() {
     document.title = title ? `${title} · MindMap` : 'MindMap'
   }, [title])
 
-  // The node may have been deleted (here or in another tab), or the link is stale.
   if (areaId !== ROOT_AREA && !areaNode) return <Navigate to="/" replace />
 
   return (
-    // A replaced map (import, new map) also gets a fresh canvas, so its saved
-    // zoom is applied even when the area id stays the same.
     <ReactFlowProvider key={`${areaId}:${docRevision}`}>
       <MindMapCanvas areaId={areaId} />
     </ReactFlowProvider>

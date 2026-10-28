@@ -5,10 +5,6 @@ const QUALITY = 0.85
 
 export type LoadedImage = { src: string; size: Size; name: string }
 
-/**
- * Reads an image file and re-encodes it as a WebP data URL no larger than
- * MAX_SIDE on its longest side, to keep localStorage usage down.
- */
 export async function loadImageFile(file: File): Promise<LoadedImage> {
   const bitmap = await createImageBitmap(file)
   try {
@@ -21,8 +17,6 @@ export async function loadImageFile(file: File): Promise<LoadedImage> {
     canvas.height = height
     canvas.getContext('2d')!.drawImage(bitmap, 0, 0, width, height)
 
-    // Browsers that can't encode WebP return PNG instead, which is much
-    // larger, so use JPEG there.
     const webp = canvas.toDataURL('image/webp', QUALITY)
     const src = webp.startsWith('data:image/webp')
       ? webp
@@ -34,7 +28,6 @@ export async function loadImageFile(file: File): Promise<LoadedImage> {
   }
 }
 
-/** Initial on-canvas size: at most `max` wide or tall, keeping the aspect ratio. */
 export function fitSize({ width, height }: Size, max = 320): Size {
   const scale = Math.min(1, max / Math.max(width, height))
   return {
