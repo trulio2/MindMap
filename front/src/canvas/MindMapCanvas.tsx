@@ -590,7 +590,7 @@ export default function MindMapCanvas({ areaId }: Props) {
               title="Your maps and folders (M)"
             >
               <span aria-hidden="true">☰</span>
-              <span className="maps-btn-name">{mapName ?? 'Maps'}</span>
+              <span className="maps-btn-name"> {mapName ?? 'Maps'}</span>
             </button>
             <button type="button" className="btn" onClick={exportMap}>
               Export
