@@ -27,7 +27,7 @@ export default function StickyNode({ id, data, selected }: MapNodeProps) {
       data-color={data.color}
       onDoubleClick={() => setEditing(id)}
     >
-      <NodeMenu id={id} color={data.color} />
+      <NodeMenu id={id} selected={selected} color={data.color} />
       <NodeHandles />
       <AreaBadge id={id} count={data.childCount} />
       <NodeResizer

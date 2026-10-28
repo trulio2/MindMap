@@ -15,7 +15,7 @@ export default function ImageNode({ id, data, selected }: MapNodeProps) {
       className={`mm-node image-node${selected ? ' selected' : ''}`}
       data-color={data.color}
     >
-      <NodeMenu id={id} color={data.color} />
+      <NodeMenu id={id} selected={selected} color={data.color} />
       <NodeHandles />
       <AreaBadge id={id} count={data.childCount} />
       <NodeResizer

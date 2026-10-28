@@ -7,14 +7,17 @@ import { NODE_COLORS, type NodeColor } from '@/types'
 
 type Props = {
   id: string
+  selected: boolean
   color?: NodeColor
   children?: React.ReactNode
 }
 
-export default function NodeMenu({ id, color, children }: Props) {
+export default function NodeMenu({ id, selected, color, children }: Props) {
   const updateNodeData = useMindMap((s) => s.updateNodeData)
   const navigate = useNavigate()
   const editing = useUi((s) => s.editingId === id)
+
+  if (!selected) return null
 
   return (
     <NodeToolbar

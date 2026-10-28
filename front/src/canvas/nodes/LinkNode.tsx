@@ -77,7 +77,7 @@ export default function LinkNode({ id, data, selected }: MapNodeProps) {
       data-color={data.color}
       onDoubleClick={() => setEditing(id)}
     >
-      <NodeMenu id={id} color={data.color}>
+      <NodeMenu id={id} selected={selected} color={data.color}>
         <button
           type="button"
           className="menu-btn"

@@ -122,7 +122,7 @@ export default function VideoNode({ id, data, selected }: MapNodeProps) {
       className={`mm-node video-node${selected ? ' selected' : ''}`}
       data-color={data.color}
     >
-      <NodeMenu id={id} color={data.color}>
+      <NodeMenu id={id} selected={selected} color={data.color}>
         <button
           type="button"
           className="menu-btn"

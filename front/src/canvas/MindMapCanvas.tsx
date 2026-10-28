@@ -24,6 +24,7 @@ import { areaPath } from '@/lib/areas'
 import { parseClip } from '@/lib/io'
 import { normalizeUrl } from '@/lib/url'
 import { parseYouTube, watchUrl } from '@/lib/video'
+import { useShallow } from 'zustand/react/shallow'
 import { useMindMap } from '@/store/mindmap.store'
 import { useUi, type StorageError } from '@/store/ui.store'
 import type { MapNode, NodeKind, XY } from '@/types'
@@ -41,6 +42,13 @@ import VideoNode from './nodes/VideoNode'
 import StickyNode from './nodes/StickyNode'
 import ContextMenu, { type MenuItem } from './ContextMenu'
 import { selectedInArea, useClipboard } from './useClipboard'
+import {
+  areaEdges,
+  areaNodes,
+  childCounts,
+  toFlowEdge,
+  toFlowNode
+} from './flowElements'
 import type { FlowEdge, FlowNode } from './types'
 
 const nodeTypes = {
@@ -105,8 +113,13 @@ export default function MindMapCanvas({ areaId }: Props) {
     items: MenuItem[]
   } | null>(null)
 
-  const docNodes = useMindMap((s) => s.nodes)
-  const docEdges = useMindMap((s) => s.edges)
+  const docNodes = useMindMap(
+    useShallow(useMemo(() => areaNodes(areaId), [areaId]))
+  )
+  const docEdges = useMindMap(
+    useShallow(useMemo(() => areaEdges(areaId), [areaId]))
+  )
+  const counts = useMindMap(useShallow(childCounts))
   const canUndo = useMindMap((s) => s.past.length > 0)
   const canRedo = useMindMap((s) => s.future.length > 0)
   const {
@@ -148,41 +161,14 @@ export default function MindMapCanvas({ areaId }: Props) {
   )
 
   const nodes = useMemo<FlowNode[]>(() => {
-    const childCounts: Record<string, number> = {}
-    for (const n of Object.values(docNodes)) {
-      childCounts[n.areaId] = (childCounts[n.areaId] ?? 0) + 1
-    }
-    return Object.values(docNodes)
-      .filter((n) => n.areaId === areaId)
-      .map((n) => ({
-        id: n.id,
-        type: n.kind,
-        position: n.position,
-        width: n.size?.width,
-        height: n.size?.height,
-        measured: n.measured,
-        data: childCounts[n.id]
-          ? { ...n.data, childCount: childCounts[n.id] }
-          : n.data,
-        selected: !!selectedNodes[n.id]
-      }))
-  }, [docNodes, areaId, selectedNodes])
+    return docNodes.map((n) =>
+      toFlowNode(n, !!selectedNodes[n.id], counts[n.id] ?? 0)
+    )
+  }, [docNodes, counts, selectedNodes])
 
   const edges = useMemo<FlowEdge[]>(
-    () =>
-      Object.values(docEdges)
-        .filter((e) => e.areaId === areaId)
-        .map((e) => ({
-          id: e.id,
-          type: 'labeled',
-          source: e.source,
-          target: e.target,
-          sourceHandle: e.sourceHandle,
-          targetHandle: e.targetHandle,
-          data: { label: e.label },
-          selected: !!selectedEdges[e.id]
-        })),
-    [docEdges, areaId, selectedEdges]
+    () => docEdges.map((e) => toFlowEdge(e, !!selectedEdges[e.id])),
+    [docEdges, selectedEdges]
   )
 
   const onNodesChange = useCallback(
