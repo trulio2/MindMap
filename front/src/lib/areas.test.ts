@@ -10,9 +10,10 @@ const node = (
 ): MapNode => ({ id, areaId, kind, position: { x: 0, y: 0 }, data })
 
 describe('areaPath', () => {
-  it('maps the root and node areas to routes', () => {
-    expect(areaPath('root')).toBe('/')
-    expect(areaPath('abc_1-2')).toBe('/area/abc_1-2')
+  it('maps a map and its areas to routes', () => {
+    expect(areaPath('m1')).toBe('/map/m1')
+    expect(areaPath('m1', 'root')).toBe('/map/m1')
+    expect(areaPath('m1', 'abc_1-2')).toBe('/map/m1/area/abc_1-2')
   })
 })
 

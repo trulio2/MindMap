@@ -1,4 +1,3 @@
-import { useSyncExternalStore } from 'react'
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import { nanoid } from 'nanoid'
@@ -15,7 +14,7 @@ import {
   type XY
 } from '@/types'
 import { emptyDoc, parseDoc } from '@/lib/io'
-import { mapStorage, onSavedElsewhere } from './storage'
+import { persistStorage } from './storage'
 import { useUi } from './ui.store'
 
 const STORAGE_KEY = 'mindmap'
@@ -369,7 +368,8 @@ export const useMindMap = create<MindMapState>()(
     {
       name: STORAGE_KEY,
       version: DOC_VERSION,
-      storage: mapStorage,
+      storage: persistStorage<MindMapDoc>(),
+      skipHydration: true,
       partialize: (s): MindMapDoc => ({
         nodes: s.nodes,
         edges: s.edges,
@@ -398,25 +398,3 @@ useUi.subscribe((state, prev) => {
   const node = useMindMap.getState().nodes[id]
   if (node && isEmptyNode(node)) useMindMap.getState().discardNode(id)
 })
-
-onSavedElsewhere((name) => {
-  if (name === STORAGE_KEY) void useMindMap.persist.rehydrate()
-})
-
-let firstLoadDone = useMindMap.persist.hasHydrated()
-const loadListeners = new Set<() => void>()
-useMindMap.persist.onFinishHydration(() => {
-  if (firstLoadDone) return
-  firstLoadDone = true
-  loadListeners.forEach((listener) => listener())
-})
-
-export function useMapLoaded() {
-  return useSyncExternalStore(
-    (listener) => {
-      loadListeners.add(listener)
-      return () => loadListeners.delete(listener)
-    },
-    () => firstLoadDone
-  )
-}

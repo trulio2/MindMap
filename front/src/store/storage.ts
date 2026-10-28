@@ -1,9 +1,8 @@
 import type { PersistStorage, StorageValue } from 'zustand/middleware'
-import type { MindMapDoc } from '@/types'
 import { idbDelete, idbGet, idbSet } from './idb'
 import { useUi, type StorageError } from './ui.store'
 
-type Saved = StorageValue<MindMapDoc>
+type Saved = StorageValue<unknown>
 
 const WRITE_DELAY_MS = 300
 
@@ -73,7 +72,7 @@ async function migrateFromLocalStorage(name: string): Promise<Saved | null> {
   return legacy
 }
 
-export const mapStorage: PersistStorage<MindMapDoc> = {
+const storage: PersistStorage<unknown> = {
   getItem: async (name) => {
     if (pending.has(name)) return pending.get(name)!
     try {
@@ -100,4 +99,16 @@ export const mapStorage: PersistStorage<MindMapDoc> = {
       reportError('unavailable')
     }
   }
+}
+
+export const persistStorage = <S>() => storage as PersistStorage<S>
+
+export const readSaved = (name: string) => storage.getItem(name)
+
+export const writeSaved = (name: string, value: Saved) => idbSet(name, value)
+
+export const deleteSaved = (name: string) => storage.removeItem(name)
+
+export const forgetLoaded = (name: string) => {
+  loaded.delete(name)
 }

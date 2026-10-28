@@ -1,26 +1,31 @@
 import { useCallback, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { areaPath } from '@/lib/areas'
 import {
-  downloadDoc,
+  downloadMap,
   emptyDoc,
   ImportError,
-  readMapFile,
-  type ParsedDoc
+  readImportFile,
+  type ImportedFile
 } from '@/lib/io'
+import { useLibrary } from '@/store/library.store'
+import { createMap, importTree } from '@/store/maps'
 import { useMindMap } from '@/store/mindmap.store'
 import { useUi, type Notice } from '@/store/ui.store'
-import type { MindMapDoc } from '@/types'
 import ConfirmDialog, { type ConfirmRequest } from './ConfirmDialog'
 
-function importedNotice({ doc, skipped }: ParsedDoc): Notice {
-  const count = Object.keys(doc.nodes).length
-  const items = count
-    ? `Imported ${count} ${count === 1 ? 'item' : 'items'}.`
-    : 'Imported an empty map.'
-  const broken = skipped
-    ? ` ${skipped} broken ${skipped === 1 ? 'entry was' : 'entries were'} left out.`
+export type ImportResult =
+  | { kind: 'map'; id: string }
+  | { kind: 'library' }
+  | null
+
+const plural = (n: number, one: string, many: string) =>
+  `${n} ${n === 1 ? one : many}`
+
+function brokenNote(skipped: number) {
+  return skipped
+    ? ` ${plural(skipped, 'broken entry was', 'broken entries were')} left out.`
     : ''
-  return { kind: 'info', text: items + broken }
 }
 
 export function useMapFiles() {
@@ -30,30 +35,20 @@ export function useMapFiles() {
 
   const exportMap = useCallback(() => {
     const { nodes, edges, viewports } = useMindMap.getState()
-    downloadDoc({ nodes, edges, viewports })
-  }, [])
-
-  const replaceWith = useCallback(
-    (doc: MindMapDoc, notice: Notice) => {
-      useMindMap.getState().replaceDoc(doc)
-      useUi.getState().docReplaced()
-      navigate('/')
-      setNotice(notice)
-    },
-    [navigate, setNotice]
-  )
-
-  const guard = useCallback((request: ConfirmRequest) => {
-    const isEmpty = !Object.keys(useMindMap.getState().nodes).length
-    if (isEmpty) request.onConfirm()
-    else setConfirm(request)
+    const id = useUi.getState().openMapId
+    const name = (id && useLibrary.getState().maps[id]?.name) || 'mindmap'
+    downloadMap(name, { nodes, edges, viewports })
   }, [])
 
   const importFile = useCallback(
-    async (file: File) => {
-      let parsed: ParsedDoc
+    async (
+      file: File,
+      folderId: string | null = null,
+      { open = true } = {}
+    ): Promise<ImportResult> => {
+      let imported: ImportedFile
       try {
-        parsed = await readMapFile(file)
+        imported = await readImportFile(file)
       } catch (error) {
         setNotice({
           kind: 'error',
@@ -62,28 +57,47 @@ export function useMapFiles() {
               ? error.message
               : `Could not read "${file.name}".`
         })
-        return
+        return null
       }
-      guard({
-        title: 'Replace your current map?',
-        message: `Importing "${file.name}" replaces everything in your current map, including what is inside nodes. Export it first if you want to keep a copy.`,
-        confirmLabel: 'Replace map',
-        onConfirm: () => replaceWith(parsed.doc, importedNotice(parsed))
+
+      if (imported.kind === 'library') {
+        const counts = await importTree(imported.tree, folderId)
+        setNotice({
+          kind: 'info',
+          text: `Imported ${plural(counts.folders, 'folder', 'folders')} and ${plural(counts.maps, 'map', 'maps')}.${brokenNote(imported.skipped)}`
+        })
+        return { kind: 'library' }
+      }
+
+      const { doc, skipped } = imported.parsed
+      const id = await createMap(imported.name, folderId, doc)
+      if (open) navigate(areaPath(id))
+      setNotice({
+        kind: 'info',
+        text: `Imported "${imported.name}" as a new map.${brokenNote(skipped)}`
       })
+      return { kind: 'map', id }
     },
-    [guard, replaceWith, setNotice]
+    [navigate, setNotice]
   )
 
-  const newMap = useCallback(() => {
-    guard({
-      title: 'Start a new map?',
+  const clearMap = useCallback(() => {
+    const clear = () => {
+      useMindMap.getState().replaceDoc(emptyDoc())
+      useUi.getState().docReplaced()
+      const id = useUi.getState().openMapId
+      if (id) navigate(areaPath(id))
+      setNotice({ kind: 'info', text: 'Cleared the map.' } satisfies Notice)
+    }
+    if (!Object.keys(useMindMap.getState().nodes).length) return clear()
+    setConfirm({
+      title: 'Clear this map?',
       message:
-        'This clears everything in your current map, including what is inside nodes. Export it first if you want to keep a copy.',
+        'This removes everything in the map, including what is inside nodes. Export it first if you want to keep a copy, or undo right after.',
       confirmLabel: 'Clear map',
-      onConfirm: () =>
-        replaceWith(emptyDoc(), { kind: 'info', text: 'Started a new map.' })
+      onConfirm: clear
     })
-  }, [guard, replaceWith])
+  }, [navigate, setNotice])
 
   const dialog = (
     <ConfirmDialog
@@ -93,5 +107,5 @@ export function useMapFiles() {
     />
   )
 
-  return { exportMap, importFile, newMap, dialog }
+  return { exportMap, importFile, clearMap, dialog }
 }

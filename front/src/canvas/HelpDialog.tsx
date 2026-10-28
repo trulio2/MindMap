@@ -48,6 +48,7 @@ const groups: { title: string; keys: [string, string][] }[] = [
       ['F', 'Fit everything in view'],
       [`${mod} A`, 'Select all'],
       ['Esc', 'Clear selection'],
+      ['M', 'Open your maps and folders'],
       ['H', 'Show this help']
     ]
   }
@@ -63,10 +64,6 @@ export default function HelpDialog({ open, onClose }: Props) {
       labelledBy="help-title"
       className="help"
     >
-      <h2 id="help-title">Help</h2>
-      <p className="help-intro">
-        The map is saved in this browser; use Export to keep a copy.
-      </p>
       {groups.map((group) => (
         <section key={group.title}>
           <h3>{group.title}</h3>

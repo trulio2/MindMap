@@ -1,10 +1,11 @@
 import { useNavigate } from 'react-router-dom'
-import { areaPath } from '@/lib/areas'
+import { useAreaLink } from '../useAreaLink'
 
 type Props = { id: string; count?: number }
 
 export default function AreaBadge({ id, count }: Props) {
   const navigate = useNavigate()
+  const areaPath = useAreaLink()
   if (!count) return null
 
   return (

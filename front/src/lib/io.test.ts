@@ -4,7 +4,11 @@ import {
   ImportError,
   parseClip,
   parseDoc,
-  readMapFile,
+  libraryFile,
+  mapFile,
+  parseLibrary,
+  readImportFile,
+  slug,
   serializeClip
 } from './io'
 
@@ -203,17 +207,42 @@ describe('clipboard clips', () => {
   })
 })
 
-describe('readMapFile', () => {
+describe('readImportFile', () => {
   const file = (text: string, name = 'map.json') =>
     new File([text], name, { type: 'application/json' })
 
-  it('reads a valid export', async () => {
-    const { doc } = await readMapFile(file(JSON.stringify(validMap)))
-    expect(Object.keys(doc.nodes)).toHaveLength(3)
+  it('reads a map export, named from the file', async () => {
+    const result = await readImportFile(
+      file(JSON.stringify({ ...validMap, name: '  Road map  ' }))
+    )
+    expect(result.kind).toBe('map')
+    if (result.kind !== 'map') return
+    expect(result.name).toBe('Road map')
+    expect(Object.keys(result.parsed.doc.nodes)).toHaveLength(3)
+  })
+
+  it('falls back to the file name when the export has no name', async () => {
+    const result = await readImportFile(
+      file(JSON.stringify(validMap), 'Team ideas.json')
+    )
+    expect(result.kind === 'map' && result.name).toBe('Team ideas')
+  })
+
+  it('recognises library exports', async () => {
+    const text = JSON.stringify(
+      libraryFile({
+        folders: [],
+        maps: [
+          { id: 'm', name: 'M', folderId: null, doc: parseDoc(validMap).doc }
+        ]
+      })
+    )
+    const result = await readImportFile(file(text))
+    expect(result.kind).toBe('library')
   })
 
   it('names the file when it is not JSON', async () => {
-    await expect(readMapFile(file('{ nope', 'broken.json'))).rejects.toThrow(
+    await expect(readImportFile(file('{ nope', 'broken.json'))).rejects.toThrow(
       '"broken.json" isn\'t a valid JSON file.'
     )
   })
@@ -221,6 +250,103 @@ describe('readMapFile', () => {
   it('refuses files over 50 MB without reading them', async () => {
     const big = file('{}')
     Object.defineProperty(big, 'size', { value: 50 * 1024 * 1024 + 1 })
-    await expect(readMapFile(big)).rejects.toThrow(/too large/)
+    await expect(readImportFile(big)).rejects.toThrow(/too large/)
+  })
+})
+
+describe('parseLibrary', () => {
+  const doc = parseDoc(validMap).doc
+  const library = (folders: unknown[], maps: unknown[]) => ({
+    app: 'mindmap-library',
+    version: 1,
+    folders,
+    maps
+  })
+
+  it('round-trips folders and maps', () => {
+    const tree = {
+      folders: [
+        { id: 'f1', name: 'Work', parentId: null },
+        { id: 'f2', name: 'Plans', parentId: 'f1' }
+      ],
+      maps: [
+        { id: 'm1', name: 'Top', folderId: null, doc },
+        { id: 'm2', name: 'Inside', folderId: 'f2', doc }
+      ]
+    }
+    const { tree: parsed, skipped } = parseLibrary(
+      JSON.parse(JSON.stringify(libraryFile(tree)))
+    )
+    expect(skipped).toBe(0)
+    expect(parsed.folders).toEqual(tree.folders)
+    expect(parsed.maps.map((m) => [m.id, m.name, m.folderId])).toEqual([
+      ['m1', 'Top', null],
+      ['m2', 'Inside', 'f2']
+    ])
+    expect(parsed.maps[1].doc).toEqual(doc)
+  })
+
+  it('lists parents before their children', () => {
+    const { tree } = parseLibrary(
+      library(
+        [
+          { id: 'child', name: 'C', parentId: 'parent' },
+          { id: 'parent', name: 'P', parentId: null }
+        ],
+        []
+      )
+    )
+    expect(tree.folders.map((f) => f.id)).toEqual(['parent', 'child'])
+  })
+
+  it('drops broken folders and maps, and moves orphaned maps to the top', () => {
+    const { tree, skipped } = parseLibrary(
+      library(
+        [
+          { id: 'ok', name: '  ', parentId: null },
+          { id: 'loopA', name: 'A', parentId: 'loopB' },
+          { id: 'loopB', name: 'B', parentId: 'loopA' },
+          { id: '__proto__', name: 'x', parentId: null },
+          { id: 'ok', name: 'duplicate', parentId: null },
+          'not a folder'
+        ],
+        [
+          { id: 'm1', name: 'In a loop folder', folderId: 'loopA', doc },
+          { id: 'm2', name: 'Broken', folderId: null, doc: { nodes: [] } },
+          { id: 'm1', name: 'Duplicate id', folderId: null, doc },
+          { id: 'bad id!', name: 'x', folderId: null, doc }
+        ]
+      )
+    )
+    expect(tree.folders).toEqual([
+      { id: 'ok', name: 'Untitled folder', parentId: null }
+    ])
+    expect(tree.maps.map((m) => [m.id, m.folderId])).toEqual([['m1', null]])
+    expect(skipped).toBe(5 + 3)
+  })
+
+  it.each([
+    ['a map export', validMap],
+    ['missing lists', { app: 'mindmap-library', version: 1 }],
+    [
+      'a newer version',
+      { app: 'mindmap-library', version: 99, folders: [], maps: [] }
+    ]
+  ])('rejects %s', (_, raw) => {
+    expect(() => parseLibrary(raw)).toThrow(ImportError)
+  })
+})
+
+describe('export helpers', () => {
+  it('include the name in map exports', () => {
+    const file = mapFile('Road map', parseDoc(validMap).doc)
+    expect(file).toMatchObject({ app: 'mindmap', version: 1, name: 'Road map' })
+    expect(parseDoc(JSON.parse(JSON.stringify(file))).skipped).toBe(0)
+  })
+
+  it('make file-name-safe slugs', () => {
+    expect(slug('Mapa de Idéias!')).toBe('mapa-de-ideias')
+    expect(slug('  ---  ')).toBe('mindmap')
+    expect(slug('日本語')).toBe('mindmap')
   })
 })

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
-import { areaPath, areaTrail, nodeTitle } from '@/lib/areas'
+import { areaTrail, nodeTitle } from '@/lib/areas'
+import { useAreaLink } from './useAreaLink'
 import { useShallow } from 'zustand/react/shallow'
 import { useMindMap } from '@/store/mindmap.store'
 import { ROOT_AREA } from '@/types'
@@ -7,6 +8,7 @@ import { ROOT_AREA } from '@/types'
 type Props = { areaId: string }
 
 export default function Breadcrumbs({ areaId }: Props) {
+  const areaPath = useAreaLink()
   const trail = useMindMap(useShallow((s) => areaTrail(s.nodes, areaId)))
   if (areaId === ROOT_AREA) return null
 

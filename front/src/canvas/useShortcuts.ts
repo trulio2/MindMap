@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useReactFlow } from '@xyflow/react'
-import { areaPath } from '@/lib/areas'
+import { useAreaLink } from './useAreaLink'
 import { isTyping } from '@/lib/dom'
 import { useMindMap } from '@/store/mindmap.store'
 import { useUi } from '@/store/ui.store'
@@ -14,6 +14,7 @@ const selectAll = (ids: string[]) =>
 
 export function useShortcuts(areaId: string, toggleHelp: () => void) {
   const navigate = useNavigate()
+  const areaPath = useAreaLink()
   const { fitView } = useReactFlow()
 
   useEffect(() => {
@@ -72,6 +73,8 @@ export function useShortcuts(areaId: string, toggleHelp: () => void) {
         ui.resetInteraction()
       } else if (key === 'f') {
         void fitView(FIT_VIEW_OPTIONS)
+      } else if (key === 'm') {
+        ui.setLibraryOpen(true)
       } else if (key === 'h') {
         toggleHelp()
       } else {
@@ -82,5 +85,5 @@ export function useShortcuts(areaId: string, toggleHelp: () => void) {
 
     window.addEventListener('keydown', onKeyDown)
     return () => window.removeEventListener('keydown', onKeyDown)
-  }, [areaId, fitView, navigate, toggleHelp])
+  }, [areaId, areaPath, fitView, navigate, toggleHelp])
 }

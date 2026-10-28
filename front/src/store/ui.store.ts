@@ -13,6 +13,8 @@ type UiState = {
   notice: Notice | null
   docRevision: number
   clipboard: Clip | null
+  openMapId: string | null
+  libraryOpen: boolean
   selectNodes: (changes: Record<string, boolean>) => void
   selectEdges: (changes: Record<string, boolean>) => void
   setEditing: (id: string | null) => void
@@ -21,6 +23,8 @@ type UiState = {
   setNotice: (notice: Notice | null) => void
   docReplaced: () => void
   setClipboard: (clip: Clip | null) => void
+  setOpenMap: (id: string | null) => void
+  setLibraryOpen: (open: boolean) => void
 }
 
 export type Notice = { kind: 'info' | 'error'; text: string }
@@ -42,6 +46,8 @@ export const useUi = create<UiState>()((set) => ({
   notice: null,
   docRevision: 0,
   clipboard: null,
+  openMapId: null,
+  libraryOpen: false,
 
   selectNodes: (changes) =>
     set((s) => ({ selectedNodes: applySelection(s.selectedNodes, changes) })),
@@ -54,6 +60,8 @@ export const useUi = create<UiState>()((set) => ({
     set((s) => (s.storageError === error ? s : { storageError: error })),
   setNotice: (notice) => set({ notice }),
   setClipboard: (clipboard) => set({ clipboard }),
+  setOpenMap: (openMapId) => set({ openMapId }),
+  setLibraryOpen: (libraryOpen) => set({ libraryOpen }),
   docReplaced: () =>
     set((s) => ({
       docRevision: s.docRevision + 1,

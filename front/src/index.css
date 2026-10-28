@@ -41,7 +41,6 @@ body {
   min-height: 0;
 }
 
-/* Match React Flow's dark mode to the app palette. */
 .react-flow.dark {
   --xy-background-color: var(--bg);
   --xy-node-background-color-default: #0d1416;
@@ -232,17 +231,13 @@ kbd {
   box-shadow: var(--shadow);
 }
 
-/* Only when open, so a closed dialog stays hidden. */
 .dialog[open] {
   display: flex;
   flex-direction: column;
 }
 
-/*
- * Padding and scrolling sit on the inner wrapper, so clicks on them never
- * hit the dialog element (which would read as a click outside; see Modal).
- */
 .dialog-body {
+  flex: 1;
   min-height: 0;
   overflow: auto;
   padding: 20px 22px;
@@ -276,13 +271,211 @@ kbd {
   font-size: 14px;
 }
 
+.maps-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  max-width: 220px;
+}
+
+.maps-btn-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dialog.library {
+  width: min(600px, calc(100vw - 32px));
+  height: min(560px, calc(100vh - 64px));
+}
+
+.library .dialog-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.library-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.library-head h2 {
+  margin: 0;
+}
+
+.library-trail {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px;
+  font-size: 14px;
+}
+
+.library-trail .crumb {
+  padding: 2px 6px;
+  border: 1px dashed transparent;
+  border-radius: 5px;
+  background: none;
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+
+.library-trail .crumb:hover,
+.library-trail .crumb[aria-current='page'] {
+  color: var(--text-h);
+}
+
+.crumb-sep {
+  margin: 0 2px;
+  color: var(--text);
+}
+
+.library-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.library-actions .btn {
+  margin: 0;
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+.library-list {
+  flex: 1;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  list-style: none;
+  border-top: 1px solid var(--border);
+}
+
+.library-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 4px 4px 8px;
+  border: 1px dashed transparent;
+  border-bottom: 1px solid var(--border);
+}
+
+.library-row:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.library-row.drop,
+.library-trail .crumb.drop {
+  border-color: var(--accent);
+  background: var(--accent-bg);
+}
+
+.library-icon {
+  flex: none;
+  width: 20px;
+  text-align: center;
+}
+
+.library-name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  padding: 6px 0;
+  border: 0;
+  background: none;
+  color: var(--text-h);
+  font: 15px var(--sans);
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.library-name:hover {
+  color: var(--accent);
+}
+
+.library-rename {
+  flex: 1;
+  padding: 5px 6px;
+  border-radius: 5px;
+  background: var(--bg);
+  color: var(--text-h);
+  font-size: 15px;
+  text-align: left;
+}
+
+.library-meta {
+  flex: none;
+  font-size: 12px;
+  color: var(--text);
+}
+
+.library-more {
+  flex: none;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  border-radius: 6px;
+  background: none;
+  color: var(--text);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.library-more:hover {
+  background: var(--accent-bg);
+  color: var(--text-h);
+}
+
+.library-row.just-added {
+  animation: just-added 2.5s ease-out;
+}
+
+@keyframes just-added {
+  from {
+    background: color-mix(in srgb, var(--accent) 25%, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .library-row.just-added {
+    animation: none;
+    background: var(--accent-bg);
+  }
+}
+
+.library-notice {
+  margin: 0;
+  padding: 8px 12px;
+  border: 1px solid var(--accent-border);
+  border-radius: 8px;
+  background: #0b1a1c;
+  color: var(--text-h);
+  font-size: 14px;
+}
+
+.library-notice.notice-error {
+  border-color: rgba(255, 77, 94, 0.45);
+  background: #1a0d10;
+  color: #ffb3bb;
+}
+
+.library-empty {
+  margin: 0;
+  font-size: 14px;
+}
+
 .help-intro {
   margin: 0 0 16px;
   font-size: 14px;
   line-height: 1.5;
 }
 
-/* Node colors, shared by nodes and the swatches in the node menu. */
 [data-color='cyan'] {
   --node-color: #2de2e6;
 }
@@ -370,7 +563,6 @@ textarea.inline-input {
   white-space: pre;
 }
 
-/* Text bubble: a speech bubble with a tail at the bottom left. */
 .text-node {
   width: 100%;
   min-width: 120px;
@@ -397,7 +589,6 @@ textarea.inline-input {
   clip-path: polygon(0 0, 100% 0, 0 100%);
 }
 
-/* Sticky note: colored paper with a folded bottom-right corner. */
 .sticky-node {
   --paper: color-mix(in srgb, var(--node-color, #f5c542) 80%, #0d1416);
   display: flex;
@@ -779,7 +970,6 @@ a.link-title:hover {
   cursor: pointer;
 }
 
-/* Fills the 16:9 frame; cover crops the black bars of YouTube's 4:3 image. */
 .video-thumb {
   position: absolute;
   inset: 0;

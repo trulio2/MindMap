@@ -20,17 +20,19 @@ import '@xyflow/react/dist/style.css'
 import { isTyping } from '@/lib/dom'
 import { fitSize, loadImageFile } from '@/lib/image'
 import { useNavigate } from 'react-router-dom'
-import { areaPath } from '@/lib/areas'
+import { useAreaLink } from './useAreaLink'
 import { parseClip } from '@/lib/io'
 import { normalizeUrl } from '@/lib/url'
 import { parseYouTube, watchUrl } from '@/lib/video'
 import { useShallow } from 'zustand/react/shallow'
+import { useLibrary } from '@/store/library.store'
 import { useMindMap } from '@/store/mindmap.store'
 import { useUi, type StorageError } from '@/store/ui.store'
 import type { MapNode, NodeKind, XY } from '@/types'
 import Breadcrumbs from './Breadcrumbs'
 import NoticeBar from './NoticeBar'
 import HelpDialog from './HelpDialog'
+import LibraryDialog from './LibraryDialog'
 import { useMapFiles } from './useMapFiles'
 import { FIT_VIEW_OPTIONS, useShortcuts } from './useShortcuts'
 import LabeledEdge from './edges/LabeledEdge'
@@ -99,14 +101,19 @@ export default function MindMapCanvas({ areaId }: Props) {
   const wrapperRef = useRef<HTMLDivElement>(null)
   const lastPointer = useRef<XY | null>(null)
   const fileInputRef = useRef<HTMLInputElement>(null)
-  const mapFileInputRef = useRef<HTMLInputElement>(null)
-  const { exportMap, importFile, newMap, dialog: fileDialog } = useMapFiles()
+  const { exportMap, importFile, clearMap, dialog: fileDialog } = useMapFiles()
+  const openMapId = useUi((s) => s.openMapId)
+  const mapName = useLibrary((s) =>
+    openMapId ? s.maps[openMapId]?.name : undefined
+  )
+  const libraryOpen = useUi((s) => s.libraryOpen)
   const { screenToFlowPosition } = useReactFlow()
   const [helpOpen, setHelpOpen] = useState(false)
   const toggleHelp = useCallback(() => setHelpOpen((open) => !open), [])
   useShortcuts(areaId, toggleHelp)
   const { copyToClipboard, paste } = useClipboard(areaId)
   const navigate = useNavigate()
+  const areaPath = useAreaLink()
   const [menu, setMenu] = useState<{
     x: number
     y: number
@@ -425,7 +432,7 @@ export default function MindMapCanvas({ areaId }: Props) {
       ]
       setMenu({ x: event.clientX, y: event.clientY, items })
     },
-    [areaId, copyToClipboard, deleteNodes, navigate]
+    [areaId, areaPath, copyToClipboard, deleteNodes, navigate]
   )
 
   function onDoubleClick(event: React.MouseEvent) {
@@ -471,12 +478,6 @@ export default function MindMapCanvas({ areaId }: Props) {
     const target = imageTarget.current
     imageTarget.current = null
     void addImages(images, target?.at ?? insertPoint(), target?.connectFrom)
-  }
-
-  function onPickMapFile(event: React.ChangeEvent<HTMLInputElement>) {
-    const file = event.target.files?.[0]
-    event.target.value = ''
-    if (file) void importFile(file)
   }
 
   function addAtCenter(kind: NodeKind) {
@@ -582,24 +583,19 @@ export default function MindMapCanvas({ areaId }: Props) {
         </Panel>
         <Panel position="top-right" className="top-right">
           <div className="toolbar">
+            <button
+              type="button"
+              className="btn maps-btn"
+              onClick={() => useUi.getState().setLibraryOpen(true)}
+              title="Your maps and folders (M)"
+            >
+              <span aria-hidden="true">☰</span>
+              <span className="maps-btn-name">{mapName ?? 'Maps'}</span>
+            </button>
             <button type="button" className="btn" onClick={exportMap}>
               Export
             </button>
-            <button
-              type="button"
-              className="btn"
-              onClick={() => mapFileInputRef.current?.click()}
-            >
-              Import
-            </button>
-            <input
-              ref={mapFileInputRef}
-              type="file"
-              accept=".json,application/json"
-              hidden
-              onChange={onPickMapFile}
-            />
-            <button type="button" className="btn" onClick={newMap}>
+            <button type="button" className="btn" onClick={clearMap}>
               Clear map
             </button>
             <button
@@ -622,6 +618,11 @@ export default function MindMapCanvas({ areaId }: Props) {
         </Panel>
       </ReactFlow>
       {fileDialog}
+      <LibraryDialog
+        open={libraryOpen}
+        onClose={() => useUi.getState().setLibraryOpen(false)}
+        importFile={importFile}
+      />
       <HelpDialog open={helpOpen} onClose={() => setHelpOpen(false)} />
       {menu && <ContextMenu {...menu} onClose={closeMenu} />}
     </div>

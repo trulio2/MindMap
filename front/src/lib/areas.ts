@@ -2,8 +2,12 @@ import { ROOT_AREA, type MapNode } from '@/types'
 import { plainText } from './markdown'
 import { displayHost, safeHref } from './url'
 
-export function areaPath(areaId: string) {
-  return areaId === ROOT_AREA ? '/' : `/area/${encodeURIComponent(areaId)}`
+/** Route for a map, or for an area (the inside of a node) in that map. */
+export function areaPath(mapId: string, areaId: string = ROOT_AREA) {
+  const map = `/map/${encodeURIComponent(mapId)}`
+  return areaId === ROOT_AREA
+    ? map
+    : `${map}/area/${encodeURIComponent(areaId)}`
 }
 
 export function nodeTitle(node: MapNode): string {

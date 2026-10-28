@@ -372,30 +372,6 @@ describe('saving', () => {
     other.close()
   })
 
-  it('reloads when another tab saves', async () => {
-    await idbSet('mindmap', {
-      version: 1,
-      state: {
-        nodes: {
-          fromTab: { areaId: 'root', kind: 'topic', position: at(), data: {} }
-        },
-        edges: {},
-        viewports: {}
-      }
-    })
-    const other = new BroadcastChannel('mindmap')
-    const reloaded = new Promise<void>((resolve) => {
-      const stop = useMindMap.persist.onFinishHydration(() => {
-        stop()
-        resolve()
-      })
-    })
-    other.postMessage('mindmap')
-    await reloaded
-    expect(ids()).toEqual(['fromTab'])
-    other.close()
-  })
-
   it('reports full storage and recovers on the next good save', async () => {
     const put = vi
       .spyOn(IDBObjectStore.prototype, 'put')
@@ -470,7 +446,7 @@ describe('saving', () => {
       state: { nodes: { keep: {} }, edges: {}, viewports: {} }
     })
 
-    fresh.mapStorage.setItem('mindmap', {
+    fresh.persistStorage().setItem('mindmap', {
       version: 1,
       state: { nodes: {}, edges: {}, viewports: {} }
     })

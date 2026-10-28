@@ -1,6 +1,6 @@
 import { NodeToolbar, Position } from '@xyflow/react'
 import { useNavigate } from 'react-router-dom'
-import { areaPath } from '@/lib/areas'
+import { useAreaLink } from '../useAreaLink'
 import { useMindMap } from '@/store/mindmap.store'
 import { useUi } from '@/store/ui.store'
 import { NODE_COLORS, type NodeColor } from '@/types'
@@ -15,6 +15,7 @@ type Props = {
 export default function NodeMenu({ id, selected, color, children }: Props) {
   const updateNodeData = useMindMap((s) => s.updateNodeData)
   const navigate = useNavigate()
+  const areaPath = useAreaLink()
   const editing = useUi((s) => s.editingId === id)
 
   if (!selected) return null

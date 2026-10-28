@@ -8,6 +8,17 @@ type Props = {
   children: React.ReactNode
 }
 
+function isOnBackdrop(e: React.MouseEvent<HTMLDialogElement>) {
+  if (e.target !== e.currentTarget) return false
+  const box = e.currentTarget.getBoundingClientRect()
+  return (
+    e.clientX < box.left ||
+    e.clientX > box.right ||
+    e.clientY < box.top ||
+    e.clientY > box.bottom
+  )
+}
+
 export default function Modal({
   open,
   onClose,
@@ -30,12 +41,19 @@ export default function Modal({
       ref={ref}
       className={`dialog ${className}`}
       aria-labelledby={labelledBy}
-      onClose={onClose}
+      onCancel={(e) => {
+        if (e.target !== e.currentTarget) return
+        e.preventDefault()
+        onClose()
+      }}
+      onClose={(e) => {
+        if (e.target === e.currentTarget) onClose()
+      }}
       onPointerDown={(e) => {
-        pressedOutside.current = e.target === e.currentTarget
+        pressedOutside.current = isOnBackdrop(e)
       }}
       onClick={(e) => {
-        if (pressedOutside.current && e.target === e.currentTarget) onClose()
+        if (pressedOutside.current && isOnBackdrop(e)) onClose()
       }}
     >
       <div className="dialog-body">{children}</div>

@@ -2,7 +2,10 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { RouterProvider } from 'react-router-dom'
 import { router } from '@/router'
+import { bootLibrary } from '@/store/maps'
 import './index.css'
+
+void bootLibrary()
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
