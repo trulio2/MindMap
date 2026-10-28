@@ -12,6 +12,7 @@ export default function TextNode({ id, data, selected }: MapNodeProps) {
   const setEditing = useUi((s) => s.setEditing)
   const updateNodeData = useMindMap((s) => s.updateNodeData)
   const deleteNodes = useMindMap((s) => s.deleteNodes)
+  const checkpoint = useMindMap((s) => s.checkpoint)
 
   // Saving or cancelling a bubble with no text removes it.
   function finishEditing(text: string | null) {
@@ -34,6 +35,7 @@ export default function TextNode({ id, data, selected }: MapNodeProps) {
           position="right"
           resizeDirection="horizontal"
           minWidth={120}
+          onResizeStart={checkpoint}
           className="width-handle"
         />
       )}

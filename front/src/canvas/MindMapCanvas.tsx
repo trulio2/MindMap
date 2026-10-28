@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import {
   Background,
   ConnectionMode,
@@ -17,6 +17,7 @@ import {
   type ReactFlowInstance
 } from '@xyflow/react'
 import '@xyflow/react/dist/style.css'
+import { isTyping } from '@/lib/dom'
 import { fitSize, loadImageFile } from '@/lib/image'
 import { normalizeUrl } from '@/lib/url'
 import { useMindMap } from '@/store/mindmap.store'
@@ -24,7 +25,9 @@ import { useUi, type StorageError } from '@/store/ui.store'
 import type { MapNode, NodeKind, XY } from '@/types'
 import Breadcrumbs from './Breadcrumbs'
 import NoticeBar from './NoticeBar'
+import ShortcutsDialog from './ShortcutsDialog'
 import { useMapFiles } from './useMapFiles'
+import { FIT_VIEW_OPTIONS, useShortcuts } from './useShortcuts'
 import LabeledEdge from './edges/LabeledEdge'
 import ImageNode from './nodes/ImageNode'
 import LinkNode from './nodes/LinkNode'
@@ -47,14 +50,6 @@ const storageMessages: Record<StorageError, string> = {
     'This browser is blocking storage, so changes are not saved. Export your map to keep it.'
 }
 
-function isTyping(target: EventTarget | null) {
-  return (
-    target instanceof HTMLElement &&
-    (target.isContentEditable ||
-      /^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName))
-  )
-}
-
 function isJsonFile(file: File) {
   return file.type === 'application/json' || file.name.endsWith('.json')
 }
@@ -72,22 +67,32 @@ export default function MindMapCanvas({ areaId }: Props) {
   const mapFileInputRef = useRef<HTMLInputElement>(null)
   const { exportMap, importFile, newMap, dialog: fileDialog } = useMapFiles()
   const { screenToFlowPosition } = useReactFlow()
+  const [helpOpen, setHelpOpen] = useState(false)
+  const toggleHelp = useCallback(() => setHelpOpen((open) => !open), [])
+  useShortcuts(areaId, toggleHelp)
 
   const docNodes = useMindMap((s) => s.nodes)
   const docEdges = useMindMap((s) => s.edges)
+  const canUndo = useMindMap((s) => s.past.length > 0)
+  const canRedo = useMindMap((s) => s.future.length > 0)
   const {
     addNode,
     patchNodes,
     deleteNodes,
     addEdge,
     deleteEdges,
-    saveViewport
+    saveViewport,
+    checkpoint,
+    group,
+    undo,
+    redo
   } = useMindMap.getState()
 
   const selectedNodes = useUi((s) => s.selectedNodes)
   const selectedEdges = useUi((s) => s.selectedEdges)
   const storageError = useUi((s) => s.storageError)
-  const { selectNodes, selectEdges, setEditing } = useUi.getState()
+  const { selectNodes, selectEdges, setEditing, resetInteraction } =
+    useUi.getState()
 
   // Start a new canvas without the previous area's selection or edit.
   useEffect(() => useUi.getState().resetInteraction(), [])
@@ -259,13 +264,15 @@ export default function MindMapCanvas({ areaId }: Props) {
       if (!(event.target as Element | null)?.closest('.react-flow__pane'))
         return
 
-      const target = createNode(
-        'topic',
-        screenToFlowPosition({ x: clientX, y: clientY })
-      )
-      addEdge(areaId, { ...from, target, targetHandle: null })
+      group(() => {
+        const target = createNode(
+          'topic',
+          screenToFlowPosition({ x: clientX, y: clientY })
+        )
+        addEdge(areaId, { ...from, target, targetHandle: null })
+      })
     },
-    [addEdge, areaId, createNode, screenToFlowPosition]
+    [addEdge, areaId, createNode, group, screenToFlowPosition]
   )
 
   /** Where new things go: the pointer if it is over the canvas, else the center. */
@@ -391,6 +398,9 @@ export default function MindMapCanvas({ areaId }: Props) {
         onConnect={onConnect}
         onConnectEnd={onConnectEnd}
         onEdgeDoubleClick={onEdgeDoubleClick}
+        // A whole drag is one undo step; record the map as it was before.
+        onNodeDragStart={checkpoint}
+        onSelectionDragStart={checkpoint}
         connectionMode={ConnectionMode.Loose}
         deleteKeyCode={deleteKeys}
         zoomOnDoubleClick={false}
@@ -401,7 +411,7 @@ export default function MindMapCanvas({ areaId }: Props) {
         onMoveEnd={(_, viewport) => saveViewport(areaId, viewport)}
       >
         <Background gap={24} />
-        <Controls />
+        <Controls fitViewOptions={FIT_VIEW_OPTIONS} />
         <MiniMap pannable zoomable />
         <Panel position="top-center">
           <Breadcrumbs areaId={areaId} />
@@ -444,6 +454,33 @@ export default function MindMapCanvas({ areaId }: Props) {
             onChange={onPickImages}
           />
           <span className="toolbar-sep" />
+          <button
+            type="button"
+            className="btn icon-btn"
+            onClick={() => {
+              undo()
+              resetInteraction()
+            }}
+            disabled={!canUndo}
+            title="Undo (Ctrl+Z)"
+            aria-label="Undo"
+          >
+            ↶
+          </button>
+          <button
+            type="button"
+            className="btn icon-btn"
+            onClick={() => {
+              redo()
+              resetInteraction()
+            }}
+            disabled={!canRedo}
+            title="Redo (Ctrl+Shift+Z)"
+            aria-label="Redo"
+          >
+            ↷
+          </button>
+          <span className="toolbar-sep" />
           <button type="button" className="btn" onClick={exportMap}>
             Export
           </button>
@@ -464,6 +501,15 @@ export default function MindMapCanvas({ areaId }: Props) {
           <button type="button" className="btn" onClick={newMap}>
             New map
           </button>
+          <button
+            type="button"
+            className="btn icon-btn"
+            onClick={toggleHelp}
+            title="Keyboard shortcuts (?)"
+            aria-label="Keyboard shortcuts"
+          >
+            ?
+          </button>
         </Panel>
         <Panel position="top-right" className="notices">
           {storageError && (
@@ -474,12 +520,12 @@ export default function MindMapCanvas({ areaId }: Props) {
           <NoticeBar />
         </Panel>
         <Panel position="bottom-center" className="hint">
-          Double-click the canvas for a topic · Paste or drop images and links ·
-          Double-click anything to edit · Drag from a dot to connect · Del to
-          delete
+          Double-click the canvas for a topic · Drag from a dot to connect ·
+          Paste or drop images and links · Press ? for shortcuts
         </Panel>
       </ReactFlow>
       {fileDialog}
+      <ShortcutsDialog open={helpOpen} onClose={() => setHelpOpen(false)} />
     </div>
   )
 }
