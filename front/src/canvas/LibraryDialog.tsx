@@ -63,7 +63,6 @@ function LibraryBody({ onClose, importFile }: Omit<Props, 'open'>) {
     () => (openMapId && library.maps[openMapId]?.folderId) || null
   )
   const [renaming, setRenaming] = useState<Item | null>(null)
-  const [justCreated, setJustCreated] = useState<string | null>(null)
   const [menu, setMenu] = useState<{
     x: number
     y: number
@@ -77,7 +76,7 @@ function LibraryBody({ onClose, importFile }: Omit<Props, 'open'>) {
   const notice = latestNotice === noticeAtOpen ? null : latestNotice
   const scrollToHighlight = useCallback(
     (el: HTMLLIElement | null) => el?.scrollIntoView({ block: 'nearest' }),
-    [highlight]
+    []
   )
   const fileInput = useRef<HTMLInputElement>(null)
 
@@ -123,7 +122,7 @@ function LibraryBody({ onClose, importFile }: Omit<Props, 'open'>) {
 
   async function newMap() {
     const id = await createMap('Untitled map', current)
-    setJustCreated(id)
+    setHighlight(id)
     setRenaming({ kind: 'map', id })
   }
 
@@ -137,10 +136,6 @@ function LibraryBody({ onClose, importFile }: Omit<Props, 'open'>) {
     if (name) {
       if (item.kind === 'map') library.renameMap(item.id, name)
       else library.renameFolder(item.id, name)
-    }
-    if (item.kind === 'map' && item.id === justCreated) {
-      setJustCreated(null)
-      if (name !== null) openMapAndClose(item.id)
     }
   }
 
