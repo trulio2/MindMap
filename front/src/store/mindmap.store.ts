@@ -3,6 +3,7 @@ import { createJSONStorage, persist } from 'zustand/middleware'
 import { nanoid } from 'nanoid'
 import {
   DOC_VERSION,
+  type AreaViewport,
   type MapEdge,
   type MapNode,
   type MapNodeData,
@@ -48,6 +49,7 @@ type MindMapState = MindMapDoc & {
   addEdge: (areaId: string, ends: EdgeEnds) => string | null
   setEdgeLabel: (id: string, label: string) => void
   deleteEdges: (ids: string[]) => void
+  saveViewport: (areaId: string, viewport: AreaViewport) => void
 }
 
 function collectWithDescendants(
@@ -75,12 +77,21 @@ function isRecord(value: unknown): value is Record<string, unknown> {
 /** Keeps only the saved document; anything malformed falls back to an empty map. */
 function readDoc(value: unknown): MindMapDoc {
   if (!isRecord(value) || !isRecord(value.nodes) || !isRecord(value.edges)) {
-    return { nodes: {}, edges: {} }
+    return { nodes: {}, edges: {}, viewports: {} }
   }
   return {
     nodes: value.nodes as MindMapDoc['nodes'],
-    edges: value.edges as MindMapDoc['edges']
+    edges: value.edges as MindMapDoc['edges'],
+    viewports: isRecord(value.viewports)
+      ? (value.viewports as MindMapDoc['viewports'])
+      : {}
   }
+}
+
+function without<T>(record: Record<string, T>, removed: Set<string>) {
+  return Object.fromEntries(
+    Object.entries(record).filter(([id]) => !removed.has(id))
+  )
 }
 
 export const useMindMap = create<MindMapState>()(
@@ -88,6 +99,7 @@ export const useMindMap = create<MindMapState>()(
     (set, get) => ({
       nodes: {},
       edges: {},
+      viewports: {},
 
       addNode: (areaId, { kind, position, data, size }) => {
         const id = nanoid()
@@ -128,9 +140,6 @@ export const useMindMap = create<MindMapState>()(
       deleteNodes: (ids) =>
         set((s) => {
           const removed = collectWithDescendants(s.nodes, ids)
-          const nodes = Object.fromEntries(
-            Object.entries(s.nodes).filter(([id]) => !removed.has(id))
-          )
           const edges = Object.fromEntries(
             Object.entries(s.edges).filter(
               ([, e]) =>
@@ -139,7 +148,11 @@ export const useMindMap = create<MindMapState>()(
                 !removed.has(e.areaId)
             )
           )
-          return { nodes, edges }
+          return {
+            nodes: without(s.nodes, removed),
+            edges,
+            viewports: without(s.viewports, removed)
+          }
         }),
 
       addEdge: (areaId, ends) => {
@@ -171,13 +184,20 @@ export const useMindMap = create<MindMapState>()(
           const edges = { ...s.edges }
           for (const id of ids) delete edges[id]
           return { edges }
-        })
+        }),
+
+      saveViewport: (areaId, viewport) =>
+        set((s) => ({ viewports: { ...s.viewports, [areaId]: viewport } }))
     }),
     {
       name: STORAGE_KEY,
       version: DOC_VERSION,
       storage: createJSONStorage(() => debouncedLocalStorage),
-      partialize: (s): MindMapDoc => ({ nodes: s.nodes, edges: s.edges }),
+      partialize: (s): MindMapDoc => ({
+        nodes: s.nodes,
+        edges: s.edges,
+        viewports: s.viewports
+      }),
       // Add a step here for each DOC_VERSION bump.
       migrate: (persisted) => readDoc(persisted),
       merge: (persisted, current) => ({ ...current, ...readDoc(persisted) })

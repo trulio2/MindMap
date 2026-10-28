@@ -13,6 +13,8 @@ type UiState = {
   selectNodes: (changes: Record<string, boolean>) => void
   selectEdges: (changes: Record<string, boolean>) => void
   setEditing: (id: string | null) => void
+  /** Drops selection and editing, e.g. when moving to another area. */
+  resetInteraction: () => void
   setStorageError: (error: StorageError | null) => void
 }
 
@@ -36,6 +38,8 @@ export const useUi = create<UiState>()((set) => ({
   selectEdges: (changes) =>
     set((s) => ({ selectedEdges: applySelection(s.selectedEdges, changes) })),
   setEditing: (id) => set({ editingId: id }),
+  resetInteraction: () =>
+    set({ selectedNodes: {}, selectedEdges: {}, editingId: null }),
   // Returning the same state skips a re-render on every successful save.
   setStorageError: (error) =>
     set((s) => (s.storageError === error ? s : { storageError: error }))

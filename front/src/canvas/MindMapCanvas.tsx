@@ -22,6 +22,7 @@ import { normalizeUrl } from '@/lib/url'
 import { useMindMap } from '@/store/mindmap.store'
 import { useUi, type StorageError } from '@/store/ui.store'
 import type { MapNode, NodeKind, XY } from '@/types'
+import Breadcrumbs from './Breadcrumbs'
 import LabeledEdge from './edges/LabeledEdge'
 import ImageNode from './nodes/ImageNode'
 import LinkNode from './nodes/LinkNode'
@@ -66,22 +67,34 @@ export default function MindMapCanvas({ areaId }: Props) {
 
   const docNodes = useMindMap((s) => s.nodes)
   const docEdges = useMindMap((s) => s.edges)
-  const { addNode, patchNodes, deleteNodes, addEdge, deleteEdges } =
-    useMindMap.getState()
+  const {
+    addNode,
+    patchNodes,
+    deleteNodes,
+    addEdge,
+    deleteEdges,
+    saveViewport
+  } = useMindMap.getState()
 
   const selectedNodes = useUi((s) => s.selectedNodes)
   const selectedEdges = useUi((s) => s.selectedEdges)
   const storageError = useUi((s) => s.storageError)
   const { selectNodes, selectEdges, setEditing } = useUi.getState()
 
-  // Fit once on open from the saved node sizes. React Flow's own fitView
-  // drops the fit when restored nodes are measured before its zoom handler
-  // exists, and on an empty area it zooms right into the first new node.
-  const fitOnInit = useCallback(
+  // Start a new canvas without the previous area's selection or edit.
+  useEffect(() => useUi.getState().resetInteraction(), [])
+
+  // On open, go back to where you left this area. Otherwise fit its content
+  // from the saved node sizes: React Flow's own fitView drops the fit when
+  // restored nodes are measured before its zoom handler exists, and on an
+  // empty area it zooms right into the first new node.
+  const restoreViewport = useCallback(
     (flow: ReactFlowInstance<FlowNode, FlowEdge>) => {
-      const areaNodes = Object.values(useMindMap.getState().nodes).filter(
-        (n) => n.areaId === areaId
-      )
+      const { nodes, viewports } = useMindMap.getState()
+      const saved = viewports[areaId]
+      if (saved) return void flow.setViewport(saved)
+
+      const areaNodes = Object.values(nodes).filter((n) => n.areaId === areaId)
       const rect = wrapperRef.current?.getBoundingClientRect()
       if (!areaNodes.length || !rect) return
       const bounds = getNodesBounds(areaNodes)
@@ -92,22 +105,28 @@ export default function MindMapCanvas({ areaId }: Props) {
     [areaId]
   )
 
-  const nodes = useMemo<FlowNode[]>(
-    () =>
-      Object.values(docNodes)
-        .filter((n) => n.areaId === areaId)
-        .map((n) => ({
-          id: n.id,
-          type: n.kind,
-          position: n.position,
-          width: n.size?.width,
-          height: n.size?.height,
-          measured: n.measured,
-          data: n.data,
-          selected: !!selectedNodes[n.id]
-        })),
-    [docNodes, areaId, selectedNodes]
-  )
+  const nodes = useMemo<FlowNode[]>(() => {
+    const childCounts: Record<string, number> = {}
+    for (const n of Object.values(docNodes)) {
+      childCounts[n.areaId] = (childCounts[n.areaId] ?? 0) + 1
+    }
+    return Object.values(docNodes)
+      .filter((n) => n.areaId === areaId)
+      .map((n) => ({
+        id: n.id,
+        type: n.kind,
+        position: n.position,
+        width: n.size?.width,
+        height: n.size?.height,
+        measured: n.measured,
+        // Only nodes with content get a new data object, so the rest
+        // keep their identity and skip re-rendering.
+        data: childCounts[n.id]
+          ? { ...n.data, childCount: childCounts[n.id] }
+          : n.data,
+        selected: !!selectedNodes[n.id]
+      }))
+  }, [docNodes, areaId, selectedNodes])
 
   const edges = useMemo<FlowEdge[]>(
     () =>
@@ -358,11 +377,15 @@ export default function MindMapCanvas({ areaId }: Props) {
         minZoom={0.1}
         maxZoom={4}
         colorMode="dark"
-        onInit={fitOnInit}
+        onInit={restoreViewport}
+        onMoveEnd={(_, viewport) => saveViewport(areaId, viewport)}
       >
         <Background gap={24} />
         <Controls />
         <MiniMap pannable zoomable />
+        <Panel position="top-center">
+          <Breadcrumbs areaId={areaId} />
+        </Panel>
         <Panel position="top-left" className="toolbar">
           <button
             type="button"
@@ -402,7 +425,7 @@ export default function MindMapCanvas({ areaId }: Props) {
           />
         </Panel>
         {storageError && (
-          <Panel position="top-center" className="banner" role="alert">
+          <Panel position="top-right" className="banner" role="alert">
             {storageMessages[storageError]}
           </Panel>
         )}

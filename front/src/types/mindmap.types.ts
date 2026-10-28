@@ -60,7 +60,15 @@ export interface MapEdge {
   label?: string
 }
 
+export interface AreaViewport {
+  x: number
+  y: number
+  zoom: number
+}
+
 export interface MindMapDoc {
   nodes: Record<string, MapNode>
   edges: Record<string, MapEdge>
+  /** Last pan and zoom of each area you have visited, by area id. */
+  viewports: Record<string, AreaViewport>
 }

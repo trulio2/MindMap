@@ -2,6 +2,7 @@ import { useMindMap } from '@/store/mindmap.store'
 import { useUi } from '@/store/ui.store'
 import InlineInput from '../InlineInput'
 import type { MapNodeProps } from '../types'
+import AreaBadge from './AreaBadge'
 import NodeHandles from './NodeHandles'
 import NodeMenu from './NodeMenu'
 
@@ -23,6 +24,7 @@ export default function TopicNode({ id, data, selected }: MapNodeProps) {
     >
       <NodeMenu id={id} color={data.color} />
       <NodeHandles />
+      <AreaBadge id={id} count={data.childCount} />
       {editing ? (
         <InlineInput initial={data.label ?? ''} onDone={finishEditing} />
       ) : (

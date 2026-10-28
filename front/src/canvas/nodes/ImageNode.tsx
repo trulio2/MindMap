@@ -1,6 +1,7 @@
 import { NodeResizer } from '@xyflow/react'
 import { safeImageSrc } from '@/lib/url'
 import type { MapNodeProps } from '../types'
+import AreaBadge from './AreaBadge'
 import NodeHandles from './NodeHandles'
 import NodeMenu from './NodeMenu'
 
@@ -14,6 +15,7 @@ export default function ImageNode({ id, data, selected }: MapNodeProps) {
     >
       <NodeMenu id={id} color={data.color} />
       <NodeHandles />
+      <AreaBadge id={id} count={data.childCount} />
       <NodeResizer
         isVisible={selected}
         keepAspectRatio

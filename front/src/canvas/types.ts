@@ -1,7 +1,10 @@
 import type { Edge, Node, NodeProps } from '@xyflow/react'
 import type { MapNodeData, NodeKind } from '@/types'
 
-export type FlowNode = Node<MapNodeData, NodeKind>
+/** Saved node data plus values the canvas derives for display. */
+export type FlowNodeData = MapNodeData & { childCount?: number }
+
+export type FlowNode = Node<FlowNodeData, NodeKind>
 export type MapNodeProps = NodeProps<FlowNode>
 
 export type EdgeData = { label?: string }

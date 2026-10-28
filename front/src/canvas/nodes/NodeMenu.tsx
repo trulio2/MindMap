@@ -1,4 +1,6 @@
 import { NodeToolbar, Position } from '@xyflow/react'
+import { useNavigate } from 'react-router-dom'
+import { areaPath } from '@/lib/areas'
 import { useMindMap } from '@/store/mindmap.store'
 import { NODE_COLORS, type NodeColor } from '@/types'
 
@@ -8,9 +10,10 @@ type Props = {
   children?: React.ReactNode
 }
 
-/** Floating menu above a single selected node: color swatches plus extra actions. */
+/** Floating menu above a single selected node: colors, extra actions and Open. */
 export default function NodeMenu({ id, color, children }: Props) {
   const updateNodeData = useMindMap((s) => s.updateNodeData)
+  const navigate = useNavigate()
 
   return (
     <NodeToolbar position={Position.Top} className="node-menu">
@@ -32,8 +35,16 @@ export default function NodeMenu({ id, color, children }: Props) {
           onClick={() => updateNodeData(id, { color: c })}
         />
       ))}
-      {children && <span className="node-menu-sep" />}
+      <span className="node-menu-sep" />
       {children}
+      <button
+        type="button"
+        className="menu-btn"
+        title="Open this node as its own map"
+        onClick={() => navigate(areaPath(id))}
+      >
+        Open ↘
+      </button>
     </NodeToolbar>
   )
 }

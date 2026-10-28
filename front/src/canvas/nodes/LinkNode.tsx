@@ -4,6 +4,7 @@ import { useMindMap } from '@/store/mindmap.store'
 import { useUi } from '@/store/ui.store'
 import { useAutoFocus } from '../useAutoFocus'
 import type { MapNodeProps } from '../types'
+import AreaBadge from './AreaBadge'
 import NodeHandles from './NodeHandles'
 import NodeMenu from './NodeMenu'
 
@@ -90,6 +91,7 @@ export default function LinkNode({ id, data, selected }: MapNodeProps) {
         </button>
       </NodeMenu>
       <NodeHandles />
+      <AreaBadge id={id} count={data.childCount} />
       {editing ? (
         <LinkEditor
           label={data.label ?? ''}
