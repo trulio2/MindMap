@@ -1,7 +1,13 @@
 import { createHashRouter, Navigate } from 'react-router-dom'
 import { LazyPage, RootLayout } from './Layout'
 
-import { ErrorPage, Home, Changelog } from '@/views/pages'
+import { ErrorPage, MapPage } from '@/views/pages'
+
+const mapPage = (
+  <LazyPage>
+    <MapPage />
+  </LazyPage>
+)
 
 export const router = createHashRouter([
   {
@@ -9,26 +15,9 @@ export const router = createHashRouter([
     element: <RootLayout />,
     errorElement: <ErrorPage />,
     children: [
-      {
-        path: ':tab?',
-        element: (
-          <LazyPage>
-            <Home />
-          </LazyPage>
-        )
-      },
-      {
-        path: 'changelog',
-        element: (
-          <LazyPage>
-            <Changelog />
-          </LazyPage>
-        )
-      },
-      {
-        path: '*',
-        element: <Navigate to="/" replace />
-      }
+      { index: true, element: mapPage },
+      { path: 'area/:areaId', element: mapPage },
+      { path: '*', element: <Navigate to="/" replace /> }
     ]
   }
 ])

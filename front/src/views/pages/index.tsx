@@ -1,7 +1,6 @@
 import { lazy } from 'react'
+import ErrorPage from './error/ErrorPage'
 
-const ErrorPage = lazy(() => import('./error/ErrorPage'))
-const Home = lazy(() => import('./home/Home'))
-const Changelog = lazy(() => import('./changelog/Changelog'))
+const MapPage = lazy(() => import('./map/MapPage'))
 
-export { ErrorPage, Home, Changelog }
+export { ErrorPage, MapPage }

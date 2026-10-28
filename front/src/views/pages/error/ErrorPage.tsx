@@ -5,7 +5,7 @@ export default function ErrorPage() {
   console.error(error)
 
   return (
-    <section id="center">
+    <section className="error-page">
       <h1 className="accent">Something went wrong</h1>
       <p>An unexpected error occurred. Please try again.</p>
       <NavLink to="/" className="btn accent">
