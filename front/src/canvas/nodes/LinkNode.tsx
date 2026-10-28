@@ -65,14 +65,13 @@ export default function LinkNode({ id, data, selected }: MapNodeProps) {
   const editing = useUi((s) => s.editingId === id)
   const setEditing = useUi((s) => s.setEditing)
   const updateNodeData = useMindMap((s) => s.updateNodeData)
-  const deleteNodes = useMindMap((s) => s.deleteNodes)
   const href = safeHref(data.url)
 
   function finishEditing(value: LinkValue | null) {
-    setEditing(null)
+    // Save first: a link still without an address when editing ends is
+    // removed by the store.
     if (value) updateNodeData(id, value)
-    // A link that never got an address is useless, so drop it.
-    else if (!data.url) deleteNodes([id])
+    setEditing(null)
   }
 
   return (

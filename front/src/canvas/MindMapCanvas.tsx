@@ -70,6 +70,9 @@ function imageFiles(files: FileList | undefined | null) {
   return [...(files ?? [])].filter((f) => f.type.startsWith('image/'))
 }
 
+/** The start of a connection dragged out to empty space. */
+type ConnectFrom = { source: string; sourceHandle: string | null }
+
 type Props = { areaId: string }
 
 export default function MindMapCanvas({ areaId }: Props) {
@@ -260,40 +263,6 @@ export default function MindMapCanvas({ areaId }: Props) {
     [addNode, areaId, setEditing]
   )
 
-  // Dropping a connection on empty canvas creates a new connected topic;
-  // dropping it on a node body (away from its handles) connects to that node.
-  const onConnectEnd = useCallback<OnConnectEnd>(
-    (event, state) => {
-      if (state.isValid || !state.fromNode || !state.fromHandle) return
-      const { clientX, clientY } =
-        'changedTouches' in event ? event.changedTouches[0] : event
-      const from = {
-        source: state.fromNode.id,
-        sourceHandle: state.fromHandle.id
-      }
-
-      const dropTarget = (event.target as Element | null)?.closest(
-        '.react-flow__node'
-      )
-      const targetId = dropTarget?.getAttribute('data-id')
-      if (targetId) {
-        addEdge(areaId, { ...from, target: targetId, targetHandle: null })
-        return
-      }
-      if (!(event.target as Element | null)?.closest('.react-flow__pane'))
-        return
-
-      group(() => {
-        const target = createNode(
-          'topic',
-          screenToFlowPosition({ x: clientX, y: clientY })
-        )
-        addEdge(areaId, { ...from, target, targetHandle: null })
-      })
-    },
-    [addEdge, areaId, createNode, group, screenToFlowPosition]
-  )
-
   /** Where new things go: the pointer if it is over the canvas, else the center. */
   const insertPoint = useCallback((): XY => {
     const rect = wrapperRef.current!.getBoundingClientRect()
@@ -304,26 +273,36 @@ export default function MindMapCanvas({ areaId }: Props) {
     return screenToFlowPosition(screen)
   }, [screenToFlowPosition])
 
+  /** Adds images around `at`; with `connectFrom`, the first one is connected. */
   const addImages = useCallback(
-    async (files: File[], at: XY) => {
+    async (files: File[], at: XY, connectFrom?: ConnectFrom) => {
       for (const [i, file] of files.entries()) {
         try {
           const image = await loadImageFile(file)
           const size = fitSize(image.size)
-          createNode(
-            'image',
-            {
-              x: at.x - size.width / 2 + i * 24,
-              y: at.y - size.height / 2 + i * 24
-            },
-            { data: { src: image.src, label: image.name }, size }
-          )
+          group(() => {
+            const id = createNode(
+              'image',
+              {
+                x: at.x - size.width / 2 + i * 24,
+                y: at.y - size.height / 2 + i * 24
+              },
+              { data: { src: image.src, label: image.name }, size }
+            )
+            if (connectFrom && i === 0) {
+              addEdge(areaId, {
+                ...connectFrom,
+                target: id,
+                targetHandle: null
+              })
+            }
+          })
         } catch (error) {
           console.warn(`Could not read image ${file.name}`, error)
         }
       }
     },
-    [createNode]
+    [addEdge, areaId, createNode, group]
   )
 
   // Pasting outside a text field: copied nodes are pasted as they were,
@@ -353,25 +332,41 @@ export default function MindMapCanvas({ areaId }: Props) {
     return () => document.removeEventListener('paste', onPaste)
   }, [addImages, createNode, insertPoint, paste])
 
-  /** Where the next picked image goes, when a menu chose the spot. */
-  const imageTarget = useRef<XY | null>(null)
+  /** Where the next picked images go, when a menu chose the spot. */
+  const imageTarget = useRef<{ at: XY; connectFrom?: ConnectFrom } | null>(null)
 
-  function pickImagesAt(at: XY | null) {
-    imageTarget.current = at
+  function pickImagesAt(at: XY | null, connectFrom?: ConnectFrom) {
+    imageTarget.current = at && { at, connectFrom }
     fileInputRef.current?.click()
   }
 
   const closeMenu = useCallback(() => setMenu(null), [])
 
-  const onPaneContextMenu = useCallback(
-    (event: MouseEvent | React.MouseEvent) => {
-      event.preventDefault()
-      const at = screenToFlowPosition({ x: event.clientX, y: event.clientY })
+  /**
+   * The "add" menu at a screen point: right-click or double-click on the
+   * canvas, or a connection dropped on empty space (`connectFrom`), in
+   * which case the new element is connected to where the drag started.
+   */
+  const openAddMenu = useCallback(
+    (screen: XY, connectFrom?: ConnectFrom) => {
+      const at = screenToFlowPosition(screen)
       const clipboard = useUi.getState().clipboard
       const add = (label: string, kind: NodeKind): MenuItem => ({
         label,
-        onSelect: () =>
-          kind === 'image' ? pickImagesAt(at) : createNode(kind, at)
+        onSelect: () => {
+          if (kind === 'image') return pickImagesAt(at, connectFrom)
+          // One undo step for the element and its connection.
+          group(() => {
+            const id = createNode(kind, at)
+            if (connectFrom) {
+              addEdge(areaId, {
+                ...connectFrom,
+                target: id,
+                targetHandle: null
+              })
+            }
+          })
+        }
       })
       const items: MenuItem[] = [
         add('Topic', 'topic'),
@@ -380,16 +375,49 @@ export default function MindMapCanvas({ areaId }: Props) {
         add('Image…', 'image'),
         add('Video', 'video')
       ]
-      if (clipboard) {
+      if (clipboard && !connectFrom) {
         items.push('separator', {
           label: 'Paste',
           hint: `${modKey}V`,
           onSelect: () => paste(clipboard, at)
         })
       }
-      setMenu({ x: event.clientX, y: event.clientY, items })
+      setMenu({ ...screen, items })
     },
-    [createNode, paste, screenToFlowPosition]
+    [addEdge, areaId, createNode, group, paste, screenToFlowPosition]
+  )
+
+  const onPaneContextMenu = useCallback(
+    (event: MouseEvent | React.MouseEvent) => {
+      event.preventDefault()
+      openAddMenu({ x: event.clientX, y: event.clientY })
+    },
+    [openAddMenu]
+  )
+
+  // Dropping a connection on empty canvas opens the add menu there;
+  // dropping it on a node body (away from its handles) connects to that node.
+  const onConnectEnd = useCallback<OnConnectEnd>(
+    (event, state) => {
+      if (state.isValid || !state.fromNode || !state.fromHandle) return
+      const { clientX, clientY } =
+        'changedTouches' in event ? event.changedTouches[0] : event
+      const from: ConnectFrom = {
+        source: state.fromNode.id,
+        sourceHandle: state.fromHandle.id ?? null
+      }
+
+      const target = event.target as Element | null
+      const targetId = target
+        ?.closest('.react-flow__node')
+        ?.getAttribute('data-id')
+      if (targetId) {
+        addEdge(areaId, { ...from, target: targetId, targetHandle: null })
+      } else if (target?.closest('.react-flow__pane')) {
+        openAddMenu({ x: clientX, y: clientY }, from)
+      }
+    },
+    [addEdge, areaId, openAddMenu]
   )
 
   // Right-clicking a node in a multi-selection acts on the whole selection;
@@ -435,10 +463,7 @@ export default function MindMapCanvas({ areaId }: Props) {
   function onDoubleClick(event: React.MouseEvent) {
     if (!(event.target as Element).classList.contains('react-flow__pane'))
       return
-    createNode(
-      'topic',
-      screenToFlowPosition({ x: event.clientX, y: event.clientY })
-    )
+    openAddMenu({ x: event.clientX, y: event.clientY })
   }
 
   function onDragOver(event: React.DragEvent) {
@@ -467,9 +492,9 @@ export default function MindMapCanvas({ areaId }: Props) {
     const images = imageFiles(event.target.files)
     event.target.value = ''
     lastPointer.current = null
-    const at = imageTarget.current ?? insertPoint()
+    const target = imageTarget.current
     imageTarget.current = null
-    void addImages(images, at)
+    void addImages(images, target?.at ?? insertPoint(), target?.connectFrom)
   }
 
   function onPickMapFile(event: React.ChangeEvent<HTMLInputElement>) {
@@ -617,7 +642,7 @@ export default function MindMapCanvas({ areaId }: Props) {
               onChange={onPickMapFile}
             />
             <button type="button" className="btn" onClick={newMap}>
-              New map
+              Clear map
             </button>
             <button
               type="button"

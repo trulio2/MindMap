@@ -15,6 +15,7 @@ import {
 } from '@/types'
 import { emptyDoc, parseDoc } from '@/lib/io'
 import { debouncedLocalStorage } from './storage'
+import { useUi } from './ui.store'
 
 const STORAGE_KEY = 'mindmap'
 const HISTORY_LIMIT = 100
@@ -68,6 +69,11 @@ type MindMapState = MindMapDoc & {
    * top-left corner goes. Returns the ids of the pasted top-level nodes.
    */
   pasteClip: (areaId: string, clip: Clip, at?: XY) => string[]
+  /**
+   * Removes a node that was left empty, like a new text bubble that was
+   * cancelled. If the last change created it, that undo step goes too.
+   */
+  discardNode: (id: string) => void
   /** Copies the nodes, with everything inside them, next to themselves. */
   duplicateNodes: (ids: string[]) => string[]
   addEdge: (areaId: string, ends: EdgeEnds) => string | null
@@ -290,6 +296,19 @@ export const useMindMap = create<MindMapState>()(
           return top.map((n) => remap(n.id))
         },
 
+        discardNode: (id) => {
+          const { past, nodes, deleteNodes } = get()
+          if (!nodes[id]) return
+          const last = past.at(-1)
+          // Snapshots are taken before each change, so one without the node
+          // means the latest change created it: step back to before that.
+          if (last && !last.nodes[id]) {
+            set({ ...last, past: past.slice(0, -1) })
+          } else {
+            deleteNodes([id])
+          }
+        },
+
         duplicateNodes: (ids) => {
           const { copyNodes, pasteClip, nodes } = get()
           const clip = copyNodes(ids)
@@ -398,6 +417,23 @@ export const useMindMap = create<MindMapState>()(
     }
   )
 )
+
+/** Elements that are useless without content and aren't worth keeping. */
+function isEmptyNode({ kind, data }: MapNode) {
+  if (kind === 'text') return !data.text?.trim()
+  if (kind === 'link' || kind === 'video') return !data.url
+  return false
+}
+
+// However editing ends (save, cancel, Esc, undo, leaving the area), a text
+// bubble, link or video that is still empty is removed. Nodes save their
+// content before ending the edit, so a filled-in node is never caught here.
+useUi.subscribe((state, prev) => {
+  const id = prev.editingId
+  if (!id || id === state.editingId) return
+  const node = useMindMap.getState().nodes[id]
+  if (node && isEmptyNode(node)) useMindMap.getState().discardNode(id)
+})
 
 // Pick up changes saved by the app in another tab.
 window.addEventListener('storage', (event) => {

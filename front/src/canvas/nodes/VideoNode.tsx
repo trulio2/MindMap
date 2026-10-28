@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { NodeResizeControl } from '@xyflow/react'
 import { renderBlocks } from '@/lib/markdown'
-import { embedUrl, parseYouTube, watchUrl } from '@/lib/video'
+import { embedUrl, parseYouTube, thumbnailUrl, watchUrl } from '@/lib/video'
 import { useMindMap } from '@/store/mindmap.store'
 import { useUi } from '@/store/ui.store'
 import { useAutoFocus } from '../useAutoFocus'
@@ -92,20 +92,24 @@ export default function VideoNode({ id, data, selected }: MapNodeProps) {
   const editing = useUi((s) => s.editingId === id)
   const setEditing = useUi((s) => s.setEditing)
   const updateNodeData = useMindMap((s) => s.updateNodeData)
-  const deleteNodes = useMindMap((s) => s.deleteNodes)
   const checkpoint = useMindMap((s) => s.checkpoint)
-  // The YouTube player only loads once you press play.
+  // The YouTube player only loads once you press play; until then only
+  // the thumbnail image comes from YouTube.
   const [playing, setPlaying] = useState(false)
+  const [thumbFailed, setThumbFailed] = useState(false)
   const video = parseYouTube(data.url)
 
   function finishEditing(value: VideoValue | null) {
-    setEditing(null)
+    // Save first: a video still without a link when editing ends is
+    // removed by the store.
     if (value) {
-      if (value.url !== data.url) setPlaying(false)
+      if (value.url !== data.url) {
+        setPlaying(false)
+        setThumbFailed(false)
+      }
       updateNodeData(id, value)
     }
-    // A video that never got a link is useless, so drop it.
-    else if (!data.url) deleteNodes([id])
+    setEditing(null)
   }
 
   return (
@@ -175,6 +179,17 @@ export default function VideoNode({ id, data, selected }: MapNodeProps) {
                 aria-label={`Play ${data.label || 'video'}`}
                 onClick={() => setPlaying(true)}
               >
+                {!thumbFailed && (
+                  <img
+                    className="video-thumb"
+                    src={thumbnailUrl(video)}
+                    alt=""
+                    loading="lazy"
+                    draggable={false}
+                    referrerPolicy="no-referrer"
+                    onError={() => setThumbFailed(true)}
+                  />
+                )}
                 <span className="video-play-icon" aria-hidden="true">
                   ▶
                 </span>

@@ -15,11 +15,12 @@ export default function TextNode({ id, data, selected }: MapNodeProps) {
   const deleteNodes = useMindMap((s) => s.deleteNodes)
   const checkpoint = useMindMap((s) => s.checkpoint)
 
-  // Saving or cancelling a bubble with no text removes it.
   function finishEditing(text: string | null) {
-    setEditing(null)
     if (text) updateNodeData(id, { text })
-    else if (text === '' || !data.text) deleteNodes([id])
+    // Clearing the text of a bubble removes it. A new bubble left empty is
+    // removed by the store once editing ends.
+    else if (text === '' && data.text) deleteNodes([id])
+    setEditing(null)
   }
 
   return (

@@ -49,6 +49,14 @@ export function watchUrl({ id, start }: YouTubeVideo) {
   return `https://www.youtube.com/watch?v=${id}${start ? `&t=${start}s` : ''}`
 }
 
+/**
+ * YouTube's thumbnail image. "hqdefault" exists for every video (the larger
+ * "maxresdefault" doesn't); its letterbox bars are cropped away by CSS.
+ */
+export function thumbnailUrl({ id }: YouTubeVideo) {
+  return `https://i.ytimg.com/vi/${id}/hqdefault.jpg`
+}
+
 /** The privacy-enhanced embed, starting playback right away. */
 export function embedUrl({ id, start }: YouTubeVideo) {
   const params = new URLSearchParams({ autoplay: '1', rel: '0' })

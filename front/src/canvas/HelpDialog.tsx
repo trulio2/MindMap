@@ -8,9 +8,11 @@ const groups: { title: string; keys: [string, string][] }[] = [
   {
     title: 'Create',
     keys: [
-      ['Double-click canvas', 'New topic'],
-      ['Right-click canvas', 'Choose what to add there'],
-      ['Drag from a dot', 'Connect, or drop on empty space for a new topic'],
+      ['Double- or right-click', 'Choose what to add at that spot'],
+      [
+        'Drag from a dot',
+        'Connect to a node, or drop on empty space to add a connected element'
+      ],
       [`${mod} V`, 'Paste copied elements, an image, a link or text'],
       ['Drop files', 'Images become image nodes; a .json file imports a map']
     ]
@@ -71,9 +73,7 @@ export default function HelpDialog({ open, onClose }: Props) {
     >
       <h2 id="help-title">Help</h2>
       <p className="help-intro">
-        Every node can hold a whole map of its own: open it from its menu or
-        with {alt} ↓, and use the bar at the top to get back out. Your map is
-        saved in this browser; use Export to keep a copy or move it elsewhere.
+        The map is saved in this browser; use Export to keep a copy.
       </p>
       {groups.map((group) => (
         <section key={group.title}>
