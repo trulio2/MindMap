@@ -1,5 +1,6 @@
+import { useSyncExternalStore } from 'react'
 import { create } from 'zustand'
-import { createJSONStorage, persist } from 'zustand/middleware'
+import { persist } from 'zustand/middleware'
 import { nanoid } from 'nanoid'
 import {
   DOC_VERSION,
@@ -14,7 +15,7 @@ import {
   type XY
 } from '@/types'
 import { emptyDoc, parseDoc } from '@/lib/io'
-import { debouncedLocalStorage } from './storage'
+import { mapStorage, onSavedElsewhere } from './storage'
 import { useUi } from './ui.store'
 
 const STORAGE_KEY = 'mindmap'
@@ -368,7 +369,7 @@ export const useMindMap = create<MindMapState>()(
     {
       name: STORAGE_KEY,
       version: DOC_VERSION,
-      storage: createJSONStorage(() => debouncedLocalStorage),
+      storage: mapStorage,
       partialize: (s): MindMapDoc => ({
         nodes: s.nodes,
         edges: s.edges,
@@ -398,6 +399,24 @@ useUi.subscribe((state, prev) => {
   if (node && isEmptyNode(node)) useMindMap.getState().discardNode(id)
 })
 
-window.addEventListener('storage', (event) => {
-  if (event.key === STORAGE_KEY) void useMindMap.persist.rehydrate()
+onSavedElsewhere((name) => {
+  if (name === STORAGE_KEY) void useMindMap.persist.rehydrate()
 })
+
+let firstLoadDone = useMindMap.persist.hasHydrated()
+const loadListeners = new Set<() => void>()
+useMindMap.persist.onFinishHydration(() => {
+  if (firstLoadDone) return
+  firstLoadDone = true
+  loadListeners.forEach((listener) => listener())
+})
+
+export function useMapLoaded() {
+  return useSyncExternalStore(
+    (listener) => {
+      loadListeners.add(listener)
+      return () => loadListeners.delete(listener)
+    },
+    () => firstLoadDone
+  )
+}

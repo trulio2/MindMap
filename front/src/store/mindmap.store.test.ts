@@ -1,5 +1,6 @@
 import {
   afterAll,
+  afterEach,
   beforeAll,
   beforeEach,
   describe,
@@ -8,7 +9,9 @@ import {
   vi
 } from 'vitest'
 import type { XY } from '@/types'
+import { idbDelete, idbGet, idbSet } from './idb'
 import { useMindMap } from './mindmap.store'
+import { flushPendingWrites } from './storage'
 import { useUi } from './ui.store'
 
 const at = (x = 0, y = 0): XY => ({ x, y })
@@ -20,12 +23,14 @@ function addTopic(areaId = 'root', label = 'T', position = at()) {
   return map().addNode(areaId, { kind: 'topic', position, data: { label } })
 }
 
-beforeAll(() => vi.useFakeTimers())
+beforeAll(async () => {
+  vi.useFakeTimers({ toFake: ['setTimeout', 'clearTimeout'] })
+  await useMindMap.persist.rehydrate()
+})
 afterAll(() => vi.useRealTimers())
+afterEach(() => vi.restoreAllMocks())
 
-beforeEach(() => {
-  vi.runOnlyPendingTimers()
-  localStorage.clear()
+beforeEach(async () => {
   useMindMap.setState({
     nodes: {},
     edges: {},
@@ -33,6 +38,9 @@ beforeEach(() => {
     past: [],
     future: []
   })
+  await flushPendingWrites()
+  await idbDelete('mindmap')
+  localStorage.clear()
   useUi.setState({
     selectedNodes: {},
     selectedEdges: {},
@@ -329,51 +337,94 @@ describe('empty elements', () => {
 })
 
 describe('saving', () => {
-  const saved = () => JSON.parse(localStorage.getItem('mindmap') ?? 'null')
+  const saved = () =>
+    idbGet<{ version: number; state: Record<string, unknown> }>('mindmap')
 
-  it('writes the map 300 ms after the last change, without history', () => {
+  async function settle() {
+    await vi.advanceTimersByTimeAsync(300)
+    await flushPendingWrites()
+  }
+
+  it('writes the map 300 ms after the last change, as an object', async () => {
     const id = addTopic()
     map().saveViewport('root', { x: 1, y: 2, zoom: 3 })
-    expect(saved()).toBeNull()
-    vi.advanceTimersByTime(300)
-    expect(saved().version).toBe(1)
-    expect(Object.keys(saved().state).sort()).toEqual([
+    expect(await saved()).toBeUndefined()
+
+    await settle()
+    const value = await saved()
+    expect(value?.version).toBe(1)
+    expect(Object.keys(value!.state).sort()).toEqual([
       'edges',
       'nodes',
       'viewports'
     ])
-    expect(saved().state.nodes[id].data.label).toBe('T')
+    expect(value!.state.nodes).toMatchObject({ [id]: { data: { label: 'T' } } })
   })
 
-  it('reports full storage and recovers on the next good save', () => {
-    vi.stubGlobal('localStorage', {
-      getItem: () => null,
-      removeItem: () => {},
-      setItem: () => {
-        throw new DOMException('full', 'QuotaExceededError')
+  it('tells other tabs when it saves', async () => {
+    const other = new BroadcastChannel('mindmap')
+    const received = new Promise(
+      (resolve) => (other.onmessage = (e) => resolve(e.data))
+    )
+    addTopic()
+    await settle()
+    expect(await received).toBe('mindmap')
+    other.close()
+  })
+
+  it('reloads when another tab saves', async () => {
+    await idbSet('mindmap', {
+      version: 1,
+      state: {
+        nodes: {
+          fromTab: { areaId: 'root', kind: 'topic', position: at(), data: {} }
+        },
+        edges: {},
+        viewports: {}
       }
     })
+    const other = new BroadcastChannel('mindmap')
+    const reloaded = new Promise<void>((resolve) => {
+      const stop = useMindMap.persist.onFinishHydration(() => {
+        stop()
+        resolve()
+      })
+    })
+    other.postMessage('mindmap')
+    await reloaded
+    expect(ids()).toEqual(['fromTab'])
+    other.close()
+  })
+
+  it('reports full storage and recovers on the next good save', async () => {
+    const put = vi
+      .spyOn(IDBObjectStore.prototype, 'put')
+      .mockImplementation(() => {
+        throw new DOMException('full', 'QuotaExceededError')
+      })
     addTopic()
-    vi.advanceTimersByTime(300)
+    await settle()
     expect(useUi.getState().storageError).toBe('full')
 
-    vi.unstubAllGlobals()
+    put.mockRestore()
     addTopic()
-    vi.advanceTimersByTime(300)
+    await settle()
     expect(useUi.getState().storageError).toBeNull()
   })
 
-  it('loads saved data through the import checks, with a fresh history', async () => {
-    addTopic()
-    vi.advanceTimersByTime(300)
+  it('moves a map saved by the old version out of localStorage', async () => {
     localStorage.setItem(
       'mindmap',
       JSON.stringify({
         version: 1,
         state: {
           nodes: {
-            ok: { areaId: 'root', kind: 'topic', position: at(), data: {} },
-            bad: { areaId: 'root', kind: 'script', position: at(), data: {} }
+            old: {
+              areaId: 'root',
+              kind: 'topic',
+              position: at(),
+              data: { label: 'Old' }
+            }
           },
           edges: {},
           viewports: {}
@@ -381,13 +432,51 @@ describe('saving', () => {
       })
     )
     await useMindMap.persist.rehydrate()
+    expect(ids()).toEqual(['old'])
+    expect(localStorage.getItem('mindmap')).toBeNull()
+    expect((await saved())?.state.nodes).toHaveProperty('old')
+  })
+
+  it('loads saved data through the import checks, with a fresh history', async () => {
+    addTopic()
+    await settle()
+    await idbSet('mindmap', {
+      version: 1,
+      state: {
+        nodes: {
+          ok: { areaId: 'root', kind: 'topic', position: at(), data: {} },
+          bad: { areaId: 'root', kind: 'script', position: at(), data: {} }
+        },
+        edges: {},
+        viewports: {}
+      }
+    })
+    await useMindMap.persist.rehydrate()
     expect(ids()).toEqual(['ok'])
     expect(map().past).toEqual([])
   })
 
   it('falls back to an empty map when saved data is unreadable', async () => {
-    localStorage.setItem('mindmap', JSON.stringify({ version: 1, state: 'x' }))
+    await idbSet('mindmap', { version: 1, state: 'x' })
     await useMindMap.persist.rehydrate()
     expect(ids()).toEqual([])
+  })
+
+  it('never saves before the stored map has been read', async () => {
+    vi.resetModules()
+    const fresh = await import('./storage')
+    await idbSet('mindmap', {
+      version: 1,
+      state: { nodes: { keep: {} }, edges: {}, viewports: {} }
+    })
+
+    fresh.mapStorage.setItem('mindmap', {
+      version: 1,
+      state: { nodes: {}, edges: {}, viewports: {} }
+    })
+    await vi.advanceTimersByTimeAsync(300)
+    await fresh.flushPendingWrites()
+
+    expect((await saved())?.state.nodes).toHaveProperty('keep')
   })
 })
