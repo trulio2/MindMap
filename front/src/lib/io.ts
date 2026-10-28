@@ -23,7 +23,8 @@ const NODE_KINDS = new Set<string>([
   'text',
   'image',
   'link',
-  'video'
+  'video',
+  'sticky'
 ] satisfies NodeKind[])
 
 export type MapFile = MindMapDoc & {

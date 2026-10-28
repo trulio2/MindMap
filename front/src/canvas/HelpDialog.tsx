@@ -9,6 +9,7 @@ const groups: { title: string; keys: [string, string][] }[] = [
     title: 'Create',
     keys: [
       ['Double- or right-click', 'Choose what to add at that spot'],
+      ['Drag a + button', 'Drop it on the canvas to add it there'],
       [
         'Drag from a dot',
         'Connect to a node, or drop on empty space to add a connected element'

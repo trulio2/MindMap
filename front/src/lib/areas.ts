@@ -9,7 +9,7 @@ export function areaPath(areaId: string) {
 export function nodeTitle(node: MapNode): string {
   const { label, text, url } = node.data
   if (label) return plainText(label)
-  if (node.kind === 'text' && text) {
+  if ((node.kind === 'text' || node.kind === 'sticky') && text) {
     const firstLine = plainText(text.split('\n')[0])
     return firstLine.length > 40 ? `${firstLine.slice(0, 40)}…` : firstLine
   }

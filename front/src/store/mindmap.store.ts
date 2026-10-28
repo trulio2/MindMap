@@ -39,7 +39,8 @@ type Snapshot = Pick<MindMapDoc, 'nodes' | 'edges'>
 
 const defaultSize: Partial<Record<NodeKind, MapNode['size']>> = {
   text: { width: 220 },
-  video: { width: 360 }
+  video: { width: 360 },
+  sticky: { width: 200, height: 200 }
 }
 
 const defaultData: Record<NodeKind, MapNodeData> = {
@@ -47,7 +48,8 @@ const defaultData: Record<NodeKind, MapNodeData> = {
   text: { text: '' },
   image: {},
   link: { label: '', url: '' },
-  video: { label: '', url: '', text: '' }
+  video: { label: '', url: '', text: '' },
+  sticky: { text: '', color: 'yellow' }
 }
 
 type MindMapState = MindMapDoc & {
@@ -384,7 +386,7 @@ export const useMindMap = create<MindMapState>()(
 )
 
 function isEmptyNode({ kind, data }: MapNode) {
-  if (kind === 'text') return !data.text?.trim()
+  if (kind === 'text' || kind === 'sticky') return !data.text?.trim()
   if (kind === 'link' || kind === 'video') return !data.url
   return false
 }

@@ -38,6 +38,7 @@ import LinkNode from './nodes/LinkNode'
 import TextNode from './nodes/TextNode'
 import TopicNode from './nodes/TopicNode'
 import VideoNode from './nodes/VideoNode'
+import StickyNode from './nodes/StickyNode'
 import ContextMenu, { type MenuItem } from './ContextMenu'
 import { selectedInArea, useClipboard } from './useClipboard'
 import type { FlowEdge, FlowNode } from './types'
@@ -47,13 +48,25 @@ const nodeTypes = {
   text: TextNode,
   image: ImageNode,
   link: LinkNode,
-  video: VideoNode
+  video: VideoNode,
+  sticky: StickyNode
 }
 
 const isMac = /Mac|iPhone|iPad/.test(navigator.platform)
 const modKey = isMac ? '⌘' : 'Ctrl+'
 const altKey = isMac ? '⌥' : 'Alt+'
 const edgeTypes = { labeled: LabeledEdge }
+
+const ADD_ITEMS: { kind: NodeKind; label: string; short?: string }[] = [
+  { kind: 'topic', label: 'Topic' },
+  { kind: 'text', label: 'Text' },
+  { kind: 'sticky', label: 'Sticky note', short: 'Sticky' },
+  { kind: 'link', label: 'Link' },
+  { kind: 'image', label: 'Image' },
+  { kind: 'video', label: 'Video' }
+]
+
+const ADD_DRAG_TYPE = 'application/x-mindmap-kind'
 const deleteKeys = ['Backspace', 'Delete']
 
 const storageMessages: Record<StorageError, string> = {
@@ -345,13 +358,9 @@ export default function MindMapCanvas({ areaId }: Props) {
           })
         }
       })
-      const items: MenuItem[] = [
-        add('Topic', 'topic'),
-        add('Text', 'text'),
-        add('Link', 'link'),
-        add('Image…', 'image'),
-        add('Video', 'video')
-      ]
+      const items: MenuItem[] = ADD_ITEMS.map(({ kind, label }) =>
+        add(kind === 'image' ? `${label}…` : label, kind)
+      )
       if (clipboard && !connectFrom) {
         items.push('separator', {
           label: 'Paste',
@@ -440,12 +449,23 @@ export default function MindMapCanvas({ areaId }: Props) {
   }
 
   function onDragOver(event: React.DragEvent) {
-    if (!event.dataTransfer.types.includes('Files')) return
+    const { types } = event.dataTransfer
+    if (!types.includes('Files') && !types.includes(ADD_DRAG_TYPE)) return
     event.preventDefault()
     event.dataTransfer.dropEffect = 'copy'
   }
 
   function onDrop(event: React.DragEvent) {
+    const at = screenToFlowPosition({ x: event.clientX, y: event.clientY })
+    const dragged = event.dataTransfer.getData(ADD_DRAG_TYPE)
+    const item = ADD_ITEMS.find((i) => i.kind === dragged)
+    if (item) {
+      event.preventDefault()
+      if (item.kind === 'image') pickImagesAt(at)
+      else createNode(item.kind, at)
+      return
+    }
+
     const files = [...event.dataTransfer.files]
     const mapFile = files.find(isJsonFile)
     if (mapFile) {
@@ -455,10 +475,7 @@ export default function MindMapCanvas({ areaId }: Props) {
     const images = imageFiles(event.dataTransfer.files)
     if (!images.length) return
     event.preventDefault()
-    void addImages(
-      images,
-      screenToFlowPosition({ x: event.clientX, y: event.clientY })
-    )
+    void addImages(images, at)
   }
 
   function onPickImages(event: React.ChangeEvent<HTMLInputElement>) {
@@ -523,41 +540,24 @@ export default function MindMapCanvas({ areaId }: Props) {
           <Breadcrumbs areaId={areaId} />
         </Panel>
         <Panel position="top-left" className="toolbar">
-          <button
-            type="button"
-            className="btn"
-            onClick={() => addAtCenter('topic')}
-          >
-            + Topic
-          </button>
-          <button
-            type="button"
-            className="btn"
-            onClick={() => addAtCenter('text')}
-          >
-            + Text
-          </button>
-          <button
-            type="button"
-            className="btn"
-            onClick={() => addAtCenter('link')}
-          >
-            + Link
-          </button>
-          <button
-            type="button"
-            className="btn"
-            onClick={() => pickImagesAt(null)}
-          >
-            + Image
-          </button>
-          <button
-            type="button"
-            className="btn"
-            onClick={() => addAtCenter('video')}
-          >
-            + Video
-          </button>
+          {ADD_ITEMS.map(({ kind, label, short }) => (
+            <button
+              key={kind}
+              type="button"
+              className="btn add-btn"
+              title={`Add ${label.toLowerCase()}: click, or drag onto the canvas`}
+              draggable
+              onDragStart={(e) => {
+                e.dataTransfer.setData(ADD_DRAG_TYPE, kind)
+                e.dataTransfer.effectAllowed = 'copy'
+              }}
+              onClick={() =>
+                kind === 'image' ? pickImagesAt(null) : addAtCenter(kind)
+              }
+            >
+              + {short ?? label}
+            </button>
+          ))}
           <input
             ref={fileInputRef}
             type="file"

@@ -74,6 +74,14 @@ body {
   background: #0d1416;
 }
 
+.toolbar .add-btn {
+  cursor: grab;
+}
+
+.toolbar .add-btn:active {
+  cursor: grabbing;
+}
+
 .toolbar .btn:hover {
   background: var(--accent-bg);
   border-color: var(--accent-border);
@@ -387,6 +395,78 @@ textarea.inline-input {
   height: 9px;
   background: var(--node-border);
   clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+/* Sticky note: colored paper with a folded bottom-right corner. */
+.sticky-node {
+  --paper: color-mix(in srgb, var(--node-color, #f5c542) 80%, #0d1416);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 14px 16px 18px;
+  border: 0;
+  border-radius: 2px 2px 2px 2px;
+  background: var(--paper);
+  color: #10181a;
+  font-size: 15px;
+  line-height: 1.4;
+  box-shadow:
+    0 1px 1px rgba(0, 0, 0, 0.3),
+    0 12px 20px -8px rgba(0, 0, 0, 0.6);
+}
+
+.sticky-node::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 18px;
+  height: 18px;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--paper) 70%, #000) 50%,
+    var(--bg) 50%
+  );
+}
+
+.sticky-node:hover {
+  border: 0;
+}
+
+.sticky-node.selected {
+  box-shadow:
+    0 0 0 2px var(--accent),
+    0 12px 20px -8px rgba(0, 0, 0, 0.6);
+}
+
+.sticky-body {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  overflow-wrap: anywhere;
+}
+
+.sticky-node textarea.inline-input {
+  flex: 1;
+  min-height: 0;
+  color: inherit;
+}
+
+.sticky-node .inline-input::placeholder {
+  color: rgba(16, 24, 26, 0.55);
+}
+
+.sticky-node .md strong {
+  color: inherit;
+}
+
+.sticky-node .md code {
+  background: rgba(0, 0, 0, 0.12);
+}
+
+.sticky-node .md-link {
+  color: inherit;
+  text-decoration-color: currentColor;
 }
 
 .image-node {

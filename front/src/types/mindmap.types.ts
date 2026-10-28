@@ -2,7 +2,7 @@ export const ROOT_AREA = 'root'
 
 export const DOC_VERSION = 1
 
-export type NodeKind = 'topic' | 'text' | 'image' | 'link' | 'video'
+export type NodeKind = 'topic' | 'text' | 'sticky' | 'image' | 'link' | 'video'
 
 export const NODE_COLORS = [
   'cyan',
