@@ -1,0 +1,6888 @@
+{
+  "app": "mindmap",
+  "version": 1,
+  "name": "World War II",
+  "nodes": {
+    "root-title": {
+      "id": "root-title",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "**World War II** · 1939–1945",
+        "color": "red"
+      }
+    },
+    "root-intro": {
+      "id": "root-intro",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 72
+      },
+      "data": {
+        "text": "**The deadliest conflict in history**\nThe war began with Germany's invasion of Poland on **1 September 1939** and ended with Japan's surrender in **September 1945**. Around **70–85 million people died**, most of them civilians, including some **6 million Jews** murdered in the Holocaust. It reshaped borders, empires, technology and the global order for the rest of the century.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "root-howto": {
+      "id": "root-howto",
+      "areaId": "root",
+      "kind": "sticky",
+      "position": {
+        "x": 560,
+        "y": 0
+      },
+      "data": {
+        "text": "**How to read this map**\nEach branch opens into its own area. Click the number badge on a topic to go inside. Colours group related material: red for turning points and atrocities, cyan for politics and sea/air war, yellow for background and technology, green for Allied and aftermath material, purple for people and the Pacific, orange for home fronts and the Mediterranean.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 390
+      }
+    },
+    "root-overview": {
+      "id": "root-overview",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 560,
+        "y": 245
+      },
+      "data": {
+        "text": "**At a glance**\n- **1 Sep 1939** — Germany invades Poland\n- **1940** — France falls; Battle of Britain\n- **22 Jun 1941** — Operation Barbarossa\n- **7 Dec 1941** — Pearl Harbor; the war goes global\n- **1942–43** — Midway, El Alamein, Stalingrad, Kursk\n- **6 Jun 1944** — D-Day and Operation Bagration\n- **May 1945** — Germany surrenders\n- **Aug–Sep 1945** — atomic bombs; Japan surrenders",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-timeline": {
+      "id": "b-timeline",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 521.5
+      },
+      "data": {
+        "label": "Timeline",
+        "color": "red"
+      }
+    },
+    "b-timeline-desc": {
+      "id": "b-timeline-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 576.5
+      },
+      "data": {
+        "text": "Every major turning point, year by year.",
+        "color": "red"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "b-timeline-intro": {
+      "id": "b-timeline-intro",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Key dates**\nA fast spine through the war. Each year card lists the events that changed its course.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1939": {
+      "id": "tl-1939",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**1939**\n- **1 Sep** Germany invades Poland; Blitzkrieg begins.\n- **3 Sep** Britain and France declare war.\n- **17 Sep** USSR invades eastern Poland.\n- **30 Nov** Winter War: USSR attacks Finland.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "tl-1940": {
+      "id": "tl-1940",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**1940**\n- **Apr** Germany invades Denmark and Norway.\n- **May** Low Countries and France attacked; Churchill becomes PM.\n- **26 May–4 Jun** Dunkirk evacuation.\n- **10 Jun** Italy declares war.\n- **22 Jun** France signs armistice.\n- **Jul–Oct** Battle of Britain; the Blitz begins.\n- **Sep** Tripartite Pact signed.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "tl-1941": {
+      "id": "tl-1941",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**1941**\n- **Mar** Lend-Lease signed.\n- **Apr** Germany invades Yugoslavia and Greece.\n- **22 Jun** Operation Barbarossa.\n- **7 Dec** Pearl Harbor.\n- **8 Dec** US declares war on Japan.\n- **11 Dec** Germany and Italy declare war on the US.\n- **Dec** Battle of Moscow halts the German advance.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "tl-1942": {
+      "id": "tl-1942",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**1942**\n- **20 Jan** Wannsee Conference.\n- **15 Feb** Singapore surrenders.\n- **May** Coral Sea; first carrier battle.\n- **4–7 Jun** Midway.\n- **Aug** Guadalcanal; Stalingrad begins.\n- **Oct–Nov** Second El Alamein.\n- **8 Nov** Operation Torch.\n- **Nov** Stalingrad encirclement.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "tl-1943": {
+      "id": "tl-1943",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 388.5
+      },
+      "data": {
+        "text": "**1943**\n- **2 Feb** German 6th Army surrenders at Stalingrad.\n- **May** Axis forces surrender in Tunisia.\n- **Jul** Kursk; Sicily invaded.\n- **Sep** Italy surrenders; Salerno landings.\n- **Nov** Tehran Conference.\n- **Nov** Battle of Tarawa.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "tl-1944": {
+      "id": "tl-1944",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 409.0
+      },
+      "data": {
+        "text": "**1944**\n- **Jan** Leningrad relieved.\n- **6 Jun** D-Day in Normandy.\n- **Jun–Aug** Operation Bagration destroys Army Group Centre.\n- **20 Jul** plot against Hitler fails.\n- **25 Aug** Paris liberated.\n- **Aug–Oct** Warsaw Uprising.\n- **Oct** Leyte Gulf.\n- **Dec** Battle of the Bulge.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "tl-1945": {
+      "id": "tl-1945",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 541.0
+      },
+      "data": {
+        "text": "**1945**\n- **Jan** Vistula–Oder offensive.\n- **Feb** Yalta Conference; Dresden bombed.\n- **Apr** Berlin offensive; Roosevelt dies; Mussolini killed.\n- **30 Apr** Hitler commits suicide.\n- **8 May** Germany surrenders (VE Day).\n- **6 & 9 Aug** Hiroshima and Nagasaki.\n- **15 Aug** Japan announces surrender; **2 Sep** formal surrender.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "tl-tip": {
+      "id": "tl-tip",
+      "areaId": "b-timeline",
+      "kind": "sticky",
+      "position": {
+        "x": 540,
+        "y": 602.5
+      },
+      "data": {
+        "text": "**Five turning points**\n**Midway** ended Japanese naval dominance. **El Alamein** and **Stalingrad** ended Axis offensives. **Kursk** ended the last German strategic attack in the east. **D-Day** opened the second front in the west.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "b-causes": {
+      "id": "b-causes",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 560,
+        "y": 521.5
+      },
+      "data": {
+        "label": "Causes & road to war",
+        "color": "yellow"
+      }
+    },
+    "b-causes-desc": {
+      "id": "b-causes-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 560,
+        "y": 576.5
+      },
+      "data": {
+        "text": "Versailles, the Depression, fascism, appeasement and the road to 1939.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "b-causes-intro": {
+      "id": "b-causes-intro",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Why war came**\nA punitive peace, economic collapse, fascist expansion and appeasement turned a European crisis into a world war.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "c-versailles": {
+      "id": "c-versailles",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Treaty of Versailles (1919)**\nGermany lost territory, colonies and about 10% of its population, accepted guilt for the war, and faced army limits and heavy reparations. Resentment became a Nazi recruiting tool.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "c-depression": {
+      "id": "c-depression",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Great Depression (from 1929)**\nMass unemployment and bank failures destabilized democracies and boosted extremist parties, above all the Nazis and communists.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "c-mussolini": {
+      "id": "c-mussolini",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Mussolini's Italy**\nFascists took power in 1922. Italy invaded Ethiopia in 1935 and Albania in 1939, exposing the League of Nations as powerless.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "c-hitler": {
+      "id": "c-hitler",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Hitler takes power (1933)**\nThe Reichstag fire, the Enabling Act and Hindenburg's death let Hitler build a dictatorship in under two years, largely within legal forms.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "c-nuremberg": {
+      "id": "c-nuremberg",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Nuremberg Laws (1935)**\nStripped Jews of citizenship and banned marriages between Jews and non-Jews, turning antisemitism into law.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "c-rearm": {
+      "id": "c-rearm",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Rearmament (1935–39)**\nConscription, the Luftwaffe and a huge arms program broke Versailles limits. Britain and France began rearming late and slowly.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "c-rhineland": {
+      "id": "c-rhineland",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Rhineland remilitarized (Mar 1936)**\nGerman troops entered the demilitarized zone. France and Britain did not respond, convincing Hitler that they would not fight.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "c-spain": {
+      "id": "c-spain",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Spanish Civil War (1936–39)**\nFranco's Nationalists, backed by Hitler and Mussolini, defeated the Republic. The bombing of Guernica in 1937 previewed total war against civilians.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "c-anti-comintern": {
+      "id": "c-anti-comintern",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Anti-Comintern Pact (1936)**\nGermany, Japan and later Italy aligned against the Soviet Union, beginning the Axis alignment.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "c-anschluss": {
+      "id": "c-anschluss",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Anschluss (Mar 1938)**\nAustria was annexed without resistance. Britain and France again protested but did not act.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "c-munich": {
+      "id": "c-munich",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Munich Agreement (Sep 1938)**\nBritain and France allowed Germany to take the Sudetenland from Czechoslovakia. Chamberlain's 'peace for our time' became the symbol of appeasement.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "c-czech": {
+      "id": "c-czech",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 570.5
+      },
+      "data": {
+        "text": "**Prague occupied (Mar 1939)**\nGermany broke the Munich agreement and seized the rest of the Czech lands, destroying trust in Hitler's promises.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "c-pact": {
+      "id": "c-pact",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Molotov–Ribbentrop Pact (23 Aug 1939)**\nA public non-aggression treaty with a secret protocol dividing Poland and eastern Europe between Germany and the USSR.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "c-poland": {
+      "id": "c-poland",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 702.5
+      },
+      "data": {
+        "text": "**Invasion of Poland (1 Sep 1939)**\nGermany attacked with air power, armor and terror bombing. Britain and France declared war on 3 September, but Poland fell within weeks.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "c-soviet-poland": {
+      "id": "c-soviet-poland",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 702.5
+      },
+      "data": {
+        "text": "**Soviet invasion of Poland (17 Sep 1939)**\nStalin took eastern Poland, then forced the Baltic states to accept Soviet bases and annexed them in 1940.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "c-japan": {
+      "id": "c-japan",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 793.5
+      },
+      "data": {
+        "text": "**Japan's road to war**\nThe Mukden Incident (1931), full invasion of China (1937), the Nanjing Massacre (1937–38) and the Greater East Asia Co-Prosperity Sphere set Japan on a collision course with the US.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "c-isolation": {
+      "id": "c-isolation",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 834.5
+      },
+      "data": {
+        "text": "**American isolationism**\nThe Neutrality Acts and the America First movement limited help. Cash-and-carry, destroyers-for-bases and Lend-Lease gradually shifted US policy toward the Allies.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "b-europe": {
+      "id": "b-europe",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1120,
+        "y": 521.5
+      },
+      "data": {
+        "label": "Europe 1939–1941",
+        "color": "cyan"
+      }
+    },
+    "b-europe-desc": {
+      "id": "b-europe-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1120,
+        "y": 576.5
+      },
+      "data": {
+        "text": "Poland, the fall of France, the Battle of Britain and the Balkans.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "b-europe-intro": {
+      "id": "b-europe-intro",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The first two years**\nGermany conquered Poland, Scandinavia, the Low Countries and France, then failed to break Britain from the air. The Balkans became the southern flank before Barbarossa.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "e-poland": {
+      "id": "e-poland",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Polish campaign (Sep–Oct 1939)**\nGermany used combined air and armored spearheads (Blitzkrieg). Warsaw fell on 28 September after heavy bombing. The USSR occupied the east under the secret pact.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "e-phoney": {
+      "id": "e-phoney",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Phoney War (Oct 1939–Apr 1940)**\nBritain and France mobilized but avoided major land attacks on Germany. The period ended with the German invasion of Norway.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "e-winter-war": {
+      "id": "e-winter-war",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Winter War (Nov 1939–Mar 1940)**\nThe USSR attacked Finland and suffered early defeats, but Finland eventually ceded territory. Soviet military weakness encouraged Hitler.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "e-norway": {
+      "id": "e-norway",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Denmark and Norway (Apr 1940)**\nOperation Weserübung seized both countries to secure Swedish iron ore and Atlantic bases. Norwegian resistance and the sinking of the Blücher slowed but did not stop the conquest.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "e-france": {
+      "id": "e-france",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Fall of France (May–Jun 1940)**\nGermany attacked through the Low Countries and the Ardennes. Panzer groups reached the Channel, splitting the Allied armies. France signed an armistice on 22 June.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "e-dunkirk": {
+      "id": "e-dunkirk",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Dunkirk (26 May–4 Jun 1940)**\nOperation Dynamo evacuated about 338,000 Allied soldiers from the beaches. The army was saved, but most equipment was lost.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "e-vichy": {
+      "id": "e-vichy",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**Vichy France**\nFrance was divided into occupied and unoccupied zones. Marshal Pétain's regime collaborated with Germany and enacted antisemitic laws; Free France under de Gaulle continued the fight.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "e-britain": {
+      "id": "e-britain",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**Battle of Britain (Jul–Oct 1940)**\nThe RAF, helped by radar and the Dowding System, defeated the Luftwaffe's attempt to win air superiority. 'Never was so much owed by so many to so few.'",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "e-blitz": {
+      "id": "e-blitz",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 459.0
+      },
+      "data": {
+        "text": "**The Blitz (1940–41)**\nNight bombing of London and other cities killed tens of thousands and destroyed housing, but did not break British morale.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "e-sea-lion": {
+      "id": "e-sea-lion",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 591.0
+      },
+      "data": {
+        "text": "**Operation Sea Lion**\nThe planned German invasion of Britain was postponed indefinitely after the air defeat. The Channel and the Royal Navy made a landing extremely risky.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "e-balkans": {
+      "id": "e-balkans",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 591.0
+      },
+      "data": {
+        "text": "**Balkans campaign (Apr 1941)**\nGermany invaded Yugoslavia and Greece after Italy's failed attack on Greece. Yugoslavia was dismembered; Greece was occupied; Crete fell in May.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "e-greece": {
+      "id": "e-greece",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 611.5
+      },
+      "data": {
+        "text": "**Italy invades Greece (Oct 1940)**\nThe Italian offensive stalled and Greek forces pushed back into Albania. Germany intervened in April 1941 to rescue its ally.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "e-crete": {
+      "id": "e-crete",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 743.5
+      },
+      "data": {
+        "text": "**Battle of Crete (May 1941)**\nGerman paratroopers captured the island at heavy cost. The losses ended large-scale German airborne operations.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "e-britain-alone": {
+      "id": "e-britain-alone",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 743.5
+      },
+      "data": {
+        "text": "**Britain alone**\nAfter the fall of France, Britain and the Commonwealth fought on. Churchill refused compromise, and the US moved toward open support.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "e-lend-lease": {
+      "id": "e-lend-lease",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 743.5
+      },
+      "data": {
+        "text": "**Lend-Lease (Mar 1941)**\nThe US began supplying Britain and later the USSR with weapons, food and material, ending its formal neutrality in all but name.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "e-hess": {
+      "id": "e-hess",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 875.5
+      },
+      "data": {
+        "text": "**Rudolf Hess flight (May 1941)**\nHitler's deputy flew to Scotland on a private peace mission and was imprisoned. The episode damaged Nazi prestige and had no diplomatic result.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "e-atlantic-charter": {
+      "id": "e-atlantic-charter",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 875.5
+      },
+      "data": {
+        "text": "**Atlantic Charter (Aug 1941)**\nRoosevelt and Churchill agreed on self-determination, free trade, collective security and freedom from fear and want. It became a foundation of the postwar order.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "b-eastern": {
+      "id": "b-eastern",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 661.0
+      },
+      "data": {
+        "label": "Eastern Front",
+        "color": "red"
+      }
+    },
+    "b-eastern-desc": {
+      "id": "b-eastern-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 716.0
+      },
+      "data": {
+        "text": "Barbarossa, Stalingrad, Kursk, Bagration and the road to Berlin.",
+        "color": "red"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "b-eastern-intro": {
+      "id": "b-eastern-intro",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The war in the east**\nThe largest land front in history. Germany's invasion of the USSR in 1941 led to four years of mass armies, immense casualties and atrocities, and ended with the Red Army in Berlin.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ea-barbarossa": {
+      "id": "ea-barbarossa",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 174.5
+      },
+      "data": {
+        "text": "**Operation Barbarossa (22 Jun 1941)**\nGermany and its allies attacked the USSR with about 3.8 million troops in three army groups: North (Leningrad), Centre (Moscow) and South (Ukraine and the Caucasus).",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "ea-army-groups": {
+      "id": "ea-army-groups",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 174.5
+      },
+      "data": {
+        "text": "**German plan and forces**\nArmy Group North aimed at Leningrad, Centre at Moscow, South at Kiev and the Donets. The plan assumed a quick collapse, but Soviet reserves and space changed the war.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "ea-kiev": {
+      "id": "ea-kiev",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 174.5
+      },
+      "data": {
+        "text": "**Battle of Kiev (Sep 1941)**\nThe largest encirclement in history trapped hundreds of thousands of Soviet troops. The victory delayed the drive on Moscow.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "ea-leningrad": {
+      "id": "ea-leningrad",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Siege of Leningrad (1941–44)**\nA 872-day siege caused mass starvation, with perhaps a million civilian deaths. The Road of Life supplied the city until the siege was broken in January 1944.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "ea-moscow": {
+      "id": "ea-moscow",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 327.0
+      },
+      "data": {
+        "text": "**Battle of Moscow (Oct 1941–Jan 1942)**\nGerman troops reached the suburbs, but winter, exhaustion and Soviet counteroffensives pushed them back. The myth of invincibility was broken.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "ea-case-blue": {
+      "id": "ea-case-blue",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 327.0
+      },
+      "data": {
+        "text": "**Case Blue (1942)**\nGermany drove toward Stalingrad and the Caucasus oil fields, stretching its flanks and logistics.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "ea-stalingrad": {
+      "id": "ea-stalingrad",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 459.0
+      },
+      "data": {
+        "text": "**Battle of Stalingrad (Aug 1942–Feb 1943)**\nUrban fighting and Operation Uranus encircled the 6th Army. Paulus surrendered in February 1943. It was the turning point of the eastern front.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "ea-kursk": {
+      "id": "ea-kursk",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 459.0
+      },
+      "data": {
+        "text": "**Battle of Kursk (Jul 1943)**\nThe largest tank battle, including Prokhorovka. Soviet defenses absorbed the German attack and began a permanent advance westward.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "ea-dnieper": {
+      "id": "ea-dnieper",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 479.5
+      },
+      "data": {
+        "text": "**Dnieper and Kiev (1943)**\nSoviet offensives crossed the Dnieper and liberated Kiev in November, pushing Germany back toward the prewar border.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "ea-bagration": {
+      "id": "ea-bagration",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 611.5
+      },
+      "data": {
+        "text": "**Operation Bagration (Jun–Aug 1944)**\nA massive Soviet offensive destroyed Army Group Centre and advanced to the Vistula, the greatest German defeat of the war.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "ea-warsaw-uprising": {
+      "id": "ea-warsaw-uprising",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 611.5
+      },
+      "data": {
+        "text": "**Warsaw Uprising (Aug–Oct 1944)**\nThe Polish Home Army rose against the Germans as the Red Army paused on the Vistula. The uprising was crushed and Warsaw was destroyed.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "ea-balkans": {
+      "id": "ea-balkans",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 611.5
+      },
+      "data": {
+        "text": "**Balkans and Romania (1944)**\nThe Jassy–Kishinev offensive knocked Romania out of the Axis and opened the Balkans. Bulgaria and Hungary soon followed.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "ea-vistula-oder": {
+      "id": "ea-vistula-oder",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 743.5
+      },
+      "data": {
+        "text": "**Vistula–Oder offensive (Jan 1945)**\nThe Red Army advanced hundreds of kilometers in weeks and reached the Oder, about 70 km from Berlin.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "ea-berlin": {
+      "id": "ea-berlin",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 743.5
+      },
+      "data": {
+        "text": "**Battle of Berlin (Apr–May 1945)**\nSoviet forces surrounded and stormed the capital. Hitler committed suicide on 30 April; the city surrendered in early May.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "ea-soviet-japan": {
+      "id": "ea-soviet-japan",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 743.5
+      },
+      "data": {
+        "text": "**Soviet war on Japan (Aug 1945)**\nThe USSR invaded Manchuria and southern Sakhalin, crushing the Kwantung Army and helping force Japan's surrender.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "ea-partisans": {
+      "id": "ea-partisans",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 875.5
+      },
+      "data": {
+        "text": "**Soviet partisans**\nBehind German lines, partisans attacked supply lines and infrastructure. Reprisals against civilians were brutal.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "ea-pows": {
+      "id": "ea-pows",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 875.5
+      },
+      "data": {
+        "text": "**Soviet prisoners of war**\nAbout 3 million Soviet POWs died in German captivity from starvation, exposure and execution, one of the war's largest atrocities.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "ea-lend-lease": {
+      "id": "ea-lend-lease",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 875.5
+      },
+      "data": {
+        "text": "**Lend-Lease to the USSR**\nTrucks, food, fuel, rail equipment and aircraft helped Soviet mobility and logistics, especially in 1942–43.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "ea-atrocities": {
+      "id": "ea-atrocities",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1007.5
+      },
+      "data": {
+        "text": "**Occupation and atrocity**\nThe Hunger Plan, the Commissar Order and mass reprisals targeted civilians. Belarus and Ukraine suffered some of the worst destruction of the war.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "b-pacific": {
+      "id": "b-pacific",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 560,
+        "y": 681.5
+      },
+      "data": {
+        "label": "Pacific War",
+        "color": "purple"
+      }
+    },
+    "b-pacific-desc": {
+      "id": "b-pacific-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 560,
+        "y": 736.5
+      },
+      "data": {
+        "text": "Pearl Harbor, Midway, island hopping, kamikazes and Hiroshima.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "b-pacific-intro": {
+      "id": "b-pacific-intro",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**War across the Pacific**\nJapan's strike on Pearl Harbor turned a war in China into a global conflict. After early conquests, Japan was pushed back across the Pacific to the home islands.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "p-pearl": {
+      "id": "p-pearl",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Pearl Harbor (7 Dec 1941)**\nJapanese carrier aircraft attacked the US Pacific Fleet in Hawaii, sinking or damaging battleships and killing about 2,400 Americans. The US declared war the next day.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "p-malaya": {
+      "id": "p-malaya",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Malaya campaign (Dec 1941–Feb 1942)**\nJapanese forces advanced rapidly down the Malay Peninsula, outmaneuvering British and Commonwealth defenders.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "p-singapore": {
+      "id": "p-singapore",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Fall of Singapore (15 Feb 1942)**\nAbout 80,000 British and Commonwealth troops surrendered, the largest capitulation in British military history.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "p-philippines": {
+      "id": "p-philippines",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Philippines (1941–42)**\nUS and Filipino forces held Bataan and Corregidor before surrendering. The Bataan Death March killed thousands of prisoners.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "p-dei": {
+      "id": "p-dei",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Dutch East Indies**\nJapan seized the oil-rich islands in early 1942, including the battles of the Java Sea and Sunda Strait.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "p-burma": {
+      "id": "p-burma",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Burma campaign (1942–45)**\nJapan drove British, Indian and Chinese forces out of Burma, cutting the Burma Road. Rebuilding supply lines and later offensives reversed the situation.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "p-coral": {
+      "id": "p-coral",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Battle of the Coral Sea (May 1942)**\nThe first naval battle fought entirely by carrier aircraft. It stopped a Japanese move toward Port Moresby.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "p-midway": {
+      "id": "p-midway",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Battle of Midway (4–7 Jun 1942)**\nUS carriers sank four Japanese fleet carriers. Japan lost experienced aircrews and never regained naval initiative.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "p-guadalcanal": {
+      "id": "p-guadalcanal",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 459.0
+      },
+      "data": {
+        "text": "**Guadalcanal (Aug 1942–Feb 1943)**\nThe first major Allied land offensive in the Pacific. Fierce land, sea and air fighting ended with Japan's evacuation.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "p-new-guinea": {
+      "id": "p-new-guinea",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**New Guinea campaign**\nAustralian and US forces stopped the Japanese advance on Port Moresby along the Kokoda Track and pushed them back.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "p-island-hopping": {
+      "id": "p-island-hopping",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Island hopping (1943–44)**\nAllied forces bypassed strongly held islands and seized bases closer to Japan: Tarawa, Kwajalein, Saipan, Guam and Peleliu.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "p-imphal": {
+      "id": "p-imphal",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 591.0
+      },
+      "data": {
+        "text": "**Imphal and Kohima (1944)**\nBritish and Indian forces defeated a Japanese offensive into India, a turning point in the Burma campaign.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "p-leyte": {
+      "id": "p-leyte",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Battle of Leyte Gulf (Oct 1944)**\nThe largest naval battle in history. Japan lost most of its fleet and first used organized kamikaze attacks.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "p-iwo": {
+      "id": "p-iwo",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Iwo Jima (Feb–Mar 1945)**\nUS Marines captured the island after a month of bunker fighting. The flag-raising on Mount Suribachi became an iconic image.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "p-okinawa": {
+      "id": "p-okinawa",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 723.0
+      },
+      "data": {
+        "text": "**Okinawa (Apr–Jun 1945)**\nThe last major island battle cost about 100,000 Japanese and 12,000 US dead, with massive civilian casualties. It shaped the decision to use atomic bombs.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "p-bombing": {
+      "id": "p-bombing",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 814.0
+      },
+      "data": {
+        "text": "**Strategic bombing of Japan**\nB-29 raids, including the firebombing of Tokyo in March 1945, destroyed cities and killed hundreds of thousands.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "p-hiroshima": {
+      "id": "p-hiroshima",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 814.0
+      },
+      "data": {
+        "text": "**Hiroshima (6 Aug 1945)**\nThe US dropped the uranium bomb 'Little Boy'. Around 70,000–140,000 people died by the end of 1945.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "p-nagasaki": {
+      "id": "p-nagasaki",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 875.5
+      },
+      "data": {
+        "text": "**Nagasaki (9 Aug 1945)**\nThe plutonium bomb 'Fat Man' killed tens of thousands. The USSR declared war on Japan the same day.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "p-surrender": {
+      "id": "p-surrender",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 946.0
+      },
+      "data": {
+        "text": "**Japanese surrender**\nJapan announced surrender on 15 August and signed the instrument of surrender on 2 September aboard USS Missouri.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "p-china": {
+      "id": "p-china",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 946.0
+      },
+      "data": {
+        "text": "**China theatre**\nChina had fought Japan since 1937. Nationalist and Communist forces resisted Japan while also competing for postwar power.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "p-manchuria": {
+      "id": "p-manchuria",
+      "areaId": "b-pacific",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1007.5
+      },
+      "data": {
+        "text": "**Manchuria and the Kwantung Army**\nJapan's puppet state of Manchukuo was a base for invasion. The Soviet offensive in August 1945 destroyed the Kwantung Army.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "b-africa": {
+      "id": "b-africa",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1120,
+        "y": 681.5
+      },
+      "data": {
+        "label": "North Africa & Mediterranean",
+        "color": "orange"
+      }
+    },
+    "b-africa-desc": {
+      "id": "b-africa-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1120,
+        "y": 736.5
+      },
+      "data": {
+        "text": "Desert war, Torch, Sicily, Italy and the Mediterranean.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "b-africa-intro": {
+      "id": "b-africa-intro",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The southern front**\nBritain and the Commonwealth fought Italy and the Afrika Korps across Egypt and Libya, then invaded North Africa, Sicily and Italy.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-egypt": {
+      "id": "af-egypt",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Italy invades Egypt (Sep 1940)**\nItalian forces advanced from Libya but stopped at Sidi Barrani. Britain's Operation Compass counterattacked in December.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "af-compass": {
+      "id": "af-compass",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Operation Compass (Dec 1940–Feb 1941)**\nBritish and Indian forces destroyed the Italian 10th Army and took Tobruk and Benghazi, but were then drawn into Greece.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "af-rommel": {
+      "id": "af-rommel",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Rommel and the Afrika Korps (Feb 1941)**\nErwin Rommel landed in Libya and pushed the British back, earning the nickname 'Desert Fox'.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "af-tobruk": {
+      "id": "af-tobruk",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Siege of Tobruk (1941)**\nAustralian, British and other defenders held the port for 241 days against Axis attacks.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "af-crusader": {
+      "id": "af-crusader",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Operation Crusader (Nov–Dec 1941)**\nBritish forces relieved Tobruk and pushed the Axis back to El Agheila, but Rommel counterattacked again in 1942.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "af-gazala": {
+      "id": "af-gazala",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Gazala and fall of Tobruk (May–Jun 1942)**\nRommel defeated the Eighth Army and captured Tobruk, advancing to El Alamein, close to Alexandria and the Suez Canal.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "af-el-alamein-1": {
+      "id": "af-el-alamein-1",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**First Battle of El Alamein (Jul 1942)**\nBritish forces stopped Rommel's advance, buying time for reinforcements and new equipment.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "af-el-alamein-2": {
+      "id": "af-el-alamein-2",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Second Battle of El Alamein (Oct–Nov 1942)**\nMontgomery's offensive broke the Axis line. Rommel retreated west; it was a turning point in the desert war.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "af-torch": {
+      "id": "af-torch",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Operation Torch (8 Nov 1942)**\nUS and British forces landed in Morocco and Algeria. Vichy forces resisted briefly, then joined the Allies.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "af-kasserine": {
+      "id": "af-kasserine",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Kasserine Pass (Feb 1943)**\nRommel defeated inexperienced US forces, exposing command and training problems that were quickly corrected.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "af-tunisia": {
+      "id": "af-tunisia",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Tunisia campaign (1942–43)**\nAllied forces squeezed the Axis into Tunisia. About 250,000 Axis troops surrendered in May 1943.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "af-sicily": {
+      "id": "af-sicily",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Invasion of Sicily (Jul 1943)**\nOperation Husky captured the island and led to Mussolini's fall. It opened the Mediterranean route to Italy.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "af-italy": {
+      "id": "af-italy",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Invasion of Italy (Sep 1943)**\nAllied landings at Salerno followed Italy's surrender. Germany occupied the country and fought a long defensive campaign.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "af-cassino": {
+      "id": "af-cassino",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Monte Cassino and the Gustav Line**\nFour battles and the bombing of the monastery failed to break the line until May 1944.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "af-anzio": {
+      "id": "af-anzio",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Anzio (Jan–Jun 1944)**\nThe landing surprised the Germans but failed to break out quickly, becoming a costly stalemate.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "af-rome": {
+      "id": "af-rome",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 793.5
+      },
+      "data": {
+        "text": "**Rome liberated (4 Jun 1944)**\nAllied forces entered Rome two days before D-Day, the first Axis capital to fall.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "af-italy-surrender": {
+      "id": "af-italy-surrender",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 793.5
+      },
+      "data": {
+        "text": "**Italy's surrender and the puppet state**\nItaly signed an armistice in September 1943. Germany rescued Mussolini and set up the Italian Social Republic in the north.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "af-malta": {
+      "id": "af-malta",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 814.0
+      },
+      "data": {
+        "text": "**Malta**\nThe island withstood a long siege and served as a base for attacking Axis supply convoys to North Africa.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "af-greece-resistance": {
+      "id": "af-greece-resistance",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 905.0
+      },
+      "data": {
+        "text": "**Greece and the Aegean**\nOccupied Greece suffered famine and reprisals. Resistance groups fought the Germans and each other; the Dodecanese campaign ended in German success.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "b-western": {
+      "id": "b-western",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 821.0
+      },
+      "data": {
+        "label": "Western Front 1944–1945",
+        "color": "green"
+      }
+    },
+    "b-western-desc": {
+      "id": "b-western-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 876.0
+      },
+      "data": {
+        "text": "D-Day, Market Garden, the Bulge and the Rhine.",
+        "color": "green"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "b-western-intro": {
+      "id": "b-western-intro",
+      "areaId": "b-western",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The second front**\nAfter years of Soviet pressure, the Western Allies landed in Normandy in June 1944 and drove across France, the Low Countries and Germany.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "w-overlord": {
+      "id": "w-overlord",
+      "areaId": "b-western",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Operation Overlord (6 Jun 1944)**\nThe largest amphibious invasion in history landed five divisions on Normandy beaches, supported by airborne troops, naval gunfire and air power.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "w-beaches": {
+      "id": "w-beaches",
+      "areaId": "b-western",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**The five beaches**\nUtah and Omaha (US), Gold and Sword (British), Juno (Canadian). Omaha was the bloodiest; German defenses and weather nearly broke the attack.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "w-normandy": {
+      "id": "w-normandy",
+      "areaId": "b-western",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Battle of Normandy**\nHedgerow fighting, the capture of Caen and Operation Cobra broke the German line. The Falaise pocket trapped much of the German army in the west.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "w-paris": {
+      "id": "w-paris",
+      "areaId": "b-western",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Liberation of Paris (25 Aug 1944)**\nFrench and Allied forces entered Paris after a rising by the Resistance. De Gaulle restored French authority.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "w-dragoon": {
+      "id": "w-dragoon",
+      "areaId": "b-western",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Operation Dragoon (Aug 1944)**\nAllied landings in southern France drove up the Rhône valley and linked up with the Normandy forces.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "w-market-garden": {
+      "id": "w-market-garden",
+      "areaId": "b-western",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Operation Market Garden (Sep 1944)**\nAirborne and armored forces tried to seize bridges in the Netherlands. Failure at Arnhem left the last bridge in German hands.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "w-hurtgen": {
+      "id": "w-hurtgen",
+      "areaId": "b-western",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**Hürtgen Forest (1944–45)**\nA costly attritional battle in dense forest, remembered for poor conditions and high US casualties.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "w-bulge": {
+      "id": "w-bulge",
+      "areaId": "b-western",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**Battle of the Bulge (Dec 1944–Jan 1945)**\nGermany's last major western offensive broke through the Ardennes but was stopped at Bastogne and elsewhere, then pushed back.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "w-nordwind": {
+      "id": "w-nordwind",
+      "areaId": "b-western",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**Operation Nordwind (Jan 1945)**\nA secondary German offensive in Alsace failed and drained reserves needed elsewhere.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "w-rhine": {
+      "id": "w-rhine",
+      "areaId": "b-western",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Crossing the Rhine (Mar 1945)**\nAllied forces crossed at Remagen and elsewhere, then encircled the Ruhr, trapping hundreds of thousands of German troops.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "w-ruhr": {
+      "id": "w-ruhr",
+      "areaId": "b-western",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 570.5
+      },
+      "data": {
+        "text": "**Ruhr pocket**\nThe industrial heartland was surrounded and captured, crippling German war production.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "w-elbe": {
+      "id": "w-elbe",
+      "areaId": "b-western",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 570.5
+      },
+      "data": {
+        "text": "**Elbe Day (25 Apr 1945)**\nUS and Soviet forces met at Torgau on the Elbe, cutting Germany in two.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "w-surrenders": {
+      "id": "w-surrenders",
+      "areaId": "b-western",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**German surrender (7–8 May 1945)**\nGermany surrendered unconditionally at Reims and Berlin. 8 May became VE Day.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "w-dieppe": {
+      "id": "w-dieppe",
+      "areaId": "b-western",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Dieppe raid (Aug 1942)**\nA Canadian-led raid failed with heavy losses, teaching lessons used in later amphibious operations.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "w-camps-liberated": {
+      "id": "w-camps-liberated",
+      "areaId": "b-western",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Liberation of the camps**\nAllied soldiers found the concentration camps in 1944–45. Images and testimony revealed the scale of the Holocaust.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "b-airsea": {
+      "id": "b-airsea",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1120,
+        "y": 821.0
+      },
+      "data": {
+        "label": "Air & sea war",
+        "color": "cyan"
+      }
+    },
+    "b-airsea-desc": {
+      "id": "b-airsea-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1120,
+        "y": 876.0
+      },
+      "data": {
+        "text": "U-boats, convoys, strategic bombing, carriers and codebreaking.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "b-airsea-intro": {
+      "id": "b-airsea-intro",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**War in the air and at sea**\nControl of the Atlantic kept Britain alive and supplied the Soviet Union. Control of the Pacific depended on carriers, and bombing brought the war to enemy cities.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a-atlantic": {
+      "id": "a-atlantic",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Battle of the Atlantic (1939–45)**\nGermany tried to cut Britain's supply lines with U-boats, surface raiders and aircraft. Convoys, escorts and air cover eventually won the battle.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-uboat": {
+      "id": "a-uboat",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**U-boats**\nType VII and Type IX submarines sank thousands of ships. 'Wolf packs' caused crisis in 1940–42; 'Black May' 1943 marked the turn.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-enigma": {
+      "id": "a-enigma",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Enigma and Bletchley Park**\nBreaking German codes gave the Allies vital intelligence, especially for convoys. Alan Turing and many others worked at Bletchley Park.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-bismarck": {
+      "id": "a-bismarck",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Bismarck**\nThe German battleship sank HMS Hood in May 1941, then was hunted down and sunk by the Royal Navy.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-graf-spee": {
+      "id": "a-graf-spee",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Graf Spee**\nA German pocket battleship raided shipping in the South Atlantic and was scuttled after the Battle of the River Plate in 1939.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-scharnhorst": {
+      "id": "a-scharnhorst",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Scharnhorst**\nThe German battleship was sunk at the Battle of the North Cape in December 1943 while attacking Arctic convoys.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-arctic": {
+      "id": "a-arctic",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Arctic convoys**\nAllied convoys carried supplies to Murmansk and Archangel through extreme weather and German air, surface and submarine attacks.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-bomber-command": {
+      "id": "a-bomber-command",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**RAF Bomber Command**\nArea bombing of German cities by night. Harris's campaign caused huge destruction and casualties but remains controversial.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-usaaf": {
+      "id": "a-usaaf",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**US Eighth Air Force**\nDaylight precision bombing of factories, oil and transport. Losses were very high until long-range fighters arrived.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-hamburg": {
+      "id": "a-hamburg",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Hamburg (Jul 1943)**\nFirestorms from British and US raids killed tens of thousands and destroyed much of the city.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-dresden": {
+      "id": "a-dresden",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 570.5
+      },
+      "data": {
+        "text": "**Dresden (Feb 1945)**\nCombined raids created a firestorm that killed an estimated 25,000 people. Its military value is still debated.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-luftwaffe": {
+      "id": "a-luftwaffe",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 570.5
+      },
+      "data": {
+        "text": "**Luftwaffe**\nGerman air force. Strong in 1939–42, it was worn down by the Eastern Front, strategic bombing and fuel shortages.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-jets": {
+      "id": "a-jets",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Jet aircraft**\nGermany's Me 262 and Britain's Meteor were the first operational jets. Late, scarce and fuel-starved, they changed little.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-carriers": {
+      "id": "a-carriers",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 702.5
+      },
+      "data": {
+        "text": "**Aircraft carriers**\nCarriers replaced battleships as the decisive naval weapon in the Pacific, shown at Taranto, Coral Sea and Midway.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-pacific-subs": {
+      "id": "a-pacific-subs",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 702.5
+      },
+      "data": {
+        "text": "**Pacific submarines**\nUS submarines strangled Japanese shipping, sinking most of its merchant fleet and cutting oil and food supplies.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-radar": {
+      "id": "a-radar",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 814.0
+      },
+      "data": {
+        "text": "**Radar and sonar**\nRadar helped win the Battle of Britain and the night bombing war; sonar and radar hunted U-boats. The proximity fuze improved anti-aircraft fire.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-v-weapons": {
+      "id": "a-v-weapons",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 834.5
+      },
+      "data": {
+        "text": "**V-1 and V-2**\nGerman cruise and ballistic missiles struck London and Antwerp in 1944–45. They killed thousands but could not change the war.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-taranto": {
+      "id": "a-taranto",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 834.5
+      },
+      "data": {
+        "text": "**Battle of Taranto (Nov 1940)**\nBritish carrier aircraft crippled the Italian fleet, a model for Pearl Harbor.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-matapan": {
+      "id": "a-matapan",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 946.0
+      },
+      "data": {
+        "text": "**Battle of Cape Matapan (Mar 1941)**\nThe Royal Navy defeated an Italian fleet, helped by radar and codebreaking.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-liberty": {
+      "id": "a-liberty",
+      "areaId": "b-airsea",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 966.5
+      },
+      "data": {
+        "text": "**Liberty ships**\nMass-produced US cargo ships replaced losses faster than U-boats could sink them, a decisive industrial victory.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "b-holocaust": {
+      "id": "b-holocaust",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 560,
+        "y": 841.5
+      },
+      "data": {
+        "label": "Holocaust & war crimes",
+        "color": "red"
+      }
+    },
+    "b-holocaust-desc": {
+      "id": "b-holocaust-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 560,
+        "y": 896.5
+      },
+      "data": {
+        "text": "Nazi persecution, ghettos, camps, resistance and justice.",
+        "color": "red"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "b-holocaust-intro": {
+      "id": "b-holocaust-intro",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Genocide and atrocity**\nThe Holocaust was the state-organized murder of six million Jews and millions of others. It developed from persecution and ghettos to mass shootings and extermination camps.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "h-ideology": {
+      "id": "h-ideology",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Nazi racial ideology**\nNazism combined extreme antisemitism, racial hierarchy, eugenics and 'Lebensraum' in eastern Europe. These ideas justified persecution, expulsion and murder.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-nuremberg": {
+      "id": "h-nuremberg",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Nuremberg Laws (1935)**\nLegalized discrimination against Jews and defined citizenship by 'blood'. They excluded Jews from public life and banned mixed marriages.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-kristallnacht": {
+      "id": "h-kristallnacht",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Kristallnacht (9–10 Nov 1938)**\nA coordinated pogrom destroyed synagogues, shops and homes. About 30,000 Jewish men were arrested and sent to camps.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-ghettos": {
+      "id": "h-ghettos",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Ghettos**\nJews in occupied Poland and the USSR were forced into sealed districts. Overcrowding, starvation and disease killed tens of thousands, especially in Warsaw and Łódź.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-warsaw-ghetto": {
+      "id": "h-warsaw-ghetto",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Warsaw Ghetto Uprising (Apr–May 1943)**\nJewish fighters resisted the final deportation. The ghetto was burned and destroyed; the uprising became a symbol of resistance.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-einsatzgruppen": {
+      "id": "h-einsatzgruppen",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Einsatzgruppen**\nMobile killing units followed the German army and murdered Jews, Roma, communists and others in mass shootings across eastern Europe.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-babi-yar": {
+      "id": "h-babi-yar",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**Babi Yar (Sep 1941)**\nIn two days, more than 33,000 Jews from Kiev were shot by Einsatzgruppe C and local collaborators.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-wannsee": {
+      "id": "h-wannsee",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**Wannsee Conference (20 Jan 1942)**\nSenior officials coordinated the 'Final Solution' and the deportation of Jews to extermination camps in occupied Poland.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-reinhard": {
+      "id": "h-reinhard",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 459.0
+      },
+      "data": {
+        "text": "**Operation Reinhard camps**\nTreblinka, Sobibor and Bełżec were built purely for mass murder. Together they killed about 1.7 million people, mostly Jews.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-auschwitz": {
+      "id": "h-auschwitz",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 570.5
+      },
+      "data": {
+        "text": "**Auschwitz-Birkenau**\nThe largest camp complex, combining labor, concentration and extermination. About 1.1 million people died there, most of them Jews.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-camps": {
+      "id": "h-camps",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 570.5
+      },
+      "data": {
+        "text": "**Camp system**\nConcentration camps, labor camps and extermination camps were run by the SS. Prisoners were starved, worked to death, gassed or shot.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-roma": {
+      "id": "h-roma",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 591.0
+      },
+      "data": {
+        "text": "**Roma genocide (Porajmos)**\nThe Nazis and their allies murdered hundreds of thousands of Roma, treating them as 'asocial' and racially inferior.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-t4": {
+      "id": "h-t4",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 702.5
+      },
+      "data": {
+        "text": "**T4 euthanasia program**\nThe secret killing of disabled patients in Germany, using gas chambers and doctors, preceded and helped develop the machinery of the Holocaust.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-other-victims": {
+      "id": "h-other-victims",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 723.0
+      },
+      "data": {
+        "text": "**Other victims**\nSoviet POWs, Poles, disabled people, homosexuals, Jehovah's Witnesses, political prisoners and others were persecuted and killed in large numbers.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-jewish-resistance": {
+      "id": "h-jewish-resistance",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 723.0
+      },
+      "data": {
+        "text": "**Jewish resistance**\nUprisings in Warsaw, Sobibor and Treblinka, partisan units, smuggling, document forgery and spiritual resistance all defied the Nazis.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-rescuers": {
+      "id": "h-rescuers",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 855.0
+      },
+      "data": {
+        "text": "**Rescuers and Righteous**\nOskar Schindler, Irena Sendler, Raoul Wallenberg, Chiune Sugihara, Nicholas Winton and many others saved Jews at great personal risk.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-pow-crimes": {
+      "id": "h-pow-crimes",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 855.0
+      },
+      "data": {
+        "text": "**Prisoner-of-war crimes**\nSoviet POWs were starved and shot; Allied prisoners faced forced marches and executions. The Japanese also abused POWs on a large scale.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-nanjing": {
+      "id": "h-nanjing",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 875.5
+      },
+      "data": {
+        "text": "**Nanjing Massacre (1937–38)**\nJapanese troops killed and raped hundreds of thousands of Chinese civilians and POWs after capturing Nanjing.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-hunger-plan": {
+      "id": "h-hunger-plan",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1007.5
+      },
+      "data": {
+        "text": "**Hunger Plan**\nGerman planning deliberately starved Soviet cities and prisoners to feed the army and Germany, causing millions of civilian deaths.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-death-marches": {
+      "id": "h-death-marches",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 1007.5
+      },
+      "data": {
+        "text": "**Death marches**\nAs the Allies advanced, the SS forced prisoners to march west and east in terrible conditions; thousands died on the roads.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-liberation": {
+      "id": "h-liberation",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 1007.5
+      },
+      "data": {
+        "text": "**Liberation**\nSoviet, US and British forces liberated camps in 1944–45. Survivors, testimony and photographs exposed the genocide to the world.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "h-justice": {
+      "id": "h-justice",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1139.5
+      },
+      "data": {
+        "text": "**Justice**\nThe Nuremberg and Tokyo trials, later national trials and the capture of Adolf Eichmann in 1960 pursued accountability, though many perpetrators were never tried.",
+        "color": "red"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "b-people": {
+      "id": "b-people",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 960.5
+      },
+      "data": {
+        "label": "People",
+        "color": "purple"
+      }
+    },
+    "b-people-desc": {
+      "id": "b-people-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1015.5
+      },
+      "data": {
+        "text": "Leaders, commanders, scientists, spies, rescuers and witnesses.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "b-people-intro": {
+      "id": "b-people-intro",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The people who shaped the war**\nPolitical leaders, generals, scientists, codebreakers, spies, resisters and witnesses. Cards give role, side and what they are remembered for.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "people-axis-leaders": {
+      "id": "people-axis-leaders",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "label": "Axis political leaders",
+        "color": "red"
+      }
+    },
+    "per-hitler": {
+      "id": "per-hitler",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Adolf Hitler** (1889–1945)\nNazi dictator of Germany. Ordered the invasion of Poland, Barbarossa and the Holocaust. Committed suicide in Berlin.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-mussolini": {
+      "id": "per-mussolini",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Benito Mussolini** (1883–1945)\nFascist dictator of Italy. Invaded Ethiopia, entered the war in 1940 and was overthrown in 1943. Killed by partisans.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-tojo": {
+      "id": "per-tojo",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 227.0
+      },
+      "data": {
+        "text": "**Hideki Tojo** (1884–1948)\nJapanese prime minister and army general. Approved Pearl Harbor and expansion. Executed after the Tokyo Trial.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-hirohito": {
+      "id": "per-hirohito",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Emperor Hirohito** (1901–1989)\nJapanese head of state. His authority underpinned the war effort; he announced the surrender in August 1945.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-goering": {
+      "id": "per-goering",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Hermann Göring** (1893–1946)\nHead of the Luftwaffe and a leading Nazi. Directed the Four Year Plan and air war. Sentenced at Nuremberg; killed himself.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-goebbels": {
+      "id": "per-goebbels",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 359.0
+      },
+      "data": {
+        "text": "**Joseph Goebbels** (1897–1945)\nMinister of Propaganda. Built the Hitler myth and total-war propaganda. Murdered his children and killed himself in 1945.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-himmler": {
+      "id": "per-himmler",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Heinrich Himmler** (1900–1945)\nSS chief and architect of the camp system and Holocaust. Captured in 1945; killed himself.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-speer": {
+      "id": "per-speer",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Albert Speer** (1905–1981)\nArmaments minister who expanded war production using forced labor. Sentenced at Nuremberg; later contested his responsibility.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-donitz": {
+      "id": "per-donitz",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 491.0
+      },
+      "data": {
+        "text": "**Karl Dönitz** (1891–1980)\nU-boat commander and head of the navy. Became president after Hitler and signed the surrender. Sentenced at Nuremberg.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-antonescu": {
+      "id": "per-antonescu",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Ion Antonescu** (1882–1946)\nRomanian dictator and German ally. Responsible for pogroms and the deportation of Jews and Roma. Executed in 1946.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-horthy": {
+      "id": "per-horthy",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Miklós Horthy** (1868–1957)\nHungarian regent and Axis ally. Hungary deported hundreds of thousands of Jews in 1944.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-tiso": {
+      "id": "per-tiso",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 623.0
+      },
+      "data": {
+        "text": "**Jozef Tiso** (1887–1947)\nSlovak priest and president of the Nazi puppet state. Deported Jews; executed in 1947.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-pavelic": {
+      "id": "per-pavelic",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Ante Pavelić** (1889–1959)\nUstaše leader of the Independent State of Croatia. His regime murdered Serbs, Jews and Roma on a massive scale.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-quisling": {
+      "id": "per-quisling",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Vidkun Quisling** (1887–1945)\nNorwegian fascist who collaborated with the German occupation. His name became a synonym for traitor. Executed.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-petain": {
+      "id": "per-petain",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 734.5
+      },
+      "data": {
+        "text": "**Philippe Pétain** (1856–1951)\nFrench hero of Verdun who led Vichy France and collaborated with Germany. Convicted of treason; sentence commuted.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-laval": {
+      "id": "per-laval",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 793.5
+      },
+      "data": {
+        "text": "**Pierre Laval** (1883–1945)\nVichy prime minister and chief collaborator. Helped deport Jews and workers to Germany. Executed in 1945.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "people-allied-leaders": {
+      "id": "people-allied-leaders",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 1080,
+        "y": 814.0
+      },
+      "data": {
+        "label": "Allied political leaders",
+        "color": "green"
+      }
+    },
+    "per-churchill": {
+      "id": "per-churchill",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 866.5
+      },
+      "data": {
+        "text": "**Winston Churchill** (1874–1965)\nBritish prime minister from May 1940. His refusal to negotiate and his speeches sustained British resistance.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-roosevelt": {
+      "id": "per-roosevelt",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 887.0
+      },
+      "data": {
+        "text": "**Franklin D. Roosevelt** (1882–1945)\nUS president. Built the Arsenal of Democracy, Lend-Lease and the Grand Alliance. Died in April 1945.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-truman": {
+      "id": "per-truman",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 925.5
+      },
+      "data": {
+        "text": "**Harry S. Truman** (1884–1972)\nUS president after Roosevelt. Authorized the atomic bombings and oversaw the war's end and early Cold War.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-stalin": {
+      "id": "per-stalin",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 998.5
+      },
+      "data": {
+        "text": "**Joseph Stalin** (1878–1953)\nSoviet dictator. Signed the pact with Hitler in 1939, then led the USSR after Barbarossa. His purges and wartime decisions cost millions of lives.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-de-gaulle": {
+      "id": "per-de-gaulle",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 1019.0
+      },
+      "data": {
+        "text": "**Charles de Gaulle** (1890–1970)\nLeader of Free France from London. Built a French fighting force and secured a seat among the victorious powers.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-chiang": {
+      "id": "per-chiang",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 1057.5
+      },
+      "data": {
+        "text": "**Chiang Kai-shek** (1887–1975)\nNationalist Chinese leader. Fought Japan while preserving forces for the postwar struggle with the Communists.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-mao": {
+      "id": "per-mao",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1151.0
+      },
+      "data": {
+        "text": "**Mao Zedong** (1893–1976)\nChinese Communist leader. His forces fought Japan through guerrilla warfare and expanded their base areas.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-tito": {
+      "id": "per-tito",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 1151.0
+      },
+      "data": {
+        "text": "**Josip Broz Tito** (1892–1980)\nYugoslav Communist partisan commander. Built a mass resistance movement and later led Yugoslavia.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-benes": {
+      "id": "per-benes",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 1189.5
+      },
+      "data": {
+        "text": "**Edvard Beneš** (1884–1948)\nCzechoslovak president in exile. Led the government in London and accepted the loss of the Sudetenland under Munich.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-sikorski": {
+      "id": "per-sikorski",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1283.0
+      },
+      "data": {
+        "text": "**Władysław Sikorski** (1881–1943)\nPolish prime minister in exile and commander-in-chief. Died in a plane crash at Gibraltar.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-george-vi": {
+      "id": "per-george-vi",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 1283.0
+      },
+      "data": {
+        "text": "**King George VI** (1895–1952)\nBritish monarch during the war. Stayed in London during the Blitz and symbolized national endurance.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-mackenzie": {
+      "id": "per-mackenzie",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 1321.5
+      },
+      "data": {
+        "text": "**William Lyon Mackenzie King** (1874–1950)\nCanadian prime minister. Managed conscription tensions and a huge wartime expansion.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-curtin": {
+      "id": "per-curtin",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1415.0
+      },
+      "data": {
+        "text": "**John Curtin** (1885–1945)\nAustralian prime minister. Turned to the US for defense after Singapore and mobilized Australia.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-smuts": {
+      "id": "per-smuts",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 1415.0
+      },
+      "data": {
+        "text": "**Jan Smuts** (1870–1950)\nSouth African prime minister and Allied statesman. Supported Britain and helped shape the UN and Commonwealth.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-wilhelmina": {
+      "id": "per-wilhelmina",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 1433.0
+      },
+      "data": {
+        "text": "**Queen Wilhelmina** (1880–1962)\nDutch queen in exile. Her broadcasts rallied the Dutch resistance and government-in-exile.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-haakon": {
+      "id": "per-haakon",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 1544.5
+      },
+      "data": {
+        "text": "**King Haakon VII** (1872–1957)\nNorwegian king who refused to legitimize the German occupation and led the government in exile.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "people-axis-commanders": {
+      "id": "people-axis-commanders",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1547.0
+      },
+      "data": {
+        "label": "Axis commanders",
+        "color": "orange"
+      }
+    },
+    "per-rommel": {
+      "id": "per-rommel",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 1547.0
+      },
+      "data": {
+        "text": "**Erwin Rommel** (1891–1944)\nGerman field marshal famed for the Afrika Korps and mobile warfare. Later commanded Atlantic defenses; forced to suicide after the 1944 plot.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-guderian": {
+      "id": "per-guderian",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1620.0
+      },
+      "data": {
+        "text": "**Heinz Guderian** (1888–1954)\nPanzer general and theorist of armored warfare. Led the drive to the Channel and later served as inspector of armor.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-manstein": {
+      "id": "per-manstein",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 1676.5
+      },
+      "data": {
+        "text": "**Erich von Manstein** (1887–1973)\nGerman field marshal. Planned the 1940 western offensive and commanded in the east; convicted of war crimes.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-rundstedt": {
+      "id": "per-rundstedt",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 1699.5
+      },
+      "data": {
+        "text": "**Gerd von Rundstedt** (1875–1953)\nSenior German field marshal. Commanded army groups in Poland, France and the east, and the western front in 1944.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-model": {
+      "id": "per-model",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1752.0
+      },
+      "data": {
+        "text": "**Walter Model** (1891–1945)\nGerman field marshal known for defensive skill. Commanded Army Group Centre and later the west; killed himself in 1945.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-paulus": {
+      "id": "per-paulus",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 1808.5
+      },
+      "data": {
+        "text": "**Friedrich Paulus** (1890–1957)\nCommander of the German 6th Army at Stalingrad. Surrendered in February 1943 and later criticized Hitler from Soviet captivity.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-bock": {
+      "id": "per-bock",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 1831.5
+      },
+      "data": {
+        "text": "**Fedor von Bock** (1880–1945)\nGerman field marshal. Commanded Army Group North in Poland and Army Group Centre in 1941.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-leeb": {
+      "id": "per-leeb",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1884.0
+      },
+      "data": {
+        "text": "**Wilhelm Ritter von Leeb** (1876–1956)\nGerman field marshal. Commanded Army Group North during Barbarossa and the siege of Leningrad.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-halder": {
+      "id": "per-halder",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 1940.5
+      },
+      "data": {
+        "text": "**Franz Halder** (1884–1972)\nChief of the German General Staff. Helped plan Barbarossa but clashed with Hitler and was dismissed in 1942.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-keitel": {
+      "id": "per-keitel",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 1943.0
+      },
+      "data": {
+        "text": "**Wilhelm Keitel** (1882–1946)\nHead of the OKW and Hitler's compliant military chief. Signed the 1940 armistice and the 1945 surrender. Executed at Nuremberg.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-jodl": {
+      "id": "per-jodl",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 2016.0
+      },
+      "data": {
+        "text": "**Alfred Jodl** (1890–1946)\nOKW operations chief. Planned campaigns and signed the German surrender. Executed at Nuremberg.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-kesselring": {
+      "id": "per-kesselring",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 2072.5
+      },
+      "data": {
+        "text": "**Albert Kesselring** (1885–1960)\nGerman field marshal. Commanded air fleets and the Italian campaign; convicted of war crimes but later released.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-raeder": {
+      "id": "per-raeder",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 2075.0
+      },
+      "data": {
+        "text": "**Erich Raeder** (1876–1960)\nGerman navy chief until 1943. Advocated a surface fleet and unrestricted submarine warfare. Sentenced at Nuremberg.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-yamamoto": {
+      "id": "per-yamamoto",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 2148.0
+      },
+      "data": {
+        "text": "**Isoroku Yamamoto** (1884–1943)\nJapanese admiral and architect of the Pearl Harbor attack. Killed when his plane was shot down in 1943.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-nagumo": {
+      "id": "per-nagumo",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 2204.5
+      },
+      "data": {
+        "text": "**Chuichi Nagumo** (1887–1944)\nJapanese carrier commander at Pearl Harbor and Midway. His decisions at Midway were costly. Killed in 1944.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-kuribayashi": {
+      "id": "per-kuribayashi",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 2207.0
+      },
+      "data": {
+        "text": "**Tadamichi Kuribayashi** (1891–1945)\nJapanese commander on Iwo Jima. His bunker defense made the battle a costly US victory.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-umezu": {
+      "id": "per-umezu",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 2280.0
+      },
+      "data": {
+        "text": "**Yoshijirō Umezu** (1882–1949)\nJapanese army chief of staff. Opposed surrender and was convicted at the Tokyo Trial.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-graziani": {
+      "id": "per-graziani",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 2318.5
+      },
+      "data": {
+        "text": "**Rodolfo Graziani** (1882–1955)\nItalian marshal. Commanded in Libya and East Africa, where his forces used brutal methods. Later served the Italian Social Republic.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-badoglio": {
+      "id": "per-badoglio",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 2336.5
+      },
+      "data": {
+        "text": "**Pietro Badoglio** (1871–1956)\nItalian marshal and prime minister after Mussolini's fall. Negotiated the 1943 armistice with the Allies.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "people-allied-commanders": {
+      "id": "people-allied-commanders",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 2412.0
+      },
+      "data": {
+        "label": "Allied commanders",
+        "color": "cyan"
+      }
+    },
+    "per-eisenhower": {
+      "id": "per-eisenhower",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 2450.5
+      },
+      "data": {
+        "text": "**Dwight D. Eisenhower** (1890–1969)\nSupreme Allied commander in Europe. Coordinated Overlord and the western advance; later US president.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-montgomery": {
+      "id": "per-montgomery",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 2468.5
+      },
+      "data": {
+        "text": "**Bernard Montgomery** (1887–1976)\nBritish field marshal. Won El Alamein, commanded Overlord's land forces and led the 21st Army Group.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-patton": {
+      "id": "per-patton",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 2485.0
+      },
+      "data": {
+        "text": "**George S. Patton** (1885–1945)\nUS general known for aggressive armor tactics. Led forces in North Africa, Sicily, Normandy and the Bulge.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-bradley": {
+      "id": "per-bradley",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 2582.5
+      },
+      "data": {
+        "text": "**Omar Bradley** (1893–1981)\nUS general. Commanded US forces in Normandy and the 12th Army Group in 1944–45.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-marshall": {
+      "id": "per-marshall",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 2600.5
+      },
+      "data": {
+        "text": "**George C. Marshall** (1880–1959)\nUS Army chief of staff. Built the US war machine and later created the Marshall Plan.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-brooke": {
+      "id": "per-brooke",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 2617.0
+      },
+      "data": {
+        "text": "**Alan Brooke** (1883–1963)\nChief of the British Imperial General Staff. Key strategic adviser to Churchill and organizer of Allied planning.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-zhukov": {
+      "id": "per-zhukov",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 2694.0
+      },
+      "data": {
+        "text": "**Georgy Zhukov** (1896–1974)\nSoviet marshal. Won Khalkhin Gol, defended Moscow and Stalingrad, and commanded the Berlin offensive.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-rokossovsky": {
+      "id": "per-rokossovsky",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 2712.0
+      },
+      "data": {
+        "text": "**Konstantin Rokossovsky** (1896–1968)\nSoviet marshal. Commanded at Stalingrad, Kursk and Bagration, and co-led the Berlin offensive.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-konev": {
+      "id": "per-konev",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 2749.0
+      },
+      "data": {
+        "text": "**Ivan Konev** (1897–1973)\nSoviet marshal. Led offensives in Ukraine, Poland and Czechoslovakia and reached Berlin from the south.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-vasilevsky": {
+      "id": "per-vasilevsky",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 2826.0
+      },
+      "data": {
+        "text": "**Aleksandr Vasilevsky** (1895–1977)\nSoviet marshal and chief strategist. Planned Stalingrad and the Manchurian offensive.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-chuikov": {
+      "id": "per-chuikov",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 2844.0
+      },
+      "data": {
+        "text": "**Vasily Chuikov** (1900–1982)\nSoviet general who commanded the 62nd Army in the Stalingrad street fighting.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-macarthur": {
+      "id": "per-macarthur",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 2881.0
+      },
+      "data": {
+        "text": "**Douglas MacArthur** (1880–1964)\nUS general. Defended the Philippines, then led the Southwest Pacific campaign and accepted Japan's surrender.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-nimitz": {
+      "id": "per-nimitz",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 2937.5
+      },
+      "data": {
+        "text": "**Chester W. Nimitz** (1885–1966)\nUS Pacific Fleet commander. Directed Midway and the island-hopping campaign.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-halsey": {
+      "id": "per-halsey",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 2955.5
+      },
+      "data": {
+        "text": "**William Halsey** (1882–1959)\nUS admiral. Led carrier raids and the South Pacific campaign; commanded the Third Fleet at Leyte.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-spruance": {
+      "id": "per-spruance",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 3013.0
+      },
+      "data": {
+        "text": "**Raymond Spruance** (1886–1969)\nUS admiral. Commanded at Midway and the Central Pacific offensives.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-mountbatten": {
+      "id": "per-mountbatten",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 3049.0
+      },
+      "data": {
+        "text": "**Louis Mountbatten** (1900–1979)\nBritish admiral and Southeast Asia commander. Directed the Burma campaign and later oversaw Indian independence.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-alexander": {
+      "id": "per-alexander",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 3087.5
+      },
+      "data": {
+        "text": "**Harold Alexander** (1891–1969)\nBritish field marshal. Commanded in North Africa, Sicily and Italy, and became supreme commander in the Mediterranean.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-wavell": {
+      "id": "per-wavell",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 3124.5
+      },
+      "data": {
+        "text": "**Archibald Wavell** (1883–1950)\nBritish general. Commanded in North Africa and the Middle East, then in India and Burma.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-auchinleck": {
+      "id": "per-auchinleck",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 3181.0
+      },
+      "data": {
+        "text": "**Claude Auchinleck** (1884–1981)\nBritish general. Stopped Rommel at the first El Alamein before being replaced.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-doolittle": {
+      "id": "per-doolittle",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 3219.5
+      },
+      "data": {
+        "text": "**Jimmy Doolittle** (1896–1993)\nUS airman. Led the 1942 raid on Tokyo and later commanded the Eighth Air Force.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-harris": {
+      "id": "per-harris",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 3236.0
+      },
+      "data": {
+        "text": "**Arthur Harris** (1892–1984)\nHead of RAF Bomber Command. Directed the area bombing campaign against German cities.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-arnold": {
+      "id": "per-arnold",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 3292.5
+      },
+      "data": {
+        "text": "**Hap Arnold** (1886–1950)\nUS Army Air Forces commander. Built the strategic bombing force, including the B-29 program.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-king": {
+      "id": "per-king",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 3331.0
+      },
+      "data": {
+        "text": "**Ernest King** (1878–1956)\nUS chief of naval operations. Directed the US Navy's global war effort.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-tedder": {
+      "id": "per-tedder",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 3347.5
+      },
+      "data": {
+        "text": "**Arthur Tedder** (1890–1967)\nBritish air marshal and Eisenhower's deputy. Helped coordinate the Normandy air campaign.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-leclerc": {
+      "id": "per-leclerc",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 3424.5
+      },
+      "data": {
+        "text": "**Philippe Leclerc** (1902–1947)\nFree French general. Led the liberation of Paris and campaigned in North Africa and Europe.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-anders": {
+      "id": "per-anders",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 3442.5
+      },
+      "data": {
+        "text": "**Władysław Anders** (1892–1970)\nPolish general. Led the Polish II Corps, which fought at Monte Cassino and in Italy.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "people-scientists": {
+      "id": "people-scientists",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 3459.0
+      },
+      "data": {
+        "label": "Scientists, codebreakers & engineers",
+        "color": "yellow"
+      }
+    },
+    "per-einstein": {
+      "id": "per-einstein",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 3532.0
+      },
+      "data": {
+        "text": "**Albert Einstein** (1879–1955)\nPhysicist. His 1939 letter warned Roosevelt about atomic weapons, helping start the Manhattan Project.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-fermi": {
+      "id": "per-fermi",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 3554.0
+      },
+      "data": {
+        "text": "**Enrico Fermi** (1901–1954)\nPhysicist. Built the first nuclear reactor and worked on the Manhattan Project.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-oppenheimer": {
+      "id": "per-oppenheimer",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 3556.5
+      },
+      "data": {
+        "text": "**J. Robert Oppenheimer** (1904–1967)\nScientific director of the Los Alamos laboratory that built the atomic bombs.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-turing": {
+      "id": "per-turing",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 3664.0
+      },
+      "data": {
+        "text": "**Alan Turing** (1912–1954)\nMathematician and codebreaker at Bletchley Park. Helped break Enigma and designed early computing concepts.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-von-braun": {
+      "id": "per-von-braun",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 3665.5
+      },
+      "data": {
+        "text": "**Wernher von Braun** (1912–1977)\nGerman rocket engineer. Built the V-2 and later led US rocket development.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-heisenberg": {
+      "id": "per-heisenberg",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 3668.0
+      },
+      "data": {
+        "text": "**Werner Heisenberg** (1901–1976)\nGerman physicist. Led a German nuclear program that never produced a weapon.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-szilard": {
+      "id": "per-szilard",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 3777.0
+      },
+      "data": {
+        "text": "**Leo Szilard** (1898–1964)\nPhysicist. Conceived the nuclear chain reaction and urged Einstein to warn Roosevelt.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-bohr": {
+      "id": "per-bohr",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 3779.5
+      },
+      "data": {
+        "text": "**Niels Bohr** (1885–1962)\nPhysicist. Escaped occupied Denmark and advised on the atomic project and international control.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-watson-watt": {
+      "id": "per-watson-watt",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 3796.0
+      },
+      "data": {
+        "text": "**Robert Watson-Watt** (1892–1973)\nScottish engineer. Developed the radar chain that helped win the Battle of Britain.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-bush": {
+      "id": "per-bush",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 3888.5
+      },
+      "data": {
+        "text": "**Vannevar Bush** (1890–1974)\nUS science administrator. Led the Office of Scientific Research and Development.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-lawrence": {
+      "id": "per-lawrence",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 3907.5
+      },
+      "data": {
+        "text": "**Ernest Lawrence** (1901–1958)\nPhysicist. Developed the cyclotron and helped produce enriched uranium.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-flowers": {
+      "id": "per-flowers",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 3911.5
+      },
+      "data": {
+        "text": "**Tommy Flowers** (1905–1998)\nEngineer. Designed Colossus, the electronic computer used to break German Lorenz ciphers.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "people-resistance": {
+      "id": "people-resistance",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 540,
+        "y": 4000.0
+      },
+      "data": {
+        "label": "Resistance, rescue & witnesses",
+        "color": "purple"
+      }
+    },
+    "per-anne-frank": {
+      "id": "per-anne-frank",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 4019.0
+      },
+      "data": {
+        "text": "**Anne Frank** (1929–1945)\nDutch Jewish diarist. Hid in Amsterdam, was deported and died in Bergen-Belsen. Her diary became a global symbol.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-schindler": {
+      "id": "per-schindler",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 4023.0
+      },
+      "data": {
+        "text": "**Oskar Schindler** (1908–1974)\nGerman industrialist who employed and saved about 1,200 Jews. Honoured as Righteous Among the Nations.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-wallenberg": {
+      "id": "per-wallenberg",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 4073.0
+      },
+      "data": {
+        "text": "**Raoul Wallenberg** (1912–1947?)\nSwedish diplomat in Budapest who saved thousands of Jews with protective passes and shelters. Disappeared in Soviet custody.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-scholl": {
+      "id": "per-scholl",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 4151.0
+      },
+      "data": {
+        "text": "**Sophie Scholl** (1921–1943)\nMember of the White Rose student resistance. Executed after distributing anti-Nazi leaflets.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-bonhoeffer": {
+      "id": "per-bonhoeffer",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 4155.0
+      },
+      "data": {
+        "text": "**Dietrich Bonhoeffer** (1906–1945)\nGerman pastor and resistance member. Involved in the plot against Hitler; executed in 1945.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-sendler": {
+      "id": "per-sendler",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 4205.0
+      },
+      "data": {
+        "text": "**Irena Sendler** (1910–2008)\nPolish social worker who smuggled Jewish children out of the Warsaw Ghetto and kept their identities hidden.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-pilecki": {
+      "id": "per-pilecki",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 4266.5
+      },
+      "data": {
+        "text": "**Witold Pilecki** (1901–1948)\nPolish officer who volunteered to enter Auschwitz to report on it and later fought in the Warsaw Uprising.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-stauffenberg": {
+      "id": "per-stauffenberg",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 4283.0
+      },
+      "data": {
+        "text": "**Claus von Stauffenberg** (1907–1944)\nGerman colonel who planted the bomb in the 20 July 1944 plot against Hitler. Executed the same night.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-moulin": {
+      "id": "per-moulin",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 4337.0
+      },
+      "data": {
+        "text": "**Jean Moulin** (1899–1943)\nFrench Resistance leader who united internal resistance groups under de Gaulle. Captured and killed by the Gestapo.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-sugihara": {
+      "id": "per-sugihara",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 4398.5
+      },
+      "data": {
+        "text": "**Chiune Sugihara** (1900–1986)\nJapanese diplomat in Lithuania who issued transit visas that saved thousands of Jews.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-winton": {
+      "id": "per-winton",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 4415.0
+      },
+      "data": {
+        "text": "**Nicholas Winton** (1909–2015)\nBritish stockbroker who organized the rescue of 669 mostly Jewish children from Czechoslovakia.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-levi": {
+      "id": "per-levi",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 4469.0
+      },
+      "data": {
+        "text": "**Primo Levi** (1919–1987)\nItalian Jewish chemist and Auschwitz survivor. His memoir 'If This Is a Man' became a central Holocaust testimony.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-wiesel": {
+      "id": "per-wiesel",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 4510.0
+      },
+      "data": {
+        "text": "**Elie Wiesel** (1928–2016)\nRomanian-born Auschwitz and Buchenwald survivor. Author of 'Night' and a Nobel Peace laureate.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-wiesenthal": {
+      "id": "per-wiesenthal",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 4547.0
+      },
+      "data": {
+        "text": "**Simon Wiesenthal** (1908–2005)\nHolocaust survivor and Nazi hunter. Helped locate Adolf Eichmann and other perpetrators.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "people-spies": {
+      "id": "people-spies",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 540,
+        "y": 4601.0
+      },
+      "data": {
+        "label": "Spies & intelligence",
+        "color": "cyan"
+      }
+    },
+    "per-pujol": {
+      "id": "per-pujol",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 4642.0
+      },
+      "data": {
+        "text": "**Juan Pujol García** (1912–1988)\nDouble agent 'Garbo'. Convinced Germany he ran a spy network and helped deceive Hitler about D-Day.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-virginia-hall": {
+      "id": "per-virginia-hall",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 4658.5
+      },
+      "data": {
+        "text": "**Virginia Hall** (1906–1982)\nAmerican spy in occupied France. Organized resistance and escaped over the Pyrenees; later worked for the CIA.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-nancy-wake": {
+      "id": "per-nancy-wake",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 4674.0
+      },
+      "data": {
+        "text": "**Nancy Wake** (1912–2011)\nAustralian-born resistance fighter and SOE agent in France, known as the 'White Mouse'.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-noor-khan": {
+      "id": "per-noor-khan",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 4774.0
+      },
+      "data": {
+        "text": "**Noor Inayat Khan** (1914–1944)\nSOE radio operator in Paris. Captured and executed at Dachau; posthumously awarded the George Cross.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-sorge": {
+      "id": "per-sorge",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 4785.5
+      },
+      "data": {
+        "text": "**Richard Sorge** (1895–1944)\nSoviet spy in Tokyo. Warned Stalin of the German invasion and of Japan's southward plans. Executed by Japan.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-philby": {
+      "id": "per-philby",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 4790.5
+      },
+      "data": {
+        "text": "**Kim Philby** (1912–1988)\nBritish intelligence officer and Soviet mole. His betrayal damaged Allied intelligence in the early Cold War.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-popov": {
+      "id": "per-popov",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 4906.0
+      },
+      "data": {
+        "text": "**Duško Popov** (1912–1981)\nYugoslav double agent 'Tricycle'. Provided intelligence used in the D-Day deception.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "per-canaris": {
+      "id": "per-canaris",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 4917.5
+      },
+      "data": {
+        "text": "**Wilhelm Canaris** (1887–1945)\nHead of the Abwehr. Opposed Hitler and was linked to the resistance; executed in 1945.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "b-forces": {
+      "id": "b-forces",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 560,
+        "y": 981.0
+      },
+      "data": {
+        "label": "Groups & forces",
+        "color": "green"
+      }
+    },
+    "b-forces-desc": {
+      "id": "b-forces-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 560,
+        "y": 1036.0
+      },
+      "data": {
+        "text": "Armies, navies, air forces, intelligence and resistance groups.",
+        "color": "green"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "b-forces-intro": {
+      "id": "b-forces-intro",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Who fought whom**\nThe war was fought by mass conscript armies, global navies, air forces, secret services, resistance networks and collaborationist regimes.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "forces-axis": {
+      "id": "forces-axis",
+      "areaId": "b-forces",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "label": "Axis forces",
+        "color": "red"
+      }
+    },
+    "f-wehrmacht": {
+      "id": "f-wehrmacht",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Wehrmacht**\nGermany's armed forces: army (Heer), air force (Luftwaffe) and navy (Kriegsmarine). Central to Blitzkrieg and occupation.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-heer": {
+      "id": "f-heer",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**German Army (Heer)**\nThe main land force. Its panzer divisions and infantry carried the Blitzkrieg, but losses in the east and fuel shortages crippled it.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-luftwaffe": {
+      "id": "f-luftwaffe",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 227.0
+      },
+      "data": {
+        "text": "**Luftwaffe**\nGerman air force under Göring. Provided close air support and air defense; failed to win the Battle of Britain or stop Allied bombing.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-kriegsmarine": {
+      "id": "f-kriegsmarine",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Kriegsmarine**\nGerman navy. U-boats fought the Atlantic; surface raiders and battleships were fewer and eventually hunted down.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-waffen-ss": {
+      "id": "f-waffen-ss",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Waffen-SS**\nCombat branch of the SS. Elite armored and infantry units, ideologically indoctrinated and involved in atrocities.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-ss-police": {
+      "id": "f-ss-police",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 359.0
+      },
+      "data": {
+        "text": "**SS and police apparatus**\nHimmler's SS ran the camps, Gestapo, SD and occupation security. It was the core instrument of Nazi terror and genocide.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-ija": {
+      "id": "f-ija",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Imperial Japanese Army (IJA)**\nFought in China, Southeast Asia and the Pacific. Known for harsh discipline, bushido ideology and brutality toward prisoners.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-ijn": {
+      "id": "f-ijn",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Imperial Japanese Navy (IJN)**\nThe world's most powerful carrier force in 1941. Lost its edge at Midway and was largely destroyed by 1945.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-italy-army": {
+      "id": "f-italy-army",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 491.0
+      },
+      "data": {
+        "text": "**Italian Royal Army**\nFought in North Africa, Greece, the Balkans and the USSR. Poorly equipped in many theatres and suffered from weak logistics.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-satellites": {
+      "id": "f-satellites",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Axis satellites**\nHungary, Romania, Bulgaria, Slovakia and Croatia provided troops, resources and territory. Their defections in 1944 shattered the Axis.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-hitler-youth": {
+      "id": "f-hitler-youth",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Hitler Youth and Volkssturm**\nNazi youth organization supplied indoctrinated recruits. The Volkssturm conscripted old men and boys in the final months.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "forces-allies": {
+      "id": "forces-allies",
+      "areaId": "b-forces",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 623.0
+      },
+      "data": {
+        "label": "Allied forces",
+        "color": "cyan"
+      }
+    },
+    "f-british-army": {
+      "id": "f-british-army",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**British Army**\nFought in France, North Africa, Italy, Burma and northwest Europe. Supported by the vast British Empire and Commonwealth.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-royal-navy": {
+      "id": "f-royal-navy",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 696.0
+      },
+      "data": {
+        "text": "**Royal Navy**\nThe world's largest navy in 1939. Fought U-boats, escorted convoys and controlled the Mediterranean and Atlantic sea lanes.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-raf": {
+      "id": "f-raf",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 702.5
+      },
+      "data": {
+        "text": "**Royal Air Force (RAF)**\nFighter Command won the Battle of Britain; Bomber Command waged the strategic bombing campaign; Coastal Command fought U-boats.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-us-army": {
+      "id": "f-us-army",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 814.0
+      },
+      "data": {
+        "text": "**US Army**\nExpanded from a small force to millions. Fought in North Africa, Italy, Normandy, the Bulge and the Pacific.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-us-navy": {
+      "id": "f-us-navy",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 828.0
+      },
+      "data": {
+        "text": "**US Navy**\nRebuilt after Pearl Harbor into a carrier-dominated fleet that won the Pacific war.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-usaat": {
+      "id": "f-usaat",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 834.5
+      },
+      "data": {
+        "text": "**US Army Air Forces**\nConducted daylight strategic bombing and provided air support in every theatre. Included the B-29 force against Japan.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-marines": {
+      "id": "f-marines",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 946.0
+      },
+      "data": {
+        "text": "**US Marine Corps**\nLed the Central Pacific island-hopping campaign, including Guadalcanal, Tarawa, Iwo Jima and Okinawa.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-red-army": {
+      "id": "f-red-army",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 960.0
+      },
+      "data": {
+        "text": "**Red Army**\nThe Soviet land force that bore the brunt of the German army. Its offensives ended in Berlin.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-nkvd": {
+      "id": "f-nkvd",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 966.5
+      },
+      "data": {
+        "text": "**NKVD**\nSoviet secret police. Ran security, repression, partisan coordination and the Gulag; also committed atrocities.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-commonwealth": {
+      "id": "f-commonwealth",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 1078.0
+      },
+      "data": {
+        "text": "**Commonwealth forces**\nTroops from Canada, Australia, New Zealand, India, South Africa and others served in every major theatre.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-free-french": {
+      "id": "f-free-french",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1092.0
+      },
+      "data": {
+        "text": "**Free French**\nForces loyal to de Gaulle. Fought in North Africa, Italy, Normandy and the liberation of Paris.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-polish-forces": {
+      "id": "f-polish-forces",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 1098.5
+      },
+      "data": {
+        "text": "**Polish Armed Forces**\nFought in the west after 1939, including the Polish II Corps at Monte Cassino; the Home Army fought inside occupied Poland.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-china-nat": {
+      "id": "f-china-nat",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 1210.0
+      },
+      "data": {
+        "text": "**Chinese Nationalist forces**\nChiang's armies fought Japan for eight years while blockading and fighting the Communists.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-china-com": {
+      "id": "f-china-com",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1224.0
+      },
+      "data": {
+        "text": "**Chinese Communist forces**\nThe Eighth Route Army and New Fourth Army waged guerrilla war and expanded base areas behind Japanese lines.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "forces-resistance": {
+      "id": "forces-resistance",
+      "areaId": "b-forces",
+      "kind": "topic",
+      "position": {
+        "x": 540,
+        "y": 1230.5
+      },
+      "data": {
+        "label": "Resistance & intelligence",
+        "color": "purple"
+      }
+    },
+    "f-french-resistance": {
+      "id": "f-french-resistance",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 1303.5
+      },
+      "data": {
+        "text": "**French Resistance**\nNetworks inside France carried out sabotage, intelligence and rescue. The Maquis fought in the countryside.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-yugoslav": {
+      "id": "f-yugoslav",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 1321.5
+      },
+      "data": {
+        "text": "**Yugoslav Partisans**\nTito's Communist forces became the strongest resistance army in occupied Europe, fighting Germans, collaborators and rivals.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-greek-resistance": {
+      "id": "f-greek-resistance",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1356.0
+      },
+      "data": {
+        "text": "**Greek resistance**\nELAS and EDES fought the occupiers and each other. Greece suffered famine and brutal reprisals.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-home-army": {
+      "id": "f-home-army",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 1435.5
+      },
+      "data": {
+        "text": "**Polish Home Army (AK)**\nThe largest underground army in occupied Europe. It launched the Warsaw Uprising in 1944.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-danish": {
+      "id": "f-danish",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 1453.5
+      },
+      "data": {
+        "text": "**Danish resistance**\nSmuggled most Danish Jews to Sweden and conducted sabotage and strikes against the occupation.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-dutch": {
+      "id": "f-dutch",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1488.0
+      },
+      "data": {
+        "text": "**Dutch resistance**\nHid Jews and evaders, ran underground newspapers and gathered intelligence, despite severe reprisals.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-norwegian": {
+      "id": "f-norwegian",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 1567.5
+      },
+      "data": {
+        "text": "**Norwegian resistance**\nSabotaged heavy-water production at Vemork and provided intelligence on German naval movements.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-italian-partisans": {
+      "id": "f-italian-partisans",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 1585.5
+      },
+      "data": {
+        "text": "**Italian partisans**\nFought the German occupation and the Italian Social Republic; executed Mussolini in April 1945.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-soviet-partisans": {
+      "id": "f-soviet-partisans",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1620.0
+      },
+      "data": {
+        "text": "**Soviet partisans**\nOperated behind German lines in Belarus, Ukraine and Russia, attacking railways and supply routes.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-soe": {
+      "id": "f-soe",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 1699.5
+      },
+      "data": {
+        "text": "**SOE**\nBritain's Special Operations Executive. Sent agents to organize sabotage and resistance in occupied Europe.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-oss": {
+      "id": "f-oss",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 1717.5
+      },
+      "data": {
+        "text": "**OSS**\nUS Office of Strategic Services. Ran intelligence, sabotage and special operations; forerunner of the CIA.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-bletchley": {
+      "id": "f-bletchley",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1752.0
+      },
+      "data": {
+        "text": "**Bletchley Park**\nBritish codebreaking centre. Broke Enigma, Lorenz and other systems, producing Ultra intelligence.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-abwehr": {
+      "id": "f-abwehr",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 1831.5
+      },
+      "data": {
+        "text": "**Abwehr**\nGerman military intelligence. Riddled with anti-Nazi officers and penetrated by Allied agents.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "forces-collab": {
+      "id": "forces-collab",
+      "areaId": "b-forces",
+      "kind": "topic",
+      "position": {
+        "x": 1080,
+        "y": 1849.5
+      },
+      "data": {
+        "label": "Collaboration & puppet states",
+        "color": "orange"
+      }
+    },
+    "f-vichy-milice": {
+      "id": "f-vichy-milice",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1884.0
+      },
+      "data": {
+        "text": "**Vichy France and the Milice**\nThe Vichy regime collaborated with Germany; its Milice helped hunt Jews, resisters and refugees.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-ustase": {
+      "id": "f-ustase",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 1922.5
+      },
+      "data": {
+        "text": "**Ustaše**\nCroatian fascist regime that murdered Serbs, Jews and Roma in camps such as Jasenovac.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-roa": {
+      "id": "f-roa",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 1963.5
+      },
+      "data": {
+        "text": "**Russian Liberation Army (ROA)**\nVlasov's anti-Soviet force fought for Germany. It was used mainly late in the war and turned against Germany in Prague.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-hiwi": {
+      "id": "f-hiwi",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 2016.0
+      },
+      "data": {
+        "text": "**Hiwi and Eastern battalions**\nSoviet prisoners and volunteers who served the Germans as auxiliaries, often under terrible conditions.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-ina": {
+      "id": "f-ina",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 2034.0
+      },
+      "data": {
+        "text": "**Indian National Army (INA)**\nBose's force fought alongside Japan for Indian independence; its trials boosted Indian nationalism.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-manchukuo": {
+      "id": "f-manchukuo",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 2095.5
+      },
+      "data": {
+        "text": "**Manchukuo**\nJapan's puppet state in Manchuria, rich in industry and resources and a base for the Kwantung Army.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-wang": {
+      "id": "f-wang",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 2148.0
+      },
+      "data": {
+        "text": "**Wang Jingwei regime**\nJapanese-backed Chinese collaborationist government in Nanjing.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "f-slovakia": {
+      "id": "f-slovakia",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 2166.0
+      },
+      "data": {
+        "text": "**Slovak Republic**\nNazi puppet state under Tiso. It supplied troops and deported Jews.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "b-tech": {
+      "id": "b-tech",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1120,
+        "y": 981.0
+      },
+      "data": {
+        "label": "Weapons & technology",
+        "color": "yellow"
+      }
+    },
+    "b-tech-desc": {
+      "id": "b-tech-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1120,
+        "y": 1036.0
+      },
+      "data": {
+        "text": "Tanks, aircraft, ships, rockets, radar, nuclear weapons and medicine.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "b-tech-intro": {
+      "id": "b-tech-intro",
+      "areaId": "b-tech",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**How the war was fought**\nMass production, radio, radar, codebreaking and air power mattered as much as individual weapons. The war accelerated jets, rockets, computers and nuclear physics.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "t-tanks": {
+      "id": "t-tanks",
+      "areaId": "b-tech",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Tanks**\nGerman Panzer III/IV, Tiger and Panther; Soviet T-34 and KV; US Sherman; British Churchill and Matilda. Armor, gun and mobility trade-offs decided battles.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "t-aircraft": {
+      "id": "t-aircraft",
+      "areaId": "b-tech",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Aircraft**\nBf 109, Fw 190, Spitfire, Hurricane, P-51 Mustang, P-47 Thunderbolt, B-17, B-24, Lancaster, Ju 87 Stuka, Zero, Hellcat, Corsair, Il-2 Sturmovik and B-29.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "t-ships": {
+      "id": "t-ships",
+      "areaId": "b-tech",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Warships**\nAircraft carriers, battleships (Yamato, Bismarck), destroyers, cruisers, submarines (Type VII, Gato), Liberty ships and landing craft.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "t-artillery": {
+      "id": "t-artillery",
+      "areaId": "b-tech",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Artillery and rockets**\nThe German 88 mm dual-purpose gun, Soviet Katyusha rocket launchers, German Nebelwerfer and massive railway guns. Artillery caused most battlefield casualties.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "t-small-arms": {
+      "id": "t-small-arms",
+      "areaId": "b-tech",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Small arms**\nKar98k, M1 Garand, Lee-Enfield, Mosin-Nagant, MG42, Bren, PPSh-41, Thompson, Sten and the bazooka/Panzerfaust.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "t-radar": {
+      "id": "t-radar",
+      "areaId": "b-tech",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Radar and electronics**\nChain Home radar, airborne interception radar, sonar, HF/DF and the proximity fuze transformed air defense and anti-submarine warfare.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "t-code": {
+      "id": "t-code",
+      "areaId": "b-tech",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**Codebreaking and computers**\nEnigma and Lorenz were broken at Bletchley Park. Colossus, built by Tommy Flowers, was an early electronic computer.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "t-nuclear": {
+      "id": "t-nuclear",
+      "areaId": "b-tech",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 459.0
+      },
+      "data": {
+        "text": "**Nuclear weapons**\nThe Manhattan Project produced uranium and plutonium bombs. Trinity tested the design in July 1945; Hiroshima and Nagasaki followed.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "t-jets": {
+      "id": "t-jets",
+      "areaId": "b-tech",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 459.0
+      },
+      "data": {
+        "text": "**Jets and rockets**\nMe 262 and Meteor jet fighters; V-1 cruise missile and V-2 ballistic missile; German rocket research led by von Braun.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "t-medicine": {
+      "id": "t-medicine",
+      "areaId": "b-tech",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 570.5
+      },
+      "data": {
+        "text": "**Medicine**\nPenicillin, sulfa drugs, blood plasma, DDT, malaria control and improved field surgery saved many lives.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "t-logistics": {
+      "id": "t-logistics",
+      "areaId": "b-tech",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 591.0
+      },
+      "data": {
+        "text": "**Logistics**\nLiberty ships, trucks, pipelines (PLUTO), artificial harbours (Mulberry), railways and air transport decided campaigns.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "t-synthetic": {
+      "id": "t-synthetic",
+      "areaId": "b-tech",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 591.0
+      },
+      "data": {
+        "text": "**Synthetic materials**\nSynthetic rubber, oil from coal, ersatz fuel and substitutes kept Axis economies running after blockade cut off imports.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "b-home": {
+      "id": "b-home",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1120.5
+      },
+      "data": {
+        "label": "Home fronts & economy",
+        "color": "orange"
+      }
+    },
+    "b-home-desc": {
+      "id": "b-home-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1175.5
+      },
+      "data": {
+        "text": "Rationing, women at work, propaganda, bombing and refugees.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "b-home-intro": {
+      "id": "b-home-intro",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The war behind the lines**\nTotal war mobilized factories, farms, science and civilians. Bombing, occupation, forced labor and refugee crises reshaped ordinary life.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-total-war": {
+      "id": "hm-total-war",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Total war economies**\nGovernments directed production, labor and consumption. Victory depended on factories, oil, food and manpower as much as on armies.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "hm-rationing": {
+      "id": "hm-rationing",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Rationing**\nFood, fuel, clothing and other goods were rationed in Britain, Germany, the USSR, Japan and the US. Black markets flourished.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "hm-women": {
+      "id": "hm-women",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Women at war**\nWomen took factory, farm and transport jobs; served in auxiliary forces; and fought in resistance and Soviet combat units.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "hm-propaganda": {
+      "id": "hm-propaganda",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Propaganda**\nGoebbels, the British Ministry of Information, the US OWI and Japanese agencies used radio, film, posters and censorship to mobilize and demonize.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "hm-britain": {
+      "id": "hm-britain",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Britain**\nThe Blitz, evacuation of children, rationing, the Home Guard and 'Dig for Victory'. The Beveridge Report promised a postwar welfare state.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "hm-germany": {
+      "id": "hm-germany",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Germany**\nSpeer expanded production, but bombing, fuel shortages and forced labor undermined the economy. Morale fell sharply after Stalingrad.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "hm-ussr": {
+      "id": "hm-ussr",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Soviet Union**\nFactories were evacuated east of the Urals; women and teenagers replaced conscripted men. Leningrad starved under siege.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "hm-usa": {
+      "id": "hm-usa",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**United States**\nThe 'Arsenal of Democracy' produced ships, aircraft and tanks on a huge scale. War bonds, rationing and full employment transformed society.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "hm-japan": {
+      "id": "hm-japan",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**Japan**\nMobilized for total war, then faced blockade, firebombing and food shortages. Civilians were trained to fight the invasion that never came.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "hm-occupied": {
+      "id": "hm-occupied",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Occupied Europe**\nForced labor, requisition, reprisals and deportation. Some collaborated, many resisted, and most tried to survive.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "hm-internment": {
+      "id": "hm-internment",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 570.5
+      },
+      "data": {
+        "text": "**Internment**\nJapanese Americans, Japanese Canadians and others were interned under suspicion. Enemy aliens were also restricted in Britain and elsewhere.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "hm-refugees": {
+      "id": "hm-refugees",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 591.0
+      },
+      "data": {
+        "text": "**Refugees and displaced people**\nMillions fled bombing, occupation and genocide. After 1945, displaced persons camps housed survivors across Europe.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "hm-civil-defence": {
+      "id": "hm-civil-defence",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Civil defense**\nAir-raid wardens, shelters, blackouts, fire services and evacuation plans tried to protect cities from bombing.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "hm-economy": {
+      "id": "hm-economy",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 723.0
+      },
+      "data": {
+        "text": "**War economy by numbers**\nUS and Soviet production eventually outmatched the Axis. Oil, aluminum, steel and shipping capacity were decisive bottlenecks.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "b-diplomacy": {
+      "id": "b-diplomacy",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 560,
+        "y": 1141.0
+      },
+      "data": {
+        "label": "Diplomacy & conferences",
+        "color": "cyan"
+      }
+    },
+    "b-diplomacy-desc": {
+      "id": "b-diplomacy-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 560,
+        "y": 1196.0
+      },
+      "data": {
+        "text": "Alliances, Lend-Lease, the Grand Alliance and the great conferences.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "b-diplomacy-intro": {
+      "id": "b-diplomacy-intro",
+      "areaId": "b-diplomacy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Politics of the Grand Alliance**\nThe Allies coordinated strategy and planned the postwar world through summits, agreements and new institutions. The Axis alliance was looser and more improvised.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "d-league": {
+      "id": "d-league",
+      "areaId": "b-diplomacy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**League of Nations**\nFailed to stop Japanese, Italian and German aggression. The US never joined, and major powers ignored its authority.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "d-appeasement": {
+      "id": "d-appeasement",
+      "areaId": "b-diplomacy",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Appeasement**\nBritish and French concessions at Munich and before were meant to avoid war. They instead encouraged Hitler's expansion.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "d-pact": {
+      "id": "d-pact",
+      "areaId": "b-diplomacy",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Molotov–Ribbentrop Pact (1939)**\nDivided eastern Europe between Germany and the USSR and gave Hitler a free hand in Poland.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "d-tripartite": {
+      "id": "d-tripartite",
+      "areaId": "b-diplomacy",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Tripartite Pact (Sep 1940)**\nGermany, Italy and Japan formed the Axis alliance. Hungary, Romania, Slovakia, Bulgaria and Croatia later joined.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "d-destroyers": {
+      "id": "d-destroyers",
+      "areaId": "b-diplomacy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Destroyers for Bases (1940)**\nThe US traded 50 old destroyers to Britain for bases in the Caribbean and Newfoundland, moving closer to intervention.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "d-lend-lease": {
+      "id": "d-lend-lease",
+      "areaId": "b-diplomacy",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Lend-Lease (1941)**\nUS aid to Britain, the USSR and other Allies. It was extended to the USSR after Barbarossa and became a key Allied advantage.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "d-atlantic": {
+      "id": "d-atlantic",
+      "areaId": "b-diplomacy",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Atlantic Charter (1941)**\nRoosevelt and Churchill set out war aims: self-determination, free trade, collective security and freedom from fear and want.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "d-un-declaration": {
+      "id": "d-un-declaration",
+      "areaId": "b-diplomacy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Declaration by United Nations (Jan 1942)**\nTwenty-six countries pledged to fight the Axis and not make a separate peace. It was the basis of the wartime alliance.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "d-casablanca": {
+      "id": "d-casablanca",
+      "areaId": "b-diplomacy",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Casablanca (Jan 1943)**\nRoosevelt and Churchill demanded unconditional surrender and planned the Mediterranean strategy and bombing of Germany.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "d-quebec": {
+      "id": "d-quebec",
+      "areaId": "b-diplomacy",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Quebec Conference (1943)**\nPlanned Overlord, the invasion of southern France and the Pacific strategy.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "d-cairo": {
+      "id": "d-cairo",
+      "areaId": "b-diplomacy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Cairo Conference (Nov 1943)**\nRoosevelt, Churchill and Chiang Kai-shek demanded Japan's surrender and the return of occupied Chinese territory.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "d-tehran": {
+      "id": "d-tehran",
+      "areaId": "b-diplomacy",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Tehran (Nov–Dec 1943)**\nThe first meeting of Roosevelt, Churchill and Stalin. They agreed on Overlord and the broad shape of the postwar world.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "d-bretton": {
+      "id": "d-bretton",
+      "areaId": "b-diplomacy",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Bretton Woods (1944)**\nCreated the IMF and World Bank, fixing the dollar as the anchor of the postwar monetary system.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "d-dumbarton": {
+      "id": "d-dumbarton",
+      "areaId": "b-diplomacy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Dumbarton Oaks (1944)**\nLaid the groundwork for the United Nations Security Council and General Assembly.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "d-yalta": {
+      "id": "d-yalta",
+      "areaId": "b-diplomacy",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Yalta (Feb 1945)**\nRoosevelt, Churchill and Stalin agreed on Germany's occupation, Polish borders, Soviet entry into the war against Japan and the UN.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "d-potsdam": {
+      "id": "d-potsdam",
+      "areaId": "b-diplomacy",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Potsdam (Jul–Aug 1945)**\nTruman, Stalin and Attlee settled occupation zones, denazification and the German-Polish border. Truman hinted at a powerful new weapon.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "d-san-francisco": {
+      "id": "d-san-francisco",
+      "areaId": "b-diplomacy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 793.5
+      },
+      "data": {
+        "text": "**San Francisco (1945)**\nFifty countries signed the UN Charter in June 1945.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "d-paris": {
+      "id": "d-paris",
+      "areaId": "b-diplomacy",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 814.0
+      },
+      "data": {
+        "text": "**Paris Peace Treaties (1947)**\nSettled borders and reparations with Italy, Romania, Hungary, Bulgaria and Finland.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "b-aftermath": {
+      "id": "b-aftermath",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1120,
+        "y": 1141.0
+      },
+      "data": {
+        "label": "Aftermath & legacy",
+        "color": "green"
+      }
+    },
+    "b-aftermath-desc": {
+      "id": "b-aftermath-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1120,
+        "y": 1196.0
+      },
+      "data": {
+        "text": "Casualties, trials, occupation, the Cold War and memory.",
+        "color": "green"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "b-aftermath-intro": {
+      "id": "b-aftermath-intro",
+      "areaId": "b-aftermath",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The world after 1945**\nThe war left tens of millions dead, Europe divided, empires shaken and the United States and USSR facing each other. The Holocaust transformed human rights law and memory.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a-casualties": {
+      "id": "a-casualties",
+      "areaId": "b-aftermath",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Casualties**\nAbout 70–85 million dead, including 20–27 million Soviet citizens, 15–20 million Chinese, 6 million Jews and millions of Poles, Germans, Japanese and others. Many were civilians.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-nuremberg": {
+      "id": "a-nuremberg",
+      "areaId": "b-aftermath",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Nuremberg Trials (1945–46)**\nThe first international war crimes tribunal tried Nazi leaders for crimes against peace, war crimes and crimes against humanity. Twelve were sentenced to death.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-tokyo": {
+      "id": "a-tokyo",
+      "areaId": "b-aftermath",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Tokyo Trial (1946–48)**\nThe International Military Tribunal for the Far East tried Japanese leaders. Seven were executed, including Tojo.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-denazification": {
+      "id": "a-denazification",
+      "areaId": "b-aftermath",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Denazification**\nThe Allies removed Nazis from public office and reeducated Germany, though the process was uneven and ended amid Cold War priorities.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-occupation": {
+      "id": "a-occupation",
+      "areaId": "b-aftermath",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Occupation of Germany and Japan**\nGermany was divided into four zones; Berlin into four sectors. Japan was occupied by the US and transformed politically.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-marshall": {
+      "id": "a-marshall",
+      "areaId": "b-aftermath",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 327.0
+      },
+      "data": {
+        "text": "**Marshall Plan (1948)**\nUS aid rebuilt western European economies and stabilized democracies, deepening the division of Europe.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-cold-war": {
+      "id": "a-cold-war",
+      "areaId": "b-aftermath",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Cold War**\nThe wartime alliance collapsed into a US-Soviet rivalry. Europe was divided by the Iron Curtain; Germany split into West and East.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-nato": {
+      "id": "a-nato",
+      "areaId": "b-aftermath",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**NATO and Warsaw Pact**\nNATO formed in 1949; the Warsaw Pact in 1955. Europe's military blocs faced each other for decades.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-decolonization": {
+      "id": "a-decolonization",
+      "areaId": "b-aftermath",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 459.0
+      },
+      "data": {
+        "text": "**Decolonization**\nThe war weakened European empires and strengthened independence movements in Asia and Africa. India, Indonesia, Vietnam and others soon broke free.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-un": {
+      "id": "a-un",
+      "areaId": "b-aftermath",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 570.5
+      },
+      "data": {
+        "text": "**United Nations**\nFounded in 1945 to preserve peace and human rights. The Security Council gave permanent seats and vetoes to the major victors.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-israel": {
+      "id": "a-israel",
+      "areaId": "b-aftermath",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 570.5
+      },
+      "data": {
+        "text": "**Israel and Holocaust survivors**\nSurvivors faced displaced persons camps and difficult resettlement. The Holocaust shaped the founding of Israel in 1948.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-japan": {
+      "id": "a-japan",
+      "areaId": "b-aftermath",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 611.5
+      },
+      "data": {
+        "text": "**Postwar Japan**\nDemilitarized and democratized under US occupation. Article 9 renounced war; the emperor became a constitutional symbol.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-treaties": {
+      "id": "a-treaties",
+      "areaId": "b-aftermath",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 702.5
+      },
+      "data": {
+        "text": "**Peace treaties**\nThe 1947 Paris treaties and the 1951 San Francisco Treaty formally ended the war with most former enemies.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-eu": {
+      "id": "a-eu",
+      "areaId": "b-aftermath",
+      "kind": "text",
+      "position": {
+        "x": 1080,
+        "y": 702.5
+      },
+      "data": {
+        "text": "**European integration**\nWar devastation and the Cold War pushed France, Germany and others toward cooperation, leading to the European Coal and Steel Community and later the EU.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-memory": {
+      "id": "a-memory",
+      "areaId": "b-aftermath",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 743.5
+      },
+      "data": {
+        "text": "**Memory and remembrance**\nMuseums, memorials, Holocaust education and survivor testimony keep the war's lessons alive. Debates over commemoration and guilt continue.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    },
+    "a-eichmann": {
+      "id": "a-eichmann",
+      "areaId": "b-aftermath",
+      "kind": "text",
+      "position": {
+        "x": 540,
+        "y": 834.5
+      },
+      "data": {
+        "text": "**Eichmann trial (1961)**\nThe capture and trial of Adolf Eichmann in Jerusalem brought Holocaust testimony to global attention.",
+        "color": "green"
+      },
+      "size": {
+        "width": 350
+      }
+    }
+  },
+  "edges": {},
+  "viewports": {}
+}

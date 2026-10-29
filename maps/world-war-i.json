@@ -1,0 +1,6408 @@
+{
+  "app": "mindmap",
+  "version": 1,
+  "name": "World War I",
+  "nodes": {
+    "root-title": {
+      "id": "root-title",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "**World War I 1914-1918** - The Great War",
+        "color": "red"
+      }
+    },
+    "root-intro": {
+      "id": "root-intro",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 72
+      },
+      "data": {
+        "text": "**The war that remade the world**\nFrom the assassination at Sarajevo to the armistice of 11 November 1918 and the peace settlements that followed. The map covers the causes, every major front, the soldiers and commanders, the home fronts, the technology, the revolutions and the global consequences of the first total war.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "root-howto": {
+      "id": "root-howto",
+      "areaId": "root",
+      "kind": "sticky",
+      "position": {
+        "x": 620,
+        "y": 0
+      },
+      "data": {
+        "text": "**How to read this map**\nEach branch opens into its own area. Click the number badge on a topic to go inside. Colours group related material: red for battles and turning points; cyan for politics, diplomacy and the sea; yellow for causes, technology and the timeline; orange for home fronts and the Ottoman world; purple for people and medicine; green for armies, aftermath and memory.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "root-overview": {
+      "id": "root-overview",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 245
+      },
+      "data": {
+        "text": "**At a glance**\n- **28 Jun 1914** - Archduke Franz Ferdinand assassinated\n- **Jul-Aug 1914** - July Crisis; the great powers go to war\n- **Sep 1914** - First Battle of the Marne stops Germany\n- **1915** - Gallipoli, gas at Ypres, Italy enters\n- **1916** - Verdun and the Somme; Jutland\n- **1917** - US enters; Russian revolutions\n- **1918** - German Spring Offensive; Allied Hundred Days\n- **11 Nov 1918** - Armistice\n- **1919** - Versailles and the new world order\n- About 9-10 million soldiers and millions of civilians died",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "b-causes": {
+      "id": "b-causes",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 562.5
+      },
+      "data": {
+        "label": "Causes & road to war",
+        "color": "yellow"
+      }
+    },
+    "b-causes-desc": {
+      "id": "b-causes-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 617.5
+      },
+      "data": {
+        "text": "Nationalism, imperialism, militarism, alliances and the Balkan crises.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-causes-intro": {
+      "id": "b-causes-intro",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Why war came**\nThe war grew out of long-term rivalries and a short-term crisis. Nationalism, imperial competition, arms races, rigid alliances and the decline of the Ottoman Empire made a local Balkan quarrel explode into a world war.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "ca-nationalism": {
+      "id": "ca-nationalism",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 174.5
+      },
+      "data": {
+        "text": "**Nationalism**\nCompeting nationalisms in Europe and the Balkans undermined empires. Ethnic groups demanded independence or union with neighboring states.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ca-imperial": {
+      "id": "ca-imperial",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 174.5
+      },
+      "data": {
+        "text": "**Imperial rivalry**\nBritain, France, Germany, Russia, Austria-Hungary and Italy competed for colonies, markets, prestige and strategic advantage.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ca-militarism": {
+      "id": "ca-militarism",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 174.5
+      },
+      "data": {
+        "text": "**Militarism**\nArmies and navies grew enormously. Military planners gained influence, and war was increasingly seen as a legitimate instrument of policy.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ca-arms": {
+      "id": "ca-arms",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Arms race**\nGermany and Britain raced to build dreadnought battleships. France, Russia and Austria-Hungary expanded their armies.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ca-alliances": {
+      "id": "ca-alliances",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Alliance system**\nThe Triple Alliance (Germany, Austria-Hungary, Italy) faced the Triple Entente (France, Russia, Britain). Alliances turned a local conflict into a continental war.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ca-franco": {
+      "id": "ca-franco",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Franco-Russian Alliance (1894)**\nFrance and Russia agreed to defend each other against Germany. Germany now faced the danger of a two-front war.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ca-entente": {
+      "id": "ca-entente",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Entente Cordiale (1904)**\nBritain and France settled colonial disputes. The Anglo-Russian Entente of 1907 completed the Triple Entente.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ca-morocco1": {
+      "id": "ca-morocco1",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**First Moroccan Crisis (1905-06)**\nGermany challenged French control of Morocco. The crisis strengthened the Anglo-French entente and humiliated Germany.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ca-morocco2": {
+      "id": "ca-morocco2",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**Second Moroccan Crisis (1911)**\nGermany sent a gunboat to Agadir. The dispute was settled, but Anglo-German distrust deepened.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ca-bosnia": {
+      "id": "ca-bosnia",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Bosnian annexation (1908)**\nAustria-Hungary annexed Bosnia-Herzegovina, angering Serbia and Russia. The crisis poisoned Balkan politics.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ca-balkanwars": {
+      "id": "ca-balkanwars",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Balkan Wars (1912-13)**\nSerbia, Bulgaria, Greece and Montenegro defeated the Ottomans, then fought over the spoils. Serbia emerged stronger and more confident.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ca-ottoman": {
+      "id": "ca-ottoman",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Decline of the Ottoman Empire**\nThe Ottoman Empire lost territory in Europe and North Africa. The great powers competed to fill the vacuum, especially in the Balkans and the Middle East.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ca-schlieffen": {
+      "id": "ca-schlieffen",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Schlieffen Plan**\nGermany planned to defeat France quickly through Belgium, then turn east against Russia. The plan assumed a short war and made Belgian neutrality central.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ca-plan17": {
+      "id": "ca-plan17",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Plan XVII**\nFrance's plan emphasized offensive spirit and the recovery of Alsace-Lorraine. It underestimated German strength and firepower.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ca-russia": {
+      "id": "ca-russia",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Russian mobilization**\nRussia saw itself as protector of the Slavs and Serbia. Its vast army was slow to mobilize but created a powerful threat to Germany.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ca-austria": {
+      "id": "ca-austria",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Austria-Hungary's dilemma**\nThe multinational empire feared Serbian nationalism and wanted to punish Serbia. Its leaders saw a local war as a way to restore prestige.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ca-social": {
+      "id": "ca-social",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 793.5
+      },
+      "data": {
+        "text": "**Social and economic pressures**\nIndustrialization, urbanization, labor unrest and socialist parties challenged the old order. Some elites saw war as a unifying force.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ca-sarajevo": {
+      "id": "ca-sarajevo",
+      "areaId": "b-causes",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 814.0
+      },
+      "data": {
+        "text": "**Sarajevo (28 June 1914)**\nArchduke Franz Ferdinand, heir to the Austro-Hungarian throne, was assassinated by Gavrilo Princip in Sarajevo. The assassination triggered the July Crisis.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-july": {
+      "id": "b-july",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 562.5
+      },
+      "data": {
+        "label": "July Crisis 1914",
+        "color": "red"
+      }
+    },
+    "b-july-desc": {
+      "id": "b-july-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 617.5
+      },
+      "data": {
+        "text": "The five weeks that turned a Balkan assassination into a world war.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-july-intro": {
+      "id": "b-july-intro",
+      "areaId": "b-july",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The July Crisis**\nAustria-Hungary, Germany, Russia, France and Britain made decisions under pressure, secrecy and fear of losing prestige. Mobilization schedules became hard to stop once started.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "jc-assassination": {
+      "id": "jc-assassination",
+      "areaId": "b-july",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Assassination (28 June)**\nFranz Ferdinand and his wife Sophie were shot in Sarajevo by a Bosnian Serb nationalist with links to a secret society.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "jc-blank": {
+      "id": "jc-blank",
+      "areaId": "b-july",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**German 'blank cheque' (5-6 July)**\nGermany promised Austria-Hungary unconditional support. It hoped to localize the conflict and weaken Serbia.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "jc-ultimatum": {
+      "id": "jc-ultimatum",
+      "areaId": "b-july",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Austro-Hungarian ultimatum (23 July)**\nThe ultimatum to Serbia was deliberately harsh. Serbia accepted most demands but rejected a key point about Austrian participation in the investigation.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "jc-declare": {
+      "id": "jc-declare",
+      "areaId": "b-july",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Austria declares war (28 July)**\nAustria-Hungary declared war on Serbia and began shelling Belgrade.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "jc-russia": {
+      "id": "jc-russia",
+      "areaId": "b-july",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Russian mobilization**\nRussia ordered partial, then general mobilization. Germany demanded that Russia stop; Russia refused.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "jc-germany": {
+      "id": "jc-germany",
+      "areaId": "b-july",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Germany declares war**\nGermany declared war on Russia on 1 August and on France on 3 August.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "jc-belgium": {
+      "id": "jc-belgium",
+      "areaId": "b-july",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Invasion of Belgium (4 August)**\nGermany invaded neutral Belgium. Britain declared war, citing the violation of Belgian neutrality.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "jc-italy": {
+      "id": "jc-italy",
+      "areaId": "b-july",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Italy stays out**\nItaly declared neutrality, arguing that the Triple Alliance was defensive. It later joined the Allies in 1915.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "jc-ottoman": {
+      "id": "jc-ottoman",
+      "areaId": "b-july",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Ottoman entry**\nThe Ottoman Empire initially stayed neutral. German warships and diplomacy helped bring it into the war on the Central Powers side in late 1914.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "jc-mobilization": {
+      "id": "jc-mobilization",
+      "areaId": "b-july",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Mobilization**\nMillions of soldiers were called up. Timetables, railway schedules and fear of being outnumbered made de-escalation almost impossible.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "jc-enthusiasm": {
+      "id": "jc-enthusiasm",
+      "areaId": "b-july",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**War enthusiasm**\nCrowds cheered mobilization in many capitals. Socialist parties mostly supported their governments, and anti-war voices were drowned out.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "jc-propaganda": {
+      "id": "jc-propaganda",
+      "areaId": "b-july",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Propaganda**\nEach side presented itself as defending civilization and the other as aggressor. Atrocity stories and nationalist rhetoric mobilized publics.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "jc-world": {
+      "id": "jc-world",
+      "areaId": "b-july",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**A world war**\nThe conflict spread through empires and alliances. By late 1914 fighting had reached Africa, the Pacific and the Middle East.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-western14": {
+      "id": "b-western14",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 562.5
+      },
+      "data": {
+        "label": "Western Front 1914",
+        "color": "red"
+      }
+    },
+    "b-western14-desc": {
+      "id": "b-western14-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 617.5
+      },
+      "data": {
+        "text": "Belgium, the Marne and the failure of mobile war.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-western14-intro": {
+      "id": "b-western14-intro",
+      "areaId": "b-western14",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The opening campaign**\nGermany invaded Belgium and France, hoping for a quick victory. The Marne and the race to the sea ended that hope and began the trench deadlock.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "wf-belgium": {
+      "id": "wf-belgium",
+      "areaId": "b-western14",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Invasion of Belgium**\nGerman armies crossed into Belgium on 4 August. Belgian resistance slowed the advance and gave Britain a moral cause.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wf-liege": {
+      "id": "wf-liege",
+      "areaId": "b-western14",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Siege of Liege**\nBelgian forts delayed the German timetable. The siege was a costly opening for Germany and a symbol of Belgian resistance.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wf-mons": {
+      "id": "wf-mons",
+      "areaId": "b-western14",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Battle of Mons (23 August)**\nThe British Expeditionary Force fought its first major battle. It delayed the Germans but was forced to retreat.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wf-retreat": {
+      "id": "wf-retreat",
+      "areaId": "b-western14",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**The Great Retreat**\nAllied armies withdrew toward Paris under pressure. The Germans advanced deep into France and threatened the capital.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wf-marne": {
+      "id": "wf-marne",
+      "areaId": "b-western14",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**First Battle of the Marne (5-12 September)**\nFrench and British forces counterattacked and forced the Germans to retreat. The Schlieffen Plan failed, and the war became a long struggle.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wf-taxi": {
+      "id": "wf-taxi",
+      "areaId": "b-western14",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Taxis of the Marne**\nParis taxis carried reservists to the front. The episode became a legend of French mobilization.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wf-race": {
+      "id": "wf-race",
+      "areaId": "b-western14",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Race to the Sea**\nBoth sides tried to outflank each other northward toward the Channel. The result was a line of trenches from the Swiss border to the North Sea.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wf-ypres1": {
+      "id": "wf-ypres1",
+      "areaId": "b-western14",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**First Battle of Ypres (October-November 1914)**\nBritish, French and Belgian forces held the last corner of Belgium. The battle ended the mobile phase and began trench warfare.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wf-christmas": {
+      "id": "wf-christmas",
+      "areaId": "b-western14",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Christmas Truce (1914)**\nSoldiers in some sectors met in No Man's Land, exchanged gifts and sang carols. The truce was unofficial and never repeated on the same scale.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wf-trenches": {
+      "id": "wf-trenches",
+      "areaId": "b-western14",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Trench lines**\nFront lines, support lines and reserve lines were dug across France and Belgium. Barbed wire, machine guns and artillery made frontal attacks extremely costly.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wf-casualties": {
+      "id": "wf-casualties",
+      "areaId": "b-western14",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Casualties**\nThe first months of war killed hundreds of thousands of soldiers. Families received casualty notices, and hospitals filled with wounded.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wf-stalemate": {
+      "id": "wf-stalemate",
+      "areaId": "b-western14",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Stalemate**\nBy the end of 1914 neither side could win decisively in the west. The war would last four more years.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-trench": {
+      "id": "b-trench",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 702.0
+      },
+      "data": {
+        "label": "Trench stalemate",
+        "color": "yellow"
+      }
+    },
+    "b-trench-desc": {
+      "id": "b-trench-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 757.0
+      },
+      "data": {
+        "text": "Trench life, attrition and the offensives of 1915.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-trench-intro": {
+      "id": "b-trench-intro",
+      "areaId": "b-trench",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The trench system**\nThe western front became a fortified maze of trenches, dugouts, barbed wire and artillery. Generals tried to break through, but firepower gave the defense the advantage.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "tr-layout": {
+      "id": "tr-layout",
+      "areaId": "b-trench",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Trench layout**\nFront, support and reserve trenches were linked by communication trenches. Sandbags, concrete and timber protected soldiers from artillery.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-noman": {
+      "id": "tr-noman",
+      "areaId": "b-trench",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**No Man's Land**\nThe strip between opposing trenches was crossed by barbed wire, shell craters and abandoned bodies. Attacks across it were extremely dangerous.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-wire": {
+      "id": "tr-wire",
+      "areaId": "b-trench",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Barbed wire**\nWire slowed attackers and exposed them to machine-gun fire. Cutting parties went out at night, often at great risk.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-artillery": {
+      "id": "tr-artillery",
+      "areaId": "b-trench",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Artillery**\nArtillery caused most casualties. Shelling could last for days, but it also warned defenders and failed to destroy deep dugouts.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-mg": {
+      "id": "tr-mg",
+      "areaId": "b-trench",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Machine guns**\nMachine guns made frontal infantry attacks suicidal. They were the defining defensive weapon of the western front.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-gas": {
+      "id": "tr-gas",
+      "areaId": "b-trench",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Poison gas**\nGermany used chlorine gas at Ypres in 1915. Gas masks, phosgene and mustard gas followed. Gas caused terror and injuries but rarely decided battles.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-mining": {
+      "id": "tr-mining",
+      "areaId": "b-trench",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Mine warfare**\nBoth sides dug tunnels under enemy lines and exploded huge mines. The craters became symbols of underground warfare.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-raids": {
+      "id": "tr-raids",
+      "areaId": "b-trench",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Trench raids**\nSmall groups crossed No Man's Land to capture prisoners, gather intelligence and maintain aggression. Raids often caused needless casualties.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-weather": {
+      "id": "tr-weather",
+      "areaId": "b-trench",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Weather and mud**\nRain flooded trenches and turned battlefields into mud. Cold, lice and rats made life miserable.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-rotation": {
+      "id": "tr-rotation",
+      "areaId": "b-trench",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Rotation**\nUnits rotated between front, support and rest areas. The front line was physically and psychologically exhausting.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-neuve": {
+      "id": "tr-neuve",
+      "areaId": "b-trench",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Neuve Chapelle (March 1915)**\nA British attack achieved a local breakthrough but failed to exploit it. The battle showed the difficulty of coordinating infantry, artillery and reserves.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-ypres2": {
+      "id": "tr-ypres2",
+      "areaId": "b-trench",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Second Battle of Ypres (April-May 1915)**\nGermany used chlorine gas and gained ground. Canadian troops held a key sector in the fighting.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-loos": {
+      "id": "tr-loos",
+      "areaId": "b-trench",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Battle of Loos (September 1915)**\nA British offensive used gas and massed infantry but failed with heavy losses. It exposed the limits of Allied tactics.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-attrition": {
+      "id": "tr-attrition",
+      "areaId": "b-trench",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**War of attrition**\nCommanders tried to wear down the enemy through constant attacks. The human cost was enormous, and gains were measured in yards.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-stalemate": {
+      "id": "tr-stalemate",
+      "areaId": "b-trench",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Stalemate**\nNeither side could break the western front in 1915. The war expanded to other fronts instead.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-verdun": {
+      "id": "b-verdun",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 722.5
+      },
+      "data": {
+        "label": "Verdun & the Somme 1916",
+        "color": "red"
+      }
+    },
+    "b-verdun-desc": {
+      "id": "b-verdun-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 777.5
+      },
+      "data": {
+        "text": "The two battles that defined the horror and futility of the western front.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-verdun-intro": {
+      "id": "b-verdun-intro",
+      "areaId": "b-verdun",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**1916: the great attrition battles**\nGermany attacked Verdun to bleed France white. Britain and France answered with the Somme. Together they killed or wounded over a million men for minimal territorial change.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "vs-verdun": {
+      "id": "vs-verdun",
+      "areaId": "b-verdun",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Verdun (February-December 1916)**\nGermany attacked a fortress symbol of French pride, hoping France would fight to the last man. The battle became a meat grinder.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vs-falkenhayn": {
+      "id": "vs-falkenhayn",
+      "areaId": "b-verdun",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Falkenhayn's plan**\nThe German chief of staff aimed to inflict unsustainable casualties rather than capture ground. The strategy assumed France would collapse.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vs-petain": {
+      "id": "vs-petain",
+      "areaId": "b-verdun",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Petain's defense**\nPhilippe Petain organized a stubborn defense and rotation system. The slogan 'Ils ne passeront pas' - they shall not pass - rallied France.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vs-forts": {
+      "id": "vs-forts",
+      "areaId": "b-verdun",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Forts and tunnels**\nFort Douaumont and Fort Vaux changed hands. Underground tunnels, shelters and artillery made the battlefield a maze.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vs-somme": {
+      "id": "vs-somme",
+      "areaId": "b-verdun",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**The Somme (July-November 1916)**\nA British-French offensive intended to relieve Verdun. The first day was the bloodiest in British military history, with about 57,000 casualties.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vs-firstday": {
+      "id": "vs-firstday",
+      "areaId": "b-verdun",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**First day of the Somme (1 July 1916)**\nBritish infantry attacked after a week of bombardment. German machine guns survived, and thousands were killed or wounded in hours.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vs-newfoundland": {
+      "id": "vs-newfoundland",
+      "areaId": "b-verdun",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Newfoundland Regiment**\nThe regiment was nearly destroyed at Beaumont-Hamel on 1 July. The disaster became a founding memory in Newfoundland.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vs-tanks": {
+      "id": "vs-tanks",
+      "areaId": "b-verdun",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**First tanks (September 1916)**\nBritain used Mark I tanks at Flers-Courcelette. They were slow and unreliable but showed the potential of armored vehicles.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vs-thiepval": {
+      "id": "vs-thiepval",
+      "areaId": "b-verdun",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Thiepval and High Wood**\nVillages and woods changed hands repeatedly. The fighting was confused, costly and inconclusive.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vs-casualties": {
+      "id": "vs-casualties",
+      "areaId": "b-verdun",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Casualties**\nVerdun and the Somme killed or wounded over a million soldiers. French, British, German and colonial units suffered heavily.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vs-lessons": {
+      "id": "vs-lessons",
+      "areaId": "b-verdun",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Lessons**\nArtillery, coordination, creeping barrages, tanks and air power were improved. But breakthrough remained elusive.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vs-morale": {
+      "id": "vs-morale",
+      "areaId": "b-verdun",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Morale**\nThe battles hardened soldiers and deepened disillusionment. Letters and memoirs described exhaustion, fear and grief.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-eastern": {
+      "id": "b-eastern",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 722.5
+      },
+      "data": {
+        "label": "Eastern Front",
+        "color": "orange"
+      }
+    },
+    "b-eastern-desc": {
+      "id": "b-eastern-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 777.5
+      },
+      "data": {
+        "text": "Tannenberg, the Great Retreat, the Brusilov Offensive and Russian collapse.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-eastern-intro": {
+      "id": "b-eastern-intro",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The eastern front**\nThe war in the east was more mobile than in the west but no less deadly. Russia, Germany, Austria-Hungary and their allies fought across Poland, the Baltic, Ukraine, Galicia and Romania.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "ef-tannenberg": {
+      "id": "ef-tannenberg",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Tannenberg (August 1914)**\nGermany destroyed the Russian Second Army under Samsonov. The victory made Hindenburg and Ludendorff national heroes.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ef-masuria": {
+      "id": "ef-masuria",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Masurian Lakes (September 1914)**\nGermany defeated the Russian First Army and pushed it back. Russia's early invasion of East Prussia failed.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ef-galicia": {
+      "id": "ef-galicia",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Galicia (1914)**\nRussia defeated Austria-Hungary and captured Lemberg. The Austro-Hungarian army suffered enormous losses.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ef-gorlice": {
+      "id": "ef-gorlice",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Gorlice-Tarnow (May 1915)**\nGermany and Austria-Hungary broke the Russian line. The Great Retreat pushed Russia out of Poland and much of Galicia.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ef-greatretreat": {
+      "id": "ef-greatretreat",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**The Great Retreat**\nRussian forces withdrew hundreds of kilometers, destroying crops and infrastructure. Millions of civilians fled.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ef-brusilov": {
+      "id": "ef-brusilov",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Brusilov Offensive (June 1916)**\nRussia achieved a huge breakthrough against Austria-Hungary. The offensive relieved pressure on Verdun but cost Russia enormous casualties.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ef-romania": {
+      "id": "ef-romania",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Romania (1916)**\nRomania joined the Allies and invaded Transylvania but was quickly defeated. Germany and Austria-Hungary occupied most of the country.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ef-supply": {
+      "id": "ef-supply",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Russian supply problems**\nShortages of rifles, shells, food and transport undermined the Russian army. Corruption and poor administration made things worse.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ef-brest": {
+      "id": "ef-brest",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Brest-Litovsk (March 1918)**\nBolshevik Russia exited the war and ceded Poland, the Baltics, Ukraine and parts of the Caucasus to Germany.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ef-germaneast": {
+      "id": "ef-germaneast",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**German eastern empire**\nGermany occupied large parts of eastern Europe and set up client states. The occupation was exploitative and brutal.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ef-ukraine": {
+      "id": "ef-ukraine",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Ukraine**\nUkraine became a battleground between Russia, Austria-Hungary, Germany and Ukrainian nationalists. Occupation and civil war devastated the region.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ef-poland": {
+      "id": "ef-poland",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Poland**\nPolish lands were divided between Germany, Austria-Hungary and Russia. Millions of Poles fought in the opposing armies.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ef-baltic": {
+      "id": "ef-baltic",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Baltic region**\nGermany occupied Lithuania, Latvia and Estonia. Nationalist movements hoped for independence after the war.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ef-casualties": {
+      "id": "ef-casualties",
+      "areaId": "b-eastern",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Casualties**\nThe eastern front killed millions of soldiers and civilians. Disease, hunger and exposure added to the toll.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-italy": {
+      "id": "b-italy",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 841.5
+      },
+      "data": {
+        "label": "Italy & the Alps",
+        "color": "orange"
+      }
+    },
+    "b-italy-desc": {
+      "id": "b-italy-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 896.5
+      },
+      "data": {
+        "text": "The Italian front, Isonzo, Caporetto and Vittorio Veneto.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-italy-intro": {
+      "id": "b-italy-intro",
+      "areaId": "b-italy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The war in the mountains**\nItaly joined the Allies in 1915 and fought Austria-Hungary along the Isonzo and in the Alps. The front combined high-altitude warfare with massive infantry battles.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "it-entry": {
+      "id": "it-entry",
+      "areaId": "b-italy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Italy enters (May 1915)**\nItaly abandoned the Triple Alliance and joined the Allies after the Treaty of London promised territory. Most Italians did not want war.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "it-isonzo": {
+      "id": "it-isonzo",
+      "areaId": "b-italy",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Twelve Battles of the Isonzo**\nItaly attacked across the Isonzo River repeatedly. Gains were small, and casualties were enormous.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "it-cadorna": {
+      "id": "it-cadorna",
+      "areaId": "b-italy",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Luigi Cadorna**\nItalian commander known for rigid tactics and harsh discipline. He was blamed for Caporetto and dismissed.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "it-alpini": {
+      "id": "it-alpini",
+      "areaId": "b-italy",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Alpini**\nItalian mountain troops fought in snow, rock and ice. Avalanches, frostbite and altitude added to the dangers.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "it-caporetto": {
+      "id": "it-caporetto",
+      "areaId": "b-italy",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Caporetto (October 1917)**\nA German-Austro-Hungarian offensive broke the Italian line. Italy retreated to the Piave, and Cadorna was replaced.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "it-piave": {
+      "id": "it-piave",
+      "areaId": "b-italy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Battle of the Piave**\nItaly stopped the Austro-Hungarian advance on the Piave River. The line held, and morale recovered.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "it-vittorio": {
+      "id": "it-vittorio",
+      "areaId": "b-italy",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Vittorio Veneto (October-November 1918)**\nItaly defeated Austria-Hungary and advanced into enemy territory. The victory helped end the war on the Italian front.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "it-austria": {
+      "id": "it-austria",
+      "areaId": "b-italy",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Austro-Hungarian army**\nThe Habsburg army fought Italy, Russia, Serbia and Romania. It suffered from supply shortages and ethnic tensions.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "it-home": {
+      "id": "it-home",
+      "areaId": "b-italy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Italian home front**\nFood shortages, inflation and casualties caused strikes and discontent. The government used propaganda and repression to maintain support.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "it-casualties": {
+      "id": "it-casualties",
+      "areaId": "b-italy",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Casualties**\nItaly lost hundreds of thousands of soldiers. The war deepened regional and social divisions.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-balkans": {
+      "id": "b-balkans",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 882.5
+      },
+      "data": {
+        "label": "Balkans & Serbia",
+        "color": "orange"
+      }
+    },
+    "b-balkans-desc": {
+      "id": "b-balkans-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 937.5
+      },
+      "data": {
+        "text": "Serbia, Salonika, Bulgaria, Romania and the collapse of empires.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-balkans-intro": {
+      "id": "b-balkans-intro",
+      "areaId": "b-balkans",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The Balkan tinderbox**\nThe war began in the Balkans and remained a complex theatre of national rivalries, occupation and resistance. Bulgaria, Romania, Greece and Serbia all played major roles.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "bk-serbia": {
+      "id": "bk-serbia",
+      "areaId": "b-balkans",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Serbia 1914**\nSerbia repelled the first Austro-Hungarian invasion and became a symbol of resistance. Its army was exhausted and short of supplies.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bk-invasion": {
+      "id": "bk-invasion",
+      "areaId": "b-balkans",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Invasion of Serbia (October 1915)**\nGermany, Austria-Hungary and Bulgaria attacked from several directions. Serbia was overrun, and its army retreated through Albania.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bk-salonika": {
+      "id": "bk-salonika",
+      "areaId": "b-balkans",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Salonika front**\nAllied forces landed at Salonika to support Serbia and later fought Bulgaria. The front was multinational and politically complicated.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bk-bulgaria": {
+      "id": "bk-bulgaria",
+      "areaId": "b-balkans",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Bulgaria joins the Central Powers (1915)**\nBulgaria attacked Serbia, hoping to regain territory. Its army fought on the Salonika front.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bk-romania": {
+      "id": "bk-romania",
+      "areaId": "b-balkans",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Romania joins the Allies (1916)**\nRomania invaded Transylvania but was defeated. Most of the country was occupied, and its oil and grain were exploited.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bk-greece": {
+      "id": "bk-greece",
+      "areaId": "b-balkans",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Greece**\nGreece was divided between royalists and supporters of the Allies. It eventually joined the Allies and fought on the Salonika front.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bk-albania": {
+      "id": "bk-albania",
+      "areaId": "b-balkans",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Albania**\nAlbania was occupied by Austria-Hungary, Italy and others. Its people suffered from famine, disease and displacement.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bk-occupation": {
+      "id": "bk-occupation",
+      "areaId": "b-balkans",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Occupation**\nSerbia, Romania and Montenegro were occupied and exploited. Resistance movements and reprisals caused further suffering.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bk-collapse": {
+      "id": "bk-collapse",
+      "areaId": "b-balkans",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Central Powers collapse (1918)**\nBulgaria signed an armistice in September 1918. The collapse of the Balkan front helped end the war.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bk-casualties": {
+      "id": "bk-casualties",
+      "areaId": "b-balkans",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Casualties**\nThe Balkans suffered huge military and civilian losses. Disease and hunger killed many behind the lines.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-ottoman": {
+      "id": "b-ottoman",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 882.5
+      },
+      "data": {
+        "label": "Ottoman fronts & Middle East",
+        "color": "orange"
+      }
+    },
+    "b-ottoman-desc": {
+      "id": "b-ottoman-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 937.5
+      },
+      "data": {
+        "text": "Gallipoli, Mesopotamia, Palestine, the Arab Revolt and the Armenian genocide.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-ottoman-intro": {
+      "id": "b-ottoman-intro",
+      "areaId": "b-ottoman",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The Ottoman war**\nThe Ottoman Empire fought Russia, Britain, France and Arab rebels across the Caucasus, Mesopotamia, Palestine and the Arabian Peninsula. Its collapse reshaped the Middle East.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "ot-entry": {
+      "id": "ot-entry",
+      "areaId": "b-ottoman",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Ottoman entry (October-November 1914)**\nThe Ottoman Empire joined the Central Powers after German pressure and a naval incident. It declared war on Russia and the Allies.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ot-gallipoli": {
+      "id": "ot-gallipoli",
+      "areaId": "b-ottoman",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Gallipoli (April 1915-January 1916)**\nAllied landings on the Dardanelles failed to knock the Ottomans out of the war. Australian, New Zealand, British, French and Indian troops suffered heavy losses.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ot-anzac": {
+      "id": "ot-anzac",
+      "areaId": "b-ottoman",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**ANZAC landing**\nAustralian and New Zealand troops landed at Anzac Cove on 25 April 1915. The campaign became a founding memory for both nations.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ot-kut": {
+      "id": "ot-kut",
+      "areaId": "b-ottoman",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Siege of Kut (1915-16)**\nA British-Indian force surrendered to the Ottomans in Mesopotamia. The defeat was humiliating and costly.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ot-baghdad": {
+      "id": "ot-baghdad",
+      "areaId": "b-ottoman",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Baghdad (1917)**\nBritish forces captured Baghdad and advanced through Mesopotamia. The campaign secured oil and imperial influence.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ot-gaza": {
+      "id": "ot-gaza",
+      "areaId": "b-ottoman",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Gaza and Palestine**\nBritish forces under Allenby broke the Ottoman line and advanced into Palestine. Jerusalem fell in December 1917.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ot-megiddo": {
+      "id": "ot-megiddo",
+      "areaId": "b-ottoman",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Battle of Megiddo (1918)**\nAllenby destroyed the Ottoman armies in Palestine and advanced into Syria. The victory ended Ottoman control of the region.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ot-arab": {
+      "id": "ot-arab",
+      "areaId": "b-ottoman",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Arab Revolt (1916)**\nSharif Hussein of Mecca rebelled against the Ottomans with British support. Arab forces attacked railways and Ottoman garrisons.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ot-lawrence": {
+      "id": "ot-lawrence",
+      "areaId": "b-ottoman",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**T. E. Lawrence**\nBritish officer and liaison to the Arab Revolt. He became a romantic symbol of guerrilla warfare and British involvement in the Middle East.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ot-armenia": {
+      "id": "ot-armenia",
+      "areaId": "b-ottoman",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Armenian genocide (1915)**\nThe Ottoman government deported and murdered Armenians, killing an estimated 1.5 million. The genocide became a central trauma of the twentieth century.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ot-caucasus": {
+      "id": "ot-caucasus",
+      "areaId": "b-ottoman",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Caucasus front**\nRussia and the Ottoman Empire fought in the Caucasus. Armenia, Georgia and Azerbaijan suffered occupation and displacement.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ot-kemal": {
+      "id": "ot-kemal",
+      "areaId": "b-ottoman",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Mustafa Kemal**\nOttoman commander at Gallipoli and later founder of modern Turkey. His defense of the peninsula made him a national hero.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ot-collapse": {
+      "id": "ot-collapse",
+      "areaId": "b-ottoman",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Ottoman collapse**\nThe empire signed the Armistice of Mudros in October 1918. Its Arab provinces were occupied by Britain and France.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ot-sevres": {
+      "id": "ot-sevres",
+      "areaId": "b-ottoman",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Sevres and Lausanne**\nThe 1920 Treaty of Sevres was imposed on the Ottomans but rejected by Turkish nationalists. The 1923 Treaty of Lausanne created modern Turkey.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ot-middleeast": {
+      "id": "ot-middleeast",
+      "areaId": "b-ottoman",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**New Middle East**\nBritain and France divided the region into mandates. The borders drawn after the war shaped conflicts for the next century.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-colonial": {
+      "id": "b-colonial",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 981.0
+      },
+      "data": {
+        "label": "Colonial & global war",
+        "color": "purple"
+      }
+    },
+    "b-colonial-desc": {
+      "id": "b-colonial-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1036.0
+      },
+      "data": {
+        "text": "Africa, Asia, the Pacific and the empires at war.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-colonial-intro": {
+      "id": "b-colonial-intro",
+      "areaId": "b-colonial",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**A world war**\nThe conflict was fought in Africa, Asia and the Pacific as well as Europe. Colonial troops and laborers were drawn into a European war, and imperial rivalries reshaped the postwar world.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "cl-german": {
+      "id": "cl-german",
+      "areaId": "b-colonial",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**German colonies**\nGermany's colonies in Africa and the Pacific were attacked by Britain, France, Belgium, Japan, Australia and New Zealand.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cl-togoland": {
+      "id": "cl-togoland",
+      "areaId": "b-colonial",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Togoland (1914)**\nBritish and French forces quickly captured the small German colony. It was divided between them after the war.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cl-kamerun": {
+      "id": "cl-kamerun",
+      "areaId": "b-colonial",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Kamerun**\nBritish, French and Belgian forces captured the German colony after a long campaign. It was divided into mandates.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cl-southwest": {
+      "id": "cl-southwest",
+      "areaId": "b-colonial",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**South West Africa**\nSouth African forces captured the German colony, which later became a South African mandate.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cl-eastafrica": {
+      "id": "cl-eastafrica",
+      "areaId": "b-colonial",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**East Africa**\nGerman forces under Lettow-Vorbeck fought a long guerrilla campaign. British, Indian, South African and African troops suffered heavily from disease.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cl-pacific": {
+      "id": "cl-pacific",
+      "areaId": "b-colonial",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Pacific**\nJapan, Australia and New Zealand seized German islands. Japan's gains strengthened its position in the Pacific.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cl-tsingtao": {
+      "id": "cl-tsingtao",
+      "areaId": "b-colonial",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Tsingtao**\nJapan and Britain captured the German concession in China. Japan presented the Twenty-One Demands to China in 1915.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cl-china": {
+      "id": "cl-china",
+      "areaId": "b-colonial",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**China**\nChina declared war on Germany in 1917 and sent laborers to France. Its contribution was recognized at Versailles, but its demands were betrayed.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cl-india": {
+      "id": "cl-india",
+      "areaId": "b-colonial",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**British Indian Army**\nOver a million Indian soldiers and laborers served the British Empire. They fought in France, Mesopotamia, Palestine and Africa.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cl-colonial": {
+      "id": "cl-colonial",
+      "areaId": "b-colonial",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Colonial troops in Europe**\nFrench, British, Algerian, Moroccan, Senegalese, Indian, Canadian, Australian and New Zealand troops fought on the western front.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cl-egypt": {
+      "id": "cl-egypt",
+      "areaId": "b-colonial",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Egypt**\nEgypt was a British protectorate and a base for operations in the Middle East. The war deepened Egyptian nationalism.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cl-persia": {
+      "id": "cl-persia",
+      "areaId": "b-colonial",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Persia**\nPersia was occupied by British, Russian and Ottoman forces. Its oil fields became strategically important.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cl-africa": {
+      "id": "cl-africa",
+      "areaId": "b-colonial",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**African soldiers and carriers**\nHundreds of thousands of Africans served as soldiers and carriers. Disease, hunger and exploitation killed many.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cl-legacy": {
+      "id": "cl-legacy",
+      "areaId": "b-colonial",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Imperial legacy**\nThe war weakened European empires and strengthened nationalist movements in Asia and Africa. The peace settlements disappointed many colonial peoples.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-naval": {
+      "id": "b-naval",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1042.5
+      },
+      "data": {
+        "label": "Naval war & blockade",
+        "color": "cyan"
+      }
+    },
+    "b-naval-desc": {
+      "id": "b-naval-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1097.5
+      },
+      "data": {
+        "text": "Dreadnoughts, U-boats, Jutland and the war at sea.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-naval-intro": {
+      "id": "b-naval-intro",
+      "areaId": "b-naval",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**War at sea**\nBritain's blockade strangled the Central Powers, while Germany's U-boats tried to starve Britain. Naval power shaped the war's outcome and brought the United States closer to intervention.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "nv-blockade": {
+      "id": "nv-blockade",
+      "areaId": "b-naval",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**British blockade**\nThe Royal Navy cut off imports to Germany and Austria-Hungary. Food and raw material shortages weakened the Central Powers and civilian morale.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nv-dreadnought": {
+      "id": "nv-dreadnought",
+      "areaId": "b-naval",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Dreadnoughts**\nBritain and Germany built powerful all-big-gun battleships. The naval arms race was a symbol of rivalry before 1914.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nv-jutland": {
+      "id": "nv-jutland",
+      "areaId": "b-naval",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Battle of Jutland (1916)**\nThe British and German fleets clashed in the North Sea. Both claimed victory; Britain retained control of the sea.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nv-uboat": {
+      "id": "nv-uboat",
+      "areaId": "b-naval",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**U-boats**\nGerman submarines attacked Allied and neutral shipping. They were effective but could not break Britain alone.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nv-lusitania": {
+      "id": "nv-lusitania",
+      "areaId": "b-naval",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Lusitania (1915)**\nA German U-boat sank the liner, killing over 1,000 people including 128 Americans. The sinking caused outrage and pushed the US toward war.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nv-unrestricted": {
+      "id": "nv-unrestricted",
+      "areaId": "b-naval",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Unrestricted submarine warfare (1917)**\nGermany resumed attacks on all shipping in the war zone. It hoped to starve Britain before the US could intervene.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nv-convoy": {
+      "id": "nv-convoy",
+      "areaId": "b-naval",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Convoys**\nThe Allies organized merchant ships into escorted groups. Convoys and better anti-submarine tactics reduced losses.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nv-mines": {
+      "id": "nv-mines",
+      "areaId": "b-naval",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Mines**\nNaval mines sank ships and confined fleets. Minefields were laid from the North Sea to the Adriatic.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nv-zeebrugge": {
+      "id": "nv-zeebrugge",
+      "areaId": "b-naval",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Zeebrugge raid (1918)**\nBritish forces tried to block the Belgian port used by U-boats. The raid was costly and only partly successful.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nv-adriatic": {
+      "id": "nv-adriatic",
+      "areaId": "b-naval",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Adriatic**\nAustria-Hungary's fleet faced Italy, France and Britain. The Otranto Barrage tried to block submarines.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nv-blacksea": {
+      "id": "nv-blacksea",
+      "areaId": "b-naval",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Black Sea**\nRussia and the Ottoman Empire fought for control of the Black Sea. The Russian fleet dominated until the revolution.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nv-baltic": {
+      "id": "nv-baltic",
+      "areaId": "b-naval",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Baltic**\nGermany and Russia fought in the Baltic. The German fleet supported operations on the eastern front.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nv-us": {
+      "id": "nv-us",
+      "areaId": "b-naval",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**US entry**\nUnrestricted submarine warfare and the Zimmermann Telegram brought the United States into the war in April 1917.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nv-legacy": {
+      "id": "nv-legacy",
+      "areaId": "b-naval",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Naval legacy**\nThe war confirmed the importance of sea power, convoys and submarines. Naval arms control became a major issue after 1918.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-air": {
+      "id": "b-air",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1042.5
+      },
+      "data": {
+        "label": "Air war & technology",
+        "color": "yellow"
+      }
+    },
+    "b-air-desc": {
+      "id": "b-air-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1097.5
+      },
+      "data": {
+        "text": "Aircraft, airships, tanks, gas and the technology of total war.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-air-intro": {
+      "id": "b-air-intro",
+      "areaId": "b-air",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**New weapons**\nThe war accelerated aviation, chemical weapons, tanks, submarines and mass production. Technology made killing more efficient without giving either side a decisive breakthrough.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "ai-recon": {
+      "id": "ai-recon",
+      "areaId": "b-air",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Reconnaissance**\nAircraft were first used to observe enemy positions. Aerial photography and artillery spotting changed battlefield intelligence.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ai-fighters": {
+      "id": "ai-fighters",
+      "areaId": "b-air",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Fighters**\nSingle-seat fighters hunted reconnaissance aircraft. Machine guns synchronized with propellers made pursuit combat possible.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ai-bombers": {
+      "id": "ai-bombers",
+      "areaId": "b-air",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Bombers**\nBombing aircraft attacked trenches, railways, cities and naval targets. Strategic bombing was still primitive but pointed to the future.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ai-zeppelin": {
+      "id": "ai-zeppelin",
+      "areaId": "b-air",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Zeppelins**\nGerman airships bombed British cities. They caused fear and casualties but were vulnerable to fighters and weather.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ai-gotha": {
+      "id": "ai-gotha",
+      "areaId": "b-air",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Gotha raids**\nGerman bombers attacked London and other cities. The raids killed civilians and prompted air defense measures.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ai-aces": {
+      "id": "ai-aces",
+      "areaId": "b-air",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Aces**\nPilots such as Richthofen, Ball, Guynemer, Bishop and Boelcke became propaganda heroes. Their exploits were romanticized.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ai-richthofen": {
+      "id": "ai-richthofen",
+      "areaId": "b-air",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Manfred von Richthofen**\nThe 'Red Baron', Germany's most famous ace. He was killed in April 1918.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ai-tanks": {
+      "id": "ai-tanks",
+      "areaId": "b-air",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Tanks**\nBritain introduced tanks in 1916. They were slow and unreliable but could cross trenches and crush wire. Cambrai in 1917 showed their potential.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ai-gas": {
+      "id": "ai-gas",
+      "areaId": "b-air",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Chemical weapons**\nChlorine, phosgene and mustard gas caused horrific injuries. Gas masks and discipline reduced deaths but not fear.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ai-flame": {
+      "id": "ai-flame",
+      "areaId": "b-air",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Flamethrowers**\nGerman and Allied units used flamethrowers against trenches and bunkers. They were terrifying but short-ranged.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ai-artillery": {
+      "id": "ai-artillery",
+      "areaId": "b-air",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Artillery technology**\nHeavy guns, railway guns, creeping barrages and sound ranging transformed artillery. Shell production became a war industry.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ai-radio": {
+      "id": "ai-radio",
+      "areaId": "b-air",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Radio and telephones**\nRadio improved coordination but was unreliable. Telephones, telegraph and runners connected command to the front.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ai-medical": {
+      "id": "ai-medical",
+      "areaId": "b-air",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Medical technology**\nX-rays, blood transfusion, antiseptics and plastic surgery improved survival. See the medicine branch.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ai-legacy": {
+      "id": "ai-legacy",
+      "areaId": "b-air",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Technological legacy**\nThe war accelerated aviation, tank design, submarines and chemical industry. It also showed the destructive potential of industrial science.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-home": {
+      "id": "b-home",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1120.5
+      },
+      "data": {
+        "label": "Home fronts & economy",
+        "color": "orange"
+      }
+    },
+    "b-home-desc": {
+      "id": "b-home-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1175.5
+      },
+      "data": {
+        "text": "Conscription, women, rationing, propaganda and total war.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-home-intro": {
+      "id": "b-home-intro",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The home front**\nTotal war mobilized entire societies. Governments controlled production, food, labor and information, while civilians faced shortages, bombing, bereavement and propaganda.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "hm-total": {
+      "id": "hm-total",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Total war**\nGovernments directed economies, conscripted labor and rationed goods. The distinction between soldiers and civilians blurred.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-conscription": {
+      "id": "hm-conscription",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Conscription**\nBritain introduced conscription in 1916; other powers already had it. Millions of men were pulled from farms and factories into the army.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-women": {
+      "id": "hm-women",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Women**\nWomen worked in factories, transport, hospitals, offices and farms. They also served as nurses, drivers and munitions workers.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-munitions": {
+      "id": "hm-munitions",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Munitions factories**\nShell production became a priority. Munitions workers, many of them women, faced dangerous conditions and long hours.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-rationing": {
+      "id": "hm-rationing",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Rationing**\nFood shortages led to rationing in Britain, Germany, France and Austria-Hungary. Queues and hunger became daily life.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-food": {
+      "id": "hm-food",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Food crisis**\nThe British blockade and poor harvests caused hunger in the Central Powers. Turnip winters and malnutrition weakened civilians.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-propaganda": {
+      "id": "hm-propaganda",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Propaganda**\nPosters, newspapers, films and sermons mobilized hatred and sacrifice. Atrocity stories and censorship shaped public opinion.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-censorship": {
+      "id": "hm-censorship",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Censorship**\nLetters, newspapers and telegrams were censored. Governments controlled information and punished dissent.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-bonds": {
+      "id": "hm-bonds",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**War loans and taxes**\nGovernments borrowed heavily and raised taxes. Inflation eroded wages and savings.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-strikes": {
+      "id": "hm-strikes",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Strikes and unrest**\nWorkers protested against low wages, food shortages and war profiteering. Strikes increased in 1917-18.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-refugees": {
+      "id": "hm-refugees",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Refugees**\nMillions fled invasion and occupation in Belgium, Serbia, Poland, Armenia and Russia. Refugee relief became a major problem.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-empires": {
+      "id": "hm-empires",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Imperial home fronts**\nColonial subjects were conscripted, taxed and mobilized. The war deepened anti-colonial grievances.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-children": {
+      "id": "hm-children",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Children**\nChildren collected scrap, worked, lost fathers and experienced food shortages. Schools and families were disrupted.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-inflation": {
+      "id": "hm-inflation",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Inflation**\nPrinting money and shortages caused rising prices. Middle-class savings were eroded, especially in the Central Powers.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-legacy": {
+      "id": "hm-legacy",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Social change**\nThe war expanded state power, changed women's roles and weakened old elites. It also left a legacy of grief and social tension.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-soldiers": {
+      "id": "b-soldiers",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1182.0
+      },
+      "data": {
+        "label": "Soldiers' war",
+        "color": "purple"
+      }
+    },
+    "b-soldiers-desc": {
+      "id": "b-soldiers-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1237.0
+      },
+      "data": {
+        "text": "Trench life, discipline, mutiny and the psychology of the front.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-soldiers-intro": {
+      "id": "b-soldiers-intro",
+      "areaId": "b-soldiers",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The experience of combat**\nSoldiers endured artillery, mud, rats, fear and grief. Their letters, memoirs and poetry shaped how the war was remembered.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "sd-recruit": {
+      "id": "sd-recruit",
+      "areaId": "b-soldiers",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Recruitment**\nVolunteers rushed to enlist in 1914. Later, conscription and social pressure brought millions more into the armies.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sd-training": {
+      "id": "sd-training",
+      "areaId": "b-soldiers",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Training**\nRecruits learned drill, weapons and obedience. Training was often brief and inadequate for trench warfare.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sd-routine": {
+      "id": "sd-routine",
+      "areaId": "b-soldiers",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Trench routine**\nSoldiers repaired wire, dug trenches, carried supplies, stood sentry and waited for attacks. Boredom alternated with terror.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sd-rats": {
+      "id": "sd-rats",
+      "areaId": "b-soldiers",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Rats and lice**\nRats fed on corpses and food; lice spread typhus and trench fever. Soldiers spent hours delousing.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sd-mud": {
+      "id": "sd-mud",
+      "areaId": "b-soldiers",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Mud and weather**\nRain, snow and mud made movement difficult and caused trench foot. Bodies and equipment sank into the ground.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sd-food": {
+      "id": "sd-food",
+      "areaId": "b-soldiers",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Food**\nRations were monotonous and often cold. Soldiers received bread, bully beef, jam, tea and rum when available.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sd-letters": {
+      "id": "sd-letters",
+      "areaId": "b-soldiers",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Letters home**\nMillions of letters connected soldiers and families. Censorship and self-censorship limited what could be said.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sd-religion": {
+      "id": "sd-religion",
+      "areaId": "b-soldiers",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Religion and superstition**\nSoldiers prayed, carried charms and attended services. Faith and superstition helped cope with fear and loss.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sd-comrades": {
+      "id": "sd-comrades",
+      "areaId": "b-soldiers",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Comradeship**\nSmall groups of soldiers depended on each other for survival. Friendship and loyalty sustained morale.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sd-shellshock": {
+      "id": "sd-shellshock",
+      "areaId": "b-soldiers",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**Shell shock**\nPsychological trauma was widespread but poorly understood. Some soldiers were accused of cowardice and punished.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sd-mutiny": {
+      "id": "sd-mutiny",
+      "areaId": "b-soldiers",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**Mutinies**\nFrench soldiers mutinied in 1917 after failed offensives. German and Russian armies also experienced unrest.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sd-discipline": {
+      "id": "sd-discipline",
+      "areaId": "b-soldiers",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**Discipline**\nMilitary law allowed execution for desertion and cowardice. Many executions are now considered unjust.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sd-executions": {
+      "id": "sd-executions",
+      "areaId": "b-soldiers",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 579.5
+      },
+      "data": {
+        "text": "**Executions**\nHundreds of soldiers were executed by firing squad. Some were later pardoned or commemorated.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sd-poetry": {
+      "id": "sd-poetry",
+      "areaId": "b-soldiers",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 579.5
+      },
+      "data": {
+        "text": "**War poetry**\nWilfred Owen, Siegfried Sassoon, Rupert Brooke and others wrote about the war. Their poems shaped anti-war memory.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sd-death": {
+      "id": "sd-death",
+      "areaId": "b-soldiers",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 579.5
+      },
+      "data": {
+        "text": "**Death and burial**\nSoldiers died from shells, bullets, gas and disease. Many bodies were never recovered; cemeteries and memorials followed.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sd-truce": {
+      "id": "sd-truce",
+      "areaId": "b-soldiers",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 691.0
+      },
+      "data": {
+        "text": "**Christmas Truce**\nThe 1914 truce showed that enemy soldiers could see each other as humans. It was not repeated on the same scale.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-medicine": {
+      "id": "b-medicine",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1182.0
+      },
+      "data": {
+        "label": "Medicine & casualties",
+        "color": "purple"
+      }
+    },
+    "b-medicine-desc": {
+      "id": "b-medicine-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1237.0
+      },
+      "data": {
+        "text": "Wounds, disease, nurses and the medical revolution of the war.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-medicine-intro": {
+      "id": "b-medicine-intro",
+      "areaId": "b-medicine",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Medicine under fire**\nThe war produced horrific injuries and forced rapid medical innovation. Triage, transfusion, surgery and rehabilitation saved lives but could not keep pace with the killing.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "md-wounds": {
+      "id": "md-wounds",
+      "areaId": "b-medicine",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Wounds**\nShell fragments, bullets and gas caused complex injuries. Infection and shock killed many before surgery.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "md-triage": {
+      "id": "md-triage",
+      "areaId": "b-medicine",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Triage**\nMedical teams sorted casualties by urgency. The system improved survival but forced terrible choices.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "md-transfusion": {
+      "id": "md-transfusion",
+      "areaId": "b-medicine",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Blood transfusion**\nBlood typing and transfusion saved wounded soldiers. Mobile blood banks were developed.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "md-surgery": {
+      "id": "md-surgery",
+      "areaId": "b-medicine",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Surgery**\nDebridement, amputation and reconstructive surgery advanced. Surgeons learned to treat massive facial and limb injuries.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "md-plastic": {
+      "id": "md-plastic",
+      "areaId": "b-medicine",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Plastic surgery**\nPioneers such as Harold Gillies rebuilt faces and jaws. The war created modern plastic surgery.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "md-prosthetics": {
+      "id": "md-prosthetics",
+      "areaId": "b-medicine",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Prosthetics**\nArtificial limbs and rehabilitation programs helped disabled veterans. The war produced a generation of amputees.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "md-nurses": {
+      "id": "md-nurses",
+      "areaId": "b-medicine",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Nurses**\nNurses worked near the front and in hospitals. Their contribution changed the image of nursing and women's work.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "md-gas": {
+      "id": "md-gas",
+      "areaId": "b-medicine",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Gas injuries**\nGas burned eyes, lungs and skin. Treatment was limited, and survivors often suffered chronic damage.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "md-disease": {
+      "id": "md-disease",
+      "areaId": "b-medicine",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Disease**\nTyphus, cholera, malaria, dysentery and trench fever killed many soldiers, especially outside Europe.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "md-flu": {
+      "id": "md-flu",
+      "areaId": "b-medicine",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Spanish flu (1918-19)**\nThe influenza pandemic killed tens of millions worldwide, including soldiers and civilians. It overlapped with the war's end.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "md-redcross": {
+      "id": "md-redcross",
+      "areaId": "b-medicine",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Red Cross**\nNeutral relief organizations treated wounded and prisoners. The Red Cross became a symbol of humanitarian action.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "md-psych": {
+      "id": "md-psych",
+      "areaId": "b-medicine",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Psychological trauma**\nShell shock, nightmares and breakdowns were widespread. Treatment ranged from rest to electric shocks and harsh discipline.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "md-legacy": {
+      "id": "md-legacy",
+      "areaId": "b-medicine",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Medical legacy**\nThe war accelerated emergency medicine, orthopedics, plastic surgery and rehabilitation. It also exposed the limits of care under industrial warfare.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-revolution": {
+      "id": "b-revolution",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1260.0
+      },
+      "data": {
+        "label": "Revolution & 1917",
+        "color": "red"
+      }
+    },
+    "b-revolution-desc": {
+      "id": "b-revolution-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1315.0
+      },
+      "data": {
+        "text": "Russia, mutinies and the cracks in the old empires.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-revolution-intro": {
+      "id": "b-revolution-intro",
+      "areaId": "b-revolution",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The year of revolution**\nWar exhaustion, food shortages and military failure broke the Russian Empire and undermined other states. Revolution changed the war's direction and the postwar order.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "rv-russia": {
+      "id": "rv-russia",
+      "areaId": "b-revolution",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Russia in crisis**\nThe Russian army suffered huge losses, and the home front faced food shortages and inflation. The tsar's authority collapsed.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rv-february": {
+      "id": "rv-february",
+      "areaId": "b-revolution",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**February Revolution (March 1917)**\nBread riots and strikes in Petrograd led to the abdication of Nicholas II. A Provisional Government and the Petrograd Soviet shared power.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rv-kerensky": {
+      "id": "rv-kerensky",
+      "areaId": "b-revolution",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Kerensky**\nAlexander Kerensky led the Provisional Government and continued the war. His offensive failed, and his authority eroded.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rv-october": {
+      "id": "rv-october",
+      "areaId": "b-revolution",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**October Revolution (November 1917)**\nLenin's Bolsheviks seized power and promised peace, land and bread. Russia began negotiations with Germany.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rv-brest": {
+      "id": "rv-brest",
+      "areaId": "b-revolution",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Brest-Litovsk (March 1918)**\nRussia exited the war and ceded vast territories. Germany gained land and resources but had to occupy the east.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rv-austria": {
+      "id": "rv-austria",
+      "areaId": "b-revolution",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Austria-Hungary**\nThe Habsburg empire faced food shortages, strikes and nationalist demands. Its army and state fragmented in 1918.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rv-germany": {
+      "id": "rv-germany",
+      "areaId": "b-revolution",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Germany**\nFood shortages, strikes and military defeat eroded morale. Mutinies in the navy and army preceded the revolution of 1918.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rv-mutinies": {
+      "id": "rv-mutinies",
+      "areaId": "b-revolution",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Mutinies**\nFrench, Italian, German, Russian and Austro-Hungarian soldiers rebelled against the war. Repression and concessions restored discipline temporarily.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rv-socialists": {
+      "id": "rv-socialists",
+      "areaId": "b-revolution",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Socialist divisions**\nSocialist parties split between supporters of the war and opponents. Revolutionaries demanded immediate peace.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rv-wilson": {
+      "id": "rv-wilson",
+      "areaId": "b-revolution",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Wilson's Fourteen Points (1918)**\nThe US president proposed self-determination, open diplomacy and a league of nations. The program influenced the peace.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rv-empires": {
+      "id": "rv-empires",
+      "areaId": "b-revolution",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Empires break**\nThe Russian, Ottoman, Austro-Hungarian and German empires collapsed or were transformed. New states emerged in central and eastern Europe.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rv-legacy": {
+      "id": "rv-legacy",
+      "areaId": "b-revolution",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Revolutionary legacy**\nThe Russian Revolution created the first communist state and inspired revolutionary movements worldwide. It also deepened the division of Europe.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-1918": {
+      "id": "b-1918",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1321.5
+      },
+      "data": {
+        "label": "The final year 1918",
+        "color": "red"
+      }
+    },
+    "b-1918-desc": {
+      "id": "b-1918-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1376.5
+      },
+      "data": {
+        "text": "Spring Offensive, Hundred Days and the armistice.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-1918-intro": {
+      "id": "b-1918-intro",
+      "areaId": "b-1918",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**1918: decision**\nGermany made one last attempt to win in the west before American power arrived. The offensive failed, and the Allies counterattacked to victory.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "y18-brest": {
+      "id": "y18-brest",
+      "areaId": "b-1918",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Brest-Litovsk**\nRussia left the war, freeing German divisions for the western front. Germany gambled on a decisive offensive.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "y18-spring": {
+      "id": "y18-spring",
+      "areaId": "b-1918",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Spring Offensive (March-July 1918)**\nGermany attacked with stormtroopers and new tactics. Operation Michael and later offensives gained ground but failed to break the Allies.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "y18-storm": {
+      "id": "y18-storm",
+      "areaId": "b-1918",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Stormtroopers**\nElite German infantry used infiltration tactics, grenades and speed to bypass strongpoints. They achieved local breakthroughs but lacked strategic follow-through.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "y18-lys": {
+      "id": "y18-lys",
+      "areaId": "b-1918",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Lys and Aisne offensives**\nGerman attacks pushed the Allies back and reached the Marne again. American troops and French reserves helped stop them.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "y18-belleau": {
+      "id": "y18-belleau",
+      "areaId": "b-1918",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Belleau Wood (June 1918)**\nUS Marines helped stop the German advance. The battle became a symbol of American entry into the war.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "y18-marne2": {
+      "id": "y18-marne2",
+      "areaId": "b-1918",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Second Battle of the Marne (July-August 1918)**\nAllied counterattacks stopped the last German offensive and began the counteroffensive.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "y18-amiens": {
+      "id": "y18-amiens",
+      "areaId": "b-1918",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Battle of Amiens (8 August 1918)**\nAllied tanks, artillery and infantry broke the German line. Ludendorff called it the 'black day of the German army'.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "y18-hundred": {
+      "id": "y18-hundred",
+      "areaId": "b-1918",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Hundred Days Offensive**\nAllied forces attacked along the western front and pushed Germany back toward its borders.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "y18-meuse": {
+      "id": "y18-meuse",
+      "areaId": "b-1918",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Meuse-Argonne**\nAmerican forces attacked through difficult terrain and helped break the German line. The battle was costly and decisive.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "y18-hindenburg": {
+      "id": "y18-hindenburg",
+      "areaId": "b-1918",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Hindenburg Line broken**\nAllied attacks breached Germany's main defensive line in September-October 1918.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "y18-germany": {
+      "id": "y18-germany",
+      "areaId": "b-1918",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**German collapse**\nThe army retreated, allies collapsed and the home front revolted. Ludendorff demanded an armistice.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "y18-armistice": {
+      "id": "y18-armistice",
+      "areaId": "b-1918",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Armistice (11 November 1918)**\nGermany signed an armistice at Compiegne. Fighting ended at 11 a.m. on 11 November.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "y18-cost": {
+      "id": "y18-cost",
+      "areaId": "b-1918",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Cost**\nThe final year killed hundreds of thousands more soldiers. The armistice ended the fighting but not the suffering.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-peace": {
+      "id": "b-peace",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1342.0
+      },
+      "data": {
+        "label": "Armistice & peace settlements",
+        "color": "cyan"
+      }
+    },
+    "b-peace-desc": {
+      "id": "b-peace-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1397.0
+      },
+      "data": {
+        "text": "Versailles, the League and the remaking of the world map.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-peace-intro": {
+      "id": "b-peace-intro",
+      "areaId": "b-peace",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The peace**\nThe Paris Peace Conference redrew borders, imposed reparations and created new states and mandates. The settlement satisfied few and helped fuel future conflict.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "pe-armistice": {
+      "id": "pe-armistice",
+      "areaId": "b-peace",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Armistice terms**\nGermany withdrew from occupied territory, surrendered weapons and accepted occupation of the Rhineland. The blockade continued until the treaty was signed.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-paris": {
+      "id": "pe-paris",
+      "areaId": "b-peace",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Paris Peace Conference (1919)**\nVictorious powers met to settle the war. Germany, Austria, Hungary, Bulgaria, Turkey and Russia were excluded from the negotiations.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-versailles": {
+      "id": "pe-versailles",
+      "areaId": "b-peace",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Treaty of Versailles (28 June 1919)**\nGermany lost territory and colonies, accepted war guilt, limited its army and agreed to reparations. The treaty was signed in the Hall of Mirrors.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-guilt": {
+      "id": "pe-guilt",
+      "areaId": "b-peace",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**War guilt clause**\nArticle 231 made Germany accept responsibility for the war. It became a symbol of humiliation and was exploited by nationalist movements.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-reparations": {
+      "id": "pe-reparations",
+      "areaId": "b-peace",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Reparations**\nGermany was ordered to pay reparations. The amount was revised repeatedly and contributed to economic and political crises.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-territory": {
+      "id": "pe-territory",
+      "areaId": "b-peace",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Territorial changes**\nAlsace-Lorraine returned to France; Poland gained territory and access to the sea; Germany lost colonies and border regions.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-league": {
+      "id": "pe-league",
+      "areaId": "b-peace",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**League of Nations**\nThe League was created to preserve peace and manage mandates. The US Senate refused to join, weakening it from the start.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-mandates": {
+      "id": "pe-mandates",
+      "areaId": "b-peace",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Mandates**\nGerman and Ottoman territories were administered by Britain, France, Japan and others under League mandates. Independence was postponed.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-austria": {
+      "id": "pe-austria",
+      "areaId": "b-peace",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Saint-Germain (1919)**\nAustria lost its empire and recognized the independence of Czechoslovakia, Poland, Yugoslavia and Hungary.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-hungary": {
+      "id": "pe-hungary",
+      "areaId": "b-peace",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Trianon (1920)**\nHungary lost two-thirds of its territory and a large share of its population. The treaty caused lasting resentment.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-bulgaria": {
+      "id": "pe-bulgaria",
+      "areaId": "b-peace",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Neuilly (1919)**\nBulgaria lost territory to Greece, Romania and Yugoslavia and limited its army.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-ottoman": {
+      "id": "pe-ottoman",
+      "areaId": "b-peace",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Sevres and Lausanne**\nSevres imposed harsh terms on the Ottoman Empire. Turkish nationalists rejected it and won a new settlement at Lausanne in 1923.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-russia": {
+      "id": "pe-russia",
+      "areaId": "b-peace",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Russia excluded**\nThe Bolsheviks were not invited to Paris. The USSR rejected the settlement and supported revisionist movements.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-china": {
+      "id": "pe-china",
+      "areaId": "b-peace",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**China betrayed**\nChina expected the return of German concessions in Shandong but they were transferred to Japan. The decision sparked the May Fourth Movement.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-us": {
+      "id": "pe-us",
+      "areaId": "b-peace",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**US rejection**\nThe US Senate rejected the Treaty of Versailles and the League. The United States withdrew from European security.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-legacy": {
+      "id": "pe-legacy",
+      "areaId": "b-peace",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 732.0
+      },
+      "data": {
+        "text": "**Legacy**\nThe peace settlements created new states and unresolved grievances. Many historians link them to the instability that led to the Second World War.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-after": {
+      "id": "b-after",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1399.5
+      },
+      "data": {
+        "label": "Aftermath & legacy",
+        "color": "green"
+      }
+    },
+    "b-after-desc": {
+      "id": "b-after-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1454.5
+      },
+      "data": {
+        "text": "Casualties, new states, memory and the road to another war.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-after-intro": {
+      "id": "b-after-intro",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**After the guns**\nThe war destroyed empires, killed millions and left a world of new states, bitter memories and unstable peace. Its consequences shaped the twentieth century.",
+        "color": "green"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "af-casualties": {
+      "id": "af-casualties",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Casualties**\nAbout 9-10 million soldiers died, and millions of civilians died from hunger, disease and violence. The 1918 influenza pandemic killed tens of millions more.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-empires": {
+      "id": "af-empires",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Empires collapse**\nThe German, Austro-Hungarian, Russian and Ottoman empires ended. Britain and France expanded their mandates but faced rising nationalism.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-newstates": {
+      "id": "af-newstates",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**New states**\nPoland, Czechoslovakia, Yugoslavia, the Baltic states, Finland, Hungary and others emerged or were recreated. Borders were contested.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-weimar": {
+      "id": "af-weimar",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Weimar Germany**\nGermany became a republic under the Versailles settlement. It faced inflation, political violence and nationalist resentment.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-middleeast": {
+      "id": "af-middleeast",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Middle East**\nBritain and France created mandates in Iraq, Palestine, Transjordan, Syria and Lebanon. The borders and promises shaped later conflicts.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-veterans": {
+      "id": "af-veterans",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Veterans**\nMillions of disabled and traumatized soldiers returned home. Pension systems, hospitals and veterans' organizations struggled to cope.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-mourning": {
+      "id": "af-mourning",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Mourning**\nFamilies mourned the dead at cemeteries and memorials. The Tomb of the Unknown Soldier and local war memorials became common.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-literature": {
+      "id": "af-literature",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Literature and art**\nWar poets, novelists and artists portrayed trauma and disillusionment. 'All Quiet on the Western Front' became a global anti-war classic.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-reparations": {
+      "id": "af-reparations",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Reparations and debt**\nWar debts, reparations and inflation destabilized economies. The Great Depression worsened international tensions.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-ww2": {
+      "id": "af-ww2",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Road to war**\nResentment of Versailles, the weakness of the League and the rise of fascism contributed to the Second World War.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-memory": {
+      "id": "af-memory",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Memory**\nThe war is remembered through ceremonies, films, museums and family history. Debates over its causes and meaning continue.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-historiography": {
+      "id": "af-historiography",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Historiography**\nHistorians debate responsibility, the role of alliances, the experience of soldiers and the impact on civilians and empires.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-people": {
+      "id": "b-people",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1461.0
+      },
+      "data": {
+        "label": "People",
+        "color": "purple"
+      }
+    },
+    "b-people-desc": {
+      "id": "b-people-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1516.0
+      },
+      "data": {
+        "text": "Leaders, commanders, aces, nurses, spies and writers.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-people-intro": {
+      "id": "b-people-intro",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The people of the war**\nKings, presidents, generals, soldiers, nurses, revolutionaries and writers shaped the conflict and its memory.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "pp-leaders-head": {
+      "id": "pp-leaders-head",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 133.5
+      },
+      "data": {
+        "label": "Political leaders",
+        "color": "purple"
+      }
+    },
+    "pp-wilhelm": {
+      "id": "pp-wilhelm",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Kaiser Wilhelm II**\nGerman emperor. His erratic diplomacy and support for Austria-Hungary contributed to the July Crisis.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-franzjosef": {
+      "id": "pp-franzjosef",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Franz Joseph I**\nAustro-Hungarian emperor. He approved the ultimatum to Serbia and died in 1916.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-nicholas": {
+      "id": "pp-nicholas",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 206.5
+      },
+      "data": {
+        "text": "**Nicholas II**\nRussian tsar. His leadership failed in war and revolution; he abdicated in 1917 and was executed in 1918.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-george": {
+      "id": "pp-george",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**George V**\nBritish king. He changed the royal family's name to Windsor and symbolized national unity.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-asquith": {
+      "id": "pp-asquith",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**H. H. Asquith**\nBritish prime minister at the start of the war. He was replaced by Lloyd George in 1916.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-lloyd": {
+      "id": "pp-lloyd",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 318.0
+      },
+      "data": {
+        "text": "**David Lloyd George**\nBritish prime minister from 1916. He pushed for victory and represented Britain at Versailles.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-poincare": {
+      "id": "pp-poincare",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Raymond Poincare**\nFrench president. He supported firmness against Germany and national unity in war.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-clemenceau": {
+      "id": "pp-clemenceau",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Georges Clemenceau**\nFrench prime minister and 'Tiger'. He demanded harsh terms against Germany at Versailles.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-wilson": {
+      "id": "pp-wilson",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 429.5
+      },
+      "data": {
+        "text": "**Woodrow Wilson**\nUS president. He promoted neutrality, then intervention, and proposed the Fourteen Points and League of Nations.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-orlando": {
+      "id": "pp-orlando",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**Vittorio Orlando**\nItalian prime minister at Versailles. He sought territory promised to Italy but left dissatisfied.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-lenin": {
+      "id": "pp-lenin",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**Vladimir Lenin**\nBolshevik leader who took Russia out of the war and founded the Soviet state.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-ataturk": {
+      "id": "pp-ataturk",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 541.0
+      },
+      "data": {
+        "text": "**Mustafa Kemal Ataturk**\nOttoman commander at Gallipoli and founder of modern Turkey.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-enver": {
+      "id": "pp-enver",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 579.5
+      },
+      "data": {
+        "text": "**Enver Pasha**\nOttoman war minister and a leading figure in the empire's entry into the war.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-commanders-head": {
+      "id": "pp-commanders-head",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 1160,
+        "y": 579.5
+      },
+      "data": {
+        "label": "Commanders",
+        "color": "purple"
+      }
+    },
+    "pp-moltke": {
+      "id": "pp-moltke",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 632.0
+      },
+      "data": {
+        "text": "**Helmuth von Moltke**\nGerman chief of staff in 1914. He modified the Schlieffen Plan and was blamed for the failure at the Marne.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-falkenhayn": {
+      "id": "pp-falkenhayn",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 652.5
+      },
+      "data": {
+        "text": "**Erich von Falkenhayn**\nGerman chief of staff 1914-16. He planned the Verdun offensive and was dismissed after its failure.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-hindenburg": {
+      "id": "pp-hindenburg",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 691.0
+      },
+      "data": {
+        "text": "**Paul von Hindenburg**\nGerman field marshal. Victor at Tannenberg and later president of Weimar Germany.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-ludendorff": {
+      "id": "pp-ludendorff",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 743.5
+      },
+      "data": {
+        "text": "**Erich Ludendorff**\nGerman general and de facto military dictator from 1916. He demanded the 1918 armistice.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-joffre": {
+      "id": "pp-joffre",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 764.0
+      },
+      "data": {
+        "text": "**Joseph Joffre**\nFrench commander at the Marne. He was replaced after costly failures.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-foch": {
+      "id": "pp-foch",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 802.5
+      },
+      "data": {
+        "text": "**Ferdinand Foch**\nFrench marshal and Allied supreme commander in 1918. He accepted the German armistice.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-petain": {
+      "id": "pp-petain",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 855.0
+      },
+      "data": {
+        "text": "**Philippe Petain**\nFrench general who defended Verdun. He became a national hero and later led Vichy France.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-nivelle": {
+      "id": "pp-nivelle",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 875.5
+      },
+      "data": {
+        "text": "**Robert Nivelle**\nFrench commander whose 1917 offensive failed and caused mutinies.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-haig": {
+      "id": "pp-haig",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 914.0
+      },
+      "data": {
+        "text": "**Douglas Haig**\nBritish commander on the western front. He directed the Somme, Passchendaele and the Hundred Days.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-french": {
+      "id": "pp-french",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 966.5
+      },
+      "data": {
+        "text": "**John French**\nFirst commander of the British Expeditionary Force. He was replaced in 1915.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-kitchener": {
+      "id": "pp-kitchener",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 987.0
+      },
+      "data": {
+        "text": "**Horatio Kitchener**\nBritish war minister. He raised the volunteer 'New Army' and was killed when his ship sank in 1916.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-cadorna": {
+      "id": "pp-cadorna",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1025.5
+      },
+      "data": {
+        "text": "**Luigi Cadorna**\nItalian commander at the Isonzo. He was dismissed after Caporetto.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-conrad": {
+      "id": "pp-conrad",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1078.0
+      },
+      "data": {
+        "text": "**Franz Conrad von Hotzendorf**\nAustro-Hungarian chief of staff. His strategies contributed to early disasters.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-brusilov": {
+      "id": "pp-brusilov",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1098.5
+      },
+      "data": {
+        "text": "**Aleksei Brusilov**\nRussian general who led the 1916 offensive. He later served the provisional government.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-samsonov": {
+      "id": "pp-samsonov",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1137.0
+      },
+      "data": {
+        "text": "**Alexander Samsonov**\nRussian general destroyed at Tannenberg. He committed suicide.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-rennenkampf": {
+      "id": "pp-rennenkampf",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1189.5
+      },
+      "data": {
+        "text": "**Paul von Rennenkampf**\nRussian general in East Prussia. His failure to support Samsonov contributed to Tannenberg.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-pershing": {
+      "id": "pp-pershing",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1210.0
+      },
+      "data": {
+        "text": "**John J. Pershing**\nCommander of the American Expeditionary Forces. He insisted on an independent US army.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-allenby": {
+      "id": "pp-allenby",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1228.0
+      },
+      "data": {
+        "text": "**Edmund Allenby**\nBritish commander in Palestine and Syria. He captured Jerusalem and defeated the Ottomans at Megiddo.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-mackensen": {
+      "id": "pp-mackensen",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1301.0
+      },
+      "data": {
+        "text": "**August von Mackensen**\nGerman field marshal. He led the Gorlice-Tarnow breakthrough and the conquest of Serbia and Romania.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-aces-head": {
+      "id": "pp-aces-head",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 1160,
+        "y": 1321.5
+      },
+      "data": {
+        "label": "Aces and specialists",
+        "color": "purple"
+      }
+    },
+    "pp-richthofen": {
+      "id": "pp-richthofen",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1339.5
+      },
+      "data": {
+        "text": "**Manfred von Richthofen**\nGermany's 'Red Baron' and top ace. Killed in April 1918.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-ball": {
+      "id": "pp-ball",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1394.5
+      },
+      "data": {
+        "text": "**Albert Ball**\nBritish fighter ace and Victoria Cross recipient. He was killed in 1917.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-guynemer": {
+      "id": "pp-guynemer",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1412.5
+      },
+      "data": {
+        "text": "**Georges Guynemer**\nFrench ace and national hero. He disappeared in action in 1917.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-bishop": {
+      "id": "pp-bishop",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1430.5
+      },
+      "data": {
+        "text": "**Billy Bishop**\nCanadian ace and Victoria Cross recipient. He became a propaganda hero.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-boelcke": {
+      "id": "pp-boelcke",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1503.5
+      },
+      "data": {
+        "text": "**Oswald Boelcke**\nGerman fighter tactician and mentor to Richthofen. He was killed in 1916.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-cavell": {
+      "id": "pp-cavell",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1506.0
+      },
+      "data": {
+        "text": "**Edith Cavell**\nBritish nurse executed by Germany in 1915 for helping prisoners escape. Her death became a propaganda symbol.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-mata": {
+      "id": "pp-mata",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1542.0
+      },
+      "data": {
+        "text": "**Mata Hari**\nDutch dancer and alleged spy executed by France in 1917. Her case became a legend.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-lawrence": {
+      "id": "pp-lawrence",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1615.0
+      },
+      "data": {
+        "text": "**T. E. Lawrence**\nBritish officer with the Arab Revolt. He became known as Lawrence of Arabia.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-writers-head": {
+      "id": "pp-writers-head",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 1160,
+        "y": 1617.5
+      },
+      "data": {
+        "label": "Writers and witnesses",
+        "color": "purple"
+      }
+    },
+    "pp-owen": {
+      "id": "pp-owen",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1653.5
+      },
+      "data": {
+        "text": "**Wilfred Owen**\nBritish war poet. His poems about gas and trench warfare became central to anti-war memory. He was killed in 1918.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-sassoon": {
+      "id": "pp-sassoon",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1690.5
+      },
+      "data": {
+        "text": "**Siegfried Sassoon**\nBritish officer and poet. He protested against the war and wrote about its horror.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-remarque": {
+      "id": "pp-remarque",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1726.5
+      },
+      "data": {
+        "text": "**Erich Maria Remarque**\nGerman novelist and author of 'All Quiet on the Western Front'. His book was banned by the Nazis.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-graves": {
+      "id": "pp-graves",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1765.0
+      },
+      "data": {
+        "text": "**Robert Graves**\nBritish poet and memoirist. His 'Goodbye to All That' described the war and its aftermath.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-junger": {
+      "id": "pp-junger",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1802.0
+      },
+      "data": {
+        "text": "**Ernst Junger**\nGerman writer and officer. His memoir 'Storm of Steel' glorified combat and influenced militarist culture.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-barbusse": {
+      "id": "pp-barbusse",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1838.0
+      },
+      "data": {
+        "text": "**Henri Barbusse**\nFrench writer and author of 'Under Fire'. He became a pacifist and communist.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-hemingway": {
+      "id": "pp-hemingway",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1876.5
+      },
+      "data": {
+        "text": "**Ernest Hemingway**\nAmerican writer and ambulance driver in Italy. His war experiences shaped his fiction.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-forces": {
+      "id": "b-forces",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1481.5
+      },
+      "data": {
+        "label": "Groups & forces",
+        "color": "green"
+      }
+    },
+    "b-forces-desc": {
+      "id": "b-forces-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1536.5
+      },
+      "data": {
+        "text": "The alliances, armies, corps and services that fought the war.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-forces-intro": {
+      "id": "b-forces-intro",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Who fought**\nThe war was fought by mass conscript armies, colonial forces, navies, air services and relief organizations. The alliances were complex and changed over time.",
+        "color": "green"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "fo-allies": {
+      "id": "fo-allies",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Allies**\nBritain, France, Russia, Italy, Serbia, Belgium, Japan, Romania, Greece, Portugal, the United States and others. The alliance expanded as the war continued.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fo-central": {
+      "id": "fo-central",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Central Powers**\nGermany, Austria-Hungary, the Ottoman Empire and Bulgaria. They were linked by geography and military agreements, not a single command.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fo-british": {
+      "id": "fo-british",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**British Army**\nA small professional force in 1914 expanded into a mass conscript army. It fought on the western front, in the Middle East, Africa and Italy.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fo-french": {
+      "id": "fo-french",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**French Army**\nThe main Allied army in the west. It suffered enormous casualties and mutinied in 1917 before recovering.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fo-german": {
+      "id": "fo-german",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**German Army**\nThe strongest land army in Europe. It used stormtroop tactics and heavy artillery but was worn down by attrition.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fo-austria": {
+      "id": "fo-austria",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Austro-Hungarian Army**\nA multinational army weakened by ethnic divisions and supply shortages. It collapsed in 1918.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fo-ottoman": {
+      "id": "fo-ottoman",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Ottoman Army**\nFought in the Caucasus, Mesopotamia, Palestine and Gallipoli. It suffered from supply problems and desertion.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fo-russian": {
+      "id": "fo-russian",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Russian Army**\nHuge but poorly equipped and led. It suffered catastrophic losses and collapsed in revolution.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fo-italian": {
+      "id": "fo-italian",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Italian Army**\nFought Austria-Hungary in the Alps and on the Isonzo. It suffered high casualties and low morale.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fo-us": {
+      "id": "fo-us",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**American Expeditionary Forces**\nUS troops arrived in 1917-18 and helped turn the balance. They were fresh but inexperienced.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fo-anzac": {
+      "id": "fo-anzac",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**ANZAC**\nAustralian and New Zealand Army Corps. Fought at Gallipoli, on the western front and in the Middle East.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fo-canada": {
+      "id": "fo-canada",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Canadian Corps**\nCanadian divisions became elite assault troops, especially at Vimy Ridge and in the Hundred Days.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fo-india": {
+      "id": "fo-india",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**British Indian Army**\nOver a million Indian soldiers and laborers served the empire in Europe, Africa and the Middle East.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fo-colonial": {
+      "id": "fo-colonial",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Colonial troops**\nFrench North and West African troops, Senegalese, Moroccan, Algerian, Vietnamese and others fought in Europe and the Mediterranean.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fo-storm": {
+      "id": "fo-storm",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Stormtroopers**\nGerman elite infantry trained in infiltration and close combat. They achieved local breakthroughs in 1918.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fo-uboat": {
+      "id": "fo-uboat",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 732.0
+      },
+      "data": {
+        "text": "**U-boat service**\nGerman submarine crews fought a dangerous war. Many died in the Atlantic and North Sea.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fo-air": {
+      "id": "fo-air",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 732.0
+      },
+      "data": {
+        "text": "**Air services**\nThe Royal Flying Corps, French Air Service, German Luftstreitkrafte and others grew rapidly. Pilots' life expectancy was low.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fo-redcross": {
+      "id": "fo-redcross",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 752.5
+      },
+      "data": {
+        "text": "**Red Cross and relief**\nNeutral relief organizations treated wounded and prisoners and organized aid. Humanitarian work was dangerous and often overwhelmed.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fo-objectors": {
+      "id": "fo-objectors",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 843.5
+      },
+      "data": {
+        "text": "**Conscientious objectors**\nMen who refused military service on religious or political grounds faced imprisonment, abuse and hard labor.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fo-women": {
+      "id": "fo-women",
+      "areaId": "b-forces",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 864.0
+      },
+      "data": {
+        "text": "**Women's auxiliaries**\nNurses, drivers, telephonists and factory workers supported the armies. Their service expanded women's public roles.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-timeline": {
+      "id": "b-timeline",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1539.0
+      },
+      "data": {
+        "label": "Timeline 1914-1918",
+        "color": "yellow"
+      }
+    },
+    "b-timeline-desc": {
+      "id": "b-timeline-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1594.0
+      },
+      "data": {
+        "text": "The war year by year, from Sarajevo to the armistice.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-timeline-intro": {
+      "id": "b-timeline-intro",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Chronology**\nA fast spine through the war's main events and turning points.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "tl-1914": {
+      "id": "tl-1914",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 113.0
+      },
+      "data": {
+        "text": "**1914**\n- **28 Jun** Franz Ferdinand assassinated.\n- **Jul-Aug** July Crisis; Germany invades Belgium; Britain declares war.\n- **Sep** First Marne.\n- **Oct-Nov** First Ypres; trench war begins.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1915": {
+      "id": "tl-1915",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 113.0
+      },
+      "data": {
+        "text": "**1915**\n- **Apr-May** Second Ypres; gas used.\n- **Apr** Gallipoli landings.\n- **May** Italy enters the war.\n- **May** Lusitania sunk.\n- **Oct** Serbia invaded; Bulgaria joins Central Powers.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1916": {
+      "id": "tl-1916",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 113.0
+      },
+      "data": {
+        "text": "**1916**\n- **Feb-Dec** Verdun.\n- **May** Jutland.\n- **Jun** Brusilov Offensive.\n- **Jul-Nov** Somme.\n- **Sep** tanks first used.\n- **Dec** Lloyd George becomes British PM.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1917": {
+      "id": "tl-1917",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**1917**\n- **Feb/Mar** Russian February Revolution.\n- **Apr** US enters the war.\n- **Apr-May** French mutinies.\n- **Jul** Passchendaele begins.\n- **Oct** Caporetto; Russian October Revolution.\n- **Dec** Jerusalem captured.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1918": {
+      "id": "tl-1918",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**1918**\n- **Mar** Brest-Litovsk; German Spring Offensive.\n- **Jun-Jul** Belleau Wood; Second Marne.\n- **Aug** Amiens; Hundred Days.\n- **Sep** Bulgaria armistice.\n- **Oct** Ottoman armistice; Austria-Hungary collapses.\n- **11 Nov** Armistice.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1919": {
+      "id": "tl-1919",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**1919**\n- **Jan** Paris Peace Conference opens.\n- **Jun** Treaty of Versailles signed.\n- **Sep** Saint-Germain.\n- **Nov** Neuilly.\n- **1920** Trianon; League of Nations begins work.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    }
+  },
+  "edges": {},
+  "viewports": {}
+}

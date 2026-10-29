@@ -1,0 +1,5963 @@
+{
+  "app": "mindmap",
+  "version": 1,
+  "name": "French Revolution",
+  "nodes": {
+    "root-title": {
+      "id": "root-title",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "**French Revolution 1789-1799** - Liberty, Equality, Terror",
+        "color": "red"
+      }
+    },
+    "root-intro": {
+      "id": "root-intro",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 72
+      },
+      "data": {
+        "text": "**The revolution that remade France**\nFrom the crisis of the Ancien Regime and the Estates-General to the Bastille, the Republic, the Terror and Napoleon's rise. The map covers the politics, the wars, the factions, the people, the colonies, the role of women and the revolution's global legacy.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "root-howto": {
+      "id": "root-howto",
+      "areaId": "root",
+      "kind": "sticky",
+      "position": {
+        "x": 620,
+        "y": 0
+      },
+      "data": {
+        "text": "**How to read this map**\nEach branch opens into its own area. Click the number badge on a topic to go inside. Colours group related material: red for revolution and terror; cyan for politics, constitutions and the Directory; yellow for causes, economy and the timeline; orange for war, counterrevolution and society; purple for people, factions, women and slavery; green for documents, places and legacy.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "root-overview": {
+      "id": "root-overview",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 245
+      },
+      "data": {
+        "text": "**At a glance**\n- **1789** - Estates-General, Bastille, Declaration of Rights\n- **1791** - Flight to Varennes; constitutional monarchy\n- **1792** - War; August 10; Republic proclaimed\n- **1793** - Louis XVI executed; Terror begins\n- **1794** - Fall of Robespierre; Thermidor\n- **1795** - Directory established\n- **1796-97** - Napoleon's Italian campaign\n- **1798** - Egypt expedition; Second Coalition\n- **1799** - 18 Brumaire; Consulate\n- **1804** - Napoleonic Code and Empire",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "b-ancien": {
+      "id": "b-ancien",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 562.5
+      },
+      "data": {
+        "label": "Ancien Regime & causes",
+        "color": "yellow"
+      }
+    },
+    "b-ancien-desc": {
+      "id": "b-ancien-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 617.5
+      },
+      "data": {
+        "text": "Society, monarchy, privilege and the ideas that undermined the old order.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-ancien-intro": {
+      "id": "b-ancien-intro",
+      "areaId": "b-ancien",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The old regime**\nFrance was an absolute monarchy divided into privileged orders and a vast Third Estate. Fiscal crisis, Enlightenment criticism, food shortages and the American example made revolution possible.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "ar-society": {
+      "id": "ar-society",
+      "areaId": "b-ancien",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Society of orders**\nFrance was divided into the clergy (First Estate), nobility (Second Estate) and everyone else (Third Estate). Rights and taxes depended on birth and status.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-clergy": {
+      "id": "ar-clergy",
+      "areaId": "b-ancien",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**First Estate**\nThe Catholic Church owned about 10% of the land and collected the tithe. Some clergy were wealthy nobles; many parish priests were poor.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-nobility": {
+      "id": "ar-nobility",
+      "areaId": "b-ancien",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Second Estate**\nNobles held privileges, offices and seigneurial rights. Many were courtiers at Versailles; others were provincial and poorer.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-third": {
+      "id": "ar-third",
+      "areaId": "b-ancien",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Third Estate**\nAbout 98% of the population: peasants, artisans, workers, merchants, lawyers and the bourgeoisie. It had few political rights and carried most taxes.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-peasants": {
+      "id": "ar-peasants",
+      "areaId": "b-ancien",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Peasants**\nMost French people were peasants. They owed seigneurial dues, tithes and royal taxes, and depended on harvests and common land.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-bourgeoisie": {
+      "id": "ar-bourgeoisie",
+      "areaId": "b-ancien",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Bourgeoisie**\nLawyers, merchants, officials and professionals were educated and prosperous but excluded from noble privilege. They became revolutionary leaders.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-workers": {
+      "id": "ar-workers",
+      "areaId": "b-ancien",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Urban workers**\nArtisans, journeymen and laborers faced food prices, guild rules and insecure work. Paris was a volatile political center.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-monarchy": {
+      "id": "ar-monarchy",
+      "areaId": "b-ancien",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Absolute monarchy**\nLouis XVI claimed divine right and ruled through ministers, intendants and courts. The monarchy was reform-resistant and financially weak.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-louis": {
+      "id": "ar-louis",
+      "areaId": "b-ancien",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Louis XVI**\nKing from 1774. Well-meaning but indecisive, he failed to reform the finances or manage the revolution. He was executed in 1793.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-marie": {
+      "id": "ar-marie",
+      "areaId": "b-ancien",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Marie Antoinette**\nQueen and symbol of royal extravagance. Her Austrian origins and supposed frivolity made her a target of gossip and hatred.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-privilege": {
+      "id": "ar-privilege",
+      "areaId": "b-ancien",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Privilege and taxation**\nNobles and clergy were largely exempt from the taille and other taxes. The fiscal system was unequal and inefficient.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-seigneur": {
+      "id": "ar-seigneur",
+      "areaId": "b-ancien",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Seigneurial system**\nPeasants owed dues, labor and monopolies to lords. These obligations fueled rural resentment and the August Decrees.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-church": {
+      "id": "ar-church",
+      "areaId": "b-ancien",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Gallican Church**\nThe French church was Catholic but had special liberties from Rome. The state controlled appointments and church property.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-enlight": {
+      "id": "ar-enlight",
+      "areaId": "b-ancien",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Enlightenment**\nVoltaire attacked intolerance, Montesquieu analyzed laws and Rousseau celebrated popular sovereignty. Their ideas circulated in salons and print.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-encyclopedie": {
+      "id": "ar-encyclopedie",
+      "areaId": "b-ancien",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Encyclopedie**\nDiderot and d'Alembert's great encyclopedia spread critical knowledge, science and political debate.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-american": {
+      "id": "ar-american",
+      "areaId": "b-ancien",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 752.5
+      },
+      "data": {
+        "text": "**American Revolution**\nFrench aid to the American colonies weakened the treasury and showed that a republic could defeat a monarchy.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-censorship": {
+      "id": "ar-censorship",
+      "areaId": "b-ancien",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Censorship and lettres de cachet**\nThe monarchy censored books and could imprison people without trial. These practices became symbols of arbitrary power.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-food": {
+      "id": "ar-food",
+      "areaId": "b-ancien",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 793.5
+      },
+      "data": {
+        "text": "**Food supply**\nBread was the staple of the poor. Harvest failures, price rises and speculation could turn hunger into political crisis.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-regions": {
+      "id": "ar-regions",
+      "areaId": "b-ancien",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 864.0
+      },
+      "data": {
+        "text": "**Regional diversity**\nFrance had many languages, customs and legal systems. The revolution tried to create a unified nation and standardized administration.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-crisis": {
+      "id": "b-crisis",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 562.5
+      },
+      "data": {
+        "label": "Financial crisis & reform",
+        "color": "yellow"
+      }
+    },
+    "b-crisis-desc": {
+      "id": "b-crisis-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 617.5
+      },
+      "data": {
+        "text": "Debt, ministers, the Assembly of Notables and the calling of the Estates-General.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-crisis-intro": {
+      "id": "b-crisis-intro",
+      "areaId": "b-crisis",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The fiscal crisis**\nWar debt and an unfair tax system forced the monarchy to seek new revenues. Reform attempts failed, and the king called the Estates-General for the first time since 1614.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "fc-debt": {
+      "id": "fc-debt",
+      "areaId": "b-crisis",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Debt**\nFrench support for the American Revolution and earlier wars left a huge debt. Interest consumed a large share of the budget.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-turgot": {
+      "id": "fc-turgot",
+      "areaId": "b-crisis",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Turgot**\nFinance minister 1774-76. He tried to cut spending and free trade but was dismissed by nobles and court interests.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-necker": {
+      "id": "fc-necker",
+      "areaId": "b-crisis",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Jacques Necker**\nFinance minister and banker. He published the royal accounts, borrowed heavily and was dismissed in 1781, then recalled in 1788.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-calonne": {
+      "id": "fc-calonne",
+      "areaId": "b-crisis",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Calonne**\nFinance minister 1783-87. He proposed a land tax and provincial assemblies but was dismissed after the Assembly of Notables resisted.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-notables": {
+      "id": "fc-notables",
+      "areaId": "b-crisis",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Assembly of Notables (1787)**\nA hand-picked assembly refused to approve new taxes and demanded the Estates-General. It exposed the monarchy's isolation.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-brienne": {
+      "id": "fc-brienne",
+      "areaId": "b-crisis",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Lomenie de Brienne**\nArchbishop and finance minister. His reforms failed, and the parlements resisted royal edicts.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-parlements": {
+      "id": "fc-parlements",
+      "areaId": "b-crisis",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Parlements**\nLaw courts that registered royal edicts. They claimed the right to reject unconstitutional laws and became a focus of opposition.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-revolt": {
+      "id": "fc-revolt",
+      "areaId": "b-crisis",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Revolt of the nobility**\nNobles and parlements resisted taxation and demanded representative institutions. Their revolt opened the way to revolution.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-harvest": {
+      "id": "fc-harvest",
+      "areaId": "b-crisis",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Harvest crisis (1788)**\nA poor harvest and harsh winter raised bread prices. Hunger and unemployment inflamed Paris and the countryside.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-estates": {
+      "id": "fc-estates",
+      "areaId": "b-crisis",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Calling the Estates-General**\nLouis called the Estates-General for May 1789. The last meeting had been in 1614.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-cahiers": {
+      "id": "fc-cahiers",
+      "areaId": "b-crisis",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Cahiers de doleances**\nVoters drew up lists of grievances. They demanded fair taxes, legal equality, representative government and reform of privileges.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-sieyes": {
+      "id": "fc-sieyes",
+      "areaId": "b-crisis",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Sieyes: What is the Third Estate?**\nAbbe Sieyes argued that the Third Estate was the nation and should have political power. The pamphlet became a revolutionary manifesto.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-doubling": {
+      "id": "fc-doubling",
+      "areaId": "b-crisis",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Doubling the Third Estate**\nThe king allowed the Third Estate twice as many deputies but left the voting method undecided. The dispute over voting by order or by head dominated the Estates-General.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-reveillon": {
+      "id": "fc-reveillon",
+      "areaId": "b-crisis",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Reveillon riots (April 1789)**\nA rumour about wage cuts sparked riots in Paris. Troops restored order, and tension grew before the Estates-General met.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-estates": {
+      "id": "b-estates",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 562.5
+      },
+      "data": {
+        "label": "Estates-General & National Assembly",
+        "color": "red"
+      }
+    },
+    "b-estates-desc": {
+      "id": "b-estates-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 617.5
+      },
+      "data": {
+        "text": "Versailles, the Tennis Court Oath and the birth of the National Assembly.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-estates-intro": {
+      "id": "b-estates-intro",
+      "areaId": "b-estates",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The Estates-General**\nThe deputies arrived at Versailles in 1789. The Third Estate broke with the old order, declared itself the National Assembly and challenged the king's authority.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "eg-opening": {
+      "id": "eg-opening",
+      "areaId": "b-estates",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Opening (5 May 1789)**\nThe Estates-General met at Versailles. The king and ministers spoke, but the Third Estate demanded a joint assembly and voting by head.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eg-third": {
+      "id": "eg-third",
+      "areaId": "b-estates",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Third Estate**\nIts deputies were mostly lawyers and officials. They saw themselves as representing the nation, not a separate order.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eg-deadlock": {
+      "id": "eg-deadlock",
+      "areaId": "b-estates",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Deadlock**\nThe privileged orders insisted on voting by order, which would let the clergy and nobility outvote the Third Estate. The Third Estate refused.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eg-national": {
+      "id": "eg-national",
+      "areaId": "b-estates",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**National Assembly (17 June 1789)**\nThe Third Estate declared itself the National Assembly and invited the other orders to join. It claimed sovereign authority in the name of the nation.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eg-tennis": {
+      "id": "eg-tennis",
+      "areaId": "b-estates",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Tennis Court Oath (20 June 1789)**\nThe deputies swore not to separate until France had a constitution. The oath was a direct challenge to royal authority.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eg-royal": {
+      "id": "eg-royal",
+      "areaId": "b-estates",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Royal session (23 June)**\nLouis offered reforms but insisted on separate orders. Mirabeau replied that the deputies were there by the will of the people.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eg-defect": {
+      "id": "eg-defect",
+      "areaId": "b-estates",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Defections**\nClergy and some nobles joined the National Assembly. On 27 June the king recognized the Assembly, but troops gathered around Paris.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eg-necker": {
+      "id": "eg-necker",
+      "areaId": "b-estates",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Necker dismissed (11 July)**\nThe king dismissed the popular finance minister. News of the dismissal helped trigger the Paris uprising.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eg-bastille": {
+      "id": "eg-bastille",
+      "areaId": "b-estates",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Bastille (14 July 1789)**\nParisians seized the fortress and arms depot. The fall of the Bastille became the symbol of the revolution.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eg-municipal": {
+      "id": "eg-municipal",
+      "areaId": "b-estates",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Municipal revolution**\nParis created a commune and National Guard. Similar municipal revolutions spread across France.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eg-lafayette": {
+      "id": "eg-lafayette",
+      "areaId": "b-estates",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Lafayette**\nThe Marquis de Lafayette became commander of the National Guard. He symbolized the alliance of nobility and revolution.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eg-tricolor": {
+      "id": "eg-tricolor",
+      "areaId": "b-estates",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Tricolor**\nThe blue, white and red cockade combined Paris and royal colors. It became the flag of the revolution and later France.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-1789": {
+      "id": "b-1789",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 722.5
+      },
+      "data": {
+        "label": "Revolution 1789",
+        "color": "red"
+      }
+    },
+    "b-1789-desc": {
+      "id": "b-1789-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 777.5
+      },
+      "data": {
+        "text": "The Bastille, the August Decrees, the Declaration and the march on Versailles.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-1789-intro": {
+      "id": "b-1789-intro",
+      "areaId": "b-1789",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The revolution of 1789**\nIn a few months the deputies abolished feudal privilege, declared universal rights and brought the royal family to Paris. The old order was dismantled.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "r89-bastille": {
+      "id": "r89-bastille",
+      "areaId": "b-1789",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Fall of the Bastille**\nThe fortress fell on 14 July 1789. Its capture gave the revolution military confidence and a powerful symbol.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r89-greatfear": {
+      "id": "r89-greatfear",
+      "areaId": "b-1789",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**The Great Fear**\nRumours of aristocratic plots and brigands spread through the countryside. Peasants attacked chateaux and burned feudal records.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r89-august": {
+      "id": "r89-august",
+      "areaId": "b-1789",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**August Decrees (4-11 August 1789)**\nThe Assembly abolished feudal privileges, tithes and seigneurial dues. The old social order was legally destroyed.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r89-declaration": {
+      "id": "r89-declaration",
+      "areaId": "b-1789",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Declaration of the Rights of Man (26 August 1789)**\nDeclared liberty, equality, sovereignty of the nation, due process and freedom of opinion. It became the founding statement of the revolution.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r89-rights": {
+      "id": "r89-rights",
+      "areaId": "b-1789",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Rights and limits**\nThe Declaration protected property and law but excluded women and enslaved people. Its universal language was used later by excluded groups.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r89-versailles": {
+      "id": "r89-versailles",
+      "areaId": "b-1789",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**March on Versailles (5-6 October 1789)**\nWomen and National Guards marched to Versailles demanding bread and the king. The royal family was forced to move to Paris.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r89-paris": {
+      "id": "r89-paris",
+      "areaId": "b-1789",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Paris as capital**\nThe king and Assembly moved to Paris. The revolution now depended on the Paris crowd and its sections.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r89-church": {
+      "id": "r89-church",
+      "areaId": "b-1789",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Church property nationalized (November 1789)**\nThe Assembly seized church lands to pay the debt. The lands were sold and became a source of conflict.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r89-assignats": {
+      "id": "r89-assignats",
+      "areaId": "b-1789",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Assignats**\nPaper money backed by church lands was issued. Inflation later undermined the currency and daily life.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r89-departments": {
+      "id": "r89-departments",
+      "areaId": "b-1789",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Departments**\nFrance was divided into uniform departments, districts and cantons. The old provinces and judicial divisions were replaced.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r89-judicial": {
+      "id": "r89-judicial",
+      "areaId": "b-1789",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Judicial reform**\nJudges became elected, torture was abolished and a uniform legal system was introduced. The revolution attacked arbitrary justice.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r89-clubs": {
+      "id": "r89-clubs",
+      "areaId": "b-1789",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Political clubs**\nThe Jacobin Club and the Cordeliers Club became centers of debate. Newspapers and pamphlets politicized the public.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r89-emigres": {
+      "id": "r89-emigres",
+      "areaId": "b-1789",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Emigres**\nNobles and clergy began to flee France. They gathered abroad and plotted counterrevolution.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r89-symbols": {
+      "id": "r89-symbols",
+      "areaId": "b-1789",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Symbols**\nLiberty trees, cockades, altars of the fatherland and festivals spread revolutionary identity across France.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-1790": {
+      "id": "b-1790",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 722.5
+      },
+      "data": {
+        "label": "Revolution 1790-1791",
+        "color": "cyan"
+      }
+    },
+    "b-1790-desc": {
+      "id": "b-1790-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 777.5
+      },
+      "data": {
+        "text": "Constitutional monarchy, the Civil Constitution and the flight to Varennes.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-1790-intro": {
+      "id": "b-1790-intro",
+      "areaId": "b-1790",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The constitutional monarchy**\nThe Assembly tried to build a new order around a constitutional king. The church oath, the queen's plotting and the king's escape attempt destroyed trust.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "r90-civil": {
+      "id": "r90-civil",
+      "areaId": "b-1790",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Civil Constitution of the Clergy (July 1790)**\nThe state reorganized the church, made clergy salaried officials and required an oath to the constitution. Many clergy refused, creating a religious schism.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r90-refractory": {
+      "id": "r90-refractory",
+      "areaId": "b-1790",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Refractory clergy**\nPriests who refused the oath became enemies of the revolution in the eyes of officials. They became leaders of counterrevolution.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r90-federation": {
+      "id": "r90-federation",
+      "areaId": "b-1790",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Federation Festival (14 July 1790)**\nRepresentatives from across France celebrated national unity. The festival symbolized the ideal of a united constitutional monarchy.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r90-nobility": {
+      "id": "r90-nobility",
+      "areaId": "b-1790",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Abolition of nobility (June 1790)**\nTitles and hereditary nobility were abolished. Equality before the law became official policy.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r90-nancy": {
+      "id": "r90-nancy",
+      "areaId": "b-1790",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Nancy mutiny (August 1790)**\nSoldiers rebelled over pay and conditions. The Assembly suppressed the mutiny, revealing tensions in the army.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r90-tax": {
+      "id": "r90-tax",
+      "areaId": "b-1790",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Tax reform**\nThe old tax system was replaced by uniform land and property taxes. Collection remained difficult and unpopular.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r90-assignats": {
+      "id": "r90-assignats",
+      "areaId": "b-1790",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Assignats and inflation**\nPaper money circulated widely. Confidence fell as more notes were printed.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r90-louis": {
+      "id": "r90-louis",
+      "areaId": "b-1790",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Louis's resistance**\nThe king secretly opposed the revolution and corresponded with foreign powers. His double game undermined the constitutional monarchy.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r90-mirabeau": {
+      "id": "r90-mirabeau",
+      "areaId": "b-1790",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Mirabeau**\nA brilliant orator who tried to bridge the king and the revolution. He died in April 1791 and was later exposed as a secret royal adviser.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-1791": {
+      "id": "b-1791",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 722.5
+      },
+      "data": {
+        "label": "Flight, republic & war 1791-1792",
+        "color": "red"
+      }
+    },
+    "b-1791-desc": {
+      "id": "b-1791-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 777.5
+      },
+      "data": {
+        "text": "Varennes, the Legislative Assembly and the coming of war.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-1791-intro": {
+      "id": "b-1791-intro",
+      "areaId": "b-1791",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The crisis of 1791-92**\nThe king's flight destroyed trust, the republic became imaginable and war with Austria and Prussia radicalized the revolution.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "r91-varennes": {
+      "id": "r91-varennes",
+      "areaId": "b-1791",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Flight to Varennes (June 1791)**\nLouis and Marie Antoinette tried to escape to the Austrian border. They were recognized and returned to Paris, destroying the myth of a willing king.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r91-champ": {
+      "id": "r91-champ",
+      "areaId": "b-1791",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Champ de Mars massacre (July 1791)**\nThe National Guard fired on a crowd demanding the king's removal. The repression split the revolutionary movement.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r91-constitution": {
+      "id": "r91-constitution",
+      "areaId": "b-1791",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Constitution of 1791**\nCreated a constitutional monarchy with a Legislative Assembly, elected judges and a limited franchise. The king retained a suspensive veto.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r91-legislative": {
+      "id": "r91-legislative",
+      "areaId": "b-1791",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Legislative Assembly (October 1791)**\nNew deputies included Brissotins, Feuillants and Jacobins. The constitution proved unworkable.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r91-pillnitz": {
+      "id": "r91-pillnitz",
+      "areaId": "b-1791",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Declaration of Pillnitz (August 1791)**\nAustria and Prussia threatened intervention to restore the French monarchy. The threat helped radicalize French politics.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r91-emigres": {
+      "id": "r91-emigres",
+      "areaId": "b-1791",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Emigres and the princes**\nThe king's brothers and noble exiles organized abroad. Their armies and plots fed fears of betrayal.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r91-haiti": {
+      "id": "r91-haiti",
+      "areaId": "b-1791",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Slave revolt in Saint-Domingue (August 1791)**\nEnslaved people rose against the colonial system. The revolt became the Haitian Revolution and forced France to confront slavery.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r91-gouges": {
+      "id": "r91-gouges",
+      "areaId": "b-1791",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Olympe de Gouges**\nHer Declaration of the Rights of Woman (1791) demanded equality for women. She was executed in 1793.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "r91-petition": {
+      "id": "r91-petition",
+      "areaId": "b-1791",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Women's petition**\nWomen petitioned for the right to bear arms and participate in the revolution. Their demands were mostly ignored.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-legislative": {
+      "id": "b-legislative",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 862.0
+      },
+      "data": {
+        "label": "Legislative Assembly & war",
+        "color": "red"
+      }
+    },
+    "b-legislative-desc": {
+      "id": "b-legislative-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 917.0
+      },
+      "data": {
+        "text": "War, the Brunswick Manifesto, August 10 and Valmy.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-legislative-intro": {
+      "id": "b-legislative-intro",
+      "areaId": "b-legislative",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**War and the fall of the monarchy**\nThe Legislative Assembly declared war on Austria in 1792. Military crisis, royal betrayal and popular insurrection ended the monarchy.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "la-war": {
+      "id": "la-war",
+      "areaId": "b-legislative",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Declaration of war (20 April 1792)**\nFrance declared war on Austria. Prussia joined the coalition, and the revolutionary wars began.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-brissot": {
+      "id": "la-brissot",
+      "areaId": "b-legislative",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Brissotins**\nA faction favoring war to spread revolution and expose royal treachery. They became known as Girondins.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-brunswick": {
+      "id": "la-brunswick",
+      "areaId": "b-legislative",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Brunswick Manifesto (July 1792)**\nThe Prussian commander threatened to punish Paris if the royal family was harmed. The manifesto inflamed the city and helped radicalize the revolution.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-august10": {
+      "id": "la-august10",
+      "areaId": "b-legislative",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Storming of the Tuileries (10 August 1792)**\nInsurgents attacked the royal palace and suspended the king. The monarchy effectively fell.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-septmass": {
+      "id": "la-septmass",
+      "areaId": "b-legislative",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**September Massacres**\nCrowds killed prisoners in Paris fearing a royalist conspiracy. The massacres shocked moderates and strengthened the radicals.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-valmy": {
+      "id": "la-valmy",
+      "areaId": "b-legislative",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Battle of Valmy (20 September 1792)**\nFrench forces stopped the Prussian advance. The victory saved the revolution and boosted morale.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-republic": {
+      "id": "la-republic",
+      "areaId": "b-legislative",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Republic proclaimed (21 September 1792)**\nThe National Convention abolished the monarchy and declared France a republic.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-jemappes": {
+      "id": "la-jemappes",
+      "areaId": "b-legislative",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Jemappes (November 1792)**\nFrench armies defeated the Austrians and occupied the Austrian Netherlands. The war spread revolutionary ideas and French power.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-savoy": {
+      "id": "la-savoy",
+      "areaId": "b-legislative",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Savoy and Nice**\nFrench forces annexed Savoy and Nice, claiming natural borders and liberating oppressed peoples.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-dumouriez": {
+      "id": "la-dumouriez",
+      "areaId": "b-legislative",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**Dumouriez**\nFrench general who won at Valmy and Jemappes but later defected to the Austrians after defeat at Neerwinden.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-republic": {
+      "id": "b-republic",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 882.5
+      },
+      "data": {
+        "label": "Republic & regicide",
+        "color": "red"
+      }
+    },
+    "b-republic-desc": {
+      "id": "b-republic-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 937.5
+      },
+      "data": {
+        "text": "The Convention, the trial of Louis XVI and the crisis of 1793.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-republic-intro": {
+      "id": "b-republic-intro",
+      "areaId": "b-republic",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The Republic**\nThe National Convention governed France from 1792. It tried and executed the king, faced a widening war and turned to emergency dictatorship.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "rep-convention": {
+      "id": "rep-convention",
+      "areaId": "b-republic",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**National Convention (September 1792)**\nA new assembly elected by universal male suffrage. It was divided between Girondins and Montagnards.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rep-trial": {
+      "id": "rep-trial",
+      "areaId": "b-republic",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Trial of Louis XVI**\nThe king was tried for treason. The Convention voted narrowly for execution, and Louis was guillotined on 21 January 1793.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rep-execution": {
+      "id": "rep-execution",
+      "areaId": "b-republic",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Execution of Louis XVI**\nThe regicide shocked Europe and made compromise with the old monarchy impossible. It also deepened divisions within the revolution.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rep-war": {
+      "id": "rep-war",
+      "areaId": "b-republic",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**War expansion**\nFrance faced Austria, Prussia, Britain, Spain, the Netherlands and Sardinia. The First Coalition threatened invasion.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rep-neerwinden": {
+      "id": "rep-neerwinden",
+      "areaId": "b-republic",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Neerwinden (March 1793)**\nFrance was defeated and Dumouriez defected. The military crisis intensified demands for emergency measures.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rep-vendee": {
+      "id": "rep-vendee",
+      "areaId": "b-republic",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Vendee uprising (March 1793)**\nPeasants and royalists rebelled against conscription and the revolution. The Vendee war became one of the revolution's bloodiest conflicts.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rep-committee": {
+      "id": "rep-committee",
+      "areaId": "b-republic",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Committee of Public Safety (April 1793)**\nThe Convention created an emergency executive committee. It coordinated the war, police and economy.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rep-girondins": {
+      "id": "rep-girondins",
+      "areaId": "b-republic",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Fall of the Girondins (May-June 1793)**\nSans-culottes and Montagnards purged the Girondins from the Convention. The Jacobin dictatorship began.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rep-marat": {
+      "id": "rep-marat",
+      "areaId": "b-republic",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Marat assassinated (July 1793)**\nCharlotte Corday killed the radical journalist Marat. The murder was used to justify further repression.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rep-federal": {
+      "id": "rep-federal",
+      "areaId": "b-republic",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Federalist revolts**\nCities such as Lyon, Bordeaux and Toulon rebelled against Paris. The revolts threatened to split the republic.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rep-toulon": {
+      "id": "rep-toulon",
+      "areaId": "b-republic",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Toulon**\nRoyalists handed the port to the British. The siege and recapture made Napoleon Bonaparte's reputation.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rep-levy": {
+      "id": "rep-levy",
+      "areaId": "b-republic",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Levee en masse (August 1793)**\nThe nation was mobilized for total war. All citizens were called to defend the republic.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rep-suspects": {
+      "id": "rep-suspects",
+      "areaId": "b-republic",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Law of Suspects (September 1793)**\nAllowed arrest of anyone suspected of hostility to the revolution. It became the legal basis of the Terror.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rep-marie": {
+      "id": "rep-marie",
+      "areaId": "b-republic",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Execution of Marie Antoinette (October 1793)**\nThe queen was tried and guillotined. Her death symbolized the destruction of the old monarchy.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-terror": {
+      "id": "b-terror",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 882.5
+      },
+      "data": {
+        "label": "Terror & Jacobin rule",
+        "color": "red"
+      }
+    },
+    "b-terror-desc": {
+      "id": "b-terror-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 937.5
+      },
+      "data": {
+        "text": "The Committee, the Revolutionary Tribunal, mass executions and Thermidor.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-terror-intro": {
+      "id": "b-terror-intro",
+      "areaId": "b-terror",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The Terror**\nFrom 1793 to 1794 the revolutionary government used terror, conscription and price controls to save the republic. The methods became an instrument of political power.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "tr-tribunal": {
+      "id": "tr-tribunal",
+      "areaId": "b-terror",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Revolutionary Tribunal**\nCreated in 1793 to try political crimes. Its procedures became faster and more lethal during the Great Terror.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-committee": {
+      "id": "tr-committee",
+      "areaId": "b-terror",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Committee of Public Safety**\nLed by Robespierre, Saint-Just, Couthon and others. It controlled the war, police, economy and representatives on mission.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-robespierre": {
+      "id": "tr-robespierre",
+      "areaId": "b-terror",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Robespierre**\nJacobin leader and dominant figure of the Terror. He believed virtue and terror were inseparable in a republic.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-saintjust": {
+      "id": "tr-saintjust",
+      "areaId": "b-terror",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Saint-Just**\nYoung radical and Committee member. He organized military discipline and repression, and was executed with Robespierre.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-couthon": {
+      "id": "tr-couthon",
+      "areaId": "b-terror",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Couthon**\nLawyer and Committee member. He helped draft the Law of 22 Prairial, which accelerated executions.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-representatives": {
+      "id": "tr-representatives",
+      "areaId": "b-terror",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Representatives on mission**\nDeputies sent to provinces with unlimited powers. Some, like Carrier and Collot d'Herbois, organized mass killings.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-carrier": {
+      "id": "tr-carrier",
+      "areaId": "b-terror",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Carrier and Nantes**\nCarrier ordered mass drownings in the Loire and mass executions in Nantes. He was tried and executed after Thermidor.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-lyon": {
+      "id": "tr-lyon",
+      "areaId": "b-terror",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Lyon**\nThe federalist revolt was crushed. Collot d'Herbois and Fouche organized mass executions and destruction.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-vendee": {
+      "id": "tr-vendee",
+      "areaId": "b-terror",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Vendee**\nRepublican forces used scorched-earth tactics and mass killings against rebels. The conflict killed a large share of the region's population.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-hebert": {
+      "id": "tr-hebert",
+      "areaId": "b-terror",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Hebertists**\nRadical Cordeliers led by Jacques Hebert. They demanded dechristianization and harsh measures; they were executed in March 1794.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-danton": {
+      "id": "tr-danton",
+      "areaId": "b-terror",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Dantonists**\nDanton and Desmoulins urged moderation and an end to the Terror. They were executed in April 1794.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-dechrist": {
+      "id": "tr-dechrist",
+      "areaId": "b-terror",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Dechristianization**\nChurches were closed, priests persecuted and the Cult of Reason promoted. The campaign alienated many believers.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-maximum": {
+      "id": "tr-maximum",
+      "areaId": "b-terror",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**General Maximum**\nPrice controls on food and goods. They were meant to help the poor but caused shortages and black markets.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-purge": {
+      "id": "tr-purge",
+      "areaId": "b-terror",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Purges**\nThe Convention and committees purged rivals. Revolutionary factions destroyed one another, and fear paralyzed politics.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-supreme": {
+      "id": "tr-supreme",
+      "areaId": "b-terror",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Festival of the Supreme Being (June 1794)**\nRobespierre promoted a civic religion to replace both Catholicism and atheism. The festival increased suspicion of his ambition.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-fleurus": {
+      "id": "tr-fleurus",
+      "areaId": "b-terror",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 711.5
+      },
+      "data": {
+        "text": "**Battle of Fleurus (June 1794)**\nFrench victory secured Belgium and eased the military crisis. It reduced the need for emergency terror.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-prairial": {
+      "id": "tr-prairial",
+      "areaId": "b-terror",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 732.0
+      },
+      "data": {
+        "text": "**Law of 22 Prairial**\nMade it easier to convict suspects and sharply increased executions. It helped unite opponents against Robespierre.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-thermidor": {
+      "id": "tr-thermidor",
+      "areaId": "b-terror",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Thermidor (27 July 1794)**\nRobespierre and his allies were arrested and executed. The Terror ended, but the revolution continued.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tr-cost": {
+      "id": "tr-cost",
+      "areaId": "b-terror",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 823.0
+      },
+      "data": {
+        "text": "**Human cost**\nAbout 17,000 official executions and perhaps 40,000 deaths from repression, war and prison conditions. The Terror became a central symbol of revolutionary violence.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-factions": {
+      "id": "b-factions",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1001.5
+      },
+      "data": {
+        "label": "Factions & institutions",
+        "color": "purple"
+      }
+    },
+    "b-factions-desc": {
+      "id": "b-factions-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1056.5
+      },
+      "data": {
+        "text": "Jacobins, Girondins, sans-culottes and the machinery of revolutionary government.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-factions-intro": {
+      "id": "b-factions-intro",
+      "areaId": "b-factions",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Who was who**\nRevolutionary politics was organized through clubs, factions, sections and committees. Shifting alliances made and destroyed leaders.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "fa-jacobins": {
+      "id": "fa-jacobins",
+      "areaId": "b-factions",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Jacobins**\nThe largest revolutionary club. It became the base of the Montagnards and the Terror, then split after Thermidor.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fa-girondins": {
+      "id": "fa-girondins",
+      "areaId": "b-factions",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Girondins**\nA loose faction of Brissotins and provincial deputies. They favored war, federalism and moderation; they were purged in 1793.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fa-montagnards": {
+      "id": "fa-montagnards",
+      "areaId": "b-factions",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Montagnards**\nThe Mountain: radical Jacobin deputies in the Convention. They allied with the sans-culottes and dominated the Terror.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fa-cordeliers": {
+      "id": "fa-cordeliers",
+      "areaId": "b-factions",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Cordeliers**\nA radical club led by Danton, Marat and Desmoulins. It demanded direct democracy and harsh measures against enemies.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fa-feuillants": {
+      "id": "fa-feuillants",
+      "areaId": "b-factions",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Feuillants**\nConstitutional monarchists who wanted to preserve the 1791 settlement. They lost influence after the fall of the monarchy.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fa-sans": {
+      "id": "fa-sans",
+      "areaId": "b-factions",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Sans-culottes**\nUrban workers and artisans who demanded bread, price controls and direct democracy. They were a decisive force in 1792-93.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fa-enrages": {
+      "id": "fa-enrages",
+      "areaId": "b-factions",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Enrages**\nA radical faction led by Jacques Roux and Theophile Leclerc. They demanded stricter price controls and help for the poor.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fa-hebertists": {
+      "id": "fa-hebertists",
+      "areaId": "b-factions",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Hebertists**\nUltra-radicals around Jacques Hebert. They promoted dechristianization and were executed in 1794.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fa-dantonists": {
+      "id": "fa-dantonists",
+      "areaId": "b-factions",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Dantonists**\nModerates around Danton and Desmoulins who sought to end the Terror. They were executed in 1794.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fa-thermidorians": {
+      "id": "fa-thermidorians",
+      "areaId": "b-factions",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**Thermidorians**\nThe coalition that overthrew Robespierre. They ended the Terror but preserved the republic.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fa-emigres": {
+      "id": "fa-emigres",
+      "areaId": "b-factions",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**Emigres**\nNobles, clergy and royalists who fled France. They plotted counterrevolution and fought with foreign armies.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fa-refractory": {
+      "id": "fa-refractory",
+      "areaId": "b-factions",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Refractory clergy**\nPriests who refused the Civil Constitution oath. They became leaders of religious and royalist resistance.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fa-federalists": {
+      "id": "fa-federalists",
+      "areaId": "b-factions",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 579.5
+      },
+      "data": {
+        "text": "**Federalists**\nProvincial rebels who rejected Parisian centralization in 1793. Lyon, Bordeaux and Toulon rose against the Convention.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fa-chouans": {
+      "id": "fa-chouans",
+      "areaId": "b-factions",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 579.5
+      },
+      "data": {
+        "text": "**Chouans**\nRoyalist guerrillas in western France. They fought republican forces with local support.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fa-vendeens": {
+      "id": "fa-vendeens",
+      "areaId": "b-factions",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Vendeens**\nCounterrevolutionary peasants and nobles in the Vendee. Their uprising was crushed with massive violence.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fa-nationalguard": {
+      "id": "fa-nationalguard",
+      "areaId": "b-factions",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 691.0
+      },
+      "data": {
+        "text": "**National Guard**\nA citizen militia created in 1789. It protected the revolution, enforced order and later became a political force.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fa-commune": {
+      "id": "fa-commune",
+      "areaId": "b-factions",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 691.0
+      },
+      "data": {
+        "text": "**Paris Commune**\nThe city government of Paris. It became a radical center and pressured the Convention.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fa-committees": {
+      "id": "fa-committees",
+      "areaId": "b-factions",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 711.5
+      },
+      "data": {
+        "text": "**Committees**\nThe Committee of Public Safety and Committee of General Security coordinated war, police and repression.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fa-sections": {
+      "id": "fa-sections",
+      "areaId": "b-factions",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 802.5
+      },
+      "data": {
+        "text": "**Paris sections**\nNeighborhood assemblies mobilized sans-culottes, women and activists. They were the grass roots of revolutionary politics.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-thermidor": {
+      "id": "b-thermidor",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1022.0
+      },
+      "data": {
+        "label": "Thermidor & Directory",
+        "color": "cyan"
+      }
+    },
+    "b-thermidor-desc": {
+      "id": "b-thermidor-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1077.0
+      },
+      "data": {
+        "text": "The fall of Robespierre, the White Terror and the unstable Directory.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-thermidor-intro": {
+      "id": "b-thermidor-intro",
+      "areaId": "b-thermidor",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**After the Terror**\nThe Thermidorians ended the Terror but faced royalist and Jacobin opposition. The Directory governed from 1795 to 1799 through coups and force.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "th-thermidor": {
+      "id": "th-thermidor",
+      "areaId": "b-thermidor",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Thermidor 9 (27 July 1794)**\nThe Convention arrested Robespierre and his allies. They were executed the next day.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "th-whiteterror": {
+      "id": "th-whiteterror",
+      "areaId": "b-thermidor",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**White Terror**\nRoyalist and moderate violence targeted Jacobins and former terrorists. Revenge killings spread in the south and west.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "th-jacobin": {
+      "id": "th-jacobin",
+      "areaId": "b-thermidor",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Jacobin club closed**\nThe club was shut and Jacobin influence purged. Revolutionary politics shifted toward moderation.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "th-constitution": {
+      "id": "th-constitution",
+      "areaId": "b-thermidor",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Constitution of 1795**\nCreated a two-chamber legislature and a five-member Directory. It restricted the franchise and separated powers.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "th-directory": {
+      "id": "th-directory",
+      "areaId": "b-thermidor",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Directory**\nFive directors held executive power. They faced war, inflation, royalist plots and Jacobin unrest.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "th-vendemiaire": {
+      "id": "th-vendemiaire",
+      "areaId": "b-thermidor",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Vendemiaire (October 1795)**\nRoyalist uprising in Paris was crushed by Napoleon Bonaparte, who was then unknown.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "th-babeuf": {
+      "id": "th-babeuf",
+      "areaId": "b-thermidor",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Conspiracy of Equals (1796)**\nGracchus Babeuf and allies plotted a communist revolution. They were arrested and Babeuf was executed.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "th-fructidor": {
+      "id": "th-fructidor",
+      "areaId": "b-thermidor",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Fructidor coup (1797)**\nThe Directory purged royalist deputies with military support. The regime became dependent on the army.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "th-floreal": {
+      "id": "th-floreal",
+      "areaId": "b-thermidor",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Floreal coup (1798)**\nThe Directory annulled elections that had favored Jacobins and leftists.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "th-prairial": {
+      "id": "th-prairial",
+      "areaId": "b-thermidor",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Prairial coup (1799)**\nThe Directory purged its own opponents again. Its legitimacy eroded.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "th-war": {
+      "id": "th-war",
+      "areaId": "b-thermidor",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**War and finance**\nThe Directory relied on conquest and requisitions. Military victories kept the regime alive but strengthened generals.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "th-napoleon": {
+      "id": "th-napoleon",
+      "areaId": "b-thermidor",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Napoleon's rise**\nVictories in Italy and Egypt made Napoleon a political force. He returned in 1799 to seize power.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "th-brumaire": {
+      "id": "th-brumaire",
+      "areaId": "b-thermidor",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**18 Brumaire (9 November 1799)**\nNapoleon, Sieyes and Talleyrand overthrew the Directory and established the Consulate. The revolution's political phase ended.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-war": {
+      "id": "b-war",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1042.5
+      },
+      "data": {
+        "label": "Revolutionary wars",
+        "color": "orange"
+      }
+    },
+    "b-war-desc": {
+      "id": "b-war-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1097.5
+      },
+      "data": {
+        "text": "Coalitions, mass mobilization and the rise of Napoleon.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-war-intro": {
+      "id": "b-war-intro",
+      "areaId": "b-war",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**War and revolution**\nThe revolution fought Europe for a decade. War radicalized politics, spread revolutionary ideas and created the armies that Napoleon would lead.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "war-coalition1": {
+      "id": "war-coalition1",
+      "areaId": "b-war",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**First Coalition (1792-97)**\nAustria, Prussia, Britain, Spain, the Netherlands, Sardinia and others fought France. France survived and expanded.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "war-coalition2": {
+      "id": "war-coalition2",
+      "areaId": "b-war",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Second Coalition (1798-1801)**\nBritain, Austria, Russia, the Ottoman Empire and others attacked France. Napoleon's return helped save the regime.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "war-valmy": {
+      "id": "war-valmy",
+      "areaId": "b-war",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Valmy (1792)**\nFrench victory stopped the Prussian advance and gave the revolution confidence.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "war-jemappes": {
+      "id": "war-jemappes",
+      "areaId": "b-war",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Jemappes (1792)**\nFrance occupied the Austrian Netherlands and spread revolutionary rule.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "war-neerwinden": {
+      "id": "war-neerwinden",
+      "areaId": "b-war",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Neerwinden (1793)**\nFrench defeat and Dumouriez's defection led to crisis and the Terror.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "war-fleurus": {
+      "id": "war-fleurus",
+      "areaId": "b-war",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Fleurus (1794)**\nFrench victory secured Belgium and helped end the emergency.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "war-rhine": {
+      "id": "war-rhine",
+      "areaId": "b-war",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Rhine front**\nFrench armies fought across the Rhine and in Germany. Victories led to the creation of sister republics.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "war-italy": {
+      "id": "war-italy",
+      "areaId": "b-war",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Italy (1796-97)**\nNapoleon's campaign defeated Austria and created the Cisalpine Republic. His fame soared.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "war-egypt": {
+      "id": "war-egypt",
+      "areaId": "b-war",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Egypt (1798-1801)**\nNapoleon invaded Egypt to threaten Britain. The fleet was destroyed at the Nile, but the campaign boosted his legend.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "war-nile": {
+      "id": "war-nile",
+      "areaId": "b-war",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**Battle of the Nile**\nNelson destroyed the French fleet, stranding Napoleon's army in Egypt.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "war-zurich": {
+      "id": "war-zurich",
+      "areaId": "b-war",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Zurich (1799)**\nFrench victory helped save the republic from the Second Coalition.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "war-conscription": {
+      "id": "war-conscription",
+      "areaId": "b-war",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Conscription**\nMass conscription and the levee en masse created huge armies and total war.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "war-sister": {
+      "id": "war-sister",
+      "areaId": "b-war",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 579.5
+      },
+      "data": {
+        "text": "**Sister republics**\nBatavian, Helvetic, Cisalpine, Ligurian, Roman and Parthenopean republics were set up under French influence.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "war-generals": {
+      "id": "war-generals",
+      "areaId": "b-war",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Generals**\nJourdan, Hoche, Moreau, Kellermann, Bonaparte and others became political actors. Military success bred political ambition.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-counter": {
+      "id": "b-counter",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1161.5
+      },
+      "data": {
+        "label": "Counterrevolution & Vendee",
+        "color": "orange"
+      }
+    },
+    "b-counter-desc": {
+      "id": "b-counter-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1216.5
+      },
+      "data": {
+        "text": "Royalists, refractory clergy, federalist revolts and civil war.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-counter-intro": {
+      "id": "b-counter-intro",
+      "areaId": "b-counter",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Counterrevolution**\nThe revolution faced resistance from nobles, priests, peasants and cities. Civil war killed hundreds of thousands and shaped the Terror.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "cr-emigres": {
+      "id": "cr-emigres",
+      "areaId": "b-counter",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Emigres**\nNobles and royalists fled abroad and organized armies. The king's brothers claimed leadership of the counterrevolution.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-brunswick": {
+      "id": "cr-brunswick",
+      "areaId": "b-counter",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Foreign intervention**\nAustria, Prussia and Britain threatened to restore the monarchy. Their manifestos inflamed revolutionary patriotism.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-vendee": {
+      "id": "cr-vendee",
+      "areaId": "b-counter",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Vendee**\nPeasant and royalist revolt against conscription, church policy and Paris. It became a brutal civil war.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-chouans": {
+      "id": "cr-chouans",
+      "areaId": "b-counter",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Chouannerie**\nRoyalist guerrilla warfare in Brittany and western France. Local loyalties and religion fueled resistance.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-federal": {
+      "id": "cr-federal",
+      "areaId": "b-counter",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Federalist revolts**\nLyon, Bordeaux, Marseille and Toulon rebelled against Parisian radicalism in 1793.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-lyon": {
+      "id": "cr-lyon",
+      "areaId": "b-counter",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Lyon**\nThe city was besieged and punished after its revolt. Collot d'Herbois and Fouche organized mass repression.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-toulon": {
+      "id": "cr-toulon",
+      "areaId": "b-counter",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Toulon**\nRoyalists handed the port to Britain. Its recapture in 1793 made Napoleon's name.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-refractory": {
+      "id": "cr-refractory",
+      "areaId": "b-counter",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Refractory clergy**\nPriests who rejected the Civil Constitution became leaders of religious resistance and royalist networks.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-west": {
+      "id": "cr-west",
+      "areaId": "b-counter",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**West of France**\nBrittany, Normandy, Anjou and the Vendee saw some of the worst civil violence. Religion, conscription and local identity mattered.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-cost": {
+      "id": "cr-cost",
+      "areaId": "b-counter",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**Human cost**\nThe Vendee war and federalist revolts killed perhaps 200,000 or more. Both sides committed atrocities.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-whiteterror": {
+      "id": "cr-whiteterror",
+      "areaId": "b-counter",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**White Terror**\nAfter Thermidor, royalist violence targeted Jacobins. It showed that political violence outlasted the Terror.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-society": {
+      "id": "b-society",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1182.0
+      },
+      "data": {
+        "label": "Society, culture & religion",
+        "color": "orange"
+      }
+    },
+    "b-society-desc": {
+      "id": "b-society-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1237.0
+      },
+      "data": {
+        "text": "Dechristianization, the calendar, art, education and daily life.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-society-intro": {
+      "id": "b-society-intro",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**A new society**\nThe revolution tried to remake religion, time, education, language and culture. It abolished old institutions but also produced shortages, inflation and cultural conflict.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "soc-dechrist": {
+      "id": "soc-dechrist",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Dechristianization**\nChurches were closed, religious images destroyed and priests persecuted. The campaign was strongest in 1793-94.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "soc-reason": {
+      "id": "soc-reason",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Cult of Reason**\nAn atheistic civic religion promoted by radicals. It replaced Christian worship in some areas.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "soc-supreme": {
+      "id": "soc-supreme",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Cult of the Supreme Being**\nRobespierre's civic religion, intended to replace both Catholicism and atheism. It was celebrated at a huge festival in 1794.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "soc-calendar": {
+      "id": "soc-calendar",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Revolutionary calendar**\nA new calendar began on 22 September 1792, with ten-day weeks and renamed months. It was abolished by Napoleon in 1806.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "soc-education": {
+      "id": "soc-education",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Education**\nThe revolution promoted public schools, civic education and merit. Implementation was uneven and hampered by war.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "soc-press": {
+      "id": "soc-press",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Press and pamphlets**\nNewspapers, pamphlets and clubs created a vibrant public sphere. Censorship returned during the Terror.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "soc-art": {
+      "id": "soc-art",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Art**\nNeoclassical art celebrated civic virtue and revolution. David painted revolutionary martyrs and festivals.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "soc-music": {
+      "id": "soc-music",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Music**\nThe Marseillaise became the revolutionary anthem. Songs, hymns and festivals mobilized the public.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "soc-theater": {
+      "id": "soc-theater",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Theater**\nPolitical plays and spectacles spread revolutionary messages. Theater was both entertainment and propaganda.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "soc-fashion": {
+      "id": "soc-fashion",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Fashion**\nRevolutionary dress, cockades and short hair symbolized loyalty. Luxury and aristocratic style were suspect.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "soc-languages": {
+      "id": "soc-languages",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Languages**\nThe revolution promoted French over regional languages and dialects. Local identities were seen as obstacles to national unity.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "soc-food": {
+      "id": "soc-food",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Food and prices**\nBread shortages, inflation and speculation dominated daily life. The maximum tried to control prices.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "soc-assignats": {
+      "id": "soc-assignats",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Assignats**\nPaper money lost value, causing inflation and hardship. The Directory eventually abandoned it.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "soc-guilds": {
+      "id": "soc-guilds",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Guilds abolished**\nThe revolution ended guild privileges and proclaimed economic freedom. Workers lost old protections.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "soc-science": {
+      "id": "soc-science",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Science and measurement**\nThe metric system was created. Lavoisier reformed chemistry, and Condorcet promoted scientific education.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "soc-family": {
+      "id": "soc-family",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 711.5
+      },
+      "data": {
+        "text": "**Family law**\nDivorce, civil marriage and inheritance equality were introduced. Women gained some rights but not political equality.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "soc-daily": {
+      "id": "soc-daily",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 732.0
+      },
+      "data": {
+        "text": "**Daily life**\nFood queues, conscription, violence and inflation shaped everyday experience. Rural and urban life differed sharply.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-women": {
+      "id": "b-women",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1182.0
+      },
+      "data": {
+        "label": "Women & revolution",
+        "color": "purple"
+      }
+    },
+    "b-women-desc": {
+      "id": "b-women-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1237.0
+      },
+      "data": {
+        "text": "Political action, rights claims and exclusion.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-women-intro": {
+      "id": "b-women-intro",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Women in the revolution**\nWomen marched, organized, wrote and fought, but the revolution denied them political rights. Their demands exposed the limits of universal equality.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "wo-march": {
+      "id": "wo-march",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**March on Versailles (October 1789)**\nWomen led the march for bread and forced the royal family to Paris. Their action changed the revolution's direction.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wo-gouges": {
+      "id": "wo-gouges",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Olympe de Gouges**\nHer Declaration of the Rights of Woman (1791) demanded equality in law and politics. She was executed in 1793.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wo-clubs": {
+      "id": "wo-clubs",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Women's clubs**\nWomen formed political clubs and societies. The Convention banned them in 1793.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wo-theroigne": {
+      "id": "wo-theroigne",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Theroigne de Mericourt**\nRevolutionary activist and speaker. She was attacked by a crowd and later imprisoned; her fate symbolized women's vulnerability.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wo-roland": {
+      "id": "wo-roland",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Madame Roland**\nSalon hostess and political influence in the Girondin circle. She was executed in 1793.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wo-corday": {
+      "id": "wo-corday",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Charlotte Corday**\nAssassinated Marat in 1793, believing she was saving the revolution from tyranny. She was guillotined.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wo-stael": {
+      "id": "wo-stael",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Madame de Stael**\nWriter and political thinker. She criticized the revolution's excesses and Napoleon's despotism.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wo-sans": {
+      "id": "wo-sans",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Female sans-culottes**\nWorking women demanded bread, price controls and political voice. They were central to popular movements.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wo-divorce": {
+      "id": "wo-divorce",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Divorce and marriage**\nThe revolution legalized divorce and civil marriage. Women gained property and inheritance rights but not the vote.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wo-exclusion": {
+      "id": "wo-exclusion",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Exclusion from politics**\nWomen were denied citizenship rights and public office. The 1793 constitution and later Napoleonic Code reinforced male authority.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wo-legacy": {
+      "id": "wo-legacy",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Legacy**\nWomen's activism inspired later feminism, but the revolution's promise of equality remained incomplete.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-slavery": {
+      "id": "b-slavery",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1301.0
+      },
+      "data": {
+        "label": "Slavery & colonies",
+        "color": "purple"
+      }
+    },
+    "b-slavery-desc": {
+      "id": "b-slavery-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1356.0
+      },
+      "data": {
+        "text": "Saint-Domingue, abolition and the Haitian Revolution.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-slavery-intro": {
+      "id": "b-slavery-intro",
+      "areaId": "b-slavery",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Slavery and empire**\nThe revolution's universal language clashed with colonial slavery. Saint-Domingue's uprising forced abolition, but Napoleon later restored slavery.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "sl-colonies": {
+      "id": "sl-colonies",
+      "areaId": "b-slavery",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**French colonies**\nSaint-Domingue, Martinique, Guadeloupe and other colonies produced sugar, coffee and wealth based on enslaved labor.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sl-society": {
+      "id": "sl-society",
+      "areaId": "b-slavery",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Colonial society**\nWhite planters, free people of color and enslaved Africans had unequal legal status. Racial prejudice shaped colonial politics.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sl-friends": {
+      "id": "sl-friends",
+      "areaId": "b-slavery",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Society of Friends of the Blacks**\nFrench abolitionists opposed slavery and racial discrimination. Their influence was limited but important.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sl-revolt": {
+      "id": "sl-revolt",
+      "areaId": "b-slavery",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Saint-Domingue revolt (1791)**\nEnslaved people rose against planters. The revolt became the Haitian Revolution and a turning point in Atlantic history.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sl-sonthonax": {
+      "id": "sl-sonthonax",
+      "areaId": "b-slavery",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Sonthonax**\nFrench commissioner who abolished slavery in Saint-Domingue in 1793 to secure allies against Britain and Spain.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sl-abolition": {
+      "id": "sl-abolition",
+      "areaId": "b-slavery",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Abolition (1794)**\nThe Convention abolished slavery in French colonies. It was a radical step in the Atlantic world.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sl-toussaint": {
+      "id": "sl-toussaint",
+      "areaId": "b-slavery",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Toussaint Louverture**\nHaitian revolutionary leader. He fought for France, then for autonomy, and became governor of Saint-Domingue.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sl-haiti": {
+      "id": "sl-haiti",
+      "areaId": "b-slavery",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Haitian independence (1804)**\nAfter Napoleon's attempt to restore control, Haiti became the first independent Black republic.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sl-leclerc": {
+      "id": "sl-leclerc",
+      "areaId": "b-slavery",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Leclerc expedition**\nNapoleon sent an army to restore French rule and slavery. Disease and resistance destroyed it.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sl-restore": {
+      "id": "sl-restore",
+      "areaId": "b-slavery",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Slavery restored (1802)**\nNapoleon reinstated slavery in French colonies. The decision betrayed the revolution's abolition and shaped Haiti's independence.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sl-economy": {
+      "id": "sl-economy",
+      "areaId": "b-slavery",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Colonial economy**\nSugar and coffee profits depended on slavery. Abolition and war disrupted French colonial trade.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sl-legacy": {
+      "id": "sl-legacy",
+      "areaId": "b-slavery",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Legacy**\nThe Haitian Revolution exposed the limits of French universalism and inspired anti-slavery movements.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-people": {
+      "id": "b-people",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1321.5
+      },
+      "data": {
+        "label": "People",
+        "color": "purple"
+      }
+    },
+    "b-people-desc": {
+      "id": "b-people-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1376.5
+      },
+      "data": {
+        "text": "Kings, revolutionaries, generals, writers and activists.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-people-intro": {
+      "id": "b-people-intro",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The people of the revolution**\nThe revolution produced extraordinary leaders and bitter enemies. Their choices shaped the course of events.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "pp-royal-head": {
+      "id": "pp-royal-head",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 133.5
+      },
+      "data": {
+        "label": "Royal family",
+        "color": "purple"
+      }
+    },
+    "pp-louis": {
+      "id": "pp-louis",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Louis XVI**\nKing of France. Indecisive and resistant to reform, he lost control of the revolution and was executed in 1793.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-marie": {
+      "id": "pp-marie",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Marie Antoinette**\nQueen of France. Hated as an Austrian and a spendthrift, she was tried and executed in 1793.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-proVence": {
+      "id": "pp-proVence",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 206.5
+      },
+      "data": {
+        "text": "**Louis XVIII (Comte de Provence)**\nBrother of Louis XVI and future king. He fled France and led the royalist exile.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-artois": {
+      "id": "pp-artois",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Comte d'Artois**\nBrother of Louis XVI and leader of the ultra-royalists. He later became Charles X.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-leaders-head": {
+      "id": "pp-leaders-head",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 1160,
+        "y": 245.0
+      },
+      "data": {
+        "label": "Revolutionary leaders",
+        "color": "purple"
+      }
+    },
+    "pp-mirabeau": {
+      "id": "pp-mirabeau",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 318.0
+      },
+      "data": {
+        "text": "**Honore Gabriel Riqueti, Comte de Mirabeau**\nBrilliant orator and early revolutionary leader. He tried to reconcile the king and the Assembly but died in 1791.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-lafayette": {
+      "id": "pp-lafayette",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 318.0
+      },
+      "data": {
+        "text": "**Marquis de Lafayette**\nHero of the American Revolution and commander of the National Guard. He supported a constitutional monarchy and later opposed radicalism.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-sieyes": {
+      "id": "pp-sieyes",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Emmanuel Joseph Sieyes**\nAbbe and political theorist. His pamphlet 'What is the Third Estate?' influenced the revolution; he helped Napoleon seize power.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-barnave": {
+      "id": "pp-barnave",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 429.5
+      },
+      "data": {
+        "text": "**Antoine Barnave**\nConstitutional monarchist and early leader. He tried to stabilize the revolution after Varennes.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-bailly": {
+      "id": "pp-bailly",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 450.0
+      },
+      "data": {
+        "text": "**Jean Sylvain Bailly**\nFirst president of the National Assembly and mayor of Paris. He was executed after the Champ de Mars massacre.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-danton": {
+      "id": "pp-danton",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Georges Danton**\nRevolutionary leader and orator. He helped create the Committee of Public Safety but later urged moderation and was executed.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-robespierre": {
+      "id": "pp-robespierre",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 541.0
+      },
+      "data": {
+        "text": "**Maximilien Robespierre**\nJacobin leader and central figure of the Terror. He was overthrown and executed in Thermidor 1794.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-marat": {
+      "id": "pp-marat",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 561.5
+      },
+      "data": {
+        "text": "**Jean-Paul Marat**\nRadical journalist and deputy. His newspaper attacked enemies of the revolution; he was assassinated by Charlotte Corday.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-desmoulins": {
+      "id": "pp-desmoulins",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Camille Desmoulins**\nJournalist and Danton ally. He called for moderation and was executed with Danton.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-hebert": {
+      "id": "pp-hebert",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 652.5
+      },
+      "data": {
+        "text": "**Jacques Hebert**\nRadical journalist and leader of the Hebertists. He promoted dechristianization and was executed in 1794.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-saintjust": {
+      "id": "pp-saintjust",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 673.0
+      },
+      "data": {
+        "text": "**Louis Antoine de Saint-Just**\nYoung radical and Committee member. He was called the 'angel of death' and was executed with Robespierre.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-couthon": {
+      "id": "pp-couthon",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 711.5
+      },
+      "data": {
+        "text": "**Georges Couthon**\nLawyer and Committee member. He helped draft the Law of 22 Prairial.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-carnot": {
+      "id": "pp-carnot",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 764.0
+      },
+      "data": {
+        "text": "**Lazare Carnot**\nMilitary organizer and Committee member. He helped create the armies that saved the republic.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-barras": {
+      "id": "pp-barras",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 784.5
+      },
+      "data": {
+        "text": "**Paul Barras**\nThermidorian politician and Directory leader. He helped launch Napoleon's career.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-talleyrand": {
+      "id": "pp-talleyrand",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 823.0
+      },
+      "data": {
+        "text": "**Charles Maurice de Talleyrand**\nDiplomat and former bishop. He survived every regime and helped Napoleon seize power.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-fouche": {
+      "id": "pp-fouche",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 875.5
+      },
+      "data": {
+        "text": "**Joseph Fouche**\nRadical deputy and later police chief. He organized repression in Lyon and survived multiple regimes.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-brissot": {
+      "id": "pp-brissot",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 896.0
+      },
+      "data": {
+        "text": "**Jacques Pierre Brissot**\nGirondin leader and advocate of war. He was executed in 1793.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-vergniaud": {
+      "id": "pp-vergniaud",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 934.5
+      },
+      "data": {
+        "text": "**Pierre Victurnien Vergniaud**\nGirondin orator. He was executed with the Girondins in 1793.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-petion": {
+      "id": "pp-petion",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 987.0
+      },
+      "data": {
+        "text": "**Jerome Petion**\nMayor of Paris and Girondin. He was killed during the federalist revolts.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-military-head": {
+      "id": "pp-military-head",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 1160,
+        "y": 987.0
+      },
+      "data": {
+        "label": "Generals and soldiers",
+        "color": "purple"
+      }
+    },
+    "pp-dumouriez": {
+      "id": "pp-dumouriez",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1025.5
+      },
+      "data": {
+        "text": "**Charles Francois Dumouriez**\nGeneral who won Valmy and Jemappes, then defected to Austria after Neerwinden.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-kellermann": {
+      "id": "pp-kellermann",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1060.0
+      },
+      "data": {
+        "text": "**Francois Kellermann**\nGeneral who commanded at Valmy. His victory saved the revolution.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-jourdan": {
+      "id": "pp-jourdan",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1098.5
+      },
+      "data": {
+        "text": "**Jean-Baptiste Jourdan**\nGeneral who won Fleurus and commanded French armies on the Rhine.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-hoche": {
+      "id": "pp-hoche",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1137.0
+      },
+      "data": {
+        "text": "**Lazare Hoche**\nGeneral who crushed the Vendee and fought on the Rhine.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-moreau": {
+      "id": "pp-moreau",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1171.5
+      },
+      "data": {
+        "text": "**Jean Victor Moreau**\nGeneral who won in Germany and later conspired against Napoleon.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-napoleon": {
+      "id": "pp-napoleon",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1210.0
+      },
+      "data": {
+        "text": "**Napoleon Bonaparte**\nArtillery officer who rose at Toulon and in Italy. He overthrew the Directory in 1799 and later became emperor.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-activists-head": {
+      "id": "pp-activists-head",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 580,
+        "y": 1228.0
+      },
+      "data": {
+        "label": "Writers and activists",
+        "color": "purple"
+      }
+    },
+    "pp-gouges": {
+      "id": "pp-gouges",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1283.0
+      },
+      "data": {
+        "text": "**Olympe de Gouges**\nPlaywright and feminist. Her Declaration of the Rights of Woman demanded equality; she was executed in 1793.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-corday": {
+      "id": "pp-corday",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1301.0
+      },
+      "data": {
+        "text": "**Charlotte Corday**\nGirondin sympathizer who assassinated Marat. She was guillotined in 1793.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-roland": {
+      "id": "pp-roland",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1321.5
+      },
+      "data": {
+        "text": "**Madame Roland**\nSalon hostess and Girondin influence. She was executed in 1793.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-theroigne": {
+      "id": "pp-theroigne",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1394.5
+      },
+      "data": {
+        "text": "**Theroigne de Mericourt**\nRevolutionary activist and speaker. She was attacked and later imprisoned.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-stael": {
+      "id": "pp-stael",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1412.5
+      },
+      "data": {
+        "text": "**Madame de Stael**\nWriter and critic of Napoleon. She influenced European liberalism.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-condorcet": {
+      "id": "pp-condorcet",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1412.5
+      },
+      "data": {
+        "text": "**Marquis de Condorcet**\nPhilosopher and mathematician. He advocated education, women's rights and progress; he died in prison in 1794.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-lavoisier": {
+      "id": "pp-lavoisier",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1506.0
+      },
+      "data": {
+        "text": "**Antoine Lavoisier**\nChemist and tax official. He was executed in 1794; his scientific work transformed chemistry.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-david": {
+      "id": "pp-david",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1524.0
+      },
+      "data": {
+        "text": "**Jacques-Louis David**\nPainter and revolutionary propagandist. He organized festivals and painted iconic revolutionary works.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-toussaint": {
+      "id": "pp-toussaint",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1524.0
+      },
+      "data": {
+        "text": "**Toussaint Louverture**\nHaitian revolutionary leader. He fought for freedom and autonomy and died in French captivity.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-sonthonax": {
+      "id": "pp-sonthonax",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1617.5
+      },
+      "data": {
+        "text": "**Leger Felicite Sonthonax**\nFrench commissioner who abolished slavery in Saint-Domingue in 1793.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-babeuf": {
+      "id": "pp-babeuf",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1635.5
+      },
+      "data": {
+        "text": "**Gracchus Babeuf**\nRadical journalist and leader of the Conspiracy of Equals. He was executed in 1797.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-documents": {
+      "id": "b-documents",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1342.0
+      },
+      "data": {
+        "label": "Documents & symbols",
+        "color": "green"
+      }
+    },
+    "b-documents-desc": {
+      "id": "b-documents-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1397.0
+      },
+      "data": {
+        "text": "Declarations, constitutions and the symbols of the new France.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-documents-intro": {
+      "id": "b-documents-intro",
+      "areaId": "b-documents",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The paper revolution**\nThe revolution produced declarations, constitutions and symbols that defined modern politics. Their promises were universal, but their application was limited.",
+        "color": "green"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "doc-1789": {
+      "id": "doc-1789",
+      "areaId": "b-documents",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Declaration of the Rights of Man (1789)**\nAffirmed liberty, equality, sovereignty, due process and freedom of opinion. It became the model for modern rights declarations.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "doc-1791": {
+      "id": "doc-1791",
+      "areaId": "b-documents",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Constitution of 1791**\nEstablished a constitutional monarchy with a limited franchise and a Legislative Assembly. It lasted less than a year.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "doc-1793decl": {
+      "id": "doc-1793decl",
+      "areaId": "b-documents",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Declaration of 1793**\nA more radical declaration added rights to work, education and resistance to oppression. It reflected Jacobin ideals.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "doc-1793": {
+      "id": "doc-1793",
+      "areaId": "b-documents",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Constitution of 1793**\nCreated universal male suffrage and direct democracy but was never implemented because of the emergency.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "doc-1795": {
+      "id": "doc-1795",
+      "areaId": "b-documents",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Constitution of 1795**\nCreated the Directory, a two-chamber legislature and a restricted franchise. It aimed to prevent both royalism and radicalism.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "doc-civil": {
+      "id": "doc-civil",
+      "areaId": "b-documents",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Civil Constitution of the Clergy**\nReorganized the church and required an oath to the state. It created a lasting religious divide.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "doc-levy": {
+      "id": "doc-levy",
+      "areaId": "b-documents",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Levee en masse**\nDeclared that the whole nation was mobilized for war. It created the model of total war.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "doc-suspects": {
+      "id": "doc-suspects",
+      "areaId": "b-documents",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Law of Suspects**\nAllowed arrest of suspected enemies. It became the legal instrument of the Terror.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "doc-maximum": {
+      "id": "doc-maximum",
+      "areaId": "b-documents",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**General Maximum**\nPrice controls on essential goods. It aimed to protect consumers but caused shortages.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "doc-marseillaise": {
+      "id": "doc-marseillaise",
+      "areaId": "b-documents",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**La Marseillaise**\nA revolutionary song that became the national anthem. It called citizens to arms against tyranny.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "doc-tricolor": {
+      "id": "doc-tricolor",
+      "areaId": "b-documents",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Tricolor**\nThe blue, white and red flag became the symbol of the revolution and the nation.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "doc-calendar": {
+      "id": "doc-calendar",
+      "areaId": "b-documents",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Revolutionary calendar**\nA new calendar with ten-day weeks and nature-themed months. It tried to remake time itself.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "doc-metric": {
+      "id": "doc-metric",
+      "areaId": "b-documents",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Metric system**\nStandardized weights and measures. It spread with the revolution and became global.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "doc-symbols": {
+      "id": "doc-symbols",
+      "areaId": "b-documents",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Symbols**\nLiberty trees, the fasces, the cockade, Marianne and the altar of the fatherland expressed revolutionary ideals.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-places": {
+      "id": "b-places",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1440.5
+      },
+      "data": {
+        "label": "Key places",
+        "color": "green"
+      }
+    },
+    "b-places-desc": {
+      "id": "b-places-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1495.5
+      },
+      "data": {
+        "text": "Paris, Versailles, Bastille, Valmy and the battlefields.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-places-intro": {
+      "id": "b-places-intro",
+      "areaId": "b-places",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Where it happened**\nThe revolution was made in specific places: royal palaces, Parisian streets, provincial towns and battlefields.",
+        "color": "green"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "pl-versailles": {
+      "id": "pl-versailles",
+      "areaId": "b-places",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Versailles**\nThe royal palace and seat of the Estates-General. The march on Versailles forced the king to Paris.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pl-bastille": {
+      "id": "pl-bastille",
+      "areaId": "b-places",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Bastille**\nThe Paris fortress and prison symbolizing royal despotism. Its fall on 14 July 1789 became the revolution's founding event.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pl-tuileries": {
+      "id": "pl-tuileries",
+      "areaId": "b-places",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Tuileries**\nThe royal palace in Paris. It was stormed on 10 August 1792, ending the monarchy.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pl-conciergerie": {
+      "id": "pl-conciergerie",
+      "areaId": "b-places",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Conciergerie**\nPrison where Marie Antoinette and other victims were held before execution.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pl-temple": {
+      "id": "pl-temple",
+      "areaId": "b-places",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Temple**\nThe prison where the royal family was held after 1792. Louis XVI's son died there.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pl-place": {
+      "id": "pl-place",
+      "areaId": "b-places",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Place de la Revolution**\nThe Paris square where Louis XVI, Marie Antoinette and many others were guillotined.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pl-champ": {
+      "id": "pl-champ",
+      "areaId": "b-places",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Champ de Mars**\nSite of the Federation Festival and the 1791 massacre.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pl-valmy": {
+      "id": "pl-valmy",
+      "areaId": "b-places",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Valmy**\nBattlefield where France stopped the Prussian advance in 1792.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pl-fleurus": {
+      "id": "pl-fleurus",
+      "areaId": "b-places",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Fleurus**\nBattlefield where France secured Belgium in 1794.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pl-vendee": {
+      "id": "pl-vendee",
+      "areaId": "b-places",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 447.5
+      },
+      "data": {
+        "text": "**Vendee**\nRegion of counterrevolution and brutal civil war.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pl-lyon": {
+      "id": "pl-lyon",
+      "areaId": "b-places",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 447.5
+      },
+      "data": {
+        "text": "**Lyon**\nFederalist rebel city punished by the Convention in 1793.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pl-toulon": {
+      "id": "pl-toulon",
+      "areaId": "b-places",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 447.5
+      },
+      "data": {
+        "text": "**Toulon**\nPort handed to the British and recaptured in 1793, launching Napoleon's career.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pl-paris": {
+      "id": "pl-paris",
+      "areaId": "b-places",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 538.5
+      },
+      "data": {
+        "text": "**Paris**\nThe revolution's capital, crowd, sections, clubs and press. Its politics drove national events.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-legacy": {
+      "id": "b-legacy",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1461.0
+      },
+      "data": {
+        "label": "Legacy & memory",
+        "color": "green"
+      }
+    },
+    "b-legacy-desc": {
+      "id": "b-legacy-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1516.0
+      },
+      "data": {
+        "text": "Human rights, nationalism, terror and the road to Napoleon.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-legacy-intro": {
+      "id": "b-legacy-intro",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The revolution's legacy**\nThe French Revolution shaped modern politics: liberty, equality, nationalism, terror, human rights and the modern state. Its meaning remains contested.",
+        "color": "green"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "leg-rights": {
+      "id": "leg-rights",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Human rights**\nThe Declaration of 1789 became a foundation of modern human rights and constitutional government.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "leg-nationalism": {
+      "id": "leg-nationalism",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Nationalism**\nThe revolution created a nation of citizens and a powerful model of patriotic mobilization.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "leg-terror": {
+      "id": "leg-terror",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Terror**\nThe Terror became a warning about revolutionary violence, ideology and emergency power.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "leg-legal": {
+      "id": "leg-legal",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Legal equality**\nFeudalism, privilege and legal inequality were abolished. The Napoleonic Code spread many revolutionary legal principles.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "leg-state": {
+      "id": "leg-state",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Modern state**\nDepartments, centralized administration, conscription and public education created a stronger state.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "leg-slavery": {
+      "id": "leg-slavery",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Slavery and empire**\nThe revolution abolished slavery in 1794 but Napoleon restored it in 1802. Haiti's independence exposed the limits of French universalism.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "leg-women": {
+      "id": "leg-women",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Women**\nWomen gained some legal rights but not political equality. The revolution inspired later feminism.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "leg-napoleon": {
+      "id": "leg-napoleon",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Napoleon**\nThe revolution created the conditions for Napoleon's rise. He preserved some reforms and built an empire.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "leg-europe": {
+      "id": "leg-europe",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Europe**\nFrench armies spread revolutionary ideas and nationalism. The reaction shaped nineteenth-century politics.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "leg-latin": {
+      "id": "leg-latin",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Latin America**\nThe revolution and Napoleon's invasion of Spain helped trigger independence movements in Latin America.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "leg-memory": {
+      "id": "leg-memory",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Memory**\nBastille Day, the Marseillaise and the tricolor remain central to French identity.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "leg-history": {
+      "id": "leg-history",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Historiography**\nHistorians debate whether the revolution was bourgeois, popular, ideological or a slide into terror. Its meaning is still contested.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-timeline": {
+      "id": "b-timeline",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1481.5
+      },
+      "data": {
+        "label": "Timeline 1789-1799",
+        "color": "yellow"
+      }
+    },
+    "b-timeline-desc": {
+      "id": "b-timeline-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1536.5
+      },
+      "data": {
+        "text": "The revolution year by year.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-timeline-intro": {
+      "id": "b-timeline-intro",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Chronology**\nA fast spine through the revolution's main events.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "tl-1789": {
+      "id": "tl-1789",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 113.0
+      },
+      "data": {
+        "text": "**1789**\n- **May** Estates-General.\n- **Jun** Tennis Court Oath.\n- **14 Jul** Bastille.\n- **Aug** August Decrees; Declaration of Rights.\n- **Oct** March on Versailles.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1790": {
+      "id": "tl-1790",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 113.0
+      },
+      "data": {
+        "text": "**1790**\n- **Jul** Civil Constitution of the Clergy; Federation Festival.\n- Nobility abolished.\n- Church lands sold; assignats circulate.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1791": {
+      "id": "tl-1791",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 113.0
+      },
+      "data": {
+        "text": "**1791**\n- **Jun** Flight to Varennes.\n- **Jul** Champ de Mars massacre.\n- **Aug** Pillnitz Declaration; slave revolt in Saint-Domingue.\n- **Sep** Constitution of 1791.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1792": {
+      "id": "tl-1792",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**1792**\n- **Apr** War with Austria.\n- **Aug** Storming of the Tuileries.\n- **Sep** Valmy; Republic proclaimed.\n- **Nov** Jemappes.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1793": {
+      "id": "tl-1793",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**1793**\n- **Jan** Louis XVI executed.\n- **Mar** Vendee uprising; war crisis.\n- **Apr** Committee of Public Safety.\n- **Jun** Girondins purged.\n- **Sep** Law of Suspects; Terror.\n- **Oct** Marie Antoinette executed.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1794": {
+      "id": "tl-1794",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**1794**\n- **Mar-Apr** Hebertists and Dantonists executed.\n- **Jun** Fleurus; Festival of Supreme Being.\n- **Jul** Thermidor; Robespierre executed.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1795": {
+      "id": "tl-1795",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**1795**\n- White Terror.\n- **Aug** Constitution of Year III.\n- **Oct** Vendemiaire; Directory established.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1796": {
+      "id": "tl-1796",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**1796-1797**\n- Napoleon's Italian campaign.\n- Babeuf's Conspiracy of Equals.\n- **1797** Fructidor coup; Campo Formio.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1798": {
+      "id": "tl-1798",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 459.0
+      },
+      "data": {
+        "text": "**1798-1799**\n- **1798** Egypt expedition; Second Coalition.\n- **1799** Napoleon returns; 18 Brumaire; Consulate.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1804": {
+      "id": "tl-1804",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**1804**\n- Napoleonic Code.\n- Napoleon becomes emperor.\n- Haiti becomes independent.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    }
+  },
+  "edges": {},
+  "viewports": {}
+}

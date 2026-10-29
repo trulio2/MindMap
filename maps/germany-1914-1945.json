@@ -1,0 +1,6926 @@
+{
+  "app": "mindmap",
+  "version": 1,
+  "name": "Germany 1914–1945",
+  "nodes": {
+    "root-title": {
+      "id": "root-title",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "**Germany 1914–1945** · Empire to Zero Hour",
+        "color": "red"
+      }
+    },
+    "root-intro": {
+      "id": "root-intro",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 72
+      },
+      "data": {
+        "text": "**The German road into catastrophe**\nHow the defeat of 1918, the Versailles settlement and the crises of the Weimar Republic created the conditions for Hitler's rise; how the Nazi regime rebuilt Germany, persecuted its enemies and launched a war of conquest; and how Germany was led to total defeat, occupation and division. The map focuses on German events, German decisions and the people who made them.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "root-howto": {
+      "id": "root-howto",
+      "areaId": "root",
+      "kind": "sticky",
+      "position": {
+        "x": 620,
+        "y": 0
+      },
+      "data": {
+        "text": "**How to read this map**\nEach branch opens into its own area. Click the number badge on a topic to go inside. Colours group related material: red for Hitler, seizure of power and defeat; cyan for Weimar and diplomacy; yellow for the First World War and military campaigns; orange for the Nazi Party and home front; purple for the Nazi state and its leaders; green for the army and resistance.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "root-overview": {
+      "id": "root-overview",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 245
+      },
+      "data": {
+        "text": "**At a glance**\n- **1914–18** — Germany fights and loses the First World War\n- **1919** — Versailles settlement; Weimar Republic founded\n- **1923** — hyperinflation; Hitler's Beer Hall Putsch\n- **1929–32** — Depression destroys Weimar; Nazi breakthrough\n- **30 Jan 1933** — Hitler becomes chancellor\n- **1933–39** — dictatorship, rearmament, expansion\n- **1 Sep 1939** — invasion of Poland begins the war\n- **1941–43** — Barbarossa, Stalingrad, Kursk turn the tide\n- **1944–45** — two-front collapse; Berlin falls\n- **8 May 1945** — unconditional surrender\n- **1945–49** — occupation, Nuremberg, division",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "b-ww1": {
+      "id": "b-ww1",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 583.0
+      },
+      "data": {
+        "label": "WWI & the defeat",
+        "color": "yellow"
+      }
+    },
+    "b-ww1-desc": {
+      "id": "b-ww1-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 638.0
+      },
+      "data": {
+        "text": "1914–1919: war, blockade, revolution, armistice and Versailles.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-ww1-intro": {
+      "id": "b-ww1-intro",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The First World War and its legacy**\nGermany's defeat, the revolution of 1918 and the Versailles settlement became the emotional and political foundation of the Nazi appeal. The war was never really over in German politics.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "ww1-before": {
+      "id": "ww1-before",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Imperial Germany before 1914**\nA young empire founded in 1871, with rapid industrialization, a powerful army, a naval race against Britain and a parliament with limited power. The Kaiser, the officer corps and the bureaucracy distrusted mass democracy.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ww1-july": {
+      "id": "ww1-july",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**July Crisis (1914)**\nThe assassination of Archduke Franz Ferdinand in Sarajevo set off the alliance system. Germany gave Austria-Hungary a 'blank cheque', declared war on Russia on 1 August and on France on 3 August, then invaded neutral Belgium.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ww1-schlieffen": {
+      "id": "ww1-schlieffen",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**The Schlieffen Plan**\nGermany tried to knock France out quickly through Belgium, then turn east against Russia. Belgian resistance, British intervention and the French counterattack at the Marne ended the plan in September 1914.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ww1-fronts": {
+      "id": "ww1-fronts",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**A two-front war**\nTrench deadlock in the west; German victories at Tannenberg and the Masurian Lakes in the east. Germany and its allies faced Britain, France, Russia, Italy, Serbia, Romania and later the United States.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ww1-verdun": {
+      "id": "ww1-verdun",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Verdun and the Somme (1916)**\nTwo industrial battles of attrition killed or wounded hundreds of thousands. Germany gained little ground and lost experienced officers and men who could not be replaced.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ww1-blockade": {
+      "id": "ww1-blockade",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**The British blockade**\nCut off food, fertilizer and raw materials. The 'Turnip Winter' of 1916–17 brought hunger, disease and the deaths of hundreds of thousands of civilians.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ww1-uboat": {
+      "id": "ww1-uboat",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**Unrestricted submarine warfare**\nGermany gambled on starving Britain into peace. The sinking of neutral ships, especially the Lusitania, and the Zimmermann Telegram helped bring the United States into the war in April 1917.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ww1-1918": {
+      "id": "ww1-1918",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**The Spring Offensive (1918)**\nAfter the Treaty of Brest-Litovsk freed troops in the east, Germany attacked in the west. Operation Michael and later offensives gained ground but exhausted the army and could not break the Allies.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ww1-collapse": {
+      "id": "ww1-collapse",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 459.0
+      },
+      "data": {
+        "text": "**The Hundred Days (1918)**\nAllied counteroffensives, tanks, fresh American troops and blockade broke the German line. Ludendorff demanded an armistice in late September and then fled to Sweden in disguise.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ww1-revolution": {
+      "id": "ww1-revolution",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 591.0
+      },
+      "data": {
+        "text": "**German Revolution (1918–19)**\nThe sailors' mutiny at Kiel spread to workers' and soldiers' councils across Germany. On 9 November the Kaiser abdicated; the republic was proclaimed in Berlin.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ww1-armistice": {
+      "id": "ww1-armistice",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 591.0
+      },
+      "data": {
+        "text": "**Armistice (11 November 1918)**\nGermany signed a ceasefire at Compiègne. The army marched home in order, and right-wing nationalists immediately claimed it had never been defeated on the battlefield.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ww1-versailles": {
+      "id": "ww1-versailles",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 611.5
+      },
+      "data": {
+        "text": "**Treaty of Versailles (28 June 1919)**\nGermany lost Alsace-Lorraine, the Polish Corridor, Memel, Danzig and all colonies, about 13% of its territory and 10% of its population. It accepted guilt for the war, a 100,000-man army, demilitarization and reparations.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ww1-dolch": {
+      "id": "ww1-dolch",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 723.0
+      },
+      "data": {
+        "text": "**Dolchstoßlegende**\nThe 'stab-in-the-back' myth claimed the army was betrayed by civilians, socialists and Jews. It was false, but it poisoned Weimar politics and became a central Nazi belief.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ww1-freikorps": {
+      "id": "ww1-freikorps",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 723.0
+      },
+      "data": {
+        "text": "**Freikorps**\nParamilitary volunteer units crushed communist uprisings, fought in the Baltic and Silesia and helped defend the new republic. Many members later joined the SA and the Nazi Party.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ww1-hitler-war": {
+      "id": "ww1-hitler-war",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 764.0
+      },
+      "data": {
+        "text": "**Hitler's war experience**\nHitler served as a corporal in the Bavarian Reserve Infantry Regiment 16, was wounded at the Somme and gassed in 1918, and received the Iron Cross Second and First Class. He interpreted defeat as betrayal by Jews and socialists.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ww1-lost": {
+      "id": "ww1-lost",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 855.0
+      },
+      "data": {
+        "text": "**The lost generation**\nAround two million German soldiers died, millions more were wounded or disabled, and families were grieving. Veterans' leagues and war memorials kept the war at the centre of public life.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ww1-territory": {
+      "id": "ww1-territory",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 855.0
+      },
+      "data": {
+        "text": "**Territorial and economic losses**\nGermany lost resource-rich areas and its merchant fleet, patents and colonies. Reparations, the occupation of the Ruhr and the loss of savings deepened resentment of the republic.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ww1-new-states": {
+      "id": "ww1-new-states",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 916.5
+      },
+      "data": {
+        "text": "**New states in the east**\nPoland, Czechoslovakia, the Baltic states and Yugoslavia emerged from the old empires. Millions of Germans now lived outside the Reich, giving revisionist politics a permanent grievance.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ww1-army-myth": {
+      "id": "ww1-army-myth",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 987.0
+      },
+      "data": {
+        "text": "**The army's immunity myth**\nThe officer corps escaped blame for defeat and kept its prestige. The republic depended on the army, and the army was never fully loyal to democracy.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ww1-debate": {
+      "id": "ww1-debate",
+      "areaId": "b-ww1",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1007.5
+      },
+      "data": {
+        "text": "**Versailles as founding trauma**\nEvery Weimar government attacked the treaty while trying to revise it. Hitler offered something simpler: tear it up, restore the army, and avenge 1918.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-weimar": {
+      "id": "b-weimar",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 583.0
+      },
+      "data": {
+        "label": "Weimar Republic",
+        "color": "cyan"
+      }
+    },
+    "b-weimar-desc": {
+      "id": "b-weimar-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 638.0
+      },
+      "data": {
+        "text": "1919–1933: democracy under siege, inflation, depression and presidential intrigue.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-weimar-intro": {
+      "id": "b-weimar-intro",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The republic without republicans**\nWeimar survived revolution, putsch, assassination, hyperinflation and the Depression, but never won the loyalty of the army, judiciary, bureaucracy or much of the middle class. Its final crisis delivered Hitler to power.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "wr-founding": {
+      "id": "wr-founding",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 174.5
+      },
+      "data": {
+        "text": "**Republic proclaimed (9 November 1918)**\nSocial Democrat Philipp Scheidemann declared the republic; Karl Liebknecht proclaimed a socialist republic. The split between SPD and Communists shaped Weimar from the start.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-constitution": {
+      "id": "wr-constitution",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 174.5
+      },
+      "data": {
+        "text": "**Weimar Constitution (1919)**\nProportional representation, a directly elected president, emergency powers under Article 48 and a generous bill of rights. Proportionality fragmented the Reichstag and Article 48 became a route to authoritarian rule.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-ebert": {
+      "id": "wr-ebert",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 174.5
+      },
+      "data": {
+        "text": "**Friedrich Ebert**\nSPD leader and first president. He relied on the army and Freikorps to crush leftist revolts, alienating many workers while failing to win the officers' loyalty.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-treaty": {
+      "id": "wr-treaty",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Signing Versailles (1919)**\nThe National Assembly accepted the treaty under protest. From then on, 'Versailles' was a weapon used against the republic by every nationalist movement.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-kapp": {
+      "id": "wr-kapp",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Kapp Putsch (March 1920)**\nRight-wing Freikorps units seized Berlin. A general strike defeated them, but the army refused to defend the republic, revealing where its sympathies lay.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-assassinations": {
+      "id": "wr-assassinations",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 327.0
+      },
+      "data": {
+        "text": "**Political murders**\nMatthias Erzberger and Walther Rathenau were assassinated by right-wing terrorists. The courts handed down light sentences, and the republic's enemies learned that violence paid.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-reparations": {
+      "id": "wr-reparations",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**Reparations and the Ruhr (1923)**\nFrance and Belgium occupied the Ruhr after Germany defaulted. The government answered with passive resistance and printed money to pay striking workers.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-inflation": {
+      "id": "wr-inflation",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**Hyperinflation (1923)**\nThe mark collapsed and savings, pensions and salaries were wiped out. The middle class never forgot the experience, and many later turned to Hitler.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-stresemann": {
+      "id": "wr-stresemann",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 459.0
+      },
+      "data": {
+        "text": "**Gustav Stresemann**\nChancellor in 1923 and foreign minister until 1929. He stabilized the currency, negotiated the Dawes Plan and Locarno, and sought reconciliation with France.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-golden": {
+      "id": "wr-golden",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 570.5
+      },
+      "data": {
+        "text": "**The Golden Twenties**\nAmerican loans, relative stability and cultural experimentation. Berlin became a centre of modern art, film, architecture, science and sexual freedom.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-locarno": {
+      "id": "wr-locarno",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 570.5
+      },
+      "data": {
+        "text": "**Locarno and the League (1925–26)**\nGermany accepted its western borders and joined the League of Nations. Its eastern borders remained open to revision, a ambiguity that encouraged later expansion.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-hindenburg": {
+      "id": "wr-hindenburg",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 591.0
+      },
+      "data": {
+        "text": "**Hindenburg elected president (1925)**\nThe old field marshal symbolized continuity with the empire. He was a reluctant republican who increasingly acted as a monarch above the parties.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-depression": {
+      "id": "wr-depression",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 702.5
+      },
+      "data": {
+        "text": "**Wall Street Crash (1929)**\nAmerican loans were recalled, exports collapsed and unemployment soared to over six million. The grand coalition fell apart and government by decree became normal.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-bruning": {
+      "id": "wr-bruning",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 702.5
+      },
+      "data": {
+        "text": "**Brüning's austerity (1930–32)**\nDeflationary cuts deepened the Depression. Brüning ruled through presidential decrees and hoped to revise Versailles through foreign policy, but his policies increased despair.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-elections": {
+      "id": "wr-elections",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 723.0
+      },
+      "data": {
+        "text": "**Electoral radicalization**\nThe NSDAP rose from 2.6% in 1928 to 18.3% in 1930 and 37.3% in July 1932. The Communists also gained. The centre parties shrank.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-violence": {
+      "id": "wr-violence",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 834.5
+      },
+      "data": {
+        "text": "**Street violence**\nSA men, Reichsbanner republicans and Communist fighters clashed in the streets. Political violence made democracy look incapable of keeping order.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-papen": {
+      "id": "wr-papen",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 834.5
+      },
+      "data": {
+        "text": "**Von Papen's 'cabinet of barons' (1932)**\nPapen ousted the elected Prussian government and courted the Nazis, believing he could use them and then control them.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-schleicher": {
+      "id": "wr-schleicher",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 855.0
+      },
+      "data": {
+        "text": "**Von Schleicher (1932–33)**\nThe last chancellor before Hitler tried to split the NSDAP and build a broad coalition. He failed, isolated himself and was murdered in 1934.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-1932": {
+      "id": "wr-1932",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 946.0
+      },
+      "data": {
+        "text": "**1932: the republic's last year**\nHitler lost the presidential runoff to Hindenburg but won 36.8% of the vote. The NSDAP became the largest party, while the Reichstag became unworkable.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-intrigue": {
+      "id": "wr-intrigue",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 966.5
+      },
+      "data": {
+        "text": "**The backroom deal**\nPapen, Hugenberg and nationalist conservatives persuaded Hindenburg to appoint Hitler as chancellor of a coalition cabinet. They believed conservative ministers would contain him.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-30jan": {
+      "id": "wr-30jan",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 987.0
+      },
+      "data": {
+        "text": "**30 January 1933**\nHitler became Reich Chancellor. Only three Nazis sat in the cabinet, and the conservatives thought they had hired a useful agitator.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wr-failure": {
+      "id": "wr-failure",
+      "areaId": "b-weimar",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1078.0
+      },
+      "data": {
+        "text": "**Why Weimar failed**\nNo democratic tradition, Versailles resentment, economic shocks, fragmented parties, hostile elites, political violence and the Depression destroyed the republic from within.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-hitler": {
+      "id": "b-hitler",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 583.0
+      },
+      "data": {
+        "label": "Adolf Hitler",
+        "color": "red"
+      }
+    },
+    "b-hitler-desc": {
+      "id": "b-hitler-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 638.0
+      },
+      "data": {
+        "text": "1889–1945: the life, beliefs, rise and rule of the Nazi dictator.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-hitler-intro": {
+      "id": "b-hitler-intro",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Hitler: the man and the myth**\nA failed artist from Austria became the decisive figure of the twentieth century. His ideology, tactics and personal authority shaped the Nazi movement and the war.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "hi-early-head": {
+      "id": "hi-early-head",
+      "areaId": "b-hitler",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "label": "Early life and Vienna",
+        "color": "red"
+      }
+    },
+    "hi-birth": {
+      "id": "hi-birth",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Birth (20 April 1889)**\nBorn in Braunau am Inn, Austria-Hungary, to a customs official and a devout Catholic mother. His father died in 1903; his mother died in 1907.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-vienna": {
+      "id": "hi-vienna",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Vienna years (1907–13)**\nRejected twice by the Academy of Fine Arts, Hitler drifted between hostels and sold watercolours. He absorbed the antisemitic and nationalist politics of the city.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-munich": {
+      "id": "hi-munich",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 227.0
+      },
+      "data": {
+        "text": "**Munich (1913–14)**\nHitler moved to Munich to avoid Austrian military service, then volunteered for the Bavarian army when war broke out in 1914.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-war-head": {
+      "id": "hi-war-head",
+      "areaId": "b-hitler",
+      "kind": "topic",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "label": "War and revolution",
+        "color": "red"
+      }
+    },
+    "hi-ww1": {
+      "id": "hi-ww1",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**First World War**\nServed as a runner in the Bavarian Reserve Infantry Regiment 16. He was wounded at the Somme in 1916, gassed in 1918 and decorated with the Iron Cross First Class.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-defeat": {
+      "id": "hi-defeat",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 338.5
+      },
+      "data": {
+        "text": "**Defeat and revolution**\nHitler was in hospital when Germany surrendered. He blamed Jews, socialists and democrats for the defeat and decided to enter politics.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-munich-post": {
+      "id": "hi-munich-post",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 359.0
+      },
+      "data": {
+        "text": "**Postwar Munich**\nMunich was a centre of Freikorps, nationalist groups and counter-revolution. Hitler worked as an army informer and lecturer on political extremism.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-rise-head": {
+      "id": "hi-rise-head",
+      "areaId": "b-hitler",
+      "kind": "topic",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "label": "The Nazi rise",
+        "color": "red"
+      }
+    },
+    "hi-dap": {
+      "id": "hi-dap",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 470.5
+      },
+      "data": {
+        "text": "**Joining the DAP (1919)**\nHitler was sent to investigate the tiny German Workers' Party and soon joined it. His speaking ability turned it from a discussion circle into a mass movement.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-leader": {
+      "id": "hi-leader",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 491.0
+      },
+      "data": {
+        "text": "**Becoming leader (1921)**\nHitler outmaneuvered the party's founders and became chairman with dictatorial powers. The Führerprinzip became the party's organizing principle.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-putsch": {
+      "id": "hi-putsch",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 491.0
+      },
+      "data": {
+        "text": "**Beer Hall Putsch (8–9 November 1923)**\nHitler and Ludendorff tried to seize Bavaria as a springboard for a march on Berlin. The putsch failed, and sixteen Nazis were killed in a shootout with police.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-trial": {
+      "id": "hi-trial",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 602.5
+      },
+      "data": {
+        "text": "**Trial and Landsberg**\nHitler turned his treason trial into a propaganda platform. He was sentenced to five years but served only about eight months, writing 'Mein Kampf' in Landsberg prison.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-mein-kampf": {
+      "id": "hi-mein-kampf",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 623.0
+      },
+      "data": {
+        "text": "**'Mein Kampf'**\nCombined autobiography, racial theory and political program: Lebensraum in the east, antisemitism, anti-communism and the myth of the strong leader. It became a Nazi canonical text.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-refound": {
+      "id": "hi-refound",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 623.0
+      },
+      "data": {
+        "text": "**Refounding the party (1925)**\nAfter the ban was lifted, Hitler rebuilt the NSDAP around loyalty to himself. He rejected the Strasser brothers' more socialist wing at the Bamberg Conference in 1926.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-depression": {
+      "id": "hi-depression",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 734.5
+      },
+      "data": {
+        "text": "**The Depression breakthrough**\nEconomic collapse and resentment of Weimar gave Hitler mass support. Propaganda, rallies and the SA created an image of energy and order.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-1932": {
+      "id": "hi-1932",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 755.0
+      },
+      "data": {
+        "text": "**Presidential candidate (1932)**\nHitler ran against Hindenburg and won 36.8% in the runoff. He was now the leader of the largest party but still lacked power.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-chancellor": {
+      "id": "hi-chancellor",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 755.0
+      },
+      "data": {
+        "text": "**Chancellor (30 January 1933)**\nHindenburg appointed Hitler at the head of a coalition cabinet. Within months Hitler used the Reichstag fire and the Enabling Act to become dictator.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-dictator-head": {
+      "id": "hi-dictator-head",
+      "areaId": "b-hitler",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 866.5
+      },
+      "data": {
+        "label": "Dictator",
+        "color": "red"
+      }
+    },
+    "hi-fire": {
+      "id": "hi-fire",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 866.5
+      },
+      "data": {
+        "text": "**Reichstag fire (27 February 1933)**\nThe burning of the Reichstag was blamed on a Dutch communist. Hitler used it to suspend civil liberties and arrest opponents.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-enabling": {
+      "id": "hi-enabling",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 887.0
+      },
+      "data": {
+        "text": "**Enabling Act (23 March 1933)**\nThe Reichstag transferred legislative power to Hitler's government for four years. It was the legal foundation of the dictatorship.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-long-knives": {
+      "id": "hi-long-knives",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 939.5
+      },
+      "data": {
+        "text": "**Night of the Long Knives (30 June 1934)**\nHitler purged the SA leadership, Röhm, Strasser and other rivals. The army was reassured, and the SS gained power.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-fuhrer": {
+      "id": "hi-fuhrer",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 978.0
+      },
+      "data": {
+        "text": "**Führer after Hindenburg (1934)**\nWhen Hindenburg died, Hitler merged the offices of president and chancellor. The army swore an oath of personal loyalty to him.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-nuremberg": {
+      "id": "hi-nuremberg",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1019.0
+      },
+      "data": {
+        "text": "**Nuremberg Laws (1935)**\nLegalized the persecution of Jews and defined citizenship in racial terms. Hitler's regime moved from intimidation to systematic exclusion.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-expansion": {
+      "id": "hi-expansion",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1051.0
+      },
+      "data": {
+        "text": "**Expansion (1936–39)**\nRhineland, Austria, the Sudetenland, Prague and the pact with Stalin. Hitler gambled repeatedly that Britain and France would not fight.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-warlord-head": {
+      "id": "hi-warlord-head",
+      "areaId": "b-hitler",
+      "kind": "topic",
+      "position": {
+        "x": 580,
+        "y": 1110.0
+      },
+      "data": {
+        "label": "War leader",
+        "color": "red"
+      }
+    },
+    "hi-war": {
+      "id": "hi-war",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1151.0
+      },
+      "data": {
+        "text": "**War leadership**\nHitler intervened increasingly in military decisions, often overruling generals. In December 1941 he took direct command of the army.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-barbarossa": {
+      "id": "hi-barbarossa",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1183.0
+      },
+      "data": {
+        "text": "**Barbarossa (1941)**\nHitler's central war: invade the USSR, destroy the Red Army, seize grain and oil and create Lebensraum. The failure before Moscow was his first great setback.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-stalingrad": {
+      "id": "hi-stalingrad",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1183.0
+      },
+      "data": {
+        "text": "**Stalingrad and after**\nHitler forbade retreat and sacrificed the 6th Army. After Stalingrad he became more isolated, more mistrustful and more dependent on fantasy weapons.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-plot": {
+      "id": "hi-plot",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1283.0
+      },
+      "data": {
+        "text": "**20 July 1944**\nA bomb planted by Claus von Stauffenberg failed to kill Hitler. The reprisals were massive and the army's autonomy was destroyed.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-decline": {
+      "id": "hi-decline",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1315.0
+      },
+      "data": {
+        "text": "**Physical decline**\nBy 1944–45 Hitler suffered from tremors, heart problems and drug dependency. His decisions became more erratic and his contact with reality weaker.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-end-head": {
+      "id": "hi-end-head",
+      "areaId": "b-hitler",
+      "kind": "topic",
+      "position": {
+        "x": 580,
+        "y": 1315.0
+      },
+      "data": {
+        "label": "The end",
+        "color": "red"
+      }
+    },
+    "hi-bunker": {
+      "id": "hi-bunker",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1388.0
+      },
+      "data": {
+        "text": "**The Führerbunker**\nHitler moved into the bunker under the Reich Chancellery in January 1945. He directed nonexistent armies and refused to negotiate.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-testament": {
+      "id": "hi-testament",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1415.0
+      },
+      "data": {
+        "text": "**Political testament (29 April 1945)**\nHitler blamed the Jews for the war, expelled Göring and Himmler from the party and named Dönitz his successor.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hi-suicide": {
+      "id": "hi-suicide",
+      "areaId": "b-hitler",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1447.0
+      },
+      "data": {
+        "text": "**Suicide (30 April 1945)**\nHitler and Eva Braun killed themselves as Soviet troops entered Berlin. Their bodies were burned in the Chancellery garden.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-nsdap": {
+      "id": "b-nsdap",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 743.0
+      },
+      "data": {
+        "label": "Nazi Party (NSDAP)",
+        "color": "orange"
+      }
+    },
+    "b-nsdap-desc": {
+      "id": "b-nsdap-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 798.0
+      },
+      "data": {
+        "text": "1919–1945: from a Munich fringe group to the German state.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-nsdap-intro": {
+      "id": "b-nsdap-intro",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The party that captured a state**\nThe NSDAP combined a mass movement, a paramilitary army, a propaganda machine and a network of organizations. After 1933 the party and state merged, and loyalty to Hitler became the price of office.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "ns-origins-head": {
+      "id": "ns-origins-head",
+      "areaId": "b-nsdap",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "label": "Origins and early years",
+        "color": "orange"
+      }
+    },
+    "ns-founding": {
+      "id": "ns-founding",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**German Workers' Party (1919)**\nFounded in Munich by Anton Drexler and Karl Harrer. It combined nationalism, antisemitism and hostility to socialism and democracy.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-hitler-joins": {
+      "id": "ns-hitler-joins",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Hitler joins (1919)**\nSent by the army to investigate the group, Hitler joined and became its most effective speaker. He soon dominated its leadership.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-25-points": {
+      "id": "ns-25-points",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 227.0
+      },
+      "data": {
+        "text": "**25-Point Program (24 February 1920)**\nDemanded union of all Germans, land and colonies, exclusion of Jews from citizenship, nationalization of trusts, land reform and a strong central state. It was deliberately vague enough to appeal widely.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-name": {
+      "id": "ns-name",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Name and symbols**\nThe party became the National Socialist German Workers' Party. The swastika, the raised-arm salute, banners and uniforms created a powerful political religion.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-sa": {
+      "id": "ns-sa",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**SA founded**\nThe Sturmabteilung became the party's street army. It protected meetings, attacked opponents and created an impression of power, but its violence also alienated middle-class voters.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-putsch": {
+      "id": "ns-putsch",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 379.5
+      },
+      "data": {
+        "text": "**Beer Hall Putsch (1923)**\nHitler's failed coup in Munich brought him national fame. The party was banned, but the trial and prison sentence turned him into a martyr.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-refound": {
+      "id": "ns-refound",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Refounding (1925)**\nThe NSDAP was rebuilt as a nationwide party with Hitler as absolute leader. Membership grew slowly until the Depression.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-bamberg": {
+      "id": "ns-bamberg",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Bamberg Conference (1926)**\nHitler defeated the Strasser brothers' more socialist wing and asserted control over ideology and strategy.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-machine-head": {
+      "id": "ns-machine-head",
+      "areaId": "b-nsdap",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 511.5
+      },
+      "data": {
+        "label": "The party machine",
+        "color": "orange"
+      }
+    },
+    "ns-propaganda": {
+      "id": "ns-propaganda",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Propaganda**\nGoebbels turned the party into a media operation: posters, rallies, radio, film and a demonic image of enemies. Propaganda promised unity, strength and revenge.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-gau": {
+      "id": "ns-gau",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Gauleiter system**\nRegional party bosses controlled districts and later became powerful state officials. Rivalries and corruption were built into the system.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-funding": {
+      "id": "ns-funding",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 584.5
+      },
+      "data": {
+        "text": "**Funding and elites**\nThe party drew dues from members but also sought money from businessmen, especially after 1930. Hugenberg's media and the Harzburg Front helped legitimize Hitler.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-elections": {
+      "id": "ns-elections",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Electoral growth**\n2.6% in 1928; 18.3% in 1930; 37.3% in July 1932. Support came from farmers, middle-class protestants, young voters and the unemployed, not only from the old right.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-organizations": {
+      "id": "ns-organizations",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Party organizations**\nHitler Youth, League of German Girls, SA, SS, NSDAP women's organizations, professional leagues and welfare bodies created a parallel society.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-hj": {
+      "id": "ns-hj",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 716.5
+      },
+      "data": {
+        "text": "**Hitler Youth**\nFounded in 1926 and made compulsory in 1936. It indoctrinated boys and girls with Nazi ideology, physical training and military preparation.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-daf": {
+      "id": "ns-daf",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 793.5
+      },
+      "data": {
+        "text": "**German Labour Front (DAF)**\nAfter independent unions were destroyed, the DAF controlled wages, working conditions and leisure through Strength Through Joy.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-nsv": {
+      "id": "ns-nsv",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 793.5
+      },
+      "data": {
+        "text": "**National Socialist People's Welfare**\nProvided charity, winter relief and social services, tying ordinary Germans to the party and excluding Jews and 'community aliens'.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-ss": {
+      "id": "ns-ss",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 848.5
+      },
+      "data": {
+        "text": "**SS**\nFounded in 1925 as Hitler's bodyguard, expanded by Himmler into an ideological army, police empire and camp system.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-sd": {
+      "id": "ns-sd",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 925.5
+      },
+      "data": {
+        "text": "**SD and Gestapo**\nThe SD gathered intelligence; the Gestapo hunted political enemies. Both were controlled by Himmler and Heydrich after 1934.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-state-head": {
+      "id": "ns-state-head",
+      "areaId": "b-nsdap",
+      "kind": "topic",
+      "position": {
+        "x": 1160,
+        "y": 925.5
+      },
+      "data": {
+        "label": "Party and state",
+        "color": "orange"
+      }
+    },
+    "ns-seizure": {
+      "id": "ns-seizure",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 960.0
+      },
+      "data": {
+        "text": "**Seizure of power (1933–34)**\nThe party won control of the state through the Enabling Act, Gleichschaltung and the purge of rivals. Party officials took over ministries, police and local government.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-party-state": {
+      "id": "ns-party-state",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 998.5
+      },
+      "data": {
+        "text": "**Party-state fusion**\nThe NSDAP became the only legal party. Party and state competed for power, while Hitler stood above both as the ultimate arbiter.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-corruption": {
+      "id": "ns-corruption",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1057.5
+      },
+      "data": {
+        "text": "**Corruption and privilege**\nGauleiter and party bosses enriched themselves through confiscated property, contracts and privileges. Corruption was tolerated as a tool of loyalty.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-factions": {
+      "id": "ns-factions",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1092.0
+      },
+      "data": {
+        "text": "**Factions and rivalries**\nGöring, Goebbels, Himmler, Speer, Bormann and the army competed for Hitler's favour. The regime was a jungle of personal power centres.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ns-dissolution": {
+      "id": "ns-dissolution",
+      "areaId": "b-nsdap",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1130.5
+      },
+      "data": {
+        "text": "**Dissolution (1945)**\nThe Allies banned the NSDAP and its organizations. Denazification and the Nuremberg Trials followed, though many former members rebuilt careers.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-seizure": {
+      "id": "b-seizure",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 743.0
+      },
+      "data": {
+        "label": "Seizure of power 1933–1934",
+        "color": "red"
+      }
+    },
+    "b-seizure-desc": {
+      "id": "b-seizure-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 798.0
+      },
+      "data": {
+        "text": "How Hitler dismantled democracy and secured the army's loyalty.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-seizure-intro": {
+      "id": "b-seizure-intro",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**From chancellor to dictator in eighteen months**\nHitler exploited the Reichstag fire, emergency powers, intimidation and conservative complicity. By August 1934 he was both head of state and supreme military commander.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "sz-30jan": {
+      "id": "sz-30jan",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**30 January 1933**\nHitler became chancellor in a cabinet dominated by conservatives. He immediately demanded new elections and control of the police.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-fire": {
+      "id": "sz-fire",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Reichstag fire (27 February 1933)**\nThe parliament building burned. Hitler blamed the Communists, declared a state of emergency and suspended civil liberties with the Reichstag Fire Decree.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-election": {
+      "id": "sz-election",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**March 1933 election**\nThe NSDAP won 43.9% with massive intimidation and propaganda. With the nationalists it controlled a majority, but not the two-thirds needed for constitutional change.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-enabling": {
+      "id": "sz-enabling",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Enabling Act (23 March 1933)**\nThe Reichstag passed the law by 444 votes to 94 after Communist deputies were arrested and SA men surrounded the building. It allowed the government to legislate without parliament.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-gleich": {
+      "id": "sz-gleich",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Gleichschaltung**\nThe coordination of the states, civil service, courts, schools, media and associations. Independent organizations were dissolved or absorbed into Nazi bodies.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-unions": {
+      "id": "sz-unions",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Trade unions destroyed (2 May 1933)**\nSA and SS occupied union offices. The German Labour Front replaced the unions and made strikes illegal.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-parties": {
+      "id": "sz-parties",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Parties banned (14 July 1933)**\nThe NSDAP became the only legal party. The SPD was outlawed, the Centre Party dissolved itself and the KPD was already illegal.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-civil": {
+      "id": "sz-civil",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Civil service purge**\nJews, political opponents and 'unreliable' officials were dismissed. Universities, courts and bureaucracies were purged and brought into line.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-dachau": {
+      "id": "sz-dachau",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Dachau (22 March 1933)**\nThe first regular concentration camp opened near Munich. It held political prisoners and became a model for the SS camp system.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-books": {
+      "id": "sz-books",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Book burning (10 May 1933)**\nNazi students burned books by Jewish, Marxist, pacifist and modernist authors. Cultural purification became public spectacle.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-concordat": {
+      "id": "sz-concordat",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Reich Concordat (20 July 1933)**\nHitler signed an agreement with the Vatican to secure international respectability. The regime continued to interfere in church affairs.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-long-knives": {
+      "id": "sz-long-knives",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Night of the Long Knives (30 June 1934)**\nHitler used the SS to murder Röhm, the SA leadership, Strasser, Schleicher and others. The army was relieved that the SA had been cut down.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-hindenburg": {
+      "id": "sz-hindenburg",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Hindenburg dies (2 August 1934)**\nHitler merged president and chancellor and became Führer. The army swore personal loyalty to him, not to the constitution.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-plebiscite": {
+      "id": "sz-plebiscite",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**August 1934 plebiscite**\nA manipulated vote approved Hitler's new powers. The dictatorship was now formally complete.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-nuremberg": {
+      "id": "sz-nuremberg",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Nuremberg Laws (15 September 1935)**\nJews lost citizenship and were forbidden to marry or have relationships with 'Aryans'. Antisemitism became the law of the state.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-rearm": {
+      "id": "sz-rearm",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Rearmament announced (1935)**\nConscription returned and the army expanded openly. Britain signed a naval agreement instead of opposing the breach of Versailles.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-rhineland": {
+      "id": "sz-rhineland",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 793.5
+      },
+      "data": {
+        "text": "**Rhineland remilitarized (7 March 1936)**\nGerman troops entered the demilitarized zone. France and Britain protested but did not act, and Hitler's confidence grew.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-anschluss": {
+      "id": "sz-anschluss",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 814.0
+      },
+      "data": {
+        "text": "**Anschluss (12 March 1938)**\nAustria was annexed after Nazi pressure and an engineered crisis. Britain and France again accepted the fait accompli.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-munich": {
+      "id": "sz-munich",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 905.0
+      },
+      "data": {
+        "text": "**Munich Agreement (29–30 September 1938)**\nBritain, France and Italy allowed Germany to take the Sudetenland. Chamberlain called it 'peace for our time'; Hitler interpreted it as weakness.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-kristallnacht": {
+      "id": "sz-kristallnacht",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 925.5
+      },
+      "data": {
+        "text": "**Kristallnacht (9–10 November 1938)**\nA nationwide pogrom destroyed synagogues, shops and homes. About 30,000 Jewish men were arrested and sent to camps.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-prague": {
+      "id": "sz-prague",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 925.5
+      },
+      "data": {
+        "text": "**Prague occupied (15 March 1939)**\nGermany broke the Munich agreement and seized the rest of Czech lands. The West finally began to rearm in earnest.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-pact": {
+      "id": "sz-pact",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1037.0
+      },
+      "data": {
+        "text": "**Molotov–Ribbentrop Pact (23 August 1939)**\nHitler and Stalin agreed not to attack each other and secretly divided eastern Europe. Hitler now had a free hand against Poland.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sz-war": {
+      "id": "sz-war",
+      "areaId": "b-seizure",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1037.0
+      },
+      "data": {
+        "text": "**War begins (1 September 1939)**\nGermany invaded Poland. Britain and France declared war on 3 September, and the Second World War began.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-state": {
+      "id": "b-state",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 743.0
+      },
+      "data": {
+        "label": "Nazi state & ideology",
+        "color": "purple"
+      }
+    },
+    "b-state-desc": {
+      "id": "b-state-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 798.0
+      },
+      "data": {
+        "text": "Ideology, propaganda, terror, economy and society in the Third Reich.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-state-intro": {
+      "id": "b-state-intro",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The Third Reich**\nNazism promised national rebirth through race, conquest and obedience. Propaganda and terror created compliance, while rearmament and plunder prepared for war.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "st-ideology-head": {
+      "id": "st-ideology-head",
+      "areaId": "b-state",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "label": "Ideology",
+        "color": "purple"
+      }
+    },
+    "st-ideology": {
+      "id": "st-ideology",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Core ideology**\nExtreme antisemitism, racial hierarchy, social Darwinism, anti-communism, Lebensraum and the Führerprinzip. Politics was presented as a struggle between races and nations.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-lebensraum": {
+      "id": "st-lebensraum",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Lebensraum**\nThe demand for living space in eastern Europe, to be won by conquest and colonization. It implied the expulsion, enslavement or murder of Slavs and Jews.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-race": {
+      "id": "st-race",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 227.0
+      },
+      "data": {
+        "text": "**Racial state**\nNazi policy classified people by 'blood'. Jews, Roma, Slavs, Black people, disabled people and others were deemed inferior or dangerous.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-anti-semitism": {
+      "id": "st-anti-semitism",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Antisemitism**\nJews were blamed for capitalism, communism, liberalism and Germany's defeat. Propaganda dehumanized them before policy murdered them.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-fuhrer": {
+      "id": "st-fuhrer",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Führerprinzip**\nThe leader's will was the source of law. Officials competed to interpret Hitler's wishes, producing radicalization without explicit orders.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-terror-head": {
+      "id": "st-terror-head",
+      "areaId": "b-state",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 359.0
+      },
+      "data": {
+        "label": "Propaganda and terror",
+        "color": "purple"
+      }
+    },
+    "st-propaganda": {
+      "id": "st-propaganda",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Propaganda ministry**\nGoebbels controlled press, radio, film, theatre and public rituals. The aim was not just information but emotional mobilization and enemy hatred.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-gestapo": {
+      "id": "st-gestapo",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Gestapo**\nThe secret state police arrested, tortured and deported political opponents. Its power rested on denunciations and fear as much as on agents.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-ss": {
+      "id": "st-ss",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 432.0
+      },
+      "data": {
+        "text": "**SS empire**\nHimmler's SS controlled the police, camps, racial policy and Waffen-SS. It became a state within the state.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-courts": {
+      "id": "st-courts",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 543.5
+      },
+      "data": {
+        "text": "**Courts and People's Court**\nSpecial courts and the People's Court punished dissent with long sentences or death. Judges were expected to serve the regime.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-camps": {
+      "id": "st-camps",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Concentration camps**\nDachau, Buchenwald, Sachsenhausen, Ravensbrück and others held political prisoners, Jews, Roma, homosexuals and forced laborers. Conditions were brutal.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-church": {
+      "id": "st-church",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Churches**\nThe regime tried to coordinate Protestant churches through the German Christians. The Confessing Church resisted, and clergy such as Niemöller and Bonhoeffer were imprisoned.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-economy-head": {
+      "id": "st-economy-head",
+      "areaId": "b-state",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 675.5
+      },
+      "data": {
+        "label": "Economy and society",
+        "color": "purple"
+      }
+    },
+    "st-economy": {
+      "id": "st-economy",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**War economy**\nRearmament, autarky and public works reduced unemployment. The economy was geared to war from the mid-1930s, with plunder and forced labor later filling the gaps.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-four-year": {
+      "id": "st-four-year",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Four Year Plan (1936)**\nGöring was put in charge of preparing the economy for war: synthetic oil and rubber, arms, food stockpiles and import substitution.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-speer": {
+      "id": "st-speer",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 748.5
+      },
+      "data": {
+        "text": "**Speer and armaments**\nAlbert Speer centralized production after 1942 and raised output, using forced labor and ruthless exploitation of occupied Europe.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-public-works": {
+      "id": "st-public-works",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 814.0
+      },
+      "data": {
+        "text": "**Public works**\nAutobahns, housing, reforestation and military construction absorbed unemployed workers and showcased the regime.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-volkswagen": {
+      "id": "st-volkswagen",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 814.0
+      },
+      "data": {
+        "text": "**Volkswagen**\nThe 'people's car' project promised mass motoring, but production shifted to military vehicles and the plant used forced labor.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-labour": {
+      "id": "st-labour",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 880.5
+      },
+      "data": {
+        "text": "**Reich Labour Service**\nCompulsory labor service for young men, later extended to women and war work. It combined indoctrination, discipline and construction.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-agriculture": {
+      "id": "st-agriculture",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 925.5
+      },
+      "data": {
+        "text": "**Agriculture**\nThe Reich Food Estate controlled prices and production. Farmers were praised as 'blood and soil' but squeezed by labor shortages and quotas.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-women": {
+      "id": "st-women",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 946.0
+      },
+      "data": {
+        "text": "**Women's policy**\n'Kinder, Küche, Kirche' encouraged motherhood, marriage loans and the Mother's Cross. War production later pulled millions of women into factories.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-education": {
+      "id": "st-education",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1012.5
+      },
+      "data": {
+        "text": "**Education**\nCurricula were racialized and militarized. Teachers had to join the Nazi Teachers' League, and universities lost independent scholars.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-hj": {
+      "id": "st-hj",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1057.5
+      },
+      "data": {
+        "text": "**Hitler Youth**\nCompulsory from 1936. Boys trained for war and girls for motherhood and service. The organization competed with family and church for loyalty.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-culture": {
+      "id": "st-culture",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1078.0
+      },
+      "data": {
+        "text": "**Culture**\n'Degenerate art' was removed, jazz and modernism condemned, and approved art celebrated blood, soil, heroism and the community.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-olympics": {
+      "id": "st-olympics",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1144.5
+      },
+      "data": {
+        "text": "**Berlin Olympics (1936)**\nA propaganda showcase of Nazi Germany. The regime temporarily toned down antisemitic violence and used the games to project normality.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-corruption": {
+      "id": "st-corruption",
+      "areaId": "b-state",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1189.5
+      },
+      "data": {
+        "text": "**Corruption and 'Bonzen'**\nParty bosses lived in luxury, took bribes and seized Jewish property. The regime tolerated corruption as a reward for loyalty.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-road": {
+      "id": "b-road",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 882.5
+      },
+      "data": {
+        "label": "Road to war 1933–1939",
+        "color": "cyan"
+      }
+    },
+    "b-road-desc": {
+      "id": "b-road-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 937.5
+      },
+      "data": {
+        "text": "Rearmament, expansion and the diplomatic path to 1 September 1939.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-road-intro": {
+      "id": "b-road-intro",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Diplomacy backed by force**\nHitler combined revisionist demands, rearmament and bluff. Each success convinced him that Britain and France would not fight, until Poland forced their hand.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "rd-league": {
+      "id": "rd-league",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Leaving the League (October 1933)**\nGermany withdrew from the League of Nations and the Disarmament Conference, rejecting collective security.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-rearm": {
+      "id": "rd-rearm",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Rearmament (1935)**\nConscription, the Luftwaffe and open military expansion broke Versailles. Britain signed the Anglo-German Naval Agreement instead of confronting Germany.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-rhineland": {
+      "id": "rd-rhineland",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Rhineland (1936)**\nGerman troops marched into the demilitarized zone. The gamble worked because Britain and France were divided and unwilling to act.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-spain": {
+      "id": "rd-spain",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Spain (1936–39)**\nGermany sent the Condor Legion to support Franco. Guernica and the experience of air war tested weapons and tactics.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-axis": {
+      "id": "rd-axis",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Rome–Berlin Axis (1936)**\nMussolini and Hitler aligned their policies. The Anti-Comintern Pact with Japan followed in November.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-anschluss": {
+      "id": "rd-anschluss",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Anschluss (March 1938)**\nAustria was annexed after pressure and an engineered invitation. The Western powers again protested without acting.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-munich": {
+      "id": "rd-munich",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Munich (September 1938)**\nBritain and France accepted the dismemberment of Czechoslovakia. Hitler promised no further territorial demands and broke the promise within months.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-czech": {
+      "id": "rd-czech",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Prague (March 1939)**\nGermany seized the rest of Czech lands. Britain and France guaranteed Poland, ending appeasement.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-memel": {
+      "id": "rd-memel",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Memel (March 1939)**\nGermany annexed the Memel district from Lithuania, another minor gain that raised Hitler's prestige.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-pact": {
+      "id": "rd-pact",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Molotov–Ribbentrop Pact (August 1939)**\nThe Nazi-Soviet pact removed the danger of a two-front war and secretly divided Poland and the Baltic region.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-poland": {
+      "id": "rd-poland",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Poland demands**\nGermany demanded Danzig and a corridor across the Polish Corridor. Poland refused and Britain and France reaffirmed their guarantee.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-gleiwitz": {
+      "id": "rd-gleiwitz",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Gleiwitz incident (31 August 1939)**\nSS men staged a fake Polish attack on a German radio station to provide a pretext for invasion.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-invasion": {
+      "id": "rd-invasion",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Invasion of Poland (1 September 1939)**\nGermany attacked with air power, armor and massed artillery. Britain and France declared war on 3 September.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-phoney": {
+      "id": "rd-phoney",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Phoney War**\nAfter Poland fell, the western front remained quiet for months. Germany prepared offensives while Britain and France mobilized slowly.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-norway": {
+      "id": "rd-norway",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Norway and Denmark (April 1940)**\nGermany seized both countries to secure iron ore and Atlantic bases. The campaign was a strategic success despite naval losses.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-france": {
+      "id": "rd-france",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 732.0
+      },
+      "data": {
+        "text": "**France (May–June 1940)**\nThe western offensive destroyed the Allied armies and knocked France out of the war. Hitler now controlled most of western Europe.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-britain": {
+      "id": "rd-britain",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 752.5
+      },
+      "data": {
+        "text": "**Britain (1940–41)**\nAfter the air defeat, Hitler postponed invasion and turned to blockade, bombing and the Mediterranean.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-balkans": {
+      "id": "rd-balkans",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Balkans (1941)**\nGermany invaded Yugoslavia and Greece to rescue Mussolini and secure the southern flank before Barbarossa.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-barbarossa": {
+      "id": "rd-barbarossa",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 864.0
+      },
+      "data": {
+        "text": "**Barbarossa (22 June 1941)**\nHitler invaded the USSR, opening the war he had always intended. The campaign failed to win before winter.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-us": {
+      "id": "rd-us",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 864.0
+      },
+      "data": {
+        "text": "**War with America (11 December 1941)**\nAfter Pearl Harbor, Hitler declared war on the United States. The war was now global and Germany faced the world's largest economies.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-army": {
+      "id": "b-army",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 882.5
+      },
+      "data": {
+        "label": "Wehrmacht & generals",
+        "color": "green"
+      }
+    },
+    "b-army-desc": {
+      "id": "b-army-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 937.5
+      },
+      "data": {
+        "text": "The high command, field commanders and the officers who served, resisted or were dismissed.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-army-intro": {
+      "id": "b-army-intro",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The German military elite**\nThe Wehrmacht was the instrument of Hitler's conquests and the site of both complicity and resistance. Its generals won spectacular victories, then lost the war under political interference and overwhelming resources.",
+        "color": "green"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "ar-high-head": {
+      "id": "ar-high-head",
+      "areaId": "b-army",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 174.5
+      },
+      "data": {
+        "label": "High command",
+        "color": "green"
+      }
+    },
+    "ar-command": {
+      "id": "ar-command",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 174.5
+      },
+      "data": {
+        "text": "**Command structure**\nThe OKW under Keitel coordinated the armed forces; the OKH under Brauchitsch and Halder ran the army. Hitler increasingly bypassed both, issuing detailed orders himself.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-blomberg": {
+      "id": "ar-blomberg",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 174.5
+      },
+      "data": {
+        "text": "**Werner von Blomberg**\nWar minister and commander-in-chief until 1938. The Blomberg–Fritsch affair destroyed his career and gave Hitler direct control of the army.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-fritsch": {
+      "id": "ar-fritsch",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 247.5
+      },
+      "data": {
+        "text": "**Werner von Fritsch**\nArmy commander-in-chief until 1938, forced out by false homosexuality allegations. He was killed in action in Poland in 1939.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-brauchitsch": {
+      "id": "ar-brauchitsch",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Walther von Brauchitsch**\nArmy commander-in-chief 1938–41. He obeyed Hitler and was dismissed after the failure before Moscow.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-halder": {
+      "id": "ar-halder",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Franz Halder**\nChief of the army general staff 1938–42. Planned Barbarossa, clashed with Hitler over strategy and was dismissed.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-keitel": {
+      "id": "ar-keitel",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 379.5
+      },
+      "data": {
+        "text": "**Wilhelm Keitel**\nHead of the OKW and Hitler's most compliant military adviser. Signed the 1940 armistice and the 1945 surrender; executed at Nuremberg.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-jodl": {
+      "id": "ar-jodl",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Alfred Jodl**\nOKW operations chief. Planned campaigns and signed the surrender; executed at Nuremberg.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-canaris": {
+      "id": "ar-canaris",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Wilhelm Canaris**\nHead of the Abwehr. Opposed Hitler and was linked to the resistance; executed in April 1945.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-beck": {
+      "id": "ar-beck",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 511.5
+      },
+      "data": {
+        "text": "**Ludwig Beck**\nArmy chief of staff until 1938. Became a central figure in the military resistance and was killed after the 20 July plot.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-field-head": {
+      "id": "ar-field-head",
+      "areaId": "b-army",
+      "kind": "topic",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "label": "Army group and field commanders",
+        "color": "green"
+      }
+    },
+    "ar-rundstedt": {
+      "id": "ar-rundstedt",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Gerd von Rundstedt**\nField marshal. Commanded army groups in Poland, France and the east, and the western front in 1944. Dismissed and recalled repeatedly.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-bock": {
+      "id": "ar-bock",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 602.5
+      },
+      "data": {
+        "text": "**Fedor von Bock**\nField marshal. Commanded Army Group North in Poland and Army Group Centre in 1941. Died in an air attack in 1945.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-leeb": {
+      "id": "ar-leeb",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 623.0
+      },
+      "data": {
+        "text": "**Wilhelm Ritter von Leeb**\nField marshal. Commanded Army Group North during Barbarossa and the siege of Leningrad. Resigned in 1942.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-manstein": {
+      "id": "ar-manstein",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Erich von Manstein**\nField marshal and strategist. Planned the 1940 western offensive and commanded in the east; convicted of war crimes after the war.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-kleist": {
+      "id": "ar-kleist",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 714.0
+      },
+      "data": {
+        "text": "**Ewald von Kleist**\nPanzer general. Led the armored thrust through the Ardennes and commanded in the Caucasus. Died in Soviet captivity.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-hoth": {
+      "id": "ar-hoth",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 734.5
+      },
+      "data": {
+        "text": "**Hermann Hoth**\nPanzer general. Commanded at Sedan, Barbarossa and Kursk. Convicted of war crimes.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-hoepner": {
+      "id": "ar-hoepner",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 793.5
+      },
+      "data": {
+        "text": "**Erich Hoepner**\nPanzer general. Commanded at Sedan and before Moscow; dismissed after withdrawing without Hitler's permission. Executed after the 20 July plot.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-paulus": {
+      "id": "ar-paulus",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 825.5
+      },
+      "data": {
+        "text": "**Friedrich Paulus**\nCommander of the 6th Army at Stalingrad. Surrendered in February 1943 and later criticized Hitler from Soviet captivity.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-model": {
+      "id": "ar-model",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 846.0
+      },
+      "data": {
+        "text": "**Walter Model**\nField marshal known for defensive skill. Commanded Army Group Centre and the western front; killed himself in 1945.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-kluge": {
+      "id": "ar-kluge",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 925.5
+      },
+      "data": {
+        "text": "**Günther von Kluge**\nField marshal. Commanded in Poland, France and the east, then the western front in 1944. Suspected of involvement in the July plot; committed suicide.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-zeitzler": {
+      "id": "ar-zeitzler",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 957.5
+      },
+      "data": {
+        "text": "**Kurt Zeitzler**\nArmy chief of staff 1942–44. Clashed with Hitler over Stalingrad and resigned.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-schorner": {
+      "id": "ar-schorner",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 957.5
+      },
+      "data": {
+        "text": "**Ferdinand Schörner**\nField marshal and fanatical Nazi. Known for brutal discipline and executions of deserters. Convicted of war crimes.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-heinrici": {
+      "id": "ar-heinrici",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1057.5
+      },
+      "data": {
+        "text": "**Gotthard Heinrici**\nGeneral. Defended the Oder in 1945 with skill, but could not stop the Soviet advance on Berlin.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-wenck": {
+      "id": "ar-wenck",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1069.0
+      },
+      "data": {
+        "text": "**Walther Wenck**\nGeneral. Led the 12th Army in a doomed attempt to relieve Berlin; surrendered to the Americans.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-weidling": {
+      "id": "ar-weidling",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1069.0
+      },
+      "data": {
+        "text": "**Helmuth Weidling**\nBerlin garrison commander. Ordered the surrender of the city on 2 May 1945.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-panzer-head": {
+      "id": "ar-panzer-head",
+      "areaId": "b-army",
+      "kind": "topic",
+      "position": {
+        "x": 1160,
+        "y": 1169.0
+      },
+      "data": {
+        "label": "Panzer and mobile warfare",
+        "color": "green"
+      }
+    },
+    "ar-guderian": {
+      "id": "ar-guderian",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1180.5
+      },
+      "data": {
+        "text": "**Heinz Guderian**\nPanzer general and theorist. Led the drive to the Channel in 1940 and commanded Panzer Group 2 in 1941. Later inspector of armored troops.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-rommel": {
+      "id": "ar-rommel",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1180.5
+      },
+      "data": {
+        "text": "**Erwin Rommel**\nField marshal. Commanded the Afrika Korps, then the Atlantic defenses. Forced to suicide after being linked to the July plot.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-dietrich": {
+      "id": "ar-dietrich",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1242.0
+      },
+      "data": {
+        "text": "**Sepp Dietrich**\nWaffen-SS general. Commanded the Leibstandarte and the 6th Panzer Army in the Bulge. Convicted of war crimes.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-hausser": {
+      "id": "ar-hausser",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1312.5
+      },
+      "data": {
+        "text": "**Paul Hausser**\nWaffen-SS general. Commanded SS panzer corps at Kursk and in Normandy.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-air-sea-head": {
+      "id": "ar-air-sea-head",
+      "areaId": "b-army",
+      "kind": "topic",
+      "position": {
+        "x": 580,
+        "y": 1312.5
+      },
+      "data": {
+        "label": "Air force and navy",
+        "color": "green"
+      }
+    },
+    "ar-goering": {
+      "id": "ar-goering",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1353.5
+      },
+      "data": {
+        "text": "**Hermann Göring**\nCommander-in-chief of the Luftwaffe. Promised to destroy the RAF and supply Stalingrad; both failed. Lost influence and was expelled by Hitler in 1945.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-milch": {
+      "id": "ar-milch",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1385.5
+      },
+      "data": {
+        "text": "**Erhard Milch**\nLuftwaffe field marshal and production chief. Expanded aircraft output but could not match Allied production.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-kesselring": {
+      "id": "ar-kesselring",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1424.0
+      },
+      "data": {
+        "text": "**Albert Kesselring**\nLuftwaffe field marshal and commander in Italy. Directed air fleets and the Italian campaign; convicted of war crimes but later released.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-sperrle": {
+      "id": "ar-sperrle",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1485.5
+      },
+      "data": {
+        "text": "**Hugo Sperrle**\nLuftwaffe field marshal. Commanded air fleets in France and the west.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-raeder": {
+      "id": "ar-raeder",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1497.0
+      },
+      "data": {
+        "text": "**Erich Raeder**\nNavy commander-in-chief until 1943. Advocated a surface fleet and unrestricted submarine warfare. Sentenced at Nuremberg.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-donitz": {
+      "id": "ar-donitz",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1556.0
+      },
+      "data": {
+        "text": "**Karl Dönitz**\nU-boat commander and navy chief. Succeeded Hitler as president and signed the surrender. Sentenced at Nuremberg.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-student": {
+      "id": "ar-student",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1597.0
+      },
+      "data": {
+        "text": "**Kurt Student**\nLuftwaffe general. Led airborne operations in the Netherlands, Belgium and Crete.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-resist-head": {
+      "id": "ar-resist-head",
+      "areaId": "b-army",
+      "kind": "topic",
+      "position": {
+        "x": 580,
+        "y": 1608.5
+      },
+      "data": {
+        "label": "Generals and resistance",
+        "color": "green"
+      }
+    },
+    "ar-witzleben": {
+      "id": "ar-witzleben",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1667.5
+      },
+      "data": {
+        "text": "**Erwin von Witzleben**\nField marshal and plotter. Was to become commander-in-chief if the July 20 plot succeeded; executed.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-tresckow": {
+      "id": "ar-tresckow",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1681.5
+      },
+      "data": {
+        "text": "**Henning von Tresckow**\nStaff officer and key organizer of the military resistance. Attempted several assassination plots; killed himself after July 20.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-stauffenberg": {
+      "id": "ar-stauffenberg",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1708.5
+      },
+      "data": {
+        "text": "**Claus von Stauffenberg**\nColonel who planted the bomb at the Wolf's Lair on 20 July 1944. Executed the same night.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-olbricht": {
+      "id": "ar-olbricht",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1779.0
+      },
+      "data": {
+        "text": "**Friedrich Olbricht**\nGeneral and plotter. Organized the replacement army in Berlin; executed after the plot failed.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ar-fromm": {
+      "id": "ar-fromm",
+      "areaId": "b-army",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1813.5
+      },
+      "data": {
+        "text": "**Friedrich Fromm**\nCommander of the replacement army. Knew of the plot but refused to join until it seemed to succeed; executed by the SS.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-early": {
+      "id": "b-early",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 903.0
+      },
+      "data": {
+        "label": "War 1939–1941",
+        "color": "yellow"
+      }
+    },
+    "b-early-desc": {
+      "id": "b-early-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 958.0
+      },
+      "data": {
+        "text": "Blitzkrieg victories and the failure before Moscow.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-early-intro": {
+      "id": "b-early-intro",
+      "areaId": "b-early",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The years of victory**\nGermany conquered Poland, Denmark, Norway, the Low Countries and France, drove Britain from the continent and invaded the Soviet Union. By December 1941 the war had become global and the first cracks appeared.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "wa-poland": {
+      "id": "wa-poland",
+      "areaId": "b-early",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 174.5
+      },
+      "data": {
+        "text": "**Polish campaign (September–October 1939)**\nGermany attacked with air power, armor and massed artillery. Warsaw fell on 28 September, and the USSR occupied eastern Poland under the secret pact.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wa-blitz": {
+      "id": "wa-blitz",
+      "areaId": "b-early",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 174.5
+      },
+      "data": {
+        "text": "**Blitzkrieg**\nCombined arms: tanks, motorized infantry, close air support and radio coordination. The aim was to break through, encircle and destroy rather than fight long attritional battles.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wa-sitz": {
+      "id": "wa-sitz",
+      "areaId": "b-early",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 174.5
+      },
+      "data": {
+        "text": "**Sitzkrieg**\nAfter Poland, the western front was quiet for months. France mobilized slowly, Britain sent a small expeditionary force, and Germany prepared its attack.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wa-norway": {
+      "id": "wa-norway",
+      "areaId": "b-early",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Weserübung (April 1940)**\nGermany invaded Denmark and Norway to secure iron ore and Atlantic bases. The campaign succeeded despite the loss of the Blücher and heavy naval casualties.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wa-gelb": {
+      "id": "wa-gelb",
+      "areaId": "b-early",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Fall Gelb (10 May 1940)**\nGermany attacked the Low Countries and France. The main blow came through the Ardennes, where Allied planners expected no armored attack.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wa-sedan": {
+      "id": "wa-sedan",
+      "areaId": "b-early",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Sedan and the Channel**\nPanzer groups crossed the Meuse at Sedan and raced to the coast, cutting off the Allied armies in Belgium. The encirclement was the decisive operational victory.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wa-dunkirk": {
+      "id": "wa-dunkirk",
+      "areaId": "b-early",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**Dunkirk (26 May–4 June 1940)**\nThe British evacuated about 338,000 soldiers. Hitler's halt order and the defense of the perimeter allowed the escape, though most equipment was lost.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wa-rot": {
+      "id": "wa-rot",
+      "areaId": "b-early",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**Fall Rot (June 1940)**\nThe second phase broke the French line and took Paris on 14 June. France signed an armistice on 22 June in the same railway carriage as 1918.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wa-armistice": {
+      "id": "wa-armistice",
+      "areaId": "b-early",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**Armistice (22 June 1940)**\nGermany occupied northern and western France and kept the rest under Vichy rule. Hitler visited Paris and planned the invasion of Britain.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wa-britain": {
+      "id": "wa-britain",
+      "areaId": "b-early",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 570.5
+      },
+      "data": {
+        "text": "**Battle of Britain (July–October 1940)**\nThe Luftwaffe failed to destroy the RAF. Radar, the Dowding System, short-range fighters and German strategic errors saved Britain.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wa-blitz-bomb": {
+      "id": "wa-blitz-bomb",
+      "areaId": "b-early",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 570.5
+      },
+      "data": {
+        "text": "**The Blitz**\nNight bombing of London and other cities killed tens of thousands and destroyed housing but did not break morale or force a peace.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wa-sealion": {
+      "id": "wa-sealion",
+      "areaId": "b-early",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 570.5
+      },
+      "data": {
+        "text": "**Operation Sea Lion**\nThe planned invasion of Britain was postponed indefinitely. The Channel, the Royal Navy and air superiority made it impractical.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wa-balkans": {
+      "id": "wa-balkans",
+      "areaId": "b-early",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 702.5
+      },
+      "data": {
+        "text": "**Balkans (April 1941)**\nGermany invaded Yugoslavia and Greece, rescued Mussolini's failed campaign and secured the southern flank. Crete fell to airborne troops in May.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wa-barbarossa": {
+      "id": "wa-barbarossa",
+      "areaId": "b-early",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 702.5
+      },
+      "data": {
+        "text": "**Operation Barbarossa (22 June 1941)**\nAbout 3.8 million Axis troops attacked the USSR in three army groups: North, Centre and South. The goal was to destroy the Red Army before winter.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wa-kiev": {
+      "id": "wa-kiev",
+      "areaId": "b-early",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 702.5
+      },
+      "data": {
+        "text": "**Kiev encirclement (September 1941)**\nArmy Group South trapped hundreds of thousands of Soviet troops. The victory was enormous but delayed the drive on Moscow.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wa-leningrad": {
+      "id": "wa-leningrad",
+      "areaId": "b-early",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 834.5
+      },
+      "data": {
+        "text": "**Leningrad**\nArmy Group North besieged the city. The siege lasted 872 days and caused mass starvation; it was never taken.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wa-moscow": {
+      "id": "wa-moscow",
+      "areaId": "b-early",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 834.5
+      },
+      "data": {
+        "text": "**Battle of Moscow (October 1941–January 1942)**\nGerman troops reached the suburbs but were stopped by winter, exhaustion and Soviet counteroffensives. The myth of German invincibility broke.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wa-us": {
+      "id": "wa-us",
+      "areaId": "b-early",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 834.5
+      },
+      "data": {
+        "text": "**Declaration of war on the US (11 December 1941)**\nAfter Pearl Harbor, Hitler declared war on the United States. The conflict became a world war against the largest industrial powers.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-turn": {
+      "id": "b-turn",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1042.5
+      },
+      "data": {
+        "label": "Turning point 1942–1943",
+        "color": "orange"
+      }
+    },
+    "b-turn-desc": {
+      "id": "b-turn-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1097.5
+      },
+      "data": {
+        "text": "Stalingrad, El Alamein, Kursk and the loss of initiative.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-turn-intro": {
+      "id": "b-turn-intro",
+      "areaId": "b-turn",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The tide turns**\nGermany's last great offensives failed in the east, North Africa and the Atlantic. From 1943 the Wehrmacht was retreating on every front while Allied bombing and production grew.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "wt-case-blue": {
+      "id": "wt-case-blue",
+      "areaId": "b-turn",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Case Blue (June 1942)**\nGermany attacked toward Stalingrad and the Caucasus oil fields. The front became too long, the flanks too weak and the logistics too thin.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wt-stalingrad": {
+      "id": "wt-stalingrad",
+      "areaId": "b-turn",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Battle of Stalingrad (August 1942–February 1943)**\nUrban fighting consumed the 6th Army. Hitler refused to withdraw and promised relief that never came.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wt-uranus": {
+      "id": "wt-uranus",
+      "areaId": "b-turn",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Operation Uranus (November 1942)**\nSoviet offensives struck the weak Romanian flanks and encircled the 6th Army. Göring promised an air bridge that could not supply the pocket.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wt-paulus": {
+      "id": "wt-paulus",
+      "areaId": "b-turn",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**6th Army surrenders (2 February 1943)**\nPaulus surrendered after the last airfields were lost. About 90,000 Germans went into captivity; few returned. Stalingrad became the symbol of German defeat.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wt-alamein": {
+      "id": "wt-alamein",
+      "areaId": "b-turn",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**El Alamein (October–November 1942)**\nMontgomery's Eighth Army broke Rommel's line. The Axis retreated across Libya, and the British gained the initiative in the Mediterranean.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wt-torch": {
+      "id": "wt-torch",
+      "areaId": "b-turn",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Operation Torch (8 November 1942)**\nUS and British forces landed in Morocco and Algeria. Germany occupied Vichy France and rushed troops to Tunisia.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wt-tunisia": {
+      "id": "wt-tunisia",
+      "areaId": "b-turn",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Tunisia (May 1943)**\nAbout 250,000 Axis troops surrendered, the largest German capitulation so far. North Africa was lost.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wt-kursk": {
+      "id": "wt-kursk",
+      "areaId": "b-turn",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Kursk (July–August 1943)**\nOperation Citadel attacked the Kursk salient and was stopped by deep Soviet defenses. The tank battle at Prokhorovka was costly, and the last German strategic offensive in the east failed.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wt-sicily": {
+      "id": "wt-sicily",
+      "areaId": "b-turn",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Sicily (July 1943)**\nThe Allies invaded and captured the island. Mussolini fell, and Italy began secret negotiations.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wt-italy": {
+      "id": "wt-italy",
+      "areaId": "b-turn",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Italy surrenders (September 1943)**\nItaly signed an armistice. Germany occupied the country, rescued Mussolini and fought a long defensive campaign up the peninsula.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wt-uboat": {
+      "id": "wt-uboat",
+      "areaId": "b-turn",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Black May (1943)**\nConvoy escorts, escort carriers, radar, sonar and codebreaking defeated the U-boat campaign. U-boats were withdrawn from the North Atlantic.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wt-bombing": {
+      "id": "wt-bombing",
+      "areaId": "b-turn",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Bombing war**\nHamburg was destroyed in a firestorm in July 1943. Allied bombing increasingly hit cities, oil and transport, while German production peaked under Speer.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wt-speer": {
+      "id": "wt-speer",
+      "areaId": "b-turn",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Speer's armaments miracle**\nProduction rose in 1943–44 through centralization, rationalization and forced labor, but could not match the US and USSR.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wt-total-war": {
+      "id": "wt-total-war",
+      "areaId": "b-turn",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Total war speech (February 1943)**\nGoebbels demanded total mobilization after Stalingrad. Rationing, women's labor and propaganda intensified, but morale was shaken.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wt-manpower": {
+      "id": "wt-manpower",
+      "areaId": "b-turn",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Manpower crisis**\nGermany conscripted older men, foreign workers and prisoners. The army became weaker while the labor force was drained.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-defeat": {
+      "id": "b-defeat",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1042.5
+      },
+      "data": {
+        "label": "Defeat 1944–1945",
+        "color": "red"
+      }
+    },
+    "b-defeat-desc": {
+      "id": "b-defeat-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1097.5
+      },
+      "data": {
+        "text": "The eastern collapse, the western front and the fall of Berlin.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-defeat-intro": {
+      "id": "b-defeat-intro",
+      "areaId": "b-defeat",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Two fronts, one collapse**\nIn 1944 the Red Army destroyed Army Group Centre and the Western Allies landed in Normandy. By early 1945 Soviet and American forces had reached the Rhine and the Oder, and Berlin fell in May.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "wd-bagration": {
+      "id": "wd-bagration",
+      "areaId": "b-defeat",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Operation Bagration (June–August 1944)**\nThe Red Army destroyed Army Group Centre and advanced to the Vistula. It was the greatest German defeat of the war and opened the road to Poland and East Prussia.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wd-warsaw": {
+      "id": "wd-warsaw",
+      "areaId": "b-defeat",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Warsaw Uprising (August–October 1944)**\nThe Polish Home Army rose as the Red Army paused on the Vistula. Germany crushed the uprising and destroyed the city.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wd-normandy": {
+      "id": "wd-normandy",
+      "areaId": "b-defeat",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Normandy (6 June 1944)**\nThe Western Allies landed five divisions on D-Day. Hedgerow fighting and the Falaise pocket destroyed much of the German army in the west.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wd-falaise": {
+      "id": "wd-falaise",
+      "areaId": "b-defeat",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Falaise pocket**\nGerman forces were encircled in Normandy. Tens of thousands were killed or captured, and the road to Paris opened.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wd-paris": {
+      "id": "wd-paris",
+      "areaId": "b-defeat",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Paris liberated (25 August 1944)**\nFrench and Allied forces entered Paris. De Gaulle restored French authority and the German retreat continued.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wd-dragoon": {
+      "id": "wd-dragoon",
+      "areaId": "b-defeat",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Operation Dragoon (August 1944)**\nAllied landings in southern France drove up the Rhône valley and linked up with the Normandy forces.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wd-market": {
+      "id": "wd-market",
+      "areaId": "b-defeat",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Market Garden (September 1944)**\nAirborne attempts to seize Dutch bridges failed at Arnhem. The last bridge remained in German hands, and the war would not end in 1944.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wd-bulge": {
+      "id": "wd-bulge",
+      "areaId": "b-defeat",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Battle of the Bulge (December 1944–January 1945)**\nGermany's last western offensive broke through the Ardennes but was stopped at Bastogne and elsewhere. It exhausted reserves needed in the east.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wd-vistula": {
+      "id": "wd-vistula",
+      "areaId": "b-defeat",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Vistula–Oder offensive (January 1945)**\nThe Red Army advanced hundreds of kilometers and reached the Oder, about 70 km from Berlin.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wd-east-prussia": {
+      "id": "wd-east-prussia",
+      "areaId": "b-defeat",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**East Prussia**\nSoviet forces overran East Prussia. Millions of German civilians fled west in winter, and the province was annexed by Poland and the USSR.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wd-dresden": {
+      "id": "wd-dresden",
+      "areaId": "b-defeat",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Dresden (February 1945)**\nAllied bombing created a firestorm that killed an estimated 25,000 people. The raid became one of the war's most debated attacks.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wd-rhine": {
+      "id": "wd-rhine",
+      "areaId": "b-defeat",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Rhine crossings (March 1945)**\nAllied forces crossed at Remagen and elsewhere and encircled the Ruhr, trapping hundreds of thousands of German troops.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wd-ruhr": {
+      "id": "wd-ruhr",
+      "areaId": "b-defeat",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Ruhr pocket**\nThe industrial heartland was surrounded and captured, crippling German war production.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wd-elbe": {
+      "id": "wd-elbe",
+      "areaId": "b-defeat",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Elbe Day (25 April 1945)**\nUS and Soviet forces met at Torgau, cutting Germany in two.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wd-berlin": {
+      "id": "wd-berlin",
+      "areaId": "b-defeat",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Battle of Berlin (April–May 1945)**\nThe Red Army surrounded and stormed the capital. Hitler committed suicide on 30 April, and the city surrendered on 2 May.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "wd-surrender": {
+      "id": "wd-surrender",
+      "areaId": "b-defeat",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 732.0
+      },
+      "data": {
+        "text": "**German surrender (7–8 May 1945)**\nGermany surrendered unconditionally at Reims and Berlin. 8 May became VE Day in the west; 9 May is remembered in Russia.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-home": {
+      "id": "b-home",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1042.5
+      },
+      "data": {
+        "label": "Home front & economy",
+        "color": "orange"
+      }
+    },
+    "b-home-desc": {
+      "id": "b-home-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1097.5
+      },
+      "data": {
+        "text": "German society, economy and daily life under total war.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-home-intro": {
+      "id": "b-home-intro",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The German home front**\nNazi propaganda promised unity and victory while bombing, shortages, forced labor and mass death transformed daily life. The regime held out until military collapse made further resistance impossible.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "hm-total": {
+      "id": "hm-total",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Total war**\nFrom 1943 the regime mobilized labor, closed businesses, cut consumer goods and conscripted more men and women. Goebbels's total-war speech demanded sacrifice without limits.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-ration": {
+      "id": "hm-ration",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Rationing**\nFood, clothing, fuel and consumer goods were rationed. Cards and queues shaped daily life, and shortages worsened after 1943.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-women": {
+      "id": "hm-women",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Women**\nNazi ideology praised motherhood, but war production pulled women into factories, transport and administration. Many also worked in agriculture and welfare.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-foreign": {
+      "id": "hm-foreign",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Foreign workers**\nMillions of Poles, Soviets, French, Dutch and others worked in German industry and agriculture. Conditions ranged from poor to deadly.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-forced": {
+      "id": "hm-forced",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Forced labor**\nPrisoners of war, concentration camp inmates and civilians from occupied Europe were worked to death in factories, mines and construction.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-bombing": {
+      "id": "hm-bombing",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Allied bombing**\nCities were attacked day and night. Hamburg, Cologne, Berlin and Dresden were devastated; hundreds of thousands died and millions were homeless.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-evac": {
+      "id": "hm-evac",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Evacuation**\nChildren were sent to the countryside and to Kinderlandverschickung camps. Families were separated, and urban populations moved to safer areas.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-morale": {
+      "id": "hm-morale",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Morale**\nAfter Stalingrad and the bombing offensive, faith in victory declined. Propaganda became more shrill, and fear of the Gestapo and the SS kept most people compliant.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-propaganda": {
+      "id": "hm-propaganda",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Propaganda at home**\nRadio, cinema, newspapers and rallies promised secret weapons and final victory. Defeatism was criminalized, and jokes about the regime could lead to arrest.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-black": {
+      "id": "hm-black",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Black market**\nShortages created a black market and barter economy. Party officials and well-connected people had privileged access to goods.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-medicine": {
+      "id": "hm-medicine",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Health and medicine**\nDoctors faced shortages, bombing casualties and epidemics. Nazi medicine also participated in forced sterilization, euthanasia and human experimentation.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-hj": {
+      "id": "hm-hj",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Young people**\nHitler Youth members were mobilized for war work, collection drives and later the Volkssturm. Some rebelled through the Edelweiss Pirates and Swing Youth.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-volkssturm": {
+      "id": "hm-volkssturm",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Volkssturm (October 1944)**\nOld men and boys were conscripted into a poorly armed militia. It suffered huge casualties and could not stop the Allied advance.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-refugees": {
+      "id": "hm-refugees",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Refugees**\nMillions fled the Red Army from East Prussia, Silesia and Pomerania. Many died from cold, hunger and attacks on the roads.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-casualties": {
+      "id": "hm-casualties",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**German casualties**\nAbout 7 million Germans died, including 3–4 million soldiers and hundreds of thousands in bombing. Millions more were wounded, widowed or displaced.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-food": {
+      "id": "hm-food",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 814.0
+      },
+      "data": {
+        "text": "**Food**\nBread, potatoes and rationed fats were the base of the diet. Occupied Europe was plundered to feed Germany, while Soviet prisoners and camp inmates starved.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-economy": {
+      "id": "hm-economy",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 814.0
+      },
+      "data": {
+        "text": "**War economy**\nOutput peaked in 1944 despite bombing, through forced labor, rationalization and plunder. Fuel and transport shortages then collapsed production.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hm-corruption": {
+      "id": "hm-corruption",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 814.0
+      },
+      "data": {
+        "text": "**Corruption**\nGauleiter and officials profited from confiscated Jewish property, contracts and black-market deals. Privilege undermined the regime's claim to national community.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-holocaust": {
+      "id": "b-holocaust",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1182.0
+      },
+      "data": {
+        "label": "Persecution & Holocaust",
+        "color": "red"
+      }
+    },
+    "b-holocaust-desc": {
+      "id": "b-holocaust-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1237.0
+      },
+      "data": {
+        "text": "Nazi persecution and genocide, from exclusion to extermination.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-holocaust-intro": {
+      "id": "b-holocaust-intro",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The Holocaust**\nThe Nazi regime murdered six million Jews and millions of others. Persecution began with exclusion and plunder, escalated to ghettos and mass shootings, and culminated in extermination camps and death marches.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "ho-persec-head": {
+      "id": "ho-persec-head",
+      "areaId": "b-holocaust",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 174.5
+      },
+      "data": {
+        "label": "Persecution 1933–1939",
+        "color": "red"
+      }
+    },
+    "ho-boycott": {
+      "id": "ho-boycott",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 174.5
+      },
+      "data": {
+        "text": "**Boycott of Jewish businesses (1 April 1933)**\nThe regime organized a nationwide boycott and attacked Jewish shops, lawyers and doctors. It was the first coordinated public persecution.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-civil": {
+      "id": "ho-civil",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 174.5
+      },
+      "data": {
+        "text": "**Civil service purge (April 1933)**\nJewish and politically unreliable officials were dismissed from the civil service, universities and the professions.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-nuremberg": {
+      "id": "ho-nuremberg",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 247.5
+      },
+      "data": {
+        "text": "**Nuremberg Laws (1935)**\nJews lost citizenship and were banned from marrying or having relationships with 'Aryans'. The laws defined persecution by blood.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-kristallnacht": {
+      "id": "ho-kristallnacht",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Kristallnacht (November 1938)**\nA pogrom destroyed synagogues and businesses. About 30,000 Jewish men were arrested, and the community was forced to pay for the damage.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-emigration": {
+      "id": "ho-emigration",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Emigration and Kindertransport**\nJews were stripped of assets and pushed to emigrate. Britain admitted about 10,000 mainly Jewish children on the Kindertransport.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-ghetto-head": {
+      "id": "ho-ghetto-head",
+      "areaId": "b-holocaust",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 379.5
+      },
+      "data": {
+        "label": "Ghettos and mass murder",
+        "color": "red"
+      }
+    },
+    "ho-ghettos": {
+      "id": "ho-ghettos",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Ghettos**\nJews in occupied Poland and the USSR were forced into sealed districts. Overcrowding, starvation and disease killed tens of thousands, especially in Warsaw and Łódź.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-einsatz": {
+      "id": "ho-einsatz",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**Einsatzgruppen**\nMobile killing units followed the army and shot Jews, Roma, communists and others. Local collaborators often took part.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-babi": {
+      "id": "ho-babi",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 452.5
+      },
+      "data": {
+        "text": "**Babi Yar (September 1941)**\nMore than 33,000 Jews from Kiev were shot in two days. Mass shootings continued across Ukraine, Belarus and the Baltic states.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-wannsee": {
+      "id": "ho-wannsee",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Wannsee Conference (20 January 1942)**\nSenior officials coordinated the 'Final Solution' and the deportation of Jews to extermination camps in occupied Poland.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-reinhard": {
+      "id": "ho-reinhard",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Operation Reinhard**\nTreblinka, Sobibor and Bełżec were built purely for mass murder. Together they killed about 1.7 million people, mostly Jews.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-auschwitz": {
+      "id": "ho-auschwitz",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 584.5
+      },
+      "data": {
+        "text": "**Auschwitz-Birkenau**\nThe largest camp complex, combining labor, concentration and extermination. About 1.1 million people died there, most of them Jews.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-camps": {
+      "id": "ho-camps",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Camp system**\nConcentration camps, labor camps and extermination camps were run by the SS. Prisoners were starved, worked to death, gassed or shot.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-forced": {
+      "id": "ho-forced",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Forced labor**\nCamp prisoners and foreign workers produced weapons, chemicals and construction materials. Companies such as IG Farben, Krupp and Thyssen used forced labor.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-death-marches": {
+      "id": "ho-death-marches",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 716.5
+      },
+      "data": {
+        "text": "**Death marches**\nAs the Allies advanced, the SS forced prisoners to march west and east in terrible conditions. Thousands died on the roads.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-other-head": {
+      "id": "ho-other-head",
+      "areaId": "b-holocaust",
+      "kind": "topic",
+      "position": {
+        "x": 580,
+        "y": 793.5
+      },
+      "data": {
+        "label": "Other victims",
+        "color": "red"
+      }
+    },
+    "ho-roma": {
+      "id": "ho-roma",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 814.0
+      },
+      "data": {
+        "text": "**Roma genocide (Porajmos)**\nThe Nazis and their allies murdered hundreds of thousands of Roma, treating them as 'asocial' and racially inferior.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-t4": {
+      "id": "ho-t4",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 828.0
+      },
+      "data": {
+        "text": "**T4 euthanasia program**\nThe secret killing of disabled patients in Germany used gas chambers and doctors. It preceded and helped develop the machinery of the Holocaust.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-lgbt": {
+      "id": "ho-lgbt",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 866.5
+      },
+      "data": {
+        "text": "**Homosexuals**\nGay men were persecuted, imprisoned in camps and forced to wear pink triangles. Lesbians were treated as 'asocial' and also suffered.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-jw": {
+      "id": "ho-jw",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 925.5
+      },
+      "data": {
+        "text": "**Jehovah's Witnesses**\nRefused military service and Nazi ideology. Many were imprisoned in camps and executed for refusing to renounce their faith.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-pows": {
+      "id": "ho-pows",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 960.0
+      },
+      "data": {
+        "text": "**Soviet prisoners of war**\nAbout 3 million Soviet POWs died in German captivity from starvation, exposure and execution. They were among the first mass victims of Nazi racial policy.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-rescue-head": {
+      "id": "ho-rescue-head",
+      "areaId": "b-holocaust",
+      "kind": "topic",
+      "position": {
+        "x": 580,
+        "y": 998.5
+      },
+      "data": {
+        "label": "Resistance, rescue and justice",
+        "color": "red"
+      }
+    },
+    "ho-jewish-res": {
+      "id": "ho-jewish-res",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1057.5
+      },
+      "data": {
+        "text": "**Jewish resistance**\nUprisings in Warsaw, Sobibor and Treblinka, partisan units, smuggling, document forgery and spiritual resistance all defied the Nazis.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-rescue": {
+      "id": "ho-rescue",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1071.5
+      },
+      "data": {
+        "text": "**Rescuers**\nOskar Schindler, Irena Sendler, Raoul Wallenberg, Chiune Sugihara, Nicholas Winton and many others saved Jews at great personal risk.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-wehrmacht": {
+      "id": "ho-wehrmacht",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1092.0
+      },
+      "data": {
+        "text": "**Wehrmacht complicity**\nThe army supported the Einsatzgruppen, starved prisoners and carried out reprisals. The 'clean Wehrmacht' myth was challenged by later research.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-trials": {
+      "id": "ho-trials",
+      "areaId": "b-holocaust",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1189.5
+      },
+      "data": {
+        "text": "**Trials**\nThe Nuremberg Trials, the Eichmann trial and later national prosecutions pursued accountability, though many perpetrators were never tried.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-resistance": {
+      "id": "b-resistance",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1182.0
+      },
+      "data": {
+        "label": "Resistance & opposition",
+        "color": "green"
+      }
+    },
+    "b-resistance-desc": {
+      "id": "b-resistance-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1237.0
+      },
+      "data": {
+        "text": "Those who opposed Hitler: generals, students, churches, workers and individuals.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-resistance-intro": {
+      "id": "b-resistance-intro",
+      "areaId": "b-resistance",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Opposition without a mass base**\nResistance ranged from quiet nonconformity to assassination attempts. It was fragmented, isolated and brutally repressed, but it disproves the claim that no German opposed the regime.",
+        "color": "green"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "re-military-head": {
+      "id": "re-military-head",
+      "areaId": "b-resistance",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "label": "Military and conservative resistance",
+        "color": "green"
+      }
+    },
+    "re-beck": {
+      "id": "re-beck",
+      "areaId": "b-resistance",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Ludwig Beck**\nFormer army chief of staff and central figure in the military resistance. He was to lead a provisional government; killed after July 20.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "re-goerdeler": {
+      "id": "re-goerdeler",
+      "areaId": "b-resistance",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Carl Friedrich Goerdeler**\nFormer Leipzig mayor and civilian leader of the resistance. He was to become chancellor; executed in 1945.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "re-tresckow": {
+      "id": "re-tresckow",
+      "areaId": "b-resistance",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 227.0
+      },
+      "data": {
+        "text": "**Henning von Tresckow**\nStaff officer who organized several assassination attempts and helped plan July 20. Killed himself after the plot failed.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "re-stauffenberg": {
+      "id": "re-stauffenberg",
+      "areaId": "b-resistance",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Claus von Stauffenberg**\nPlanted the bomb at the Wolf's Lair on 20 July 1944. Executed the same night.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "re-july20": {
+      "id": "re-july20",
+      "areaId": "b-resistance",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**20 July 1944 plot**\nA bomb failed to kill Hitler. The coup in Berlin collapsed, and thousands were arrested; about 200 were executed.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "re-kreisau": {
+      "id": "re-kreisau",
+      "areaId": "b-resistance",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 338.5
+      },
+      "data": {
+        "text": "**Kreisau Circle**\nA group of aristocrats, lawyers and clergy who planned a postwar democratic and Christian order. Many members were arrested after July 20.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "re-civilian-head": {
+      "id": "re-civilian-head",
+      "areaId": "b-resistance",
+      "kind": "topic",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "label": "Civilian resistance",
+        "color": "green"
+      }
+    },
+    "re-white-rose": {
+      "id": "re-white-rose",
+      "areaId": "b-resistance",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**White Rose**\nMunich students Hans and Sophie Scholl, Christoph Probst and others distributed anti-Nazi leaflets. They were arrested and executed in 1943.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "re-edelweiss": {
+      "id": "re-edelweiss",
+      "areaId": "b-resistance",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 450.0
+      },
+      "data": {
+        "text": "**Edelweiss Pirates**\nWorking-class youth groups that rejected Hitler Youth discipline, helped deserters and evacuees and sometimes sabotaged the regime.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "re-swing": {
+      "id": "re-swing",
+      "areaId": "b-resistance",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 470.5
+      },
+      "data": {
+        "text": "**Swing Youth**\nYoung people who listened to jazz and rejected Nazi cultural norms. Their nonconformity was treated as political resistance.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "re-church": {
+      "id": "re-church",
+      "areaId": "b-resistance",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Church resistance**\nThe Confessing Church opposed Nazi control of religion. Martin Niemöller and Dietrich Bonhoeffer were imprisoned; Bonhoeffer was executed in 1945.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "re-communist": {
+      "id": "re-communist",
+      "areaId": "b-resistance",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 582.0
+      },
+      "data": {
+        "text": "**Communist resistance**\nUnderground groups distributed leaflets, helped prisoners and gathered intelligence. The Gestapo infiltrated and destroyed most networks.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "re-red-orchestra": {
+      "id": "re-red-orchestra",
+      "areaId": "b-resistance",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 582.0
+      },
+      "data": {
+        "text": "**Red Orchestra (Rote Kapelle)**\nA network of leftists, artists and officials around Harro Schulze-Boysen and Arvid Harnack. It passed intelligence to the USSR and was crushed in 1942.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "re-elser": {
+      "id": "re-elser",
+      "areaId": "b-resistance",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Georg Elser**\nA carpenter who planted a bomb in the Bürgerbräukeller in November 1939 to kill Hitler. Hitler left early; Elser was murdered in Dachau in 1945.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "re-bavaud": {
+      "id": "re-bavaud",
+      "areaId": "b-resistance",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 714.0
+      },
+      "data": {
+        "text": "**Maurice Bavaud**\nA Swiss theology student who tried to assassinate Hitler in 1938. He was executed in 1941.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "re-deserters": {
+      "id": "re-deserters",
+      "areaId": "b-resistance",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 714.0
+      },
+      "data": {
+        "text": "**Deserters and 'cowards'**\nSoldiers and civilians who refused to fight were imprisoned, sent to penal units or executed. The regime treated desertion as treason.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "re-hidden": {
+      "id": "re-hidden",
+      "areaId": "b-resistance",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 793.5
+      },
+      "data": {
+        "text": "**Hiding Jews**\nThousands of Germans hid Jewish neighbors, friends and strangers, often at enormous risk. Rescuers were later honored as Righteous Among the Nations.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "re-after": {
+      "id": "re-after",
+      "areaId": "b-resistance",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 825.5
+      },
+      "data": {
+        "text": "**After the failure**\nThe Gestapo used torture and denunciations to destroy resistance networks. Most plotters were executed, and the regime intensified terror in the final year.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-leaders": {
+      "id": "b-leaders",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1182.0
+      },
+      "data": {
+        "label": "Nazi leaders",
+        "color": "purple"
+      }
+    },
+    "b-leaders-desc": {
+      "id": "b-leaders-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1237.0
+      },
+      "data": {
+        "text": "Hitler's inner circle and the men who ran the Nazi state.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-leaders-intro": {
+      "id": "b-leaders-intro",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Hitler's paladins**\nThe Nazi elite combined ideological fanaticism, bureaucratic power and personal rivalry. Their competition radicalized policy and made the regime more lethal.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "nl-goering": {
+      "id": "nl-goering",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Hermann Göring**\nLuftwaffe chief, Four Year Plan boss, Reichstag president and Hitler's designated successor until 1945. Corrupt, extravagant and increasingly marginal.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nl-goebbels": {
+      "id": "nl-goebbels",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Joseph Goebbels**\nPropaganda minister and Gauleiter of Berlin. Master of mass manipulation and total-war rhetoric. Murdered his children and killed himself in 1945.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nl-himmler": {
+      "id": "nl-himmler",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Heinrich Himmler**\nSS chief, police commander and architect of the camp system and Holocaust. Tried to negotiate with the Allies in 1945; killed himself after capture.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nl-heydrich": {
+      "id": "nl-heydrich",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Reinhard Heydrich**\nHead of the SD and Sicherheitspolizei, chair of the Wannsee Conference and acting Reich Protector of Bohemia and Moravia. Assassinated in Prague in 1942.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nl-hess": {
+      "id": "nl-hess",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Rudolf Hess**\nHitler's deputy until 1941, when he flew to Scotland on a private peace mission. Imprisoned for life; died in Spandau in 1987.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nl-bormann": {
+      "id": "nl-bormann",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Martin Bormann**\nParty chancellery chief and Hitler's secretary. Controlled access to Hitler and became one of the most powerful men in the regime.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nl-speer": {
+      "id": "nl-speer",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Albert Speer**\nArchitect and armaments minister. Expanded war production with forced labor; sentenced at Nuremberg and later contested his responsibility.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nl-donitz": {
+      "id": "nl-donitz",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Karl Dönitz**\nU-boat commander and navy chief. Became president after Hitler and signed the surrender. Sentenced at Nuremberg.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nl-ribbentrop": {
+      "id": "nl-ribbentrop",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Joachim von Ribbentrop**\nForeign minister. Negotiated the Molotov–Ribbentrop Pact and the Axis alliances. Executed at Nuremberg.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nl-rosenberg": {
+      "id": "nl-rosenberg",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Alfred Rosenberg**\nNazi ideologue, racial theorist and minister for the occupied eastern territories. Executed at Nuremberg.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nl-streicher": {
+      "id": "nl-streicher",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Julius Streicher**\nPublisher of the antisemitic newspaper 'Der Stürmer'. Executed at Nuremberg for crimes against humanity.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nl-frank": {
+      "id": "nl-frank",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Hans Frank**\nGovernor-General of occupied Poland. Responsible for mass murder, forced labor and plunder. Executed at Nuremberg.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nl-frick": {
+      "id": "nl-frick",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Wilhelm Frick**\nInterior minister and author of the Nuremberg Laws. Executed at Nuremberg.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nl-ley": {
+      "id": "nl-ley",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Robert Ley**\nHead of the German Labour Front. Organized the destruction of independent unions. Killed himself before trial.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nl-sauckel": {
+      "id": "nl-sauckel",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Fritz Sauckel**\nPlenipotentiary for labor allocation. Organized mass forced labor and deportation. Executed at Nuremberg.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nl-kaltenbrunner": {
+      "id": "nl-kaltenbrunner",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 752.5
+      },
+      "data": {
+        "text": "**Ernst Kaltenbrunner**\nHead of the RSHA after Heydrich. Controlled the Gestapo, SD and extermination apparatus. Executed at Nuremberg.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nl-eichmann": {
+      "id": "nl-eichmann",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 752.5
+      },
+      "data": {
+        "text": "**Adolf Eichmann**\nSS officer who organized the deportation of Jews to the camps. Captured in Argentina, tried in Jerusalem and executed in 1962.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nl-mengele": {
+      "id": "nl-mengele",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Josef Mengele**\nSS doctor at Auschwitz who selected victims and conducted cruel medical experiments. Fled to South America and was never captured.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nl-hoss": {
+      "id": "nl-hoss",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 864.0
+      },
+      "data": {
+        "text": "**Rudolf Höss**\nCommandant of Auschwitz. Expanded the camp into the largest extermination centre. Executed in Poland in 1947.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nl-barbie": {
+      "id": "nl-barbie",
+      "areaId": "b-leaders",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 864.0
+      },
+      "data": {
+        "text": "**Klaus Barbie**\nGestapo chief in Lyon, responsible for torture and deportations. Later worked for US intelligence and fled to Bolivia; convicted in France in 1987.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-downfall": {
+      "id": "b-downfall",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1321.5
+      },
+      "data": {
+        "label": "Downfall & aftermath",
+        "color": "cyan"
+      }
+    },
+    "b-downfall-desc": {
+      "id": "b-downfall-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1376.5
+      },
+      "data": {
+        "text": "1945: the bunker, surrender, occupation and reckoning.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-downfall-intro": {
+      "id": "b-downfall-intro",
+      "areaId": "b-downfall",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Zero hour**\nGermany's military collapse was total. Hitler's suicide, unconditional surrender and Allied occupation ended the Nazi state, and the war's consequences shaped the division of Germany and Europe.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "df-collapse": {
+      "id": "df-collapse",
+      "areaId": "b-downfall",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Military collapse (1945)**\nSoviet forces reached Berlin from the east, while American, British and French forces crossed the Rhine. German armies were shattered, and reserves were gone.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "df-health": {
+      "id": "df-health",
+      "areaId": "b-downfall",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Hitler's health**\nTremors, heart problems, drug dependency and paranoia worsened. He alternated between fantasy offensives and fatalism.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "df-bunker": {
+      "id": "df-bunker",
+      "areaId": "b-downfall",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**The Führerbunker**\nHitler moved underground in Berlin in January 1945. He directed nonexistent armies and refused to leave the city.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "df-goering": {
+      "id": "df-goering",
+      "areaId": "b-downfall",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Göring's telegram**\nIn April 1945 Göring asked whether he should assume leadership. Hitler accused him of treason and stripped him of his offices.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "df-himmler": {
+      "id": "df-himmler",
+      "areaId": "b-downfall",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Himmler's negotiations**\nHimmler tried to negotiate with the Western Allies through Swedish contacts. Hitler expelled him from the party and ordered his arrest.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "df-eva": {
+      "id": "df-eva",
+      "areaId": "b-downfall",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Eva Braun**\nHitler's long-time companion. She married him in the bunker on 29 April 1945 and died with him the next day.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "df-testament": {
+      "id": "df-testament",
+      "areaId": "b-downfall",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Hitler's testament**\nBlamed the Jews for the war, expelled Göring and Himmler and named Dönitz president. It showed no remorse.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "df-suicide": {
+      "id": "df-suicide",
+      "areaId": "b-downfall",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Hitler's suicide (30 April 1945)**\nHitler and Eva Braun killed themselves as Soviet troops fought in Berlin. Their bodies were burned in the Chancellery garden.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "df-donitz": {
+      "id": "df-donitz",
+      "areaId": "b-downfall",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Dönitz government**\nDönitz formed a short-lived government at Flensburg. He sought to surrender to the Western Allies while buying time for soldiers and civilians to flee west.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "df-surrender": {
+      "id": "df-surrender",
+      "areaId": "b-downfall",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Unconditional surrender**\nGermany surrendered at Reims on 7 May and in Berlin on 8 May 1945. The Nazi state ceased to exist.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "df-ve": {
+      "id": "df-ve",
+      "areaId": "b-downfall",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**VE Day**\n8 May was celebrated as Victory in Europe. In Moscow, 9 May became the official victory day.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "df-occupation": {
+      "id": "df-occupation",
+      "areaId": "b-downfall",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Occupation**\nGermany was divided into American, British, French and Soviet zones; Berlin into four sectors. The Allies assumed supreme authority.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "df-denaz": {
+      "id": "df-denaz",
+      "areaId": "b-downfall",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Denazification**\nNazis were removed from public office and tried in categories. The process was uneven and ended as the Cold War prioritized stability.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "df-nuremberg": {
+      "id": "df-nuremberg",
+      "areaId": "b-downfall",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Nuremberg Trials (1945–46)**\nThe first international war crimes tribunal tried Nazi leaders. Twelve were sentenced to death, including Göring, Ribbentrop, Keitel and Jodl.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "df-blockade": {
+      "id": "df-blockade",
+      "areaId": "b-downfall",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Berlin Blockade (1948–49)**\nThe USSR blocked access to West Berlin. The Western airlift supplied the city and deepened the division of Germany.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "df-division": {
+      "id": "df-division",
+      "areaId": "b-downfall",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 752.5
+      },
+      "data": {
+        "text": "**Two Germanys (1949)**\nThe Federal Republic of Germany and the German Democratic Republic were founded. Germany remained divided until 1990.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "df-legacy": {
+      "id": "df-legacy",
+      "areaId": "b-downfall",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 752.5
+      },
+      "data": {
+        "text": "**Legacy**\nThe war and Holocaust shaped German identity, memory culture, education and foreign policy. The Nazi past remains central to debates about guilt, responsibility and democracy.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-timeline": {
+      "id": "b-timeline",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1321.5
+      },
+      "data": {
+        "label": "Timeline 1914–1949",
+        "color": "yellow"
+      }
+    },
+    "b-timeline-desc": {
+      "id": "b-timeline-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1376.5
+      },
+      "data": {
+        "text": "The German road from war to division, year by year.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-timeline-intro": {
+      "id": "b-timeline-intro",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Chronology**\nA fast spine through the German century: war, revolution, republic, dictatorship, war and occupation.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "tl-1914": {
+      "id": "tl-1914",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**1914–1918**\n- **1914** July Crisis; Germany invades Belgium; trench war begins.\n- **1916** Verdun and the Somme; Turnip Winter.\n- **1917** US enters the war; Russia collapses into revolution.\n- **1918** Spring Offensive fails; Hundred Days; Kiel mutiny; Kaiser abdicates; armistice on 11 November.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1919": {
+      "id": "tl-1919",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**1919**\n- **Jan** Spartacist uprising crushed by Freikorps.\n- **Jun** Treaty of Versailles signed.\n- **Aug** Weimar Constitution adopted.\n- **Sep** Hitler joins the German Workers' Party.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1920": {
+      "id": "tl-1920",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**1920–1923**\n- **1920** Kapp Putsch.\n- **1921** Erzberger assassinated.\n- **1922** Rathenau assassinated.\n- **1923** Ruhr occupation; hyperinflation; Beer Hall Putsch.\n- **1923** Hitler sentenced to five years; serves about eight months.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1924": {
+      "id": "tl-1924",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**1924–1929**\n- **1924** Dawes Plan; Hitler writes Mein Kampf.\n- **1925** Locarno; Hindenburg elected president.\n- **1926** Germany joins the League; Bamberg Conference.\n- **1929** Wall Street Crash; Stresemann dies.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1930": {
+      "id": "tl-1930",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 327.0
+      },
+      "data": {
+        "text": "**1930–1932**\n- **1930** Nazi breakthrough: 18.3%.\n- **1932** Hitler runs for president; NSDAP becomes largest party; Papen and Schleicher cabinets fail.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1933": {
+      "id": "tl-1933",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 327.0
+      },
+      "data": {
+        "text": "**1933**\n- **30 Jan** Hitler chancellor.\n- **27 Feb** Reichstag fire.\n- **23 Mar** Enabling Act.\n- **Apr** civil service purge; boycott of Jewish businesses.\n- **May** unions destroyed; book burning.\n- **Jul** one-party state.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1934": {
+      "id": "tl-1934",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**1934**\n- **30 Jun** Night of the Long Knives.\n- **2 Aug** Hindenburg dies; Hitler becomes Führer.\n- **Aug** army swears personal oath.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1935": {
+      "id": "tl-1935",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 459.0
+      },
+      "data": {
+        "text": "**1935–1936**\n- **1935** Rearmament; Nuremberg Laws.\n- **1936** Rhineland remilitarized; Berlin Olympics; Four Year Plan; Condor Legion sent to Spain.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1937": {
+      "id": "tl-1937",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 520.5
+      },
+      "data": {
+        "text": "**1937–1938**\n- **1937** Hossbach Memorandum; preparation for war.\n- **Mar 1938** Anschluss.\n- **Sep 1938** Munich Agreement.\n- **Nov 1938** Kristallnacht.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1939": {
+      "id": "tl-1939",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 570.5
+      },
+      "data": {
+        "text": "**1939**\n- **Mar** Prague occupied.\n- **Aug** Molotov–Ribbentrop Pact.\n- **1 Sep** Invasion of Poland.\n- **3 Sep** Britain and France declare war.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1940": {
+      "id": "tl-1940",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 591.0
+      },
+      "data": {
+        "text": "**1940**\n- **Apr** Denmark and Norway.\n- **May** Low Countries and France attacked.\n- **Jun** Dunkirk; France surrenders.\n- **Jul–Oct** Battle of Britain; Blitz.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1941": {
+      "id": "tl-1941",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 673.0
+      },
+      "data": {
+        "text": "**1941**\n- **Apr** Balkans invaded.\n- **22 Jun** Barbarossa.\n- **Sep** Kiev; Leningrad besieged.\n- **Dec** Moscow counteroffensive; Germany declares war on the US.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1942": {
+      "id": "tl-1942",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 723.0
+      },
+      "data": {
+        "text": "**1942**\n- **Jan** Wannsee Conference.\n- **Jun** Case Blue.\n- **Aug** Stalingrad begins.\n- **Oct–Nov** El Alamein.\n- **Nov** Torch; Uranus encircles Stalingrad.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1943": {
+      "id": "tl-1943",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 743.5
+      },
+      "data": {
+        "text": "**1943**\n- **2 Feb** 6th Army surrenders.\n- **May** Tunisia lost.\n- **Jul** Kursk; Sicily.\n- **Sep** Italy surrenders.\n- **Oct** Italy declares war on Germany.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1944": {
+      "id": "tl-1944",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 846.0
+      },
+      "data": {
+        "text": "**1944**\n- **Jun** D-Day; Bagration.\n- **Jul** 20 July plot.\n- **Aug** Paris liberated; Warsaw Uprising.\n- **Dec** Battle of the Bulge.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1945": {
+      "id": "tl-1945",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 896.0
+      },
+      "data": {
+        "text": "**1945**\n- **Jan** Vistula–Oder offensive.\n- **Feb** Yalta; Dresden.\n- **Apr** Berlin offensive; Hitler suicide.\n- **8 May** unconditional surrender.\n- **Nov** Nuremberg Trials begin.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1949": {
+      "id": "tl-1949",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 916.5
+      },
+      "data": {
+        "text": "**1946–1949**\n- **1946** Nuremberg verdicts; denazification.\n- **1948–49** Berlin Blockade and airlift.\n- **1949** Federal Republic and GDR founded; Germany divided.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    }
+  },
+  "edges": {},
+  "viewports": {}
+}

@@ -1,0 +1,6545 @@
+{
+  "app": "mindmap",
+  "version": 1,
+  "name": "China 1949-1976",
+  "nodes": {
+    "root-title": {
+      "id": "root-title",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "**China 1949-1976** - Revolution and Cultural Revolution",
+        "color": "red"
+      }
+    },
+    "root-intro": {
+      "id": "root-intro",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 72
+      },
+      "data": {
+        "text": "**The People's Republic of China**\nFrom the Communist victory in the civil war to the death of Mao Zedong. The map follows land reform, the Korean War, the First Five-Year Plan, the Hundred Flowers and Anti-Rightist campaigns, the Great Leap Forward and famine, and the Cultural Revolution of 1966-1976: Red Guards, purges, military rule, the Gang of Four and the succession crisis that ended the Maoist era.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "root-howto": {
+      "id": "root-howto",
+      "areaId": "root",
+      "kind": "sticky",
+      "position": {
+        "x": 620,
+        "y": 0
+      },
+      "data": {
+        "text": "**How to read this map**\nEach branch opens into its own area. Click the number badge on a topic to go inside. Colours group related material: red for Maoist campaigns and the Cultural Revolution; cyan for politics, culture and diplomacy; yellow for the early PRC and timeline; orange for famine, youth and daily life; purple for people, purges and human cost; green for the army, order and aftermath.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "root-overview": {
+      "id": "root-overview",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 245
+      },
+      "data": {
+        "text": "**At a glance**\n- **1 Oct 1949** - Mao proclaims the People's Republic\n- **1950-53** - land reform, campaigns, Korean War\n- **1953-57** - First Five-Year Plan and Soviet model\n- **1957** - Anti-Rightist Campaign\n- **1958-61** - Great Leap Forward and famine\n- **1966** - Cultural Revolution launched\n- **1966-68** - Red Guards, purges, factional violence\n- **1969** - 9th Party Congress; Lin Biao named successor\n- **1971** - Lin Biao dies after alleged coup plot\n- **1973-76** - Gang of Four and succession struggle\n- **9 Sep 1976** - Mao dies; Gang arrested in October",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "b-background": {
+      "id": "b-background",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 583.0
+      },
+      "data": {
+        "label": "Road to 1949",
+        "color": "yellow"
+      }
+    },
+    "b-background-desc": {
+      "id": "b-background-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 638.0
+      },
+      "data": {
+        "text": "Civil war, the CCP, the KMT and the Communist victory.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-background-intro": {
+      "id": "b-background-intro",
+      "areaId": "b-background",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**How the CCP won**\nThe Chinese Communist Party survived encirclement, the Long March and the Japanese invasion, built rural bases and defeated the Nationalists in a civil war that ended in 1949.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "bg-ccp": {
+      "id": "bg-ccp",
+      "areaId": "b-background",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**CCP founded (1921)**\nThe Chinese Communist Party was founded in Shanghai with Comintern help. It was small, urban and initially allied with the Nationalists.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bg-united": {
+      "id": "bg-united",
+      "areaId": "b-background",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**First United Front**\nThe CCP and the Kuomintang (KMT) allied against warlords and imperialism. The alliance collapsed in 1927 when Chiang Kai-shek turned on the Communists.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bg-1927": {
+      "id": "bg-1927",
+      "areaId": "b-background",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Shanghai massacre (1927)**\nChiang's purge killed thousands of Communists and workers. The CCP was driven underground and began armed struggle.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bg-jiangxi": {
+      "id": "bg-jiangxi",
+      "areaId": "b-background",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Jiangxi Soviet**\nMao built rural bases in Jiangxi and experimented with land reform and guerrilla warfare. The KMT encircled the area in a series of campaigns.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bg-long": {
+      "id": "bg-long",
+      "areaId": "b-background",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Long March (1934-35)**\nThe Red Army broke out of Jiangxi and marched thousands of kilometers to Shaanxi. The march became a founding myth of the CCP and Mao's leadership.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bg-yanan": {
+      "id": "bg-yanan",
+      "areaId": "b-background",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Yan'an**\nThe CCP's base in Shaanxi became the centre of Chinese communism. Mao consolidated power through party rectification and ideological campaigns.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bg-japan": {
+      "id": "bg-japan",
+      "areaId": "b-background",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Sino-Japanese War (1937-45)**\nJapan invaded China. The KMT and CCP formed a second united front, but both also prepared for the postwar struggle.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bg-civil": {
+      "id": "bg-civil",
+      "areaId": "b-background",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Civil war (1945-49)**\nAfter Japan's surrender, the KMT and CCP fought for control. The Communists won support through land reform and disciplined rural organization.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bg-kmt": {
+      "id": "bg-kmt",
+      "areaId": "b-background",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Nationalist weaknesses**\nThe KMT government suffered from corruption, inflation, factionalism and military overextension. Its urban base eroded as the economy collapsed.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bg-land": {
+      "id": "bg-land",
+      "areaId": "b-background",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Land reform in the bases**\nThe CCP redistributed land and mobilized peasants. Class struggle and mass campaigns became instruments of control.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bg-pla": {
+      "id": "bg-pla",
+      "areaId": "b-background",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**People's Liberation Army**\nThe PLA grew from guerrilla forces into a mass army. Its victories at Huaihai and across the Yangtze opened the way to national power.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bg-us": {
+      "id": "bg-us",
+      "areaId": "b-background",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**US mediation**\nThe US tried to broker a coalition government and supported the KMT. Its mediation failed, and Washington later blamed the 'loss of China' on domestic politics.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bg-soviet": {
+      "id": "bg-soviet",
+      "areaId": "b-background",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Soviet support**\nThe USSR assisted the CCP in Manchuria and recognized the new state. The Sino-Soviet alliance shaped the early PRC.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bg-taiwan": {
+      "id": "bg-taiwan",
+      "areaId": "b-background",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Taiwan**\nThe KMT retreated to Taiwan in 1949 and established a rival government. The PRC claimed the island, and the conflict remained unresolved.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bg-oct1": {
+      "id": "bg-oct1",
+      "areaId": "b-background",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**1 October 1949**\nMao proclaimed the People's Republic from the Gate of Heavenly Peace in Beijing. The new government controlled most of mainland China.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bg-common": {
+      "id": "bg-common",
+      "areaId": "b-background",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 732.0
+      },
+      "data": {
+        "text": "**Common Program**\nThe CPPCC adopted a provisional constitution promising a coalition government, land reform, women's rights and national unity.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "bg-people": {
+      "id": "bg-people",
+      "areaId": "b-background",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 814.0
+      },
+      "data": {
+        "text": "**A new state**\nThe PRC was a party-state: the CCP controlled government, army and mass organizations. Mass campaigns became the main instrument of policy.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-founding": {
+      "id": "b-founding",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 583.0
+      },
+      "data": {
+        "label": "Founding the PRC",
+        "color": "red"
+      }
+    },
+    "b-founding-desc": {
+      "id": "b-founding-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 638.0
+      },
+      "data": {
+        "text": "State-building, the Common Program, land reform and the Korean War.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-founding-intro": {
+      "id": "b-founding-intro",
+      "areaId": "b-founding",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The new regime**\nThe PRC inherited a devastated economy, a fragmented society and unresolved war. The CCP moved quickly to consolidate power, mobilize the population and align with the Soviet bloc.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "fd-cppcc": {
+      "id": "fd-cppcc",
+      "areaId": "b-founding",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**CPPCC (September 1949)**\nThe Chinese People's Political Consultative Conference met in Beijing and adopted the Common Program. It included non-Communist parties under CCP leadership.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fd-government": {
+      "id": "fd-government",
+      "areaId": "b-founding",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Central People's Government**\nMao became chairman, Zhou Enlai premier, Liu Shaoqi a leading vice chairman and Zhu De commander of the PLA. Real power lay with the CCP Politburo.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fd-common": {
+      "id": "fd-common",
+      "areaId": "b-founding",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Common Program**\nPromised land to peasants, protection for national capitalists, equality for women and nationalities, and a coalition government. Many promises were soon overtaken by campaigns.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fd-land": {
+      "id": "fd-land",
+      "areaId": "b-founding",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Land Reform Law (1950)**\nLand was confiscated from landlords and redistributed to poor peasants. Class labels determined rights and punishments.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fd-land-campaign": {
+      "id": "fd-land-campaign",
+      "areaId": "b-founding",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Land reform campaign**\nMass meetings, struggle sessions and executions were used to destroy landlord power. Estimates of those killed range from hundreds of thousands to over a million.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fd-marriage": {
+      "id": "fd-marriage",
+      "areaId": "b-founding",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Marriage Law (1950)**\nBanned arranged marriage, concubinage and child betrothal, and gave women equal rights to divorce and property. Implementation varied greatly in the countryside.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fd-korea": {
+      "id": "fd-korea",
+      "areaId": "b-founding",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Korean War (1950-53)**\nChina intervened after UN forces approached the Yalu. The war cost hundreds of thousands of Chinese lives and deepened the alliance with the USSR.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fd-resist": {
+      "id": "fd-resist",
+      "areaId": "b-founding",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Resist America, Aid Korea**\nThe campaign mobilized volunteers, donations and propaganda. It also intensified suspicion of internal enemies and foreigners.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fd-counter": {
+      "id": "fd-counter",
+      "areaId": "b-founding",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Suppression of counterrevolutionaries**\nA nationwide campaign arrested, tried and executed alleged KMT agents, bandits and political opponents. The terror consolidated local control.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fd-three": {
+      "id": "fd-three",
+      "areaId": "b-founding",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Three Antis (1951-52)**\nTargeted corruption, waste and bureaucracy among party and state officials. Confessions and mass criticism were used to discipline the bureaucracy.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fd-five": {
+      "id": "fd-five",
+      "areaId": "b-founding",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Five Antis (1952)**\nTargeted bribery, tax evasion, theft of state property, cheating on contracts and stealing economic information by private businessmen. It damaged the private sector.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fd-thought": {
+      "id": "fd-thought",
+      "areaId": "b-founding",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Thought reform**\nIntellectuals, teachers and officials were subjected to study sessions, criticism and self-criticism. The aim was to replace independent thinking with party loyalty.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fd-tibet": {
+      "id": "fd-tibet",
+      "areaId": "b-founding",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Tibet (1950-51)**\nThe PLA entered Tibet, and the Seventeen Point Agreement recognized Chinese sovereignty while promising autonomy. Resistance and later repression followed.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fd-xinjiang": {
+      "id": "fd-xinjiang",
+      "areaId": "b-founding",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Xinjiang**\nThe PRC established control over Xinjiang and promoted economic development, Han migration and political consolidation. Local autonomy was limited in practice.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fd-religion": {
+      "id": "fd-religion",
+      "areaId": "b-founding",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Religion**\nThe regime controlled religious organizations through patriotic associations. Foreign missionaries were expelled, and religious practice was increasingly restricted.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fd-economy": {
+      "id": "fd-economy",
+      "areaId": "b-founding",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 793.5
+      },
+      "data": {
+        "text": "**Economic reconstruction**\nInflation was controlled, railways rebuilt and state ownership expanded. The government introduced rationing, price controls and central planning.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fd-soviet": {
+      "id": "fd-soviet",
+      "areaId": "b-founding",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 793.5
+      },
+      "data": {
+        "text": "**Sino-Soviet Treaty (1950)**\nMao and Stalin signed a treaty of friendship and alliance. The USSR provided loans, advisers and industrial equipment.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fd-propaganda": {
+      "id": "fd-propaganda",
+      "areaId": "b-founding",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 814.0
+      },
+      "data": {
+        "text": "**Propaganda**\nNewspapers, radio, schools and mass organizations spread Mao's image and party ideology. The PLA and party committees controlled information.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fd-women": {
+      "id": "fd-women",
+      "areaId": "b-founding",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 905.0
+      },
+      "data": {
+        "text": "**Women's mobilization**\nWomen were encouraged to work, join organizations and reject feudal family roles. Rights were real but subordinate to party goals.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-consolidation": {
+      "id": "b-consolidation",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 583.0
+      },
+      "data": {
+        "label": "Consolidation 1949-1953",
+        "color": "orange"
+      }
+    },
+    "b-consolidation-desc": {
+      "id": "b-consolidation-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 638.0
+      },
+      "data": {
+        "text": "Land reform, mass campaigns, thought reform and the Korean War.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-consolidation-intro": {
+      "id": "b-consolidation-intro",
+      "areaId": "b-consolidation",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Revolution from above and below**\nThe CCP consolidated power through land reform, class struggle, mass organizations and campaigns against perceived enemies. Violence and mobilization were central to state-building.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "cs-land": {
+      "id": "cs-land",
+      "areaId": "b-consolidation",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Land reform**\nLandlords were stripped of property and status; poor and middle peasants received land. The campaign destroyed the old rural elite and tied villagers to the party-state.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cs-class": {
+      "id": "cs-class",
+      "areaId": "b-consolidation",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Class labels**\nFamilies were classified as landlords, rich, middle, poor or hired peasants. Labels were inherited and could determine education, marriage and political rights.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cs-struggle": {
+      "id": "cs-struggle",
+      "areaId": "b-consolidation",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Struggle sessions**\nPublic denunciations, beatings and humiliation were used against landlords, officials and 'enemies'. They became a model for later campaigns.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cs-counter": {
+      "id": "cs-counter",
+      "areaId": "b-consolidation",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Counterrevolutionaries**\nThe campaign targeted KMT remnants, bandits, secret societies and suspected opponents. Many were executed after mass trials.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cs-three": {
+      "id": "cs-three",
+      "areaId": "b-consolidation",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Three Antis**\nCorruption, waste and bureaucracy. Officials were investigated, criticized and punished; the campaign strengthened central control.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cs-five": {
+      "id": "cs-five",
+      "areaId": "b-consolidation",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Five Antis**\nPrivate businessmen were accused of bribery, tax evasion and theft. Many paid fines, lost businesses or were publicly humiliated.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cs-thought": {
+      "id": "cs-thought",
+      "areaId": "b-consolidation",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Thought reform**\nIntellectuals were sent to revolutionary colleges and study sessions. They were expected to criticize their old ideas and adopt Marxism-Leninism-Mao Zedong Thought.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cs-korea": {
+      "id": "cs-korea",
+      "areaId": "b-consolidation",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Korean War**\nChina sent the People's Volunteers across the Yalu in October 1950. The war ended in a stalemate at Panmunjom in 1953.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cs-mobilize": {
+      "id": "cs-mobilize",
+      "areaId": "b-consolidation",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Mass mobilization**\nTrade unions, women's federations, youth leagues and neighborhood committees organized the population for campaigns, production and surveillance.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cs-tibet": {
+      "id": "cs-tibet",
+      "areaId": "b-consolidation",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Tibet**\nThe PLA took Chamdo in 1950 and negotiated the 1951 agreement. The young Dalai Lama remained in Tibet, but Chinese authority grew.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cs-taiwan": {
+      "id": "cs-taiwan",
+      "areaId": "b-consolidation",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Taiwan Strait**\nThe PRC prepared to attack Taiwan but lacked a navy and air force. The US Seventh Fleet intervened after the Korean War began.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cs-soviet": {
+      "id": "cs-soviet",
+      "areaId": "b-consolidation",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Soviet model**\nThe PRC adopted central planning, state ownership, Soviet-style ministries and military organization. Soviet advisers were influential in the early 1950s.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cs-results": {
+      "id": "cs-results",
+      "areaId": "b-consolidation",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Results**\nThe regime survived its first years, controlled the cities and countryside, and began industrialization. The human cost was high, and independent institutions were destroyed.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-fiveyear": {
+      "id": "b-fiveyear",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 722.5
+      },
+      "data": {
+        "label": "First Five-Year Plan",
+        "color": "yellow"
+      }
+    },
+    "b-fiveyear-desc": {
+      "id": "b-fiveyear-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 777.5
+      },
+      "data": {
+        "text": "1953-1957: Soviet-style industrialization, collectivization and the 1954 constitution.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-fiveyear-intro": {
+      "id": "b-fiveyear-intro",
+      "areaId": "b-fiveyear",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Building socialism**\nThe First Five-Year Plan prioritized heavy industry and state control. Agriculture was collectivized, private enterprise was nationalized and the party tightened its grip on the state.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "fp-plan": {
+      "id": "fp-plan",
+      "areaId": "b-fiveyear",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**First Five-Year Plan (1953-57)**\nTargeted steel, coal, machinery, electricity and transport. Soviet loans and advisers supported 156 major industrial projects.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fp-industry": {
+      "id": "fp-industry",
+      "areaId": "b-fiveyear",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Heavy industry**\nSteel plants, machine works, power stations and railways expanded. Consumer goods and agriculture received less investment.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fp-agriculture": {
+      "id": "fp-agriculture",
+      "areaId": "b-fiveyear",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Agricultural collectivization**\nMutual aid teams became lower-stage cooperatives, then higher-stage collective farms. Private landownership was abolished.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fp-nationalize": {
+      "id": "fp-nationalize",
+      "areaId": "b-fiveyear",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Nationalization**\nPrivate industry and commerce were transformed through joint state-private ownership and then state control. The private sector was effectively eliminated.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fp-constitution": {
+      "id": "fp-constitution",
+      "areaId": "b-fiveyear",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**1954 Constitution**\nEstablished the National People's Congress, a unitary state and socialist ownership. It promised rights but placed the CCP above the state.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fp-npc": {
+      "id": "fp-npc",
+      "areaId": "b-fiveyear",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**National People's Congress**\nThe new legislature met in 1954 and elected Mao as chairman. Real decisions were made by the party leadership.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fp-army": {
+      "id": "fp-army",
+      "areaId": "b-fiveyear",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Army modernization**\nThe PLA adopted ranks, uniforms and Soviet-style organization. It remained a party army under Mao's ultimate authority.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fp-hukou": {
+      "id": "fp-hukou",
+      "areaId": "b-fiveyear",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Hukou system**\nThe household registration system restricted rural-to-urban migration and tied people to their birthplace for food, work and welfare.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fp-gao": {
+      "id": "fp-gao",
+      "areaId": "b-fiveyear",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Gao Gang and Rao Shushan**\nA 1954 purge removed two senior officials accused of factionalism. It showed that elite unity was enforced through fear.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fp-hundred": {
+      "id": "fp-hundred",
+      "areaId": "b-fiveyear",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Hundred Flowers (1956)**\nMao invited intellectuals to criticize the party. The campaign briefly encouraged openness before the Anti-Rightist backlash.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fp-sino-soviet": {
+      "id": "fp-sino-soviet",
+      "areaId": "b-fiveyear",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Sino-Soviet relations**\nThe alliance was close, but Mao resented Soviet paternalism. Khrushchev's de-Stalinization in 1956 alarmed him.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fp-results": {
+      "id": "fp-results",
+      "areaId": "b-fiveyear",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Results**\nIndustrial output grew, but agriculture lagged, collectivization was resisted and the party-state became more centralized.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-hundred": {
+      "id": "b-hundred",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 722.5
+      },
+      "data": {
+        "label": "Hundred Flowers & Anti-Rightist",
+        "color": "cyan"
+      }
+    },
+    "b-hundred-desc": {
+      "id": "b-hundred-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 777.5
+      },
+      "data": {
+        "text": "1956-1957: liberalization, criticism and the backlash.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-hundred-intro": {
+      "id": "b-hundred-intro",
+      "areaId": "b-hundred",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Opening and closing**\nMao briefly encouraged criticism to expose bureaucracy and test loyalty. When the criticism became too sharp, he launched a massive campaign against 'rightists'.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "hb-khrushchev": {
+      "id": "hb-khrushchev",
+      "areaId": "b-hundred",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Khrushchev's secret speech (1956)**\nKhrushchev denounced Stalin at the 20th Soviet Party Congress. Mao feared instability and resented Soviet criticism of Stalin.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hb-hundred": {
+      "id": "hb-hundred",
+      "areaId": "b-hundred",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Let a hundred flowers bloom**\nMao invited intellectuals and cadres to speak freely about party mistakes. The slogan promised cultural and scientific freedom.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hb-criticism": {
+      "id": "hb-criticism",
+      "areaId": "b-hundred",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Criticism**\nStudents, writers and officials criticized bureaucracy, censorship, privileges and the party's control of culture. Some questioned one-party rule.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hb-reaction": {
+      "id": "hb-reaction",
+      "areaId": "b-hundred",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Mao's reaction**\nMao concluded that the criticism was organized by enemies. He reversed course and turned the campaign into a hunt for rightists.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hb-anti": {
+      "id": "hb-anti",
+      "areaId": "b-hundred",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Anti-Rightist Campaign (1957)**\nHundreds of thousands of intellectuals, students and cadres were labeled rightists, dismissed, sent to labor camps or exiled. About 550,000 were officially classified.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hb-scar": {
+      "id": "hb-scar",
+      "areaId": "b-hundred",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Lasting scar**\nThe campaign silenced intellectuals and destroyed trust. It also strengthened Mao's control over the party and made criticism of him dangerous.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hb-party": {
+      "id": "hb-party",
+      "areaId": "b-hundred",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Party discipline**\nThe campaign was used to settle scores and remove critics. Many victims were not dissidents but loyal officials who had spoken too freely.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hb-contradictions": {
+      "id": "hb-contradictions",
+      "areaId": "b-hundred",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**On the Correct Handling of Contradictions (1957)**\nMao distinguished 'contradictions among the people' from those with enemies. The essay seemed to invite debate but also justified suppressing unacceptable views.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hb-contend": {
+      "id": "hb-contend",
+      "areaId": "b-hundred",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Great contending**\nThe campaign encouraged criticism of party and government. When intellectuals raised fundamental questions, Mao treated the outpouring as a threat.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hb-legacy": {
+      "id": "hb-legacy",
+      "areaId": "b-hundred",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Legacy**\nThe Anti-Rightist Campaign became a model for later purges. Rehabilitation began only after Mao's death, and many victims were never fully compensated.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-leap": {
+      "id": "b-leap",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 743.0
+      },
+      "data": {
+        "label": "Great Leap Forward",
+        "color": "red"
+      }
+    },
+    "b-leap-desc": {
+      "id": "b-leap-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 798.0
+      },
+      "data": {
+        "text": "1958-1961: communes, backyard steel, false reporting and catastrophe.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-leap-intro": {
+      "id": "b-leap-intro",
+      "areaId": "b-leap",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The Great Leap**\nMao tried to overtake Britain and the United States in a few years through mass mobilization. The result was economic chaos, environmental destruction and a famine that killed millions.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "gl-launch": {
+      "id": "gl-launch",
+      "areaId": "b-leap",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Launch (1958)**\nMao announced the General Line: 'go all out, aim high, build socialism faster, better and more economically'. The Great Leap Forward began.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "gl-communes": {
+      "id": "gl-communes",
+      "areaId": "b-leap",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**People's communes**\nRural collectives were merged into huge communes that controlled land, labor, food and family life. Private plots and markets were abolished.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "gl-steel": {
+      "id": "gl-steel",
+      "areaId": "b-leap",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Backyard steel furnaces**\nMillions built crude furnaces to produce steel. Farmers, students and workers were diverted from harvests; much of the steel was useless.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "gl-targets": {
+      "id": "gl-targets",
+      "areaId": "b-leap",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Unrealistic targets**\nCadres reported impossible grain and steel outputs to avoid punishment. Procurement quotas were based on lies, leaving peasants without food.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "gl-labor": {
+      "id": "gl-labor",
+      "areaId": "b-leap",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Labor armies**\nPeasants were organized into military-style work brigades for irrigation, construction and steel production. Local initiative was replaced by command.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "gl-fourpests": {
+      "id": "gl-fourpests",
+      "areaId": "b-leap",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Four Pests campaign**\nSparrows were killed as pests, disrupting ecology. The campaign contributed to crop losses before it was revised.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "gl-reporting": {
+      "id": "gl-reporting",
+      "areaId": "b-leap",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**False reporting**\nLocal officials exaggerated production and hid shortages. The centre believed the reports and continued to demand grain.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "gl-lushan": {
+      "id": "gl-lushan",
+      "areaId": "b-leap",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Lushan Conference (1959)**\nPeng Dehuai criticized the Leap. Mao purged him and turned the meeting against 'right deviationists', intensifying the campaign.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "gl-peng": {
+      "id": "gl-peng",
+      "areaId": "b-leap",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Peng Dehuai**\nDefense minister and war hero. His criticism of the Great Leap led to his dismissal and persecution.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "gl-famine": {
+      "id": "gl-famine",
+      "areaId": "b-leap",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Famine (1959-61)**\nGrain shortages, procurement, drought and policy failure caused mass starvation. Estimates of excess deaths range from about 15 million to 45 million.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "gl-cannibalism": {
+      "id": "gl-cannibalism",
+      "areaId": "b-leap",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Extreme hunger**\nReports of cannibalism, infanticide and mass deaths circulated in some regions. Local officials often concealed the crisis.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "gl-cities": {
+      "id": "gl-cities",
+      "areaId": "b-leap",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Urban impact**\nCities received priority but still faced shortages. Rationing, queuing and malnutrition affected workers and their families.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "gl-blame": {
+      "id": "gl-blame",
+      "areaId": "b-leap",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Blame and cover-up**\nThe regime blamed natural disasters and local 'bad elements'. The scale of the catastrophe was hidden from the public.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "gl-retreat": {
+      "id": "gl-retreat",
+      "areaId": "b-leap",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Mao's retreat**\nMao gave up day-to-day economic management but remained party chairman. Liu Shaoqi and Deng Xiaoping took charge of recovery.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "gl-social": {
+      "id": "gl-social",
+      "areaId": "b-leap",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Social costs**\nTrust in the party was damaged, especially in rural areas. Millions of families lost relatives, land and security.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-famine": {
+      "id": "b-famine",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 862.0
+      },
+      "data": {
+        "label": "Famine & recovery 1959-1965",
+        "color": "orange"
+      }
+    },
+    "b-famine-desc": {
+      "id": "b-famine-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 917.0
+      },
+      "data": {
+        "text": "Starvation, policy adjustment and the turn back to class struggle.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-famine-intro": {
+      "id": "b-famine-intro",
+      "areaId": "b-famine",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**After the Leap**\nThe regime faced a demographic catastrophe and an economic crisis. Liu Shaoqi and Deng Xiaoping restored household incentives and agriculture, while Mao feared losing control.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "fm-deaths": {
+      "id": "fm-deaths",
+      "areaId": "b-famine",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Death toll**\nExcess deaths in the Great Leap famine are usually estimated at 15-45 million, with many scholars citing around 30 million. The exact number remains debated.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fm-causes": {
+      "id": "fm-causes",
+      "areaId": "b-famine",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Causes**\nPolicy failure, forced procurement, collectivization, false reporting, weather and the diversion of labor to steel and construction all contributed.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fm-famine": {
+      "id": "fm-famine",
+      "areaId": "b-famine",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Famine conditions**\nPeasants ate bark, grass and soil. Disease and malnutrition spread, and local officials sometimes punished those who tried to flee.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fm-hidden": {
+      "id": "fm-hidden",
+      "areaId": "b-famine",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Secrecy**\nThe government suppressed reports of famine and rejected foreign aid. Journalists and officials who exposed the crisis were punished.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fm-recovery": {
+      "id": "fm-recovery",
+      "areaId": "b-famine",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Recovery policies (1961-62)**\nPrivate plots, rural markets and smaller production units were restored. Grain imports and reduced procurement helped stabilize food supply.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fm-adjust": {
+      "id": "fm-adjust",
+      "areaId": "b-famine",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**'Adjust, consolidate, fill out, raise standards'**\nThe 1961 policy slogan summed up the retreat from the Great Leap. Communes were reduced in size, private plots restored and investment rebalanced.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fm-liu": {
+      "id": "fm-liu",
+      "areaId": "b-famine",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Liu Shaoqi**\nPresident of the PRC and a leading advocate of recovery. He became a target of Mao's later Cultural Revolution.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fm-deng": {
+      "id": "fm-deng",
+      "areaId": "b-famine",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Deng Xiaoping**\nParty general secretary and recovery manager. His pragmatic policies were later denounced as 'capitalist roading'.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fm-7000": {
+      "id": "fm-7000",
+      "areaId": "b-famine",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Seven Thousand Cadres Conference (1962)**\nParty leaders met to discuss the crisis. Mao offered a partial self-criticism but resented criticism of his policies.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fm-class": {
+      "id": "fm-class",
+      "areaId": "b-famine",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Class struggle returns**\nMao warned that class enemies and revisionism threatened socialism. He increasingly blamed Liu, Deng and the party bureaucracy.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fm-socialist": {
+      "id": "fm-socialist",
+      "areaId": "b-famine",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Socialist Education Movement (1963-66)**\nA rural campaign against corruption, local officials and 'class enemies'. It became a rehearsal for the Cultural Revolution.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fm-lei": {
+      "id": "fm-lei",
+      "areaId": "b-famine",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Lei Feng campaign**\nThe PLA soldier Lei Feng was promoted as a model of selfless loyalty. Propaganda emphasized sacrifice, discipline and devotion to Mao.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fm-economy": {
+      "id": "fm-economy",
+      "areaId": "b-famine",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Economic recovery**\nIndustry and agriculture recovered by the mid-1960s. The regime claimed success while suppressing the memory of the famine.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fm-mao": {
+      "id": "fm-mao",
+      "areaId": "b-famine",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Mao's position**\nMao remained chairman but feared that the party bureaucracy was betraying the revolution. He began to prepare a new mass campaign.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-prelude": {
+      "id": "b-prelude",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 882.5
+      },
+      "data": {
+        "label": "Road to Cultural Revolution",
+        "color": "purple"
+      }
+    },
+    "b-prelude-desc": {
+      "id": "b-prelude-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 937.5
+      },
+      "data": {
+        "text": "1962-1966: ideological conflict, cultural criticism and Mao's campaign against the party elite.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-prelude-intro": {
+      "id": "b-prelude-intro",
+      "areaId": "b-prelude",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The prelude**\nMao concluded that the party and state were becoming bureaucratic and revisionist. Cultural criticism, military loyalty and a new mass campaign prepared the ground for the Cultural Revolution.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "pr-class": {
+      "id": "pr-class",
+      "areaId": "b-prelude",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Class struggle**\nAt the 1962 Tenth Plenum, Mao warned that class enemies remained and that revisionism could emerge from within the party.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-fourclean": {
+      "id": "pr-fourclean",
+      "areaId": "b-prelude",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Four Cleanups (1963-66)**\nThe Socialist Education Movement targeted corruption, accounting, property and political reliability in rural cadres. It used work teams and mass criticism, prefiguring the Cultural Revolution.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-sino": {
+      "id": "pr-sino",
+      "areaId": "b-prelude",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Sino-Soviet split**\nThe ideological conflict with Moscow deepened. Mao denounced Soviet 'revisionism' and claimed leadership of world revolution.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-wuhan": {
+      "id": "pr-wuhan",
+      "areaId": "b-prelude",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Wu Han and Hai Rui**\nThe historian Wu Han wrote a play about an honest official who criticized the emperor. Mao interpreted it as an attack on him.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-yao": {
+      "id": "pr-yao",
+      "areaId": "b-prelude",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Yao Wenyuan's critique (1965)**\nYao attacked Wu Han's play in a Shanghai newspaper. The article was orchestrated by Jiang Qing and Mao's allies.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-pengzhen": {
+      "id": "pr-pengzhen",
+      "areaId": "b-prelude",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Peng Zhen's fall**\nPeng Zhen, a senior party leader, tried to contain the cultural criticism. Mao removed him and accused him of protecting enemies.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-may16": {
+      "id": "pr-may16",
+      "areaId": "b-prelude",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**May 16 Circular (1966)**\nThe Politburo announced a Cultural Revolution and attacked party and cultural officials. It became a founding document of the campaign.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-crg": {
+      "id": "pr-crg",
+      "areaId": "b-prelude",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Cultural Revolution Group**\nA radical body under Chen Boda, Jiang Qing, Kang Sheng and others took control of the campaign. It bypassed the regular party apparatus.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-lin": {
+      "id": "pr-lin",
+      "areaId": "b-prelude",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**Lin Biao and the army**\nLin Biao promoted Mao's cult and the PLA as the model for society. Military loyalty became central to the campaign.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-universities": {
+      "id": "pr-universities",
+      "areaId": "b-prelude",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Universities**\nCriticism of professors and administrators spread. Students were encouraged to attack 'bourgeois' authority.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-mao": {
+      "id": "pr-mao",
+      "areaId": "b-prelude",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Mao's motives**\nMao wanted to destroy the party bureaucracy, reassert his authority, prevent Soviet-style revisionism and create a new generation of revolutionaries.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-dazibao": {
+      "id": "pr-dazibao",
+      "areaId": "b-prelude",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Big-character posters**\nWall posters became a weapon of mass criticism. Students, workers and cadres used them to denounce superiors.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-redguards": {
+      "id": "pr-redguards",
+      "areaId": "b-prelude",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Red Guards**\nStudent groups formed to attack the 'Four Olds' and party officials. Mao encouraged them as a revolutionary force.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-start": {
+      "id": "b-start",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 903.0
+      },
+      "data": {
+        "label": "Cultural Revolution begins",
+        "color": "red"
+      }
+    },
+    "b-start-desc": {
+      "id": "b-start-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 958.0
+      },
+      "data": {
+        "text": "1966: Red Guards, Mao's rallies, the Four Olds and the attack on the party elite.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-start-intro": {
+      "id": "b-start-intro",
+      "areaId": "b-start",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**1966: the launch**\nMao mobilized students and radicals against the party establishment. The movement quickly escaped control, producing violence, destruction and a cult of Mao.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "st-16points": {
+      "id": "st-16points",
+      "areaId": "b-start",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Sixteen Points (August 1966)**\nThe Central Committee adopted a document defining the Cultural Revolution as a mass movement against capitalist roaders. It encouraged rebellion.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-redguards": {
+      "id": "st-redguards",
+      "areaId": "b-start",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Red Guards**\nStudent organizations appeared in Beijing and spread across the country. They wore armbands, carried Mao's quotations and attacked 'old' culture.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-rally": {
+      "id": "st-rally",
+      "areaId": "b-start",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Mao's rallies**\nBetween August and November 1966, Mao reviewed millions of Red Guards in Tiananmen Square. The rallies were a spectacle of loyalty and mobilization.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-fourolds": {
+      "id": "st-fourolds",
+      "areaId": "b-start",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Four Olds**\nOld ideas, old culture, old customs and old habits were targeted. Temples, books, art and family traditions were destroyed.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-violence": {
+      "id": "st-violence",
+      "areaId": "b-start",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Violence**\nTeachers, officials, intellectuals and 'class enemies' were beaten, humiliated and sometimes killed. Schools and universities closed.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-liu": {
+      "id": "st-liu",
+      "areaId": "b-start",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Liu Shaoqi attacked**\nPresident Liu Shaoqi was denounced as a capitalist roader. He was removed, imprisoned and died in 1969.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-deng": {
+      "id": "st-deng",
+      "areaId": "b-start",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Deng Xiaoping attacked**\nDeng was labeled the 'number two capitalist roader'. He was removed from office and sent to a factory.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-workteams": {
+      "id": "st-workteams",
+      "areaId": "b-start",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Work teams**\nParty work teams tried to control student unrest. Mao and the radicals accused them of suppressing the movement.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-bombard": {
+      "id": "st-bombard",
+      "areaId": "b-start",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Bombard the Headquarters**\nMao's big-character poster attacked the party leadership. It signaled that even the highest officials could be targets.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-travel": {
+      "id": "st-travel",
+      "areaId": "b-start",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Free travel**\nRed Guards traveled across the country to exchange experiences and spread rebellion. Railways were overwhelmed.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-destruction": {
+      "id": "st-destruction",
+      "areaId": "b-start",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Destruction**\nReligious sites, libraries, museums and private homes were attacked. The loss of cultural heritage was enormous.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-cult": {
+      "id": "st-cult",
+      "areaId": "b-start",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Mao cult**\nMao's Little Red Book, badges, portraits and slogans saturated public life. Loyalty to Mao became the measure of political correctness.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-chaos": {
+      "id": "st-chaos",
+      "areaId": "b-start",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Chaos**\nFactional conflict, purges and violence spread from schools to factories, offices and the countryside.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-cadres": {
+      "id": "st-cadres",
+      "areaId": "b-start",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Cadres**\nParty and state officials were denounced, paraded and beaten. Many were sent to struggle sessions or labor camps.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-intellectuals": {
+      "id": "st-intellectuals",
+      "areaId": "b-start",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Intellectuals**\nTeachers, writers, scientists and artists were accused of bourgeois ideas. Many were humiliated, imprisoned or driven to suicide.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-redaugust": {
+      "id": "st-redaugust",
+      "areaId": "b-start",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 732.0
+      },
+      "data": {
+        "text": "**Red August (1966)**\nA wave of Red Guard violence in Beijing and other cities killed thousands. Schools, temples, homes and libraries were attacked, and 'class enemies' were beaten in public.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "st-1966end": {
+      "id": "st-1966end",
+      "areaId": "b-start",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 752.5
+      },
+      "data": {
+        "text": "**End of 1966**\nThe old party and state structures were paralyzed. The radicals controlled the campaign, but the military remained the ultimate arbiter.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-redguards": {
+      "id": "b-redguards",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1022.0
+      },
+      "data": {
+        "label": "Red Guards & mass terror",
+        "color": "red"
+      }
+    },
+    "b-redguards-desc": {
+      "id": "b-redguards-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1077.0
+      },
+      "data": {
+        "text": "1966-1968: factions, purges, armed conflict and the destruction of the old order.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-redguards-intro": {
+      "id": "b-redguards-intro",
+      "areaId": "b-redguards",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Revolution as civil conflict**\nThe Cultural Revolution became a struggle among Red Guard factions, workers and local elites. Violence escalated into armed clashes, and the army intervened to restore order.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "rg-factions": {
+      "id": "rg-factions",
+      "areaId": "b-redguards",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Factions**\nRed Guards split into competing groups, often along class, school, workplace and personal lines. They accused each other of being counterrevolutionary.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rg-class": {
+      "id": "rg-class",
+      "areaId": "b-redguards",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Class background**\nStudents were judged by family origin. Children of workers and peasants had advantages; children of landlords and intellectuals were vulnerable.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rg-struggle": {
+      "id": "rg-struggle",
+      "areaId": "b-redguards",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Struggle sessions**\nPublic humiliation, beatings and torture were used to extract confessions. Victims were often forced to wear signs and confess to imaginary crimes.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rg-purges": {
+      "id": "rg-purges",
+      "areaId": "b-redguards",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Purges**\nParty officials, factory managers, teachers and professionals were removed. 'Capitalist roaders' and 'counterrevolutionaries' were everywhere.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rg-liu": {
+      "id": "rg-liu",
+      "areaId": "b-redguards",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Liu Shaoqi**\nThe president was accused of revisionism and treason. He was denied medical care and died in detention in 1969.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rg-peng": {
+      "id": "rg-peng",
+      "areaId": "b-redguards",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Peng Dehuai**\nThe former defense minister was repeatedly persecuted and died in 1974 after years of imprisonment and torture.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rg-wuhan": {
+      "id": "rg-wuhan",
+      "areaId": "b-redguards",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Wuhan Incident (July 1967)**\nLocal military and conservative forces clashed with radicals. Mao and Zhou were briefly in danger, and the army intervened.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rg-janstorm": {
+      "id": "rg-janstorm",
+      "areaId": "b-redguards",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**January Storm (1967)**\nRadical workers and students seized power in Shanghai. The Shanghai People's Commune briefly replaced the city government.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rg-shanghai": {
+      "id": "rg-shanghai",
+      "areaId": "b-redguards",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Shanghai**\nThe city became a model of radical seizure of power. Workers' rebel groups and the Cultural Revolution Group competed for control.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rg-feb": {
+      "id": "rg-feb",
+      "areaId": "b-redguards",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**February Adverse Current (1967)**\nSenior military and party leaders tried to halt the chaos and protect cadres. Mao and the radicals defeated them, and the purge of the old guard continued.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rg-may68": {
+      "id": "rg-may68",
+      "areaId": "b-redguards",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**May 1968**\nRadical students and workers clashed in Beijing and other cities. The army moved in, and the Red Guard phase began to wind down.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rg-armed": {
+      "id": "rg-armed",
+      "areaId": "b-redguards",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Armed conflict**\nIn some provinces, factions fought with weapons from factories and military depots. Civil order collapsed in parts of the country.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rg-guangxi": {
+      "id": "rg-guangxi",
+      "areaId": "b-redguards",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Guangxi massacres**\nIn 1967-68, factional and state violence killed tens of thousands, including massacres of class enemies. The events remained largely hidden for decades.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rg-innermongolia": {
+      "id": "rg-innermongolia",
+      "areaId": "b-redguards",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Inner Mongolia**\nMongolian herders and cadres were accused of separatism and subjected to torture, imprisonment and killings during the 'anti-dividing' campaign.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rg-youth": {
+      "id": "rg-youth",
+      "areaId": "b-redguards",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Youth violence**\nSome students became perpetrators; others were victims. Many later described the period as a collapse of moral and social norms.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rg-demobilize": {
+      "id": "rg-demobilize",
+      "areaId": "b-redguards",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Demobilization**\nMao ordered Red Guards to disband and sent millions of urban youth to the countryside. The Red Guard phase ended, but purges continued.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rg-cleansing": {
+      "id": "rg-cleansing",
+      "areaId": "b-redguards",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Cleansing of class ranks (1968)**\nThe campaign continued under military supervision. New purges targeted hidden 'class enemies'.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rg-military": {
+      "id": "rg-military",
+      "areaId": "b-redguards",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 814.0
+      },
+      "data": {
+        "text": "**Military intervention**\nThe PLA was ordered to restore order, support the left and protect the government. Military control expanded across the country.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-order": {
+      "id": "b-order",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1042.5
+      },
+      "data": {
+        "label": "PLA & revolutionary committees",
+        "color": "green"
+      }
+    },
+    "b-order-desc": {
+      "id": "b-order-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1097.5
+      },
+      "data": {
+        "text": "1967-1969: military control, new local organs and the 9th Party Congress.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-order-intro": {
+      "id": "b-order-intro",
+      "areaId": "b-order",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Order from chaos**\nThe army became the main governing institution. Revolutionary committees replaced civilian governments, and the 9th Party Congress formalized the new alignment of power.",
+        "color": "green"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "or-military": {
+      "id": "or-military",
+      "areaId": "b-order",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Military control**\nThe PLA intervened in factories, schools and local governments. Military committees ran many provinces and cities.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-revcom": {
+      "id": "or-revcom",
+      "areaId": "b-order",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Revolutionary committees**\nNew local bodies combined party cadres, military representatives and mass organizations. They replaced elected governments.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-three": {
+      "id": "or-three",
+      "areaId": "b-order",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Three supports and two militaries**\nThe PLA was told to support the left, industry and agriculture, and to exercise military control and training. Its political role expanded.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-liu": {
+      "id": "or-liu",
+      "areaId": "b-order",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Liu Shaoqi dies (1969)**\nThe former president died in Kaifeng after years of persecution. His death symbolized the destruction of the old party leadership.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-9th": {
+      "id": "or-9th",
+      "areaId": "b-order",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**9th Party Congress (April 1969)**\nThe congress declared the Cultural Revolution a victory and adopted a new party constitution. Lin Biao was named Mao's successor.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-partyrebuild": {
+      "id": "or-partyrebuild",
+      "areaId": "b-order",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Party rebuilding**\nAfter the 9th Congress, party committees were gradually restored in provinces and workplaces. The party, army and state were fused under Mao's authority.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-lin": {
+      "id": "or-lin",
+      "areaId": "b-order",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Lin Biao's rise**\nLin was defense minister, vice chairman and Mao's designated successor. He promoted the Mao cult and the army's role.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-mao": {
+      "id": "or-mao",
+      "areaId": "b-order",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Mao's authority**\nMao stood above the party and state. His thought was written into the constitution as the guiding ideology.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-repression": {
+      "id": "or-repression",
+      "areaId": "b-order",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Repression**\nThe army restored order but also enforced purges. 'Class enemies' continued to be arrested, tortured and killed.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-economy": {
+      "id": "or-economy",
+      "areaId": "b-order",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Economy**\nIndustrial production recovered unevenly. Rural collectives suffered from disruption, and educated youth were sent to the countryside.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-education": {
+      "id": "or-education",
+      "areaId": "b-order",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Education**\nUniversities remained closed or disrupted. Entrance examinations were abolished, and political reliability replaced academic merit.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-culture": {
+      "id": "or-culture",
+      "areaId": "b-order",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Culture**\nRevolutionary operas, ballets and films dominated. Traditional culture remained under attack.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-border": {
+      "id": "or-border",
+      "areaId": "b-order",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Border conflict (1969)**\nSino-Soviet clashes at Zhenbao Island raised the threat of war. China moved toward a strategic opening to the United States.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-purges": {
+      "id": "or-purges",
+      "areaId": "b-order",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Continuing purges**\nThe 1968-69 campaigns targeted 'hidden counterrevolutionaries'. Many officials and intellectuals were imprisoned or sent to labor camps.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-legacy": {
+      "id": "or-legacy",
+      "areaId": "b-order",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Legacy**\nThe military and party had restored a fragile order, but the Cultural Revolution's conflicts remained unresolved.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-lin": {
+      "id": "b-lin",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1063.0
+      },
+      "data": {
+        "label": "Lin Biao & purges",
+        "color": "purple"
+      }
+    },
+    "b-lin-desc": {
+      "id": "b-lin-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1118.0
+      },
+      "data": {
+        "text": "1969-1973: the succession crisis, Lin's death and the 10th Party Congress.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-lin-intro": {
+      "id": "b-lin-intro",
+      "areaId": "b-lin",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The successor who fell**\nLin Biao was Mao's designated heir, but their relationship deteriorated. His death in 1971 triggered purges and changed the balance between radicals and moderates.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "lb-power": {
+      "id": "lb-power",
+      "areaId": "b-lin",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Lin Biao's power**\nAs defense minister and vice chairman, Lin controlled the army and had a loyal network. His portrait and quotations appeared beside Mao's.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lb-lushan": {
+      "id": "lb-lushan",
+      "areaId": "b-lin",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Lushan Conference (1970)**\nA dispute over the state chairmanship exposed tensions between Lin and Mao. Lin's allies wanted him to become state chairman; Mao refused.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lb-split": {
+      "id": "lb-split",
+      "areaId": "b-lin",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Mao-Lin split**\nMao began to distrust Lin and the army. He reasserted civilian and party authority and criticized Lin's cult.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lb-571": {
+      "id": "lb-571",
+      "areaId": "b-lin",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Project 571**\nAn alleged plot to assassinate Mao and seize power was attributed to Lin's son and supporters. The evidence remains disputed.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lb-flight": {
+      "id": "lb-flight",
+      "areaId": "b-lin",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Lin's flight (13 September 1971)**\nLin, his wife and son fled by plane toward the USSR. The aircraft crashed in Mongolia, killing all aboard.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lb-linpurge": {
+      "id": "lb-linpurge",
+      "areaId": "b-lin",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Purge of Lin's network**\nOfficers and officials linked to Lin were arrested, investigated and removed. The purge damaged the army's morale and political standing.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lb-purge": {
+      "id": "lb-purge",
+      "areaId": "b-lin",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Purge after Lin**\nLin's supporters were arrested and purged. The army's political influence was reduced, and Zhou Enlai gained more room to maneuver.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lb-zhou": {
+      "id": "lb-zhou",
+      "areaId": "b-lin",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Zhou Enlai**\nThe premier managed the government and tried to protect cadres and restore order. He became a target of radicals but remained indispensable.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lb-deng": {
+      "id": "lb-deng",
+      "areaId": "b-lin",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Deng Xiaoping's return (1973)**\nDeng was rehabilitated and returned to high office. He began to restore education, industry and party discipline.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lb-10th": {
+      "id": "lb-10th",
+      "areaId": "b-lin",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**10th Party Congress (1973)**\nThe congress denounced Lin Biao and confirmed a new leadership. Wang Hongwen rose, while Deng returned.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lb-army": {
+      "id": "lb-army",
+      "areaId": "b-lin",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Army**\nThe PLA remained powerful but was brought back under tighter party control. Its prestige had been damaged by factional involvement.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lb-radicals": {
+      "id": "lb-radicals",
+      "areaId": "b-lin",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Radicals**\nJiang Qing, Zhang Chunqiao, Yao Wenyuan and Wang Hongwen gained influence. They attacked Zhou and Deng as bourgeois.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lb-moderates": {
+      "id": "lb-moderates",
+      "areaId": "b-lin",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Moderates**\nZhou, Deng and older cadres tried to stabilize the economy and government. Their conflict with the radicals shaped the final years.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-radical": {
+      "id": "b-radical",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1182.0
+      },
+      "data": {
+        "label": "Radical phase & Gang of Four",
+        "color": "red"
+      }
+    },
+    "b-radical-desc": {
+      "id": "b-radical-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1237.0
+      },
+      "data": {
+        "text": "1973-1976: campaigns, succession struggle and the end of the Maoist era.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-radical-intro": {
+      "id": "b-radical-intro",
+      "areaId": "b-radical",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The last campaigns**\nMao's health declined while radicals and moderates fought over the succession. Zhou's death, the Tiananmen incident and Mao's death set off the final crisis.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "rf-campaign": {
+      "id": "rf-campaign",
+      "areaId": "b-radical",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Criticize Lin, Criticize Confucius (1973-74)**\nA campaign attacked Lin Biao and Confucius, but its real target was Zhou Enlai and moderate officials. It mobilized students and workers.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rf-gang": {
+      "id": "rf-gang",
+      "areaId": "b-radical",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Gang of Four**\nJiang Qing, Zhang Chunqiao, Yao Wenyuan and Wang Hongwen dominated propaganda and radical politics. They were later blamed for the Cultural Revolution's worst excesses.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rf-zhou": {
+      "id": "rf-zhou",
+      "areaId": "b-radical",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Zhou Enlai's illness**\nZhou was diagnosed with cancer but continued to work. He protected many cadres and tried to keep the government functioning.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rf-deng": {
+      "id": "rf-deng",
+      "areaId": "b-radical",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Deng's reforms (1975)**\nDeng restored order in industry, education and the army. He was denounced as a 'capitalist roader' and removed again in 1976.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rf-counter": {
+      "id": "rf-counter",
+      "areaId": "b-radical",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Counterattack the right deviationist trend (1975-76)**\nThe radicals attacked Deng's reforms as a capitalist restoration. The campaign targeted education, science and party moderates.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rf-three": {
+      "id": "rf-three",
+      "areaId": "b-radical",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Three directives**\nDeng emphasized stability, unity and economic development. Radicals saw this as a rejection of class struggle.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rf-huapremier": {
+      "id": "rf-huapremier",
+      "areaId": "b-radical",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Hua Guofeng becomes premier (1976)**\nAfter Zhou's death, Mao chose Hua Guofeng as acting premier. Hua was a compromise figure acceptable to the army and party.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rf-kangsheng": {
+      "id": "rf-kangsheng",
+      "areaId": "b-radical",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Kang Sheng dies (1975)**\nThe security chief and purge organizer died in 1975. His legacy of terror and intelligence work shaped the Cultural Revolution.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rf-zhoudeath": {
+      "id": "rf-zhoudeath",
+      "areaId": "b-radical",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Zhou Enlai dies (8 January 1976)**\nMillions mourned Zhou. The regime restricted public mourning, deepening popular anger.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rf-tiananmen": {
+      "id": "rf-tiananmen",
+      "areaId": "b-radical",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Tiananmen incident (April 1976)**\nCrowds gathered in Tiananmen Square to mourn Zhou and criticize the radicals. The demonstration was cleared, and Deng was blamed.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rf-dengpurge": {
+      "id": "rf-dengpurge",
+      "areaId": "b-radical",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Deng purged (1976)**\nDeng was removed from all posts. The radicals seemed to have won, but Mao's death changed everything.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rf-earthquake": {
+      "id": "rf-earthquake",
+      "areaId": "b-radical",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Tangshan earthquake (July 1976)**\nA massive earthquake killed hundreds of thousands. The regime used the disaster for propaganda and relief mobilization.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rf-maohealth": {
+      "id": "rf-maohealth",
+      "areaId": "b-radical",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Mao's health**\nMao suffered from Parkinson's disease and other ailments. His circle became isolated and factional.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rf-maodeath": {
+      "id": "rf-maodeath",
+      "areaId": "b-radical",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Mao dies (9 September 1976)**\nMao died in Beijing. His death ended the Maoist era and triggered an immediate succession struggle.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rf-hua": {
+      "id": "rf-hua",
+      "areaId": "b-radical",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Hua Guofeng**\nMao's chosen successor. He was a compromise figure with support in the party, army and security services.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rf-coup": {
+      "id": "rf-coup",
+      "areaId": "b-radical",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 732.0
+      },
+      "data": {
+        "text": "**Arrest of the Gang of Four (6 October 1976)**\nHua, Ye Jianying and Wang Dongxing ordered the arrest of Jiang Qing, Zhang Chunqiao, Yao Wenyuan and Wang Hongwen. The Cultural Revolution ended.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rf-after": {
+      "id": "rf-after",
+      "areaId": "b-radical",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 752.5
+      },
+      "data": {
+        "text": "**Aftermath**\nThe new leadership began to dismantle radical policies. Deng returned again and launched reforms after 1978.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-people": {
+      "id": "b-people",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1202.5
+      },
+      "data": {
+        "label": "Key figures",
+        "color": "purple"
+      }
+    },
+    "b-people-desc": {
+      "id": "b-people-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1257.5
+      },
+      "data": {
+        "text": "Mao, his rivals, the radicals and the leaders of the succession struggle.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-people-intro": {
+      "id": "b-people-intro",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The people who made the era**\nMao and his colleagues built the PRC, fought over its direction and destroyed one another. Their personal rivalries shaped national policy and millions of lives.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "pp-mao-head": {
+      "id": "pp-mao-head",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "label": "Mao and the old guard",
+        "color": "purple"
+      }
+    },
+    "pp-mao": {
+      "id": "pp-mao",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Mao Zedong**\nFounder of the PRC and chairman of the CCP. He launched the Great Leap and Cultural Revolution, and his cult dominated public life.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-zhou": {
+      "id": "pp-zhou",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Zhou Enlai**\nPremier from 1949 to 1976. Diplomat, administrator and survivor who tried to moderate Mao's campaigns and protect cadres.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-liu": {
+      "id": "pp-liu",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 227.0
+      },
+      "data": {
+        "text": "**Liu Shaoqi**\nPresident of the PRC and a leading party theorist. Denounced during the Cultural Revolution, he died in detention in 1969.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-deng": {
+      "id": "pp-deng",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Deng Xiaoping**\nParty leader and reformer. Purged twice during the Cultural Revolution, he returned in 1973 and again after 1976.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-zhu": {
+      "id": "pp-zhu",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Zhu De**\nFounder of the Red Army and a senior military leader. He survived the Cultural Revolution with reduced influence.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-peng": {
+      "id": "pp-peng",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 338.5
+      },
+      "data": {
+        "text": "**Peng Dehuai**\nDefense minister and Korean War commander. Criticized the Great Leap at Lushan and was purged, tortured and killed.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-lin": {
+      "id": "pp-lin",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Lin Biao**\nDefense minister and Mao's designated successor. Died in a plane crash in 1971 after an alleged coup plot.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-chenyi": {
+      "id": "pp-chenyi",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Chen Yi**\nForeign minister and marshal. Attacked by Red Guards but protected by Zhou.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-he-long": {
+      "id": "pp-he-long",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 450.0
+      },
+      "data": {
+        "text": "**He Long**\nMarshal and revolutionary hero. Persecuted during the Cultural Revolution and died in 1969.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-pengzhen": {
+      "id": "pp-pengzhen",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Peng Zhen**\nBeijing party chief and senior official. Purged at the start of the Cultural Revolution.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-luo": {
+      "id": "pp-luo",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Luo Ruiqing**\nArmy and security official. Purged in the mid-1960s after accusations of disloyalty.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-lu": {
+      "id": "pp-lu",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 561.5
+      },
+      "data": {
+        "text": "**Lu Dingyi**\nPropaganda chief. Purged during the Cultural Revolution.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-yang": {
+      "id": "pp-yang",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Yang Shangkun**\nParty official and later president. Imprisoned during the Cultural Revolution.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-bo": {
+      "id": "pp-bo",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Bo Yibo**\nEconomic official. Purged and imprisoned, later rehabilitated.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-radical-head": {
+      "id": "pp-radical-head",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 652.5
+      },
+      "data": {
+        "label": "Radicals and security",
+        "color": "purple"
+      }
+    },
+    "pp-jiang": {
+      "id": "pp-jiang",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 711.5
+      },
+      "data": {
+        "text": "**Jiang Qing**\nMao's wife and a leader of the Cultural Revolution Group. She dominated radical culture and was arrested in 1976.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-kang": {
+      "id": "pp-kang",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 711.5
+      },
+      "data": {
+        "text": "**Kang Sheng**\nSecret police and intelligence chief. He organized purges and torture during the Cultural Revolution.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-chenboda": {
+      "id": "pp-chenboda",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 725.5
+      },
+      "data": {
+        "text": "**Chen Boda**\nPropaganda theorist and head of the Cultural Revolution Group. He fell from power in 1970.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-wanghongwen": {
+      "id": "pp-wanghongwen",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 823.0
+      },
+      "data": {
+        "text": "**Wang Hongwen**\nYoung Shanghai radical and vice chairman. One of the Gang of Four.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-zhang": {
+      "id": "pp-zhang",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 823.0
+      },
+      "data": {
+        "text": "**Zhang Chunqiao**\nShanghai radical and ideologue. One of the Gang of Four.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-yao": {
+      "id": "pp-yao",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 837.0
+      },
+      "data": {
+        "text": "**Yao Wenyuan**\nPropaganda writer who launched the attack on Wu Han. One of the Gang of Four.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-wangdongxing": {
+      "id": "pp-wangdongxing",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 914.0
+      },
+      "data": {
+        "text": "**Wang Dongxing**\nMao's bodyguard chief and security commander. He helped arrest the Gang of Four.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-ye": {
+      "id": "pp-ye",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 934.5
+      },
+      "data": {
+        "text": "**Ye Jianying**\nMarshal and senior military leader. He supported the arrest of the Gang of Four.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-hua": {
+      "id": "pp-hua",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 948.5
+      },
+      "data": {
+        "text": "**Hua Guofeng**\nMao's successor. He led the arrest of the Gang and was later outmaneuvered by Deng.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-nie": {
+      "id": "pp-nie",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1025.5
+      },
+      "data": {
+        "text": "**Nie Yuanzi**\nBeijing University radical who wrote a famous big-character poster. She became a symbol of student rebellion.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-kuai": {
+      "id": "pp-kuai",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1046.0
+      },
+      "data": {
+        "text": "**Kuai Dafu**\nTsinghua University Red Guard leader. A prominent radical during the factional struggles.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-linliguo": {
+      "id": "pp-linliguo",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1060.0
+      },
+      "data": {
+        "text": "**Lin Liguo**\nLin Biao's son and an air force officer. He was accused of organizing the alleged Project 571 coup plot and died with his father in 1971.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-maoanying": {
+      "id": "pp-maoanying",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1137.0
+      },
+      "data": {
+        "text": "**Mao Anying**\nMao's eldest son. He was killed in a US air attack during the Korean War in 1950.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-zhangzhixin": {
+      "id": "pp-zhangzhixin",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1157.5
+      },
+      "data": {
+        "text": "**Zhang Zhixin**\nParty member and dissident who criticized the Cultural Revolution. She was imprisoned, tortured and executed in 1975.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-linzhao": {
+      "id": "pp-linzhao",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1192.0
+      },
+      "data": {
+        "text": "**Lin Zhao**\nChristian student and writer who opposed Mao's campaigns. She was arrested, tortured and executed in 1968.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-yuluoke": {
+      "id": "pp-yuluoke",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1248.5
+      },
+      "data": {
+        "text": "**Yu Luoke**\nIndependent thinker who attacked the class-label system in 1967. He was arrested and executed in 1970.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-chenyun": {
+      "id": "pp-chenyun",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1269.0
+      },
+      "data": {
+        "text": "**Chen Yun**\nSenior economic planner. He supported recovery after the Great Leap and later became a leading reform-era economist.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-lixiannian": {
+      "id": "pp-lixiannian",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1303.5
+      },
+      "data": {
+        "text": "**Li Xiannian**\nEconomic and state leader. He managed finance and later became president of the PRC.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-hu": {
+      "id": "pp-hu",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1360.0
+      },
+      "data": {
+        "text": "**Hu Yaobang**\nParty official purged during the Cultural Revolution. He later led reforms and became general secretary before his death in 1989.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-zhao": {
+      "id": "pp-zhao",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1380.5
+      },
+      "data": {
+        "text": "**Zhao Ziyang**\nParty official and later reform leader. He was purged during the Cultural Revolution and again in 1989.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-wangjiaxiang": {
+      "id": "pp-wangjiaxiang",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1415.0
+      },
+      "data": {
+        "text": "**Wang Jiaxiang**\nSenior diplomat and party theorist. He was persecuted during the Cultural Revolution.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pp-maoyuanxin": {
+      "id": "pp-maoyuanxin",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1492.0
+      },
+      "data": {
+        "text": "**Mao Yuanxin**\nMao's nephew and a radical political figure in the 1970s. He was arrested after Mao's death.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-youth": {
+      "id": "b-youth",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1223.0
+      },
+      "data": {
+        "label": "Youth & sent-down generation",
+        "color": "orange"
+      }
+    },
+    "b-youth-desc": {
+      "id": "b-youth-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1278.0
+      },
+      "data": {
+        "text": "Red Guards, rustication and the lost education of a generation.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-youth-intro": {
+      "id": "b-youth-intro",
+      "areaId": "b-youth",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The young**\nMao mobilized students as shock troops of the Cultural Revolution, then dispersed them to the countryside. A generation lost schooling, stability and trust.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "yt-redguards": {
+      "id": "yt-redguards",
+      "areaId": "b-youth",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Red Guards**\nMillions of students joined Red Guard units. They attacked teachers, officials and cultural targets, and competed with rival factions.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "yt-class": {
+      "id": "yt-class",
+      "areaId": "b-youth",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Class origin**\nFamily background determined whether a student could join the Red Guards. Children of 'bad' classes were humiliated and excluded.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "yt-violence": {
+      "id": "yt-violence",
+      "areaId": "b-youth",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Student violence**\nSome students beat and killed teachers and classmates. Peer pressure, ideology and factional rivalry drove the violence.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "yt-travel": {
+      "id": "yt-travel",
+      "areaId": "b-youth",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Travel and exchange**\nRed Guards traveled free to Beijing and across the country. They spread rebellion and overwhelmed transport and food supplies.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "yt-rustication": {
+      "id": "yt-rustication",
+      "areaId": "b-youth",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Up to the mountains and down to the villages**\nFrom 1968, millions of urban youth were sent to rural areas to learn from peasants. The policy lasted into the 1970s.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "yt-life": {
+      "id": "yt-life",
+      "areaId": "b-youth",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Rural life**\nSent-down youth faced hard labor, poor housing and isolation. Some were abused or abandoned; others formed lasting bonds with villagers.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "yt-education": {
+      "id": "yt-education",
+      "areaId": "b-youth",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Education lost**\nUniversities closed, entrance exams were suspended and schooling was disrupted. A generation missed higher education.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "yt-zhangtiesheng": {
+      "id": "yt-zhangtiesheng",
+      "areaId": "b-youth",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Zhang Tiesheng exam incident (1973)**\nA sent-down youth submitted a blank university exam paper with a protest letter. The regime used the episode to attack entrance examinations and academic merit.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "yt-gangs": {
+      "id": "yt-gangs",
+      "areaId": "b-youth",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Youth gangs**\nSome urban youth formed gangs during the chaos. Crime and violence increased in cities and on the roads.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "yt-return": {
+      "id": "yt-return",
+      "areaId": "b-youth",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Return**\nAfter Mao's death, many sent-down youth returned to cities. Their experiences shaped the literature and politics of the 1980s.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "yt-memory": {
+      "id": "yt-memory",
+      "areaId": "b-youth",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Memory**\nThe 'sent-down generation' produced writers and filmmakers who documented loss, trauma and resilience.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-society": {
+      "id": "b-society",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1342.0
+      },
+      "data": {
+        "label": "Society, culture & economy",
+        "color": "cyan"
+      }
+    },
+    "b-society-desc": {
+      "id": "b-society-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1397.0
+      },
+      "data": {
+        "text": "Education, propaganda, religion, family and daily life under Mao.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-society-intro": {
+      "id": "b-society-intro",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**A society transformed**\nThe party-state penetrated schools, workplaces, families and neighborhoods. Campaigns, propaganda and scarcity shaped everyday life.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "sc-education": {
+      "id": "sc-education",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Education**\nSchools expanded after 1949 but were politicized. During the Cultural Revolution universities closed, teachers were attacked and examinations were abolished.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sc-propaganda": {
+      "id": "sc-propaganda",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Propaganda**\nNewspapers, radio, films, posters and study sessions spread Mao Zedong Thought. Model operas and revolutionary art dominated culture.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sc-art": {
+      "id": "sc-art",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Art and literature**\nThe 1942 Yan'an Talks set the line: art must serve politics. During the Cultural Revolution, Jiang Qing controlled model operas and revolutionary ballets.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sc-religion": {
+      "id": "sc-religion",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Religion**\nBuddhism, Daoism, Islam and Christianity were restricted. Temples, mosques and churches were closed or destroyed, especially during the Cultural Revolution.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sc-family": {
+      "id": "sc-family",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Family**\nThe party intervened in marriage, childbirth and family relations. Class labels and political loyalty could determine marriage prospects.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sc-women": {
+      "id": "sc-women",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Women**\nWomen gained legal equality and entered the workforce, but faced double burdens and political pressure. Gender-specific concerns were often dismissed.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sc-rural": {
+      "id": "sc-rural",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Rural life**\nCollectives controlled land, labor and food distribution. Rural people faced procurement quotas, campaigns and scarce consumer goods.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sc-urban": {
+      "id": "sc-urban",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Urban life**\nWork units (danwei) provided jobs, housing, rationing and surveillance. Urban residents depended on the state for nearly everything.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sc-ration": {
+      "id": "sc-ration",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Rationing**\nGrain, cloth, oil, meat and other goods were rationed. Queues, coupons and shortages were part of daily life.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sc-industry": {
+      "id": "sc-industry",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Industry**\nHeavy industry was prioritized. Factories were also political units where campaigns and purges disrupted production.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sc-agriculture": {
+      "id": "sc-agriculture",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Agriculture**\nCollectivization and communes reorganized farming. Grain procurement and poor incentives contributed to the Great Leap famine.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sc-minorities": {
+      "id": "sc-minorities",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Minorities**\nThe PRC recognized 56 nationalities and promised autonomy. In practice, party control, Han migration and campaigns reshaped minority regions.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sc-tibet": {
+      "id": "sc-tibet",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Tibet**\nThe 1950s saw integration, reform and resistance. The 1959 uprising led to the Dalai Lama's exile and tighter Chinese control.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sc-xinjiang": {
+      "id": "sc-xinjiang",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Xinjiang**\nEconomic development, Han migration and security campaigns transformed the region. Cultural and religious restrictions increased.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sc-mongolia": {
+      "id": "sc-mongolia",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Inner Mongolia**\nThe Cultural Revolution brought purges and persecution of Mongols accused of separatism. Thousands died or were imprisoned.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sc-health": {
+      "id": "sc-health",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Health**\nPublic health campaigns reduced some diseases, but rural services were limited. Barefoot doctors were promoted during the Cultural Revolution.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sc-housing": {
+      "id": "sc-housing",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 814.0
+      },
+      "data": {
+        "text": "**Housing**\nUrban housing was allocated through work units. Overcrowding was common, and private property was restricted.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sc-culture": {
+      "id": "sc-culture",
+      "areaId": "b-society",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 814.0
+      },
+      "data": {
+        "text": "**Cultural destruction**\nThe Four Olds campaign destroyed temples, books, art, graves and private heirlooms. The loss to Chinese heritage was immense.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-ideology": {
+      "id": "b-ideology",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1362.5
+      },
+      "data": {
+        "label": "Maoism & propaganda",
+        "color": "purple"
+      }
+    },
+    "b-ideology-desc": {
+      "id": "b-ideology-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1417.5
+      },
+      "data": {
+        "text": "Mao Zedong Thought, the cult of Mao and the culture of mass campaigns.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-ideology-intro": {
+      "id": "b-ideology-intro",
+      "areaId": "b-ideology",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The ideology of the era**\nMaoism combined Marxism-Leninism with Chinese revolution, class struggle and the cult of Mao. Propaganda, study sessions and campaigns turned ideology into everyday practice.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "id-thought": {
+      "id": "id-thought",
+      "areaId": "b-ideology",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Mao Zedong Thought**\nThe official ideology combined Marxism-Leninism with Mao's theories of peasant revolution, protracted war, mass line and continuous class struggle.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "id-class": {
+      "id": "id-class",
+      "areaId": "b-ideology",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Class struggle**\nMao taught that class enemies could reappear even under socialism. The doctrine justified purges, campaigns and the Cultural Revolution.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "id-continuous": {
+      "id": "id-continuous",
+      "areaId": "b-ideology",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Continuous revolution**\nMao believed socialism required permanent upheaval to prevent bureaucracy and revisionism. Stability was seen as a threat.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "id-massline": {
+      "id": "id-massline",
+      "areaId": "b-ideology",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Mass line**\nLeaders were supposed to learn from the masses and then lead them. In practice the party used mass campaigns to impose its line from above.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "id-little": {
+      "id": "id-little",
+      "areaId": "b-ideology",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Little Red Book**\nQuotations from Chairman Mao became a sacred text. It was carried at rallies, quoted in disputes and used as proof of loyalty.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "id-cult": {
+      "id": "id-cult",
+      "areaId": "b-ideology",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Cult of Mao**\nMao was portrayed as the great helmsman, the sun in the sky and the infallible leader. His image and quotations saturated public space.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "id-campaign": {
+      "id": "id-campaign",
+      "areaId": "b-ideology",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Campaign culture**\nMass campaigns used meetings, posters, slogans, denunciations and quotas. They mobilized society and bypassed normal administration.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "id-thoughtreform": {
+      "id": "id-thoughtreform",
+      "areaId": "b-ideology",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Thought reform**\nStudy sessions, criticism and self-criticism were used to remold intellectuals, cadres and prisoners. Confession became a political ritual.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "id-realist": {
+      "id": "id-realist",
+      "areaId": "b-ideology",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Socialist realism**\nArt and literature were expected to serve the party and portray heroic workers, peasants and soldiers. Modernist and traditional forms were condemned.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "id-opera": {
+      "id": "id-opera",
+      "areaId": "b-ideology",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Model operas**\nJiang Qing promoted a small canon of revolutionary operas and ballets. They dominated the stage during the Cultural Revolution.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "id-romantic": {
+      "id": "id-romantic",
+      "areaId": "b-ideology",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Revolutionary romanticism**\nArt glorified sacrifice, struggle and loyalty. Suffering was presented as heroic and enemies as inhuman.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "id-serve": {
+      "id": "id-serve",
+      "areaId": "b-ideology",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Serve the people**\nMao's essay 'Serve the People' became a moral slogan. Self-sacrifice, discipline and loyalty to the collective were praised.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "id-badges": {
+      "id": "id-badges",
+      "areaId": "b-ideology",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Mao badges**\nMillions wore Mao badges and displayed his portrait. The badges became symbols of political allegiance and mass production.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "id-language": {
+      "id": "id-language",
+      "areaId": "b-ideology",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Political language**\nTerms such as 'capitalist roader', 'counterrevolutionary', 'red' and 'expert' structured political life. Labels could determine a person's fate.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "id-twoline": {
+      "id": "id-twoline",
+      "areaId": "b-ideology",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Two-line struggle**\nParty conflicts were described as a struggle between the correct revolutionary line and the revisionist line. This framed purges as ideological victories.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "id-roaders": {
+      "id": "id-roaders",
+      "areaId": "b-ideology",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Capitalist roaders**\nOfficials accused of favoring markets, expertise or private property were branded capitalist roaders. The label justified their removal.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-military": {
+      "id": "b-military",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1362.5
+      },
+      "data": {
+        "label": "Military & foreign policy",
+        "color": "green"
+      }
+    },
+    "b-military-desc": {
+      "id": "b-military-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1417.5
+      },
+      "data": {
+        "text": "Korean War, border conflicts, the Sino-Soviet split and the opening to America.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-military-intro": {
+      "id": "b-military-intro",
+      "areaId": "b-military",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**China in the world**\nThe PRC fought in Korea, clashed with India and the USSR, developed nuclear weapons and eventually opened relations with the United States. Foreign policy was shaped by ideology, security and Mao's prestige.",
+        "color": "green"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "mf-korea": {
+      "id": "mf-korea",
+      "areaId": "b-military",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 174.5
+      },
+      "data": {
+        "text": "**Korean War (1950-53)**\nChina intervened to prevent a US-backed government on its border. The war ended in a stalemate and deepened Sino-American hostility.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "mf-geneva": {
+      "id": "mf-geneva",
+      "areaId": "b-military",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 174.5
+      },
+      "data": {
+        "text": "**Geneva Conference (1954)**\nChina participated in the settlement of the First Indochina War. Zhou Enlai used the conference to improve China's international standing.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "mf-bandung": {
+      "id": "mf-bandung",
+      "areaId": "b-military",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 174.5
+      },
+      "data": {
+        "text": "**Bandung Conference (1955)**\nAsian and African states met in Indonesia. Zhou Enlai promoted peaceful coexistence and China's leadership in the Third World.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "mf-taiwan": {
+      "id": "mf-taiwan",
+      "areaId": "b-military",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Taiwan Strait crises**\nThe PRC shelled offshore islands in 1954-55 and 1958. The US backed Taiwan, and the conflict remained unresolved.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "mf-india": {
+      "id": "mf-india",
+      "areaId": "b-military",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Sino-Indian War (1962)**\nBorder disputes led to a short war. China defeated Indian forces and then withdrew, humiliating India and straining relations.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "mf-nuclear": {
+      "id": "mf-nuclear",
+      "areaId": "b-military",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Nuclear test (1964)**\nChina exploded its first atomic bomb. It became a nuclear power and reduced its dependence on Soviet protection.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "mf-vietnam": {
+      "id": "mf-vietnam",
+      "areaId": "b-military",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Vietnam War**\nChina supported North Vietnam with supplies, advisers and engineering troops. It opposed US escalation near its borders.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "mf-soviet": {
+      "id": "mf-soviet",
+      "areaId": "b-military",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Sino-Soviet split**\nIdeological and border disputes turned allies into enemies. Soviet aid ended, and the two socialist giants competed for leadership of the communist world.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "mf-zhenbao": {
+      "id": "mf-zhenbao",
+      "areaId": "b-military",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**Zhenbao Island (1969)**\nSino-Soviet border clashes raised fears of a wider war. China began to seek a strategic opening to the United States.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "mf-un": {
+      "id": "mf-un",
+      "areaId": "b-military",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**UN seat (1971)**\nThe UN recognized the PRC and expelled Taiwan's representatives. China gained a permanent Security Council seat.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "mf-japan": {
+      "id": "mf-japan",
+      "areaId": "b-military",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Japan normalization (1972)**\nChina and Japan established diplomatic relations after the US opening. The two economies began to develop closer trade links.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "mf-nixon": {
+      "id": "mf-nixon",
+      "areaId": "b-military",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Nixon's visit (1972)**\nNixon met Mao and Zhou in Beijing, beginning the normalization of US-China relations and reshaping the Cold War.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "mf-pla": {
+      "id": "mf-pla",
+      "areaId": "b-military",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**People's Liberation Army**\nThe PLA was the party's army, a governing instrument and a symbol of Mao's authority. It intervened in the Cultural Revolution and restored order.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "mf-lin": {
+      "id": "mf-lin",
+      "areaId": "b-military",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Lin Biao and the army**\nLin Biao used the army to promote Mao's cult and his own power. His fall reduced military influence in politics.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "mf-border": {
+      "id": "mf-border",
+      "areaId": "b-military",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Borders**\nChina settled some border disputes but clashed with India and the USSR. Territorial claims remained sensitive.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "mf-aid": {
+      "id": "mf-aid",
+      "areaId": "b-military",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Foreign aid**\nChina provided aid to North Vietnam, Albania, Tanzania and other states, promoting itself as a leader of the Third World.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "mf-legacy": {
+      "id": "mf-legacy",
+      "areaId": "b-military",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Legacy**\nThe Nixon opening and the UN seat laid the foundation for China's later global role, while the Sino-Soviet split shaped the Cold War.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-cost": {
+      "id": "b-cost",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1502.0
+      },
+      "data": {
+        "label": "Human cost & atrocities",
+        "color": "purple"
+      }
+    },
+    "b-cost-desc": {
+      "id": "b-cost-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1557.0
+      },
+      "data": {
+        "text": "Famine, purges, violence and cultural destruction.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-cost-intro": {
+      "id": "b-cost-intro",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The price**\nMaoist campaigns caused mass death and suffering. The Great Leap famine, the Cultural Revolution purges and factional violence killed millions and destroyed families, communities and cultural heritage.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "hc-famine": {
+      "id": "hc-famine",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Great Leap famine**\nExcess deaths are estimated at 15-45 million. The famine was caused by policy, procurement, false reporting and environmental factors.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-purges": {
+      "id": "hc-purges",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Purges**\nMillions were denounced, imprisoned, tortured or executed. Officials, intellectuals, teachers and ordinary people were accused of imaginary crimes.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-redaugust": {
+      "id": "hc-redaugust",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Red August**\nThe first wave of Red Guard violence in 1966 killed thousands and destroyed homes, schools and cultural sites. The state initially encouraged it as revolutionary action.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-yuluoke": {
+      "id": "hc-yuluoke",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Yu Luoke and independent thinkers**\nYu Luoke critiqued the class-label system and was executed in 1970. Other independent thinkers and writers were imprisoned or killed for questioning Maoism.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-struggle": {
+      "id": "hc-struggle",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Struggle sessions**\nPublic humiliation and violence were used to break people. Victims were often forced to confess and denounce family members.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-suicide": {
+      "id": "hc-suicide",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Suicide**\nMany victims killed themselves to escape torture, humiliation or persecution. The true number is unknown.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-guangxi": {
+      "id": "hc-guangxi",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Guangxi massacres**\nIn 1967-68, factional and state violence killed tens of thousands in Guangxi, including entire families and suspected class enemies.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-innermongolia": {
+      "id": "hc-innermongolia",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Inner Mongolia**\nThe 'anti-dividing' campaign targeted Mongols. Thousands were tortured or killed, and entire communities were terrorized.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-tibet": {
+      "id": "hc-tibet",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Tibet**\nThe 1959 uprising was crushed, and monasteries were destroyed. Thousands died, and the Dalai Lama fled to India.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-xinjiang": {
+      "id": "hc-xinjiang",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Xinjiang**\nPolitical campaigns, migration and security policies transformed the region. Cultural and religious repression caused lasting grievances.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-religion": {
+      "id": "hc-religion",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Religious persecution**\nClergy were arrested, churches and temples closed, and believers were pressured to renounce their faith. The Cultural Revolution intensified destruction.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-intellectuals": {
+      "id": "hc-intellectuals",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Intellectuals**\nWriters, scientists, teachers and artists were among the most vulnerable. Many were sent to labor camps or died.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-youth": {
+      "id": "hc-youth",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Youth**\nSome young people were perpetrators, others victims. The moral and psychological damage lasted for decades.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-families": {
+      "id": "hc-families",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Families**\nClass labels and political campaigns divided families. Children denounced parents, and relatives were forced to choose between loyalty and survival.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-culture": {
+      "id": "hc-culture",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Cultural loss**\nTemples, books, art, archives and historic sites were destroyed. The Four Olds campaign damaged China's cultural heritage.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-economy": {
+      "id": "hc-economy",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 752.5
+      },
+      "data": {
+        "text": "**Economic cost**\nThe Great Leap and Cultural Revolution disrupted production, education and administration. Recovery took years.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-numbers": {
+      "id": "hc-numbers",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 793.5
+      },
+      "data": {
+        "text": "**Counting the dead**\nEstimates vary widely because records were suppressed. Historians continue to debate the scale of famine and political violence.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-memory": {
+      "id": "hc-memory",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 793.5
+      },
+      "data": {
+        "text": "**Memory**\nThe party has controlled public memory of these events. Victims and their families have sought recognition and compensation.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-after": {
+      "id": "b-after",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1522.5
+      },
+      "data": {
+        "label": "Aftermath & memory",
+        "color": "cyan"
+      }
+    },
+    "b-after-desc": {
+      "id": "b-after-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1577.5
+      },
+      "data": {
+        "text": "1976-1981: the fall of the Gang of Four, reform and the official verdict.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-after-intro": {
+      "id": "b-after-intro",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**After Mao**\nMao's death ended the Cultural Revolution. The new leadership arrested the Gang of Four, rehabilitated victims and began to rethink Mao's legacy.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "af-gang": {
+      "id": "af-gang",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Arrest of the Gang of Four (October 1976)**\nHua Guofeng, Ye Jianying and Wang Dongxing arrested the radicals. The Cultural Revolution was over.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-hua": {
+      "id": "af-hua",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Hua Guofeng**\nMao's successor tried to combine Maoist legitimacy with modest change. He was soon outmaneuvered by Deng Xiaoping.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-deng": {
+      "id": "af-deng",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Deng's return (1977)**\nDeng returned to power and became the architect of reform and opening. He rejected class struggle as the main task.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-rehab": {
+      "id": "af-rehab",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Rehabilitation**\nMillions of victims of the Anti-Rightist Campaign and Cultural Revolution were rehabilitated. Liu Shaoqi was posthumously cleared in 1980.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-trial": {
+      "id": "af-trial",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Trial of the Gang of Four (1980-81)**\nJiang Qing and the others were tried publicly. Jiang was sentenced to death with reprieve; others received long prison terms.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-liu": {
+      "id": "af-liu",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Liu Shaoqi rehabilitated (1980)**\nThe former president was posthumously cleared of the charges against him. His rehabilitation symbolized the rejection of Cultural Revolution justice.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-democracy": {
+      "id": "af-democracy",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Democracy Wall (1978-79)**\nBeijing residents posted demands for democracy, human rights and rehabilitation on a wall near Tiananmen. The movement was suppressed, but it influenced later dissident politics.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-vietnam": {
+      "id": "af-vietnam",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Sino-Vietnamese War (1979)**\nChina invaded Vietnam in response to its occupation of Cambodia and Soviet alignment. The brief war exposed weaknesses in the PLA.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-resolution": {
+      "id": "af-resolution",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**1981 Resolution**\nThe CCP judged Mao '70 percent right, 30 percent wrong'. It acknowledged the Cultural Revolution as a catastrophe while preserving Mao's legitimacy.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-reform": {
+      "id": "af-reform",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Reform and opening**\nDeng's reforms dismantled communes, allowed private enterprise and opened China to foreign investment.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-education": {
+      "id": "af-education",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Education restored**\nUniversities reopened and entrance examinations returned. A generation of sent-down youth sought to rebuild careers.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-memory": {
+      "id": "af-memory",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Memory**\nThe Cultural Revolution is remembered through memoirs, fiction, film and oral history. Public discussion remains constrained.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-mao": {
+      "id": "af-mao",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Mao's legacy**\nMao remains the founding father of the PRC. His image is preserved, but his campaigns are officially criticized.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-china": {
+      "id": "af-china",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**China transformed**\nThe post-Mao reforms produced rapid growth and social change, while the party retained political control.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-legacy": {
+      "id": "af-legacy",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Legacy**\nThe Maoist era shaped China's state, bureaucracy, rural society and political culture. Its contradictions remain unresolved.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-timeline": {
+      "id": "b-timeline",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1522.5
+      },
+      "data": {
+        "label": "Timeline 1949-1976",
+        "color": "yellow"
+      }
+    },
+    "b-timeline-desc": {
+      "id": "b-timeline-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1577.5
+      },
+      "data": {
+        "text": "The Maoist era, year by year.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-timeline-intro": {
+      "id": "b-timeline-intro",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Chronology**\nA fast spine through the People's Republic: founding, campaigns, famine, Cultural Revolution and succession.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "tl-1949": {
+      "id": "tl-1949",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**1949**\n- **1 Oct** PRC founded.\n- **Dec** Mao visits Moscow; Sino-Soviet alliance negotiated.\n- KMT retreats to Taiwan.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1950": {
+      "id": "tl-1950",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**1950**\n- **Feb** Sino-Soviet Treaty.\n- **Jun** Land Reform Law; Korean War begins.\n- **Oct** China enters Korea.\n- **Nov** counterrevolutionary campaign.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1951": {
+      "id": "tl-1951",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**1951-1952**\n- **1951** Three Antis; Tibet agreement.\n- **1952** Five Antis; thought reform; land reform completed.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1953": {
+      "id": "tl-1953",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**1953**\n- First Five-Year Plan begins.\n- Korean War armistice.\n- Campaign against Gao Gang and Rao Shushan begins.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1954": {
+      "id": "tl-1954",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**1954**\n- New constitution.\n- National People's Congress.\n- Gao-Rao purge.\n- Taiwan Strait crisis.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1955": {
+      "id": "tl-1955",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**1955-1956**\n- Collectivization accelerates.\n- **1956** Hundred Flowers; Khrushchev's secret speech; Sino-Soviet tensions.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1957": {
+      "id": "tl-1957",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**1957**\n- Hundred Flowers turns into Anti-Rightist Campaign.\n- About 550,000 labeled rightists.\n- Mao's authority strengthened.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1958": {
+      "id": "tl-1958",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**1958**\n- Great Leap Forward launched.\n- People's communes and backyard furnaces.\n- Hukou system formalized.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1959": {
+      "id": "tl-1959",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**1959**\n- Lushan Conference; Peng Dehuai purged.\n- Famine deepens.\n- Tibetan uprising; Dalai Lama flees.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1960": {
+      "id": "tl-1960",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**1960-1961**\n- Famine peaks.\n- Grain imports; recovery policies begin.\n- Sino-Soviet split sharpens.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1962": {
+      "id": "tl-1962",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**1962**\n- Seven Thousand Cadres Conference.\n- Sino-Indian War.\n- Mao calls for class struggle.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1963": {
+      "id": "tl-1963",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**1963-1965**\n- Socialist Education Movement.\n- Lei Feng campaign.\n- Nuclear test (1964).\n- Wu Han's Hai Rui play attacked (1965).",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1966": {
+      "id": "tl-1966",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**1966**\n- **May** May 16 Circular.\n- **Aug** Sixteen Points; Red Guards; Mao's rallies.\n- Liu Shaoqi and Deng Xiaoping attacked.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1967": {
+      "id": "tl-1967",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**1967**\n- January Storm in Shanghai.\n- Revolutionary committees.\n- Wuhan Incident.\n- Armed factional conflict spreads.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1968": {
+      "id": "tl-1968",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 702.5
+      },
+      "data": {
+        "text": "**1968**\n- Cleansing of class ranks.\n- Guangxi massacres.\n- Red Guards sent to countryside.\n- Liu Shaoqi dies in detention (1969).",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1969": {
+      "id": "tl-1969",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**1969**\n- 9th Party Congress.\n- Lin Biao named successor.\n- Zhenbao Island border clash with USSR.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1970": {
+      "id": "tl-1970",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 834.5
+      },
+      "data": {
+        "text": "**1970-1971**\n- Lushan Conference.\n- Mao-Lin split.\n- Lin Biao dies in plane crash (Sept 1971).\n- Purges follow.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1972": {
+      "id": "tl-1972",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 855.0
+      },
+      "data": {
+        "text": "**1972-1973**\n- Nixon visits China (1972).\n- Deng Xiaoping returns (1973).\n- 10th Party Congress; Wang Hongwen rises.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1974": {
+      "id": "tl-1974",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 905.0
+      },
+      "data": {
+        "text": "**1974-1975**\n- Criticize Lin, Criticize Confucius.\n- Zhou's health declines.\n- Deng's reforms (1975).\n- Gang of Four attacks moderates.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1976": {
+      "id": "tl-1976",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 987.0
+      },
+      "data": {
+        "text": "**1976**\n- **Jan** Zhou Enlai dies.\n- **Apr** Tiananmen incident.\n- **Jul** Tangshan earthquake.\n- **9 Sep** Mao dies.\n- **6 Oct** Gang of Four arrested.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    }
+  },
+  "edges": {},
+  "viewports": {}
+}

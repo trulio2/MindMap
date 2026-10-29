@@ -1,0 +1,6599 @@
+{
+  "app": "mindmap",
+  "version": 1,
+  "name": "US Constitution & Founding Fathers",
+  "nodes": {
+    "root-title": {
+      "id": "root-title",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "**US Constitution & Founding Fathers** - 1787 to today",
+        "color": "red"
+      }
+    },
+    "root-intro": {
+      "id": "root-intro",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 72
+      },
+      "data": {
+        "text": "**The American founding**\nThe Constitution of 1787, its seven Articles and all twenty-seven Amendments, the ratification debates, the Supreme Court, and the founding generation. The map explains the text and the compromises behind it, then profiles the founders, their ideas and their disagreements - including Jefferson's fear of a powerful judiciary.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "root-howto": {
+      "id": "root-howto",
+      "areaId": "root",
+      "kind": "sticky",
+      "position": {
+        "x": 620,
+        "y": 0
+      },
+      "data": {
+        "text": "**How to read this map**\nEach branch opens into its own area. Click the number badge on a topic to go inside. Colours group related material: red for the Convention and the text; cyan for principles, ratification and the courts; yellow for background, amendments and the timeline; orange for the founding generation; purple for concerns, critics and founding women; green for legacy and modern debates.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "root-overview": {
+      "id": "root-overview",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 245
+      },
+      "data": {
+        "text": "**At a glance**\n- **1776** - Declaration of Independence\n- **1781** - Articles of Confederation ratified\n- **1787** - Constitutional Convention in Philadelphia\n- **1788** - Constitution ratified by nine states\n- **1789** - First Congress and first president\n- **1791** - Bill of Rights ratified\n- **1803** - Marbury v Madison establishes judicial review\n- **1865-70** - Reconstruction Amendments 13, 14, 15\n- **1920** - Women's suffrage (19th Amendment)\n- **1992** - 27th Amendment ratified after two centuries",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "b-road": {
+      "id": "b-road",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 562.5
+      },
+      "data": {
+        "label": "Road to the Constitution",
+        "color": "yellow"
+      }
+    },
+    "b-road-desc": {
+      "id": "b-road-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 617.5
+      },
+      "data": {
+        "text": "English precedents, colonial charters, revolution and the failure of the Articles.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-road-intro": {
+      "id": "b-road-intro",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The roots**\nThe Constitution drew on English law, Enlightenment thought, colonial experience and the crisis of the Articles of Confederation. It was a practical solution to a failing union, not a sudden invention.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "rd-magna": {
+      "id": "rd-magna",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Magna Carta (1215)**\nEnglish nobles forced King John to accept limits on royal power. It established the idea that even the king was subject to law.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-petition": {
+      "id": "rd-petition",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Petition of Right (1628)**\nParliament challenged arbitrary taxation, imprisonment and quartering of soldiers. It became a precedent for English liberties.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-bill": {
+      "id": "rd-bill",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**English Bill of Rights (1689)**\nLimited royal power and affirmed parliamentary rights, free elections, free speech in Parliament and protections against cruel punishment.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-locke": {
+      "id": "rd-locke",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**John Locke**\nHis theories of natural rights, consent of the governed and the right to revolution deeply influenced the Declaration and the founders.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-montesquieu": {
+      "id": "rd-montesquieu",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Montesquieu**\nHis analysis of separated powers and balanced government shaped the Constitution's structure of checks and balances.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-charters": {
+      "id": "rd-charters",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Colonial charters**\nEach colony had a charter, governor, assembly and courts. Colonists had experience with self-government, elections and written rules.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-mayflower": {
+      "id": "rd-mayflower",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Mayflower Compact (1620)**\nThe Pilgrims agreed to govern themselves by majority consent. It is often cited as an early American social contract.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-fundamental": {
+      "id": "rd-fundamental",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Fundamental Orders of Connecticut (1639)**\nA written framework of government with an elected assembly and limited powers. It influenced later state constitutions.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-salutary": {
+      "id": "rd-salutary",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Salutary neglect**\nBritain loosely enforced colonial rules for much of the eighteenth century. The colonies grew used to self-rule.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-stamp": {
+      "id": "rd-stamp",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Stamp Act (1765)**\nBritain taxed printed materials in the colonies. The slogan 'no taxation without representation' mobilized colonial resistance.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-townshend": {
+      "id": "rd-townshend",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Townshend Acts**\nDuties on imports and stricter enforcement provoked boycotts, protests and British troops in Boston.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-boston": {
+      "id": "rd-boston",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Boston Massacre (1770)**\nBritish soldiers killed five colonists. The event became a powerful anti-British symbol.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-tea": {
+      "id": "rd-tea",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Boston Tea Party (1773)**\nColonists dumped tea into Boston Harbor to protest the Tea Act. Britain responded with the Intolerable Acts.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-intolerable": {
+      "id": "rd-intolerable",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Intolerable Acts (1774)**\nBritain closed Boston Harbor, restricted Massachusetts government and quartered troops. The colonies convened the First Continental Congress.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-congress": {
+      "id": "rd-congress",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Continental Congress**\nThe First and Second Continental Congresses coordinated resistance, raised an army and eventually declared independence.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-paine": {
+      "id": "rd-paine",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 732.0
+      },
+      "data": {
+        "text": "**Common Sense (1776)**\nThomas Paine attacked monarchy and argued for independence in plain language. It helped turn public opinion.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-state": {
+      "id": "rd-state",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**State constitutions**\nThe new states wrote constitutions with bills of rights, elected legislatures and weak executives. Their experiments informed the federal document.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rd-confed": {
+      "id": "rd-confed",
+      "areaId": "b-road",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Articles of Confederation**\nThe first national framework created a weak league of states. Its failures led directly to the 1787 Convention.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-declaration": {
+      "id": "b-declaration",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 562.5
+      },
+      "data": {
+        "label": "Revolution & Declaration",
+        "color": "red"
+      }
+    },
+    "b-declaration-desc": {
+      "id": "b-declaration-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 617.5
+      },
+      "data": {
+        "text": "Natural rights, independence and the ideas behind the founding.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-declaration-intro": {
+      "id": "b-declaration-intro",
+      "areaId": "b-declaration",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The Declaration**\nJefferson's Declaration of Independence stated the principles that the Constitution later tried to institutionalize: equality, natural rights, consent and the right to resist tyranny.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "dc-idea": {
+      "id": "dc-idea",
+      "areaId": "b-declaration",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Independence**\nThe Second Continental Congress declared independence on 4 July 1776. The vote was unanimous among the states present, but not all colonists supported it.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "dc-jefferson": {
+      "id": "dc-jefferson",
+      "areaId": "b-declaration",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Jefferson drafts**\nThomas Jefferson wrote the Declaration with edits from John Adams and Benjamin Franklin. It was a political argument, not a legal constitution.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "dc-natural": {
+      "id": "dc-natural",
+      "areaId": "b-declaration",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Natural rights**\n'Life, liberty and the pursuit of happiness' replaced Locke's property. Government exists to secure rights and derives power from consent.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "dc-grievances": {
+      "id": "dc-grievances",
+      "areaId": "b-declaration",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Grievances**\nThe Declaration listed abuses by the king: taxation without consent, standing armies, suspended legislatures, arbitrary justice and slave trade incitement.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "dc-slavery": {
+      "id": "dc-slavery",
+      "areaId": "b-declaration",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Slavery clause removed**\nJefferson's attack on the slave trade was cut to keep southern colonies in the independence coalition. The contradiction shaped the founding.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "dc-signers": {
+      "id": "dc-signers",
+      "areaId": "b-declaration",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Signers**\nFifty-six delegates eventually signed. They included Adams, Franklin, Jefferson, Hancock, Morris, Rush and many state leaders.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "dc-equality": {
+      "id": "dc-equality",
+      "areaId": "b-declaration",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Equality**\nThe claim that all men are created equal became a standard used later by abolitionists, suffragists and civil rights movements.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "dc-revolution": {
+      "id": "dc-revolution",
+      "areaId": "b-declaration",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Right of revolution**\nThe Declaration argued that oppressive government justifies resistance. It influenced revolutions and independence movements worldwide.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "dc-republic": {
+      "id": "dc-republic",
+      "areaId": "b-declaration",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Republicanism**\nThe founders rejected monarchy and hereditary rule. They wanted a government based on consent, law and civic virtue.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "dc-virtue": {
+      "id": "dc-virtue",
+      "areaId": "b-declaration",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Civic virtue**\nMany founders believed a republic required virtuous citizens and leaders who put the public good above private interest.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "dc-fear": {
+      "id": "dc-fear",
+      "areaId": "b-declaration",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Fear of tyranny**\nThe revolutionary experience made the founders suspicious of standing armies, executive power, established churches and centralized taxation.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "dc-limits": {
+      "id": "dc-limits",
+      "areaId": "b-declaration",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Limits of the Declaration**\nThe promise of equality excluded enslaved people, women and Native Americans in practice. The gap became central to American history.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "dc-constitution": {
+      "id": "dc-constitution",
+      "areaId": "b-declaration",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**From declaration to constitution**\nThe Declaration stated principles; the Constitution created institutions. The two documents are often read together.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-confederation": {
+      "id": "b-confederation",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 562.5
+      },
+      "data": {
+        "label": "Articles of Confederation",
+        "color": "yellow"
+      }
+    },
+    "b-confederation-desc": {
+      "id": "b-confederation-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 617.5
+      },
+      "data": {
+        "text": "1781-1789: a weak union and the crisis that forced reform.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-confederation-intro": {
+      "id": "b-confederation-intro",
+      "areaId": "b-confederation",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The first constitution**\nThe Articles created a confederation of sovereign states with a weak central government. They could not tax, regulate trade or enforce laws, and the union nearly collapsed.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "cf-framework": {
+      "id": "cf-framework",
+      "areaId": "b-confederation",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Framework**\nThe Articles created a unicameral Congress with one vote per state. There was no independent executive or judiciary.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cf-powers": {
+      "id": "cf-powers",
+      "areaId": "b-confederation",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Powers**\nCongress could declare war, make treaties, coin money and run the post office. It could not tax directly or regulate interstate commerce.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cf-weakness": {
+      "id": "cf-weakness",
+      "areaId": "b-confederation",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Weaknesses**\nNo power to tax, no executive, no federal courts, no commerce power, no coercive authority over states. Amendments required unanimity.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cf-sovereignty": {
+      "id": "cf-sovereignty",
+      "areaId": "b-confederation",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**State sovereignty**\nThe Articles described a 'league of friendship' among sovereign states. Many Americans feared a strong national government.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cf-finance": {
+      "id": "cf-finance",
+      "areaId": "b-confederation",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Finance**\nCongress depended on state requisitions, which were often unpaid. War debts and paper money caused inflation and conflict.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cf-army": {
+      "id": "cf-army",
+      "areaId": "b-confederation",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Army**\nThe Confederation could raise troops only through state quotas. After the Revolution, the army was reduced and unpaid.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cf-trade": {
+      "id": "cf-trade",
+      "areaId": "b-confederation",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Trade**\nStates imposed tariffs on each other and competed for commerce. A national commercial policy was impossible.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cf-northwest": {
+      "id": "cf-northwest",
+      "areaId": "b-confederation",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Northwest Ordinance (1787)**\nThe Confederation's greatest achievement created a process for settling the Northwest Territory and banning slavery there.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cf-shays": {
+      "id": "cf-shays",
+      "areaId": "b-confederation",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Shays' Rebellion (1786-87)**\nMassachusetts farmers rebelled against debts and foreclosures. The weak national response convinced elites that reform was urgent.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cf-annapolis": {
+      "id": "cf-annapolis",
+      "areaId": "b-confederation",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Annapolis Convention (1786)**\nOnly five states attended a meeting on commerce. The delegates called for a broader convention in Philadelphia.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cf-mountvernon": {
+      "id": "cf-mountvernon",
+      "areaId": "b-confederation",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Mount Vernon Conference (1785)**\nVirginia and Maryland settled navigation disputes. It showed that interstate cooperation was possible.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cf-crisis": {
+      "id": "cf-crisis",
+      "areaId": "b-confederation",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Crisis of the union**\nDebt, trade disputes, western settlement and rebellion exposed the Articles' inadequacy. Nationalists demanded a stronger government.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cf-legacy": {
+      "id": "cf-legacy",
+      "areaId": "b-confederation",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Legacy**\nThe Articles taught the founders what not to do. The Constitution replaced a league of states with a federal nation.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-convention": {
+      "id": "b-convention",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 702.0
+      },
+      "data": {
+        "label": "Constitutional Convention",
+        "color": "red"
+      }
+    },
+    "b-convention-desc": {
+      "id": "b-convention-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 757.0
+      },
+      "data": {
+        "text": "Philadelphia, 1787: delegates, plans, committees and the signing.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-convention-intro": {
+      "id": "b-convention-intro",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The Convention**\nFifty-five delegates met in Philadelphia from May to September 1787. They wrote a new constitution in secret, balancing state interests, national power and slavery.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "cv-philadelphia": {
+      "id": "cv-philadelphia",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Philadelphia (May-September 1787)**\nDelegates met at Independence Hall. Rhode Island refused to attend, and several states sent incomplete delegations.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cv-delegates": {
+      "id": "cv-delegates",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Delegates**\nFifty-five men attended; thirty-nine signed. They were lawyers, planters, merchants, soldiers and governors, mostly wealthy and educated.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cv-washington": {
+      "id": "cv-washington",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Washington presides**\nGeorge Washington was elected presiding officer. His prestige gave the Convention legitimacy.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cv-madison": {
+      "id": "cv-madison",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Madison's notes**\nJames Madison kept detailed notes, making him the chief recorder of the debates. He is called the Father of the Constitution.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cv-secrecy": {
+      "id": "cv-secrecy",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Secrecy**\nThe debates were closed to the public. Delegates could change their minds without public pressure, but secrecy fueled suspicions.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cv-virginia": {
+      "id": "cv-virginia",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Virginia Plan**\nMadison and Randolph proposed a strong national government with a bicameral legislature based on population, an executive and a judiciary.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cv-newjersey": {
+      "id": "cv-newjersey",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**New Jersey Plan**\nPaterson proposed a weaker federal government with a unicameral legislature and equal state representation.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cv-hamilton": {
+      "id": "cv-hamilton",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Hamilton's plan**\nHamilton proposed a very strong central government with a powerful executive and senate. It was too radical to pass.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cv-connecticut": {
+      "id": "cv-connecticut",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Connecticut Compromise**\nSherman, Johnson and Ellsworth proposed a bicameral Congress: population in the House, equal states in the Senate.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cv-threefifths": {
+      "id": "cv-threefifths",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Three-Fifths Compromise**\nEnslaved people were counted as three-fifths of a person for representation and taxation. It strengthened slaveholding states.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cv-slave-trade": {
+      "id": "cv-slave-trade",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Slave trade compromise**\nCongress could not ban the international slave trade until 1808. A fugitive slave clause was included.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cv-executive": {
+      "id": "cv-executive",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Executive compromise**\nDelegates debated a single executive, term length, removal and election. They settled on a president chosen by electors.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cv-judiciary": {
+      "id": "cv-judiciary",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Judiciary compromise**\nThe Convention created one Supreme Court and allowed Congress to establish inferior courts. Judicial review was not explicitly stated.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cv-committee": {
+      "id": "cv-committee",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Committee of Detail**\nA committee turned the resolutions into a draft constitution. The Committee of Style, led by Gouverneur Morris, polished the text and wrote the Preamble.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cv-morris": {
+      "id": "cv-morris",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Gouverneur Morris**\nHe wrote much of the final wording, including 'We the People'. He favored a strong national government and a vigorous executive.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cv-signing": {
+      "id": "cv-signing",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 752.5
+      },
+      "data": {
+        "text": "**Signing (17 September 1787)**\nThirty-nine delegates signed. Mason, Gerry and Randolph refused; others had left or opposed the result.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cv-franklin": {
+      "id": "cv-franklin",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Franklin's rising sun**\nFranklin said he had wondered whether the sun on Washington's chair was rising or setting. He concluded it was rising.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cv-mason": {
+      "id": "cv-mason",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Mason refuses**\nGeorge Mason refused to sign because the document lacked a bill of rights and did not end the slave trade.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cv-gerry": {
+      "id": "cv-gerry",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 864.0
+      },
+      "data": {
+        "text": "**Gerry refuses**\nElbridge Gerry feared a powerful central government and demanded a bill of rights. He later supported ratification with amendments.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cv-randolph": {
+      "id": "cv-randolph",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 884.5
+      },
+      "data": {
+        "text": "**Randolph refuses**\nEdmund Randolph thought the Constitution was too strong and lacked protections. He later supported ratification in Virginia.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cv-result": {
+      "id": "cv-result",
+      "areaId": "b-convention",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 884.5
+      },
+      "data": {
+        "text": "**Result**\nThe Convention produced a draft Constitution, not a finished government. Ratification by nine state conventions was required.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-compromises": {
+      "id": "b-compromises",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 702.0
+      },
+      "data": {
+        "label": "Great compromises",
+        "color": "orange"
+      }
+    },
+    "b-compromises-desc": {
+      "id": "b-compromises-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 757.0
+      },
+      "data": {
+        "text": "Representation, slavery, executive power and ratification.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-compromises-intro": {
+      "id": "b-compromises-intro",
+      "areaId": "b-compromises",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The bargains**\nThe Constitution was built on compromises. They made union possible but embedded slavery and left some conflicts unresolved.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "cp-great": {
+      "id": "cp-great",
+      "areaId": "b-compromises",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Great Compromise**\nThe Connecticut Compromise created a House based on population and a Senate with equal state representation. It saved the Convention.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cp-threefifths": {
+      "id": "cp-threefifths",
+      "areaId": "b-compromises",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Three-Fifths Compromise**\nEach enslaved person counted as three-fifths for representation and direct taxation. The clause never used the word 'slave'.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cp-slave": {
+      "id": "cp-slave",
+      "areaId": "b-compromises",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Slave trade**\nThe international slave trade could continue until 1808. Congress could then prohibit it, which it did in 1807.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cp-fugitive": {
+      "id": "cp-fugitive",
+      "areaId": "b-compromises",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Fugitive slave clause**\nEscaped enslaved people had to be returned to their owners. It was one of the Constitution's most divisive provisions.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cp-electoral": {
+      "id": "cp-electoral",
+      "areaId": "b-compromises",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Electoral College**\nThe president is chosen by electors appointed by states. The system balanced state power, slavery and fears of direct democracy.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cp-executive": {
+      "id": "cp-executive",
+      "areaId": "b-compromises",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Executive power**\nDelegates rejected a weak executive and a monarchy. They created a single president with a four-year term and removal by impeachment.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cp-senate": {
+      "id": "cp-senate",
+      "areaId": "b-compromises",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Senate**\nThe Senate was designed to represent states and cool popular passions. State legislatures chose senators until the 17th Amendment.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cp-amendment": {
+      "id": "cp-amendment",
+      "areaId": "b-compromises",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Amendment process**\nArticle V required two-thirds of Congress or a convention and three-fourths of states. It balanced flexibility and stability.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cp-ratification": {
+      "id": "cp-ratification",
+      "areaId": "b-compromises",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Ratification**\nThe Constitution would take effect after nine state conventions, not unanimous state legislatures. This avoided the Articles' unanimity trap.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cp-bill": {
+      "id": "cp-bill",
+      "areaId": "b-compromises",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Bill of Rights deal**\nFederalists promised to add amendments protecting individual rights to win ratification. The Bill of Rights was ratified in 1791.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cp-unresolved": {
+      "id": "cp-unresolved",
+      "areaId": "b-compromises",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Unresolved issues**\nSlavery, federal-state power, judicial review and the scope of executive authority remained contested.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cp-legacy": {
+      "id": "cp-legacy",
+      "areaId": "b-compromises",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Legacy of compromise**\nThe compromises enabled a durable union but deferred a moral and political reckoning that eventually led to civil war.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-principles": {
+      "id": "b-principles",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 722.5
+      },
+      "data": {
+        "label": "Founding principles",
+        "color": "cyan"
+      }
+    },
+    "b-principles-desc": {
+      "id": "b-principles-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 777.5
+      },
+      "data": {
+        "text": "Popular sovereignty, federalism, separation of powers and checks and balances.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-principles-intro": {
+      "id": "b-principles-intro",
+      "areaId": "b-principles",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The architecture**\nThe Constitution creates a federal republic with separated powers and overlapping checks. Its legitimacy rests on the consent of the governed.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "pr-popular": {
+      "id": "pr-popular",
+      "areaId": "b-principles",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Popular sovereignty**\n'We the People' claimed that authority comes from the people, not from states or a monarch.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-republic": {
+      "id": "pr-republic",
+      "areaId": "b-principles",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Republicanism**\nGovernment is representative, not direct. Officials are elected or appointed under law, and offices are not hereditary.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-federal": {
+      "id": "pr-federal",
+      "areaId": "b-principles",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Federalism**\nPower is divided between the national government and the states. The balance has shifted over time.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-separation": {
+      "id": "pr-separation",
+      "areaId": "b-principles",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Separation of powers**\nLegislative, executive and judicial powers are assigned to separate institutions to prevent tyranny.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-checks": {
+      "id": "pr-checks",
+      "areaId": "b-principles",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Checks and balances**\nEach branch can limit the others: veto, override, appointment, treaty advice, impeachment, judicial review.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-limited": {
+      "id": "pr-limited",
+      "areaId": "b-principles",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Limited government**\nThe national government has only the powers granted by the Constitution, plus implied powers necessary to carry them out.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-rights": {
+      "id": "pr-rights",
+      "areaId": "b-principles",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Individual rights**\nThe Bill of Rights and later amendments protect speech, religion, due process, equality and voting.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-rule": {
+      "id": "pr-rule",
+      "areaId": "b-principles",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Rule of law**\nOfficials are subject to law. The Constitution is supreme over ordinary legislation and state law.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-madison": {
+      "id": "pr-madison",
+      "areaId": "b-principles",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Madison's theory**\nIn Federalist 51, Madison argued that ambition must counter ambition and that men are not angels.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-factions": {
+      "id": "pr-factions",
+      "areaId": "b-principles",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Factions**\nMadison argued in Federalist 10 that a large republic could control factions better than a small one.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-consent": {
+      "id": "pr-consent",
+      "areaId": "b-principles",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Consent of the governed**\nTaxation, obedience and officeholding rest on the consent of the people, expressed through elections and law.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-virtue": {
+      "id": "pr-virtue",
+      "areaId": "b-principles",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Civic virtue**\nThe founders hoped citizens and officials would place the public good above private interest, but they did not rely on virtue alone.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-antis": {
+      "id": "pr-antis",
+      "areaId": "b-principles",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Anti-Federalist critique**\nCritics argued the Constitution centralized power, lacked a bill of rights and threatened state governments.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pr-living": {
+      "id": "pr-living",
+      "areaId": "b-principles",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Living document**\nThe Constitution's meaning has changed through amendments, interpretation and practice. Its ambiguity is both a strength and a source of conflict.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-article1": {
+      "id": "b-article1",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 841.5
+      },
+      "data": {
+        "label": "Article I - Congress",
+        "color": "red"
+      }
+    },
+    "b-article1-desc": {
+      "id": "b-article1-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 896.5
+      },
+      "data": {
+        "text": "The legislative branch: House, Senate, powers and limits.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-article1-intro": {
+      "id": "b-article1-intro",
+      "areaId": "b-article1",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Article I**\nArticle I creates Congress, defines its structure and lists its powers. It is the longest article and the foundation of federal lawmaking.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "a1-vest": {
+      "id": "a1-vest",
+      "areaId": "b-article1",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Section 1: Vesting clause**\n'All legislative powers herein granted shall be vested in a Congress of the United States, which shall consist of a Senate and House of Representatives.'",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a1-house": {
+      "id": "a1-house",
+      "areaId": "b-article1",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**House of Representatives**\nMembers are elected every two years by the people. The House originates revenue bills and has the power to impeach.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a1-house-qual": {
+      "id": "a1-house-qual",
+      "areaId": "b-article1",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**House qualifications**\nA representative must be at least 25, a US citizen for seven years and an inhabitant of the state represented.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a1-apportion": {
+      "id": "a1-apportion",
+      "areaId": "b-article1",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Apportionment**\nSeats are distributed by population, with enslaved people counted as three-fifths until the 14th Amendment. Each state has at least one representative.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a1-senate": {
+      "id": "a1-senate",
+      "areaId": "b-article1",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Senate**\nTwo senators per state, serving six-year terms. Originally chosen by state legislatures; the 17th Amendment provided for direct election.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a1-senate-qual": {
+      "id": "a1-senate-qual",
+      "areaId": "b-article1",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Senate qualifications**\nA senator must be at least 30, a US citizen for nine years and an inhabitant of the state.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a1-vp": {
+      "id": "a1-vp",
+      "areaId": "b-article1",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Vice President**\nThe Vice President is President of the Senate and casts tie-breaking votes. The Senate also chooses its other officers.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a1-elections": {
+      "id": "a1-elections",
+      "areaId": "b-article1",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Elections and meetings**\nCongress sets the times and places of elections. It must meet at least once a year.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a1-rules": {
+      "id": "a1-rules",
+      "areaId": "b-article1",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Rules and discipline**\nEach chamber judges its members' elections, sets its rules and may expel members by a two-thirds vote.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a1-privileges": {
+      "id": "a1-privileges",
+      "areaId": "b-article1",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Privileges**\nMembers cannot be arrested during legislative sessions except for treason, felony or breach of the peace, and their speech is protected.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a1-compensation": {
+      "id": "a1-compensation",
+      "areaId": "b-article1",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Compensation**\nCongress sets its own pay. The 27th Amendment delayed pay increases until after the next election.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a1-bills": {
+      "id": "a1-bills",
+      "areaId": "b-article1",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Lawmaking**\nBills must pass both chambers and be presented to the president. The president may veto; Congress can override by two-thirds.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a1-enumerated": {
+      "id": "a1-enumerated",
+      "areaId": "b-article1",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Enumerated powers**\nTax, borrow, regulate commerce, naturalize, bankrupt, coin money, punish counterfeiting, establish post offices, grant patents, create courts, declare war, raise armies and navies, call the militia.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a1-necessary": {
+      "id": "a1-necessary",
+      "areaId": "b-article1",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Necessary and Proper Clause**\nCongress may make laws necessary and proper to carry out its powers. Hamilton and Marshall used it to defend implied powers.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a1-limits": {
+      "id": "a1-limits",
+      "areaId": "b-article1",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Limits on Congress**\nNo suspension of habeas corpus except in rebellion or invasion, no bills of attainder, no ex post facto laws, no titles of nobility.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a1-states": {
+      "id": "a1-states",
+      "areaId": "b-article1",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 752.5
+      },
+      "data": {
+        "text": "**Limits on states**\nStates cannot make treaties, coin money, tax imports or exports without consent, or impair contracts.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a1-war": {
+      "id": "a1-war",
+      "areaId": "b-article1",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**War powers**\nCongress declares war, raises and supports armies, provides a navy and makes rules for the military.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a1-commerce": {
+      "id": "a1-commerce",
+      "areaId": "b-article1",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Commerce Clause**\nCongress regulates interstate and foreign commerce. The clause became a foundation of federal power.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a1-impeach": {
+      "id": "a1-impeach",
+      "areaId": "b-article1",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 864.0
+      },
+      "data": {
+        "text": "**Impeachment**\nThe House impeaches; the Senate tries. Conviction requires two-thirds and removes the official from office.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-article2": {
+      "id": "b-article2",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 862.0
+      },
+      "data": {
+        "label": "Article II - Executive",
+        "color": "red"
+      }
+    },
+    "b-article2-desc": {
+      "id": "b-article2-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 917.0
+      },
+      "data": {
+        "text": "The presidency, Electoral College, powers and removal.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-article2-intro": {
+      "id": "b-article2-intro",
+      "areaId": "b-article2",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Article II**\nArticle II creates a single executive with broad but limited powers. The presidency has grown far beyond the founders' expectations.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "a2-vest": {
+      "id": "a2-vest",
+      "areaId": "b-article2",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Section 1: Vesting clause**\n'The executive power shall be vested in a President of the United States of America.' The president serves a four-year term.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a2-qual": {
+      "id": "a2-qual",
+      "areaId": "b-article2",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Qualifications**\nThe president must be a natural-born citizen, at least 35 and a resident of the US for fourteen years.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a2-electors": {
+      "id": "a2-electors",
+      "areaId": "b-article2",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Electoral College**\nEach state appoints electors equal to its congressional delegation. Electors vote for president and vice president.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a2-election": {
+      "id": "a2-election",
+      "areaId": "b-article2",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Election and tie**\nThe House chooses the president if no candidate wins a majority; the Senate chooses the vice president. The 12th Amendment separated the ballots.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a2-succession": {
+      "id": "a2-succession",
+      "areaId": "b-article2",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Succession**\nIf the president dies, resigns or is removed, powers pass to the vice president. The 25th Amendment clarified disability and succession.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a2-salary": {
+      "id": "a2-salary",
+      "areaId": "b-article2",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Salary**\nThe president receives compensation that cannot be increased or decreased during the term, and cannot accept foreign emoluments.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a2-oath": {
+      "id": "a2-oath",
+      "areaId": "b-article2",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Oath**\nThe president swears to preserve, protect and defend the Constitution.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a2-commander": {
+      "id": "a2-commander",
+      "areaId": "b-article2",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Commander in Chief**\nThe president commands the armed forces and militia when called into service, but Congress declares war and funds the military.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a2-pardons": {
+      "id": "a2-pardons",
+      "areaId": "b-article2",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Pardons**\nThe president may grant reprieves and pardons for federal offenses, except in impeachment cases.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a2-treaties": {
+      "id": "a2-treaties",
+      "areaId": "b-article2",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Treaties**\nThe president makes treaties with the advice and consent of two-thirds of the Senate.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a2-appointments": {
+      "id": "a2-appointments",
+      "areaId": "b-article2",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Appointments**\nThe president appoints ambassadors, judges and officers with Senate consent. Congress may allow lower appointments by law.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a2-reports": {
+      "id": "a2-reports",
+      "areaId": "b-article2",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**State of the Union**\nThe president reports on the state of the union and recommends measures to Congress.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a2-faithful": {
+      "id": "a2-faithful",
+      "areaId": "b-article2",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Take care clause**\nThe president must 'take care that the laws be faithfully executed'. This clause is central to executive power debates.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a2-impeach": {
+      "id": "a2-impeach",
+      "areaId": "b-article2",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Impeachment**\nThe president, vice president and civil officers can be removed for treason, bribery or high crimes and misdemeanors.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-article3": {
+      "id": "b-article3",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 882.5
+      },
+      "data": {
+        "label": "Article III - Judiciary",
+        "color": "cyan"
+      }
+    },
+    "b-article3-desc": {
+      "id": "b-article3-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 937.5
+      },
+      "data": {
+        "text": "The Supreme Court, judicial power and the origins of judicial review.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-article3-intro": {
+      "id": "b-article3-intro",
+      "areaId": "b-article3",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Article III**\nArticle III creates the federal judiciary and protects judicial independence through life tenure and salary. It does not explicitly mention judicial review.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "a3-vest": {
+      "id": "a3-vest",
+      "areaId": "b-article3",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Section 1: Judicial power**\n'The judicial power of the United States shall be vested in one Supreme Court, and in such inferior courts as the Congress may from time to time ordain and establish.'",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a3-tenure": {
+      "id": "a3-tenure",
+      "areaId": "b-article3",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Tenure**\nJudges hold office during good behavior and receive compensation that cannot be reduced. This protects them from political pressure.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a3-jurisdiction": {
+      "id": "a3-jurisdiction",
+      "areaId": "b-article3",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Jurisdiction**\nFederal courts hear cases arising under the Constitution, federal laws, treaties, admiralty, disputes between states and cases involving foreign diplomats.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a3-marbury": {
+      "id": "a3-marbury",
+      "areaId": "b-article3",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Judicial review**\nThe power to declare laws unconstitutional is not explicit. Marshall claimed it in Marbury v Madison (1803), and it became a foundation of the system.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a3-treason": {
+      "id": "a3-treason",
+      "areaId": "b-article3",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Treason**\nTreason is defined narrowly: levying war against the US or adhering to its enemies, with testimony of two witnesses or confession.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a3-jury": {
+      "id": "a3-jury",
+      "areaId": "b-article3",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Jury trial**\nFederal criminal trials require a jury, and treason trials have special evidentiary rules.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a3-courts": {
+      "id": "a3-courts",
+      "areaId": "b-article3",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Inferior courts**\nCongress created the lower federal courts in the Judiciary Act of 1789. It can also limit their jurisdiction.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a3-judges": {
+      "id": "a3-judges",
+      "areaId": "b-article3",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Judges**\nThe Constitution does not specify the number of justices. Congress set the Supreme Court at six in 1789, later nine.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a3-appeals": {
+      "id": "a3-appeals",
+      "areaId": "b-article3",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Appeals**\nThe Supreme Court mainly reviews decisions of lower courts. Congress decides much of its appellate jurisdiction.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a3-hamilton": {
+      "id": "a3-hamilton",
+      "areaId": "b-article3",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Federalist 78**\nHamilton argued the judiciary is the 'least dangerous' branch because it has neither force nor will, and defended life tenure and judicial review.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a3-brutus": {
+      "id": "a3-brutus",
+      "areaId": "b-article3",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Brutus's warning**\nAnti-Federalist Brutus warned that judicial review would let unelected judges override the people's representatives.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a3-jefferson": {
+      "id": "a3-jefferson",
+      "areaId": "b-article3",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Jefferson's fear**\nJefferson called the judiciary a 'despotic branch' and warned that judges could become a 'subtle corps of sappers and miners' undermining republican government.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a3-marshall": {
+      "id": "a3-marshall",
+      "areaId": "b-article3",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**John Marshall**\nChief Justice 1801-1835. He strengthened the Court, established judicial review and shaped federal power.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a3-independence": {
+      "id": "a3-independence",
+      "areaId": "b-article3",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Judicial independence**\nLife tenure and salary protection insulate judges, but they also create a democratic tension: unelected judges decide major policy questions.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-article4": {
+      "id": "b-article4",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 981.0
+      },
+      "data": {
+        "label": "Articles IV-VII",
+        "color": "yellow"
+      }
+    },
+    "b-article4-desc": {
+      "id": "b-article4-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1036.0
+      },
+      "data": {
+        "text": "Federalism, amendment, supremacy and ratification.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-article4-intro": {
+      "id": "b-article4-intro",
+      "areaId": "b-article4",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The rest of the text**\nArticles IV-VII govern relations among states, amendment, federal supremacy, oaths and ratification.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "a4-faith": {
+      "id": "a4-faith",
+      "areaId": "b-article4",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Full faith and credit**\nStates must recognize each other's public acts, records and judicial proceedings.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a4-privileges": {
+      "id": "a4-privileges",
+      "areaId": "b-article4",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Privileges and immunities**\nStates cannot discriminate against citizens of other states in fundamental rights. The scope remains contested.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a4-extradition": {
+      "id": "a4-extradition",
+      "areaId": "b-article4",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Extradition**\nAccused criminals fleeing across state lines must be returned to the state where the crime occurred.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a4-fugitive": {
+      "id": "a4-fugitive",
+      "areaId": "b-article4",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Fugitive slave clause**\nEscaped enslaved people had to be returned. The 13th Amendment abolished slavery and nullified the clause.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a4-newstates": {
+      "id": "a4-newstates",
+      "areaId": "b-article4",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**New states**\nCongress may admit new states, but no new state may be formed from an existing state without consent.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a4-territory": {
+      "id": "a4-territory",
+      "areaId": "b-article4",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Territories**\nCongress governs federal territories. The Constitution does not specify how territories become states.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a4-republican": {
+      "id": "a4-republican",
+      "areaId": "b-article4",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Republican government**\nThe US guarantees each state a republican form of government and protection against invasion and domestic violence.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a5-amend": {
+      "id": "a5-amend",
+      "areaId": "b-article4",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Article V: Amendment**\nAmendments may be proposed by two-thirds of Congress or a national convention, and ratified by three-fourths of states.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a5-entrench": {
+      "id": "a5-entrench",
+      "areaId": "b-article4",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Entrenched clauses**\nThe slave trade could not be banned before 1808, and no state could lose equal Senate representation without consent.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a6-debts": {
+      "id": "a6-debts",
+      "areaId": "b-article4",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**Article VI: Debts**\nThe new government assumed debts and engagements made under the Articles of Confederation.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a6-supremacy": {
+      "id": "a6-supremacy",
+      "areaId": "b-article4",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**Supremacy Clause**\nThe Constitution, federal laws and treaties are the supreme law of the land. State judges are bound by them.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a6-oaths": {
+      "id": "a6-oaths",
+      "areaId": "b-article4",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**Oaths**\nFederal and state officials must swear to support the Constitution, but no religious test may be required for office.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a7-ratify": {
+      "id": "a7-ratify",
+      "areaId": "b-article4",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 579.5
+      },
+      "data": {
+        "text": "**Article VII: Ratification**\nThe Constitution would take effect after ratification by nine state conventions, not by state legislatures.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "a7-legacy": {
+      "id": "a7-legacy",
+      "areaId": "b-article4",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 579.5
+      },
+      "data": {
+        "text": "**A living framework**\nThe articles are short and flexible. Much of the Constitution's meaning comes from legislation, courts and practice.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-ratification": {
+      "id": "b-ratification",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1001.5
+      },
+      "data": {
+        "label": "Ratification & Federalist Papers",
+        "color": "cyan"
+      }
+    },
+    "b-ratification-desc": {
+      "id": "b-ratification-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1056.5
+      },
+      "data": {
+        "text": "The state conventions, Publius, Brutus and the Bill of Rights bargain.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-ratification-intro": {
+      "id": "b-ratification-intro",
+      "areaId": "b-ratification",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Ratification**\nThe Constitution was a controversial document. Federalists organized for ratification, while Anti-Federalists demanded a bill of rights and feared centralized power.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "rt-process": {
+      "id": "rt-process",
+      "areaId": "b-ratification",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Ratification process**\nSpecial state conventions debated the Constitution. Nine states were needed for it to take effect.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rt-federalist": {
+      "id": "rt-federalist",
+      "areaId": "b-ratification",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Federalists**\nSupporters of ratification, including Washington, Madison, Hamilton and Jay. They argued for a strong union and checks on power.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rt-antifederalist": {
+      "id": "rt-antifederalist",
+      "areaId": "b-ratification",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Anti-Federalists**\nOpponents feared a consolidated government, a standing army, taxation and the loss of state sovereignty. They demanded a bill of rights.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rt-publius": {
+      "id": "rt-publius",
+      "areaId": "b-ratification",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**The Federalist Papers**\nEighty-five essays by Hamilton, Madison and Jay, published as 'Publius'. They explained and defended the Constitution.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rt-f10": {
+      "id": "rt-f10",
+      "areaId": "b-ratification",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Federalist 10**\nMadison argued that a large republic would control factions better than small democracies.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rt-f51": {
+      "id": "rt-f51",
+      "areaId": "b-ratification",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Federalist 51**\nMadison explained separation of powers and checks and balances: ambition must counter ambition.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rt-f78": {
+      "id": "rt-f78",
+      "areaId": "b-ratification",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Federalist 78**\nHamilton defended life tenure and judicial review, calling the judiciary the least dangerous branch.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rt-brutus": {
+      "id": "rt-brutus",
+      "areaId": "b-ratification",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Brutus**\nAn Anti-Federalist essay series, probably by Robert Yates, warned that the Constitution would create a consolidated government and powerful courts.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rt-farmer": {
+      "id": "rt-farmer",
+      "areaId": "b-ratification",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Federal Farmer**\nA widely read Anti-Federalist pamphlet, likely by Richard Henry Lee, demanded a bill of rights and warned against aristocracy.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rt-penn": {
+      "id": "rt-penn",
+      "areaId": "b-ratification",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Pennsylvania ratifies (December 1787)**\nPennsylvania was the second state to ratify, after a bitter and rushed convention. Federalists used their control to force a vote.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rt-mass": {
+      "id": "rt-mass",
+      "areaId": "b-ratification",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Massachusetts (February 1788)**\nMassachusetts ratified narrowly after Federalists promised amendments. The compromise helped save the Constitution.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rt-virginia": {
+      "id": "rt-virginia",
+      "areaId": "b-ratification",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Virginia (June 1788)**\nVirginia ratified after a fierce debate between Madison and Patrick Henry. Henry feared consolidated power.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rt-newyork": {
+      "id": "rt-newyork",
+      "areaId": "b-ratification",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**New York (July 1788)**\nNew York ratified after Hamilton, Jay and the Federalist Papers helped overcome strong Anti-Federalist opposition.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rt-nine": {
+      "id": "rt-nine",
+      "areaId": "b-ratification",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Nine states (June 1788)**\nNew Hampshire became the ninth state to ratify, making the Constitution operational.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rt-rhode": {
+      "id": "rt-rhode",
+      "areaId": "b-ratification",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Rhode Island (1790)**\nRhode Island held out longest and ratified only after the new government threatened tariffs.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rt-bill": {
+      "id": "rt-bill",
+      "areaId": "b-ratification",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 732.0
+      },
+      "data": {
+        "text": "**Bill of Rights promise**\nFederalists promised to add amendments protecting rights. Madison drafted them in the First Congress.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rt-northcarolina": {
+      "id": "rt-northcarolina",
+      "areaId": "b-ratification",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 732.0
+      },
+      "data": {
+        "text": "**North Carolina (1789)**\nNorth Carolina initially rejected the Constitution and ratified only after the Bill of Rights was proposed.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "rt-legacy": {
+      "id": "rt-legacy",
+      "areaId": "b-ratification",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 752.5
+      },
+      "data": {
+        "text": "**Legacy of ratification**\nThe ratification debate created the Federalist-Anti-Federalist divide and the idea that the Constitution protects individual rights.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-bill": {
+      "id": "b-bill",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1042.5
+      },
+      "data": {
+        "label": "Bill of Rights",
+        "color": "yellow"
+      }
+    },
+    "b-bill-desc": {
+      "id": "b-bill-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1097.5
+      },
+      "data": {
+        "text": "Amendments 1-10 and the promise of individual liberty.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-bill-intro": {
+      "id": "b-bill-intro",
+      "areaId": "b-bill",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The Bill of Rights**\nThe first ten amendments were proposed in 1789 and ratified in 1791. They protect speech, religion, due process, jury rights and powers reserved to the states.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "br-context": {
+      "id": "br-context",
+      "areaId": "b-bill",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Why a Bill of Rights**\nAnti-Federalists feared a powerful federal government. Madison drafted amendments to satisfy them and secure the Constitution's legitimacy.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "br-first": {
+      "id": "br-first",
+      "areaId": "b-bill",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**1st Amendment**\nFreedom of religion, speech, press, assembly and petition. Congress may not establish a religion or abridge these rights.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "br-second": {
+      "id": "br-second",
+      "areaId": "b-bill",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**2nd Amendment**\n'A well regulated militia, being necessary to the security of a free state, the right of the people to keep and bear arms, shall not be infringed.' Its meaning is contested.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "br-third": {
+      "id": "br-third",
+      "areaId": "b-bill",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**3rd Amendment**\nNo quartering of soldiers in private homes without consent in peacetime. It reflected colonial grievances.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "br-fourth": {
+      "id": "br-fourth",
+      "areaId": "b-bill",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**4th Amendment**\nProtection against unreasonable searches and seizures. Warrants require probable cause, oath and particular description.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "br-fifth": {
+      "id": "br-fifth",
+      "areaId": "b-bill",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**5th Amendment**\nGrand jury indictment, no double jeopardy, no self-incrimination, due process of law and just compensation for takings.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "br-sixth": {
+      "id": "br-sixth",
+      "areaId": "b-bill",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**6th Amendment**\nSpeedy and public trial, impartial jury, notice of charges, confrontation of witnesses and assistance of counsel.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "br-seventh": {
+      "id": "br-seventh",
+      "areaId": "b-bill",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**7th Amendment**\nRight to a jury trial in civil cases at common law. It preserves common-law jury rights.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "br-eighth": {
+      "id": "br-eighth",
+      "areaId": "b-bill",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**8th Amendment**\nNo excessive bail, excessive fines or cruel and unusual punishment.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "br-ninth": {
+      "id": "br-ninth",
+      "areaId": "b-bill",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**9th Amendment**\nThe enumeration of rights does not deny other rights retained by the people. It supports unenumerated rights.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "br-tenth": {
+      "id": "br-tenth",
+      "areaId": "b-bill",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**10th Amendment**\nPowers not delegated to the US or prohibited to states are reserved to the states or the people.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "br-incorporation": {
+      "id": "br-incorporation",
+      "areaId": "b-bill",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Incorporation**\nThe Supreme Court gradually applied most Bill of Rights protections to states through the 14th Amendment's due process clause.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "br-limits": {
+      "id": "br-limits",
+      "areaId": "b-bill",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Limits**\nRights are not absolute. Courts balance individual rights against public safety, order and national security.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "br-legacy": {
+      "id": "br-legacy",
+      "areaId": "b-bill",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Legacy**\nThe Bill of Rights is central to American constitutional identity, even though its protections were uneven for much of US history.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-amendments": {
+      "id": "b-amendments",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1120.5
+      },
+      "data": {
+        "label": "Amendments 11-27",
+        "color": "yellow"
+      }
+    },
+    "b-amendments-desc": {
+      "id": "b-amendments-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1175.5
+      },
+      "data": {
+        "text": "All later amendments, from sovereign immunity to congressional pay.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-amendments-intro": {
+      "id": "b-amendments-intro",
+      "areaId": "b-amendments",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The later amendments**\nThe Constitution has been amended twenty-seven times. The Reconstruction, Progressive and civil rights eras produced the most important changes.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "am-11": {
+      "id": "am-11",
+      "areaId": "b-amendments",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**11th Amendment (1795)**\nLimits federal suits against states by citizens of other states or foreign countries. It protects state sovereign immunity.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "am-12": {
+      "id": "am-12",
+      "areaId": "b-amendments",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**12th Amendment (1804)**\nSeparated Electoral College ballots for president and vice president after the 1800 election tie.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "am-13": {
+      "id": "am-13",
+      "areaId": "b-amendments",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**13th Amendment (1865)**\nAbolished slavery and involuntary servitude except as punishment for crime.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "am-14": {
+      "id": "am-14",
+      "areaId": "b-amendments",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**14th Amendment (1868)**\nCitizenship, privileges or immunities, due process, equal protection, apportionment and disqualification from office for insurrection.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "am-15": {
+      "id": "am-15",
+      "areaId": "b-amendments",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**15th Amendment (1870)**\nVoting rights cannot be denied on account of race, color or previous condition of servitude.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "am-16": {
+      "id": "am-16",
+      "areaId": "b-amendments",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**16th Amendment (1913)**\nAllowed Congress to levy an income tax.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "am-17": {
+      "id": "am-17",
+      "areaId": "b-amendments",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**17th Amendment (1913)**\nProvided for direct election of US senators.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "am-18": {
+      "id": "am-18",
+      "areaId": "b-amendments",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**18th Amendment (1919)**\nProhibited the manufacture, sale and transportation of intoxicating liquors. It was repealed in 1933.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "am-19": {
+      "id": "am-19",
+      "areaId": "b-amendments",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**19th Amendment (1920)**\nGranted women the right to vote.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "am-20": {
+      "id": "am-20",
+      "areaId": "b-amendments",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 447.5
+      },
+      "data": {
+        "text": "**20th Amendment (1933)**\nMoved presidential and congressional terms to January and clarified succession.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "am-21": {
+      "id": "am-21",
+      "areaId": "b-amendments",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**21st Amendment (1933)**\nRepealed Prohibition. It is the only amendment ratified by state conventions.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "am-22": {
+      "id": "am-22",
+      "areaId": "b-amendments",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**22nd Amendment (1951)**\nLimited presidents to two elected terms after Franklin Roosevelt's four elections.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "am-23": {
+      "id": "am-23",
+      "areaId": "b-amendments",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 559.0
+      },
+      "data": {
+        "text": "**23rd Amendment (1961)**\nGave Washington, DC electors in the Electoral College.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "am-24": {
+      "id": "am-24",
+      "areaId": "b-amendments",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**24th Amendment (1964)**\nAbolished poll taxes in federal elections.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "am-25": {
+      "id": "am-25",
+      "areaId": "b-amendments",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**25th Amendment (1967)**\nClarified presidential succession, disability and filling the vice presidency.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "am-26": {
+      "id": "am-26",
+      "areaId": "b-amendments",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 650.0
+      },
+      "data": {
+        "text": "**26th Amendment (1971)**\nLowered the voting age to eighteen, driven by the Vietnam War era.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "am-27": {
+      "id": "am-27",
+      "areaId": "b-amendments",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 691.0
+      },
+      "data": {
+        "text": "**27th Amendment (1992)**\nCongressional pay increases cannot take effect until after the next election. Proposed in 1789, it was ratified two centuries later.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "am-14-impact": {
+      "id": "am-14-impact",
+      "areaId": "b-amendments",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 711.5
+      },
+      "data": {
+        "text": "**14th Amendment impact**\nIt became the basis for incorporation of the Bill of Rights, equal protection and many landmark civil rights cases.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "am-process": {
+      "id": "am-process",
+      "areaId": "b-amendments",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 761.5
+      },
+      "data": {
+        "text": "**Amendment process**\nArticle V has produced only 27 amendments. Most proposals fail because supermajorities are difficult.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-court": {
+      "id": "b-court",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1161.5
+      },
+      "data": {
+        "label": "Supreme Court & judicial review",
+        "color": "cyan"
+      }
+    },
+    "b-court-desc": {
+      "id": "b-court-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1216.5
+      },
+      "data": {
+        "text": "The least dangerous branch? Marshall, Marbury and the limits of judicial power.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-court-intro": {
+      "id": "b-court-intro",
+      "areaId": "b-court",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The judiciary**\nThe Supreme Court became far more powerful than most founders expected. Judicial review, federalism and individual rights made it a central policy actor.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "ct-judiciary": {
+      "id": "ct-judiciary",
+      "areaId": "b-court",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Judiciary Act of 1789**\nCongress created the federal court system, set the Supreme Court at six justices and defined jurisdiction.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ct-jay": {
+      "id": "ct-jay",
+      "areaId": "b-court",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**John Jay**\nFirst Chief Justice. He helped establish the Court's dignity but found the role frustrating and left to become governor of New York.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ct-marshall": {
+      "id": "ct-marshall",
+      "areaId": "b-court",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**John Marshall**\nChief Justice 1801-1835. His decisions strengthened the Court, federal power and judicial review.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ct-marbury": {
+      "id": "ct-marbury",
+      "areaId": "b-court",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Marbury v Madison (1803)**\nMarshall declared part of the Judiciary Act unconstitutional. The case established judicial review without provoking a confrontation with Jefferson.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ct-mcculloch": {
+      "id": "ct-mcculloch",
+      "areaId": "b-court",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**McCulloch v Maryland (1819)**\nThe Court upheld the national bank and broad implied powers. 'The power to tax is the power to destroy.'",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ct-gibbons": {
+      "id": "ct-gibbons",
+      "areaId": "b-court",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Gibbons v Ogden (1824)**\nThe Court broadly interpreted the commerce power and federal supremacy over interstate navigation.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ct-dartmouth": {
+      "id": "ct-dartmouth",
+      "areaId": "b-court",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Dartmouth College v Woodward (1819)**\nThe Court protected contracts from state interference, supporting economic stability.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ct-dred": {
+      "id": "ct-dred",
+      "areaId": "b-court",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Dred Scott v Sandford (1857)**\nThe Court denied citizenship to Black Americans and declared the Missouri Compromise unconstitutional. It worsened the slavery crisis.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ct-review": {
+      "id": "ct-review",
+      "areaId": "b-court",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Judicial review**\nThe power to strike down unconstitutional laws. It is not explicit in the text but is implied by the structure and Federalist 78.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ct-hamilton": {
+      "id": "ct-hamilton",
+      "areaId": "b-court",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Hamilton's defense**\nIn Federalist 78, Hamilton argued courts must refuse to enforce unconstitutional laws and that life tenure protects judges from politics.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ct-jefferson": {
+      "id": "ct-jefferson",
+      "areaId": "b-court",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Jefferson's critique**\nJefferson feared an unelected judiciary could become a 'despotic branch' and argued each branch should interpret the Constitution for itself.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ct-brutus": {
+      "id": "ct-brutus",
+      "areaId": "b-court",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Brutus's critique**\nAnti-Federalists warned that judicial review would make judges the final arbiters of the Constitution and undermine popular government.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ct-impeach": {
+      "id": "ct-impeach",
+      "areaId": "b-court",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Impeachment**\nJustice Samuel Chase was impeached in 1805 but not convicted. The case helped establish judicial independence.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ct-size": {
+      "id": "ct-size",
+      "areaId": "b-court",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Court size**\nCongress changed the number of justices several times. The 1869 Judiciary Act fixed it at nine.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ct-legacy": {
+      "id": "ct-legacy",
+      "areaId": "b-court",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Legacy**\nThe Court has shaped federalism, civil rights, privacy, elections and presidential power. Its role remains contested.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-fathers-core": {
+      "id": "b-fathers-core",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1182.0
+      },
+      "data": {
+        "label": "Founding Fathers - core",
+        "color": "orange"
+      }
+    },
+    "b-fathers-core-desc": {
+      "id": "b-fathers-core-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1237.0
+      },
+      "data": {
+        "text": "Washington, Adams, Jefferson, Madison, Hamilton, Franklin, Jay and other central figures.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-fathers-core-intro": {
+      "id": "b-fathers-core-intro",
+      "areaId": "b-fathers-core",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The central founders**\nThese leaders shaped the Revolution, the Constitution and the early republic. Their ideas and rivalries defined American politics.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "fc-washington": {
+      "id": "fc-washington",
+      "areaId": "b-fathers-core",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**George Washington (1732-1799)**\nCommander of the Continental Army and president of the Constitutional Convention. First president, he established the cabinet, two-term precedent and neutrality. He warned against factions and foreign entanglements; he owned slaves and freed them in his will.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-adams": {
+      "id": "fc-adams",
+      "areaId": "b-fathers-core",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**John Adams (1735-1826)**\nRevolutionary leader, diplomat and first vice president. Second president, he defended checks and balances but signed the Alien and Sedition Acts. He appointed John Marshall and avoided war with France.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-jefferson": {
+      "id": "fc-jefferson",
+      "areaId": "b-fathers-core",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Thomas Jefferson (1743-1826)**\nAuthor of the Declaration and third president. He championed agrarianism, states' rights and religious freedom. He feared judicial review, called the judiciary a 'despotic branch' and warned against banks, debt and standing armies. He owned slaves despite writing against slavery.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-madison": {
+      "id": "fc-madison",
+      "areaId": "b-fathers-core",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**James Madison (1751-1836)**\nFather of the Constitution, author of Federalist 10 and 51, and drafter of the Bill of Rights. He argued that factions and ambition must be balanced. Later president during the War of 1812.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-hamilton": {
+      "id": "fc-hamilton",
+      "areaId": "b-fathers-core",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Alexander Hamilton (1755-1804)**\nFederalist Papers co-author and first Treasury secretary. He favored a strong executive, implied powers, a national bank and manufacturing. He was killed by Aaron Burr in a duel.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-franklin": {
+      "id": "fc-franklin",
+      "areaId": "b-fathers-core",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Benjamin Franklin (1706-1790)**\nScientist, diplomat and elder statesman. He helped secure the French alliance and the Treaty of Paris, urged compromise at the Convention and opposed slavery. His 'rising sun' speech captured the uncertainty of the moment.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-jay": {
+      "id": "fc-jay",
+      "areaId": "b-fathers-core",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**John Jay (1745-1829)**\nFederalist Papers co-author, first Chief Justice and diplomat. He negotiated the Treaty of Paris and the controversial Jay Treaty. He opposed slavery and served as governor of New York.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-mason": {
+      "id": "fc-mason",
+      "areaId": "b-fathers-core",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**George Mason (1725-1792)**\nAuthor of the Virginia Declaration of Rights. He refused to sign the Constitution because it lacked a bill of rights and protected slavery. His objections helped produce the Bill of Rights.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-henry": {
+      "id": "fc-henry",
+      "areaId": "b-fathers-core",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 459.0
+      },
+      "data": {
+        "text": "**Patrick Henry (1736-1799)**\nRevolutionary orator ('Give me liberty or give me death'). He refused to attend the Convention and opposed ratification, fearing a consolidated government and the loss of state sovereignty.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-paine": {
+      "id": "fc-paine",
+      "areaId": "b-fathers-core",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 570.5
+      },
+      "data": {
+        "text": "**Thomas Paine (1737-1809)**\nAuthor of Common Sense, The Rights of Man and The Age of Reason. He attacked monarchy, defended natural rights and influenced democratic revolutions. He was not at the Convention.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-marshall": {
+      "id": "fc-marshall",
+      "areaId": "b-fathers-core",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 591.0
+      },
+      "data": {
+        "text": "**John Marshall (1755-1835)**\nSoldier, diplomat and Chief Justice. His decisions in Marbury, McCulloch and Gibbons established judicial review and broad federal power.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-samadams": {
+      "id": "fc-samadams",
+      "areaId": "b-fathers-core",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 611.5
+      },
+      "data": {
+        "text": "**Samuel Adams (1722-1803)**\nBoston revolutionary, organizer of resistance and signer of the Declaration. He initially opposed the Constitution without a bill of rights and later supported it.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-hancock": {
+      "id": "fc-hancock",
+      "areaId": "b-fathers-core",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 723.0
+      },
+      "data": {
+        "text": "**John Hancock (1737-1793)**\nMerchant, president of the Continental Congress and first signer of the Declaration. As Massachusetts governor, he supported ratification with amendments.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fc-monroe": {
+      "id": "fc-monroe",
+      "areaId": "b-fathers-core",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 723.0
+      },
+      "data": {
+        "text": "**James Monroe (1758-1831)**\nRevolutionary soldier, diplomat and fifth president. He supported ratification with reservations and later issued the Monroe Doctrine.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-signers": {
+      "id": "b-signers",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1280.5
+      },
+      "data": {
+        "label": "Constitution signers",
+        "color": "orange"
+      }
+    },
+    "b-signers-desc": {
+      "id": "b-signers-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1335.5
+      },
+      "data": {
+        "text": "The thirty-nine delegates who signed the Constitution in 1787.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-signers-intro": {
+      "id": "b-signers-intro",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The signers**\nThirty-nine delegates signed the Constitution. The major leaders are covered in the core branch; this branch profiles the rest, state by state.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "sg-langdon": {
+      "id": "sg-langdon",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**John Langdon (New Hampshire)**\nMerchant, Revolutionary leader and delegate. He supported a strong national government and served as senator and governor.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-gilman": {
+      "id": "sg-gilman",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Nicholas Gilman (New Hampshire)**\nSoldier and delegate. He was a steady nationalist and later served in Congress.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-gorham": {
+      "id": "sg-gorham",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Nathaniel Gorham (Massachusetts)**\nMerchant and president of Congress. He supported a strong union and played a role in the Connecticut Compromise.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-king": {
+      "id": "sg-king",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Rufus King (Massachusetts)**\nLawyer, diplomat and Federalist. He opposed slavery and supported a strong national government. He was a senator and ambassador to Britain.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-johnson": {
+      "id": "sg-johnson",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**William Samuel Johnson (Connecticut)**\nLawyer, diplomat and president of Columbia College. He helped broker the Connecticut Compromise.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-sherman": {
+      "id": "sg-sherman",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Roger Sherman (Connecticut)**\nThe only person to sign the Declaration, Articles of Confederation and Constitution. He proposed the Connecticut Compromise and served in Congress.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-livingston": {
+      "id": "sg-livingston",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**William Livingston (New Jersey)**\nRevolutionary governor and delegate. He supported independence and a stronger union.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-brearley": {
+      "id": "sg-brearley",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**David Brearley (New Jersey)**\nJudge and delegate. He chaired the Committee on Postponed Matters and helped shape the Electoral College.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-paterson": {
+      "id": "sg-paterson",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**William Paterson (New Jersey)**\nAuthor of the New Jersey Plan, which defended equal state representation. He later served as a Supreme Court justice.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-dayton": {
+      "id": "sg-dayton",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Jonathan Dayton (New Jersey)**\nSoldier and delegate. He was a Federalist, speaker of the House and senator.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-mifflin": {
+      "id": "sg-mifflin",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Thomas Mifflin (Pennsylvania)**\nRevolutionary general and president of Congress. He supported the Constitution and served as governor.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-robmorris": {
+      "id": "sg-robmorris",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Robert Morris (Pennsylvania)**\nFinancier of the Revolution. He signed the Declaration, Articles and Constitution, but later suffered financial ruin.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-clymer": {
+      "id": "sg-clymer",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**George Clymer (Pennsylvania)**\nMerchant and signer of the Declaration. He supported the Constitution and served in Congress.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-fitzsimons": {
+      "id": "sg-fitzsimons",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Thomas Fitzsimons (Pennsylvania)**\nMerchant and Catholic leader. He supported a strong national government and commercial interests.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-ingersoll": {
+      "id": "sg-ingersoll",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Jared Ingersoll (Pennsylvania)**\nLawyer and delegate. He was a moderate supporter of the Constitution.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-wilson": {
+      "id": "sg-wilson",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 711.5
+      },
+      "data": {
+        "text": "**James Wilson (Pennsylvania)**\nLegal theorist and delegate. He argued for popular sovereignty and a strong national government, and later served on the Supreme Court.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-gmorris": {
+      "id": "sg-gmorris",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 732.0
+      },
+      "data": {
+        "text": "**Gouverneur Morris (Pennsylvania)**\nWrote much of the final text and the Preamble. He favored a strong executive and a national government.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-read": {
+      "id": "sg-read",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 732.0
+      },
+      "data": {
+        "text": "**George Read (Delaware)**\nLawyer and signer of the Declaration. He supported a strong national government and served as a senator.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-bedford": {
+      "id": "sg-bedford",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 843.5
+      },
+      "data": {
+        "text": "**Gunning Bedford Jr. (Delaware)**\nLawyer and delegate. He defended small-state interests and supported the compromise.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-dickinson": {
+      "id": "sg-dickinson",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 843.5
+      },
+      "data": {
+        "text": "**John Dickinson (Delaware)**\nAuthor of Letters from a Farmer and a moderate revolutionary. He abstained on independence but signed the Constitution and supported a strong union.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-bassett": {
+      "id": "sg-bassett",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 843.5
+      },
+      "data": {
+        "text": "**Richard Bassett (Delaware)**\nLawyer, planter and delegate. He supported the Constitution and served as a senator and governor.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-broom": {
+      "id": "sg-broom",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 955.0
+      },
+      "data": {
+        "text": "**Jacob Broom (Delaware)**\nBusinessman and delegate. He was a quiet supporter of a stronger national government.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-mchenry": {
+      "id": "sg-mchenry",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 955.0
+      },
+      "data": {
+        "text": "**James McHenry (Maryland)**\nPhysician and soldier. He signed the Constitution and later served as secretary of war.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-jenifer": {
+      "id": "sg-jenifer",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 975.5
+      },
+      "data": {
+        "text": "**Daniel of St. Thomas Jenifer (Maryland)**\nPlanter and politician. He supported the Constitution and served in Congress.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-carroll": {
+      "id": "sg-carroll",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1066.5
+      },
+      "data": {
+        "text": "**Daniel Carroll (Maryland)**\nCatholic planter and delegate. He signed the Constitution and supported a bill of rights.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-blair": {
+      "id": "sg-blair",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1066.5
+      },
+      "data": {
+        "text": "**John Blair (Virginia)**\nJudge and delegate. He supported the Constitution and later served on the Supreme Court.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-blount": {
+      "id": "sg-blount",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1087.0
+      },
+      "data": {
+        "text": "**William Blount (North Carolina)**\nPlanter and delegate. He signed the Constitution and later served as senator and governor of Tennessee.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-spaight": {
+      "id": "sg-spaight",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1178.0
+      },
+      "data": {
+        "text": "**Richard Dobbs Spaight (North Carolina)**\nPlanter and delegate. He supported the Constitution and served as governor.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-williamson": {
+      "id": "sg-williamson",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1178.0
+      },
+      "data": {
+        "text": "**Hugh Williamson (North Carolina)**\nPhysician and scientist. He supported the Constitution and served in Congress.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-rutledge": {
+      "id": "sg-rutledge",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1198.5
+      },
+      "data": {
+        "text": "**John Rutledge (South Carolina)**\nPlanter and judge. He defended slavery and state interests, and briefly served as Chief Justice.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-cpinckney": {
+      "id": "sg-cpinckney",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1289.5
+      },
+      "data": {
+        "text": "**Charles Cotesworth Pinckney (South Carolina)**\nSoldier and diplomat. He was a Federalist and defended slavery while supporting a strong union.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-cpinckney2": {
+      "id": "sg-cpinckney2",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1289.5
+      },
+      "data": {
+        "text": "**Charles Pinckney (South Carolina)**\nLawyer and delegate. He proposed parts of the Virginia Plan and defended slavery.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-butler": {
+      "id": "sg-butler",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1310.0
+      },
+      "data": {
+        "text": "**Pierce Butler (South Carolina)**\nPlanter and delegate. He defended slavery and the interests of the southern states.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-few": {
+      "id": "sg-few",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1401.0
+      },
+      "data": {
+        "text": "**William Few (Georgia)**\nSoldier and delegate. He supported the Constitution and served as a senator.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-baldwin": {
+      "id": "sg-baldwin",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1401.0
+      },
+      "data": {
+        "text": "**Abraham Baldwin (Georgia)**\nMinister and educator. He signed the Constitution and served in Congress.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sg-note": {
+      "id": "sg-note",
+      "areaId": "b-signers",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1421.5
+      },
+      "data": {
+        "text": "**The missing signers**\nMason, Gerry and Randolph refused to sign. Others had left or opposed the document. The thirty-nine signers were not a unanimous group.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-critics": {
+      "id": "b-critics",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1321.5
+      },
+      "data": {
+        "label": "Revolutionaries & critics",
+        "color": "purple"
+      }
+    },
+    "b-critics-desc": {
+      "id": "b-critics-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1376.5
+      },
+      "data": {
+        "text": "Anti-Federalists, soldiers, diplomats and dissenters.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-critics-intro": {
+      "id": "b-critics-intro",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The other founders**\nThe founding generation was not unanimous. Anti-Federalists, soldiers, diplomats and dissenters challenged the Constitution and shaped its interpretation.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "cr-gerry": {
+      "id": "cr-gerry",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Elbridge Gerry (1744-1814)**\nSigned the Declaration but refused to sign the Constitution. He feared a powerful central government and demanded a bill of rights. He later served as vice president; 'gerrymandering' is named after him.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-randolph": {
+      "id": "cr-randolph",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Edmund Randolph (1753-1813)**\nPresented the Virginia Plan but refused to sign the Constitution. He later supported ratification and became the first attorney general.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-martin": {
+      "id": "cr-martin",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Luther Martin (1748-1826)**\nMaryland delegate and Anti-Federalist. He opposed a strong central government, defended states' rights and slavery, and published detailed objections.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-lee": {
+      "id": "cr-lee",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Richard Henry Lee (1732-1794)**\nIntroduced the resolution for independence. He opposed the Constitution without a bill of rights and probably wrote as 'Federal Farmer'.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-clinton": {
+      "id": "cr-clinton",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**George Clinton (1739-1812)**\nNew York governor and Anti-Federalist. He opposed ratification and later served as vice president under Jefferson and Madison.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-smith": {
+      "id": "cr-smith",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 306.5
+      },
+      "data": {
+        "text": "**Melancton Smith (1744-1798)**\nAnti-Federalist delegate and merchant. He warned that the Constitution favored the wealthy and demanded a bill of rights.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-yates": {
+      "id": "cr-yates",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Robert Yates (1738-1801)**\nNew York judge and Anti-Federalist. He probably wrote 'Brutus', which warned of consolidated government and judicial supremacy.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-farmer": {
+      "id": "cr-farmer",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Federal Farmer**\nAn anonymous Anti-Federalist pamphlet, likely by Richard Henry Lee. It demanded explicit rights and warned against aristocracy.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-warren": {
+      "id": "cr-warren",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Mercy Otis Warren (1728-1814)**\nPlaywright, historian and Anti-Federalist. She warned that the Constitution threatened liberty and wrote a history of the Revolution.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-mercer": {
+      "id": "cr-mercer",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**John Francis Mercer (1759-1821)**\nMaryland delegate and Anti-Federalist. He left the Convention and opposed ratification.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-strong": {
+      "id": "cr-strong",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Caleb Strong (1745-1819)**\nMassachusetts delegate who left the Convention early. He was a Federalist senator and governor.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-lafayette": {
+      "id": "cr-lafayette",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Marquis de Lafayette (1757-1834)**\nFrench nobleman and Revolutionary general. He became a symbol of Franco-American friendship and human rights.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-steuben": {
+      "id": "cr-steuben",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Baron von Steuben (1730-1794)**\nPrussian officer who trained the Continental Army at Valley Forge. He helped make the army professional.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-greene": {
+      "id": "cr-greene",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Nathanael Greene (1742-1786)**\nContinental general. His southern campaign wore down the British and helped win the Revolution.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-jones": {
+      "id": "cr-jones",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**John Paul Jones (1747-1792)**\nNaval commander. His victories and 'I have not yet begun to fight' made him a founding naval hero.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-burr": {
+      "id": "cr-burr",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 732.0
+      },
+      "data": {
+        "text": "**Aaron Burr (1756-1836)**\nRevolutionary officer, vice president and killer of Hamilton in a duel. He was tried for treason over a western conspiracy.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-jqadams": {
+      "id": "cr-jqadams",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**John Quincy Adams (1767-1848)**\nDiplomat, secretary of state and sixth president. He later became a leading anti-slavery voice in Congress.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-rush": {
+      "id": "cr-rush",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Benjamin Rush (1746-1813)**\nPhysician, signer of the Declaration and advocate of abolition, education and humane treatment of the mentally ill.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-carroll": {
+      "id": "cr-carroll",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 843.5
+      },
+      "data": {
+        "text": "**Charles Carroll (1737-1832)**\nThe only Catholic signer of the Declaration. He supported independence and religious freedom.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cr-chase": {
+      "id": "cr-chase",
+      "areaId": "b-critics",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 884.5
+      },
+      "data": {
+        "text": "**Samuel Chase (1741-1811)**\nDeclaration signer and Supreme Court justice. He was impeached in 1805 but not convicted, protecting judicial independence.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-women": {
+      "id": "b-women",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1342.0
+      },
+      "data": {
+        "label": "Founding women & enslaved people",
+        "color": "purple"
+      }
+    },
+    "b-women-desc": {
+      "id": "b-women-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1397.0
+      },
+      "data": {
+        "text": "The people excluded from the founding but central to its history.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-women-intro": {
+      "id": "b-women-intro",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Beyond the founders**\nWomen and enslaved people were excluded from the Convention and most formal politics, but they shaped the founding era and exposed its contradictions.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "fw-abigail": {
+      "id": "fw-abigail",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Abigail Adams (1744-1818)**\nJohn Adams's wife and confidante. Her 'Remember the Ladies' letter warned that women would not be bound by laws in which they had no voice.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fw-mercy": {
+      "id": "fw-mercy",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Mercy Otis Warren (1728-1814)**\nPlaywright, historian and Anti-Federalist. She documented the Revolution and warned against concentrated power.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fw-phillis": {
+      "id": "fw-phillis",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Phillis Wheatley (1753-1784)**\nEnslaved poet who became internationally famous. Her work challenged assumptions about race and genius and appealed to natural rights.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fw-martha": {
+      "id": "fw-martha",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Martha Washington (1731-1802)**\nGeorge Washington's wife. She managed Mount Vernon and supported the war effort; she was a slaveholder.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fw-dolley": {
+      "id": "fw-dolley",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Dolley Madison (1768-1849)**\nWife of James Madison and a celebrated political hostess. She helped shape Washington society.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fw-eliza": {
+      "id": "fw-eliza",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Eliza Hamilton (1757-1854)**\nAlexander Hamilton's wife. She preserved his papers and supported charitable institutions.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fw-ona": {
+      "id": "fw-ona",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Ona Judge (1773-1848)**\nEnslaved by the Washingtons. She escaped while serving in Philadelphia and built a free life in New Hampshire.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fw-sally": {
+      "id": "fw-sally",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Sally Hemings (1773-1836)**\nEnslaved by Thomas Jefferson. The historical record and DNA evidence indicate Jefferson fathered some of her children, exposing the founding's racial and sexual contradictions.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "fw-deborah": {
+      "id": "fw-deborah",
+      "areaId": "b-women",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Deborah Sampson (1760-1827)**\nMassachusetts woman who disguised herself as a man and served in the Continental Army. She later received a pension.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-concerns": {
+      "id": "b-concerns",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1420.0
+      },
+      "data": {
+        "label": "Concerns & debates",
+        "color": "purple"
+      }
+    },
+    "b-concerns-desc": {
+      "id": "b-concerns-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1475.0
+      },
+      "data": {
+        "text": "Specific fears of the founders about courts, banks, armies and democracy.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-concerns-intro": {
+      "id": "b-concerns-intro",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The founders disagreed**\nThe founding generation argued about executive power, the judiciary, banks, debt, slavery, religion and the balance between state and nation. Their concerns remain relevant.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "cn-jeff-court": {
+      "id": "cn-jeff-court",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Jefferson on the Supreme Court**\nJefferson feared judicial review would make unelected judges the final authority. In 1804 he wrote that giving judges the power to decide what laws are constitutional 'would make the judiciary a despotic branch'. In 1820 he called the Court a 'subtle corps of sappers and miners'.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-jeff-rotation": {
+      "id": "cn-jeff-rotation",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Jefferson on rotation and impeachment**\nHe favored rotation in office, short terms and easy impeachment as checks on judges and officials. He distrusted life tenure.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-jeff-states": {
+      "id": "cn-jeff-states",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Jefferson on states' rights**\nHe believed the states were the best protectors of liberty. The Kentucky Resolutions (1798) protested the Alien and Sedition Acts as unconstitutional.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-jeff-agrarian": {
+      "id": "cn-jeff-agrarian",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Jefferson on agrarianism**\nHe idealized independent farmers as the foundation of republican virtue and distrusted cities, finance and manufacturing.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-jeff-bank": {
+      "id": "cn-jeff-bank",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Jefferson on banks and debt**\nHe opposed a national bank and public debt, warning that concentrated financial power threatened republican government.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-jeff-army": {
+      "id": "cn-jeff-army",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 327.0
+      },
+      "data": {
+        "text": "**Jefferson on standing armies**\nHe feared standing armies as instruments of tyranny. He preferred militia forces and a small navy.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-jeff-slavery": {
+      "id": "cn-jeff-slavery",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Jefferson on slavery**\nHe wrote that slavery was a moral evil and that 'we have the wolf by the ear', but he owned slaves and did not free most of them. His contradiction symbolized the founding.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-ham-court": {
+      "id": "cn-ham-court",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Hamilton on the judiciary**\nIn Federalist 78, Hamilton called the judiciary the 'least dangerous' branch and defended life tenure and judicial review as protections against legislative tyranny.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-ham-exec": {
+      "id": "cn-ham-exec",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**Hamilton on executive energy**\nFederalist 70 argued that a single, energetic executive is essential for accountability, decision and national security.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-ham-bank": {
+      "id": "cn-ham-bank",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Hamilton on implied powers**\nHe defended the national bank through the Necessary and Proper Clause and argued that federal power includes the means to carry out its ends.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-mad-faction": {
+      "id": "cn-mad-faction",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Madison on factions**\nFederalist 10 argued that a large republic would multiply interests and make it harder for any faction to dominate.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-mad-checks": {
+      "id": "cn-mad-checks",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 550.0
+      },
+      "data": {
+        "text": "**Madison on checks**\nFederalist 51 argued that separated powers and ambition must counter ambition. 'If men were angels, no government would be necessary.'",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-mad-rights": {
+      "id": "cn-mad-rights",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Madison on the Bill of Rights**\nHe initially thought bills of rights were weak parchment barriers but drafted one to satisfy Anti-Federalists and protect liberty.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-adams-balance": {
+      "id": "cn-adams-balance",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**Adams on balanced government**\nAdams believed a balanced constitution with checks among the one, the few and the many was essential to liberty.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-adams-sedition": {
+      "id": "cn-adams-sedition",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 682.0
+      },
+      "data": {
+        "text": "**Adams and the Sedition Act**\nThe Alien and Sedition Acts (1798) restricted speech and immigration. Adams defended them as wartime measures; critics saw them as tyranny.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-mason-rights": {
+      "id": "cn-mason-rights",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Mason on a bill of rights**\nMason refused to sign the Constitution because it lacked explicit rights. His Virginia Declaration of Rights became a model for the Bill of Rights.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-henry-power": {
+      "id": "cn-henry-power",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Henry on consolidated power**\nPatrick Henry feared the Constitution would create a distant, powerful government that would swallow the states.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-franklin-compromise": {
+      "id": "cn-franklin-compromise",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 814.0
+      },
+      "data": {
+        "text": "**Franklin on compromise**\nFranklin urged delegates to doubt their own infallibility and accept a document they did not fully approve, because unanimity was impossible.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-wash-faction": {
+      "id": "cn-wash-faction",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 884.5
+      },
+      "data": {
+        "text": "**Washington on factions**\nIn his Farewell Address, Washington warned against party spirit and permanent foreign alliances.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-jay-treaty": {
+      "id": "cn-jay-treaty",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 905.0
+      },
+      "data": {
+        "text": "**Jay on treaties and courts**\nJay defended the treaty power and judicial independence. The Jay Treaty with Britain was controversial but avoided war.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-antifed-court": {
+      "id": "cn-antifed-court",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 946.0
+      },
+      "data": {
+        "text": "**Anti-Federalists on courts**\nBrutus and others warned that federal courts would absorb state courts and that judicial review would make judges supreme over the legislature.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cn-slavery": {
+      "id": "cn-slavery",
+      "areaId": "b-concerns",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 996.0
+      },
+      "data": {
+        "text": "**Slavery at the Convention**\nThe Constitution protected slavery through the three-fifths clause, the slave trade clause and the fugitive slave clause. It never used the word 'slave'.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-legacy": {
+      "id": "b-legacy",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1461.0
+      },
+      "data": {
+        "label": "Legacy & modern debates",
+        "color": "green"
+      }
+    },
+    "b-legacy-desc": {
+      "id": "b-legacy-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1516.0
+      },
+      "data": {
+        "text": "Living Constitution, originalism, federalism and unresolved questions.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-legacy-intro": {
+      "id": "b-legacy-intro",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The Constitution today**\nThe document has survived through amendment, interpretation and practice. Debates over its meaning are central to American politics.",
+        "color": "green"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "lg-living": {
+      "id": "lg-living",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Living Constitution**\nThe view that the Constitution's meaning evolves with society, technology and values. It supports broad federal power and rights expansion.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lg-original": {
+      "id": "lg-original",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Originalism**\nThe view that the Constitution should be interpreted according to its original public meaning. It influences conservative legal thought.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lg-federalism": {
+      "id": "lg-federalism",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Federalism debates**\nThe balance between federal and state power remains contested in areas such as health care, education, policing and elections.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lg-electoral": {
+      "id": "lg-electoral",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Electoral College**\nCritics argue it can elect a president who loses the popular vote. Defenders say it protects federalism and small states.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lg-amend": {
+      "id": "lg-amend",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Amendment difficulty**\nArticle V's supermajorities make formal amendment rare. Many changes happen through courts, statutes and practice instead.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lg-era": {
+      "id": "lg-era",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Equal Rights Amendment**\nProposed in 1972, the ERA failed to win enough state ratifications before its deadline, though debate continues.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lg-dc": {
+      "id": "lg-dc",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**DC statehood**\nWashington, DC has electoral votes but no voting representation in Congress. Statehood is a contested political question.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lg-guns": {
+      "id": "lg-guns",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Second Amendment**\nDistrict of Columbia v Heller (2008) recognized an individual right to bear arms. The scope of regulation remains contested.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lg-privacy": {
+      "id": "lg-privacy",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Privacy**\nThe Constitution does not mention privacy explicitly. The Supreme Court found protections in the Bill of Rights and 14th Amendment.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lg-civil": {
+      "id": "lg-civil",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Civil rights**\nThe 13th, 14th and 15th Amendments and later civil rights laws transformed citizenship and equality.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lg-slavery": {
+      "id": "lg-slavery",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Slavery's legacy**\nThe Constitution's compromises with slavery shaped American politics and society. Debates over reparations and memory continue.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lg-money": {
+      "id": "lg-money",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Money and speech**\nCampaign finance regulation and the definition of political speech remain contested under the First Amendment.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lg-court": {
+      "id": "lg-court",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Court legitimacy**\nThe Supreme Court's power depends on public acceptance. Controversial decisions raise questions about judicial review and democracy.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "lg-world": {
+      "id": "lg-world",
+      "areaId": "b-legacy",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Global influence**\nThe US Constitution influenced constitutions worldwide, especially through federalism, judicial review and bills of rights.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-timeline": {
+      "id": "b-timeline",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1502.0
+      },
+      "data": {
+        "label": "Timeline 1776-1992",
+        "color": "yellow"
+      }
+    },
+    "b-timeline-desc": {
+      "id": "b-timeline-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1557.0
+      },
+      "data": {
+        "text": "From independence to the 27th Amendment.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-timeline-intro": {
+      "id": "b-timeline-intro",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Chronology**\nA fast spine through the founding and the constitutional amendments.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "tl-1776": {
+      "id": "tl-1776",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 113.0
+      },
+      "data": {
+        "text": "**1776**\n- **4 Jul** Declaration of Independence.\n- States begin writing constitutions.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1777": {
+      "id": "tl-1777",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 113.0
+      },
+      "data": {
+        "text": "**1777-1781**\n- **1777** Articles of Confederation drafted.\n- **1781** Articles ratified; Cornwallis surrenders at Yorktown.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1783": {
+      "id": "tl-1783",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 113.0
+      },
+      "data": {
+        "text": "**1783**\n- Treaty of Paris recognizes US independence.\n- Washington resigns his commission.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1785": {
+      "id": "tl-1785",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 224.5
+      },
+      "data": {
+        "text": "**1785-1786**\n- Mount Vernon Conference.\n- Annapolis Convention.\n- Shays' Rebellion.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1787": {
+      "id": "tl-1787",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 224.5
+      },
+      "data": {
+        "text": "**1787**\n- **May-Sep** Constitutional Convention.\n- **17 Sep** Constitution signed.\n- Northwest Ordinance passed.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1788": {
+      "id": "tl-1788",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**1788**\n- **Jun** New Hampshire is the ninth state to ratify.\n- Virginia and New York ratify after close debates.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1789": {
+      "id": "tl-1789",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**1789**\n- First Congress meets.\n- Washington inaugurated.\n- Judiciary Act creates federal courts.\n- Bill of Rights proposed.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1791": {
+      "id": "tl-1791",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**1791**\n- Bill of Rights ratified.\n- First Bank of the United States chartered.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1798": {
+      "id": "tl-1798",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**1798**\n- Alien and Sedition Acts.\n- Kentucky and Virginia Resolutions.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1803": {
+      "id": "tl-1803",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**1803**\n- Marbury v Madison establishes judicial review.\n- Louisiana Purchase.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1819": {
+      "id": "tl-1819",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**1819**\n- McCulloch v Maryland upholds implied powers and the national bank.\n- Dartmouth College case protects contracts.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1865": {
+      "id": "tl-1865",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**1865-1870**\n- **1865** 13th Amendment abolishes slavery.\n- **1868** 14th Amendment guarantees citizenship and equal protection.\n- **1870** 15th Amendment protects voting rights by race.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1913": {
+      "id": "tl-1913",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 579.5
+      },
+      "data": {
+        "text": "**1913**\n- 16th Amendment allows income tax.\n- 17th Amendment provides direct election of senators.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1920": {
+      "id": "tl-1920",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**1920**\n- 19th Amendment grants women the vote.\n- 18th Amendment had established Prohibition in 1919.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1951": {
+      "id": "tl-1951",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 661.5
+      },
+      "data": {
+        "text": "**1951-1971**\n- **1951** 22nd Amendment limits presidential terms.\n- **1961** 23rd Amendment gives DC electoral votes.\n- **1964** 24th Amendment bans poll taxes.\n- **1967** 25th Amendment clarifies succession.\n- **1971** 26th Amendment lowers voting age to 18.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1992": {
+      "id": "tl-1992",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 691.0
+      },
+      "data": {
+        "text": "**1992**\n- 27th Amendment ratified, limiting when congressional pay raises take effect.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    }
+  },
+  "edges": {},
+  "viewports": {}
+}

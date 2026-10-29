@@ -1,0 +1,6984 @@
+{
+  "app": "mindmap",
+  "version": 1,
+  "name": "Cold War 1945-1991",
+  "nodes": {
+    "root-title": {
+      "id": "root-title",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "**Cold War 1945-1991** - A World Divided",
+        "color": "red"
+      }
+    },
+    "root-intro": {
+      "id": "root-intro",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 72
+      },
+      "data": {
+        "text": "**The global rivalry**\nThe Cold War was a decades-long struggle between the United States and its allies and the Soviet Union and its bloc. It combined nuclear deterrence, espionage, propaganda, proxy wars, decolonization and competition in space, technology and culture. This map covers the origins, the global theatres, the crises, the people and the end of the Soviet system.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "root-howto": {
+      "id": "root-howto",
+      "areaId": "root",
+      "kind": "sticky",
+      "position": {
+        "x": 620,
+        "y": 0
+      },
+      "data": {
+        "text": "**How to read this map**\nEach branch opens into its own area. Click the number badge on a topic to go inside. Colours group related material: red for crises and wars; cyan for politics, diplomacy and Europe; yellow for origins, concepts and timeline; orange for Asia, Africa and the Middle East; purple for people, intelligence, culture and human cost; green for alliances, technology and aftermath.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 430
+      }
+    },
+    "root-overview": {
+      "id": "root-overview",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 245
+      },
+      "data": {
+        "text": "**At a glance**\n- **1945** - Yalta, Potsdam, Hiroshima and Nagasaki\n- **1947** - Truman Doctrine and Marshall Plan\n- **1948-49** - Berlin Blockade; NATO; Soviet atomic bomb\n- **1950-53** - Korean War\n- **1961** - Berlin Wall\n- **1962** - Cuban Missile Crisis\n- **1965-75** - Vietnam War\n- **1972** - Nixon in China; SALT I\n- **1979** - Soviet invasion of Afghanistan\n- **1989** - Eastern European revolutions; Berlin Wall falls\n- **1991** - Soviet Union collapses",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "b-origins": {
+      "id": "b-origins",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 583.0
+      },
+      "data": {
+        "label": "Origins 1945-1950",
+        "color": "yellow"
+      }
+    },
+    "b-origins-desc": {
+      "id": "b-origins-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 638.0
+      },
+      "data": {
+        "text": "Yalta, the bomb, the Iron Curtain and the division of Europe.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-origins-intro": {
+      "id": "b-origins-intro",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**How the Cold War began**\nThe wartime alliance collapsed as the US and USSR disagreed over Germany, Eastern Europe, nuclear weapons and the postwar order. By 1949 Europe was divided into two blocs.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "or-yalta": {
+      "id": "or-yalta",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Yalta (February 1945)**\nRoosevelt, Churchill and Stalin agreed on Germany's occupation, Polish borders, Soviet entry into the war against Japan and the United Nations. The agreements were vague and disputed.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-potsdam": {
+      "id": "or-potsdam",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Potsdam (July-August 1945)**\nTruman, Stalin and Attlee settled occupation zones, denazification and the German-Polish border. The atomic bomb strengthened the US position.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-hiroshima": {
+      "id": "or-hiroshima",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Hiroshima and Nagasaki (August 1945)**\nThe US dropped atomic bombs on Japan. The bombings ended the war and gave the US a temporary nuclear monopoly.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-un": {
+      "id": "or-un",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**United Nations (1945)**\nThe UN was founded to preserve peace. The Security Council veto let the great powers block action, and the Cold War quickly paralyzed it.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-iron": {
+      "id": "or-iron",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Iron Curtain speech (March 1946)**\nChurchill warned that an 'iron curtain' had descended across Europe. The speech framed the emerging division.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-long": {
+      "id": "or-long",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Kennan's Long Telegram (February 1946)**\nUS diplomat George Kennan argued that the USSR was expansionist and should be contained. His analysis shaped US policy.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-truman": {
+      "id": "or-truman",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Truman Doctrine (March 1947)**\nThe US promised aid to Greece and Turkey against communism. It marked the beginning of containment as a global policy.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-marshall": {
+      "id": "or-marshall",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Marshall Plan (June 1947)**\nThe US offered economic aid to rebuild Europe. The USSR rejected it and blocked Eastern European participation.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-cominform": {
+      "id": "or-cominform",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Cominform (September 1947)**\nThe Soviet bloc organization coordinated communist parties and tightened Moscow's control over Eastern Europe.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-czech": {
+      "id": "or-czech",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Czechoslovak coup (February 1948)**\nCommunists seized power in Prague. The coup shocked the West and accelerated European integration and rearmament.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-berlin": {
+      "id": "or-berlin",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Berlin Blockade (1948-49)**\nStalin blocked access to West Berlin. The Western airlift supplied the city for almost a year and became a symbol of resistance.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-nato": {
+      "id": "or-nato",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**NATO (April 1949)**\nThe North Atlantic Treaty Organization was founded as a collective defense alliance. The USSR saw it as a threat.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-comecon": {
+      "id": "or-comecon",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Comecon (1949)**\nThe Soviet-led economic bloc integrated Eastern Europe and counterbalanced Western economic institutions.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-bomb": {
+      "id": "or-bomb",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Soviet atomic bomb (August 1949)**\nThe USSR tested its first atomic bomb, ending the US monopoly and starting the nuclear arms race.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-china": {
+      "id": "or-china",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**People's Republic of China (October 1949)**\nMao's victory strengthened the communist camp and changed the balance in Asia.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-germany": {
+      "id": "or-germany",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 732.0
+      },
+      "data": {
+        "text": "**Two Germanys (1949)**\nThe Federal Republic of Germany and the German Democratic Republic were founded. Germany became the front line of the Cold War.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-nsc": {
+      "id": "or-nsc",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 732.0
+      },
+      "data": {
+        "text": "**NSC-68 (1950)**\nA secret US policy paper called for a massive military buildup and global containment. The Korean War made its recommendations urgent.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-eastern": {
+      "id": "or-eastern",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 752.5
+      },
+      "data": {
+        "text": "**Sovietization of Eastern Europe**\nCommunist parties took power with Soviet support, often through rigged elections, pressure and terror. Poland, Hungary, Romania, Bulgaria and Czechoslovakia became satellite states.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-greece": {
+      "id": "or-greece",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 864.0
+      },
+      "data": {
+        "text": "**Greek Civil War**\nCommunist and royalist forces fought a brutal civil war. British and US aid helped defeat the communists and became a model for containment.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "or-korea": {
+      "id": "or-korea",
+      "areaId": "b-origins",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 864.0
+      },
+      "data": {
+        "text": "**Korean War (1950)**\nThe first major proxy war began when North Korea invaded the South. It globalized the Cold War and militarized containment.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-europe": {
+      "id": "b-europe",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 583.0
+      },
+      "data": {
+        "label": "Europe divided",
+        "color": "cyan"
+      }
+    },
+    "b-europe-desc": {
+      "id": "b-europe-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 638.0
+      },
+      "data": {
+        "text": "Germany, Berlin, Hungary, Czechoslovakia, Poland and the Soviet bloc.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-europe-intro": {
+      "id": "b-europe-intro",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The European front line**\nEurope was divided between NATO and the Warsaw Pact. East Germany, Poland, Hungary and Czechoslovakia experienced repression, reform movements and uprisings.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "eu-division": {
+      "id": "eu-division",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Division of Europe**\nThe Iron Curtain separated Western and Eastern Europe. Borders, travel and communication were tightly controlled.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eu-germany": {
+      "id": "eu-germany",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**East and West Germany**\nWest Germany joined NATO and became a prosperous democracy. East Germany became a Soviet satellite under the SED.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eu-berlin": {
+      "id": "eu-berlin",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Berlin**\nWest Berlin was an island of capitalism inside East Germany. It became a symbol of freedom and a constant source of tension.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eu-uprising53": {
+      "id": "eu-uprising53",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**East German uprising (17 June 1953)**\nWorkers protested against quotas and repression. Soviet troops crushed the uprising, and the regime tightened control.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eu-wall": {
+      "id": "eu-wall",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Berlin Wall (13 August 1961)**\nEast Germany built a wall to stop emigration. It divided families and became the most visible symbol of the Cold War.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eu-checkpoint": {
+      "id": "eu-checkpoint",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Checkpoint Charlie**\nThe Allied crossing point in Berlin became a stage for standoffs and escapes.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eu-hungary": {
+      "id": "eu-hungary",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Hungarian Revolution (1956)**\nImre Nagy promised reform and withdrawal from the Warsaw Pact. Soviet tanks crushed the uprising, and thousands fled or were killed.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eu-prague": {
+      "id": "eu-prague",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Prague Spring (1968)**\nAlexander Dubcek introduced 'socialism with a human face'. Warsaw Pact forces invaded and ended the reforms.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eu-brezhnev": {
+      "id": "eu-brezhnev",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Brezhnev Doctrine (1968)**\nThe USSR claimed the right to intervene in any socialist country threatened by counterrevolution. It justified the invasion of Czechoslovakia.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eu-poland": {
+      "id": "eu-poland",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Poland**\nWorkers' protests, the Catholic Church and Solidarity challenged communist rule. Martial law was imposed in 1981.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eu-solidarity": {
+      "id": "eu-solidarity",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Solidarity (1980)**\nLech Walesa's independent trade union became a mass movement. It survived underground and helped end communist rule.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eu-martial": {
+      "id": "eu-martial",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Martial law in Poland (1981)**\nGeneral Jaruzelski imposed military rule to crush Solidarity. The union continued underground with church and Western support.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eu-yugoslavia": {
+      "id": "eu-yugoslavia",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Yugoslavia**\nTito's independent communist state broke with Stalin in 1948. It became a leader of the Non-Aligned Movement.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eu-albania": {
+      "id": "eu-albania",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Albania**\nEnver Hoxha's regime broke with both Moscow and Beijing and isolated itself. It was one of the most repressive states in Europe.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eu-austria": {
+      "id": "eu-austria",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Austria**\nThe 1955 State Treaty ended occupation and made Austria neutral. It became a bridge between East and West.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eu-finland": {
+      "id": "eu-finland",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 711.5
+      },
+      "data": {
+        "text": "**Finland**\nFinland stayed neutral and maintained trade with both blocs. 'Finlandization' described its cautious accommodation with Moscow.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eu-ostpolitik": {
+      "id": "eu-ostpolitik",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 752.5
+      },
+      "data": {
+        "text": "**Ostpolitik**\nWest German Chancellor Willy Brandt pursued reconciliation with the East, recognizing borders and improving contacts.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eu-helsinki": {
+      "id": "eu-helsinki",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 752.5
+      },
+      "data": {
+        "text": "**Helsinki Accords (1975)**\nThe conference recognized European borders and committed states to human rights. Dissidents used the accords to challenge communist regimes.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "eu-1989": {
+      "id": "eu-1989",
+      "areaId": "b-europe",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 843.5
+      },
+      "data": {
+        "text": "**Revolutions of 1989**\nPoland, Hungary, East Germany, Czechoslovakia, Bulgaria and Romania overthrew communist rule. The Berlin Wall fell on 9 November.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-nuclear": {
+      "id": "b-nuclear",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 583.0
+      },
+      "data": {
+        "label": "Nuclear arms race",
+        "color": "red"
+      }
+    },
+    "b-nuclear-desc": {
+      "id": "b-nuclear-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 638.0
+      },
+      "data": {
+        "text": "The bomb, MAD, ICBMs, test bans and the balance of terror.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-nuclear-intro": {
+      "id": "b-nuclear-intro",
+      "areaId": "b-nuclear",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The nuclear age**\nNuclear weapons shaped every Cold War calculation. The US and USSR built arsenals capable of destroying civilization, then negotiated arms control while continuing to modernize.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "nu-bomb": {
+      "id": "nu-bomb",
+      "areaId": "b-nuclear",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**The atomic bomb**\nThe US developed the bomb in the Manhattan Project. Hiroshima and Nagasaki demonstrated its power and opened the nuclear age.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nu-soviet": {
+      "id": "nu-soviet",
+      "areaId": "b-nuclear",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Soviet bomb (1949)**\nThe USSR tested its first atomic bomb with help from espionage and its own scientists. The nuclear monopoly ended.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nu-hbomb": {
+      "id": "nu-hbomb",
+      "areaId": "b-nuclear",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Hydrogen bomb**\nThe US tested a thermonuclear device in 1952; the USSR followed in 1953. The new weapons were hundreds of times more powerful.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nu-mad": {
+      "id": "nu-mad",
+      "areaId": "b-nuclear",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Mutual assured destruction (MAD)**\nThe theory held that a nuclear war would destroy both sides. Deterrence rested on the threat of retaliation.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nu-icbm": {
+      "id": "nu-icbm",
+      "areaId": "b-nuclear",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**ICBMs**\nIntercontinental ballistic missiles could strike the other superpower within minutes. They made nuclear war fast and destabilizing.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nu-bombers": {
+      "id": "nu-bombers",
+      "areaId": "b-nuclear",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Strategic bombers**\nB-52s, Tu-95s and other long-range bombers carried nuclear weapons. Air defense and early warning became critical.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nu-subs": {
+      "id": "nu-subs",
+      "areaId": "b-nuclear",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Missile submarines**\nNuclear-powered submarines with ballistic missiles made retaliation possible even after a first strike. The sea became a key nuclear arena.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nu-gap": {
+      "id": "nu-gap",
+      "areaId": "b-nuclear",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Missile gap**\nThe US feared Soviet missile superiority in the late 1950s. The gap was largely a myth, but it drove spending and anxiety.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nu-testban": {
+      "id": "nu-testban",
+      "areaId": "b-nuclear",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Limited Test Ban Treaty (1963)**\nThe US, USSR and Britain banned nuclear tests in the atmosphere, space and underwater. Underground tests continued.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nu-npt": {
+      "id": "nu-npt",
+      "areaId": "b-nuclear",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Nuclear Non-Proliferation Treaty (1968)**\nThe treaty sought to prevent the spread of nuclear weapons while recognizing five nuclear powers.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nu-salt1": {
+      "id": "nu-salt1",
+      "areaId": "b-nuclear",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**SALT I (1972)**\nThe US and USSR limited strategic missile launchers and signed the ABM Treaty. Detente produced the first major arms control agreements.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nu-abm": {
+      "id": "nu-abm",
+      "areaId": "b-nuclear",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**ABM Treaty**\nThe treaty restricted anti-ballistic missile systems, preserving mutual vulnerability. It became a cornerstone of arms control.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nu-salt2": {
+      "id": "nu-salt2",
+      "areaId": "b-nuclear",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**SALT II (1979)**\nA second strategic arms treaty was signed but never ratified after the Soviet invasion of Afghanistan.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nu-inf": {
+      "id": "nu-inf",
+      "areaId": "b-nuclear",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**INF Treaty (1987)**\nReagan and Gorbachev eliminated an entire class of intermediate-range nuclear missiles. It was a breakthrough in arms control.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nu-sdi": {
+      "id": "nu-sdi",
+      "areaId": "b-nuclear",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Strategic Defense Initiative (1983)**\nReagan proposed a space-based missile defense. Critics called it 'Star Wars'; it worried Moscow and fueled the arms race.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nu-chernobyl": {
+      "id": "nu-chernobyl",
+      "areaId": "b-nuclear",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 711.5
+      },
+      "data": {
+        "text": "**Chernobyl (1986)**\nA reactor explosion spread radiation across Europe. The disaster exposed Soviet technological and safety failures.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nu-testing": {
+      "id": "nu-testing",
+      "areaId": "b-nuclear",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 752.5
+      },
+      "data": {
+        "text": "**Nuclear testing and victims**\nTests exposed soldiers, workers and local populations to radiation. The human and environmental costs were long hidden.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "nu-legacy": {
+      "id": "nu-legacy",
+      "areaId": "b-nuclear",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 773.0
+      },
+      "data": {
+        "text": "**Nuclear legacy**\nThe Cold War left huge arsenals, contaminated sites and a framework of arms control. Nuclear risk did not disappear after 1991.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-asia": {
+      "id": "b-asia",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 722.5
+      },
+      "data": {
+        "label": "Asia & the Pacific",
+        "color": "orange"
+      }
+    },
+    "b-asia-desc": {
+      "id": "b-asia-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 777.5
+      },
+      "data": {
+        "text": "China, Japan, Korea, Vietnam, Cambodia and the spread of communism.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-asia-intro": {
+      "id": "b-asia-intro",
+      "areaId": "b-asia",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The Asian Cold War**\nAsia was the site of the first major proxy wars. Communist victories in China and Vietnam, the Korean War and the Sino-Soviet split reshaped the global balance.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "as-china": {
+      "id": "as-china",
+      "areaId": "b-asia",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Chinese Civil War**\nThe CCP defeated the Nationalists in 1949. The victory brought the world's most populous country into the communist camp.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "as-taiwan": {
+      "id": "as-taiwan",
+      "areaId": "b-asia",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Taiwan**\nThe Nationalists retreated to Taiwan with US support. The PRC claimed the island, and the dispute remained a flashpoint.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "as-sino": {
+      "id": "as-sino",
+      "areaId": "b-asia",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Sino-Soviet split**\nChina and the USSR quarreled over ideology, leadership and borders. By the 1960s they were rivals, and China sought its own path.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "as-border": {
+      "id": "as-border",
+      "areaId": "b-asia",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Sino-Soviet border conflict (1969)**\nClashes at Zhenbao Island raised fears of war between the two communist giants.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "as-korea": {
+      "id": "as-korea",
+      "areaId": "b-asia",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Korean War**\nNorth Korea's invasion of the South brought the US and China into direct conflict. The war ended in stalemate.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "as-vietnam": {
+      "id": "as-vietnam",
+      "areaId": "b-asia",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Vietnam War**\nThe US intervened to prevent a communist victory. China and the USSR supplied North Vietnam.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "as-cambodia": {
+      "id": "as-cambodia",
+      "areaId": "b-asia",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Cambodia**\nThe Khmer Rouge, backed by China, seized power in 1975 and carried out a genocide. Vietnam invaded in 1978 and installed a new government.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "as-sinoviet": {
+      "id": "as-sinoviet",
+      "areaId": "b-asia",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Sino-Vietnamese War (1979)**\nChina attacked Vietnam after Vietnam's invasion of Cambodia. The brief war exposed the split in the communist world.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "as-japan": {
+      "id": "as-japan",
+      "areaId": "b-asia",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Japan**\nJapan became a US ally and economic power. The US-Japan security treaty anchored American strategy in Asia.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "as-seato": {
+      "id": "as-seato",
+      "areaId": "b-asia",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**SEATO (1954)**\nThe Southeast Asia Treaty Organization was formed to contain communism. It was weak and dissolved in 1977.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "as-domino": {
+      "id": "as-domino",
+      "areaId": "b-asia",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Domino theory**\nThe US feared that one communist victory would lead to others. The theory justified intervention in Vietnam and elsewhere.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "as-indonesia": {
+      "id": "as-indonesia",
+      "areaId": "b-asia",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Indonesia**\nA 1965 coup brought Suharto to power and was followed by mass killings of suspected communists. Indonesia became a US-friendly state.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "as-philippines": {
+      "id": "as-philippines",
+      "areaId": "b-asia",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Philippines**\nThe US maintained bases and supported authoritarian rule under Marcos. A communist insurgency continued for decades.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "as-thailand": {
+      "id": "as-thailand",
+      "areaId": "b-asia",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Thailand**\nThailand became a US ally and base for the Vietnam War. It also faced communist insurgency.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "as-burma": {
+      "id": "as-burma",
+      "areaId": "b-asia",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Burma**\nBurma pursued neutrality and isolation under military rule. It remained outside the main blocs.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "as-mongolia": {
+      "id": "as-mongolia",
+      "areaId": "b-asia",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 711.5
+      },
+      "data": {
+        "text": "**Mongolia**\nMongolia was a Soviet satellite and hosted Soviet troops. It followed Moscow's line.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "as-afghan": {
+      "id": "as-afghan",
+      "areaId": "b-asia",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 732.0
+      },
+      "data": {
+        "text": "**Afghanistan**\nThe 1979 Soviet invasion led to a decade-long war and became the USSR's Vietnam.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "as-legacy": {
+      "id": "as-legacy",
+      "areaId": "b-asia",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 752.5
+      },
+      "data": {
+        "text": "**Asian legacy**\nThe wars in Korea and Vietnam killed millions and left deep scars. Asia became a centre of economic growth and strategic rivalry.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-korea": {
+      "id": "b-korea",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 722.5
+      },
+      "data": {
+        "label": "Korean War",
+        "color": "red"
+      }
+    },
+    "b-korea-desc": {
+      "id": "b-korea-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 777.5
+      },
+      "data": {
+        "text": "Division, invasion, UN intervention, Chinese entry and armistice.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-korea-intro": {
+      "id": "b-korea-intro",
+      "areaId": "b-korea",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The Korean War**\nKorea was divided after 1945. In 1950 North Korea invaded the South, drawing in the US, China and the UN. The war ended in a fragile armistice that still holds.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "ko-division": {
+      "id": "ko-division",
+      "areaId": "b-korea",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Division**\nKorea was divided at the 38th parallel between a Soviet-backed North and a US-backed South. Both governments claimed legitimacy.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ko-kim": {
+      "id": "ko-kim",
+      "areaId": "b-korea",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Kim Il-sung**\nNorth Korean leader and Soviet protégé. He launched the invasion of the South in 1950.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ko-rhee": {
+      "id": "ko-rhee",
+      "areaId": "b-korea",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Syngman Rhee**\nSouth Korean president. Authoritarian and anti-communist, he relied on US support.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ko-invasion": {
+      "id": "ko-invasion",
+      "areaId": "b-korea",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Invasion (25 June 1950)**\nNorth Korean forces crossed the 38th parallel and rapidly captured Seoul. The UN condemned the attack and authorized military support.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ko-un": {
+      "id": "ko-un",
+      "areaId": "b-korea",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**UN intervention**\nThe US led a UN coalition. The Soviet Union was boycotting the Security Council, allowing the authorization to pass.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ko-inchon": {
+      "id": "ko-inchon",
+      "areaId": "b-korea",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Inchon landing (September 1950)**\nMacArthur's amphibious landing turned the war. UN forces recaptured Seoul and advanced into North Korea.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ko-china": {
+      "id": "ko-china",
+      "areaId": "b-korea",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Chinese intervention (October 1950)**\nChina sent troops across the Yalu after UN forces approached its border. The offensive pushed UN forces back.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ko-chosin": {
+      "id": "ko-chosin",
+      "areaId": "b-korea",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Chosin Reservoir**\nUS Marines fought a brutal withdrawal in freezing conditions. The battle became a symbol of endurance.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ko-stalemate": {
+      "id": "ko-stalemate",
+      "areaId": "b-korea",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Stalemate**\nThe war settled near the 38th parallel. Peace talks began in 1951 but dragged on for two years.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ko-armistice": {
+      "id": "ko-armistice",
+      "areaId": "b-korea",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Armistice (27 July 1953)**\nAn armistice ended the fighting but not the war. No peace treaty was signed.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ko-dmz": {
+      "id": "ko-dmz",
+      "areaId": "b-korea",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**DMZ**\nThe Demilitarized Zone separated North and South Korea. It remains one of the most heavily fortified borders in the world.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ko-pows": {
+      "id": "ko-pows",
+      "areaId": "b-korea",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Prisoners of war**\nPOW exchanges were contentious. Many Chinese and North Korean prisoners chose not to return home.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ko-cost": {
+      "id": "ko-cost",
+      "areaId": "b-korea",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Casualties**\nThe war killed millions, including a large share of civilians. Cities were destroyed and families divided.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ko-legacy": {
+      "id": "ko-legacy",
+      "areaId": "b-korea",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Legacy**\nThe Korean War militarized the Cold War and legitimized global containment. Korea remains divided.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-vietnam": {
+      "id": "b-vietnam",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 743.0
+      },
+      "data": {
+        "label": "Vietnam War",
+        "color": "red"
+      }
+    },
+    "b-vietnam-desc": {
+      "id": "b-vietnam-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 798.0
+      },
+      "data": {
+        "text": "French Indochina, US escalation, Tet, Paris and the fall of Saigon.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-vietnam-intro": {
+      "id": "b-vietnam-intro",
+      "areaId": "b-vietnam",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The Vietnam War**\nVietnam became the longest and most divisive American war of the Cold War. It ended with a communist victory and a profound challenge to US credibility.",
+        "color": "red"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "vi-french": {
+      "id": "vi-french",
+      "areaId": "b-vietnam",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**French Indochina**\nFrance tried to reclaim Vietnam after 1945. The Viet Minh fought a guerrilla war for independence.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vi-dien": {
+      "id": "vi-dien",
+      "areaId": "b-vietnam",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Dien Bien Phu (1954)**\nThe Viet Minh defeated the French at Dien Bien Phu. France withdrew from Indochina.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vi-geneva": {
+      "id": "vi-geneva",
+      "areaId": "b-vietnam",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Geneva Accords (1954)**\nVietnam was temporarily divided at the 17th parallel. Elections were promised but never held.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vi-diem": {
+      "id": "vi-diem",
+      "areaId": "b-vietnam",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Ngo Dinh Diem**\nSouth Vietnamese leader. Authoritarian and Catholic, he alienated many Buddhists and nationalists. He was overthrown and killed in 1963.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vi-nlf": {
+      "id": "vi-nlf",
+      "areaId": "b-vietnam",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**National Liberation Front**\nThe Viet Cong insurgency fought the South Vietnamese government with North Vietnamese support.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vi-tonkin": {
+      "id": "vi-tonkin",
+      "areaId": "b-vietnam",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Gulf of Tonkin (1964)**\nAn alleged North Vietnamese attack on US ships led Congress to authorize military escalation.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vi-escalation": {
+      "id": "vi-escalation",
+      "areaId": "b-vietnam",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**US escalation (1965)**\nUS combat troops entered Vietnam in large numbers. Operation Rolling Thunder bombed North Vietnam.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vi-tet": {
+      "id": "vi-tet",
+      "areaId": "b-vietnam",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Tet Offensive (1968)**\nCommunist attacks across South Vietnam shocked the US public. The offensive was a military failure but a political victory for Hanoi.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vi-mylai": {
+      "id": "vi-mylai",
+      "areaId": "b-vietnam",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**My Lai (1968)**\nUS soldiers killed hundreds of Vietnamese civilians. The massacre became a symbol of the war's brutality.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vi-bombing": {
+      "id": "vi-bombing",
+      "areaId": "b-vietnam",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Bombing campaigns**\nUS bombing devastated North Vietnam, Laos and Cambodia. It failed to break the enemy's will.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vi-paris": {
+      "id": "vi-paris",
+      "areaId": "b-vietnam",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Paris Accords (1973)**\nThe US agreed to withdraw in exchange for the return of POWs. North and South Vietnam continued to fight.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vi-saigon": {
+      "id": "vi-saigon",
+      "areaId": "b-vietnam",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Fall of Saigon (1975)**\nNorth Vietnamese forces captured Saigon. Vietnam was reunified under communist rule.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vi-cambodia": {
+      "id": "vi-cambodia",
+      "areaId": "b-vietnam",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Cambodia**\nThe war spread to Cambodia, where the Khmer Rouge took power and carried out genocide.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vi-boat": {
+      "id": "vi-boat",
+      "areaId": "b-vietnam",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Boat people**\nHundreds of thousands fled Vietnam by sea. Many died or spent years in refugee camps.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "vi-legacy": {
+      "id": "vi-legacy",
+      "areaId": "b-vietnam",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Legacy**\nThe war divided American society and weakened faith in government. Vietnam became a symbol of the limits of military power.",
+        "color": "red"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-mideast": {
+      "id": "b-mideast",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 882.5
+      },
+      "data": {
+        "label": "Middle East",
+        "color": "orange"
+      }
+    },
+    "b-mideast-desc": {
+      "id": "b-mideast-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 937.5
+      },
+      "data": {
+        "text": "Israel, Suez, the oil states, Iran, Afghanistan and the Gulf.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-mideast-intro": {
+      "id": "b-mideast-intro",
+      "areaId": "b-mideast",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The Middle East**\nThe region combined Cold War rivalry, oil, nationalism and the Arab-Israeli conflict. The US and USSR armed clients and competed for influence.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "me-israel": {
+      "id": "me-israel",
+      "areaId": "b-mideast",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Israel (1948)**\nIsrael declared independence and survived the first Arab-Israeli war. The US and USSR recognized it, but relations shifted.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "me-suez": {
+      "id": "me-suez",
+      "areaId": "b-mideast",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Suez Crisis (1956)**\nBritain, France and Israel attacked Egypt after Nasser nationalized the Suez Canal. US and Soviet pressure forced a withdrawal.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "me-nasser": {
+      "id": "me-nasser",
+      "areaId": "b-mideast",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Gamal Abdel Nasser**\nEgyptian leader and symbol of Arab nationalism. He played the superpowers against each other and nationalized the Suez Canal.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "me-sixday": {
+      "id": "me-sixday",
+      "areaId": "b-mideast",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Six-Day War (1967)**\nIsrael captured the Sinai, Gaza, the West Bank and the Golan Heights. The defeat humiliated Arab states and deepened Soviet involvement.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "me-yom": {
+      "id": "me-yom",
+      "areaId": "b-mideast",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Yom Kippur War (1973)**\nEgypt and Syria attacked Israel. The war led to a ceasefire, Israeli withdrawal negotiations and the Camp David process.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "me-camp": {
+      "id": "me-camp",
+      "areaId": "b-mideast",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Camp David (1978)**\nEgypt and Israel signed peace agreements brokered by Carter. Egypt was expelled from the Arab League.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "me-plo": {
+      "id": "me-plo",
+      "areaId": "b-mideast",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**PLO**\nThe Palestine Liberation Organization became a major actor. It received Soviet and Arab support and fought Israel and Jordan.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "me-lebanon": {
+      "id": "me-lebanon",
+      "areaId": "b-mideast",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Lebanon**\nCivil war and Israeli invasion made Lebanon a Cold War and regional battleground. Syria and Israel intervened.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "me-iran": {
+      "id": "me-iran",
+      "areaId": "b-mideast",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Iranian Revolution (1979)**\nThe Shah was overthrown and an Islamic Republic under Khomeini emerged. Iran left the US orbit and became a major rival.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "me-iraq": {
+      "id": "me-iraq",
+      "areaId": "b-mideast",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Iran-Iraq War (1980-88)**\nSaddam Hussein invaded Iran. The US and USSR supported different sides, and the war killed hundreds of thousands.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "me-afghan": {
+      "id": "me-afghan",
+      "areaId": "b-mideast",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Soviet-Afghan War (1979-89)**\nThe USSR invaded Afghanistan to prop up a communist government. US-backed mujahideen fought a long insurgency.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "me-gulf": {
+      "id": "me-gulf",
+      "areaId": "b-mideast",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Gulf War (1991)**\nA US-led coalition expelled Iraq from Kuwait. The war ended the Cold War era in the Middle East.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "me-oil": {
+      "id": "me-oil",
+      "areaId": "b-mideast",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Oil**\nOil made the Middle East strategically vital. Western dependence on Gulf oil shaped alliances and interventions.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "me-turkey": {
+      "id": "me-turkey",
+      "areaId": "b-mideast",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Turkey**\nTurkey joined NATO and became a key US ally on the Soviet border.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "me-cento": {
+      "id": "me-cento",
+      "areaId": "b-mideast",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**CENTO**\nThe Central Treaty Organization linked Britain, Turkey, Iran and Pakistan. It was weak and dissolved in 1979.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "me-legacy": {
+      "id": "me-legacy",
+      "areaId": "b-mideast",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 732.0
+      },
+      "data": {
+        "text": "**Legacy**\nCold War interventions left arms, borders and unresolved conflicts that outlasted the superpower rivalry.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-latin": {
+      "id": "b-latin",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 882.5
+      },
+      "data": {
+        "label": "Latin America",
+        "color": "orange"
+      }
+    },
+    "b-latin-desc": {
+      "id": "b-latin-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 937.5
+      },
+      "data": {
+        "text": "Cuba, Chile, Nicaragua, Grenada and the struggle for the hemisphere.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-latin-intro": {
+      "id": "b-latin-intro",
+      "areaId": "b-latin",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The Western Hemisphere**\nThe US treated Latin America as its sphere of influence. Revolution in Cuba brought the Cold War to the Caribbean and produced the most dangerous nuclear crisis.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "la-guatemala": {
+      "id": "la-guatemala",
+      "areaId": "b-latin",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Guatemala (1954)**\nThe CIA helped overthrow Jacobo Arbenz after land reform alarmed US business and anti-communists. The coup became a model for covert intervention.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-cuba": {
+      "id": "la-cuba",
+      "areaId": "b-latin",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Cuban Revolution (1959)**\nFidel Castro overthrew Batista and moved toward socialism. Cuba became a Soviet ally and a symbol of revolution.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-bay": {
+      "id": "la-bay",
+      "areaId": "b-latin",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Bay of Pigs (1961)**\nA CIA-backed invasion by Cuban exiles failed. The defeat humiliated Kennedy and pushed Cuba closer to the USSR.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-missile": {
+      "id": "la-missile",
+      "areaId": "b-latin",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Cuban Missile Crisis (1962)**\nUS discovery of Soviet missiles in Cuba led to a thirteen-day confrontation. The world came close to nuclear war.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-blockade": {
+      "id": "la-blockade",
+      "areaId": "b-latin",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Quarantine**\nKennedy imposed a naval blockade and demanded removal of the missiles. Secret negotiations ended the crisis.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-che": {
+      "id": "la-che",
+      "areaId": "b-latin",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Che Guevara**\nArgentine revolutionary and Castro ally. He promoted guerrilla warfare and was killed in Bolivia in 1967.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-chile": {
+      "id": "la-chile",
+      "areaId": "b-latin",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Chile (1973)**\nSalvador Allende's elected socialist government was overthrown by a military coup led by Pinochet. The US had opposed Allende.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-argentina": {
+      "id": "la-argentina",
+      "areaId": "b-latin",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Argentina**\nA military junta waged a 'dirty war' against leftists. The US tolerated the regime during the Cold War.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-brazil": {
+      "id": "la-brazil",
+      "areaId": "b-latin",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Brazil (1964)**\nA US-supported military coup overthrew the government. The generals ruled until 1985.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-nicaragua": {
+      "id": "la-nicaragua",
+      "areaId": "b-latin",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Nicaragua**\nThe Sandinistas overthrew Somoza in 1979. The US backed the Contras against them.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-elsalvador": {
+      "id": "la-elsalvador",
+      "areaId": "b-latin",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**El Salvador**\nCivil war between the government and leftist guerrillas. The US supported the government; the USSR and Cuba supported the rebels.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-grenada": {
+      "id": "la-grenada",
+      "areaId": "b-latin",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Grenada (1983)**\nThe US invaded the small island after a leftist coup. The operation was condemned by many allies.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-panama": {
+      "id": "la-panama",
+      "areaId": "b-latin",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Panama (1989)**\nThe US invaded Panama to remove Manuel Noriega, a former ally turned liability.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-colombia": {
+      "id": "la-colombia",
+      "areaId": "b-latin",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Colombia**\nGuerrilla insurgencies and drug trafficking became entangled with Cold War alignments.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-mexico": {
+      "id": "la-mexico",
+      "areaId": "b-latin",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Mexico**\nMexico remained outside the main blocs but faced its own leftist and student movements.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "la-legacy": {
+      "id": "la-legacy",
+      "areaId": "b-latin",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 711.5
+      },
+      "data": {
+        "text": "**Legacy**\nUS interventions and military regimes left deep political and social scars. Cuba remained a Soviet ally until 1991.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-africa": {
+      "id": "b-africa",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 903.0
+      },
+      "data": {
+        "label": "Africa",
+        "color": "orange"
+      }
+    },
+    "b-africa-desc": {
+      "id": "b-africa-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 958.0
+      },
+      "data": {
+        "text": "Decolonization, Congo, Angola, Ethiopia and apartheid.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-africa-intro": {
+      "id": "b-africa-intro",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The African Cold War**\nDecolonization created new states that became arenas of superpower competition. Cuba, South Africa and regional powers intervened in long and destructive wars.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "af-decolon": {
+      "id": "af-decolon",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Decolonization**\nBritain, France, Belgium and Portugal gave up colonies under pressure. New states often inherited weak institutions and arbitrary borders.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-ghana": {
+      "id": "af-ghana",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Ghana (1957)**\nKwame Nkrumah led the first sub-Saharan colony to independence. Ghana became a symbol of African nationalism.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-algeria": {
+      "id": "af-algeria",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Algeria**\nA brutal war of independence against France ended in 1962. Algeria became a leader of the Non-Aligned Movement.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-congo": {
+      "id": "af-congo",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Congo (1960)**\nBelgium withdrew abruptly, and Congo collapsed into civil war. The US and USSR backed rival factions; Lumumba was overthrown and killed.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-angola": {
+      "id": "af-angola",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Angola**\nPortugal withdrew in 1975, and rival movements fought a civil war. Cuba and the USSR backed the MPLA; the US and South Africa backed UNITA.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-mozambique": {
+      "id": "af-mozambique",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Mozambique**\nFRELIMO took power after independence. A civil war backed by South Africa and Rhodesia devastated the country.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-ethiopia": {
+      "id": "af-ethiopia",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Ethiopia**\nThe Derg overthrew Haile Selassie in 1974 and aligned with the USSR. Somalia switched sides, and the Ogaden war followed.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-somalia": {
+      "id": "af-somalia",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Somalia**\nSiad Barre's regime played the superpowers against each other. War with Ethiopia and later civil war destroyed the state.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-southafrica": {
+      "id": "af-southafrica",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**South Africa**\nThe apartheid state was anti-communist but faced international isolation. It intervened in Angola and Namibia.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-namibia": {
+      "id": "af-namibia",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Namibia**\nSouth Africa ruled Namibia despite UN opposition. SWAPO fought a liberation war with Cuban and Soviet support.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-rhodesia": {
+      "id": "af-rhodesia",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Rhodesia**\nA white minority government declared independence. Guerrilla war and sanctions led to Zimbabwe's independence in 1980.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-nigeria": {
+      "id": "af-nigeria",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Nigeria**\nThe Biafra war and military coups showed the fragility of new states. Oil made Nigeria strategically important.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-tanzania": {
+      "id": "af-tanzania",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Tanzania**\nJulius Nyerere's ujamaa socialism made Tanzania a base for liberation movements.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "af-legacy": {
+      "id": "af-legacy",
+      "areaId": "b-africa",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Legacy**\nCold War arms and interventions contributed to long civil wars. Many conflicts continued after 1991.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-southasia": {
+      "id": "b-southasia",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1022.0
+      },
+      "data": {
+        "label": "South Asia",
+        "color": "orange"
+      }
+    },
+    "b-southasia-desc": {
+      "id": "b-southasia-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1077.0
+      },
+      "data": {
+        "text": "India, Pakistan, Bangladesh, Kashmir and non-alignment.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-southasia-intro": {
+      "id": "b-southasia-intro",
+      "areaId": "b-southasia",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**South Asia**\nIndia and Pakistan became independent in 1947 and quickly fought over Kashmir. India led the Non-Aligned Movement, while Pakistan aligned with the US.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "sa-partition": {
+      "id": "sa-partition",
+      "areaId": "b-southasia",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Partition (1947)**\nIndia and Pakistan became independent amid mass migration and communal violence. Millions were displaced and hundreds of thousands killed.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sa-kashmir": {
+      "id": "sa-kashmir",
+      "areaId": "b-southasia",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Kashmir**\nThe princely state became a disputed territory. India and Pakistan fought wars over it in 1947-48, 1965 and 1999.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sa-nehru": {
+      "id": "sa-nehru",
+      "areaId": "b-southasia",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Jawaharlal Nehru**\nIndia's first prime minister and a leader of the Non-Aligned Movement. He balanced relations with both superpowers.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sa-nonaligned": {
+      "id": "sa-nonaligned",
+      "areaId": "b-southasia",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Non-Aligned Movement (1961)**\nIndia, Yugoslavia, Egypt, Ghana and others sought independence from both blocs. The movement gave developing countries a voice.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sa-pakistan": {
+      "id": "sa-pakistan",
+      "areaId": "b-southasia",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Pakistan**\nPakistan joined SEATO and CENTO and received US military aid. It also developed close ties with China.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sa-1971": {
+      "id": "sa-1971",
+      "areaId": "b-southasia",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Bangladesh (1971)**\nEast Pakistan rebelled, and India intervened. Bangladesh became independent after a brutal war.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sa-1962": {
+      "id": "sa-1962",
+      "areaId": "b-southasia",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Sino-Indian War (1962)**\nBorder disputes led to a Chinese victory. India began a military buildup and moved closer to the USSR.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sa-nuclear": {
+      "id": "sa-nuclear",
+      "areaId": "b-southasia",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Nuclear tests**\nIndia tested a nuclear device in 1974; Pakistan followed in 1998. South Asia became a nuclear rival zone.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sa-srilanka": {
+      "id": "sa-srilanka",
+      "areaId": "b-southasia",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Sri Lanka**\nCivil war between the government and Tamil separatists drew regional involvement and lasted decades.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sa-afghan": {
+      "id": "sa-afghan",
+      "areaId": "b-southasia",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Afghanistan**\nPakistan became a front-line state after the Soviet invasion, hosting refugees and supporting the mujahideen.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sa-legacy": {
+      "id": "sa-legacy",
+      "areaId": "b-southasia",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Legacy**\nSouth Asia remained a region of rivalry, poverty and nuclear risk after the Cold War.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-intel": {
+      "id": "b-intel",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1042.5
+      },
+      "data": {
+        "label": "Intelligence & espionage",
+        "color": "purple"
+      }
+    },
+    "b-intel-desc": {
+      "id": "b-intel-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1097.5
+      },
+      "data": {
+        "text": "CIA, KGB, MI6, Stasi, spies, coups and propaganda.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-intel-intro": {
+      "id": "b-intel-intro",
+      "areaId": "b-intel",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The secret war**\nIntelligence services fought a hidden struggle of spies, codes, assassinations, coups and propaganda. The stakes were global, and the methods were often ruthless.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "in-cia": {
+      "id": "in-cia",
+      "areaId": "b-intel",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**CIA**\nFounded in 1947, the Central Intelligence Agency conducted espionage, covert action and paramilitary operations. It intervened in Iran, Guatemala, Cuba, Chile and elsewhere.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "in-kgb": {
+      "id": "in-kgb",
+      "areaId": "b-intel",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**KGB**\nThe Soviet security and intelligence service. It ran spies, repression, foreign operations and active measures.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "in-mi6": {
+      "id": "in-mi6",
+      "areaId": "b-intel",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**MI6**\nBritain's Secret Intelligence Service. It ran agents in the Soviet bloc and cooperated closely with the CIA.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "in-stasi": {
+      "id": "in-stasi",
+      "areaId": "b-intel",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Stasi**\nEast Germany's security service. It maintained a vast network of informers and surveilled its own population.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "in-u2": {
+      "id": "in-u2",
+      "areaId": "b-intel",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**U-2 incident (1960)**\nThe USSR shot down an American spy plane and captured Gary Powers. The incident wrecked a summit and deepened distrust.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "in-cambridge": {
+      "id": "in-cambridge",
+      "areaId": "b-intel",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Cambridge Five**\nBritish intelligence officers who spied for the USSR: Philby, Burgess, Maclean, Blunt and Cairncross. Their betrayal damaged Western intelligence.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "in-rosenberg": {
+      "id": "in-rosenberg",
+      "areaId": "b-intel",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Rosenberg case (1953)**\nJulius and Ethel Rosenberg were executed for passing atomic secrets to the USSR. The case became a symbol of the Red Scare.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "in-hiss": {
+      "id": "in-hiss",
+      "areaId": "b-intel",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Alger Hiss**\nA US official accused of spying for the USSR. His trial and conviction intensified the Red Scare.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "in-fuchs": {
+      "id": "in-fuchs",
+      "areaId": "b-intel",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 418.0
+      },
+      "data": {
+        "text": "**Klaus Fuchs**\nA German-born physicist who passed nuclear secrets to the USSR. His confession helped expose other spies.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "in-sorge": {
+      "id": "in-sorge",
+      "areaId": "b-intel",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Richard Sorge**\nA Soviet spy in Tokyo before and during the war. He warned Stalin of the German invasion and Japanese plans.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "in-tunnel": {
+      "id": "in-tunnel",
+      "areaId": "b-intel",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Berlin tunnel (1955)**\nThe CIA and MI6 dug a tunnel to tap Soviet communications. The KGB knew about it from the start.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "in-radio": {
+      "id": "in-radio",
+      "areaId": "b-intel",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 529.5
+      },
+      "data": {
+        "text": "**Radio Free Europe and Radio Liberty**\nUS-funded broadcasters sent news and anti-communist propaganda to Eastern Europe and the USSR.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "in-coups": {
+      "id": "in-coups",
+      "areaId": "b-intel",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Covert coups**\nThe CIA helped overthrow governments in Iran (1953), Guatemala (1954) and Chile (1973). The legacy was long-lasting.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "in-assassination": {
+      "id": "in-assassination",
+      "areaId": "b-intel",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Assassination plots**\nThe CIA and KGB plotted assassinations and destabilization. Many operations remain secret or disputed.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "in-swaps": {
+      "id": "in-swaps",
+      "areaId": "b-intel",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 641.0
+      },
+      "data": {
+        "text": "**Spy swaps**\nCaptured agents were exchanged at Berlin's Glienicke Bridge and elsewhere. The exchanges became Cold War rituals.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "in-ames": {
+      "id": "in-ames",
+      "areaId": "b-intel",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 711.5
+      },
+      "data": {
+        "text": "**Aldrich Ames**\nA CIA officer who spied for the USSR and Russia. His betrayal led to the execution of several US agents.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "in-hanssen": {
+      "id": "in-hanssen",
+      "areaId": "b-intel",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 711.5
+      },
+      "data": {
+        "text": "**Robert Hanssen**\nAn FBI agent who spied for Moscow for decades. He was arrested in 2001.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "in-pollard": {
+      "id": "in-pollard",
+      "areaId": "b-intel",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 752.5
+      },
+      "data": {
+        "text": "**Jonathan Pollard**\nA US Navy analyst who spied for Israel. His case strained US-Israeli relations.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-space": {
+      "id": "b-space",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1042.5
+      },
+      "data": {
+        "label": "Space & technology",
+        "color": "green"
+      }
+    },
+    "b-space-desc": {
+      "id": "b-space-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1097.5
+      },
+      "data": {
+        "text": "Sputnik, Gagarin, Apollo, computers and the race for prestige.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-space-intro": {
+      "id": "b-space-intro",
+      "areaId": "b-space",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The race for the future**\nSpace and technology became measures of superpower strength. Sputnik shocked the US, Gagarin made the USSR proud, and Apollo 11 restored American prestige.",
+        "color": "green"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "sp-sputnik": {
+      "id": "sp-sputnik",
+      "areaId": "b-space",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Sputnik (1957)**\nThe USSR launched the first artificial satellite. The launch shocked the US and began the space race.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sp-gagarin": {
+      "id": "sp-gagarin",
+      "areaId": "b-space",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Yuri Gagarin (1961)**\nThe Soviet cosmonaut became the first human in space. His flight was a major propaganda victory.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sp-shepard": {
+      "id": "sp-shepard",
+      "areaId": "b-space",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Alan Shepard**\nThe first American in space, in 1961. The US was still behind the USSR in manned flight.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sp-kennedy": {
+      "id": "sp-kennedy",
+      "areaId": "b-space",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Kennedy's moon speech (1961)**\nKennedy promised to land an American on the moon before the end of the decade.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sp-apollo": {
+      "id": "sp-apollo",
+      "areaId": "b-space",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Apollo 11 (1969)**\nNeil Armstrong and Buzz Aldrin landed on the moon. The US won the race to the lunar surface.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sp-soyuz": {
+      "id": "sp-soyuz",
+      "areaId": "b-space",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Soyuz**\nThe Soviet space program continued with Soyuz spacecraft and long-duration missions.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sp-station": {
+      "id": "sp-station",
+      "areaId": "b-space",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Space stations**\nSalyut, Skylab and Mir kept humans in orbit for longer periods. Space became a laboratory and a symbol.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sp-icbm": {
+      "id": "sp-icbm",
+      "areaId": "b-space",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Missiles and rockets**\nSpace launchers and ICBMs shared technology. The race had direct military implications.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sp-computer": {
+      "id": "sp-computer",
+      "areaId": "b-space",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Computers**\nThe Cold War drove computing, cryptography, simulation and networking. ARPANET, begun in 1969, was an ancestor of the internet.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sp-science": {
+      "id": "sp-science",
+      "areaId": "b-space",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Science**\nPhysics, materials, medicine and mathematics received massive funding. Scientific competition was part of the ideological struggle.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sp-education": {
+      "id": "sp-education",
+      "areaId": "b-space",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Education**\nSputnik prompted US investment in science and mathematics education. Both sides promoted technical education.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sp-arms": {
+      "id": "sp-arms",
+      "areaId": "b-space",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Military technology**\nRadar, satellites, precision guidance and communications transformed warfare and surveillance.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "sp-legacy": {
+      "id": "sp-legacy",
+      "areaId": "b-space",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Legacy**\nSpace exploration, satellites and computing became part of everyday life. The race also left a legacy of military technology.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-culture": {
+      "id": "b-culture",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1161.5
+      },
+      "data": {
+        "label": "Culture & propaganda",
+        "color": "purple"
+      }
+    },
+    "b-culture-desc": {
+      "id": "b-culture-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1216.5
+      },
+      "data": {
+        "text": "McCarthyism, film, music, sport and the battle for hearts and minds.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-culture-intro": {
+      "id": "b-culture-intro",
+      "areaId": "b-culture",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The cultural Cold War**\nThe superpowers fought over ideas, art and prestige. Propaganda, censorship, sport and popular culture became instruments of influence.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "cu-mccarthy": {
+      "id": "cu-mccarthy",
+      "areaId": "b-culture",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**McCarthyism**\nSenator Joseph McCarthy claimed widespread communist infiltration. His hearings and accusations ruined careers and fueled the Red Scare.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cu-huac": {
+      "id": "cu-huac",
+      "areaId": "b-culture",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**HUAC**\nThe House Un-American Activities Committee investigated alleged communists in Hollywood and government.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cu-blacklist": {
+      "id": "cu-blacklist",
+      "areaId": "b-culture",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Hollywood blacklist**\nWriters, actors and directors accused of communist sympathies were barred from work. Some were imprisoned.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cu-redscare": {
+      "id": "cu-redscare",
+      "areaId": "b-culture",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Red Scare**\nFear of communism shaped US politics, education and culture. Loyalty oaths and surveillance became common.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cu-propaganda": {
+      "id": "cu-propaganda",
+      "areaId": "b-culture",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Propaganda**\nBoth sides used radio, film, posters and exhibitions to present their systems as the future.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cu-radio": {
+      "id": "cu-radio",
+      "areaId": "b-culture",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Radio**\nRadio Free Europe, Radio Moscow and Voice of America broadcast across borders.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cu-film": {
+      "id": "cu-film",
+      "areaId": "b-culture",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Film**\nHollywood and Soviet cinema portrayed enemies and heroes. Spy films and science fiction reflected Cold War anxieties.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cu-music": {
+      "id": "cu-music",
+      "areaId": "b-culture",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Music**\nJazz, rock and roll and classical music were used as cultural diplomacy. Soviet authorities worried about Western influence.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cu-sport": {
+      "id": "cu-sport",
+      "areaId": "b-culture",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Sport**\nOlympic medals and world records became proof of systemic superiority. Boycotts politicized the Games.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cu-olympics": {
+      "id": "cu-olympics",
+      "areaId": "b-culture",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**Olympic boycotts**\nThe US led a boycott of Moscow 1980; the USSR retaliated by boycotting Los Angeles 1984.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cu-chess": {
+      "id": "cu-chess",
+      "areaId": "b-culture",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**Chess**\nThe Fischer-Spassky match in 1972 became a Cold War symbol. Chess was a proxy for intelligence and discipline.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cu-literature": {
+      "id": "cu-literature",
+      "areaId": "b-culture",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Literature**\nOrwell's 'Animal Farm' and '1984' became anti-totalitarian classics. Soviet writers faced censorship and exile.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cu-religion": {
+      "id": "cu-religion",
+      "areaId": "b-culture",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 579.5
+      },
+      "data": {
+        "text": "**Religion**\nThe US presented itself as a defender of religious freedom. Soviet atheism was used as propaganda against the USSR.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cu-youth": {
+      "id": "cu-youth",
+      "areaId": "b-culture",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 579.5
+      },
+      "data": {
+        "text": "**Youth culture**\nRock music, jeans and consumer goods crossed the Iron Curtain. Youth rebellion challenged both consumerism and Soviet conformity.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cu-peace": {
+      "id": "cu-peace",
+      "areaId": "b-culture",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Peace movements**\nAnti-nuclear campaigns, such as CND and the Nuclear Freeze, mobilized millions in the West.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "cu-legacy": {
+      "id": "cu-legacy",
+      "areaId": "b-culture",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 691.0
+      },
+      "data": {
+        "text": "**Legacy**\nCold War culture shaped stereotypes, media and education. Its images and language still influence politics.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-home": {
+      "id": "b-home",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1182.0
+      },
+      "data": {
+        "label": "Home fronts & society",
+        "color": "orange"
+      }
+    },
+    "b-home-desc": {
+      "id": "b-home-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1237.0
+      },
+      "data": {
+        "text": "Consumerism, civil rights, surveillance and daily life.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-home-intro": {
+      "id": "b-home-intro",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Life under the shadow**\nThe Cold War shaped homes, schools, workplaces and family life. Western consumerism competed with Soviet scarcity, while both sides monitored dissent.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "ho-consumer": {
+      "id": "ho-consumer",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Consumerism**\nThe US promoted affluence as proof of capitalism's success. Suburbs, cars and appliances became symbols of the American way.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-suburbs": {
+      "id": "ho-suburbs",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Suburbs**\nLevittowns and suburban growth transformed American life. Segregation and gender roles shaped who could benefit.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-welfare": {
+      "id": "ho-welfare",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Welfare and education**\nThe GI Bill, public schools and social programs expanded opportunity. Education became a Cold War priority.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-civilrights": {
+      "id": "ho-civilrights",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Civil rights**\nThe US civil rights movement exposed racial injustice and damaged America's image abroad. The Cold War gave the struggle international significance.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-women": {
+      "id": "ho-women",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Women**\nWomen entered the workforce and higher education in growing numbers. The Cold War ideal of the suburban housewife coexisted with changing realities.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-surveillance": {
+      "id": "ho-surveillance",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Surveillance**\nBoth blocs monitored citizens. The Stasi, FBI and other agencies used informers, wiretaps and files.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-shortages": {
+      "id": "ho-shortages",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Eastern European shortages**\nConsumer goods, housing and food were scarce. Queues, rationing and black markets were common.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-emigration": {
+      "id": "ho-emigration",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Emigration**\nMillions fled Eastern Europe. Borders were closed, and escape attempts were dangerous.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-religion": {
+      "id": "ho-religion",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Religion in the East**\nChurches were repressed but survived. In Poland, the Catholic Church became a centre of opposition.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-dissent": {
+      "id": "ho-dissent",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Dissent**\nWriters, students and workers challenged both systems. Repression and co-optation followed.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-generation": {
+      "id": "ho-generation",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Generational conflict**\nYoung people questioned Cold War conformity. Protest movements grew in the 1960s and 1970s.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-housing": {
+      "id": "ho-housing",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Housing**\nWestern suburbs expanded; Soviet bloc housing was often cramped and prefabricated. Housing was a measure of system performance.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "ho-legacy": {
+      "id": "ho-legacy",
+      "areaId": "b-home",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Legacy**\nThe Cold War shaped consumer habits, education, civil rights and the modern security state.",
+        "color": "orange"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-alliances": {
+      "id": "b-alliances",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1182.0
+      },
+      "data": {
+        "label": "Alliances & institutions",
+        "color": "green"
+      }
+    },
+    "b-alliances-desc": {
+      "id": "b-alliances-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1237.0
+      },
+      "data": {
+        "text": "NATO, the Warsaw Pact, the UN, the Non-Aligned Movement and European integration.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-alliances-intro": {
+      "id": "b-alliances-intro",
+      "areaId": "b-alliances",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The architecture of the Cold War**\nMilitary alliances, economic blocs and international institutions organized the rivalry. Neutral and non-aligned states tried to chart a third path.",
+        "color": "green"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "al-nato": {
+      "id": "al-nato",
+      "areaId": "b-alliances",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**NATO**\nThe North Atlantic Treaty Organization was founded in 1949. It became the core of Western defense and later expanded.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "al-warsaw": {
+      "id": "al-warsaw",
+      "areaId": "b-alliances",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Warsaw Pact**\nThe Soviet-led military alliance was founded in 1955. It justified intervention in member states and collapsed in 1991.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "al-un": {
+      "id": "al-un",
+      "areaId": "b-alliances",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**United Nations**\nThe UN provided a forum for diplomacy and peacekeeping, but the Security Council veto limited its power.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "al-nonaligned": {
+      "id": "al-nonaligned",
+      "areaId": "b-alliances",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Non-Aligned Movement**\nFounded in 1961 by India, Yugoslavia, Egypt, Ghana and others. It sought independence from both blocs.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "al-seato": {
+      "id": "al-seato",
+      "areaId": "b-alliances",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**SEATO**\nThe Southeast Asia Treaty Organization was formed in 1954. It was weak and dissolved in 1977.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "al-cento": {
+      "id": "al-cento",
+      "areaId": "b-alliances",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**CENTO**\nThe Central Treaty Organization linked Britain, Turkey, Iran and Pakistan. It was dissolved in 1979.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "al-oas": {
+      "id": "al-oas",
+      "areaId": "b-alliances",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Organization of American States**\nThe OAS provided a regional framework for US influence in Latin America.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "al-anzus": {
+      "id": "al-anzus",
+      "areaId": "b-alliances",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**ANZUS**\nAustralia, New Zealand and the US signed a security treaty in 1951.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "al-rio": {
+      "id": "al-rio",
+      "areaId": "b-alliances",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Rio Pact**\nThe 1947 Inter-American Treaty of Reciprocal Assistance created a hemispheric defense alliance.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "al-oeec": {
+      "id": "al-oeec",
+      "areaId": "b-alliances",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**OEEC and OECD**\nThe OEEC coordinated Marshall Plan aid; the OECD later promoted Western economic cooperation.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "al-eu": {
+      "id": "al-eu",
+      "areaId": "b-alliances",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**European Communities**\nThe Coal and Steel Community (1951) and the EEC (1957) integrated Western Europe and anchored Germany in the West.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "al-comecon": {
+      "id": "al-comecon",
+      "areaId": "b-alliances",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Comecon**\nThe Soviet economic bloc coordinated trade and production in Eastern Europe.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "al-cominform": {
+      "id": "al-cominform",
+      "areaId": "b-alliances",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Cominform**\nThe Soviet political bloc coordinated communist parties until 1956.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "al-neutral": {
+      "id": "al-neutral",
+      "areaId": "b-alliances",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Neutral states**\nAustria, Finland, Sweden, Switzerland and others tried to stay outside the blocs.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-detente": {
+      "id": "b-detente",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1321.5
+      },
+      "data": {
+        "label": "Detente & crises",
+        "color": "cyan"
+      }
+    },
+    "b-detente-desc": {
+      "id": "b-detente-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1376.5
+      },
+      "data": {
+        "text": "Peaceful coexistence, summitry, SALT, Helsinki and the road to 1989.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-detente-intro": {
+      "id": "b-detente-intro",
+      "areaId": "b-detente",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**From confrontation to detente and back**\nThe superpowers oscillated between crisis and negotiation. Detente in the 1970s reduced tensions but did not end the rivalry.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "de-peaceful": {
+      "id": "de-peaceful",
+      "areaId": "b-detente",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Peaceful coexistence**\nKhrushchev argued that socialism could triumph without war. The doctrine reduced some tensions but did not end competition.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "de-geneva": {
+      "id": "de-geneva",
+      "areaId": "b-detente",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Geneva Summit (1955)**\nEisenhower, Bulganin and Eden met in a spirit of optimism. The 'Geneva spirit' did not last.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "de-campdavid": {
+      "id": "de-campdavid",
+      "areaId": "b-detente",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Camp David (1959)**\nKhrushchev visited the US and met Eisenhower. The talks raised hopes for detente.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "de-paris": {
+      "id": "de-paris",
+      "areaId": "b-detente",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Paris Summit (1960)**\nThe U-2 incident wrecked the summit before it began. Khrushchev walked out.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "de-vienna": {
+      "id": "de-vienna",
+      "areaId": "b-detente",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Vienna (1961)**\nKennedy and Khrushchev met and clashed over Berlin and ideology. The meeting hardened both sides.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "de-hotline": {
+      "id": "de-hotline",
+      "areaId": "b-detente",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Moscow-Washington hotline (1963)**\nA direct communications link was established after the Cuban crisis to reduce the risk of accidental war.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "de-testban": {
+      "id": "de-testban",
+      "areaId": "b-detente",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Test Ban Treaty (1963)**\nThe US, USSR and Britain banned atmospheric nuclear tests. It was a first step in arms control.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "de-nixon": {
+      "id": "de-nixon",
+      "areaId": "b-detente",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Nixon and detente**\nNixon and Kissinger pursued detente, linking arms control to geopolitical interests.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "de-china": {
+      "id": "de-china",
+      "areaId": "b-detente",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Nixon in China (1972)**\nThe US opened relations with China, exploiting the Sino-Soviet split and changing the global balance.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "de-salt": {
+      "id": "de-salt",
+      "areaId": "b-detente",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**SALT I and ABM Treaty (1972)**\nThe superpowers limited strategic weapons and missile defenses.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "de-helsinki": {
+      "id": "de-helsinki",
+      "areaId": "b-detente",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**Helsinki Accords (1975)**\nThe conference recognized borders and human rights. Dissidents used the human rights provisions.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "de-salt2": {
+      "id": "de-salt2",
+      "areaId": "b-detente",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**SALT II (1979)**\nA second arms treaty was signed but not ratified after Afghanistan.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "de-afghan": {
+      "id": "de-afghan",
+      "areaId": "b-detente",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 559.0
+      },
+      "data": {
+        "text": "**Afghanistan (1979)**\nThe Soviet invasion ended detente and revived confrontation.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "de-reagan": {
+      "id": "de-reagan",
+      "areaId": "b-detente",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 579.5
+      },
+      "data": {
+        "text": "**Reagan's first term**\nReagan denounced the 'evil empire' and expanded military spending. Tensions reached a new peak.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "de-able": {
+      "id": "de-able",
+      "areaId": "b-detente",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 579.5
+      },
+      "data": {
+        "text": "**Able Archer (1983)**\nA NATO exercise nearly triggered a Soviet war scare. The episode showed how dangerous the rivalry remained.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "de-gorbachev": {
+      "id": "de-gorbachev",
+      "areaId": "b-detente",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 650.0
+      },
+      "data": {
+        "text": "**Gorbachev's new thinking**\nGorbachev sought arms control, reduced tension and reform. His policies transformed the Cold War.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "de-inf": {
+      "id": "de-inf",
+      "areaId": "b-detente",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 691.0
+      },
+      "data": {
+        "text": "**INF Treaty (1987)**\nReagan and Gorbachev eliminated intermediate-range missiles. It was a landmark agreement.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "de-malta": {
+      "id": "de-malta",
+      "areaId": "b-detente",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 691.0
+      },
+      "data": {
+        "text": "**Malta Summit (1989)**\nBush and Gorbachev declared the Cold War over. The meeting symbolized the end of the rivalry.",
+        "color": "cyan"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-end": {
+      "id": "b-end",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1321.5
+      },
+      "data": {
+        "label": "End of the Cold War",
+        "color": "green"
+      }
+    },
+    "b-end-desc": {
+      "id": "b-end-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1376.5
+      },
+      "data": {
+        "text": "Gorbachev, 1989, the Berlin Wall and the Soviet collapse.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-end-intro": {
+      "id": "b-end-intro",
+      "areaId": "b-end",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The end**\nEconomic failure, reform, nationalism and popular protest destroyed the Soviet bloc. The Berlin Wall fell in 1989, and the USSR dissolved in 1991.",
+        "color": "green"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "en-gorbachev": {
+      "id": "en-gorbachev",
+      "areaId": "b-end",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Mikhail Gorbachev**\nSoviet leader from 1985. He pursued glasnost, perestroika and arms control, but lost control of the forces he unleashed.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "en-glasnost": {
+      "id": "en-glasnost",
+      "areaId": "b-end",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Glasnost**\nOpenness allowed criticism of the government, media and history. It undermined official legitimacy.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "en-perestroika": {
+      "id": "en-perestroika",
+      "areaId": "b-end",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Perestroika**\nEconomic restructuring tried to revive the Soviet economy. It produced shortages, inflation and chaos.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "en-chernobyl": {
+      "id": "en-chernobyl",
+      "areaId": "b-end",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Chernobyl (1986)**\nThe nuclear disaster exposed the system's failures and the lies of official media.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "en-revolutions": {
+      "id": "en-revolutions",
+      "areaId": "b-end",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Revolutions of 1989**\nPoland, Hungary, East Germany, Czechoslovakia, Bulgaria and Romania ended communist rule. The changes were mostly peaceful, except in Romania.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "en-wall": {
+      "id": "en-wall",
+      "areaId": "b-end",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Berlin Wall falls (9 November 1989)**\nEast Germany opened its borders, and crowds dismantled the wall. German reunification followed in 1990.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "en-malta": {
+      "id": "en-malta",
+      "areaId": "b-end",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Malta Summit (December 1989)**\nBush and Gorbachev declared the Cold War over and promised cooperation.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "en-germany": {
+      "id": "en-germany",
+      "areaId": "b-end",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**German reunification (3 October 1990)**\nEast Germany joined West Germany. A united Germany remained in NATO.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "en-warsaw": {
+      "id": "en-warsaw",
+      "areaId": "b-end",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Warsaw Pact dissolved (1991)**\nThe Soviet-led alliance collapsed as its members rejected communism and Soviet control.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "en-baltic": {
+      "id": "en-baltic",
+      "areaId": "b-end",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Baltic independence**\nLithuania, Latvia and Estonia declared independence. Moscow's attempts to suppress them failed.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "en-coup": {
+      "id": "en-coup",
+      "areaId": "b-end",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**August coup (1991)**\nHardliners tried to seize power and stop reform. The coup failed, and Boris Yeltsin emerged as a national leader.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "en-collapse": {
+      "id": "en-collapse",
+      "areaId": "b-end",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Soviet collapse (December 1991)**\nThe USSR dissolved into independent states. The Cold War ended with the victory of the Western bloc.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "en-cis": {
+      "id": "en-cis",
+      "areaId": "b-end",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Commonwealth of Independent States**\nMost former Soviet republics formed a loose association. Russia inherited the Soviet nuclear arsenal and UN seat.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "en-legacy": {
+      "id": "en-legacy",
+      "areaId": "b-end",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Legacy**\nThe end of the Cold War reshaped Europe, global politics and the nuclear order. Its consequences are still debated.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-people": {
+      "id": "b-people",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1342.0
+      },
+      "data": {
+        "label": "People",
+        "color": "purple"
+      }
+    },
+    "b-people-desc": {
+      "id": "b-people-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1397.0
+      },
+      "data": {
+        "text": "Leaders, diplomats, spies, scientists, activists and soldiers.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-people-intro": {
+      "id": "b-people-intro",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The people who made the Cold War**\nPresidents, premiers, generals, spies, scientists, dissidents and activists shaped the rivalry and its end.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "pe-us-head": {
+      "id": "pe-us-head",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 133.5
+      },
+      "data": {
+        "label": "American leaders",
+        "color": "purple"
+      }
+    },
+    "pe-truman": {
+      "id": "pe-truman",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Harry S. Truman**\nUS president 1945-53. He adopted containment, the Truman Doctrine and the Marshall Plan, and led the US into Korea.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-eisenhower": {
+      "id": "pe-eisenhower",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 133.5
+      },
+      "data": {
+        "text": "**Dwight D. Eisenhower**\nUS president 1953-61. He managed the Korean armistice, nuclear deterrence and covert interventions.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-kennedy": {
+      "id": "pe-kennedy",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 206.5
+      },
+      "data": {
+        "text": "**John F. Kennedy**\nUS president 1961-63. He faced the Berlin crisis, Bay of Pigs and Cuban Missile Crisis, and set the moon goal.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-johnson": {
+      "id": "pe-johnson",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Lyndon B. Johnson**\nUS president 1963-69. He escalated the Vietnam War and launched the Great Society.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-nixon": {
+      "id": "pe-nixon",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 245.0
+      },
+      "data": {
+        "text": "**Richard Nixon**\nUS president 1969-74. He opened relations with China, pursued detente and ended US combat in Vietnam.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-carter": {
+      "id": "pe-carter",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 318.0
+      },
+      "data": {
+        "text": "**Jimmy Carter**\nUS president 1977-81. He emphasized human rights and brokered Camp David, but faced the Iran hostage crisis and Afghanistan.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-reagan": {
+      "id": "pe-reagan",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**Ronald Reagan**\nUS president 1981-89. He confronted the 'evil empire', expanded defense spending and later negotiated with Gorbachev.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-bush": {
+      "id": "pe-bush",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 356.5
+      },
+      "data": {
+        "text": "**George H. W. Bush**\nUS president 1989-93. He managed the end of the Cold War, German reunification and the Gulf War.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-marshall": {
+      "id": "pe-marshall",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 429.5
+      },
+      "data": {
+        "text": "**George C. Marshall**\nUS general and secretary of state. He gave his name to the Marshall Plan.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-kennan": {
+      "id": "pe-kennan",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**George Kennan**\nUS diplomat who formulated containment. His Long Telegram shaped US strategy.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-dulles": {
+      "id": "pe-dulles",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 468.0
+      },
+      "data": {
+        "text": "**John Foster Dulles**\nUS secretary of state under Eisenhower. He advocated brinkmanship and massive retaliation.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-kissinger": {
+      "id": "pe-kissinger",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 541.0
+      },
+      "data": {
+        "text": "**Henry Kissinger**\nNational security adviser and secretary of state. He shaped detente, the China opening and Vietnam policy.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-macarthur": {
+      "id": "pe-macarthur",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 579.5
+      },
+      "data": {
+        "text": "**Douglas MacArthur**\nUN commander in Korea. He advocated expanding the war and was dismissed by Truman.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-soviet-head": {
+      "id": "pe-soviet-head",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 1160,
+        "y": 579.5
+      },
+      "data": {
+        "label": "Soviet leaders",
+        "color": "purple"
+      }
+    },
+    "pe-stalin": {
+      "id": "pe-stalin",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 652.5
+      },
+      "data": {
+        "text": "**Joseph Stalin**\nSoviet dictator 1924-53. He imposed control over Eastern Europe and intensified the Cold War.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-khrushchev": {
+      "id": "pe-khrushchev",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 652.5
+      },
+      "data": {
+        "text": "**Nikita Khrushchev**\nSoviet leader 1953-64. He pursued peaceful coexistence, de-Stalinization and risky confrontations over Berlin and Cuba.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-brezhnev": {
+      "id": "pe-brezhnev",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 691.0
+      },
+      "data": {
+        "text": "**Leonid Brezhnev**\nSoviet leader 1964-82. He presided over stagnation, detente and the invasion of Afghanistan.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-andropov": {
+      "id": "pe-andropov",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 764.0
+      },
+      "data": {
+        "text": "**Yuri Andropov**\nSoviet leader 1982-84. A former KGB chief, he sought reform but ruled briefly and harshly.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-chernenko": {
+      "id": "pe-chernenko",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 764.0
+      },
+      "data": {
+        "text": "**Konstantin Chernenko**\nSoviet leader 1984-85. A transitional figure who symbolized the old guard.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-gorbachev": {
+      "id": "pe-gorbachev",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 802.5
+      },
+      "data": {
+        "text": "**Mikhail Gorbachev**\nSoviet leader 1985-91. His reforms ended the Cold War and the USSR.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-gromyko": {
+      "id": "pe-gromyko",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 875.5
+      },
+      "data": {
+        "text": "**Andrei Gromyko**\nSoviet foreign minister for decades. He was a hard bargainer and symbol of continuity.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-molotov": {
+      "id": "pe-molotov",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 875.5
+      },
+      "data": {
+        "text": "**Vyacheslav Molotov**\nStalin's foreign minister. He negotiated the Nazi-Soviet Pact and postwar settlements.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-other-head": {
+      "id": "pe-other-head",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 580,
+        "y": 914.0
+      },
+      "data": {
+        "label": "Other leaders",
+        "color": "purple"
+      }
+    },
+    "pe-churchill": {
+      "id": "pe-churchill",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 987.0
+      },
+      "data": {
+        "text": "**Winston Churchill**\nBritish wartime prime minister. His Iron Curtain speech framed the Cold War.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-thatcher": {
+      "id": "pe-thatcher",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 987.0
+      },
+      "data": {
+        "text": "**Margaret Thatcher**\nBritish prime minister 1979-90. She shared Reagan's anti-communism and supported reform in the East.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-degaulle": {
+      "id": "pe-degaulle",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 987.0
+      },
+      "data": {
+        "text": "**Charles de Gaulle**\nFrench president. He pursued an independent foreign policy and withdrew France from NATO's integrated command.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-adenauer": {
+      "id": "pe-adenauer",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1098.5
+      },
+      "data": {
+        "text": "**Konrad Adenauer**\nWest German chancellor. He anchored Germany in the West and NATO.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-brandt": {
+      "id": "pe-brandt",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1098.5
+      },
+      "data": {
+        "text": "**Willy Brandt**\nWest German chancellor. His Ostpolitik improved relations with the East.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-mao": {
+      "id": "pe-mao",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1098.5
+      },
+      "data": {
+        "text": "**Mao Zedong**\nChinese leader. His victory in 1949 and later split with Moscow reshaped the Cold War in Asia.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-deng": {
+      "id": "pe-deng",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1210.0
+      },
+      "data": {
+        "text": "**Deng Xiaoping**\nChinese reform leader. He opened China to the West and market reforms after 1978.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-kim": {
+      "id": "pe-kim",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1210.0
+      },
+      "data": {
+        "text": "**Kim Il-sung**\nNorth Korean founder. He launched the Korean War and built a dynastic communist state.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-ho": {
+      "id": "pe-ho",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1210.0
+      },
+      "data": {
+        "text": "**Ho Chi Minh**\nVietnamese revolutionary leader. He led North Vietnam to victory.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-castro": {
+      "id": "pe-castro",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1321.5
+      },
+      "data": {
+        "text": "**Fidel Castro**\nCuban leader. He aligned Cuba with the USSR and became a symbol of revolution.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-nasser": {
+      "id": "pe-nasser",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1321.5
+      },
+      "data": {
+        "text": "**Gamal Abdel Nasser**\nEgyptian leader. He nationalized the Suez Canal and promoted Arab nationalism.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-sadat": {
+      "id": "pe-sadat",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1321.5
+      },
+      "data": {
+        "text": "**Anwar Sadat**\nEgyptian president. He made peace with Israel at Camp David and was assassinated.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-begin": {
+      "id": "pe-begin",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1433.0
+      },
+      "data": {
+        "text": "**Menachem Begin**\nIsraeli prime minister. He signed the Camp David Accords with Sadat.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-khomeini": {
+      "id": "pe-khomeini",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1433.0
+      },
+      "data": {
+        "text": "**Ayatollah Khomeini**\nIranian revolutionary leader. He overthrew the Shah and created an Islamic Republic.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-walesa": {
+      "id": "pe-walesa",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1433.0
+      },
+      "data": {
+        "text": "**Lech Walesa**\nPolish trade union leader and Solidarity founder. He helped end communist rule.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-havel": {
+      "id": "pe-havel",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1544.5
+      },
+      "data": {
+        "text": "**Vaclav Havel**\nCzech dissident and playwright. He became president after the Velvet Revolution.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-dubcek": {
+      "id": "pe-dubcek",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1544.5
+      },
+      "data": {
+        "text": "**Alexander Dubcek**\nCzechoslovak leader of the Prague Spring. His reforms were crushed in 1968.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-nagy": {
+      "id": "pe-nagy",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1544.5
+      },
+      "data": {
+        "text": "**Imre Nagy**\nHungarian reform leader. He was executed after the 1956 revolution.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-tito": {
+      "id": "pe-tito",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1656.0
+      },
+      "data": {
+        "text": "**Josip Broz Tito**\nYugoslav leader. He broke with Stalin and led the Non-Aligned Movement.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-jaruzelski": {
+      "id": "pe-jaruzelski",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1656.0
+      },
+      "data": {
+        "text": "**Wojciech Jaruzelski**\nPolish general. He imposed martial law in 1981.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-ceausescu": {
+      "id": "pe-ceausescu",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1656.0
+      },
+      "data": {
+        "text": "**Nicolae Ceausescu**\nRomanian dictator. His regime was overthrown and he was executed in 1989.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-science-head": {
+      "id": "pe-science-head",
+      "areaId": "b-people",
+      "kind": "topic",
+      "position": {
+        "x": 580,
+        "y": 1747.0
+      },
+      "data": {
+        "label": "Scientists, spies and activists",
+        "color": "purple"
+      }
+    },
+    "pe-oppenheimer": {
+      "id": "pe-oppenheimer",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1767.5
+      },
+      "data": {
+        "text": "**J. Robert Oppenheimer**\nScientific director of the Manhattan Project. He later opposed the hydrogen bomb.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-teller": {
+      "id": "pe-teller",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1767.5
+      },
+      "data": {
+        "text": "**Edward Teller**\nPhysicist and advocate of the hydrogen bomb. He influenced US nuclear policy.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-sakharov": {
+      "id": "pe-sakharov",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1820.0
+      },
+      "data": {
+        "text": "**Andrei Sakharov**\nSoviet physicist and human rights activist. He helped build the Soviet hydrogen bomb and later became a dissident.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-kurchatov": {
+      "id": "pe-kurchatov",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1879.0
+      },
+      "data": {
+        "text": "**Igor Kurchatov**\nSoviet physicist who led the atomic project.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-korolev": {
+      "id": "pe-korolev",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1879.0
+      },
+      "data": {
+        "text": "**Sergei Korolev**\nSoviet rocket engineer and chief designer of the space program.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-vonbraun": {
+      "id": "pe-vonbraun",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 1931.5
+      },
+      "data": {
+        "text": "**Wernher von Braun**\nGerman rocket engineer who led the US Saturn V program.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-gagarin": {
+      "id": "pe-gagarin",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1970.0
+      },
+      "data": {
+        "text": "**Yuri Gagarin**\nFirst human in space. He became a global symbol of Soviet achievement.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-armstrong": {
+      "id": "pe-armstrong",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 1970.0
+      },
+      "data": {
+        "text": "**Neil Armstrong**\nFirst human on the moon. Apollo 11 was a US Cold War victory.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-mccarthy": {
+      "id": "pe-mccarthy",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 2022.5
+      },
+      "data": {
+        "text": "**Joseph McCarthy**\nUS senator whose anti-communist accusations fueled the Red Scare.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-rosenberg": {
+      "id": "pe-rosenberg",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 2061.0
+      },
+      "data": {
+        "text": "**Julius and Ethel Rosenberg**\nExecuted for atomic espionage. Their case became a symbol of Cold War justice and fear.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-philby": {
+      "id": "pe-philby",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 2081.5
+      },
+      "data": {
+        "text": "**Kim Philby**\nBritish intelligence officer and Soviet spy. He was one of the Cambridge Five.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-powers": {
+      "id": "pe-powers",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 2134.0
+      },
+      "data": {
+        "text": "**Gary Powers**\nUS U-2 pilot shot down over the USSR in 1960.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-ames": {
+      "id": "pe-ames",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 2172.5
+      },
+      "data": {
+        "text": "**Aldrich Ames**\nCIA officer and Soviet spy. His betrayal was one of the worst in US intelligence history.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-russell": {
+      "id": "pe-russell",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 2193.0
+      },
+      "data": {
+        "text": "**Bertrand Russell**\nPhilosopher and anti-nuclear activist. He co-founded the Pugwash movement.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "pe-mlk": {
+      "id": "pe-mlk",
+      "areaId": "b-people",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 2225.0
+      },
+      "data": {
+        "text": "**Martin Luther King Jr.**\nCivil rights leader whose struggle exposed US racial injustice during the Cold War.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-concepts": {
+      "id": "b-concepts",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1461.0
+      },
+      "data": {
+        "label": "Key concepts",
+        "color": "yellow"
+      }
+    },
+    "b-concepts-desc": {
+      "id": "b-concepts-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1516.0
+      },
+      "data": {
+        "text": "Containment, MAD, detente, domino theory and other ideas.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-concepts-intro": {
+      "id": "b-concepts-intro",
+      "areaId": "b-concepts",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The ideas that framed the rivalry**\nCold War policy was shaped by concepts such as containment, deterrence, detente and national liberation. These ideas justified interventions and alliances.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "co-containment": {
+      "id": "co-containment",
+      "areaId": "b-concepts",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Containment**\nThe US strategy of preventing the spread of communism through alliances, aid, military force and covert action.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "co-domino": {
+      "id": "co-domino",
+      "areaId": "b-concepts",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Domino theory**\nThe belief that a communist victory in one country would cause neighboring countries to fall. It justified intervention in Vietnam.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "co-rollback": {
+      "id": "co-rollback",
+      "areaId": "b-concepts",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Rollback**\nThe attempt to reverse communist gains rather than merely contain them. It influenced US policy in Eastern Europe and the Third World.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "co-brink": {
+      "id": "co-brink",
+      "areaId": "b-concepts",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Brinkmanship**\nThe practice of pushing a crisis to the edge of war to force concessions. Dulles and Khrushchev both used it.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "co-mad": {
+      "id": "co-mad",
+      "areaId": "b-concepts",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**MAD**\nMutual assured destruction: the belief that nuclear retaliation would deter attack because both sides would be destroyed.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "co-detente": {
+      "id": "co-detente",
+      "areaId": "b-concepts",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**Detente**\nA relaxation of tensions through negotiation, arms control and summitry. It peaked in the 1970s.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "co-coexistence": {
+      "id": "co-coexistence",
+      "areaId": "b-concepts",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Peaceful coexistence**\nKhrushchev's doctrine that capitalism and socialism could compete without direct war.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "co-proxy": {
+      "id": "co-proxy",
+      "areaId": "b-concepts",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Proxy war**\nA conflict in which superpowers support local allies rather than fight each other directly.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "co-spheres": {
+      "id": "co-spheres",
+      "areaId": "b-concepts",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Spheres of influence**\nRegions where one superpower claimed dominant influence, such as Eastern Europe for the USSR and Latin America for the US.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "co-satellite": {
+      "id": "co-satellite",
+      "areaId": "b-concepts",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Satellite states**\nEastern European countries controlled by the USSR through communist parties, treaties and military force.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "co-iron": {
+      "id": "co-iron",
+      "areaId": "b-concepts",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Iron Curtain**\nThe political, military and ideological barrier dividing Europe.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "co-redscare": {
+      "id": "co-redscare",
+      "areaId": "b-concepts",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 509.0
+      },
+      "data": {
+        "text": "**Red Scare**\nFear of communist subversion and espionage in Western societies.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "co-massive": {
+      "id": "co-massive",
+      "areaId": "b-concepts",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Massive retaliation**\nEisenhower's strategy of threatening nuclear retaliation in response to aggression.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "co-flexible": {
+      "id": "co-flexible",
+      "areaId": "b-concepts",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 620.5
+      },
+      "data": {
+        "text": "**Flexible response**\nKennedy's strategy of preparing for conventional and nuclear war at different levels.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-cost": {
+      "id": "b-cost",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 0,
+        "y": 1481.5
+      },
+      "data": {
+        "label": "Human cost & atrocities",
+        "color": "purple"
+      }
+    },
+    "b-cost-desc": {
+      "id": "b-cost-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 1536.5
+      },
+      "data": {
+        "text": "Proxy wars, repression, refugees and nuclear danger.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-cost-intro": {
+      "id": "b-cost-intro",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**The price**\nThe Cold War killed millions through proxy wars, repression and famine. It also created a permanent risk of nuclear annihilation and left deep scars in many societies.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "hc-korea": {
+      "id": "hc-korea",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Korean War**\nMillions died, including a large share of civilians. The peninsula remained divided and militarized.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-vietnam": {
+      "id": "hc-vietnam",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Vietnam War**\nMillions of Vietnamese, Laotians and Cambodians died. The US lost over 58,000 soldiers.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-cambodia": {
+      "id": "hc-cambodia",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Cambodian genocide**\nThe Khmer Rouge killed an estimated 1.5-2 million people between 1975 and 1979.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-afghan": {
+      "id": "hc-afghan",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Soviet-Afghan War**\nHundreds of thousands died, and millions became refugees. The war contributed to the Soviet collapse.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-proxy": {
+      "id": "hc-proxy",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Proxy wars**\nAngola, Mozambique, Ethiopia, Nicaragua and El Salvador suffered long wars with external backing.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-repression": {
+      "id": "hc-repression",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Political repression**\nBoth blocs imprisoned, surveilled and persecuted dissidents. The Gulag and political prisons outlasted Stalin.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-refugees": {
+      "id": "hc-refugees",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Refugees**\nMillions fled war, repression and poverty. Refugee camps became permanent features of the Cold War.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-nuclear": {
+      "id": "hc-nuclear",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Nuclear danger**\nAccidents, false alarms and crises repeatedly brought the world close to nuclear war.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-testing": {
+      "id": "hc-testing",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Nuclear testing**\nTest sites exposed local populations and workers to radiation. The damage was often concealed.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-chernobyl": {
+      "id": "hc-chernobyl",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Chernobyl**\nThe disaster killed emergency workers, displaced communities and contaminated farmland.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-dissent": {
+      "id": "hc-dissent",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Dissidents**\nWriters, scientists, religious believers and activists were imprisoned, exiled or killed for opposing the regimes.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-thirdworld": {
+      "id": "hc-thirdworld",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 488.5
+      },
+      "data": {
+        "text": "**Third World**\nDeveloping countries often paid the highest price for superpower rivalry through war, debt and instability.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "hc-memory": {
+      "id": "hc-memory",
+      "areaId": "b-cost",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 600.0
+      },
+      "data": {
+        "text": "**Memory**\nVictims and their families continue to seek recognition and justice. Many Cold War crimes remain contested.",
+        "color": "purple"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-after": {
+      "id": "b-after",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 1240,
+        "y": 1481.5
+      },
+      "data": {
+        "label": "Aftermath & legacy",
+        "color": "green"
+      }
+    },
+    "b-after-desc": {
+      "id": "b-after-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 1240,
+        "y": 1536.5
+      },
+      "data": {
+        "text": "The post-Cold War order, NATO expansion and memory.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-after-intro": {
+      "id": "b-after-intro",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**After 1991**\nThe Cold War ended with the Soviet collapse and Western triumphalism. The legacy shaped globalization, NATO expansion, nuclear policy and new rivalries.",
+        "color": "green"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "at-neworder": {
+      "id": "at-neworder",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**New world order**\nThe US became the sole superpower. Globalization, democracy promotion and market reform spread in the 1990s.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "at-russia": {
+      "id": "at-russia",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**Russia**\nRussia inherited the Soviet nuclear arsenal and UN seat but lost empire and superpower status. Economic collapse and humiliation shaped politics.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "at-nato": {
+      "id": "at-nato",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 154.0
+      },
+      "data": {
+        "text": "**NATO expansion**\nNATO admitted former Warsaw Pact states, including Poland, Hungary and the Czech Republic, and later the Baltics.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "at-eu": {
+      "id": "at-eu",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**EU expansion**\nFormer communist states joined the European Union, transforming Europe's political map.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "at-nuclear": {
+      "id": "at-nuclear",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**Nuclear legacy**\nArms reductions followed, but nuclear weapons and materials remained a global risk.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "at-china": {
+      "id": "at-china",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**China**\nChina remained communist but integrated into the global economy, becoming a major power.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "at-memory": {
+      "id": "at-memory",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**Memory**\nMuseums, films and memorials preserve Cold War history. Debates over responsibility and victims continue.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "at-new": {
+      "id": "at-new",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 377.0
+      },
+      "data": {
+        "text": "**New tensions**\nRussia's assertiveness, NATO expansion and great-power rivalry revived Cold War language in the twenty-first century.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "at-legacy": {
+      "id": "at-legacy",
+      "areaId": "b-after",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 397.5
+      },
+      "data": {
+        "text": "**Legacy**\nThe Cold War shaped institutions, borders, technology and political culture. Its end was not the end of history.",
+        "color": "green"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-timeline": {
+      "id": "b-timeline",
+      "areaId": "root",
+      "kind": "topic",
+      "position": {
+        "x": 620,
+        "y": 1600.5
+      },
+      "data": {
+        "label": "Timeline 1945-1991",
+        "color": "yellow"
+      }
+    },
+    "b-timeline-desc": {
+      "id": "b-timeline-desc",
+      "areaId": "root",
+      "kind": "text",
+      "position": {
+        "x": 620,
+        "y": 1655.5
+      },
+      "data": {
+        "text": "The Cold War decade by decade.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "b-timeline-intro": {
+      "id": "b-timeline-intro",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "text": "**Chronology**\nA fast spine through the Cold War's main crises and turning points.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 520
+      }
+    },
+    "tl-1945": {
+      "id": "tl-1945",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 113.0
+      },
+      "data": {
+        "text": "**1945-1949**\n- **1945** Yalta, Potsdam, Hiroshima, Nagasaki, UN.\n- **1946** Iron Curtain speech; Long Telegram.\n- **1947** Truman Doctrine; Marshall Plan; Cominform.\n- **1948** Berlin Blockade; Czechoslovak coup.\n- **1949** NATO; Comecon; Soviet bomb; PRC.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1950": {
+      "id": "tl-1950",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 113.0
+      },
+      "data": {
+        "text": "**1950-1955**\n- **1950** Korean War begins; McCarthyism.\n- **1953** Stalin dies; Korean armistice; East Berlin uprising.\n- **1954** Dien Bien Phu; Geneva; SEATO.\n- **1955** Warsaw Pact; Austrian State Treaty; Bandung.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1956": {
+      "id": "tl-1956",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 113.0
+      },
+      "data": {
+        "text": "**1956-1960**\n- **1956** Khrushchev's secret speech; Hungarian Revolution; Suez Crisis.\n- **1957** Sputnik.\n- **1959** Castro takes power; Camp David.\n- **1960** U-2 incident; Congo crisis.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1961": {
+      "id": "tl-1961",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 265.5
+      },
+      "data": {
+        "text": "**1961-1965**\n- **1961** Bay of Pigs; Berlin Wall; Gagarin.\n- **1962** Cuban Missile Crisis; Sino-Indian War.\n- **1963** Test Ban Treaty; Kennedy assassinated.\n- **1964** Gulf of Tonkin; China's atomic test.\n- **1965** US escalation in Vietnam.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1968": {
+      "id": "tl-1968",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 0,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**1968-1975**\n- **1968** Tet Offensive; Prague Spring; Nixon elected.\n- **1969** Moon landing; Sino-Soviet border clash.\n- **1972** Nixon in China; SALT I.\n- **1973** Paris Accords; Chile coup.\n- **1975** Fall of Saigon; Helsinki Accords.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1979": {
+      "id": "tl-1979",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 1160,
+        "y": 286.0
+      },
+      "data": {
+        "text": "**1979-1985**\n- **1979** Iranian Revolution; Soviet invasion of Afghanistan; SALT II.\n- **1980** Solidarity; Olympic boycott; Iran-Iraq War.\n- **1981** Reagan; martial law in Poland.\n- **1983** SDI; KAL 007; Able Archer.\n- **1985** Gorbachev becomes leader.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    },
+    "tl-1989": {
+      "id": "tl-1989",
+      "areaId": "b-timeline",
+      "kind": "text",
+      "position": {
+        "x": 580,
+        "y": 438.5
+      },
+      "data": {
+        "text": "**1986-1991**\n- **1986** Chernobyl; Reykjavik summit.\n- **1987** INF Treaty.\n- **1989** Revolutions; Berlin Wall falls; Malta Summit.\n- **1990** German reunification; Gulf War.\n- **1991** August coup; USSR dissolved; Cold War ends.",
+        "color": "yellow"
+      },
+      "size": {
+        "width": 470
+      }
+    }
+  },
+  "edges": {},
+  "viewports": {}
+}
